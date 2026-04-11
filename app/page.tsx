@@ -1,6 +1,3 @@
-import fs from "fs";
-import path from "path";
-
 type ReportSection = {
   name: string;
   content: string;
@@ -16,119 +13,88 @@ type ReportData = {
   disclaimer?: string;
 };
 
-function readReportData(): ReportData | null {
+async function getLiveReport(): Promise<ReportData | null> {
   try {
-    const filePath = path.join(process.cwd(), "public", "latest_report.json");
-    const raw = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(raw);
-  } catch (error) {
-    console.error("Failed to read latest_report.json:", error);
+    const baseUrl =
+      process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
+    const res = await fetch(`${baseUrl}/api/report`, {
+      cache: "no-store",
+    });
+
+    if (!res.ok) {
+      console.error("API response not OK:", res.status);
+      return null;
+    }
+
+    return await res.json();
+  } catch (err) {
+    console.error("Live fetch failed:", err);
     return null;
   }
 }
 
-function formatContent(content: string) {
-  return content.split("\n").map((line, index) => {
-    const trimmed = line.trim();
+export default async function Page() {
+  const data = await getLiveReport();
 
-    if (!trimmed) {
-      return <div key={index} className="h-4" />;
-    }
-
-    const isSubhead = [
-      "SNAPSHOT",
-      "FINAL SCORES",
-      "LIVE",
-      "LIVE GAMES",
-      "UPCOMING",
-      "KEY STORYLINES",
-      "HEADLINE",
-    ].includes(trimmed);
-
-    if (isSubhead) {
-      return (
-        <h4 key={index} className="mt-4 mb-2 text-base font-bold tracking-wide">
-          {trimmed}
-        </h4>
-      );
-    }
-
+  if (!data) {
     return (
-      <p key={index} className="mb-2 leading-7">
-        {trimmed}
-      </p>
-    );
-  });
-}
-
-export default function Home() {
-  const report = readReportData();
-
-  if (!report) {
-    return (
-      <main className="min-h-screen bg-white text-black p-8">
-        <h1 className="text-3xl font-bold mb-4">Global Sports Report</h1>
-        <p>Latest report data is unavailable.</p>
+      <main style={{ padding: "20px", fontFamily: "Arial" }}>
+        <h1>Global Sports Report</h1>
+        <p>Could not load the latest report.</p>
       </main>
     );
   }
 
   return (
-    <main className="min-h-screen bg-white text-black">
-      <div className="max-w-5xl mx-auto px-6 py-10">
-        <h1 className="text-4xl font-bold mb-3">
-          {report.title || "Global Sports Report"}
-        </h1>
+    <main style={{ padding: "20px", fontFamily: "Arial" }}>
+      <h1>{data.title}</h1>
 
-        {report.updated_at && (
-          <p className="text-sm mb-6 text-gray-600">
-            Updated: {report.updated_at}
-          </p>
-        )}
+      {data.updated_at && (
+        <p>
+          <strong>Updated:</strong> {data.updated_at}
+        </p>
+      )}
 
-        {report.headline && (
-          <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-3">Headline</h2>
-            <p className="text-lg leading-8">{report.headline}</p>
-          </section>
-        )}
+      {data.headline && (
+        <>
+          <h2>Headline</h2>
+          <p>{data.headline}</p>
+        </>
+      )}
 
-        {report.key_storylines && report.key_storylines.length > 0 && (
-          <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-3">Key Storylines</h2>
-            <ul className="space-y-2">
-              {report.key_storylines.map((item, idx) => (
-                <li key={idx} className="leading-7">
-                  • {item}
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {report.sections && report.sections.length > 0 ? (
-          <div className="space-y-10">
-            {report.sections.map((section, idx) => (
-              <section key={idx} className="border-t pt-6">
-                <h2 className="text-2xl font-bold mb-4">{section.name}</h2>
-                <div>{formatContent(section.content)}</div>
-              </section>
+      {data.key_storylines && data.key_storylines.length > 0 && (
+        <>
+          <h2>Key Storylines</h2>
+          <ul>
+            {data.key_storylines.map((item, idx) => (
+              <li key={idx}>{item}</li>
             ))}
-          </div>
-        ) : (
-          report.full_report && (
-            <section className="border-t pt-6">
-              <div>{formatContent(report.full_report)}</div>
-            </section>
-          )
-        )}
+          </ul>
+        </>
+      )}
 
-        {report.disclaimer && (
-          <footer className="border-t mt-10 pt-6 text-sm text-gray-600">
-            {report.disclaimer}
-          </footer>
-        )}
-      </div>
+      {data.sections &&
+        data.sections.map((section) => (
+          <section key={section.name} style={{ marginTop: "30px" }}>
+            <h2>{section.name}</h2>
+            <pre
+              style={{
+                whiteSpace: "pre-wrap",
+                fontFamily: "Arial",
+                lineHeight: "1.5",
+              }}
+            >
+              {section.content}
+            </pre>
+          </section>
+        ))}
+
+      {data.disclaimer && (
+        <p style={{ marginTop: "40px", fontSize: "12px", color: "gray" }}>
+          {data.disclaimer}
+        </p>
+      )}
     </main>
   );
 }
