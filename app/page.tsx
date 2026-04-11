@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 type ReportSection = {
   name: string;
   content: string;
