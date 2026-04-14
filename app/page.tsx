@@ -1,9 +1,30 @@
 import fs from "fs";
 import path from "path";
 
+type AdvancedReportSections = {
+  statcast_watch?: string[];
+  matchup_flags?: string[];
+  pitcher_signals?: string[];
+  hitter_signals?: string[];
+  bullpen_signals?: string[];
+  team_trends?: string[];
+  betting_signals?: string[];
+  editors_note?: string[];
+  editor_s_note?: string[];
+  [key: string]: string[] | undefined;
+};
+
+type AdvancedReport = {
+  title?: string;
+  source_file?: string;
+  updated_at?: string;
+  sections?: AdvancedReportSections;
+};
+
 type ReportSection = {
   name: string;
   content: string;
+  advanced?: AdvancedReport;
 };
 
 type ReportData = {
@@ -69,6 +90,78 @@ function sectionTone(name: string): string {
   }
 }
 
+function advancedTone(name: string): string {
+  switch (name.toUpperCase()) {
+    case "MLB":
+      return "border-indigo-200 bg-indigo-50";
+    case "NBA":
+      return "border-amber-200 bg-amber-50";
+    case "NHL":
+      return "border-cyan-200 bg-cyan-50";
+    case "NFL":
+      return "border-teal-200 bg-teal-50";
+    default:
+      return "border-slate-200 bg-slate-50";
+  }
+}
+
+function formatAdvancedHeading(key: string): string {
+  const normalized = key
+    .replace(/_/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+
+  return normalized;
+}
+
+function getAdvancedSectionEntries(
+  advanced?: AdvancedReport
+): Array<[string, string[]]> {
+  if (!advanced?.sections || typeof advanced.sections !== "object") {
+    return [];
+  }
+
+  const orderedKeys = [
+    "statcast_watch",
+    "matchup_flags",
+    "pitcher_signals",
+    "hitter_signals",
+    "bullpen_signals",
+    "team_trends",
+    "betting_signals",
+    "editors_note",
+    "editor_s_note",
+  ];
+
+  const usedKeys = new Set<string>();
+  const entries: Array<[string, string[]]> = [];
+
+  for (const key of orderedKeys) {
+    const value = advanced.sections[key];
+    if (Array.isArray(value) && value.length > 0) {
+      entries.push([key, value]);
+      usedKeys.add(key);
+    }
+  }
+
+  for (const [key, value] of Object.entries(advanced.sections)) {
+    if (usedKeys.has(key)) {
+      continue;
+    }
+
+    if (Array.isArray(value) && value.length > 0) {
+      entries.push([key, value]);
+    }
+  }
+
+  return entries;
+}
+
+function hasAdvancedContent(advanced?: AdvancedReport): boolean {
+  return getAdvancedSectionEntries(advanced).length > 0;
+}
+
 export default function HomePage() {
   const report = readReportData();
 
@@ -100,6 +193,11 @@ export default function HomePage() {
     updated_at,
     disclaimer,
   } = report;
+
+  const sectionCount = sections?.length ?? 0;
+  const advancedSectionCount =
+    sections?.filter((section) => hasAdvancedContent(section.advanced)).length ??
+    0;
 
   return (
     <main className="min-h-screen bg-slate-100 text-slate-900">
@@ -168,6 +266,9 @@ export default function HomePage() {
             {sections && sections.length > 0 ? (
               sections.map((section) => {
                 const lines = formatSectionContent(section.content);
+                const advancedEntries = getAdvancedSectionEntries(
+                  section.advanced
+                );
 
                 return (
                   <article
@@ -214,6 +315,61 @@ export default function HomePage() {
                         );
                       })}
                     </div>
+
+                    {advancedEntries.length > 0 ? (
+                      <section
+                        className={`mt-6 rounded-3xl border p-5 shadow-sm ${advancedTone(
+                          section.name
+                        )}`}
+                      >
+                        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                          <div>
+                            <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
+                              Advanced Metrics
+                            </div>
+                            <h3 className="mt-2 text-xl font-black tracking-tight text-slate-900">
+                              {section.advanced?.title || `${section.name} ADVANCED REPORT`}
+                            </h3>
+                          </div>
+
+                          <div className="rounded-2xl border border-slate-300 bg-white px-3 py-2 text-xs text-slate-600">
+                            <div className="font-bold uppercase tracking-[0.18em] text-slate-500">
+                              Updated
+                            </div>
+                            <div className="mt-1 font-semibold text-slate-900">
+                              {section.advanced?.updated_at || updated_at || "Unavailable"}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="mt-5 grid gap-4">
+                          {advancedEntries.map(([key, items]) => (
+                            <div
+                              key={`${section.name}-${key}`}
+                              className="rounded-2xl border border-slate-200 bg-white p-4"
+                            >
+                              <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
+                                {formatAdvancedHeading(key)}
+                              </div>
+
+                              <div className="mt-3 space-y-3">
+                                {items.map((item, index) => (
+                                  <div
+                                    key={`${section.name}-${key}-${index}`}
+                                    className="text-sm leading-7 text-slate-800"
+                                  >
+                                    <span className="mr-2 font-bold text-slate-500">
+                                      -
+                                    </span>
+                                    {item}
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    ) : null}
                   </article>
                 );
               })
@@ -240,7 +396,16 @@ export default function HomePage() {
                     Sections loaded
                   </div>
                   <div className="mt-2 text-2xl font-black text-slate-900">
-                    {sections?.length ?? 0}
+                    {sectionCount}
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
+                    Advanced sections
+                  </div>
+                  <div className="mt-2 text-2xl font-black text-slate-900">
+                    {advancedSectionCount}
                   </div>
                 </div>
 
@@ -261,7 +426,7 @@ export default function HomePage() {
               </h2>
 
               {full_report ? (
-                <pre className="mt-4 max-h-[900px] overflow-auto rounded-2xl border border-slate-200 bg-slate-950 p-4 text-xs leading-6 text-slate-100 whitespace-pre-wrap">
+                <pre className="mt-4 max-h-[900px] overflow-auto whitespace-pre-wrap rounded-2xl border border-slate-200 bg-slate-950 p-4 text-xs leading-6 text-slate-100">
                   {full_report}
                 </pre>
               ) : (
