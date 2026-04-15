@@ -407,7 +407,7 @@ function inferStorylineLabel(item: string, index: number): string {
     return "Analytics Update";
   }
 
-  return `Top Update ${index + 1}`;
+  return "General Update";
 }
 
 export default function HomePage() {
