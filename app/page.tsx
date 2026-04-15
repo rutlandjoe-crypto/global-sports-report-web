@@ -510,6 +510,27 @@ export default function HomePage() {
                   replace, human sports journalism.
                 </p>
               </section>
+
+              <section className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                <h2 className="text-sm font-bold uppercase tracking-[0.28em] text-slate-600">
+                  Get The Daily Report
+                </h2>
+
+                <p className="mt-3 text-base text-slate-800">
+                  Subscribe to receive the Global Sports Report each morning.
+                </p>
+
+                <div className="mt-4">
+                  <a
+                    href="https://globalsportsreport.substack.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block rounded-xl bg-orange-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-orange-700"
+                  >
+                    Subscribe on Substack →
+                  </a>
+                </div>
+              </section>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-700">
@@ -553,7 +574,7 @@ export default function HomePage() {
           ) : null}
         </header>
 
-        <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+        <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr] items-start">
           <section className="space-y-5">
             {sortedSections.length > 0 ? (
               sortedSections.map((section) => {
@@ -694,7 +715,7 @@ export default function HomePage() {
             )}
           </section>
 
-          <aside className="space-y-5">
+          <aside className="space-y-5 xl:sticky xl:top-6 h-fit">
             <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
               <h2 className="text-xl font-black tracking-tight">
                 Report Status
@@ -726,6 +747,27 @@ export default function HomePage() {
                     {published_at || "Unavailable"}
                   </div>
                 </div>
+              </div>
+            </section>
+
+            <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+              <h2 className="text-xl font-black tracking-tight">
+                Live on X
+              </h2>
+
+              <p className="mt-2 text-sm text-slate-600">
+                Follow the latest automated thread from @GlobalSportsRP.
+              </p>
+
+              <div className="mt-4">
+                <a
+                  href="https://twitter.com/GlobalSportsRP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
+                >
+                  View Latest Thread →
+                </a>
               </div>
             </section>
 
