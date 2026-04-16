@@ -55,7 +55,7 @@ jobs:
           else
             pip install requests python-dotenv tweepy
           fi
-      
+
       - name: Run full GSR pipeline
         run: |
           if [ -f master_runner.py ]; then
