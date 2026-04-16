@@ -19,9 +19,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
+    env:
+      PYTHONUNBUFFERED: "1"
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+      TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      GITHUB_ACTIONS: "true"
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,20 +47,45 @@ jobs:
           ls -la
           find . -maxdepth 3 -type f | sort
 
-      - name: Verify latest_report.json exists
+      - name: Install dependencies
         run: |
-          if [ ! -f public/latest_report.json ]; then
-            echo "public/latest_report.json not found"
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "requirements.txt not found"
             exit 1
           fi
-          echo "Found public/latest_report.json"
+
+      - name: Run full GSR pipeline
+        run: |
+          if [ -f master_runner.py ]; then
+            python master_runner.py
+          else
+            echo "master_runner.py not found"
+            exit 1
+          fi
+
+      - name: Verify refreshed site files exist
+        run: |
+          if [ ! -f public/latest_report.json ]; then
+            echo "public/latest_report.json not found after pipeline run"
+            exit 1
+          fi
+          echo "Found refreshed public/latest_report.json"
+          ls -l public/latest_report.json
+          head -40 public/latest_report.json
 
       - name: Commit refreshed files if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/latest_report.json
-          git diff --cached --quiet || git commit -m "Auto update GSR site"
+          git add public/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update GSR site"
+          fi
 
       - name: Push changes
         run: |
