@@ -77,16 +77,25 @@ jobs:
           head -40 public/latest_report.json
 
       - name: Commit refreshed files if changed
+        id: commit_changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/
           if git diff --cached --quiet; then
             echo "No changes to commit"
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Auto update GSR site"
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Push changes
+      - name: Pull latest remote changes
+        if: steps.commit_changes.outputs.changes_detected == 'true'
         run: |
-          git push
+          git pull --rebase origin master
+
+      - name: Push changes
+        if: steps.commit_changes.outputs.changes_detected == 'true'
+        run: |
+          git push origin master
