@@ -1,4 +1,5 @@
 export const dynamic = "force-dynamic";
+
 import fs from "fs";
 import path from "path";
 
@@ -54,15 +55,83 @@ type ReportData = {
   disclaimer?: string;
 };
 
+type RawSectionValue = {
+  title?: string;
+  headline?: string;
+  snapshot?: string;
+  key_storylines?: string[];
+  content?: string;
+  source_file?: string;
+  advanced?: AdvancedReport;
+};
+
+type RawReportData = {
+  title?: string;
+  headline?: string;
+  key_storylines?: string[];
+  snapshot?: string;
+  sections?: Record<string, RawSectionValue> | ReportSection[];
+  full_text?: string;
+  generated_at?: string;
+  updated_at?: string;
+  published_at?: string;
+  disclaimer?: string;
+};
+
+function formatSectionDisplayName(key: string): string {
+  const upper = key.trim().toUpperCase();
+
+  switch (upper) {
+    case "BETTING_ODDS":
+      return "BETTING";
+    case "NFL_DRAFT":
+      return "NFL DRAFT SIGNALS";
+    default:
+      return upper.replace(/_/g, " ");
+  }
+}
+
+function normalizeSections(
+  input: RawReportData["sections"]
+): ReportSection[] {
+  if (Array.isArray(input)) {
+    return input.map((section) => ({
+      name: formatSectionDisplayName(section.name || "SECTION"),
+      title: section.title || "",
+      headline: section.headline || "",
+      snapshot: section.snapshot || "",
+      key_storylines: Array.isArray(section.key_storylines)
+        ? section.key_storylines
+        : [],
+      content: section.content || "",
+      source_file: section.source_file || "",
+      advanced: section.advanced,
+    }));
+  }
+
+  if (!input || typeof input !== "object") {
+    return [];
+  }
+
+  return Object.entries(input).map(([key, value]) => ({
+    name: formatSectionDisplayName(key),
+    title: value?.title || "",
+    headline: value?.headline || "",
+    snapshot: value?.snapshot || "",
+    key_storylines: Array.isArray(value?.key_storylines)
+      ? value.key_storylines
+      : [],
+    content: value?.content || "",
+    source_file: value?.source_file || "",
+    advanced: value?.advanced,
+  }));
+}
+
 function readReportData(): ReportData | null {
   try {
     const filePath = path.join(process.cwd(), "public", "latest_report.json");
     const raw = fs.readFileSync(filePath, "utf-8");
-    const parsed = JSON.parse(raw) as ReportData;
-
-<p className="text-sm font-semibold text-slate-600">
-  Automated editorial intelligence for modern sports newsrooms.
-</p>
+    const parsed = JSON.parse(raw) as RawReportData;
 
     return {
       title: parsed.title || "GLOBAL SPORTS REPORT",
@@ -71,7 +140,7 @@ function readReportData(): ReportData | null {
         ? parsed.key_storylines
         : [],
       snapshot: parsed.snapshot || "",
-      sections: Array.isArray(parsed.sections) ? parsed.sections : [],
+      sections: normalizeSections(parsed.sections),
       full_text: parsed.full_text || "",
       generated_at: parsed.generated_at || "",
       updated_at: parsed.updated_at || parsed.generated_at || "",
@@ -112,6 +181,7 @@ function sectionTone(name: string): string {
     case "FANTASY":
       return "border-violet-200 bg-violet-50";
     case "BETTING":
+    case "BETTING ODDS":
       return "border-rose-200 bg-rose-50";
     default:
       return "border-slate-200 bg-white";
@@ -224,8 +294,11 @@ function formatSectionContent(content: string): string[] {
 function renderBodyLine(line: string, key: string) {
   const isLabel =
     line === "FINAL SCORES" ||
+    line === "FINAL SCORES (PREVIOUS DAY)" ||
     line === "LIVE" ||
+    line === "LIVE (LATE WINDOW)" ||
     line === "UPCOMING" ||
+    line === "UPCOMING (TODAY)" ||
     line === "TOP BOARD" ||
     line === "GLOBAL SNAPSHOT" ||
     line === "FALLBACK NOTE" ||
@@ -238,7 +311,9 @@ function renderBodyLine(line: string, key: string) {
     line === "KEY DATA POINTS" ||
     line === "DRAFT SIGNALS" ||
     line === "WATCH LIST" ||
-    line === "REPORT NOTE";
+    line === "REPORT NOTE" ||
+    line === "BOARD CONTEXT" ||
+    line === "STATCAST WATCH";
 
   if (isLabel) {
     return (
@@ -282,6 +357,7 @@ function sectionBadge(name: string): string {
     case "FANTASY":
       return "Cross-League";
     case "BETTING":
+    case "BETTING ODDS":
       return "Market Watch";
     default:
       return "Section";
@@ -306,13 +382,14 @@ function sectionSortValue(name: string): number {
     case "FANTASY":
       return 7;
     case "BETTING":
+    case "BETTING ODDS":
       return 8;
     default:
       return 99;
   }
 }
 
-function inferStorylineLabel(item: string, index: number): string {
+function inferStorylineLabel(item: string): string {
   const text = item.toLowerCase();
 
   const isAnalytics =
@@ -470,6 +547,10 @@ export default function HomePage() {
                 {title}
               </h1>
 
+              <p className="mt-3 text-sm font-semibold text-slate-600">
+                Automated editorial intelligence for modern sports newsrooms.
+              </p>
+
               {headline ? (
                 <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-700">
                   {headline}
@@ -538,7 +619,9 @@ export default function HomePage() {
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-700">
-              <div className="font-semibold text-slate-900">Report published</div>
+              <div className="font-semibold text-slate-900">
+                Report published
+              </div>
               <div className="mt-1">{published_at || "Unavailable"}</div>
             </div>
           </div>
@@ -555,7 +638,7 @@ export default function HomePage() {
                     className="rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-sm"
                   >
                     <div className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">
-                      {inferStorylineLabel(item, index)}
+                      {inferStorylineLabel(item)}
                     </div>
                     <p className="mt-2 text-sm leading-6 text-slate-800">
                       {item}
@@ -578,7 +661,7 @@ export default function HomePage() {
           ) : null}
         </header>
 
-        <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr] items-start">
+        <div className="grid items-start gap-6 xl:grid-cols-[1.2fr_0.8fr]">
           <section className="space-y-5">
             {sortedSections.length > 0 ? (
               sortedSections.map((section) => {
@@ -629,7 +712,9 @@ export default function HomePage() {
                               key={`${section.name}-story-${index}`}
                               className="text-sm leading-6 text-slate-800"
                             >
-                              <span className="mr-2 font-bold text-slate-500">-</span>
+                              <span className="mr-2 font-bold text-slate-500">
+                                -
+                              </span>
                               {item}
                             </p>
                           ))}
@@ -719,7 +804,7 @@ export default function HomePage() {
             )}
           </section>
 
-          <aside className="space-y-5 xl:sticky xl:top-6 h-fit">
+          <aside className="h-fit space-y-5 xl:sticky xl:top-6">
             <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
               <h2 className="text-xl font-black tracking-tight">
                 Report Status
@@ -754,26 +839,24 @@ export default function HomePage() {
               </div>
             </section>
 
-<section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-  <h2 className="text-xl font-black tracking-tight">
-    Live on X
-  </h2>
+            <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+              <h2 className="text-xl font-black tracking-tight">Live on X</h2>
 
-  <p className="mt-2 text-sm text-slate-600">
-    Follow the latest automated thread from @GlobalSportsRp.
-  </p>
+              <p className="mt-2 text-sm text-slate-600">
+                Follow the latest automated thread from @GlobalSportsRp.
+              </p>
 
-  <div className="mt-4">
-    <a
-      href="https://twitter.com/GlobalSportsRp"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
-    >
-      View Latest Thread →
-    </a>
-  </div>
-</section>
+              <div className="mt-4">
+                <a
+                  href="https://twitter.com/GlobalSportsRp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
+                >
+                  View Latest Thread →
+                </a>
+              </div>
+            </section>
 
             <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
               <h2 className="text-xl font-black tracking-tight">
