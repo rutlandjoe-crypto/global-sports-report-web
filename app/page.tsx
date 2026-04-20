@@ -78,7 +78,18 @@ const FALLBACK_DATA: ReportData = {
   },
 };
 
-const INLINE_SECTION_LABELS = [
+const DISPLAY_ORDER = [
+  "mlb",
+  "nba",
+  "nhl",
+  "nfl",
+  "ncaafb",
+  "soccer",
+  "betting_odds",
+  "fantasy",
+] as const;
+
+const SECTION_LABELS = [
   "HEADLINE",
   "SNAPSHOT",
   "KEY STORYLINES",
@@ -87,12 +98,7 @@ const INLINE_SECTION_LABELS = [
   "STORY ANGLES",
   "WATCH LIST",
   "FINAL SCORES",
-  "LIVE",
-  "UPCOMING",
-  "HISTORICAL CONTEXT",
-  "STATCAST SNAPSHOT",
-  "OUTLOOK",
-  "CURRENT DATA AND ANALYTICS",
+  "RECENT FINAL SCORES",
   "YESTERDAY FINAL SCORES",
   "TODAY FINAL SCORES",
   "TODAY RESULTS",
@@ -100,21 +106,40 @@ const INLINE_SECTION_LABELS = [
   "YESTERDAY PLAYOFF RESULTS",
   "TODAY PLAYOFF RESULTS",
   "PLAYOFF RESULTS",
+  "LIVE",
+  "LIVE GAMES",
   "TODAY LIVE",
+  "UPCOMING",
+  "UPCOMING GAMES",
   "TODAY SCHEDULE",
   "TODAY PLAYOFF SCHEDULE",
   "PLAYOFF SCHEDULE",
   "DRAFT CALENDAR",
+  "HISTORICAL CONTEXT",
+  "STATCAST SNAPSHOT",
+  "OUTLOOK",
+  "CURRENT DATA AND ANALYTICS",
   "TOP 10 DRAFT ORDER",
   "FULL ROUND 1 ORDER",
   "DAY 2 OPENING BOARD",
   "TEAM CAPITAL WATCH",
-  "NEWS",
   "RANKINGS CONTEXT",
   "PLAYER MOVES",
-  "GAMES",
-  "RESULTS",
-  "SCHEDULE",
+  "NEWS",
+  "STATIC GRAPHIC",
+  "DISCLAIMER",
+  "UPDATED",
+];
+
+const GLOBAL_MULTI_LEAGUE_PREFIXES = [
+  "MLB:",
+  "NBA:",
+  "NHL:",
+  "NFL:",
+  "NCAAFB:",
+  "SOCCER:",
+  "FANTASY:",
+  "BETTING ODDS:",
 ];
 
 async function getReportData(): Promise<ReportData> {
@@ -170,13 +195,20 @@ function cleanText(value?: unknown): string {
     .replace(/â€/g, "”")
     .replace(/â€”/g, "—")
     .replace(/â€“/g, "–")
+    .replace(/Ã©/g, "é")
+    .replace(/Ã¡/g, "á")
+    .replace(/Ã±/g, "ñ")
+    .replace(/Ã³/g, "ó")
+    .replace(/Ã¼/g, "ü")
+    .replace(/Ã/g, "")
     .replace(/\u00a0/g, " ")
     .replace(/\t/g, " ")
+    .replace(/[ ]{2,}/g, " ")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 }
 
-function compactText(value?: unknown, maxLength = 220): string {
+function compactText(value?: unknown, maxLength = 420): string {
   const cleaned = cleanText(value);
   if (!cleaned) return "";
   if (cleaned.length <= maxLength) return cleaned;
@@ -224,205 +256,6 @@ function normalizeKey(rawKey: string): string {
   return normalizedKey || "section";
 }
 
-function escapeRegex(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function headingRegexSource(labels: string[]): string {
-  return labels.map((label) => escapeRegex(label)).join("|");
-}
-
-function extractInlineBlock(content: string, labels: string[]): string {
-  const source = cleanText(content).replace(/\n+/g, " ").trim();
-  if (!source) return "";
-
-  const labelSource = headingRegexSource(labels);
-  const allLabelSource = headingRegexSource(INLINE_SECTION_LABELS);
-
-  const regex = new RegExp(
-    `(?:^|\\s)(?:${labelSource})(?:\\s*[:\\-]?\\s+)([\\s\\S]*?)(?=\\s(?:${allLabelSource})(?:\\s*[:\\-]?\\s+)|$)`,
-    "i"
-  );
-
-  const match = source.match(regex);
-  return cleanText(match?.[1] || "");
-}
-
-function hasInlineHeadingBlob(text: string): boolean {
-  const cleaned = cleanText(text);
-  if (!cleaned) return false;
-
-  const matches =
-    cleaned.match(
-      /\b(HEADLINE|SNAPSHOT|KEY DATA POINTS|WHY IT MATTERS|STORY ANGLES|WATCH LIST|FINAL SCORES|LIVE|UPCOMING|HISTORICAL CONTEXT|STATCAST SNAPSHOT|OUTLOOK|CURRENT DATA AND ANALYTICS)\b/g
-    ) || [];
-
-  return matches.length >= 2;
-}
-
-function isSectionLabelLine(line: string): boolean {
-  const s = cleanText(line).replace(/^•\s*/, "").replace(/^-\s*/, "").trim();
-
-  return /^(HEADLINE|SNAPSHOT|KEY STORYLINES|KEY DATA POINTS|WHY IT MATTERS|STORY ANGLES|WATCH LIST|FINAL SCORES|LIVE|UPCOMING|HISTORICAL CONTEXT|STATCAST SNAPSHOT|OUTLOOK|CURRENT DATA AND ANALYTICS|GAMES|RESULTS|SCHEDULE|NEWS|RANKINGS CONTEXT|PLAYER MOVES)$/i.test(
-    s
-  );
-}
-
-function isRawReportTitleLine(line: string): boolean {
-  const s = cleanText(line);
-  return /^(MLB|NBA|NHL|NFL|NCAAFB|SOCCER|FANTASY|BETTING ODDS|NFL DRAFT SIGNALS).{0,40}REPORT\s*\|/i.test(
-    s
-  );
-}
-
-function isLeaguePrefixedBlob(line: string): boolean {
-  const s = cleanText(line);
-  return /^(MLB|NBA|NHL|NFL|NCAAFB|SOCCER|FANTASY|BETTING ODDS)\s*:\s*.+\b(MLB|NBA|NHL|NFL|NCAAFB|SOCCER|FANTASY|BETTING ODDS)\s*:/i.test(
-    s
-  );
-}
-
-function isProbablyNoise(item: string): boolean {
-  const s = cleanText(item);
-  if (!s) return true;
-
-  if (/^Saved:/i.test(s)) return true;
-  if (/^Generated:/i.test(s)) return true;
-  if (/^UPDATED$/i.test(s)) return true;
-  if (/^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\s+[AP]M\s+ET$/i.test(s)) return true;
-  if (s === FALLBACK_DATA.disclaimer) return true;
-  if (isSectionLabelLine(s)) return true;
-  if (isRawReportTitleLine(s)) return true;
-  if (
-    /^(HEADLINE|SNAPSHOT|KEY STORYLINES|KEY DATA POINTS|WHY IT MATTERS|STORY ANGLES|WATCH LIST|FINAL SCORES|LIVE|UPCOMING|HISTORICAL CONTEXT|STATCAST SNAPSHOT|OUTLOOK|CURRENT DATA AND ANALYTICS)$/i.test(
-      s
-    )
-  ) {
-    return true;
-  }
-
-  return false;
-}
-
-function splitFantasyBlob(text: string): string[] {
-  const cleaned = cleanText(text);
-  if (!cleaned) return [];
-
-  const leagueMatches = cleaned.match(/\b(MLB|NBA|NHL|NFL)\s*:/g) || [];
-  if (leagueMatches.length < 2) return [cleaned];
-
-  const parts = cleaned
-    .split(/(?=\b(?:MLB|NBA|NHL|NFL)\s*:)/g)
-    .map((part) => cleanText(part))
-    .filter(Boolean)
-    .filter((part) => !isProbablyNoise(part))
-    .filter((part) => !hasInlineHeadingBlob(part));
-
-  return parts.length > 0 ? parts : [cleaned];
-}
-
-function mergeScheduleLines(lines: string[]): string[] {
-  const merged: string[] = [];
-
-  for (const rawLine of lines) {
-    const line = cleanText(rawLine);
-    if (!line) continue;
-
-    const isContinuation =
-      /^(?:\d{1,2}:\d{2}\s*[AP]M\s*ET\b|Probables:\b|Odds:\b|Spread:\b|Total:\b|Moneyline:\b|TV:\b|Streaming:\b)/i.test(
-        line
-      ) ||
-      /^\|\s*/.test(line);
-
-    if (isContinuation && merged.length > 0) {
-      merged[merged.length - 1] = `${merged[merged.length - 1]} — ${line.replace(/^\|\s*/, "")}`;
-      continue;
-    }
-
-    merged.push(line);
-  }
-
-  return merged;
-}
-
-function sanitizeLineItems(lines: string[]): string[] {
-  const cleanedLines = lines
-    .map((line) => cleanText(line).replace(/^•\s*/, "").replace(/^- /, "").trim())
-    .filter(Boolean)
-    .filter((line) => !isProbablyNoise(line))
-    .filter((line) => !hasInlineHeadingBlob(line))
-    .filter((line) => !isSectionLabelLine(line))
-    .filter((line) => !isRawReportTitleLine(line));
-
-  return mergeScheduleLines(cleanedLines);
-}
-
-function flattenStrings(value: unknown, formatter?: (item: unknown) => string): string[] {
-  if (value === undefined || value === null) return [];
-
-  if (Array.isArray(value)) {
-    return value.flatMap((item) => flattenStrings(item, formatter));
-  }
-
-  if (typeof value === "string") {
-    const text = cleanText(value);
-
-    if (!text) return [];
-    if (hasInlineHeadingBlob(text)) return [];
-
-    if (isLeaguePrefixedBlob(text)) {
-      return sanitizeLineItems(splitFantasyBlob(text));
-    }
-
-    return sanitizeLineItems(text.split(/\n+/));
-  }
-
-  if (formatter) {
-    const formatted = cleanText(formatter(value));
-    if (!formatted) return [];
-    if (isProbablyNoise(formatted)) return [];
-    if (hasInlineHeadingBlob(formatted)) return [];
-    if (isSectionLabelLine(formatted)) return [];
-    if (isRawReportTitleLine(formatted)) return [];
-    return [formatted];
-  }
-
-  if (typeof value === "number" || typeof value === "boolean") {
-    return [String(value)];
-  }
-
-  const cleaned = cleanText(value);
-  if (!cleaned) return [];
-  if (isProbablyNoise(cleaned)) return [];
-  if (hasInlineHeadingBlob(cleaned)) return [];
-  if (isSectionLabelLine(cleaned)) return [];
-  if (isRawReportTitleLine(cleaned)) return [];
-
-  return [cleaned];
-}
-
-function dedupeAndLimit(items: string[], limit: number): string[] {
-  const seen = new Set<string>();
-  const output: string[] = [];
-
-  for (const raw of items) {
-    const cleaned = cleanText(raw).replace(/^•\s*/, "").replace(/^- /, "").trim();
-    if (!cleaned) continue;
-    if (isProbablyNoise(cleaned)) continue;
-    if (hasInlineHeadingBlob(cleaned)) continue;
-    if (isSectionLabelLine(cleaned)) continue;
-    if (isRawReportTitleLine(cleaned)) continue;
-    if (seen.has(cleaned)) continue;
-
-    seen.add(cleaned);
-    output.push(cleaned);
-
-    if (output.length >= limit) break;
-  }
-
-  return output;
-}
-
 function formatSnapshot(value: unknown): string {
   if (!value) return "";
 
@@ -462,6 +295,165 @@ function formatSnapshot(value: unknown): string {
     .join(" · ");
 }
 
+function isSectionLabel(line: string): boolean {
+  return SECTION_LABELS.includes(cleanText(line).toUpperCase());
+}
+
+function isBackendNoise(line: string): boolean {
+  const s = cleanText(line);
+  if (!s) return true;
+  if (s === FALLBACK_DATA.disclaimer) return true;
+  if (/^DISCLAIMER$/i.test(s)) return true;
+  if (/^UPDATED$/i.test(s)) return true;
+  if (/^STATIC GRAPHIC$/i.test(s)) return true;
+  if (/^Saved:/i.test(s)) return true;
+  if (/^Generated:/i.test(s)) return true;
+  if (/^UPDATED\s+\d{4}-\d{2}-\d{2}/i.test(s)) return true;
+  if (/^\d{4}-\d{2}-\d{2}\s+\d{1,2}:\d{2}:\d{2}\s+[AP]M\s+ET$/i.test(s)) return true;
+  if (/This report is an automated summary intended to support, not replace, human sports journalism\./i.test(s))
+    return true;
+  if (/^[A-Z ]+PRO REPORT\s+\|\s+\d{4}-\d{2}-\d{2}$/i.test(s)) return true;
+  if (/^[A-Z ]+REPORT\s+\|\s+\d{4}-\d{2}-\d{2}$/i.test(s)) return true;
+  if (/^GLOBAL SPORTS REPORT\s+\|\s+\d{4}-\d{2}-\d{2}$/i.test(s)) return true;
+  if (/Static graphic exported to:/i.test(s)) return true;
+  return false;
+}
+
+function isBadPublicLine(line: string): boolean {
+  const s = cleanText(line).toLowerCase();
+  if (!s) return true;
+  if (s.includes("missing api key")) return true;
+  if (s.includes("could not load odds")) return true;
+  if (s.includes("traceback")) return true;
+  if (s.includes("requests.exceptions")) return true;
+  if (s.startsWith("error:")) return true;
+  return false;
+}
+
+function shouldKeepLine(line: string): boolean {
+  const s = cleanText(line);
+  if (!s) return false;
+  if (isBackendNoise(s)) return false;
+  if (isBadPublicLine(s)) return false;
+  if (s.length < 2) return false;
+  return true;
+}
+
+function escapeRegex(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function injectNewlinesForLabels(text: string): string {
+  let normalized = cleanText(text);
+  if (!normalized) return "";
+
+  for (const label of SECTION_LABELS.sort((a, b) => b.length - a.length)) {
+    const escaped = escapeRegex(label);
+    normalized = normalized.replace(
+      new RegExp(`\\s*${escaped}\\s*`, "gi"),
+      `\n${label}\n`
+    );
+  }
+
+  normalized = normalized
+    .replace(/\s+-\s+/g, "\n- ")
+    .replace(/\.\s+(?=(?:No |[A-Z][a-z]+ .* beat |Round \d|Rounds \d|\d+\.)\b)/g, ".\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+  return normalized;
+}
+
+function extractBlock(text: string, labels: string[]): string {
+  const source = injectNewlinesForLabels(text);
+  if (!source) return "";
+
+  const upperLabels = SECTION_LABELS.sort((a, b) => b.length - a.length).map(escapeRegex).join("|");
+  const target = labels.sort((a, b) => b.length - a.length).map(escapeRegex).join("|");
+
+  const regex = new RegExp(
+    `(?:^|\\n)(?:${target})\\n([\\s\\S]*?)(?=\\n(?:${upperLabels})\\n|$)`,
+    "i"
+  );
+
+  const match = source.match(regex);
+  return cleanText(match?.[1] || "");
+}
+
+function splitBlockToLines(text: string): string[] {
+  const normalized = injectNewlinesForLabels(text);
+  if (!normalized) return [];
+
+  const rawLines = normalized
+    .split(/\n+/)
+    .map((line) => cleanText(line).replace(/^•\s*/, "").replace(/^-+\s*/, "").trim())
+    .filter(Boolean);
+
+  const output: string[] = [];
+
+  for (const line of rawLines) {
+    if (!shouldKeepLine(line)) continue;
+    if (isSectionLabel(line)) continue;
+
+    const isContinuation =
+      /^(?:West|East|Final\/OT|Game \d|Round \d|Probables?:|TV:|Venue footprint:|Location:)/i.test(
+        line
+      ) ||
+      (/^[a-z]/.test(line) && output.length > 0 && output[output.length - 1].length < 150);
+
+    if (isContinuation && output.length > 0) {
+      output[output.length - 1] = `${output[output.length - 1]} ${line}`;
+      continue;
+    }
+
+    output.push(line);
+  }
+
+  return output;
+}
+
+function flattenStrings(value: unknown): string[] {
+  if (value === undefined || value === null) return [];
+
+  if (Array.isArray(value)) {
+    return value.flatMap((item) => flattenStrings(item));
+  }
+
+  if (typeof value === "string") {
+    return splitBlockToLines(value);
+  }
+
+  if (typeof value === "number" || typeof value === "boolean") {
+    return [String(value)];
+  }
+
+  if (isRecord(value)) {
+    return Object.values(value).flatMap((item) => flattenStrings(item));
+  }
+
+  return [];
+}
+
+function dedupeAndLimit(items: string[], limit: number): string[] {
+  const seen = new Set<string>();
+  const output: string[] = [];
+
+  for (const raw of items) {
+    const cleaned = cleanText(raw).replace(/^•\s*/, "").replace(/^-+\s*/, "").trim();
+    if (!shouldKeepLine(cleaned)) continue;
+
+    const key = cleaned.toLowerCase();
+    if (seen.has(key)) continue;
+
+    seen.add(key);
+    output.push(cleaned);
+
+    if (output.length >= limit) break;
+  }
+
+  return output;
+}
+
 function formatGameItem(item: unknown): string {
   if (!item) return "";
   if (typeof item === "string") return cleanText(item);
@@ -485,13 +477,17 @@ function formatGameItem(item: unknown): string {
   }
 
   if (away && home && time) {
-    const extra = [status, probables ? `Probables: ${probables}` : ""].filter(Boolean).join(" | ");
-    return `${away} at ${home} — ${time}${extra ? ` | ${extra}` : ""}`;
+    const extras = [status, probables ? `Probables: ${probables}` : ""]
+      .filter(Boolean)
+      .join(" | ");
+    return `${away} at ${home} — ${time}${extras ? ` | ${extras}` : ""}`;
   }
 
   if (away && home) {
-    const extra = [status, probables ? `Probables: ${probables}` : ""].filter(Boolean).join(" | ");
-    return `${away} at ${home}${extra ? ` — ${extra}` : ""}`;
+    const extras = [status, probables ? `Probables: ${probables}` : ""]
+      .filter(Boolean)
+      .join(" | ");
+    return `${away} at ${home}${extras ? ` — ${extras}` : ""}`;
   }
 
   if (note) return note;
@@ -521,90 +517,98 @@ function formatOddsItem(item: unknown): string {
     .join(" · ");
 }
 
-function splitContentBlocks(text: string): string[] {
-  return sanitizeLineItems(cleanText(text).split(/\n+/)).filter(
-    (line) => !hasInlineHeadingBlob(line)
-  );
+function extractTextFromBlob(content: string, labels: string[], maxLength = 700): string {
+  const block = extractBlock(content, labels);
+  if (!block) return "";
+
+  const lines = splitBlockToLines(block);
+  if (lines.length === 0) return "";
+
+  return compactText(lines.join(" "), maxLength);
 }
 
-function extractLeadFromContent(content: string): string {
-  const directHeadline = extractInlineBlock(content, ["HEADLINE"]);
-  if (directHeadline) return directHeadline;
+function extractListFromBlob(content: string, labels: string[], limit = 8): string[] {
+  const block = extractBlock(content, labels);
+  if (!block) return [];
+  return dedupeAndLimit(splitBlockToLines(block), limit);
+}
 
-  const directSnapshot = extractInlineBlock(content, ["SNAPSHOT"]);
-  if (directSnapshot) return directSnapshot;
+function isBlobLike(value: string): boolean {
+  const text = cleanText(value);
+  if (!text) return false;
 
-  const blocks = splitContentBlocks(content);
-  const candidate = blocks.find(
-    (line) =>
-      line.length > 35 &&
-      !/^(mlb|nba|nhl|nfl|ncaafb|soccer|betting odds|fantasy)(\s|:|$)/i.test(line) &&
-      !/^\d{4}-\d{2}-\d{2}/.test(line)
-  );
-  return candidate || "";
+  const markers = ["HEADLINE", "SNAPSHOT", "KEY DATA POINTS", "WHY IT MATTERS", "STORY ANGLES"];
+  const count = markers.filter((m) => text.toUpperCase().includes(m)).length;
+
+  return count >= 2 || /^[A-Z ]+PRO REPORT\s+\|\s+\d{4}-\d{2}-\d{2}/i.test(text);
+}
+
+function isGlobalBlob(value: string): boolean {
+  const text = cleanText(value);
+  if (!text) return false;
+  return GLOBAL_MULTI_LEAGUE_PREFIXES.filter((prefix) => text.includes(prefix)).length >= 3;
+}
+
+function chooseTopLevelText(value: unknown, maxLength = 700): string {
+  const text = cleanText(value);
+  if (!text) return "";
+  if (isBlobLike(text)) return "";
+  if (isGlobalBlob(text)) return "";
+  return compactText(text, maxLength);
 }
 
 function getBestSectionText(
-  primary: unknown,
-  secondary: unknown,
   content: string,
-  inlineLabels: string[],
-  maxLength = 500
+  directValues: unknown[],
+  blobLabels: string[],
+  maxLength = 700
 ): string {
-  const first = cleanText(primary);
-  if (
-    first &&
-    !hasInlineHeadingBlob(first) &&
-    !isSectionLabelLine(first) &&
-    !isRawReportTitleLine(first)
-  ) {
-    return compactText(first, maxLength);
+  for (const value of directValues) {
+    const direct = chooseTopLevelText(value, maxLength);
+    if (direct) return direct;
   }
 
-  const second = cleanText(secondary);
-  if (
-    second &&
-    !hasInlineHeadingBlob(second) &&
-    !isSectionLabelLine(second) &&
-    !isRawReportTitleLine(second)
-  ) {
-    return compactText(second, maxLength);
-  }
-
-  const inline = extractInlineBlock(content, inlineLabels);
-  if (inline && !isRawReportTitleLine(inline)) return compactText(inline, maxLength);
-
-  return "";
+  return extractTextFromBlob(content, blobLabels, maxLength);
 }
 
 function getBestList(
-  primary: unknown,
-  secondary: unknown,
-  tertiary: unknown,
-  content: string,
-  inlineLabels: string[],
+  directValues: unknown[],
+  blobContent: string,
+  blobLabels: string[],
   limit = 8,
   formatter?: (item: unknown) => string
 ): string[] {
-  const items = [
-    ...flattenStrings(primary, formatter),
-    ...flattenStrings(secondary, formatter),
-    ...flattenStrings(tertiary, formatter),
-  ];
+  const directItems: string[] = [];
 
-  const cleanItems = dedupeAndLimit(items, limit);
-  if (cleanItems.length > 0) return cleanItems;
+  for (const value of directValues) {
+    if (value === undefined || value === null) continue;
 
-  const inline = extractInlineBlock(content, inlineLabels);
-  if (!inline) return [];
+    if (Array.isArray(value)) {
+      for (const item of value) {
+        const formatted = formatter ? formatter(item) : cleanText(item);
+        if (formatted) directItems.push(formatted);
+      }
+      continue;
+    }
 
-  const inlineItems = sanitizeLineItems(
-    inline
-      .split(/\s*-\s+/)
-      .flatMap((chunk) => chunk.split(/\n+/))
-  );
+    if (typeof value === "string" && !isBlobLike(value)) {
+      directItems.push(...splitBlockToLines(value));
+      continue;
+    }
 
-  return dedupeAndLimit(inlineItems, limit);
+    if (formatter && isRecord(value)) {
+      const formatted = formatter(value);
+      if (formatted) directItems.push(formatted);
+      continue;
+    }
+
+    directItems.push(...flattenStrings(value));
+  }
+
+  const cleaned = dedupeAndLimit(directItems, limit);
+  if (cleaned.length > 0) return cleaned;
+
+  return extractListFromBlob(blobContent, blobLabels, limit);
 }
 
 function normalizeSection(sectionKey: string, rawSection: unknown): NormalizedSection {
@@ -613,97 +617,90 @@ function normalizeSection(sectionKey: string, rawSection: unknown): NormalizedSe
   const analytics = isRecord(section.analytics) ? section.analytics : {};
   const games = isRecord(section.games) ? section.games : {};
 
-  const content = cleanText(section.content);
-  const extractedLead = extractLeadFromContent(content);
-
+  const rawContent = cleanText(section.content || "");
   const title = cleanText(section.title) || formatLabel(sectionKey);
 
-  const headline =
-    getBestSectionText(section.headline, advanced.headline, content, ["HEADLINE"], 260) ||
-    extractedLead;
+  const headline = getBestSectionText(
+    rawContent,
+    [section.headline, advanced.headline, section.body],
+    ["HEADLINE"],
+    320
+  );
 
   const snapshot =
-    formatSnapshot(section.snapshot) ||
-    formatSnapshot(advanced.snapshot) ||
-    getBestSectionText(section.snapshot, advanced.snapshot, content, ["SNAPSHOT", "GLOBAL SNAPSHOT"], 420) ||
-    headline ||
-    extractedLead;
+    getBestSectionText(
+      rawContent,
+      [section.snapshot, advanced.snapshot, formatSnapshot(section.snapshot)],
+      ["SNAPSHOT"],
+      520
+    ) || headline;
 
   const body =
-    getBestSectionText(section.body, "", content, ["HEADLINE", "SNAPSHOT", "CURRENT DATA AND ANALYTICS"], 1800) ||
-    snapshot ||
-    extractedLead;
+    getBestSectionText(
+      rawContent,
+      [section.body],
+      ["WHY IT MATTERS", "CURRENT DATA AND ANALYTICS", "SNAPSHOT", "HEADLINE"],
+      1200
+    ) || snapshot || headline;
 
   const keyDataPoints = getBestList(
-    advanced.key_data_points,
-    section.key_data_points,
-    analytics.key_data_points,
-    content,
+    [advanced.key_data_points, section.key_data_points, analytics.key_data_points, section.bullets],
+    rawContent,
     ["KEY DATA POINTS"],
     8
   );
 
   const whyItMatters = getBestList(
-    advanced.why_it_matters,
-    section.why_it_matters,
-    undefined,
-    content,
+    [advanced.why_it_matters, section.why_it_matters],
+    rawContent,
     ["WHY IT MATTERS"],
     6
   );
 
   const storyAngles = getBestList(
-    advanced.story_angles,
-    section.story_angles,
-    section.key_storylines,
-    content,
+    [advanced.story_angles, section.story_angles, section.key_storylines],
+    rawContent,
     ["STORY ANGLES", "KEY STORYLINES"],
     6
   );
 
   const watchList = getBestList(
-    advanced.watch_list,
-    section.watch_list,
-    undefined,
-    content,
-    ["WATCH LIST", "TEAM CAPITAL WATCH", "TOP 10 DRAFT ORDER", "FULL ROUND 1 ORDER", "DAY 2 OPENING BOARD"],
+    [advanced.watch_list, section.watch_list],
+    rawContent,
+    ["WATCH LIST", "TOP 10 DRAFT ORDER", "FULL ROUND 1 ORDER", "DAY 2 OPENING BOARD", "TEAM CAPITAL WATCH"],
     6
   );
 
-  const finalScores = getBestList(
-    advanced.final_scores,
-    games.final,
-    section.final_scores || section.results,
-    content,
+  let finalScores = getBestList(
+    [advanced.final_scores, games.final, section.final_scores, section.results],
+    rawContent,
     [
       "FINAL SCORES",
+      "RECENT FINAL SCORES",
       "TODAY FINAL SCORES",
-      "YESTERDAY FINAL SCORES",
       "TODAY RESULTS",
-      "YESTERDAY PLAYOFF RESULTS",
+      "YESTERDAY FINAL SCORES",
+      "YESTERDAY RESULTS",
       "TODAY PLAYOFF RESULTS",
+      "YESTERDAY PLAYOFF RESULTS",
       "PLAYOFF RESULTS",
     ],
     10,
     formatGameItem
   );
 
-  const live = getBestList(
-    advanced.live,
-    games.live,
-    section.live,
-    content,
-    ["LIVE", "TODAY LIVE"],
+  let live = getBestList(
+    [advanced.live, games.live, section.live],
+    rawContent,
+    ["LIVE", "LIVE GAMES", "TODAY LIVE"],
     10,
     formatGameItem
   );
 
-  const upcoming = getBestList(
-    advanced.upcoming,
-    games.upcoming,
-    section.upcoming || section.schedule || section.odds,
-    content,
-    ["UPCOMING", "TODAY SCHEDULE", "TODAY PLAYOFF SCHEDULE", "PLAYOFF SCHEDULE", "DRAFT CALENDAR"],
+  let upcoming = getBestList(
+    [advanced.upcoming, games.upcoming, section.upcoming, section.schedule, section.odds],
+    rawContent,
+    ["UPCOMING", "UPCOMING GAMES", "TODAY SCHEDULE", "TODAY PLAYOFF SCHEDULE", "PLAYOFF SCHEDULE", "DRAFT CALENDAR"],
     10,
     (item) => {
       const gameFormatted = formatGameItem(item);
@@ -713,46 +710,45 @@ function normalizeSection(sectionKey: string, rawSection: unknown): NormalizedSe
   );
 
   const fantasyInsights = getBestList(
-    section.fantasy_insights || section.insights,
-    advanced.notes,
-    undefined,
-    content,
-    ["PLAYER MOVES", "RANKINGS CONTEXT", "NEWS"],
+    [section.fantasy_insights, section.insights],
+    rawContent,
+    ["NEWS", "PLAYER MOVES", "RANKINGS CONTEXT", "CURRENT DATA AND ANALYTICS"],
     8
   );
 
   const notes = getBestList(
-    section.notes,
-    advanced.notes || advanced.current_data_and_analytics,
-    section.bullets,
-    content,
+    [section.notes, advanced.notes, advanced.current_data_and_analytics, section.bullets],
+    rawContent,
     ["CURRENT DATA AND ANALYTICS", "NEWS", "RANKINGS CONTEXT", "PLAYER MOVES"],
     8
   );
 
   const historicalContext = getBestSectionText(
-    advanced.historical_context,
-    section.historical_context,
-    content,
+    rawContent,
+    [advanced.historical_context, section.historical_context],
     ["HISTORICAL CONTEXT"],
-    500
+    700
   );
 
   const statcastSnapshot = getBestSectionText(
-    advanced.statcast_snapshot,
-    section.statcast_snapshot,
-    content,
+    rawContent,
+    [advanced.statcast_snapshot, section.statcast_snapshot],
     ["STATCAST SNAPSHOT"],
-    500
+    700
   );
 
   const outlook = getBestSectionText(
-    advanced.outlook,
-    section.outlook,
-    content,
+    rawContent,
+    [advanced.outlook, section.outlook],
     ["OUTLOOK"],
-    500
+    700
   );
+
+  if (sectionKey === "fantasy") {
+    finalScores = [];
+    live = [];
+    upcoming = [];
+  }
 
   return {
     key: sectionKey,
@@ -761,7 +757,7 @@ function normalizeSection(sectionKey: string, rawSection: unknown): NormalizedSe
     headline,
     snapshot,
     body,
-    content,
+    content: rawContent,
     keyDataPoints,
     whyItMatters,
     storyAngles,
@@ -788,18 +784,13 @@ function normalizeSections(
     for (const item of sections) {
       if (!isRecord(item)) continue;
 
-      const fallbackKey = `section_${Object.keys(mapped).length + 1}`;
       const rawKey =
         cleanText(item.key) ||
         cleanText(item.title) ||
         cleanText(item.source_file) ||
-        fallbackKey;
+        `section_${Object.keys(mapped).length + 1}`;
 
       let key = normalizeKey(rawKey);
-
-      if (key === "section" && !mapped[fallbackKey]) {
-        key = fallbackKey;
-      }
 
       if (mapped[key]) {
         key = `${key}_${Object.keys(mapped).length + 1}`;
@@ -813,10 +804,12 @@ function normalizeSections(
 
   if (isRecord(sections)) {
     const mapped: Record<string, UnknownRecord> = {};
+
     Object.entries(sections).forEach(([key, value], index) => {
       const normalizedKey = normalizeKey(key) || `section_${index + 1}`;
       mapped[normalizedKey] = isRecord(value) ? value : {};
     });
+
     return mapped;
   }
 
@@ -826,31 +819,17 @@ function normalizeSections(
 function getPrimaryLeagueCards(
   sections: Record<string, UnknownRecord>
 ): { key: string; label: string; data?: UnknownRecord }[] {
-  return [
-    { key: "mlb", label: "MLB", data: sections.mlb },
-    { key: "nba", label: "NBA", data: sections.nba },
-    { key: "nhl", label: "NHL", data: sections.nhl },
-    { key: "nfl", label: "NFL", data: sections.nfl },
-    { key: "ncaafb", label: "NCAAFB", data: sections.ncaafb },
-    { key: "soccer", label: "Soccer", data: sections.soccer },
-    { key: "betting_odds", label: "Betting Odds", data: sections.betting_odds },
-    { key: "fantasy", label: "Fantasy", data: sections.fantasy },
-  ];
+  return DISPLAY_ORDER.map((key) => ({
+    key,
+    label: formatLabel(key),
+    data: sections[key],
+  }));
 }
 
 function getAdditionalCards(
   sections: Record<string, UnknownRecord>
 ): { key: string; label: string; data?: UnknownRecord }[] {
-  const primaryKeys = new Set([
-    "mlb",
-    "nba",
-    "nhl",
-    "nfl",
-    "ncaafb",
-    "soccer",
-    "betting_odds",
-    "fantasy",
-  ]);
+  const primaryKeys = new Set(DISPLAY_ORDER);
 
   return Object.entries(sections)
     .filter(([key, value]) => !primaryKeys.has(key) && isRecord(value))
@@ -861,120 +840,23 @@ function getAdditionalCards(
     }));
 }
 
-function stripLeadingLeaguePrefix(text: string): string {
-  return cleanText(text).replace(
-    /^(MLB|NBA|NHL|NFL|NCAAFB|SOCCER|FANTASY|BETTING ODDS|NFL DRAFT SIGNALS)\s*:\s*/i,
-    ""
-  );
-}
-
-function getCleanLeadText(normalized: NormalizedSection): string {
-  const candidates = [normalized.snapshot, normalized.body, normalized.headline];
-
-  for (const candidate of candidates) {
-    const cleaned = stripLeadingLeaguePrefix(candidate);
-    if (!cleaned) continue;
-    if (hasInlineHeadingBlob(cleaned)) continue;
-    if (isSectionLabelLine(cleaned)) continue;
-    if (isRawReportTitleLine(cleaned)) continue;
-    return cleaned;
-  }
-
-  return "";
-}
-
-function buildLeadSnapshot(
-  normalizedSections: NormalizedSection[],
-  fallbackBody: string,
-  fallbackHeadline: string
-): string {
-  const cleanSectionLeads = dedupeAndLimit(
-    normalizedSections
-      .map((section) => {
-        const lead = getCleanLeadText(section);
-        if (!lead) return "";
-        return `${section.title}: ${lead}`;
-      })
-      .filter(Boolean),
-    4
-  );
-
-  if (cleanSectionLeads.length > 0) {
-    return cleanSectionLeads.join(" ");
-  }
-
-  const safeBody = cleanText(fallbackBody);
-  if (
-    safeBody &&
-    !hasInlineHeadingBlob(safeBody) &&
-    !isRawReportTitleLine(safeBody)
-  ) {
-    return safeBody;
-  }
-
-  const safeHeadline = cleanText(fallbackHeadline);
-  if (
-    safeHeadline &&
-    !hasInlineHeadingBlob(safeHeadline) &&
-    !isRawReportTitleLine(safeHeadline)
-  ) {
-    return safeHeadline;
-  }
-
-  return "The latest cross-league newsroom snapshot is being prepared.";
-}
-
-function buildEditorialNote(
-  normalizedSections: NormalizedSection[],
-  fallbackBody: string
-): string {
-  const safeBody = cleanText(fallbackBody);
-  if (
-    safeBody &&
-    !hasInlineHeadingBlob(safeBody) &&
-    !isRawReportTitleLine(safeBody) &&
-    !isLeaguePrefixedBlob(safeBody)
-  ) {
-    return safeBody;
-  }
-
-  const notes = dedupeAndLimit(
-    normalizedSections
-      .map((section) => getCleanLeadText(section))
-      .filter(Boolean),
-    3
-  );
-
-  if (notes.length > 0) {
-    return notes.join(" ");
-  }
-
-  return "League reports, scores, analytics, and supporting context will populate here as the latest report feed updates.";
-}
-
 function buildGlobalStorylines(
   rawKeyStorylines: string[],
   normalizedSections: NormalizedSection[]
 ): string[] {
   const direct = dedupeAndLimit(
-    rawKeyStorylines.filter(
-      (item) =>
-        !hasInlineHeadingBlob(item) &&
-        !isRawReportTitleLine(item) &&
-        !isSectionLabelLine(item)
-    ),
+    rawKeyStorylines.filter((item) => !isBlobLike(item) && !isGlobalBlob(item)),
     8
   );
+
   if (direct.length > 0) return direct;
 
   return dedupeAndLimit(
-    normalizedSections
-      .flatMap((section) => [
-        ...section.keyDataPoints.slice(0, 2),
-        ...section.whyItMatters.slice(0, 1),
-        ...section.storyAngles.slice(0, 1),
-      ])
-      .filter(Boolean),
+    normalizedSections.flatMap((section) => [
+      ...section.keyDataPoints.slice(0, 2),
+      ...section.storyAngles.slice(0, 1),
+      ...section.whyItMatters.slice(0, 1),
+    ]),
     8
   );
 }
@@ -984,29 +866,67 @@ function buildDeskItems(normalizedSections: NormalizedSection[]): {
   live: string[];
   upcoming: string[];
 } {
-  return {
-    finals: dedupeAndLimit(
-      normalizedSections.flatMap((section) => section.finalScores),
-      4
-    ),
-    live: dedupeAndLimit(
-      normalizedSections.flatMap((section) => section.live),
-      4
-    ),
-    upcoming: dedupeAndLimit(
-      normalizedSections.flatMap((section) => section.upcoming),
-      4
-    ),
-  };
+  const finals = dedupeAndLimit(
+    normalizedSections
+      .filter((section) => section.key !== "fantasy")
+      .flatMap((section) => section.finalScores)
+      .filter((item) => !/^No /i.test(item)),
+    6
+  );
+
+  const live = dedupeAndLimit(
+    normalizedSections
+      .filter((section) => section.key !== "fantasy")
+      .flatMap((section) => section.live)
+      .filter((item) => !/^No /i.test(item)),
+    6
+  );
+
+  const upcoming = dedupeAndLimit(
+    normalizedSections
+      .flatMap((section) => section.upcoming)
+      .filter((item) => !/^No /i.test(item)),
+    6
+  );
+
+  return { finals, live, upcoming };
+}
+
+function buildLeadSnapshot(
+  normalizedSections: NormalizedSection[],
+  fallbackHeadline: string
+): string {
+  const preferredSections = normalizedSections
+    .filter((section) => ["mlb", "nba", "nfl"].includes(section.key))
+    .map((section) => `${section.title}: ${section.snapshot || section.headline}`)
+    .filter(Boolean);
+
+  const combined = dedupeAndLimit(preferredSections, 3);
+  if (combined.length > 0) return combined.join(" ");
+
+  return cleanText(fallbackHeadline) || "The latest cross-league newsroom snapshot is being prepared.";
+}
+
+function buildEditorialNote(
+  normalizedSections: NormalizedSection[]
+): string {
+  const notes = dedupeAndLimit(
+    normalizedSections
+      .map((section) => section.body || section.snapshot || section.headline)
+      .filter(Boolean),
+    3
+  );
+
+  if (notes.length > 0) return notes.join(" ");
+
+  return "League reports, scores, analytics, and supporting context will populate here as the latest report feed updates.";
 }
 
 function isAnalyticsSafeText(text: string): boolean {
   const cleaned = cleanText(text);
   if (!cleaned) return false;
-  if (hasInlineHeadingBlob(cleaned)) return false;
-  if (isRawReportTitleLine(cleaned)) return false;
-  if (isSectionLabelLine(cleaned)) return false;
-  if (cleaned.length > 420) return false;
+  if (isBadPublicLine(cleaned)) return false;
+  if (cleaned.length > 500) return false;
   return true;
 }
 
@@ -1032,15 +952,9 @@ function SectionList({
   items: string[];
   limit?: number;
 }) {
-  const cleaned = dedupeAndLimit(items, limit).filter(
-    (item) =>
-      !hasInlineHeadingBlob(item) &&
-      !isSectionLabelLine(item) &&
-      !isRawReportTitleLine(item)
-  );
+  const cleaned = dedupeAndLimit(items, limit);
 
   if (cleaned.length === 0) return null;
-  if (cleaned.length === 1 && cleaned[0].startsWith("No ")) return null;
 
   return (
     <div className="mt-4 border-t border-zinc-800 pt-4">
@@ -1076,8 +990,8 @@ function LeagueCard({
             Pending
           </span>
         </div>
-        <p className="text-sm leading-7 text-zinc-400">
-          No section data is available for this category in the current report feed.
+        <p className="text-sm leading-7 text-zinc-300 whitespace-pre-wrap">
+          No data is available for this section in the current report feed yet.
         </p>
       </div>
     );
@@ -1085,7 +999,7 @@ function LeagueCard({
 
   const normalized = normalizeSection(sectionKey, section);
   const leadText =
-    getCleanLeadText(normalized) || "Live data available. See sections below.";
+    normalized.snapshot || normalized.headline || normalized.body || "Latest report data available.";
 
   return (
     <div className="rounded-2xl border border-zinc-800 bg-zinc-950/70 p-5">
@@ -1103,27 +1017,24 @@ function LeagueCard({
         </span>
       </div>
 
-      <p className="text-sm leading-7 text-zinc-300">{leadText}</p>
+      <p className="text-sm leading-7 text-zinc-300 whitespace-pre-wrap">{leadText}</p>
 
-      {normalized.notes.length > 0 && (
-        <SectionList title="Report Notes" items={normalized.notes} limit={5} />
-      )}
-
+      <SectionList title="Final Scores" items={normalized.finalScores} limit={5} />
+      <SectionList title="Live" items={normalized.live} limit={5} />
+      <SectionList title="Upcoming" items={normalized.upcoming} limit={5} />
+      <SectionList title="Report Notes" items={normalized.notes} limit={5} />
       <SectionList title="Key Data Points" items={normalized.keyDataPoints} limit={4} />
       <SectionList title="Why It Matters" items={normalized.whyItMatters} limit={3} />
       <SectionList title="Story Angles" items={normalized.storyAngles} limit={3} />
       <SectionList title="Watch List" items={normalized.watchList} limit={3} />
-      <SectionList title="Live" items={normalized.live} limit={5} />
-      <SectionList title="Final Scores" items={normalized.finalScores} limit={6} />
-      <SectionList title="Upcoming" items={normalized.upcoming} limit={6} />
-      <SectionList title="Fantasy Insights" items={normalized.fantasyInsights} limit={4} />
+      <SectionList title="Fantasy Insights" items={normalized.fantasyInsights} limit={5} />
 
       {normalized.statcastSnapshot ? (
         <div className="mt-4 border-t border-zinc-800 pt-4">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
             Statcast Snapshot
           </p>
-          <p className="text-sm leading-7 text-zinc-300">
+          <p className="text-sm leading-7 text-zinc-300 whitespace-pre-wrap">
             {normalized.statcastSnapshot}
           </p>
         </div>
@@ -1134,7 +1045,7 @@ function LeagueCard({
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
             Historical Context
           </p>
-          <p className="text-sm leading-7 text-zinc-300">
+          <p className="text-sm leading-7 text-zinc-300 whitespace-pre-wrap">
             {normalized.historicalContext}
           </p>
         </div>
@@ -1145,7 +1056,9 @@ function LeagueCard({
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
             Outlook
           </p>
-          <p className="text-sm leading-7 text-zinc-300">{normalized.outlook}</p>
+          <p className="text-sm leading-7 text-zinc-300 whitespace-pre-wrap">
+            {normalized.outlook}
+          </p>
         </div>
       ) : null}
     </div>
@@ -1222,7 +1135,7 @@ function AnalyticsDesk({
           <div className="text-[11px] uppercase tracking-[0.18em] text-zinc-500">
             {item.title}
           </div>
-          <p className="mt-2 text-sm leading-7 text-zinc-300">{item.text}</p>
+          <p className="mt-2 text-sm leading-7 text-zinc-300 whitespace-pre-wrap">{item.text}</p>
         </div>
       ))}
     </div>
@@ -1329,23 +1242,19 @@ export default async function HomePage() {
     }));
 
   const title = cleanText(data.title) || "GLOBAL SPORTS REPORT";
+
   const rawHeadline =
     cleanText(data.headline) ||
     "Automated sports journalism support for the modern newsroom.";
-  const rawBody =
-    cleanText(data.body) || "The latest report feed is being prepared.";
+
   const rawKeyStorylines = dedupeAndLimit(flattenStrings(data.key_storylines), 12);
 
   const headline =
-    !hasInlineHeadingBlob(rawHeadline) &&
-    !isRawReportTitleLine(rawHeadline) &&
-    rawHeadline
-      ? rawHeadline
-      : "Automated sports journalism support for the modern newsroom.";
+    chooseTopLevelText(rawHeadline, 320) ||
+    "Automated sports journalism support for the modern newsroom.";
 
   const body = buildEditorialNote(
-    normalizedPrimarySections.map((item) => item.normalized),
-    rawBody
+    normalizedPrimarySections.map((item) => item.normalized)
   );
 
   const keyStorylines = buildGlobalStorylines(
@@ -1354,28 +1263,27 @@ export default async function HomePage() {
   );
 
   const snapshot =
-    (!hasInlineHeadingBlob(cleanText(data.snapshot)) &&
-    !isRawReportTitleLine(cleanText(data.snapshot))
-      ? formatSnapshot(data.snapshot) || cleanText(data.snapshot)
-      : "") ||
     buildLeadSnapshot(
       normalizedPrimarySections.map((item) => item.normalized),
-      rawBody,
       headline
     );
 
   const updatedAt =
     cleanText(data.updated_at || data.meta?.generated_at) || "Update pending";
   const publishedAt = cleanText(data.published_at) || updatedAt;
+
   const disclaimer =
     cleanText(data.disclaimer) ||
     "This report is an automated summary intended to support, not replace, human sports journalism.";
+
   const substackUrl =
     cleanText(data.substack_url || data.meta?.substack_url) ||
     "https://globalsportsreport.substack.com/";
+
   const xHandle =
     cleanText(data.x_handle || data.meta?.x_handle) || "@GlobalSportsRp";
   const xUrl = `https://x.com/${xHandle.replace("@", "")}`;
+
   const globalReport = cleanText(data.global_report);
   const coverageCount = String(
     data.meta?.report_count ?? Object.keys(sections).length ?? 0
@@ -1390,12 +1298,7 @@ export default async function HomePage() {
   );
 
   const quickStatsItems = dedupeAndLimit(
-    [
-      ...deskItems.finals,
-      ...deskItems.live,
-      ...deskItems.upcoming,
-      ...keyStorylines,
-    ],
+    [...deskItems.finals, ...deskItems.live],
     5
   );
 
