@@ -1,924 +1,692 @@
-export const dynamic = "force-dynamic";
-
-import fs from "fs";
+import fs from "fs/promises";
 import path from "path";
 
-type AdvancedReportSections = {
-  statcast_watch?: string[];
-  matchup_flags?: string[];
-  pitcher_signals?: string[];
-  hitter_signals?: string[];
-  bullpen_signals?: string[];
-  team_trends?: string[];
-  betting_signals?: string[];
-  editors_note?: string[];
-  editor_s_note?: string[];
-  league_efficiency_watch?: string[];
-  team_efficiency_watch?: string[];
-  draft_signals?: string[];
-  why_it_matters?: string[];
-  story_angles?: string[];
-  key_data_points?: string[];
-  watch_list?: string[];
-  report_note?: string[];
-  [key: string]: string[] | undefined;
-};
-
-type AdvancedReport = {
-  title?: string;
-  source_file?: string;
-  updated_at?: string;
-  sections?: AdvancedReportSections;
-};
-
-type ReportSection = {
-  name: string;
-  title?: string;
+type AdvancedData = {
   headline?: string;
   snapshot?: string;
   key_storylines?: string[];
-  content: string;
+  key_data_points?: string[];
+  why_it_matters?: string[];
+  story_angles?: string[];
+  watch_list?: string[];
+  final_scores?: string[];
+  live?: string[];
+  upcoming?: string[];
+  historical_context?: string;
+  statcast_snapshot?: string;
+  outlook?: string;
+};
+
+type LeagueSection = {
+  key?: string;
+  title?: string;
   source_file?: string;
-  advanced?: AdvancedReport;
+  updated_at?: string;
+  headline?: string;
+  snapshot?: string;
+  body?: string;
+  bullets?: string[];
+  content?: string;
+  advanced?: AdvancedData;
 };
 
 type ReportData = {
-  title: string;
+  title?: string;
   headline?: string;
-  key_storylines?: string[];
+  body?: string;
   snapshot?: string;
-  sections?: ReportSection[];
-  full_text?: string;
+  key_storylines?: string[];
   generated_at?: string;
   updated_at?: string;
   published_at?: string;
   disclaimer?: string;
+  x_handle?: string;
+  substack_url?: string;
+  global_report?: string;
+  sections?: Record<string, LeagueSection> | LeagueSection[];
+  meta?: {
+    brand?: string;
+    site_url?: string;
+    substack_url?: string;
+    x_handle?: string;
+    edition_date?: string;
+    generated_at?: string;
+    timezone?: string;
+    report_count?: number;
+  };
 };
 
-type RawSectionValue = {
-  title?: string;
-  headline?: string;
-  snapshot?: string;
-  key_storylines?: string[];
-  content?: string;
-  source_file?: string;
-  advanced?: AdvancedReport;
+const FALLBACK_DATA: ReportData = {
+  title: "GLOBAL SPORTS REPORT",
+  headline: "Automated sports journalism support for the modern newsroom.",
+  body: "The latest report feed is being prepared.",
+  snapshot: "The latest report feed is being prepared.",
+  key_storylines: [],
+  generated_at: "Update pending",
+  updated_at: "Update pending",
+  published_at: "Update pending",
+  disclaimer:
+    "This report is an automated summary intended to support, not replace, human sports journalism.",
+  x_handle: "@GlobalSportsRp",
+  substack_url: "https://globalsportsreport.substack.com/",
+  global_report: "",
+  sections: [],
+  meta: {
+    brand: "Global Sports Report",
+    site_url: "https://global-sports-report-web.vercel.app",
+    substack_url: "https://globalsportsreport.substack.com/",
+    x_handle: "@GlobalSportsRp",
+    edition_date: "",
+    generated_at: "Update pending",
+    timezone: "America/New_York",
+    report_count: 0,
+  },
 };
 
-type RawReportData = {
-  title?: string;
-  headline?: string;
-  key_storylines?: string[];
-  snapshot?: string;
-  sections?: Record<string, RawSectionValue> | ReportSection[];
-  full_text?: string;
-  generated_at?: string;
-  updated_at?: string;
-  published_at?: string;
-  disclaimer?: string;
-};
+async function getReportData(): Promise<ReportData> {
+  try {
+    const filePath = path.join(process.cwd(), "public", "latest_report.json");
+    const file = await fs.readFile(filePath, "utf8");
+    const parsed = JSON.parse(file);
 
-function formatSectionDisplayName(key: string): string {
-  const upper = key.trim().toUpperCase();
-
-  switch (upper) {
-    case "BETTING_ODDS":
-      return "BETTING";
-    case "NFL_DRAFT":
-      return "NFL DRAFT SIGNALS";
-    default:
-      return upper.replace(/_/g, " ");
+    return {
+      ...FALLBACK_DATA,
+      ...parsed,
+      key_storylines: Array.isArray(parsed?.key_storylines) ? parsed.key_storylines : [],
+      sections: parsed?.sections ?? [],
+      meta: {
+        ...FALLBACK_DATA.meta,
+        ...(parsed?.meta || {}),
+      },
+    };
+  } catch {
+    return FALLBACK_DATA;
   }
+}
+
+function cleanText(value?: string): string {
+  if (!value) return "";
+  return value
+    .replace(/\r/g, "")
+    .replace(/â€™/g, "’")
+    .replace(/â€œ/g, "“")
+    .replace(/â€\x9d/g, "”")
+    .replace(/â€/g, "”")
+    .replace(/â€”/g, "—")
+    .replace(/â€“/g, "–")
+    .replace(/\u00a0/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+function cleanList(values?: string[]): string[] {
+  if (!Array.isArray(values)) return [];
+  return values
+    .map((item) => cleanText(item).replace(/^- /, "").trim())
+    .filter(Boolean);
+}
+
+function compactText(value?: string, maxLength = 220): string {
+  const cleaned = cleanText(value);
+  if (!cleaned) return "";
+  if (cleaned.length <= maxLength) return cleaned;
+  return `${cleaned.slice(0, maxLength).trimEnd()}...`;
 }
 
 function normalizeSections(
-  input: RawReportData["sections"]
-): ReportSection[] {
-  if (Array.isArray(input)) {
-    return input.map((section) => ({
-      name: formatSectionDisplayName(section.name || "SECTION"),
-      title: section.title || "",
-      headline: section.headline || "",
-      snapshot: section.snapshot || "",
-      key_storylines: Array.isArray(section.key_storylines)
-        ? section.key_storylines
-        : [],
-      content: section.content || "",
-      source_file: section.source_file || "",
-      advanced: section.advanced,
-    }));
+  sections: ReportData["sections"]
+): Record<string, LeagueSection> {
+  if (!sections) return {};
+
+  if (Array.isArray(sections)) {
+    const mapped: Record<string, LeagueSection> = {};
+
+    for (const item of sections) {
+      const rawKey =
+        item?.key ||
+        item?.title ||
+        item?.source_file ||
+        `section_${Object.keys(mapped).length + 1}`;
+
+      const normalizedKey = rawKey
+        .toLowerCase()
+        .replace(/\.txt$/i, "")
+        .replace(/[^a-z0-9]+/g, "_")
+        .replace(/^_+|_+$/g, "");
+
+      let finalKey = normalizedKey;
+
+      if (normalizedKey.includes("mlb")) finalKey = "mlb";
+      else if (normalizedKey.includes("nba")) finalKey = "nba";
+      else if (normalizedKey.includes("nhl")) finalKey = "nhl";
+      else if (normalizedKey.includes("nfl")) finalKey = "nfl";
+      else if (normalizedKey.includes("soccer")) finalKey = "soccer";
+      else if (normalizedKey.includes("betting")) finalKey = "betting_odds";
+      else if (normalizedKey.includes("fantasy")) finalKey = "fantasy";
+
+      mapped[finalKey] = item;
+    }
+
+    return mapped;
   }
 
-  if (!input || typeof input !== "object") {
-    return [];
-  }
-
-  return Object.entries(input).map(([key, value]) => ({
-    name: formatSectionDisplayName(key),
-    title: value?.title || "",
-    headline: value?.headline || "",
-    snapshot: value?.snapshot || "",
-    key_storylines: Array.isArray(value?.key_storylines)
-      ? value.key_storylines
-      : [],
-    content: value?.content || "",
-    source_file: value?.source_file || "",
-    advanced: value?.advanced,
-  }));
+  return sections;
 }
 
-function readReportData(): ReportData | null {
-  try {
-    const filePath = path.join(process.cwd(), "public", "latest_report.json");
-    const raw = fs.readFileSync(filePath, "utf-8");
-    const parsed = JSON.parse(raw) as RawReportData;
+function prettifyKey(key: string): string {
+  return key
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+}
 
-    return {
-      title: parsed.title || "GLOBAL SPORTS REPORT",
-      headline: parsed.headline || "",
-      key_storylines: Array.isArray(parsed.key_storylines)
-        ? parsed.key_storylines
-        : [],
-      snapshot: parsed.snapshot || "",
-      sections: normalizeSections(parsed.sections),
-      full_text: parsed.full_text || "",
-      generated_at: parsed.generated_at || "",
-      updated_at: parsed.updated_at || parsed.generated_at || "",
-      published_at:
-        parsed.published_at || parsed.updated_at || parsed.generated_at || "",
-      disclaimer: parsed.disclaimer || "",
+function getLeagueCards(
+  sections: Record<string, LeagueSection>
+): { key: string; label: string; data?: LeagueSection }[] {
+  return [
+    { key: "mlb", label: "MLB", data: sections.mlb },
+    { key: "nba", label: "NBA", data: sections.nba },
+    { key: "nhl", label: "NHL", data: sections.nhl },
+    { key: "nfl", label: "NFL", data: sections.nfl },
+    { key: "soccer", label: "Soccer", data: sections.soccer },
+    { key: "betting_odds", label: "Betting Odds", data: sections.betting_odds },
+  ];
+}
+
+function QuickStat({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-2xl border border-zinc-800 bg-black/40 p-4">
+      <div className="text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+        {label}
+      </div>
+      <div className="mt-2 text-sm font-semibold leading-6 text-white sm:text-base">
+        {value}
+      </div>
+    </div>
+  );
+}
+
+function SectionList({
+  title,
+  items,
+  limit = 4,
+}: {
+  title: string;
+  items: string[];
+  limit?: number;
+}) {
+  const cleaned = cleanList(items);
+  if (cleaned.length === 0) return null;
+  if (cleaned.length === 1 && cleaned[0].startsWith("No ")) return null;
+
+  return (
+    <div className="mt-4 border-t border-zinc-800 pt-4">
+      <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+        {title}
+      </p>
+      <ul className="space-y-2">
+        {cleaned.slice(0, limit).map((item, index) => (
+          <li key={`${title}-${index}`} className="text-sm leading-6 text-zinc-300">
+            • {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function LeagueCard({
+  title,
+  section,
+}: {
+  title: string;
+  section?: LeagueSection;
+}) {
+  if (!section) {
+    return (
+      <div className="rounded-2xl border border-zinc-800 bg-zinc-950/70 p-5">
+        <div className="mb-3 flex items-center justify-between gap-3">
+          <h3 className="text-lg font-semibold text-white">{title}</h3>
+          <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-zinc-400">
+            Pending
+          </span>
+        </div>
+        <p className="text-sm leading-7 text-zinc-400">
+          No section data is available for this category in the current report feed.
+        </p>
+      </div>
+    );
+  }
+
+  const advanced = section.advanced || {};
+  const headline = cleanText(section.headline || advanced.headline);
+  const snapshot = cleanText(section.snapshot || advanced.snapshot);
+  const body = cleanText(section.body);
+  const whyItMatters = cleanList(advanced.why_it_matters);
+  const storyAngles = cleanList(advanced.story_angles);
+  const watchList = cleanList(advanced.watch_list);
+  const keyDataPoints = cleanList(advanced.key_data_points);
+  const upcoming = cleanList(advanced.upcoming);
+  const finalScores = cleanList(advanced.final_scores);
+  const live = cleanList(advanced.live);
+  const statcast = cleanText(advanced.statcast_snapshot);
+  const outlook = cleanText(advanced.outlook);
+  const historicalContext = cleanText(advanced.historical_context);
+
+  const leadText =
+    snapshot ||
+    headline ||
+    compactText(body, 260) ||
+    "Section data is available, but no summary was found.";
+
+  return (
+    <div className="rounded-2xl border border-zinc-800 bg-zinc-950/70 p-5">
+      <div className="mb-4 flex items-center justify-between gap-3">
+        <div>
+          <h3 className="text-lg font-semibold text-white">{title}</h3>
+          {section.updated_at ? (
+            <p className="mt-1 text-xs uppercase tracking-[0.18em] text-zinc-500">
+              {cleanText(section.updated_at)}
+            </p>
+          ) : null}
+        </div>
+        <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-zinc-400">
+          Live Feed
+        </span>
+      </div>
+
+      <p className="text-sm leading-7 text-zinc-300">{leadText}</p>
+
+      <SectionList title="Key Data Points" items={keyDataPoints} limit={3} />
+      <SectionList title="Why It Matters" items={whyItMatters} limit={3} />
+      <SectionList title="Story Angles" items={storyAngles} limit={3} />
+      <SectionList title="Watch List" items={watchList} limit={3} />
+      <SectionList title="Live" items={live} limit={3} />
+      <SectionList title="Final Scores" items={finalScores} limit={4} />
+      <SectionList title="Upcoming" items={upcoming} limit={4} />
+
+      {statcast ? (
+        <div className="mt-4 border-t border-zinc-800 pt-4">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+            Statcast Snapshot
+          </p>
+          <p className="text-sm leading-7 text-zinc-300">{statcast}</p>
+        </div>
+      ) : null}
+
+      {historicalContext ? (
+        <div className="mt-4 border-t border-zinc-800 pt-4">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+            Historical Context
+          </p>
+          <p className="text-sm leading-7 text-zinc-300">{historicalContext}</p>
+        </div>
+      ) : null}
+
+      {outlook ? (
+        <div className="mt-4 border-t border-zinc-800 pt-4">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+            Outlook
+          </p>
+          <p className="text-sm leading-7 text-zinc-300">{outlook}</p>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+function AnalyticsDesk({
+  sections,
+}: {
+  sections: Record<string, LeagueSection>;
+}) {
+  const items: { title: string; text: string }[] = [];
+
+  Object.entries(sections).forEach(([leagueKey, section]) => {
+    const advanced = section.advanced || {};
+
+    const pushGroup = (label: string, values?: string[], limit = 2) => {
+      cleanList(values)
+        .slice(0, limit)
+        .forEach((value) => {
+          items.push({
+            title: `${prettifyKey(leagueKey)} · ${label}`,
+            text: value,
+          });
+        });
     };
-  } catch (error) {
-    console.error("Failed to read latest_report.json:", error);
-    return null;
-  }
-}
 
-function normalizeSectionName(name: string): string {
-  return name.trim().toUpperCase();
-}
+    pushGroup("Key Data Points", advanced.key_data_points, 2);
+    pushGroup("Why It Matters", advanced.why_it_matters, 2);
+    pushGroup("Story Angles", advanced.story_angles, 2);
+    pushGroup("Watch List", advanced.watch_list, 2);
 
-function isDraftSection(name: string): boolean {
-  const normalized = normalizeSectionName(name);
-  return normalized === "NFL DRAFT SIGNALS" || normalized === "NFL_DRAFT";
-}
+    if (cleanText(advanced.historical_context)) {
+      items.push({
+        title: `${prettifyKey(leagueKey)} · Historical Context`,
+        text: cleanText(advanced.historical_context),
+      });
+    }
 
-function isMlbSection(name: string): boolean {
-  return normalizeSectionName(name) === "MLB";
-}
+    if (cleanText(advanced.statcast_snapshot)) {
+      items.push({
+        title: `${prettifyKey(leagueKey)} · Statcast Snapshot`,
+        text: cleanText(advanced.statcast_snapshot),
+      });
+    }
 
-function sectionTone(name: string): string {
-  switch (normalizeSectionName(name)) {
-    case "MLB":
-      return "border-blue-200 bg-blue-50";
-    case "NBA":
-      return "border-orange-200 bg-orange-50";
-    case "NHL":
-      return "border-sky-200 bg-sky-50";
-    case "NFL":
-      return "border-emerald-200 bg-emerald-50";
-    case "NFL DRAFT SIGNALS":
-    case "NFL_DRAFT":
-      return "border-fuchsia-200 bg-fuchsia-50";
-    case "SOCCER":
-      return "border-lime-200 bg-lime-50";
-    case "FANTASY":
-      return "border-violet-200 bg-violet-50";
-    case "BETTING":
-    case "BETTING ODDS":
-      return "border-rose-200 bg-rose-50";
-    default:
-      return "border-slate-200 bg-white";
-  }
-}
+    if (cleanText(advanced.outlook)) {
+      items.push({
+        title: `${prettifyKey(leagueKey)} · Outlook`,
+        text: cleanText(advanced.outlook),
+      });
+    }
+  });
 
-function advancedTone(name: string): string {
-  switch (normalizeSectionName(name)) {
-    case "MLB":
-      return "border-indigo-200 bg-indigo-50";
-    case "NBA":
-      return "border-amber-200 bg-amber-50";
-    case "NHL":
-      return "border-cyan-200 bg-cyan-50";
-    case "NFL":
-      return "border-teal-200 bg-teal-50";
-    case "NFL DRAFT SIGNALS":
-    case "NFL_DRAFT":
-      return "border-purple-200 bg-purple-50";
-    default:
-      return "border-slate-200 bg-slate-50";
-  }
-}
+  const trimmed = items.slice(0, 10);
 
-function formatAdvancedHeading(key: string): string {
-  return key.replace(/_/g, " ").replace(/\s+/g, " ").trim().toUpperCase();
-}
-
-function extractReportDate(title?: string): string {
-  if (!title) {
-    return "";
+  if (trimmed.length === 0) {
+    return (
+      <p className="text-sm leading-7 text-zinc-400">
+        Historical context, matchup signals, Statcast notes, betting context, and draft angles will populate here when advanced report fields are available.
+      </p>
+    );
   }
 
-  const match = title.match(/\|\s*(\d{4}-\d{2}-\d{2})\s*$/);
-  return match?.[1] || "";
+  return (
+    <div className="space-y-4">
+      {trimmed.map((item, index) => (
+        <div
+          key={`${item.title}-${index}`}
+          className="rounded-2xl border border-zinc-800 bg-black/40 p-4"
+        >
+          <div className="text-[11px] uppercase tracking-[0.18em] text-zinc-500">
+            {item.title}
+          </div>
+          <p className="mt-2 text-sm leading-7 text-zinc-300">{item.text}</p>
+        </div>
+      ))}
+    </div>
+  );
 }
 
-function getAdvancedSectionEntries(
-  advanced?: AdvancedReport
-): Array<[string, string[]]> {
-  if (!advanced?.sections || typeof advanced.sections !== "object") {
-    return [];
+function FullReportFeed({
+  headline,
+  body,
+  keyStorylines,
+  globalReport,
+}: {
+  headline: string;
+  body: string;
+  keyStorylines: string[];
+  globalReport: string;
+}) {
+  const cleanedGlobal = cleanText(globalReport);
+
+  if (cleanedGlobal) {
+    return (
+      <div className="rounded-2xl border border-zinc-800 bg-black/40 p-5">
+        <pre className="whitespace-pre-wrap break-words text-sm leading-7 text-zinc-300">
+          {cleanedGlobal}
+        </pre>
+      </div>
+    );
   }
 
-  const orderedKeys = [
-    "statcast_watch",
-    "matchup_flags",
-    "pitcher_signals",
-    "hitter_signals",
-    "bullpen_signals",
-    "team_trends",
-    "betting_signals",
-    "league_efficiency_watch",
-    "team_efficiency_watch",
-    "draft_signals",
-    "key_data_points",
-    "why_it_matters",
-    "story_angles",
-    "watch_list",
-    "report_note",
-    "editors_note",
-    "editor_s_note",
+  return (
+    <div className="rounded-2xl border border-zinc-800 bg-black/40 p-5">
+      <p className="text-base font-semibold text-white">{headline}</p>
+
+      {body ? <p className="mt-4 text-sm leading-7 text-zinc-300">{body}</p> : null}
+
+      {keyStorylines.length > 0 ? (
+        <div className="mt-4 space-y-3">
+          {keyStorylines.map((item, index) => (
+            <p key={index} className="text-sm leading-7 text-zinc-300">
+              {item}
+            </p>
+          ))}
+        </div>
+      ) : (
+        <p className="mt-4 text-sm leading-7 text-zinc-400">
+          No report body is currently available.
+        </p>
+      )}
+    </div>
+  );
+}
+
+export default async function HomePage() {
+  const data = await getReportData();
+  const sections = normalizeSections(data.sections);
+  const leagueCards = getLeagueCards(sections);
+
+  const title = cleanText(data.title) || "GLOBAL SPORTS REPORT";
+  const headline =
+    cleanText(data.headline) ||
+    "Automated sports journalism support for the modern newsroom.";
+  const body =
+    cleanText(data.body) || "The latest report feed is being prepared.";
+  const keyStorylines = cleanList(data.key_storylines);
+  const snapshot = cleanText(data.snapshot) || body;
+  const updatedAt = cleanText(data.updated_at || data.meta?.generated_at) || "Update pending";
+  const publishedAt = cleanText(data.published_at) || updatedAt;
+  const disclaimer =
+    cleanText(data.disclaimer) ||
+    "This report is an automated summary intended to support, not replace, human sports journalism.";
+  const substackUrl =
+    cleanText(data.substack_url || data.meta?.substack_url) ||
+    "https://globalsportsreport.substack.com/";
+  const xHandle =
+    cleanText(data.x_handle || data.meta?.x_handle) || "@GlobalSportsRp";
+  const xUrl = `https://x.com/${xHandle.replace("@", "")}`;
+  const globalReport = cleanText(data.global_report);
+  const coverageCount = String(
+    data.meta?.report_count ?? Object.keys(sections).length ?? 0
+  );
+
+  const stats = [
+    { label: "Updated", value: updatedAt },
+    { label: "Published", value: publishedAt },
+    {
+      label: "Coverage",
+      value: ["MLB", "NBA", "NHL", "NFL", "Soccer", "Betting"].join(" · "),
+    },
+    {
+      label: "Reports",
+      value: coverageCount,
+    },
   ];
 
-  const usedKeys = new Set<string>();
-  const entries: Array<[string, string[]]> = [];
-
-  for (const key of orderedKeys) {
-    const value = advanced.sections[key];
-    if (Array.isArray(value) && value.length > 0) {
-      entries.push([key, value]);
-      usedKeys.add(key);
-    }
-  }
-
-  for (const [key, value] of Object.entries(advanced.sections)) {
-    if (usedKeys.has(key)) {
-      continue;
-    }
-    if (Array.isArray(value) && value.length > 0) {
-      entries.push([key, value]);
-    }
-  }
-
-  return entries;
-}
-
-function hasAdvancedContent(advanced?: AdvancedReport): boolean {
-  return getAdvancedSectionEntries(advanced).length > 0;
-}
-
-function shouldRenderAdvanced(section: ReportSection): boolean {
-  if (!section.advanced || !hasAdvancedContent(section.advanced)) {
-    return false;
-  }
-
-  if (!isMlbSection(section.name)) {
-    return true;
-  }
-
-  const sectionDate = extractReportDate(section.title);
-  const advancedDate = extractReportDate(section.advanced.title);
-
-  if (!sectionDate || !advancedDate) {
-    return false;
-  }
-
-  return sectionDate === advancedDate;
-}
-
-function removeSectionBlock(content: string, heading: string): string {
-  const escapedHeading = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const pattern = new RegExp(
-    `(?:^|\\n)${escapedHeading}\\s*\\n[\\s\\S]*?(?=\\n[A-Z][A-Z '()/-]+\\n|$)`,
-    "m"
-  );
-
-  return content.replace(pattern, "\n").trim();
-}
-
-function getVisibleBodyContent(content: string): string {
-  let cleaned = content.trim();
-
-  cleaned = removeSectionBlock(cleaned, "HEADLINE");
-  cleaned = removeSectionBlock(cleaned, "SNAPSHOT");
-  cleaned = removeSectionBlock(cleaned, "KEY STORYLINES");
-
-  return cleaned.replace(/\n{3,}/g, "\n\n").trim();
-}
-
-function formatSectionContent(content: string): string[] {
-  return getVisibleBodyContent(content)
-    .split("\n")
-    .map((line) => line.trim())
-    .filter((line) => line.length > 0);
-}
-
-function renderBodyLine(line: string, key: string) {
-  const isLabel =
-    line === "FINAL SCORES" ||
-    line === "FINAL SCORES (PREVIOUS DAY)" ||
-    line === "LIVE" ||
-    line === "LIVE (LATE WINDOW)" ||
-    line === "UPCOMING" ||
-    line === "UPCOMING (TODAY)" ||
-    line === "TOP BOARD" ||
-    line === "GLOBAL SNAPSHOT" ||
-    line === "FALLBACK NOTE" ||
-    line === "BETTING MARKET NOTE" ||
-    line === "MATCHUP FLAGS" ||
-    line === "LEAGUE EFFICIENCY WATCH" ||
-    line === "TEAM EFFICIENCY WATCH" ||
-    line === "WHY IT MATTERS" ||
-    line === "STORY ANGLES" ||
-    line === "KEY DATA POINTS" ||
-    line === "DRAFT SIGNALS" ||
-    line === "WATCH LIST" ||
-    line === "REPORT NOTE" ||
-    line === "BOARD CONTEXT" ||
-    line === "STATCAST WATCH";
-
-  if (isLabel) {
-    return (
-      <div
-        key={key}
-        className="pt-3 text-xs font-black uppercase tracking-[0.18em] text-slate-500"
-      >
-        {line}
-      </div>
-    );
-  }
-
-  const isBulletLike =
-    line.startsWith("- ") ||
-    line.startsWith("• ") ||
-    /^[A-Z][A-Za-z\s'.()&/-]+ \(\d/.test(line);
-
-  if (isBulletLike) {
-    const cleanedLine = line.replace(/^[-•]\s*/, "").trim();
-    return (
-      <div key={key} className="flex gap-2 text-sm leading-7 text-slate-800">
-        <span className="font-bold text-slate-500">-</span>
-        <span>{cleanedLine}</span>
-      </div>
-    );
-  }
-
   return (
-    <p key={key} className="text-sm leading-7 text-slate-800">
-      {line}
-    </p>
-  );
-}
-
-function sectionBadge(name: string): string {
-  if (isDraftSection(name)) {
-    return "Draft Intel";
-  }
-
-  switch (normalizeSectionName(name)) {
-    case "FANTASY":
-      return "Cross-League";
-    case "BETTING":
-    case "BETTING ODDS":
-      return "Market Watch";
-    default:
-      return "Section";
-  }
-}
-
-function sectionSortValue(name: string): number {
-  switch (normalizeSectionName(name)) {
-    case "MLB":
-      return 1;
-    case "NBA":
-      return 2;
-    case "NHL":
-      return 3;
-    case "NFL":
-      return 4;
-    case "NFL DRAFT SIGNALS":
-    case "NFL_DRAFT":
-      return 5;
-    case "SOCCER":
-      return 6;
-    case "FANTASY":
-      return 7;
-    case "BETTING":
-    case "BETTING ODDS":
-      return 8;
-    default:
-      return 99;
-  }
-}
-
-function inferStorylineLabel(item: string): string {
-  const text = item.toLowerCase();
-
-  const isAnalytics =
-    text.includes("advanced") ||
-    text.includes("statcast") ||
-    text.includes("efficiency") ||
-    text.includes("epa") ||
-    text.includes("spin rate") ||
-    text.includes("analytics");
-
-  const isDraft =
-    text.includes("draft") ||
-    text.includes("quarterback") ||
-    text.includes("roster") ||
-    text.includes("first round");
-
-  const isMLB =
-    text.includes("mlb") ||
-    text.includes("baseball") ||
-    text.includes("probable starters") ||
-    text.includes("pitching") ||
-    text.includes("diamondbacks") ||
-    text.includes("orioles");
-
-  const isNBA =
-    text.includes("nba") ||
-    text.includes("pace") ||
-    text.includes("net rating") ||
-    text.includes("hornets") ||
-    text.includes("heat") ||
-    text.includes("suns") ||
-    text.includes("trail blazers");
-
-  const isNFL =
-    text.includes("nfl") ||
-    text.includes("epa") ||
-    text.includes("pass efficiency") ||
-    text.includes("rushing") ||
-    text.includes("patriots") ||
-    text.includes("bills") ||
-    text.includes("rams");
-
-  const isNHL =
-    text.includes("nhl") ||
-    text.includes("sabres") ||
-    text.includes("lightning") ||
-    text.includes("golden knights");
-
-  const isSoccer =
-    text.includes("soccer") ||
-    text.includes("barcelona") ||
-    text.includes("psg") ||
-    text.includes("madrid");
-
-  const isBetting =
-    text.includes("betting") ||
-    text.includes("moneyline") ||
-    text.includes("spread") ||
-    text.includes("odds");
-
-  const isFantasy = text.includes("fantasy");
-
-  if (isDraft) {
-    return "NFL Draft Update";
-  }
-  if (isMLB && isAnalytics) {
-    return "MLB Data Point";
-  }
-  if (isNBA && isAnalytics) {
-    return "NBA Data Point";
-  }
-  if (isNFL && isAnalytics) {
-    return "NFL Data Point";
-  }
-  if (isMLB) {
-    return "MLB Update";
-  }
-  if (isNBA) {
-    return "NBA Update";
-  }
-  if (isNFL) {
-    return "NFL Update";
-  }
-  if (isNHL) {
-    return "NHL Update";
-  }
-  if (isSoccer) {
-    return "Soccer Update";
-  }
-  if (isBetting) {
-    return "Betting Update";
-  }
-  if (isFantasy) {
-    return "Fantasy Update";
-  }
-  if (isAnalytics) {
-    return "Analytics Update";
-  }
-
-  return "General Update";
-}
-
-export default function HomePage() {
-  const report = readReportData();
-
-  if (!report) {
-    return (
-      <main className="min-h-screen bg-slate-100 text-slate-900">
-        <div className="mx-auto max-w-6xl px-6 py-16">
-          <div className="rounded-3xl border border-red-200 bg-white p-8 shadow-sm">
-            <h1 className="text-3xl font-black tracking-tight">
-              Global Sports Report
-            </h1>
-            <p className="mt-4 text-base text-slate-700">
-              The report feed could not be loaded from{" "}
-              <span className="font-semibold">public/latest_report.json</span>.
-            </p>
-          </div>
-        </div>
-      </main>
-    );
-  }
-
-  const {
-    title,
-    headline,
-    key_storylines,
-    snapshot,
-    sections,
-    full_text,
-    published_at,
-    disclaimer,
-  } = report;
-
-  const sortedSections = [...(sections ?? [])].sort(
-    (a, b) => sectionSortValue(a.name) - sectionSortValue(b.name)
-  );
-
-  const sectionCount = sortedSections.length;
-  const advancedSectionCount = sortedSections.filter((section) =>
-    shouldRenderAdvanced(section)
-  ).length;
-
-  return (
-    <main className="min-h-screen bg-slate-100 text-slate-900">
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <header className="mb-6 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-            <div className="max-w-4xl">
-              <div className="mb-2 inline-flex rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
-                Automated newsroom feed
+    <main className="min-h-screen bg-black text-zinc-100">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <header className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-6 shadow-2xl shadow-black/30">
+          <div className="grid gap-8 lg:grid-cols-[1.5fr_0.9fr]">
+            <div>
+              <div className="mb-3 inline-flex items-center rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.28em] text-zinc-400">
+                Global Sports Report
               </div>
 
-              <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
+              <h1 className="max-w-4xl text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
                 {title}
               </h1>
 
-              <p className="mt-3 text-sm font-semibold text-slate-600">
-                Automated editorial intelligence for modern sports newsrooms.
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
+                {headline}
               </p>
 
-              {headline ? (
-                <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-700">
-                  {headline}
-                </p>
-              ) : null}
-
-              <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-                <h2 className="text-sm font-bold uppercase tracking-[0.28em] text-slate-600">
-                  How This Helps Newsrooms
-                </h2>
-
-                <p className="mt-3 text-base font-semibold text-slate-900">
-                  Built for journalists, by a journalist.
-                </p>
-
-                <ul className="mt-4 space-y-3 text-sm leading-7 text-slate-700">
-                  <li>
-                    Delivers real-time editorial angles across leagues, helping
-                    reporters quickly identify what matters on any given slate.
-                  </li>
-                  <li>
-                    Tracks game-state movement across final, live, and upcoming
-                    events to support both breaking coverage and forward-looking
-                    story planning.
-                  </li>
-                  <li>
-                    Surfaces structured data signals that can be developed into
-                    deeper reporting, analysis, and on-air discussion.
-                  </li>
-                  <li>
-                    Produces consistent, publication-ready outputs that fit
-                    naturally into digital, social, and newsletter workflows.
-                  </li>
-                  <li>
-                    Scales across multiple sports, allowing lean teams to expand
-                    coverage without sacrificing editorial quality.
-                  </li>
-                </ul>
-
-                <p className="mt-5 text-xs leading-6 text-slate-500">
-                  This report is an automated summary intended to support, not
-                  replace, human sports journalism.
-                </p>
-              </section>
-
-              <section className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-6">
-                <h2 className="text-sm font-bold uppercase tracking-[0.28em] text-slate-600">
-                  Get The Daily Report
-                </h2>
-
-                <p className="mt-3 text-base text-slate-800">
-                  Subscribe to receive the Global Sports Report each morning.
-                </p>
-
-                <div className="mt-4">
-                  <a
-                    href="https://globalsportsreport.substack.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block rounded-xl bg-orange-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-orange-700"
-                  >
-                    Subscribe on Substack →
-                  </a>
-                </div>
-              </section>
-            </div>
-
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-700">
-              <div className="font-semibold text-slate-900">
-                Report published
-              </div>
-              <div className="mt-1">{published_at || "Unavailable"}</div>
-            </div>
-          </div>
-
-          {key_storylines && key_storylines.length > 0 ? (
-            <section className="mt-6">
-              <h2 className="text-sm font-black uppercase tracking-[0.18em] text-slate-500">
-                Key Storylines
-              </h2>
-              <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-                {key_storylines.map((item, index) => (
-                  <div
-                    key={`${item}-${index}`}
-                    className="rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-sm"
-                  >
-                    <div className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">
-                      {inferStorylineLabel(item)}
-                    </div>
-                    <p className="mt-2 text-sm leading-6 text-slate-800">
-                      {item}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </section>
-          ) : null}
-
-          {snapshot ? (
-            <section className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-4">
-              <div className="text-sm font-black uppercase tracking-[0.18em] text-slate-500">
-                Snapshot
-              </div>
-              <p className="mt-2 text-base font-medium text-slate-800">
-                {snapshot}
-              </p>
-            </section>
-          ) : null}
-        </header>
-
-        <div className="grid items-start gap-6 xl:grid-cols-[1.2fr_0.8fr]">
-          <section className="space-y-5">
-            {sortedSections.length > 0 ? (
-              sortedSections.map((section) => {
-                const lines = formatSectionContent(section.content);
-                const advancedEntries = getAdvancedSectionEntries(section.advanced);
-                const showAdvanced = shouldRenderAdvanced(section);
-
-                return (
-                  <article
-                    key={section.name}
-                    className={`rounded-3xl border p-5 shadow-sm ${sectionTone(
-                      section.name
-                    )}`}
-                  >
-                    <div className="flex items-center justify-between gap-4">
-                      <h2 className="text-2xl font-black tracking-tight">
-                        {section.name}
-                      </h2>
-                      <div className="rounded-full border border-slate-300 bg-white px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-slate-600">
-                        {sectionBadge(section.name)}
-                      </div>
-                    </div>
-
-                    {section.headline ? (
-                      <p className="mt-4 text-base leading-7 text-slate-800">
-                        {section.headline}
-                      </p>
-                    ) : null}
-
-                    {section.snapshot ? (
-                      <div className="mt-4 rounded-2xl border border-slate-200 bg-white/70 p-4">
-                        <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-                          Snapshot
-                        </div>
-                        <p className="mt-2 text-sm leading-6 text-slate-800">
-                          {section.snapshot}
-                        </p>
-                      </div>
-                    ) : null}
-
-                    {section.key_storylines && section.key_storylines.length > 0 ? (
-                      <div className="mt-4 rounded-2xl border border-slate-200 bg-white/70 p-4">
-                        <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-                          Key Storylines
-                        </div>
-                        <div className="mt-3 space-y-2">
-                          {section.key_storylines.map((item, index) => (
-                            <p
-                              key={`${section.name}-story-${index}`}
-                              className="text-sm leading-6 text-slate-800"
-                            >
-                              <span className="mr-2 font-bold text-slate-500">
-                                -
-                              </span>
-                              {item}
-                            </p>
-                          ))}
-                        </div>
-                      </div>
-                    ) : null}
-
-                    {lines.length > 0 ? (
-                      <div className="mt-4 space-y-2">
-                        {lines.map((line, index) =>
-                          renderBodyLine(line, `${section.name}-${index}`)
-                        )}
-                      </div>
-                    ) : null}
-
-                    {showAdvanced ? (
-                      <section
-                        className={`mt-6 rounded-3xl border p-5 shadow-sm ${advancedTone(
-                          section.name
-                        )}`}
-                      >
-                        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-                          <div>
-                            <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-                              {isDraftSection(section.name)
-                                ? "Draft Signals"
-                                : "Advanced Metrics"}
-                            </div>
-                            <h3 className="mt-2 text-xl font-black tracking-tight text-slate-900">
-                              {section.advanced?.title ||
-                                `${section.name} ADVANCED REPORT`}
-                            </h3>
-                          </div>
-
-                          <div className="rounded-2xl border border-slate-300 bg-white px-3 py-2 text-xs text-slate-600">
-                            <div className="font-bold uppercase tracking-[0.18em] text-slate-500">
-                              Updated
-                            </div>
-                            <div className="mt-1 font-semibold text-slate-900">
-                              {section.advanced?.updated_at ||
-                                published_at ||
-                                "Unavailable"}
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="mt-5 grid gap-4">
-                          {advancedEntries.map(([key, items]) => (
-                            <div
-                              key={`${section.name}-${key}`}
-                              className="rounded-2xl border border-slate-200 bg-white p-4"
-                            >
-                              <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-                                {formatAdvancedHeading(key)}
-                              </div>
-
-                              <div className="mt-3 space-y-3">
-                                {items.map((item, index) => (
-                                  <div
-                                    key={`${section.name}-${key}-${index}`}
-                                    className="text-sm leading-7 text-slate-800"
-                                  >
-                                    <span className="mr-2 font-bold text-slate-500">
-                                      -
-                                    </span>
-                                    {item}
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </section>
-                    ) : null}
-                  </article>
-                );
-              })
-            ) : (
-              <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                <h2 className="text-2xl font-black tracking-tight">
-                  Daily Report
-                </h2>
-                <p className="mt-3 text-sm leading-7 text-slate-700">
-                  No section data is currently available.
-                </p>
-              </div>
-            )}
-          </section>
-
-          <aside className="h-fit space-y-5 xl:sticky xl:top-6">
-            <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-              <h2 className="text-xl font-black tracking-tight">
-                Report Status
-              </h2>
-              <div className="mt-4 space-y-3 text-sm text-slate-700">
-                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                  <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-                    Sections loaded
-                  </div>
-                  <div className="mt-2 text-2xl font-black text-slate-900">
-                    {sectionCount}
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                  <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-                    Advanced sections
-                  </div>
-                  <div className="mt-2 text-2xl font-black text-slate-900">
-                    {advancedSectionCount}
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                  <div className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-                    Report published
-                  </div>
-                  <div className="mt-2 text-sm font-semibold text-slate-900">
-                    {published_at || "Unavailable"}
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-              <h2 className="text-xl font-black tracking-tight">Live on X</h2>
-
-              <p className="mt-2 text-sm text-slate-600">
-                Follow the latest automated thread from @GlobalSportsRp.
-              </p>
-
-              <div className="mt-4">
+              <div className="mt-6 flex flex-wrap gap-3">
                 <a
-                  href="https://twitter.com/GlobalSportsRp"
+                  href={substackUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
+                  rel="noreferrer"
+                  className="rounded-xl border border-zinc-700 bg-white px-4 py-2 text-sm font-semibold text-black transition hover:opacity-90"
                 >
-                  View Latest Thread →
+                  Substack
+                </a>
+                <a
+                  href={xUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-xl border border-zinc-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-900"
+                >
+                  X / Twitter
+                </a>
+                <a
+                  href="/latest_report.json"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-xl border border-zinc-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-900"
+                >
+                  Latest JSON Feed
+                </a>
+                <a
+                  href="/latest_report.txt"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-xl border border-zinc-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-900"
+                >
+                  Full Report Feed
                 </a>
               </div>
-            </section>
 
-            <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-              <h2 className="text-xl font-black tracking-tight">
-                Full Report Feed
-              </h2>
+              <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                {stats.map((stat) => (
+                  <QuickStat key={stat.label} label={stat.label} value={stat.value} />
+                ))}
+              </div>
+            </div>
 
-              {full_text ? (
-                <pre className="mt-4 max-h-[900px] overflow-auto whitespace-pre-wrap rounded-2xl border border-slate-200 bg-slate-950 p-4 text-xs leading-6 text-slate-100">
-                  {full_text}
-                </pre>
+            <aside className="rounded-2xl border border-zinc-800 bg-black/40 p-5">
+              <div className="mb-3 flex items-center justify-between">
+                <h2 className="text-lg font-semibold text-white">Graphic / Video Briefing</h2>
+                <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+                  Media Box
+                </span>
+              </div>
+
+              <div className="flex aspect-video items-center justify-center rounded-2xl border border-dashed border-zinc-700 bg-zinc-950 text-center">
+                <div className="max-w-xs px-6">
+                  <p className="text-sm font-medium text-zinc-300">
+                    Reserved for a daily video recap or graphic snapshot.
+                  </p>
+                  <p className="mt-2 text-xs leading-6 text-zinc-500">
+                    This box is ready for a future embed without breaking the report layout.
+                  </p>
+                </div>
+              </div>
+
+              <p className="mt-4 text-sm leading-7 text-zinc-400">{disclaimer}</p>
+            </aside>
+          </div>
+        </header>
+
+        <section className="mt-8 grid gap-8 lg:grid-cols-[1.35fr_0.85fr]">
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-6">
+            <div className="mb-4 flex items-center justify-between gap-4">
+              <h2 className="text-2xl font-bold tracking-tight text-white">Lead Report</h2>
+              <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+                Daily Edition
+              </span>
+            </div>
+
+            <p className="text-base leading-8 text-zinc-300">{snapshot}</p>
+
+            {keyStorylines.length > 0 ? (
+              <div className="mt-5 border-t border-zinc-800 pt-5">
+                <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+                  Key Storylines
+                </p>
+                <ul className="space-y-3">
+                  {keyStorylines.map((item, index) => (
+                    <li key={index} className="text-sm leading-7 text-zinc-300">
+                      • {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+
+            {body ? (
+              <div className="mt-5 border-t border-zinc-800 pt-5">
+                <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+                  Editorial Note
+                </p>
+                <p className="text-sm leading-7 text-zinc-300">{body}</p>
+              </div>
+            ) : null}
+          </div>
+
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-6">
+            <div className="mb-4 flex items-center justify-between gap-4">
+              <h2 className="text-2xl font-bold tracking-tight text-white">Quick Stats</h2>
+              <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+                Snapshot
+              </span>
+            </div>
+
+            <div className="space-y-3">
+              {keyStorylines.length > 0 ? (
+                keyStorylines.slice(0, 5).map((item, index) => (
+                  <div
+                    key={index}
+                    className="rounded-2xl border border-zinc-800 bg-black/40 p-4 text-sm leading-7 text-zinc-300"
+                  >
+                    {item}
+                  </div>
+                ))
               ) : (
-                <p className="mt-4 text-sm leading-7 text-slate-700">
-                  Full report text is not currently available.
+                <p className="text-sm leading-7 text-zinc-400">
+                  Quick stats will appear here when the report feed includes them.
                 </p>
               )}
-            </section>
+            </div>
+          </div>
+        </section>
 
-            {disclaimer ? (
-              <section className="rounded-3xl border border-blue-200 bg-blue-50 p-5 shadow-sm">
-                <h2 className="text-sm font-black uppercase tracking-[0.18em] text-blue-700">
-                  Editorial Note
-                </h2>
-                <p className="mt-3 text-sm leading-7 text-slate-800">
-                  {disclaimer}
-                </p>
-              </section>
-            ) : null}
-          </aside>
-        </div>
+        <section className="mt-8">
+          <div className="mb-4 flex items-center justify-between gap-4">
+            <h2 className="text-2xl font-bold tracking-tight text-white">League Coverage</h2>
+            <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+              Core Report Sections
+            </span>
+          </div>
+
+          <div className="grid gap-5 lg:grid-cols-2">
+            {leagueCards.map((card) => (
+              <LeagueCard key={card.key} title={card.label} section={card.data} />
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-8 grid gap-8 lg:grid-cols-[1fr_1fr]">
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-6">
+            <div className="mb-4 flex items-center justify-between gap-4">
+              <h2 className="text-2xl font-bold tracking-tight text-white">Analytics Desk</h2>
+              <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+                Trends & Context
+              </span>
+            </div>
+
+            <AnalyticsDesk sections={sections} />
+          </div>
+
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-6">
+            <div className="mb-4 flex items-center justify-between gap-4">
+              <h2 className="text-2xl font-bold tracking-tight text-white">Full Report Feed</h2>
+              <span className="rounded-full border border-zinc-700 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+                Raw Editorial Output
+              </span>
+            </div>
+
+            <FullReportFeed
+              headline={headline}
+              body={body}
+              keyStorylines={keyStorylines}
+              globalReport={globalReport}
+            />
+          </div>
+        </section>
       </div>
     </main>
   );
