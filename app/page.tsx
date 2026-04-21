@@ -1,1110 +1,1134 @@
 import fs from "fs";
 import path from "path";
-import { unstable_noStore as noStore } from "next/cache";
+import React from "react";
 
-type Primitive = string | number | boolean | null | undefined;
-type JsonValue = Primitive | JsonValue[] | { [key: string]: JsonValue };
-type AnyRecord = Record<string, JsonValue>;
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+type JsonPrimitive = string | number | boolean | null;
+type JsonValue = JsonPrimitive | JsonValue[] | { [key: string]: JsonValue };
 
 type ReportSection = {
-  key: string;
-  renderKey: string;
-  label: string;
-  title: string;
-  summary: string;
-  headline: string;
-  storylines: string[];
-  live: string[];
-  finals: string[];
-  upcoming: string[];
-  analytics: string[];
+  name?: string;
+  title?: string;
+  headline?: string;
+  snapshot?: string | string[];
+  key_storylines?: string[];
+  content?: string;
+  source_file?: string;
+  updated_at?: string;
+  games?: {
+    live?: string[];
+    upcoming?: string[];
+    final?: string[];
+    [key: string]: JsonValue | undefined;
+  };
+  structured_sections?: Record<string, JsonValue>;
+  advanced?: Record<string, JsonValue>;
+  [key: string]: JsonValue | undefined;
 };
 
-type SummaryStat = {
-  label: string;
-  value: string;
+type RootReport = {
+  title?: string;
+  headline?: string;
+  key_storylines?: string[];
+  snapshot?: string | string[];
+  generated_at?: string;
+  generated_date?: string;
+  updated_at?: string;
+  published_at?: string;
+  disclaimer?: string;
+  x_handle?: string;
+  x_url?: string;
+  twitter_url?: string;
+  substack_url?: string;
+  telegram_url?: string;
+  telegram_handle?: string;
+  sections?: ReportSection[];
+  sections_map?: Record<string, ReportSection>;
+  [key: string]:
+    | JsonValue
+    | ReportSection[]
+    | Record<string, ReportSection>
+    | undefined;
 };
 
-const SUBSTACK_URL_DEFAULT = "https://globalsportsreport.substack.com/";
-const X_HANDLE_DEFAULT = "@GlobalSportsRep";
-const YAHOO_SPORTS_URL = "https://sports.yahoo.com/watch/";
+const VIDEO_URL = "https://www.youtube.com/embed/PMDQ82w1pAE";
+
+const TELEGRAM_URL_ENV =
+  process.env.NEXT_PUBLIC_GSR_TELEGRAM_URL ||
+  process.env.GSR_TELEGRAM_URL ||
+  "";
+
+const SECTION_ORDER = [
+  "MLB",
+  "NBA",
+  "NHL",
+  "NFL",
+  "NFL DRAFT SIGNALS",
+  "NCAAFB",
+  "SOCCER",
+  "FANTASY",
+  "BETTING",
+];
 
 const SECTION_LABELS: Record<string, string> = {
-  mlb: "MLB",
-  nba: "NBA",
-  nhl: "NHL",
-  nfl: "NFL",
-  ncaafb: "NCAA Football",
-  college_football: "NCAA Football",
-  soccer: "Soccer",
-  fantasy: "Fantasy",
-  betting_odds: "Betting Odds",
-  betting: "Betting Odds",
+  MLB: "MLB",
+  NBA: "NBA",
+  NHL: "NHL",
+  NFL: "NFL",
+  "NFL DRAFT SIGNALS": "NFL Draft Signals",
+  NCAAFB: "NCAA Football",
+  SOCCER: "Soccer",
+  FANTASY: "Fantasy",
+  BETTING: "Betting Odds",
 };
 
-const ORDER = [
-  "mlb",
-  "nba",
-  "nhl",
-  "nfl",
-  "ncaafb",
-  "college_football",
-  "soccer",
-  "fantasy",
-  "betting_odds",
-  "betting",
-];
+const RECENT_FINAL_KEYS = new Set([
+  "today_final_scores",
+  "yesterday_final_scores",
+  "recent_final_scores",
+  "final_scores",
+  "today_results",
+]);
 
-const KNOWN_BLOCK_LABELS = [
-  "CURRENT DATA AND ANALYTICS",
-  "KEY DATA POINTS",
-  "WHY IT MATTERS",
-  "STORY ANGLES",
-  "WATCH LIST",
-  "HISTORICAL CONTEXT",
-  "STATCAST SNAPSHOT",
-  "STATIC GRAPHIC",
-  "TODAY PLAYOFF SCHEDULE",
-  "YESTERDAY PLAYOFF RESULTS",
-  "TODAY PLAYOFF RESULTS",
-  "PLAYOFF SCHEDULE",
-  "PLAYOFF RESULTS",
-  "TODAY FINAL SCORES",
-  "YESTERDAY FINAL SCORES",
-  "FINAL SCORES",
-  "RECENT FINAL SCORES",
-  "LIVE GAMES",
-  "UPCOMING GAMES",
-  "TODAY SCHEDULE",
-  "TODAY RESULTS",
-  "YESTERDAY RESULTS",
-  "TODAY LIVE",
-  "PLAYOFF LIVE",
-  "UPCOMING",
-  "LIVE",
-  "HEADLINE",
-  "SNAPSHOT",
-  "DISCLAIMER",
-  "UPDATED",
-  "OUTLOOK",
-  "RANKINGS CONTEXT",
-  "PLAYER MOVES",
-  "NEWS",
-  "KEY NOTES",
-  "KEY FANTASY TAKEAWAYS",
-  "SCHEDULE CONTEXT",
-  "LIVE OR ACTIVE CONTEXT",
-  "RESULTS CONTEXT",
-];
+const COMPACT_KEYS = new Set([
+  "key_data_points",
+  "story_angles",
+  "why_it_matters",
+  "current_data_and_analytics",
+  "historical_context",
+  "news",
+  "watch_list",
+  "team_capital_watch",
+  "draft_calendar",
+  "top_10_draft_order",
+  "day_2_opening_board",
+  "today_final_scores",
+  "yesterday_final_scores",
+  "recent_final_scores",
+  "final_scores",
+  "upcoming_games",
+  "live_games",
+  "today_schedule",
+  "today_results",
+  "top_storylines",
+  "key_storylines",
+  "notes",
+]);
 
-function isRecord(value: unknown): value is AnyRecord {
+function isObject(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
-function safeString(value: unknown): string {
-  if (typeof value === "string") return value.trim();
-  if (typeof value === "number") return String(value);
-  return "";
+function isReportSection(value: unknown): value is ReportSection {
+  return isObject(value);
 }
 
-function safeStringArray(value: unknown): string[] {
-  if (!Array.isArray(value)) return [];
-  return value.map((item) => safeString(item)).filter(Boolean);
-}
-
-function dedupe(items: string[]): string[] {
-  return Array.from(new Set(items.map((item) => item.trim()).filter(Boolean)));
-}
-
-function titleCase(input: string): string {
-  return input.replace(/_/g, " ").replace(/\b\w/g, (match) => match.toUpperCase());
-}
-
-function labelForKey(key: string): string {
-  return SECTION_LABELS[key] ?? titleCase(key);
-}
-
-function compact(text: string, limit = 260): string {
-  const cleaned = text.replace(/\s+/g, " ").trim();
-  if (!cleaned) return "";
-  if (cleaned.length <= limit) return cleaned;
-  return `${cleaned.slice(0, limit).trimEnd().replace(/[.,;:-]+$/, "")}...`;
-}
-
-function normalizeText(text: string): string {
-  return text
+function normalizeText(input: string): string {
+  return input
     .replace(/\r\n/g, "\n")
-    .replace(/\r/g, "\n")
-    .replace(/\u2019/g, "'")
-    .replace(/\u2018/g, "'")
-    .replace(/\u201c/g, '"')
-    .replace(/\u201d/g, '"')
-    .replace(/\u2014/g, "-")
-    .replace(/\u2013/g, "-")
-    .replace(/\xa0/g, " ")
-    .replace(/â€™/g, "'")
-    .replace(/â€œ/g, '"')
-    .replace(/â€\x9d/g, '"')
-    .replace(/â€”/g, "-")
-    .replace(/â€“/g, "-")
-    .replace(/Ã©/g, "é")
-    .replace(/Ã¡/g, "á")
-    .replace(/Ã³/g, "ó")
-    .replace(/Ã±/g, "ñ")
-    .replace(/Ã¼/g, "ü")
-    .replace(/Ã¶/g, "ö")
-    .replace(/Ã¨/g, "è")
-    .replace(/Ã§/g, "ç")
-    .replace(/Â/g, "")
-    .replace(/[ \t]+/g, " ")
-    .replace(/\n{3,}/g, "\n\n")
+    .replace(/\u00a0/g, " ")
+    .replace(/â€™/g, "’")
+    .replace(/â€œ/g, "“")
+    .replace(/â€/g, "”")
+    .replace(/â€”/g, "—")
+    .replace(/â€“/g, "–")
+    .replace(/&amp;/g, "&")
+    .replace(/&nbsp;/g, " ")
     .trim();
 }
 
-function cleanDisplayText(value: string): string {
-  let text = normalizeText(value);
-
-  text = text.replace(/^[A-Z ]+ PRO REPORT \| \d{4}-\d{2}-\d{2}\s*/i, "");
-  text = text.replace(/^GLOBAL SPORTS REPORT \| \d{4}-\d{2}-\d{2}\s*/i, "");
-  text = text.replace(/^HEADLINE\s+/i, "");
-  text = text.replace(/^SNAPSHOT\s+/i, "");
-  text = text.replace(/^KEY DATA POINTS\s*-\s*/i, "");
-  text = text.replace(/^WHY IT MATTERS\s*-\s*/i, "");
-  text = text.replace(/^STORY ANGLES\s*-\s*/i, "");
-  text = text.replace(/^WATCH LIST\s*-\s*/i, "");
-  text = text.replace(/^CURRENT DATA AND ANALYTICS\s*-\s*/i, "");
-  text = text.replace(/^\-\s*/, "");
-  text = text.replace(/\b([A-Z]{2,})\s+\1\b/g, "$1");
-  text = text.replace(/\s{2,}/g, " ").trim();
-
-  return text;
-}
-
-function slugify(input: string): string {
+function toTitleCase(input: string): string {
   return input
-    .toLowerCase()
-    .replace(/&/g, " and ")
-    .replace(/[^a-z0-9]+/g, "_")
-    .replace(/^_+|_+$/g, "")
-    .replace(/_+/g, "_");
+    .replace(/_/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-function canonicalSectionKey(input: string): string {
-  const raw = slugify(input);
-
-  if (!raw) return "";
-
-  if (raw.includes("mlb")) return "mlb";
-  if (raw.includes("nba")) return "nba";
-  if (raw.includes("nhl")) return "nhl";
-  if (raw === "nfl") return "nfl";
-  if (raw === "nfl_draft" || raw.includes("draft")) return "nfl_draft";
-  if (raw.includes("ncaafb")) return "ncaafb";
-  if (raw.includes("college_football")) return "college_football";
-  if (raw.includes("soccer")) return "soccer";
-  if (raw.includes("fantasy")) return "fantasy";
-  if (raw.includes("betting_odds")) return "betting_odds";
-  if (raw === "betting" || raw.startsWith("betting_")) return "betting_odds";
-
-  return raw;
+function formatLabel(input: string): string {
+  return SECTION_LABELS[input] || toTitleCase(input);
 }
 
-function inferSectionKey(section: AnyRecord, index: number, orderedKeys: string[]): string {
-  const directKey = canonicalSectionKey(safeString(section.key));
-  if (directKey) return directKey;
-
-  const sourceFile = canonicalSectionKey(safeString(section.source_file));
-  if (sourceFile) return sourceFile;
-
-  const nameKey = canonicalSectionKey(safeString(section.name));
-  if (nameKey) return nameKey;
-
-  const titleKey = canonicalSectionKey(safeString(section.title));
-  if (titleKey) return titleKey;
-
-  if (orderedKeys[index]) return canonicalSectionKey(orderedKeys[index]) || orderedKeys[index];
-
-  return `section_${index + 1}`;
-}
-
-function isLikelySentenceFragment(text: string): boolean {
-  const lower = text.toLowerCase();
-
-  if (text.split(" ").length <= 2 && text.length < 20) return true;
-
-  if (
-    lower === "conference" ||
-    lower === "game entries in this report window." ||
-    lower === "level structure, coaching context, and current news." ||
-    lower === "player context." ||
-    lower === "check out some of the top highlights from utah's spencer fano"
-  ) {
-    return true;
-  }
-
-  if (/^[a-z]/.test(text) && !/^\d/.test(text)) return true;
-
-  if (/^(with|and|or|but|because|which|that|while|where|when)\b/i.test(text)) return true;
-
-  return false;
-}
-
-function isGarbageFragment(value: string): boolean {
-  const text = cleanDisplayText(value);
-  if (!text) return true;
-
-  const lower = text.toLowerCase();
-
-  if (
-    lower === "no" ||
-    lower === "today" ||
-    lower === "today." ||
-    lower === "games" ||
-    lower === "game" ||
-    lower === "headline" ||
-    lower === "snapshot" ||
-    lower === "updated" ||
-    lower === "conference"
-  ) {
-    return true;
-  }
-
-  if (KNOWN_BLOCK_LABELS.includes(text.toUpperCase())) {
-    return true;
-  }
-
-  if (text.includes("PRO REPORT |")) {
-    return true;
-  }
-
-  if (/^(headline|snapshot|updated|disclaimer)\b/i.test(text)) {
-    return true;
-  }
-
-  if (/(\b\w+\b)\s+\1/i.test(text)) {
-    return true;
-  }
-
-  if (isLikelySentenceFragment(text)) {
-    return true;
-  }
-
-  return false;
-}
-
-function looksLikeScoreLine(text: string): boolean {
-  const s = cleanDisplayText(text);
-
-  if (!s || isGarbageFragment(s)) return false;
-  if (/^No\b/i.test(s)) return true;
-  if (/\(Final\)/i.test(s)) return true;
-  if (/\bbeat\b/i.test(s)) return true;
-  if (/\d+\s*-\s*\d+/.test(s)) return true;
-  if (/,\s*\d+\b/.test(s)) return true;
-
-  return false;
-}
-
-function looksLikeLiveLine(text: string): boolean {
-  const s = cleanDisplayText(text);
-
-  if (!s || isGarbageFragment(s)) return false;
-  if (/^No\b/i.test(s)) return true;
-  if (/\(In Progress\)/i.test(s)) return true;
-  if (/\bQuarter\b/i.test(s)) return true;
-  if (/\bPeriod\b/i.test(s)) return true;
-  if (/\bIn Progress\b/i.test(s)) return true;
-  if (/\d+:\d+/.test(s) && /\d/.test(s)) return true;
-
-  return false;
-}
-
-function looksLikeUpcomingLine(sectionKey: string, text: string): boolean {
-  const s = cleanDisplayText(text);
-
-  if (!s || isGarbageFragment(s)) return false;
-  if (/^No\b/i.test(s)) return true;
-  if (/\bat\b/i.test(s)) return true;
-  if (/\bET\b/.test(s)) return true;
-  if (/\bTV:\b/i.test(s)) return true;
-  if (/^Round\b/i.test(s) || /^Rounds\b/i.test(s)) return true;
-  if (/^Location:/i.test(s) || /^Venue\b/i.test(s)) return true;
-
-  if (sectionKey === "nfl" || sectionKey === "nfl_draft" || sectionKey === "ncaafb") {
-    return true;
-  }
-
-  return false;
-}
-
-function looksLikeAnalyticsLine(text: string): boolean {
-  const s = cleanDisplayText(text);
-
-  if (!s || isGarbageFragment(s)) return false;
-  if (s.includes("PRO REPORT |")) return false;
-  if (/^(No|today\.?|games?)$/i.test(s)) return false;
-  if (/^\d{4}-\d{2}-\d{2}/.test(s)) return false;
-  if (/^HEADLINE\b/i.test(s) || /^SNAPSHOT\b/i.test(s)) return false;
-  if (s.length < 40) return false;
-
-  return true;
-}
-
-function readJson(): AnyRecord {
-  noStore();
-
-  const filePath = path.join(process.cwd(), "public", "latest_report.json");
-
+function safeJsonParse(raw: string): RootReport {
   try {
-    const raw = fs.readFileSync(filePath, "utf8");
     const parsed = JSON.parse(raw);
-    return isRecord(parsed) ? parsed : {};
-  } catch (error) {
-    console.error("Failed reading latest_report.json", error);
+    return isObject(parsed) ? (parsed as RootReport) : {};
+  } catch {
     return {};
   }
 }
 
-function getTimestamp(data: AnyRecord): string {
-  return (
-    safeString(data.updated_at) ||
-    safeString(data.generated_at) ||
-    safeString(data.published_at) ||
-    safeString(data.timestamp) ||
-    "Timestamp unavailable"
-  );
+function loadLatestReport(): RootReport {
+  const filePath = path.join(process.cwd(), "public", "latest_report.json");
+  try {
+    return safeJsonParse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return {};
+  }
 }
 
-function getSiteTitle(data: AnyRecord): string {
-  const raw =
-    safeString(data.title) ||
-    safeString(isRecord(data.meta) ? data.meta.brand : "") ||
-    "GLOBAL SPORTS REPORT";
-
-  return raw.includes("|") ? raw.split("|")[0].trim() : raw;
+function pickFirstString(...values: unknown[]): string {
+  for (const value of values) {
+    if (typeof value === "string" && value.trim()) {
+      return normalizeText(value);
+    }
+  }
+  return "";
 }
 
-function getSubstackUrl(data: AnyRecord): string {
-  return (
-    safeString(data.substack_url) ||
-    safeString(isRecord(data.meta) ? data.meta.substack_url : "") ||
-    SUBSTACK_URL_DEFAULT
-  );
+function splitParagraphs(text: string): string[] {
+  return normalizeText(text)
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .filter(Boolean);
 }
 
-function getXHandle(data: AnyRecord): string {
-  return (
-    safeString(data.x_handle) ||
-    safeString(isRecord(data.meta) ? data.meta.x_handle : "") ||
-    X_HANDLE_DEFAULT
-  );
+function splitLines(text: string): string[] {
+  return normalizeText(text)
+    .split("\n")
+    .map((part) => part.trim())
+    .filter(Boolean);
 }
 
-function getXUrl(handle: string): string {
-  const normalized = handle.replace(/^@/, "").trim();
-  return normalized ? `https://x.com/${normalized}` : "https://x.com/GlobalSportsRep";
-}
+function flattenToText(value: unknown): string {
+  if (value === null || value === undefined) return "";
+  if (typeof value === "string") return normalizeText(value);
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
 
-function getTopHeadline(data: AnyRecord): string {
-  return compact(cleanDisplayText(safeString(data.headline)), 220);
-}
+  if (Array.isArray(value)) {
+    return value.map((item) => flattenToText(item)).filter(Boolean).join("\n");
+  }
 
-function getTopSnapshot(data: AnyRecord): string {
-  return compact(cleanDisplayText(safeString(data.snapshot)), 260);
-}
+  if (isObject(value)) {
+    const priorityKeys = [
+      "headline",
+      "snapshot",
+      "summary",
+      "content",
+      "body",
+      "text",
+      "report",
+      "overview",
+      "analysis",
+      "description",
+      "notes",
+    ];
 
-function getTopStorylines(data: AnyRecord): string[] {
-  return dedupe(safeStringArray(data.key_storylines))
-    .map((item) => cleanDisplayText(item))
-    .filter((item) => item && !isGarbageFragment(item))
-    .slice(0, 6)
-    .map((item) => compact(item, 180));
-}
+    const chunks: string[] = [];
 
-function getSectionOrder(data: AnyRecord): string[] {
-  return safeStringArray(data.section_order).map((key) => canonicalSectionKey(key)).filter(Boolean);
-}
-
-function extractSections(data: AnyRecord): AnyRecord[] {
-  const out: AnyRecord[] = [];
-  const orderedKeys = getSectionOrder(data);
-
-  if (Array.isArray(data.sections)) {
-    data.sections.forEach((item, index) => {
-      if (isRecord(item)) {
-        const inferredKey = inferSectionKey(item, index, orderedKeys);
-        out.push({ key: inferredKey, ...item });
+    for (const key of priorityKeys) {
+      if (key in value) {
+        const rendered = flattenToText(value[key]);
+        if (rendered) chunks.push(rendered);
       }
-    });
-    return out;
-  }
-
-  if (isRecord(data.sections)) {
-    for (const [key, value] of Object.entries(data.sections)) {
-      if (isRecord(value)) out.push({ key: canonicalSectionKey(key) || key, ...value });
     }
-    return out;
-  }
 
-  if (isRecord(data.sections_map)) {
-    for (const [key, value] of Object.entries(data.sections_map)) {
-      if (isRecord(value)) out.push({ key: canonicalSectionKey(key) || key, ...value });
+    for (const [key, nested] of Object.entries(value)) {
+      if (priorityKeys.includes(key)) continue;
+      const rendered = flattenToText(nested);
+      if (!rendered) continue;
+      chunks.push(`${formatLabel(key)}\n${rendered}`);
     }
-    return out;
-  }
 
-  for (const key of Object.keys(data)) {
-    if (ORDER.includes(key) && isRecord(data[key])) {
-      out.push({ key, ...(data[key] as AnyRecord) });
-    }
-  }
-
-  return out;
-}
-
-function splitRawBlockIntoLines(text: string): string[] {
-  const normalized = normalizeText(text);
-  if (!normalized) return [];
-
-  return normalized
-    .split(/\n+/)
-    .map((line) => cleanDisplayText(line))
-    .filter(Boolean)
-    .filter((line) => !isGarbageFragment(line));
-}
-
-function injectBlockBreaks(content: string): string {
-  let out = ` ${normalizeText(content)} `;
-
-  for (const label of [...KNOWN_BLOCK_LABELS].sort((a, b) => b.length - a.length)) {
-    const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const regex = new RegExp(`\\s${escaped}\\s`, "gi");
-    out = out.replace(regex, `\n${label}\n`);
-  }
-
-  return out.replace(/\n{3,}/g, "\n\n").trim();
-}
-
-function extractBlock(content: string, labels: string[]): string {
-  if (!content.trim()) return "";
-
-  const prepared = injectBlockBreaks(content);
-  const lines = prepared.split("\n").map((line) => line.trim()).filter(Boolean);
-  const labelSet = new Set(KNOWN_BLOCK_LABELS);
-
-  for (let i = 0; i < lines.length; i += 1) {
-    const lineUpper = lines[i].toUpperCase();
-    if (labels.includes(lineUpper)) {
-      const collected: string[] = [];
-      for (let j = i + 1; j < lines.length; j += 1) {
-        const nextUpper = lines[j].toUpperCase();
-        if (labelSet.has(nextUpper)) break;
-        collected.push(lines[j]);
-      }
-      return collected.join("\n").trim();
-    }
+    return chunks.join("\n\n").trim();
   }
 
   return "";
 }
 
-function collectFallbackList(content: string, labels: string[]): string[] {
-  const block = extractBlock(content, labels);
-  if (!block) return [];
-  return splitRawBlockIntoLines(block).slice(0, 12);
-}
+function arrayifyStrings(value: unknown): string[] {
+  if (!value) return [];
 
-function filterBucket(
-  sectionKey: string,
-  bucket: "live" | "finals" | "upcoming" | "analytics",
-  items: string[],
-): string[] {
-  const cleaned = dedupe(items.map((item) => cleanDisplayText(item)).filter(Boolean));
-
-  return cleaned.filter((item) => {
-    if (isGarbageFragment(item)) return false;
-
-    if (bucket === "live") return looksLikeLiveLine(item);
-    if (bucket === "finals") return looksLikeScoreLine(item);
-    if (bucket === "upcoming") return looksLikeUpcomingLine(sectionKey, item);
-    return looksLikeAnalyticsLine(item);
-  });
-}
-
-function flattenAdvancedSectionValues(value: unknown): string[] {
   if (Array.isArray(value)) {
-    return value.map((item) => cleanDisplayText(safeString(item))).filter(Boolean);
-  }
-
-  if (isRecord(value)) {
-    return Object.values(value)
-      .flatMap((entry) => flattenAdvancedSectionValues(entry))
+    return value
+      .flatMap((item) => arrayifyStrings(item))
+      .map((item) => item.trim())
       .filter(Boolean);
   }
 
-  const text = cleanDisplayText(safeString(value));
-  return text ? [text] : [];
-}
+  if (typeof value === "string") {
+    const text = normalizeText(value);
 
-function collectAnalytics(section: AnyRecord, advanced: AnyRecord, content: string): string[] {
-  const advancedSections = isRecord(advanced.sections) ? advanced.sections : {};
-
-  const primary = dedupe([
-    ...safeStringArray(advanced.current_data_and_analytics),
-    ...safeStringArray(advanced.key_data_points),
-    ...safeStringArray(advanced.story_angles),
-    ...safeStringArray(advanced.watch_list),
-    ...safeStringArray(advanced.notes),
-    ...safeStringArray(advanced.why_it_matters),
-    ...safeStringArray(advanced.historical_context),
-    ...safeStringArray(advanced.outlook),
-    ...safeStringArray(advanced.news),
-    ...safeStringArray(advanced.player_moves),
-    ...safeStringArray(advanced.rankings_context),
-    ...safeStringArray(advanced.key_notes),
-    ...safeStringArray(advanced.key_fantasy_takeaways),
-    cleanDisplayText(safeString(advanced.statcast_snapshot)),
-    ...Object.values(advancedSections).flatMap((value) => flattenAdvancedSectionValues(value)),
-  ]).filter(Boolean);
-
-  const filteredPrimary = filterBucket(section.key ? String(section.key) : "", "analytics", primary)
-    .filter((line) => line.length > 40);
-
-  if (filteredPrimary.length) return filteredPrimary.slice(0, 6);
-
-  const fallback = dedupe([
-    ...collectFallbackList(content, ["CURRENT DATA AND ANALYTICS"]),
-    ...collectFallbackList(content, ["KEY DATA POINTS"]),
-    ...collectFallbackList(content, ["WHY IT MATTERS"]),
-    ...collectFallbackList(content, ["STORY ANGLES"]),
-    ...collectFallbackList(content, ["WATCH LIST"]),
-    ...collectFallbackList(content, ["HISTORICAL CONTEXT"]),
-    ...collectFallbackList(content, ["OUTLOOK"]),
-    ...collectFallbackList(content, ["NEWS"]),
-    ...collectFallbackList(content, ["PLAYER MOVES"]),
-    ...collectFallbackList(content, ["RANKINGS CONTEXT"]),
-    ...collectFallbackList(content, ["KEY NOTES"]),
-    ...collectFallbackList(content, ["KEY FANTASY TAKEAWAYS"]),
-    cleanDisplayText(extractBlock(content, ["STATCAST SNAPSHOT"])),
-  ]).filter(Boolean);
-
-  return filterBucket(section.key ? String(section.key) : "", "analytics", fallback)
-    .filter((line) => line.length > 40)
-    .slice(0, 6);
-}
-
-function isMatchupLine(text: string): boolean {
-  const s = cleanDisplayText(text);
-  if (!s) return false;
-  return /\b at \b/i.test(s) || /\b vs\.? \b/i.test(s);
-}
-
-function isScheduleDetailLine(text: string): boolean {
-  const s = cleanDisplayText(text);
-  if (!s) return false;
-
-  return (
-    /\bET\b/i.test(s) ||
-    /\bProbables:\b/i.test(s) ||
-    /\bTV:\b/i.test(s) ||
-    /\bVenue:\b/i.test(s) ||
-    /\bLocation:\b/i.test(s) ||
-    /^\d{1,2}:\d{2}/.test(s)
-  );
-}
-
-function pairScheduleLines(items: string[]): string[] {
-  const out: string[] = [];
-
-  for (let i = 0; i < items.length; i += 1) {
-    const current = cleanDisplayText(items[i]);
-    const next = i + 1 < items.length ? cleanDisplayText(items[i + 1]) : "";
-
-    if (current && next && isMatchupLine(current) && isScheduleDetailLine(next)) {
-      out.push(`${current} — ${next}`);
-      i += 1;
-      continue;
+    if (text.includes("\n- ") || text.startsWith("- ")) {
+      return text
+        .split("\n")
+        .map((line) => line.replace(/^[-*•]\s*/, "").trim())
+        .filter(Boolean);
     }
 
-    out.push(current);
+    return splitLines(text);
   }
 
-  return dedupe(out.filter(Boolean));
+  if (typeof value === "number" || typeof value === "boolean") {
+    return [String(value)];
+  }
+
+  return [];
 }
 
-function buildSection(section: AnyRecord, index: number): ReportSection | null {
-  const key = canonicalSectionKey(safeString(section.key)) || `section_${index + 1}`;
-  const renderKey = `${key}-${index}`;
-  const label = key === "nfl_draft" ? "NFL Draft Signals" : labelForKey(key);
-  const title = safeString(section.title) || safeString(section.name) || label;
-  const advanced = isRecord(section.advanced) ? section.advanced : {};
-  const games = isRecord(section.games) ? section.games : {};
-  const content = safeString(section.content);
+function normalizeSectionName(section: ReportSection): string {
+  return pickFirstString(section.name, section.title).toUpperCase();
+}
 
-  const headline = compact(
-    cleanDisplayText(
-      safeString(section.headline) ||
-        safeString(advanced.headline) ||
-        extractBlock(content, ["HEADLINE"]),
-    ),
-    220,
+function getSections(data: RootReport): ReportSection[] {
+  const fromSections = Array.isArray(data.sections)
+    ? data.sections.filter(isReportSection)
+    : [];
+  const fromMap = isObject(data.sections_map)
+    ? Object.values(data.sections_map).filter(isReportSection)
+    : [];
+
+  const combined = [...fromSections];
+  const seen = new Set(combined.map((section) => normalizeSectionName(section)));
+
+  for (const section of fromMap) {
+    const key = normalizeSectionName(section);
+    if (!seen.has(key)) {
+      combined.push(section);
+      seen.add(key);
+    }
+  }
+
+  combined.sort((a, b) => {
+    const aName = normalizeSectionName(a);
+    const bName = normalizeSectionName(b);
+    const aIndex = SECTION_ORDER.indexOf(aName);
+    const bIndex = SECTION_ORDER.indexOf(bName);
+
+    if (aIndex === -1 && bIndex === -1) return aName.localeCompare(bName);
+    if (aIndex === -1) return 1;
+    if (bIndex === -1) return -1;
+    return aIndex - bIndex;
+  });
+
+  return combined;
+}
+
+function getSectionDisplayName(section: ReportSection): string {
+  const raw = pickFirstString(section.name);
+  return raw ? formatLabel(raw) : "Section";
+}
+
+function getRootStatCards(
+  data: RootReport
+): Array<{ label: string; value: string }> {
+  const cards: Array<{ label: string; value: string }> = [];
+
+  const sectionsCount = Array.isArray(data.sections) ? data.sections.length : 0;
+  if (sectionsCount) cards.push({ label: "Reports", value: String(sectionsCount) });
+
+  const snapshot = flattenToText(data.snapshot);
+  if (snapshot) cards.push({ label: "Snapshot", value: snapshot });
+
+  const generatedAt = pickFirstString(
+    data.generated_at,
+    data.updated_at,
+    data.published_at
   );
+  if (generatedAt) cards.push({ label: "Updated", value: generatedAt });
 
-  const summary = compact(
-    cleanDisplayText(
-      safeString(section.snapshot) ||
-        safeString(section.summary) ||
-        safeString(advanced.snapshot) ||
-        extractBlock(content, ["SNAPSHOT"]) ||
-        safeString(section.body),
-    ),
-    key === "fantasy" || key === "betting_odds" || key === "ncaafb" ? 340 : 260,
+  const handle = pickFirstString(data.x_handle);
+  if (handle) cards.push({ label: "X Handle", value: handle });
+
+  return cards.slice(0, 4);
+}
+
+function getXUrl(data: RootReport): string {
+  const explicit = pickFirstString(data.x_url, data.twitter_url);
+  if (explicit) return explicit;
+
+  const handle = pickFirstString(data.x_handle);
+  if (!handle) return "";
+
+  const clean = handle.replace(/^@/, "").trim();
+  return clean ? `https://x.com/${clean}` : "";
+}
+
+function getTelegramUrl(data: RootReport): string {
+  const explicit = pickFirstString(data.telegram_url, TELEGRAM_URL_ENV);
+  if (explicit) return explicit;
+
+  const handle = pickFirstString(data.telegram_handle);
+  if (!handle) return "";
+
+  const clean = handle.replace(/^@/, "").trim();
+  return clean ? `https://t.me/${clean}` : "";
+}
+
+function looksLikeLeagueCollection(obj: Record<string, unknown>) {
+  const keys = Object.keys(obj).map((k) => k.toLowerCase());
+  return keys.some((key) =>
+    [
+      "premier league",
+      "bundesliga",
+      "la liga",
+      "mls",
+      "serie a",
+      "ligue 1",
+      "champions league",
+      "europa league",
+      "acc",
+      "american",
+      "big 12",
+      "big ten",
+      "conference usa",
+      "fbs independents",
+      "mac",
+      "mountain west",
+      "pac-12",
+      "sec",
+      "sun belt",
+      "mlb",
+      "nba",
+      "nhl",
+      "nfl",
+      "soccer",
+      "fantasy",
+      "betting",
+    ].includes(key)
   );
-
-  const storylines = dedupe([
-    ...safeStringArray(advanced.key_storylines),
-    ...safeStringArray(section.storylines),
-    ...safeStringArray(section.key_storylines),
-  ])
-    .map((item) => cleanDisplayText(item))
-    .filter((item) => item && !isGarbageFragment(item))
-    .map((item) => compact(item, 180))
-    .slice(0, 6);
-
-  const primaryLive = dedupe([
-    ...safeStringArray(games.live),
-    ...safeStringArray(advanced.live),
-  ]);
-  const fallbackLive =
-    primaryLive.length === 0
-      ? collectFallbackList(content, ["LIVE GAMES", "TODAY LIVE", "PLAYOFF LIVE", "LIVE"])
-      : [];
-  const live = filterBucket(key, "live", [...primaryLive, ...fallbackLive]).slice(0, 10);
-
-  const primaryFinals = dedupe([
-    ...safeStringArray(games.final),
-    ...safeStringArray(advanced.final_scores),
-  ]);
-  const fallbackFinals =
-    primaryFinals.length === 0
-      ? collectFallbackList(content, [
-          "FINAL SCORES",
-          "TODAY FINAL SCORES",
-          "YESTERDAY FINAL SCORES",
-          "TODAY RESULTS",
-          "YESTERDAY RESULTS",
-          "PLAYOFF RESULTS",
-          "YESTERDAY PLAYOFF RESULTS",
-          "TODAY PLAYOFF RESULTS",
-          "RECENT FINAL SCORES",
-          "RESULTS CONTEXT",
-        ])
-      : [];
-  const finals = filterBucket(key, "finals", [...primaryFinals, ...fallbackFinals]).slice(0, 10);
-
-  const primaryUpcoming = dedupe([
-    ...safeStringArray(games.upcoming),
-    ...safeStringArray(advanced.upcoming),
-  ]);
-  const fallbackUpcoming =
-    primaryUpcoming.length === 0
-      ? collectFallbackList(content, [
-          "UPCOMING GAMES",
-          "UPCOMING",
-          "TODAY SCHEDULE",
-          "TODAY PLAYOFF SCHEDULE",
-          "PLAYOFF SCHEDULE",
-          "DRAFT CALENDAR",
-          "SCHEDULE CONTEXT",
-        ])
-      : [];
-  const upcoming = pairScheduleLines(
-    filterBucket(key, "upcoming", [...primaryUpcoming, ...fallbackUpcoming]).slice(0, 18),
-  ).slice(0, key === "ncaafb" ? 8 : 10);
-
-  const analytics = collectAnalytics(section, advanced, content);
-
-  const hasContent =
-    !!headline ||
-    !!summary ||
-    storylines.length > 0 ||
-    live.length > 0 ||
-    finals.length > 0 ||
-    upcoming.length > 0 ||
-    analytics.length > 0;
-
-  if (!hasContent) return null;
-
-  return {
-    key,
-    renderKey,
-    label,
-    title,
-    summary,
-    headline,
-    storylines,
-    live,
-    finals,
-    upcoming,
-    analytics,
-  };
 }
 
-function orderedSections(data: AnyRecord): ReportSection[] {
-  const mapped = extractSections(data)
-    .map((section, index) => buildSection(section, index))
-    .filter((section): section is ReportSection => section !== null);
-
-  const bucketed = new Map<string, ReportSection[]>();
-  for (const section of mapped) {
-    const existing = bucketed.get(section.key) ?? [];
-    existing.push(section);
-    bucketed.set(section.key, existing);
-  }
-
-  const ordered: ReportSection[] = [];
-
-  for (const key of ORDER) {
-    const items = bucketed.get(key) ?? [];
-    ordered.push(...items);
-    bucketed.delete(key);
-  }
-
-  for (const items of bucketed.values()) {
-    ordered.push(...items);
-  }
-
-  return ordered;
-}
-
-function buildSummaryStats(sections: ReportSection[]): SummaryStat[] {
-  const uniqueKeys = new Set(sections.map((section) => section.key));
-  const liveCount = sections.reduce((sum, section) => sum + section.live.length, 0);
-  const finalsCount = sections.reduce((sum, section) => sum + section.finals.length, 0);
-  const upcomingCount = sections.reduce((sum, section) => sum + section.upcoming.length, 0);
-  const analyticsCount = sections.reduce((sum, section) => sum + section.analytics.length, 0);
-
-  return [
-    { label: "Leagues", value: String(uniqueKeys.size) },
-    { label: "Live", value: String(liveCount) },
-    { label: "Finals", value: String(finalsCount) },
-    { label: "Upcoming", value: String(upcomingCount) },
-    { label: "Analytics", value: String(analyticsCount) },
-  ];
-}
-
-function buildCoverageItems(sections: ReportSection[]): string[] {
-  const seen = new Set<string>();
-
-  return sections
-    .filter((section) => {
-      if (seen.has(section.key)) return false;
-      seen.add(section.key);
-      return true;
-    })
-    .slice(0, 6)
-    .map((section) => {
-      const parts: string[] = [];
-      if (section.live.length) parts.push(`${section.live.length} live`);
-      if (section.finals.length) parts.push(`${section.finals.length} finals`);
-      if (section.upcoming.length) parts.push(`${section.upcoming.length} upcoming`);
-      if (section.analytics.length) parts.push(`${section.analytics.length} notes`);
-
-      return parts.length ? `${section.label}: ${parts.join(" • ")}` : `${section.label}: active`;
-    });
-}
-
-function SidebarButton({ href, label }: { href: string; label: string }) {
+function looksLikeSummaryObject(obj: Record<string, unknown>) {
+  const keys = Object.keys(obj).map((k) => k.toLowerCase());
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-full rounded-2xl border border-zinc-700 bg-zinc-900 px-5 py-4 text-center text-lg font-bold text-white transition hover:bg-zinc-800"
-    >
-      {label}
-    </a>
+    keys.includes("headline") ||
+    keys.includes("notes") ||
+    keys.includes("summary") ||
+    keys.includes("overview") ||
+    keys.includes("today_schedule") ||
+    keys.includes("today_results") ||
+    keys.includes("counts")
   );
 }
 
-function StatChip({ stat }: { stat: SummaryStat }) {
+function compactSectionTitle(title: string): string {
+  if (RECENT_FINAL_KEYS.has(title)) return "Recent Finals";
+  if (title === "today_schedule") return "Schedule";
+  if (title === "today_results") return "Recent Results";
+  if (title === "key_data_points") return "Key Points";
+  if (title === "current_data_and_analytics") return "Analytics";
+  if (title === "story_angles") return "Story Angles";
+  if (title === "why_it_matters") return "Why It Matters";
+  if (title === "historical_context") return "Context";
+  return formatLabel(title);
+}
+
+function renderSimpleList(items: string[]) {
+  if (!items.length) return null;
+
   return (
-    <div className="rounded-2xl border border-zinc-800 bg-black/35 px-4 py-4">
-      <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-        {stat.label}
-      </p>
-      <p className="mt-2 text-2xl font-black text-white">{stat.value}</p>
+    <ul className="space-y-2">
+      {items.map((item, index) => (
+        <li
+          key={`${item}-${index}`}
+          className="rounded-lg border border-zinc-800 bg-zinc-950 px-4 py-3 text-sm leading-6 text-zinc-100 break-words whitespace-normal"
+        >
+          {item}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function renderCompactText(text: string) {
+  const paragraphs = splitParagraphs(text).slice(0, 3);
+  if (!paragraphs.length) return null;
+
+  return (
+    <div className="space-y-2.5">
+      {paragraphs.map((paragraph, index) => (
+        <p
+          key={index}
+          className="text-sm leading-6 text-zinc-200 break-words whitespace-normal"
+        >
+          {paragraph}
+        </p>
+      ))}
     </div>
   );
 }
 
-function CardList({
-  title,
-  items,
-  limit,
-}: {
-  title: string;
-  items: string[];
-  limit?: number;
-}) {
-  const cleaned = items.filter((item) => item && !isGarbageFragment(item)).slice(0, limit ?? items.length);
+function renderPrimitiveStack(obj: Record<string, unknown>) {
+  const entries = Object.entries(obj).filter(
+    ([, value]) => flattenToText(value).trim().length > 0
+  );
 
-  if (!cleaned.length) return null;
+  if (!entries.length) return null;
 
   return (
-    <div className="rounded-2xl border border-zinc-800 bg-black/35 p-4">
-      <h4 className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-        {title}
-      </h4>
-      <div className="space-y-2">
-        {cleaned.map((item, index) => (
+    <div className="space-y-3">
+      {entries.map(([key, value]) => (
+        <div key={key} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4">
+          <div className="text-[11px] uppercase tracking-[0.2em] text-zinc-500">
+            {compactSectionTitle(key)}
+          </div>
+          <div className="mt-2 text-sm leading-6 text-zinc-100 break-words whitespace-normal">
+            {String(value)}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function renderKeyValueTextRows(obj: Record<string, unknown>) {
+  const entries = Object.entries(obj).filter(
+    ([, value]) => flattenToText(value).trim().length > 0
+  );
+
+  if (!entries.length) return null;
+
+  return (
+    <div className="space-y-3">
+      {entries.map(([key, value]) => (
+        <div key={key} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4">
+          <h4 className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-400">
+            {compactSectionTitle(key)}
+          </h4>
+          {renderContent(value, 1)}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function renderFieldCards(obj: Record<string, unknown>, columns = "lg:grid-cols-2") {
+  const entries = Object.entries(obj).filter(
+    ([, value]) => flattenToText(value).trim().length > 0
+  );
+
+  if (!entries.length) return null;
+
+  return (
+    <div className={`grid gap-3 ${columns}`}>
+      {entries.map(([key, value]) => (
+        <div
+          key={key}
+          className="rounded-lg border border-zinc-800 bg-zinc-950 p-4 min-w-0"
+        >
+          <h4 className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-400 break-words">
+            {compactSectionTitle(key)}
+          </h4>
+          <div className="min-w-0">{renderContent(value, 1)}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function renderTeamsGrid(teams: unknown[]) {
+  if (!teams.length) return null;
+
+  return (
+    <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-3">
+      {teams.map((team, index) => {
+        if (!isObject(team)) {
+          return (
+            <div
+              key={`team-${index}`}
+              className="rounded-lg border border-zinc-800 bg-zinc-950 p-3 text-sm text-zinc-200 break-words"
+            >
+              {flattenToText(team)}
+            </div>
+          );
+        }
+
+        const teamName = pickFirstString(team.team, team.name) || `Team ${index + 1}`;
+        const record = pickFirstString(team.record);
+        const coach = pickFirstString(team.coach);
+        const keyPlayers = arrayifyStrings(team.key_players);
+
+        return (
+          <div key={`${teamName}-${index}`} className="rounded-lg border border-zinc-800 bg-zinc-950 p-3">
+            <div className="text-sm font-semibold text-white break-words">{teamName}</div>
+            {record ? (
+              <div className="mt-1 text-xs uppercase tracking-[0.14em] text-zinc-400 break-words">
+                Record: {record}
+              </div>
+            ) : null}
+            {coach ? (
+              <div className="mt-1 text-xs uppercase tracking-[0.14em] text-zinc-400 break-words">
+                Coach: {coach}
+              </div>
+            ) : null}
+            {keyPlayers.length ? (
+              <div className="mt-2 text-xs leading-5 text-zinc-300 break-words">
+                Key players: {keyPlayers.join(", ")}
+              </div>
+            ) : null}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function renderConferenceView(conferences: Record<string, unknown>) {
+  const entries = Object.entries(conferences).filter(([, value]) => isObject(value));
+  if (!entries.length) return null;
+
+  return (
+    <div className="grid gap-4 lg:grid-cols-2">
+      {entries.map(([conferenceName, conferenceValue]) => {
+        const conf = conferenceValue as Record<string, unknown>;
+        const teams = Array.isArray(conf.teams) ? conf.teams : [];
+        const finals = arrayifyStrings(conf.finals);
+        const live = arrayifyStrings(conf.live);
+        const upcoming = arrayifyStrings(conf.upcoming);
+
+        const headlineStats = [
+          teams.length ? `${teams.length} teams` : "",
+          finals.length ? `${finals.length} finals` : "0 finals",
+          live.length ? `${live.length} live` : "0 live",
+          upcoming.length ? `${upcoming.length} upcoming` : "0 upcoming",
+        ].filter(Boolean);
+
+        return (
           <div
-            key={`${title}-${index}`}
-            className="rounded-xl border border-zinc-800 bg-zinc-950/80 px-4 py-3 text-sm leading-6 text-zinc-200"
+            key={conferenceName}
+            className="rounded-xl border border-zinc-800 bg-[#0b0b0f] p-4 min-w-0"
           >
-            {compact(item, 260)}
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+              <h4 className="text-sm font-semibold uppercase tracking-[0.16em] text-white break-words">
+                {conferenceName}
+              </h4>
+              <div className="text-[10px] uppercase tracking-[0.16em] text-zinc-500">
+                {headlineStats.join(" • ")}
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              {teams.length > 0 ? (
+                <div>
+                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
+                    Teams
+                  </div>
+                  {renderTeamsGrid(teams)}
+                </div>
+              ) : null}
+
+              {live.length > 0 ? (
+                <div>
+                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
+                    Live
+                  </div>
+                  {renderSimpleList(live)}
+                </div>
+              ) : null}
+
+              {upcoming.length > 0 ? (
+                <div>
+                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
+                    Upcoming
+                  </div>
+                  {renderSimpleList(upcoming)}
+                </div>
+              ) : null}
+
+              {finals.length > 0 ? (
+                <div>
+                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
+                    Finals
+                  </div>
+                  {renderSimpleList(finals)}
+                </div>
+              ) : null}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function renderLeagueSummaryCards(obj: Record<string, unknown>) {
+  const entries = Object.entries(obj).filter(
+    ([, value]) => flattenToText(value).trim().length > 0
+  );
+
+  if (!entries.length) return null;
+
+  return (
+    <div className="grid gap-4 lg:grid-cols-2">
+      {entries.map(([key, value]) => (
+        <div
+          key={key}
+          className="rounded-xl border border-zinc-800 bg-[#0b0b0f] p-4 min-w-0"
+        >
+          <h4 className="mb-3 text-sm font-semibold uppercase tracking-[0.16em] text-white break-words">
+            {compactSectionTitle(key)}
+          </h4>
+          {isObject(value) && looksLikeSummaryObject(value)
+            ? renderKeyValueTextRows(value)
+            : renderContent(value, 1)}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function renderContent(value: unknown, depth = 0): React.ReactNode {
+  if (value === null || value === undefined) return null;
+
+  if (typeof value === "string") {
+    const normalized = normalizeText(value);
+    const paragraphs = splitParagraphs(normalized);
+    const listish = arrayifyStrings(normalized);
+
+    if (
+      listish.length >= 3 &&
+      listish.length <= 20 &&
+      paragraphs.length <= 2 &&
+      normalized.includes("\n")
+    ) {
+      return renderSimpleList(listish);
+    }
+
+    return renderCompactText(normalized);
+  }
+
+  if (typeof value === "number" || typeof value === "boolean") {
+    return (
+      <p className="text-sm leading-6 text-zinc-200 break-words whitespace-normal">
+        {String(value)}
+      </p>
+    );
+  }
+
+  if (Array.isArray(value)) {
+    const simple = value.every(
+      (item) =>
+        typeof item === "string" ||
+        typeof item === "number" ||
+        typeof item === "boolean"
+    );
+
+    if (simple) return renderSimpleList(value.map((item) => String(item)));
+
+    return (
+      <div className="space-y-3">
+        {value.map((item, index) => (
+          <div key={index} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4 min-w-0">
+            {renderContent(item, depth + 1)}
           </div>
         ))}
       </div>
+    );
+  }
+
+  if (isObject(value)) {
+    if ("conferences" in value && isObject(value.conferences)) {
+      return renderConferenceView(value.conferences as Record<string, unknown>);
+    }
+
+    const primitiveOnly = Object.values(value).every(
+      (nested) =>
+        typeof nested === "string" ||
+        typeof nested === "number" ||
+        typeof nested === "boolean"
+    );
+
+    if (primitiveOnly) return renderPrimitiveStack(value);
+
+    if (looksLikeLeagueCollection(value)) return renderLeagueSummaryCards(value);
+
+    if (looksLikeSummaryObject(value)) return renderKeyValueTextRows(value);
+
+    if (depth === 0) return renderFieldCards(value, "lg:grid-cols-2");
+
+    return renderKeyValueTextRows(value);
+  }
+
+  return null;
+}
+
+function SectionShell({
+  title,
+  children,
+  compact = false,
+}: {
+  title: string;
+  children: React.ReactNode;
+  compact?: boolean;
+}) {
+  if (!children) return null;
+
+  return (
+    <section className={`rounded-xl border border-zinc-800 bg-[#0b0b0f] ${compact ? "p-4" : "p-5"}`}>
+      <h3 className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-white">
+        {title}
+      </h3>
+      {children}
+    </section>
+  );
+}
+
+function AdvancedSection({ advanced }: { advanced: Record<string, JsonValue> }) {
+  const entries = Object.entries(advanced).filter(
+    ([key, value]) => key !== "title" && flattenToText(value).trim().length > 0
+  );
+
+  if (!entries.length) return null;
+
+  return (
+    <SectionShell title="Advanced" compact>
+      <div className="grid gap-3 md:grid-cols-2">
+        {entries.map(([key, value]) => (
+          <div key={key} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4">
+            <div className="text-[10px] uppercase tracking-[0.2em] text-zinc-500">
+              {compactSectionTitle(key)}
+            </div>
+            <div className="mt-2 min-w-0">{renderContent(value, 1)}</div>
+          </div>
+        ))}
+      </div>
+    </SectionShell>
+  );
+}
+
+function PlatformButtons({ data }: { data: RootReport }) {
+  const substackUrl = pickFirstString(data.substack_url);
+  const xUrl = getXUrl(data);
+  const telegramUrl = getTelegramUrl(data);
+
+  const buttons = [
+    { label: "Substack", href: substackUrl },
+    { label: "X / Twitter", href: xUrl },
+    { label: "Telegram", href: telegramUrl },
+  ].filter((item) => item.href);
+
+  if (!buttons.length) return null;
+
+  return (
+    <div className="flex flex-wrap gap-2.5">
+      {buttons.map((button) => (
+        <a
+          key={button.label}
+          href={button.href}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-full border border-zinc-700 bg-black px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-white transition hover:border-zinc-500 hover:bg-zinc-900"
+        >
+          {button.label}
+        </a>
+      ))}
     </div>
   );
 }
 
-function LeagueSection({ section }: { section: ReportSection }) {
-  const isLongForm = section.key === "ncaafb" || section.key === "fantasy" || section.key === "betting_odds";
+function hasRenderableBody(section: ReportSection): boolean {
+  const games = isObject(section.games) ? section.games : undefined;
+  const structuredSections = isObject(section.structured_sections)
+    ? (section.structured_sections as Record<string, JsonValue>)
+    : undefined;
+  const advanced = isObject(section.advanced)
+    ? (section.advanced as Record<string, JsonValue>)
+    : undefined;
+
+  const visibleStructuredEntries = structuredSections
+    ? Object.entries(structuredSections).filter(
+        ([key, value]) =>
+          !["headline", "snapshot", "static_graphic"].includes(key) &&
+          flattenToText(value).trim().length > 0
+      )
+    : [];
+
+  return Boolean(
+    arrayifyStrings(section.key_storylines).length ||
+      flattenToText(section.snapshot).trim() ||
+      (games &&
+        (arrayifyStrings(games.live).length ||
+          arrayifyStrings(games.upcoming).length ||
+          arrayifyStrings(games.final).length)) ||
+      visibleStructuredEntries.length ||
+      (advanced &&
+        Object.keys(advanced).some(
+          (key) => key !== "title" && flattenToText(advanced[key]).trim()
+        )) ||
+      flattenToText(section.content).trim()
+  );
+}
+
+function SportSectionCard({ section }: { section: ReportSection }) {
+  const displayName = getSectionDisplayName(section);
+  const title = pickFirstString(section.title) || displayName;
+  const headline = pickFirstString(section.headline);
+  const snapshot = section.snapshot;
+  const keyStorylines = arrayifyStrings(section.key_storylines);
+  const updatedAt = pickFirstString(section.updated_at);
+  const games = isObject(section.games) ? section.games : undefined;
+  const structuredSections = isObject(section.structured_sections)
+    ? (section.structured_sections as Record<string, JsonValue>)
+    : undefined;
+  const advanced = isObject(section.advanced)
+    ? (section.advanced as Record<string, JsonValue>)
+    : undefined;
+
+  const visibleStructuredEntries = structuredSections
+    ? Object.entries(structuredSections).filter(
+        ([key, value]) =>
+          !["headline", "snapshot", "static_graphic"].includes(key) &&
+          flattenToText(value).trim().length > 0
+      )
+    : [];
+
+  const prioritizedEntries = visibleStructuredEntries.filter(([key]) => COMPACT_KEYS.has(key));
+  const remainingEntries = visibleStructuredEntries.filter(([key]) => !COMPACT_KEYS.has(key));
+
+  const fallbackReportDetails =
+    !visibleStructuredEntries.length && flattenToText(section.content).trim()
+      ? renderContent(section.content)
+      : null;
 
   return (
-    <section className="rounded-3xl border border-zinc-800 bg-zinc-950/95 p-6 shadow-xl shadow-black/30">
-      <div className="mb-5">
-        <p className="mb-2 text-xs font-semibold uppercase tracking-[0.26em] text-zinc-500">
-          {section.label}
-        </p>
-        <h2 className="text-2xl font-bold text-white">{section.title}</h2>
+    <section className="rounded-2xl border border-zinc-800 bg-gradient-to-r from-[#111117] to-[#0b0b0f] p-5">
+      <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0">
+          <h2 className="text-xl font-bold uppercase tracking-[0.14em] text-white break-words">
+            {title}
+          </h2>
+          {headline ? (
+            <p className="mt-2 max-w-4xl text-sm leading-6 text-zinc-200 break-words whitespace-normal">
+              {headline}
+            </p>
+          ) : null}
+        </div>
+
+        <div className="flex flex-wrap gap-2 text-[10px] uppercase tracking-[0.18em] text-zinc-400">
+          <span className="rounded-full border border-zinc-700 px-3 py-1.5">
+            {displayName}
+          </span>
+          {updatedAt ? (
+            <span className="rounded-full border border-zinc-700 px-3 py-1.5">
+              {updatedAt}
+            </span>
+          ) : null}
+        </div>
       </div>
 
-      {section.headline ? (
-        <div className="mb-4 rounded-2xl border border-zinc-800 bg-black/35 p-5">
-          <h3 className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-            Headline
-          </h3>
-          <p className="text-base leading-7 text-zinc-100">{section.headline}</p>
-        </div>
-      ) : null}
+      <div className="space-y-4">
+        {snapshot ? (
+          <SectionShell title="Snapshot" compact>
+            {renderContent(snapshot)}
+          </SectionShell>
+        ) : null}
 
-      {section.summary ? (
-        <div className="mb-5 rounded-2xl border border-zinc-800 bg-black/35 p-5">
-          <h3 className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-            Snapshot
-          </h3>
-          <p className="text-base leading-7 text-zinc-200">{section.summary}</p>
-        </div>
-      ) : null}
+        {keyStorylines.length > 0 ? (
+          <SectionShell title="Key Storylines" compact>
+            {renderSimpleList(keyStorylines)}
+          </SectionShell>
+        ) : null}
 
-      {section.storylines.length ? (
-        <div className="mb-5 rounded-2xl border border-zinc-800 bg-black/35 p-5">
-          <h3 className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-            Key Storylines
-          </h3>
-          <div className="space-y-2">
-            {section.storylines.map((item, index) => (
-              <div
-                key={`story-${section.renderKey}-${index}`}
-                className="rounded-xl border border-zinc-800 bg-zinc-950/80 px-4 py-3 text-sm leading-6 text-zinc-200"
-              >
-                {item}
-              </div>
+        {games &&
+        (arrayifyStrings(games.live).length ||
+          arrayifyStrings(games.upcoming).length ||
+          arrayifyStrings(games.final).length) ? (
+          <div className="grid gap-3 xl:grid-cols-3">
+            {arrayifyStrings(games.live).length > 0 ? (
+              <SectionShell title="Live Games" compact>
+                {renderSimpleList(arrayifyStrings(games.live))}
+              </SectionShell>
+            ) : null}
+
+            {arrayifyStrings(games.upcoming).length > 0 ? (
+              <SectionShell title="Upcoming Games" compact>
+                {renderSimpleList(arrayifyStrings(games.upcoming))}
+              </SectionShell>
+            ) : null}
+
+            {arrayifyStrings(games.final).length > 0 ? (
+              <SectionShell title="Recent Finals" compact>
+                {renderSimpleList(arrayifyStrings(games.final))}
+              </SectionShell>
+            ) : null}
+          </div>
+        ) : null}
+
+        {prioritizedEntries.length > 0 ? (
+          <div className="grid gap-3 lg:grid-cols-2">
+            {prioritizedEntries.map(([key, value]) => (
+              <SectionShell key={key} title={compactSectionTitle(key)} compact>
+                {renderContent(value)}
+              </SectionShell>
             ))}
           </div>
-        </div>
-      ) : null}
+        ) : null}
 
-      <div className="grid gap-4 xl:grid-cols-2">
-        <CardList title="Live" items={section.live} limit={isLongForm ? 4 : 8} />
-        <CardList title="Final Scores" items={section.finals} limit={isLongForm ? 4 : 8} />
-        <CardList title="Upcoming" items={section.upcoming} limit={isLongForm ? 5 : 8} />
-        <CardList title="Analytics & Notes" items={section.analytics} limit={isLongForm ? 5 : 6} />
+        {remainingEntries.length > 0 ? (
+          <div className="space-y-4">
+            {remainingEntries.map(([key, value]) => (
+              <SectionShell key={key} title={compactSectionTitle(key)} compact>
+                {renderContent(value)}
+              </SectionShell>
+            ))}
+          </div>
+        ) : null}
+
+        {advanced ? <AdvancedSection advanced={advanced} /> : null}
+
+        {fallbackReportDetails ? (
+          <SectionShell title="Report Details" compact>
+            {fallbackReportDetails}
+          </SectionShell>
+        ) : null}
       </div>
     </section>
   );
 }
 
 export default function Page() {
-  const data = readJson();
+  const data = loadLatestReport();
+  const title = pickFirstString(data.title) || "Global Sports Report";
+  const headline = pickFirstString(data.headline);
+  const generatedAt = pickFirstString(
+    data.generated_at,
+    data.updated_at,
+    data.published_at,
+    data.generated_date
+  );
+  const topStorylines = arrayifyStrings(data.key_storylines);
+  const statCards = getRootStatCards(data);
+  const sections = getSections(data);
+  const disclaimer =
+    pickFirstString(data.disclaimer) ||
+    "This report is an automated summary intended to support, not replace, human sports journalism.";
 
-  const title = getSiteTitle(data);
-  const timestamp = getTimestamp(data);
-  const headline = getTopHeadline(data);
-  const snapshot = getTopSnapshot(data);
-  const storylines = getTopStorylines(data);
-  const sections = orderedSections(data);
-  const summaryStats = buildSummaryStats(sections);
-  const coverageItems = buildCoverageItems(sections);
-  const substackUrl = getSubstackUrl(data);
-  const xHandle = getXHandle(data);
-  const xUrl = getXUrl(xHandle);
-
-  const hero = isRecord(data.hero) ? data.hero : {};
-  const heroVideo = isRecord(hero.video) ? hero.video : {};
-  const yahooEmbedUrl = safeString(heroVideo.embed_url);
-  const yahooWatchUrl = safeString(heroVideo.watch_url) || YAHOO_SPORTS_URL;
+  const renderableSections = sections.filter(hasRenderableBody);
 
   return (
     <main className="min-h-screen bg-black text-white">
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_300px]">
-          <div className="space-y-6">
-            <section className="rounded-3xl border border-zinc-800 bg-zinc-950/95 p-6 shadow-2xl shadow-black/30">
-              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.32em] text-zinc-500">
-                Automated Sports Journalism Support
-              </p>
-
-              <h1 className="text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl">
-                {title}
-              </h1>
-
-              <p className="mt-3 text-sm uppercase tracking-[0.2em] text-zinc-400">
-                Last updated: {timestamp}
-              </p>
-
-              <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
-                {summaryStats.map((stat) => (
-                  <StatChip key={stat.label} stat={stat} />
-                ))}
+      <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+        <header className="rounded-2xl border border-zinc-800 bg-gradient-to-r from-[#121218] via-[#09090c] to-[#121218] p-5">
+          <div className="grid gap-5 lg:grid-cols-[1.5fr_0.72fr]">
+            <div className="min-w-0 space-y-4">
+              <div className="inline-flex items-center rounded-full border border-zinc-700 bg-black px-4 py-2 text-[10px] uppercase tracking-[0.24em] text-zinc-300">
+                Global Sports Report
               </div>
 
-              <div className="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1fr)_340px]">
-                <div className="space-y-4">
-                  {headline ? (
-                    <div className="rounded-2xl border border-zinc-800 bg-black/35 p-5">
-                      <h2 className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-                        Headline
-                      </h2>
-                      <p className="text-lg leading-8 text-zinc-100">{headline}</p>
-                    </div>
+              <div className="space-y-3 min-w-0">
+                <h1 className="text-3xl font-black uppercase leading-none tracking-[0.12em] text-white break-words sm:text-4xl lg:text-5xl">
+                  {title}
+                </h1>
+
+                {headline ? (
+                  <p className="max-w-4xl text-base leading-7 text-zinc-100 break-words whitespace-normal">
+                    {headline}
+                  </p>
+                ) : null}
+
+                <div className="flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-zinc-400">
+                  {generatedAt ? (
+                    <span className="rounded-full border border-zinc-700 px-3 py-1.5">
+                      Updated: {generatedAt}
+                    </span>
                   ) : null}
 
-                  {snapshot ? (
-                    <div className="rounded-2xl border border-zinc-800 bg-black/35 p-5">
-                      <h2 className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-                        Snapshot
-                      </h2>
-                      <p className="text-base leading-7 text-zinc-200">{snapshot}</p>
-                    </div>
+                  {pickFirstString(data.x_handle) ? (
+                    <span className="rounded-full border border-zinc-700 px-3 py-1.5">
+                      {pickFirstString(data.x_handle)}
+                    </span>
                   ) : null}
-
-                  {coverageItems.length ? (
-                    <div className="rounded-2xl border border-zinc-800 bg-black/35 p-5">
-                      <h2 className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-                        Coverage Board
-                      </h2>
-                      <div className="space-y-2">
-                        {coverageItems.map((item, index) => (
-                          <div
-                            key={`coverage-${index}`}
-                            className="rounded-xl border border-zinc-800 bg-zinc-950/80 px-4 py-3 text-sm leading-6 text-zinc-200"
-                          >
-                            {item}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ) : null}
-                </div>
-
-                <div className="rounded-2xl border border-zinc-800 bg-black/35 p-4">
-                  <h2 className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-                    Yahoo Sports 24/7
-                  </h2>
-
-                  {yahooEmbedUrl ? (
-                    <div className="overflow-hidden rounded-2xl border border-zinc-800 bg-black">
-                      <iframe
-                        src={yahooEmbedUrl}
-                        title="Yahoo Sports 24/7"
-                        className="h-[260px] w-full"
-                        allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-                        allowFullScreen
-                      />
-                    </div>
-                  ) : (
-                    <div className="flex min-h-[260px] flex-col justify-between rounded-2xl border border-zinc-800 bg-zinc-950/80 p-6">
-                      <div>
-                        <p className="text-lg font-bold text-white">Yahoo Sports 24/7 is ready to plug in.</p>
-                        <p className="mt-3 text-sm leading-6 text-zinc-400">
-                          The page is live, but the video slot still needs a real embeddable Yahoo player URL in
-                          <span className="mx-1 font-semibold text-zinc-300">latest_report.json</span>
-                          to restore the live stream here.
-                        </p>
-                      </div>
-
-                      <a
-                        href={yahooWatchUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-6 inline-flex w-fit rounded-2xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-zinc-800"
-                      >
-                        Open Yahoo Sports
-                      </a>
-                    </div>
-                  )}
                 </div>
               </div>
-            </section>
 
-            {storylines.length ? (
-              <section className="rounded-3xl border border-zinc-800 bg-zinc-950/95 p-6 shadow-xl shadow-black/30">
-                <h2 className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-zinc-400">
-                  Key Storylines
-                </h2>
-                <div className="space-y-3">
-                  {storylines.map((item, index) => (
+              <PlatformButtons data={data} />
+
+              {statCards.length > 0 ? (
+                <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                  {statCards.map((card) => (
                     <div
-                      key={`top-storyline-${index}`}
-                      className="rounded-2xl border border-zinc-800 bg-black/35 px-5 py-4 text-base leading-7 text-zinc-200"
+                      key={`${card.label}-${card.value}`}
+                      className="rounded-xl border border-zinc-800 bg-black p-4 min-w-0"
                     >
-                      {item}
+                      <div className="text-[10px] uppercase tracking-[0.22em] text-zinc-500">
+                        {card.label}
+                      </div>
+                      <div className="mt-2 text-base font-semibold leading-6 text-white break-words whitespace-normal">
+                        {card.value}
+                      </div>
                     </div>
                   ))}
                 </div>
-              </section>
-            ) : null}
-
-            {sections.length ? (
-              <div className="space-y-6">
-                {sections.map((section) => (
-                  <LeagueSection key={section.renderKey} section={section} />
-                ))}
-              </div>
-            ) : (
-              <section className="rounded-3xl border border-zinc-800 bg-zinc-950/95 p-6 shadow-xl shadow-black/30">
-                <h2 className="mb-3 text-lg font-bold text-white">Awaiting structured league data</h2>
-                <p className="text-base leading-7 text-zinc-300">
-                  The page layout is ready, but the current JSON feed is not delivering usable league sections yet.
-                </p>
-              </section>
-            )}
-          </div>
-
-          <aside>
-            <div className="sticky top-6 rounded-3xl border border-zinc-800 bg-zinc-950/95 p-6 shadow-2xl shadow-black/30">
-              <h2 className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-zinc-400">
-                Follow Global Sports Report
-              </h2>
-
-              <div className="space-y-4">
-                <SidebarButton href={substackUrl} label="Substack" />
-                <SidebarButton href={xUrl} label="X / Twitter" />
-                <SidebarButton href={yahooWatchUrl} label="Yahoo Sports 24/7 Network" />
-              </div>
-
-              <div className="mt-6 rounded-2xl border border-zinc-800 bg-black/35 p-4">
-                <p className="text-sm leading-7 text-zinc-300">
-                  This report is an automated summary intended to support, not replace, human sports journalism.
-                </p>
-              </div>
+              ) : null}
             </div>
-          </aside>
+
+            <div className="rounded-xl border border-zinc-800 bg-[#0a0a0d] p-4 min-w-0">
+              <div className="mb-3 flex items-center justify-between">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-300">
+                  Live Sports Video
+                </h2>
+                <span className="rounded-full border border-red-700/60 bg-red-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-red-300">
+                  24/7
+                </span>
+              </div>
+
+              {VIDEO_URL ? (
+                <div className="overflow-hidden rounded-lg border border-zinc-800 bg-black">
+                  <div className="aspect-video">
+                    <iframe
+                      src={VIDEO_URL}
+                      title="Global Sports Report Live Video"
+                      className="h-full w-full"
+                      allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+                      allowFullScreen
+                    />
+                  </div>
+                </div>
+              ) : (
+                <div className="flex aspect-video items-center justify-center rounded-lg border border-dashed border-zinc-700 bg-black px-6 text-center text-sm leading-6 text-zinc-400">
+                  <div className="max-w-md break-words whitespace-normal">
+                    Add your Yahoo Sports Network embed URL in the VIDEO_URL constant.
+                  </div>
+                </div>
+              )}
+
+              <p className="mt-3 text-xs leading-5 text-zinc-500">{disclaimer}</p>
+            </div>
+          </div>
+        </header>
+
+        <div className="mt-5 grid gap-4 lg:grid-cols-[0.78fr_1.22fr]">
+          <section className="rounded-xl border border-zinc-800 bg-[#0b0b0f] p-4">
+            <h2 className="mb-3 text-base font-semibold uppercase tracking-[0.16em] text-white">
+              Key Storylines
+            </h2>
+
+            {topStorylines.length > 0 ? (
+              renderSimpleList(topStorylines)
+            ) : (
+              <p className="text-sm leading-6 text-zinc-400">
+                No top-level storyline data is available in the current report.
+              </p>
+            )}
+          </section>
+
+          <section className="rounded-xl border border-zinc-800 bg-[#0b0b0f] p-4">
+            <h2 className="mb-3 text-base font-semibold uppercase tracking-[0.16em] text-white">
+              Daily Snapshot
+            </h2>
+            {renderContent(data.snapshot) || (
+              <p className="text-sm leading-6 text-zinc-400">
+                No root snapshot is available in the current report.
+              </p>
+            )}
+          </section>
         </div>
+
+        <div className="mt-5 space-y-4">
+          {renderableSections.map((section, index) => (
+            <SportSectionCard
+              key={`${pickFirstString(section.name, section.title)}-${index}`}
+              section={section}
+            />
+          ))}
+        </div>
+
+        <footer className="mt-6 rounded-xl border border-zinc-800 bg-[#0a0a0d] p-4 text-sm leading-6 text-zinc-400">
+          <p>{disclaimer}</p>
+        </footer>
       </div>
     </main>
   );
