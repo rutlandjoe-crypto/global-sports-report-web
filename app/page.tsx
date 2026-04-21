@@ -8,6 +8,7 @@ type AnyRecord = Record<string, JsonValue>;
 
 type ReportSection = {
   key: string;
+  renderKey: string;
   label: string;
   title: string;
   summary: string;
@@ -17,6 +18,11 @@ type ReportSection = {
   finals: string[];
   upcoming: string[];
   analytics: string[];
+};
+
+type SummaryStat = {
+  label: string;
+  value: string;
 };
 
 const SUBSTACK_URL_DEFAULT = "https://globalsportsreport.substack.com/";
@@ -81,6 +87,14 @@ const KNOWN_BLOCK_LABELS = [
   "DISCLAIMER",
   "UPDATED",
   "OUTLOOK",
+  "RANKINGS CONTEXT",
+  "PLAYER MOVES",
+  "NEWS",
+  "KEY NOTES",
+  "KEY FANTASY TAKEAWAYS",
+  "SCHEDULE CONTEXT",
+  "LIVE OR ACTIVE CONTEXT",
+  "RESULTS CONTEXT",
 ];
 
 function isRecord(value: unknown): value is AnyRecord {
@@ -160,9 +174,79 @@ function cleanDisplayText(value: string): string {
   text = text.replace(/^WATCH LIST\s*-\s*/i, "");
   text = text.replace(/^CURRENT DATA AND ANALYTICS\s*-\s*/i, "");
   text = text.replace(/^\-\s*/, "");
+  text = text.replace(/\b([A-Z]{2,})\s+\1\b/g, "$1");
   text = text.replace(/\s{2,}/g, " ").trim();
 
   return text;
+}
+
+function slugify(input: string): string {
+  return input
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "")
+    .replace(/_+/g, "_");
+}
+
+function canonicalSectionKey(input: string): string {
+  const raw = slugify(input);
+
+  if (!raw) return "";
+
+  if (raw.includes("mlb")) return "mlb";
+  if (raw.includes("nba")) return "nba";
+  if (raw.includes("nhl")) return "nhl";
+  if (raw === "nfl") return "nfl";
+  if (raw === "nfl_draft" || raw.includes("draft")) return "nfl_draft";
+  if (raw.includes("ncaafb")) return "ncaafb";
+  if (raw.includes("college_football")) return "college_football";
+  if (raw.includes("soccer")) return "soccer";
+  if (raw.includes("fantasy")) return "fantasy";
+  if (raw.includes("betting_odds")) return "betting_odds";
+  if (raw === "betting" || raw.startsWith("betting_")) return "betting_odds";
+
+  return raw;
+}
+
+function inferSectionKey(section: AnyRecord, index: number, orderedKeys: string[]): string {
+  const directKey = canonicalSectionKey(safeString(section.key));
+  if (directKey) return directKey;
+
+  const sourceFile = canonicalSectionKey(safeString(section.source_file));
+  if (sourceFile) return sourceFile;
+
+  const nameKey = canonicalSectionKey(safeString(section.name));
+  if (nameKey) return nameKey;
+
+  const titleKey = canonicalSectionKey(safeString(section.title));
+  if (titleKey) return titleKey;
+
+  if (orderedKeys[index]) return canonicalSectionKey(orderedKeys[index]) || orderedKeys[index];
+
+  return `section_${index + 1}`;
+}
+
+function isLikelySentenceFragment(text: string): boolean {
+  const lower = text.toLowerCase();
+
+  if (text.split(" ").length <= 2 && text.length < 20) return true;
+
+  if (
+    lower === "conference" ||
+    lower === "game entries in this report window." ||
+    lower === "level structure, coaching context, and current news." ||
+    lower === "player context." ||
+    lower === "check out some of the top highlights from utah's spencer fano"
+  ) {
+    return true;
+  }
+
+  if (/^[a-z]/.test(text) && !/^\d/.test(text)) return true;
+
+  if (/^(with|and|or|but|because|which|that|while|where|when)\b/i.test(text)) return true;
+
+  return false;
 }
 
 function isGarbageFragment(value: string): boolean {
@@ -179,7 +263,8 @@ function isGarbageFragment(value: string): boolean {
     lower === "game" ||
     lower === "headline" ||
     lower === "snapshot" ||
-    lower === "updated"
+    lower === "updated" ||
+    lower === "conference"
   ) {
     return true;
   }
@@ -196,6 +281,14 @@ function isGarbageFragment(value: string): boolean {
     return true;
   }
 
+  if (/(\b\w+\b)\s+\1/i.test(text)) {
+    return true;
+  }
+
+  if (isLikelySentenceFragment(text)) {
+    return true;
+  }
+
   return false;
 }
 
@@ -207,7 +300,7 @@ function looksLikeScoreLine(text: string): boolean {
   if (/\(Final\)/i.test(s)) return true;
   if (/\bbeat\b/i.test(s)) return true;
   if (/\d+\s*-\s*\d+/.test(s)) return true;
-  if (/, [A-Z][A-Za-z .'-]+ \d+/.test(s)) return true;
+  if (/,\s*\d+\b/.test(s)) return true;
 
   return false;
 }
@@ -237,7 +330,7 @@ function looksLikeUpcomingLine(sectionKey: string, text: string): boolean {
   if (/^Round\b/i.test(s) || /^Rounds\b/i.test(s)) return true;
   if (/^Location:/i.test(s) || /^Venue\b/i.test(s)) return true;
 
-  if (sectionKey === "nfl" || sectionKey === "ncaafb") {
+  if (sectionKey === "nfl" || sectionKey === "nfl_draft" || sectionKey === "ncaafb") {
     return true;
   }
 
@@ -252,6 +345,7 @@ function looksLikeAnalyticsLine(text: string): boolean {
   if (/^(No|today\.?|games?)$/i.test(s)) return false;
   if (/^\d{4}-\d{2}-\d{2}/.test(s)) return false;
   if (/^HEADLINE\b/i.test(s) || /^SNAPSHOT\b/i.test(s)) return false;
+  if (s.length < 40) return false;
 
   return true;
 }
@@ -327,19 +421,34 @@ function getTopStorylines(data: AnyRecord): string[] {
     .map((item) => compact(item, 180));
 }
 
+function getSectionOrder(data: AnyRecord): string[] {
+  return safeStringArray(data.section_order).map((key) => canonicalSectionKey(key)).filter(Boolean);
+}
+
 function extractSections(data: AnyRecord): AnyRecord[] {
   const out: AnyRecord[] = [];
+  const orderedKeys = getSectionOrder(data);
 
   if (Array.isArray(data.sections)) {
-    for (const item of data.sections) {
-      if (isRecord(item)) out.push(item);
-    }
+    data.sections.forEach((item, index) => {
+      if (isRecord(item)) {
+        const inferredKey = inferSectionKey(item, index, orderedKeys);
+        out.push({ key: inferredKey, ...item });
+      }
+    });
     return out;
   }
 
   if (isRecord(data.sections)) {
     for (const [key, value] of Object.entries(data.sections)) {
-      if (isRecord(value)) out.push({ key, ...value });
+      if (isRecord(value)) out.push({ key: canonicalSectionKey(key) || key, ...value });
+    }
+    return out;
+  }
+
+  if (isRecord(data.sections_map)) {
+    for (const [key, value] of Object.entries(data.sections_map)) {
+      if (isRecord(value)) out.push({ key: canonicalSectionKey(key) || key, ...value });
     }
     return out;
   }
@@ -357,16 +466,11 @@ function splitRawBlockIntoLines(text: string): string[] {
   const normalized = normalizeText(text);
   if (!normalized) return [];
 
-  const pieces = normalized
-    .replace(/\s+\-\s+/g, "\n- ")
-    .split("\n")
+  return normalized
+    .split(/\n+/)
     .map((line) => cleanDisplayText(line))
-    .filter(Boolean);
-
-  if (pieces.length <= 1) return [cleanDisplayText(normalized)];
-  return pieces
-    .map((line) => (line.startsWith("- ") ? cleanDisplayText(line.slice(2)) : cleanDisplayText(line)))
-    .filter(Boolean);
+    .filter(Boolean)
+    .filter((line) => !isGarbageFragment(line));
 }
 
 function injectBlockBreaks(content: string): string {
@@ -410,7 +514,11 @@ function collectFallbackList(content: string, labels: string[]): string[] {
   return splitRawBlockIntoLines(block).slice(0, 12);
 }
 
-function filterBucket(sectionKey: string, bucket: "live" | "finals" | "upcoming" | "analytics", items: string[]): string[] {
+function filterBucket(
+  sectionKey: string,
+  bucket: "live" | "finals" | "upcoming" | "analytics",
+  items: string[],
+): string[] {
   const cleaned = dedupe(items.map((item) => cleanDisplayText(item)).filter(Boolean));
 
   return cleaned.filter((item) => {
@@ -423,7 +531,24 @@ function filterBucket(sectionKey: string, bucket: "live" | "finals" | "upcoming"
   });
 }
 
+function flattenAdvancedSectionValues(value: unknown): string[] {
+  if (Array.isArray(value)) {
+    return value.map((item) => cleanDisplayText(safeString(item))).filter(Boolean);
+  }
+
+  if (isRecord(value)) {
+    return Object.values(value)
+      .flatMap((entry) => flattenAdvancedSectionValues(entry))
+      .filter(Boolean);
+  }
+
+  const text = cleanDisplayText(safeString(value));
+  return text ? [text] : [];
+}
+
 function collectAnalytics(section: AnyRecord, advanced: AnyRecord, content: string): string[] {
+  const advancedSections = isRecord(advanced.sections) ? advanced.sections : {};
+
   const primary = dedupe([
     ...safeStringArray(advanced.current_data_and_analytics),
     ...safeStringArray(advanced.key_data_points),
@@ -431,13 +556,21 @@ function collectAnalytics(section: AnyRecord, advanced: AnyRecord, content: stri
     ...safeStringArray(advanced.watch_list),
     ...safeStringArray(advanced.notes),
     ...safeStringArray(advanced.why_it_matters),
+    ...safeStringArray(advanced.historical_context),
+    ...safeStringArray(advanced.outlook),
+    ...safeStringArray(advanced.news),
+    ...safeStringArray(advanced.player_moves),
+    ...safeStringArray(advanced.rankings_context),
+    ...safeStringArray(advanced.key_notes),
+    ...safeStringArray(advanced.key_fantasy_takeaways),
     cleanDisplayText(safeString(advanced.statcast_snapshot)),
-    cleanDisplayText(safeString(advanced.historical_context)),
-    cleanDisplayText(safeString(advanced.outlook)),
+    ...Object.values(advancedSections).flatMap((value) => flattenAdvancedSectionValues(value)),
   ]).filter(Boolean);
 
-  const filteredPrimary = filterBucket(section.key ? String(section.key) : "", "analytics", primary);
-  if (filteredPrimary.length) return filteredPrimary.slice(0, 10);
+  const filteredPrimary = filterBucket(section.key ? String(section.key) : "", "analytics", primary)
+    .filter((line) => line.length > 40);
+
+  if (filteredPrimary.length) return filteredPrimary.slice(0, 6);
 
   const fallback = dedupe([
     ...collectFallbackList(content, ["CURRENT DATA AND ANALYTICS"]),
@@ -445,18 +578,65 @@ function collectAnalytics(section: AnyRecord, advanced: AnyRecord, content: stri
     ...collectFallbackList(content, ["WHY IT MATTERS"]),
     ...collectFallbackList(content, ["STORY ANGLES"]),
     ...collectFallbackList(content, ["WATCH LIST"]),
+    ...collectFallbackList(content, ["HISTORICAL CONTEXT"]),
+    ...collectFallbackList(content, ["OUTLOOK"]),
+    ...collectFallbackList(content, ["NEWS"]),
+    ...collectFallbackList(content, ["PLAYER MOVES"]),
+    ...collectFallbackList(content, ["RANKINGS CONTEXT"]),
+    ...collectFallbackList(content, ["KEY NOTES"]),
+    ...collectFallbackList(content, ["KEY FANTASY TAKEAWAYS"]),
     cleanDisplayText(extractBlock(content, ["STATCAST SNAPSHOT"])),
-    cleanDisplayText(extractBlock(content, ["HISTORICAL CONTEXT"])),
-    cleanDisplayText(extractBlock(content, ["OUTLOOK"])),
   ]).filter(Boolean);
 
-  return filterBucket(section.key ? String(section.key) : "", "analytics", fallback).slice(0, 10);
+  return filterBucket(section.key ? String(section.key) : "", "analytics", fallback)
+    .filter((line) => line.length > 40)
+    .slice(0, 6);
 }
 
-function buildSection(section: AnyRecord): ReportSection | null {
-  const key = safeString(section.key).toLowerCase() || "section";
-  const label = labelForKey(key);
-  const title = safeString(section.title) || label;
+function isMatchupLine(text: string): boolean {
+  const s = cleanDisplayText(text);
+  if (!s) return false;
+  return /\b at \b/i.test(s) || /\b vs\.? \b/i.test(s);
+}
+
+function isScheduleDetailLine(text: string): boolean {
+  const s = cleanDisplayText(text);
+  if (!s) return false;
+
+  return (
+    /\bET\b/i.test(s) ||
+    /\bProbables:\b/i.test(s) ||
+    /\bTV:\b/i.test(s) ||
+    /\bVenue:\b/i.test(s) ||
+    /\bLocation:\b/i.test(s) ||
+    /^\d{1,2}:\d{2}/.test(s)
+  );
+}
+
+function pairScheduleLines(items: string[]): string[] {
+  const out: string[] = [];
+
+  for (let i = 0; i < items.length; i += 1) {
+    const current = cleanDisplayText(items[i]);
+    const next = i + 1 < items.length ? cleanDisplayText(items[i + 1]) : "";
+
+    if (current && next && isMatchupLine(current) && isScheduleDetailLine(next)) {
+      out.push(`${current} — ${next}`);
+      i += 1;
+      continue;
+    }
+
+    out.push(current);
+  }
+
+  return dedupe(out.filter(Boolean));
+}
+
+function buildSection(section: AnyRecord, index: number): ReportSection | null {
+  const key = canonicalSectionKey(safeString(section.key)) || `section_${index + 1}`;
+  const renderKey = `${key}-${index}`;
+  const label = key === "nfl_draft" ? "NFL Draft Signals" : labelForKey(key);
+  const title = safeString(section.title) || safeString(section.name) || label;
   const advanced = isRecord(section.advanced) ? section.advanced : {};
   const games = isRecord(section.games) ? section.games : {};
   const content = safeString(section.content);
@@ -465,9 +645,9 @@ function buildSection(section: AnyRecord): ReportSection | null {
     cleanDisplayText(
       safeString(section.headline) ||
         safeString(advanced.headline) ||
-        extractBlock(content, ["HEADLINE"])
+        extractBlock(content, ["HEADLINE"]),
     ),
-    220
+    220,
   );
 
   const summary = compact(
@@ -476,9 +656,9 @@ function buildSection(section: AnyRecord): ReportSection | null {
         safeString(section.summary) ||
         safeString(advanced.snapshot) ||
         extractBlock(content, ["SNAPSHOT"]) ||
-        safeString(section.body)
+        safeString(section.body),
     ),
-    260
+    key === "fantasy" || key === "betting_odds" || key === "ncaafb" ? 340 : 260,
   );
 
   const storylines = dedupe([
@@ -499,7 +679,7 @@ function buildSection(section: AnyRecord): ReportSection | null {
     primaryLive.length === 0
       ? collectFallbackList(content, ["LIVE GAMES", "TODAY LIVE", "PLAYOFF LIVE", "LIVE"])
       : [];
-  const live = filterBucket(key, "live", [...primaryLive, ...fallbackLive]).slice(0, 12);
+  const live = filterBucket(key, "live", [...primaryLive, ...fallbackLive]).slice(0, 10);
 
   const primaryFinals = dedupe([
     ...safeStringArray(games.final),
@@ -517,9 +697,10 @@ function buildSection(section: AnyRecord): ReportSection | null {
           "YESTERDAY PLAYOFF RESULTS",
           "TODAY PLAYOFF RESULTS",
           "RECENT FINAL SCORES",
+          "RESULTS CONTEXT",
         ])
       : [];
-  const finals = filterBucket(key, "finals", [...primaryFinals, ...fallbackFinals]).slice(0, 12);
+  const finals = filterBucket(key, "finals", [...primaryFinals, ...fallbackFinals]).slice(0, 10);
 
   const primaryUpcoming = dedupe([
     ...safeStringArray(games.upcoming),
@@ -534,9 +715,12 @@ function buildSection(section: AnyRecord): ReportSection | null {
           "TODAY PLAYOFF SCHEDULE",
           "PLAYOFF SCHEDULE",
           "DRAFT CALENDAR",
+          "SCHEDULE CONTEXT",
         ])
       : [];
-  const upcoming = filterBucket(key, "upcoming", [...primaryUpcoming, ...fallbackUpcoming]).slice(0, 12);
+  const upcoming = pairScheduleLines(
+    filterBucket(key, "upcoming", [...primaryUpcoming, ...fallbackUpcoming]).slice(0, 18),
+  ).slice(0, key === "ncaafb" ? 8 : 10);
 
   const analytics = collectAnalytics(section, advanced, content);
 
@@ -553,6 +737,7 @@ function buildSection(section: AnyRecord): ReportSection | null {
 
   return {
     key,
+    renderKey,
     label,
     title,
     summary,
@@ -567,25 +752,66 @@ function buildSection(section: AnyRecord): ReportSection | null {
 
 function orderedSections(data: AnyRecord): ReportSection[] {
   const mapped = extractSections(data)
-    .map((section) => buildSection(section))
+    .map((section, index) => buildSection(section, index))
     .filter((section): section is ReportSection => section !== null);
 
-  const byKey = new Map<string, ReportSection>();
+  const bucketed = new Map<string, ReportSection[]>();
   for (const section of mapped) {
-    if (!byKey.has(section.key)) byKey.set(section.key, section);
+    const existing = bucketed.get(section.key) ?? [];
+    existing.push(section);
+    bucketed.set(section.key, existing);
   }
 
   const ordered: ReportSection[] = [];
+
   for (const key of ORDER) {
-    const section = byKey.get(key);
-    if (section) ordered.push(section);
+    const items = bucketed.get(key) ?? [];
+    ordered.push(...items);
+    bucketed.delete(key);
   }
 
-  for (const section of mapped) {
-    if (!ORDER.includes(section.key)) ordered.push(section);
+  for (const items of bucketed.values()) {
+    ordered.push(...items);
   }
 
   return ordered;
+}
+
+function buildSummaryStats(sections: ReportSection[]): SummaryStat[] {
+  const uniqueKeys = new Set(sections.map((section) => section.key));
+  const liveCount = sections.reduce((sum, section) => sum + section.live.length, 0);
+  const finalsCount = sections.reduce((sum, section) => sum + section.finals.length, 0);
+  const upcomingCount = sections.reduce((sum, section) => sum + section.upcoming.length, 0);
+  const analyticsCount = sections.reduce((sum, section) => sum + section.analytics.length, 0);
+
+  return [
+    { label: "Leagues", value: String(uniqueKeys.size) },
+    { label: "Live", value: String(liveCount) },
+    { label: "Finals", value: String(finalsCount) },
+    { label: "Upcoming", value: String(upcomingCount) },
+    { label: "Analytics", value: String(analyticsCount) },
+  ];
+}
+
+function buildCoverageItems(sections: ReportSection[]): string[] {
+  const seen = new Set<string>();
+
+  return sections
+    .filter((section) => {
+      if (seen.has(section.key)) return false;
+      seen.add(section.key);
+      return true;
+    })
+    .slice(0, 6)
+    .map((section) => {
+      const parts: string[] = [];
+      if (section.live.length) parts.push(`${section.live.length} live`);
+      if (section.finals.length) parts.push(`${section.finals.length} finals`);
+      if (section.upcoming.length) parts.push(`${section.upcoming.length} upcoming`);
+      if (section.analytics.length) parts.push(`${section.analytics.length} notes`);
+
+      return parts.length ? `${section.label}: ${parts.join(" • ")}` : `${section.label}: active`;
+    });
 }
 
 function SidebarButton({ href, label }: { href: string; label: string }) {
@@ -601,14 +827,29 @@ function SidebarButton({ href, label }: { href: string; label: string }) {
   );
 }
 
+function StatChip({ stat }: { stat: SummaryStat }) {
+  return (
+    <div className="rounded-2xl border border-zinc-800 bg-black/35 px-4 py-4">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
+        {stat.label}
+      </p>
+      <p className="mt-2 text-2xl font-black text-white">{stat.value}</p>
+    </div>
+  );
+}
+
 function CardList({
   title,
   items,
+  limit,
 }: {
   title: string;
   items: string[];
+  limit?: number;
 }) {
-  if (!items.length) return null;
+  const cleaned = items.filter((item) => item && !isGarbageFragment(item)).slice(0, limit ?? items.length);
+
+  if (!cleaned.length) return null;
 
   return (
     <div className="rounded-2xl border border-zinc-800 bg-black/35 p-4">
@@ -616,12 +857,12 @@ function CardList({
         {title}
       </h4>
       <div className="space-y-2">
-        {items.map((item, index) => (
+        {cleaned.map((item, index) => (
           <div
             key={`${title}-${index}`}
             className="rounded-xl border border-zinc-800 bg-zinc-950/80 px-4 py-3 text-sm leading-6 text-zinc-200"
           >
-            {item}
+            {compact(item, 260)}
           </div>
         ))}
       </div>
@@ -630,6 +871,8 @@ function CardList({
 }
 
 function LeagueSection({ section }: { section: ReportSection }) {
+  const isLongForm = section.key === "ncaafb" || section.key === "fantasy" || section.key === "betting_odds";
+
   return (
     <section className="rounded-3xl border border-zinc-800 bg-zinc-950/95 p-6 shadow-xl shadow-black/30">
       <div className="mb-5">
@@ -665,7 +908,7 @@ function LeagueSection({ section }: { section: ReportSection }) {
           <div className="space-y-2">
             {section.storylines.map((item, index) => (
               <div
-                key={`story-${section.key}-${index}`}
+                key={`story-${section.renderKey}-${index}`}
                 className="rounded-xl border border-zinc-800 bg-zinc-950/80 px-4 py-3 text-sm leading-6 text-zinc-200"
               >
                 {item}
@@ -676,10 +919,10 @@ function LeagueSection({ section }: { section: ReportSection }) {
       ) : null}
 
       <div className="grid gap-4 xl:grid-cols-2">
-        <CardList title="Live" items={section.live} />
-        <CardList title="Final Scores" items={section.finals} />
-        <CardList title="Upcoming" items={section.upcoming} />
-        <CardList title="Analytics & Notes" items={section.analytics} />
+        <CardList title="Live" items={section.live} limit={isLongForm ? 4 : 8} />
+        <CardList title="Final Scores" items={section.finals} limit={isLongForm ? 4 : 8} />
+        <CardList title="Upcoming" items={section.upcoming} limit={isLongForm ? 5 : 8} />
+        <CardList title="Analytics & Notes" items={section.analytics} limit={isLongForm ? 5 : 6} />
       </div>
     </section>
   );
@@ -694,6 +937,8 @@ export default function Page() {
   const snapshot = getTopSnapshot(data);
   const storylines = getTopStorylines(data);
   const sections = orderedSections(data);
+  const summaryStats = buildSummaryStats(sections);
+  const coverageItems = buildCoverageItems(sections);
   const substackUrl = getSubstackUrl(data);
   const xHandle = getXHandle(data);
   const xUrl = getXUrl(xHandle);
@@ -721,6 +966,12 @@ export default function Page() {
                 Last updated: {timestamp}
               </p>
 
+              <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
+                {summaryStats.map((stat) => (
+                  <StatChip key={stat.label} stat={stat} />
+                ))}
+              </div>
+
               <div className="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1fr)_340px]">
                 <div className="space-y-4">
                   {headline ? (
@@ -738,6 +989,24 @@ export default function Page() {
                         Snapshot
                       </h2>
                       <p className="text-base leading-7 text-zinc-200">{snapshot}</p>
+                    </div>
+                  ) : null}
+
+                  {coverageItems.length ? (
+                    <div className="rounded-2xl border border-zinc-800 bg-black/35 p-5">
+                      <h2 className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                        Coverage Board
+                      </h2>
+                      <div className="space-y-2">
+                        {coverageItems.map((item, index) => (
+                          <div
+                            key={`coverage-${index}`}
+                            className="rounded-xl border border-zinc-800 bg-zinc-950/80 px-4 py-3 text-sm leading-6 text-zinc-200"
+                          >
+                            {item}
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   ) : null}
                 </div>
@@ -758,18 +1027,21 @@ export default function Page() {
                       />
                     </div>
                   ) : (
-                    <div className="flex h-[260px] flex-col items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-950/80 p-6 text-center">
-                      <p className="mb-3 text-base font-semibold text-white">
-                        Open Yahoo Sports 24/7 in a new tab
-                      </p>
-                      <p className="mb-5 text-sm leading-6 text-zinc-400">
-                        Add a real embeddable Yahoo video URL in latest_report.json to restore the live player here.
-                      </p>
+                    <div className="flex min-h-[260px] flex-col justify-between rounded-2xl border border-zinc-800 bg-zinc-950/80 p-6">
+                      <div>
+                        <p className="text-lg font-bold text-white">Yahoo Sports 24/7 is ready to plug in.</p>
+                        <p className="mt-3 text-sm leading-6 text-zinc-400">
+                          The page is live, but the video slot still needs a real embeddable Yahoo player URL in
+                          <span className="mx-1 font-semibold text-zinc-300">latest_report.json</span>
+                          to restore the live stream here.
+                        </p>
+                      </div>
+
                       <a
                         href={yahooWatchUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="rounded-2xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-zinc-800"
+                        className="mt-6 inline-flex w-fit rounded-2xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-zinc-800"
                       >
                         Open Yahoo Sports
                       </a>
@@ -800,14 +1072,12 @@ export default function Page() {
             {sections.length ? (
               <div className="space-y-6">
                 {sections.map((section) => (
-                  <LeagueSection key={section.key} section={section} />
+                  <LeagueSection key={section.renderKey} section={section} />
                 ))}
               </div>
             ) : (
               <section className="rounded-3xl border border-zinc-800 bg-zinc-950/95 p-6 shadow-xl shadow-black/30">
-                <h2 className="mb-3 text-lg font-bold text-white">
-                  Awaiting structured league data
-                </h2>
+                <h2 className="mb-3 text-lg font-bold text-white">Awaiting structured league data</h2>
                 <p className="text-base leading-7 text-zinc-300">
                   The page layout is ready, but the current JSON feed is not delivering usable league sections yet.
                 </p>
