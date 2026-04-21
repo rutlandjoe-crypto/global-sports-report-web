@@ -1,6 +1,5 @@
-import fs from "fs";
-import path from "path";
 import React from "react";
+import { headers } from "next/headers";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -88,6 +87,38 @@ const SECTION_LABELS: Record<string, string> = {
   BETTING: "Betting Odds",
 };
 
+const ROOT_SECTION_ALIASES: Record<string, string[]> = {
+  MLB: ["MLB", "mlb"],
+  NBA: ["NBA", "nba"],
+  NHL: ["NHL", "nhl"],
+  NFL: ["NFL", "nfl"],
+  "NFL DRAFT SIGNALS": ["NFL DRAFT SIGNALS", "nfl_draft_signals", "nfl draft signals"],
+  NCAAFB: ["NCAAFB", "ncaafb", "college_football", "college football"],
+  SOCCER: ["SOCCER", "soccer"],
+  FANTASY: ["FANTASY", "fantasy"],
+  BETTING: ["BETTING", "BETTING ODDS", "betting", "betting_odds", "betting odds"],
+};
+
+const ROOT_META_KEYS = new Set([
+  "title",
+  "headline",
+  "key_storylines",
+  "snapshot",
+  "generated_at",
+  "generated_date",
+  "updated_at",
+  "published_at",
+  "disclaimer",
+  "x_handle",
+  "x_url",
+  "twitter_url",
+  "substack_url",
+  "telegram_url",
+  "telegram_handle",
+  "sections",
+  "sections_map",
+]);
+
 const RECENT_FINAL_KEYS = new Set([
   "today_final_scores",
   "yesterday_final_scores",
@@ -157,24 +188,6 @@ function toTitleCase(input: string): string {
 
 function formatLabel(input: string): string {
   return SECTION_LABELS[input] || toTitleCase(input);
-}
-
-function safeJsonParse(raw: string): RootReport {
-  try {
-    const parsed = JSON.parse(raw);
-    return isObject(parsed) ? (parsed as RootReport) : {};
-  } catch {
-    return {};
-  }
-}
-
-function loadLatestReport(): RootReport {
-  const filePath = path.join(process.cwd(), "public", "latest_report.json");
-  try {
-    return safeJsonParse(fs.readFileSync(filePath, "utf8"));
-  } catch {
-    return {};
-  }
 }
 
 function pickFirstString(...values: unknown[]): string {
@@ -276,8 +289,171 @@ function arrayifyStrings(value: unknown): string[] {
   return [];
 }
 
+async function loadLatestReport(): Promise<RootReport> {
+  try {
+    const incomingHeaders = await headers();
+    const host = incomingHeaders.get("x-forwarded-host") || incomingHeaders.get("host");
+    const proto =
+      incomingHeaders.get("x-forwarded-proto") ||
+      (host?.includes("localhost") ? "http" : "https");
+
+    if (!host) return {};
+
+    const response = await fetch(`${proto}://${host}/api/report`, {
+      cache: "no-store",
+    });
+
+    if (!response.ok) return {};
+
+    const data = await response.json();
+    return isObject(data) ? (data as RootReport) : {};
+  } catch {
+    return {};
+  }
+}
+
 function normalizeSectionName(section: ReportSection): string {
   return pickFirstString(section.name, section.key, section.label, section.title).toUpperCase();
+}
+
+function deriveGamesFromSectionObject(obj: Record<string, unknown>): GamesData | undefined {
+  const live = arrayifyStrings(obj.games && isObject(obj.games) ? obj.games.live : obj.live ?? obj.live_games);
+  const upcoming = arrayifyStrings(
+    obj.games && isObject(obj.games) ? obj.games.upcoming : obj.upcoming ?? obj.upcoming_games ?? obj.today_schedule
+  );
+  const final = arrayifyStrings(
+    obj.games && isObject(obj.games)
+      ? obj.games.final
+      : obj.final ?? obj.final_scores ?? obj.recent_final_scores ?? obj.today_results
+  );
+
+  if (!live.length && !upcoming.length && !final.length) return undefined;
+
+  return {
+    live: live.length ? live : undefined,
+    upcoming: upcoming.length ? upcoming : undefined,
+    final: final.length ? final : undefined,
+  };
+}
+
+function coerceSection(name: string, value: unknown): ReportSection | null {
+  if (value === null || value === undefined) return null;
+
+  if (!isObject(value)) {
+    const text = flattenToText(value);
+    if (!text) return null;
+
+    return {
+      name,
+      title: formatLabel(name),
+      content: text,
+    };
+  }
+
+  const obj = value as Record<string, unknown>;
+  const games = deriveGamesFromSectionObject(obj);
+
+  const structuredEntries = Object.entries(obj).filter(([key]) => {
+    return ![
+      "name",
+      "key",
+      "label",
+      "title",
+      "headline",
+      "snapshot",
+      "key_storylines",
+      "top_storylines",
+      "updated_at",
+      "generated_at",
+      "published_at",
+      "source_file",
+      "games",
+      "live",
+      "upcoming",
+      "final",
+      "live_games",
+      "upcoming_games",
+      "final_scores",
+      "recent_final_scores",
+      "today_results",
+      "today_schedule",
+      "advanced",
+      "content",
+    ].includes(key);
+  });
+
+  const structured_sections =
+    structuredEntries.length > 0
+      ? Object.fromEntries(structuredEntries) as JsonObject
+      : undefined;
+
+  const content =
+    obj.content !== undefined
+      ? (obj.content as JsonValue)
+      : structuredEntries.length === 0
+      ? (obj as JsonObject)
+      : undefined;
+
+  return {
+    name,
+    key: pickFirstString(obj.key) || name,
+    label: pickFirstString(obj.label) || formatLabel(name),
+    title: pickFirstString(obj.title) || formatLabel(name),
+    headline: pickFirstString(obj.headline),
+    snapshot:
+      pickFirstString(obj.snapshot) ||
+      pickFirstString(obj.summary) ||
+      pickFirstString(obj.overview) ||
+      undefined,
+    key_storylines: arrayifyStrings(obj.key_storylines ?? obj.top_storylines),
+    key_data_points: arrayifyStrings(obj.key_data_points),
+    why_it_matters: arrayifyStrings(obj.why_it_matters),
+    story_angles: arrayifyStrings(obj.story_angles),
+    final_scores: arrayifyStrings(obj.final_scores ?? obj.recent_final_scores),
+    live: arrayifyStrings(obj.live ?? obj.live_games),
+    upcoming: arrayifyStrings(obj.upcoming ?? obj.upcoming_games ?? obj.today_schedule),
+    source_file: pickFirstString(obj.source_file),
+    updated_at:
+      pickFirstString(obj.updated_at) ||
+      pickFirstString(obj.generated_at) ||
+      pickFirstString(obj.published_at) ||
+      undefined,
+    content,
+    structured_sections,
+    advanced: isObject(obj.advanced) ? (obj.advanced as JsonObject) : undefined,
+    games,
+  };
+}
+
+function deriveSectionsFromRoot(data: RootReport): ReportSection[] {
+  const sections: ReportSection[] = [];
+
+  for (const sectionName of SECTION_ORDER) {
+    const aliases = ROOT_SECTION_ALIASES[sectionName] || [sectionName];
+    let matchedValue: unknown;
+
+    for (const alias of aliases) {
+      if (alias in data) {
+        matchedValue = data[alias];
+        break;
+      }
+    }
+
+    const section = coerceSection(sectionName, matchedValue);
+    if (section) sections.push(section);
+  }
+
+  if (sections.length > 0) return sections;
+
+  for (const [key, value] of Object.entries(data)) {
+    if (ROOT_META_KEYS.has(key)) continue;
+    if (!value) continue;
+
+    const section = coerceSection(key.toUpperCase(), value);
+    if (section) sections.push(section);
+  }
+
+  return sections;
 }
 
 function getSections(data: RootReport): ReportSection[] {
@@ -289,10 +465,12 @@ function getSections(data: RootReport): ReportSection[] {
     ? Object.values(data.sections_map).filter(isReportSection)
     : [];
 
+  const derived = deriveSectionsFromRoot(data);
+
   const combined = [...fromSections];
   const seen = new Set(combined.map((section) => normalizeSectionName(section)));
 
-  for (const section of fromMap) {
+  for (const section of [...fromMap, ...derived]) {
     const key = normalizeSectionName(section);
     if (!seen.has(key)) {
       combined.push(section);
@@ -320,13 +498,13 @@ function getSectionDisplayName(section: ReportSection): string {
   return raw ? formatLabel(raw) : "Section";
 }
 
-function getRootStatCards(
-  data: RootReport
-): Array<{ label: string; value: string }> {
+function getRootStatCards(data: RootReport): Array<{ label: string; value: string }> {
   const cards: Array<{ label: string; value: string }> = [];
 
-  const sectionsCount = Array.isArray(data.sections) ? data.sections.length : 0;
-  if (sectionsCount) cards.push({ label: "Reports", value: String(sectionsCount) });
+  const sectionCount =
+    (Array.isArray(data.sections) ? data.sections.length : 0) || deriveSectionsFromRoot(data).length;
+
+  if (sectionCount) cards.push({ label: "Reports", value: String(sectionCount) });
 
   const snapshot = flattenToText(data.snapshot);
   if (snapshot) cards.push({ label: "Snapshot", value: snapshot });
@@ -858,7 +1036,10 @@ function hasRenderableBody(section: ReportSection): boolean {
         Object.keys(advanced).some(
           (key) => key !== "title" && flattenToText(advanced[key]).trim()
         )) ||
-      flattenToText(section.content).trim()
+      flattenToText(section.content).trim() ||
+      arrayifyStrings(section.live).length ||
+      arrayifyStrings(section.upcoming).length ||
+      arrayifyStrings(section.final_scores).length
   );
 }
 
@@ -877,6 +1058,10 @@ function SportSectionCard({ section }: { section: ReportSection }) {
     ? section.advanced
     : undefined;
 
+  const fallbackGameLive = arrayifyStrings(section.live);
+  const fallbackGameUpcoming = arrayifyStrings(section.upcoming);
+  const fallbackGameFinal = arrayifyStrings(section.final_scores);
+
   const visibleStructuredEntries = structuredSections
     ? Object.entries(structuredSections).filter(
         ([key, value]) =>
@@ -887,6 +1072,18 @@ function SportSectionCard({ section }: { section: ReportSection }) {
 
   const prioritizedEntries = visibleStructuredEntries.filter(([key]) => COMPACT_KEYS.has(key));
   const remainingEntries = visibleStructuredEntries.filter(([key]) => !COMPACT_KEYS.has(key));
+
+  const liveItems = arrayifyStrings(games?.live).length
+    ? arrayifyStrings(games?.live)
+    : fallbackGameLive;
+
+  const upcomingItems = arrayifyStrings(games?.upcoming).length
+    ? arrayifyStrings(games?.upcoming)
+    : fallbackGameUpcoming;
+
+  const finalItems = arrayifyStrings(games?.final).length
+    ? arrayifyStrings(games?.final)
+    : fallbackGameFinal;
 
   const fallbackReportDetails =
     !visibleStructuredEntries.length && flattenToText(section.content).trim()
@@ -932,26 +1129,23 @@ function SportSectionCard({ section }: { section: ReportSection }) {
           </SectionShell>
         ) : null}
 
-        {games &&
-        (arrayifyStrings(games.live).length ||
-          arrayifyStrings(games.upcoming).length ||
-          arrayifyStrings(games.final).length) ? (
+        {(liveItems.length || upcomingItems.length || finalItems.length) ? (
           <div className="grid gap-3 xl:grid-cols-3">
-            {arrayifyStrings(games.live).length > 0 ? (
+            {liveItems.length > 0 ? (
               <SectionShell title="Live Games" compact>
-                {renderSimpleList(arrayifyStrings(games.live))}
+                {renderSimpleList(liveItems)}
               </SectionShell>
             ) : null}
 
-            {arrayifyStrings(games.upcoming).length > 0 ? (
+            {upcomingItems.length > 0 ? (
               <SectionShell title="Upcoming Games" compact>
-                {renderSimpleList(arrayifyStrings(games.upcoming))}
+                {renderSimpleList(upcomingItems)}
               </SectionShell>
             ) : null}
 
-            {arrayifyStrings(games.final).length > 0 ? (
+            {finalItems.length > 0 ? (
               <SectionShell title="Recent Finals" compact>
-                {renderSimpleList(arrayifyStrings(games.final))}
+                {renderSimpleList(finalItems)}
               </SectionShell>
             ) : null}
           </div>
@@ -989,8 +1183,8 @@ function SportSectionCard({ section }: { section: ReportSection }) {
   );
 }
 
-export default function Page() {
-  const data = loadLatestReport();
+export default async function Page() {
+  const data = await loadLatestReport();
   const title = pickFirstString(data.title) || "Global Sports Report";
   const headline = pickFirstString(data.headline);
   const generatedAt = pickFirstString(
@@ -999,9 +1193,37 @@ export default function Page() {
     data.published_at,
     data.generated_date
   );
-  const topStorylines = arrayifyStrings(data.key_storylines);
-  const statCards = getRootStatCards(data);
   const sections = getSections(data);
+  const topStorylines =
+    arrayifyStrings(data.key_storylines).length > 0
+      ? arrayifyStrings(data.key_storylines)
+      : sections
+          .map((section) => {
+            const sectionName = getSectionDisplayName(section);
+            const sectionSnapshot = pickFirstString(section.snapshot);
+            const liveCount =
+              arrayifyStrings(section.games?.live).length || arrayifyStrings(section.live).length;
+            const upcomingCount =
+              arrayifyStrings(section.games?.upcoming).length ||
+              arrayifyStrings(section.upcoming).length;
+            const finalCount =
+              arrayifyStrings(section.games?.final).length ||
+              arrayifyStrings(section.final_scores).length;
+
+            if (liveCount || upcomingCount || finalCount) {
+              return `${sectionName} shows ${liveCount} live and ${upcomingCount} upcoming on the board.`;
+            }
+
+            if (sectionSnapshot) {
+              return `${sectionName} snapshot: ${sectionSnapshot}`;
+            }
+
+            return "";
+          })
+          .filter(Boolean)
+          .slice(0, 6);
+
+  const statCards = getRootStatCards(data);
   const disclaimer =
     pickFirstString(data.disclaimer) ||
     "This report is an automated summary intended to support, not replace, human sports journalism.";
