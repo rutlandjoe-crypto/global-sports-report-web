@@ -508,6 +508,29 @@ export default function Page() {
                   {title}
                 </h1>
                 <p className="mt-2 text-sm text-zinc-400">Updated: {generatedDate}</p>
+                <div className="mt-4 flex gap-3 flex-wrap">
+  {data.substack_url && (
+    <a
+      href={data.substack_url as string}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 text-sm font-semibold rounded-lg bg-orange-600 hover:bg-orange-500 text-white transition"
+    >
+      Substack
+    </a>
+  )}
+
+  {data.x_handle && (
+    <a
+      href={`https://x.com/${(data.x_handle as string).replace("@", "")}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 text-sm font-semibold rounded-lg bg-zinc-800 hover:bg-zinc-700 text-white transition"
+    >
+      X / Twitter
+    </a>
+  )}
+</div>
               </div>
 
               {headline ? (
