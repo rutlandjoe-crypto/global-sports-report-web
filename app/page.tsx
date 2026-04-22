@@ -119,37 +119,10 @@ const ROOT_META_KEYS = new Set([
   "sections_map",
 ]);
 
-const RECENT_FINAL_KEYS = new Set([
-  "today_final_scores",
-  "yesterday_final_scores",
-  "recent_final_scores",
-  "final_scores",
-  "today_results",
-]);
-
-const COMPACT_KEYS = new Set([
-  "key_data_points",
-  "story_angles",
-  "why_it_matters",
-  "current_data_and_analytics",
-  "historical_context",
-  "news",
-  "watch_list",
-  "team_capital_watch",
-  "draft_calendar",
-  "top_10_draft_order",
-  "day_2_opening_board",
-  "today_final_scores",
-  "yesterday_final_scores",
-  "recent_final_scores",
-  "final_scores",
-  "upcoming_games",
-  "live_games",
-  "today_schedule",
-  "today_results",
-  "top_storylines",
-  "key_storylines",
-  "notes",
+const STRUCTURED_HIDE_KEYS = new Set([
+  "headline",
+  "snapshot",
+  "static_graphic",
 ]);
 
 function isObject(value: unknown): value is Record<string, unknown> {
@@ -173,6 +146,7 @@ function normalizeText(input: string): string {
     .replace(/â€/g, "”")
     .replace(/â€”/g, "—")
     .replace(/â€“/g, "–")
+    .replace(/V�squez/g, "Vásquez")
     .replace(/&amp;/g, "&")
     .replace(/&nbsp;/g, " ")
     .trim();
@@ -213,52 +187,6 @@ function splitLines(text: string): string[] {
     .filter(Boolean);
 }
 
-function flattenToText(value: unknown): string {
-  if (value === null || value === undefined) return "";
-  if (typeof value === "string") return normalizeText(value);
-  if (typeof value === "number" || typeof value === "boolean") return String(value);
-
-  if (Array.isArray(value)) {
-    return value.map((item) => flattenToText(item)).filter(Boolean).join("\n");
-  }
-
-  if (isObject(value)) {
-    const priorityKeys = [
-      "headline",
-      "snapshot",
-      "summary",
-      "content",
-      "body",
-      "text",
-      "report",
-      "overview",
-      "analysis",
-      "description",
-      "notes",
-    ];
-
-    const chunks: string[] = [];
-
-    for (const key of priorityKeys) {
-      if (key in value) {
-        const rendered = flattenToText(value[key]);
-        if (rendered) chunks.push(rendered);
-      }
-    }
-
-    for (const [key, nested] of Object.entries(value)) {
-      if (priorityKeys.includes(key)) continue;
-      const rendered = flattenToText(nested);
-      if (!rendered) continue;
-      chunks.push(`${formatLabel(key)}\n${rendered}`);
-    }
-
-    return chunks.join("\n\n").trim();
-  }
-
-  return "";
-}
-
 function arrayifyStrings(value: unknown): string[] {
   if (!value) return [];
 
@@ -289,13 +217,60 @@ function arrayifyStrings(value: unknown): string[] {
   return [];
 }
 
+function flattenToText(value: unknown): string {
+  if (value === null || value === undefined) return "";
+  if (typeof value === "string") return normalizeText(value);
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+
+  if (Array.isArray(value)) {
+    return value.map((item) => flattenToText(item)).filter(Boolean).join("\n");
+  }
+
+  if (isObject(value)) {
+    const preferredKeys = [
+      "headline",
+      "snapshot",
+      "summary",
+      "overview",
+      "analysis",
+      "content",
+      "body",
+      "text",
+      "notes",
+      "report",
+    ];
+
+    const chunks: string[] = [];
+
+    for (const key of preferredKeys) {
+      if (key in value) {
+        const text = flattenToText(value[key]);
+        if (text) chunks.push(text);
+      }
+    }
+
+    for (const [key, nested] of Object.entries(value)) {
+      if (preferredKeys.includes(key)) continue;
+      const text = flattenToText(nested);
+      if (text) chunks.push(`${formatLabel(key)}\n${text}`);
+    }
+
+    return chunks.join("\n\n").trim();
+  }
+
+  return "";
+}
+
+function normalizeSectionName(section: ReportSection): string {
+  return pickFirstString(section.name, section.key, section.label, section.title).toUpperCase();
+}
+
 async function loadLatestReport(): Promise<RootReport> {
   try {
-    const incomingHeaders = await headers();
-    const host = incomingHeaders.get("x-forwarded-host") || incomingHeaders.get("host");
+    const h = await headers();
+    const host = h.get("x-forwarded-host") || h.get("host");
     const proto =
-      incomingHeaders.get("x-forwarded-proto") ||
-      (host?.includes("localhost") ? "http" : "https");
+      h.get("x-forwarded-proto") || (host?.includes("localhost") ? "http" : "https");
 
     if (!host) return {};
 
@@ -312,19 +287,19 @@ async function loadLatestReport(): Promise<RootReport> {
   }
 }
 
-function normalizeSectionName(section: ReportSection): string {
-  return pickFirstString(section.name, section.key, section.label, section.title).toUpperCase();
-}
+function deriveGamesFromValue(value: Record<string, unknown>): GamesData | undefined {
+  const gameObj = isObject(value.games) ? value.games : undefined;
 
-function deriveGamesFromSectionObject(obj: Record<string, unknown>): GamesData | undefined {
-  const live = arrayifyStrings(obj.games && isObject(obj.games) ? obj.games.live : obj.live ?? obj.live_games);
+  const live = arrayifyStrings(gameObj?.live ?? value.live ?? value.live_games);
   const upcoming = arrayifyStrings(
-    obj.games && isObject(obj.games) ? obj.games.upcoming : obj.upcoming ?? obj.upcoming_games ?? obj.today_schedule
+    gameObj?.upcoming ?? value.upcoming ?? value.upcoming_games ?? value.today_schedule
   );
   const final = arrayifyStrings(
-    obj.games && isObject(obj.games)
-      ? obj.games.final
-      : obj.final ?? obj.final_scores ?? obj.recent_final_scores ?? obj.today_results
+    gameObj?.final ??
+      value.final ??
+      value.final_scores ??
+      value.recent_final_scores ??
+      value.today_results
   );
 
   if (!live.length && !upcoming.length && !final.length) return undefined;
@@ -336,7 +311,7 @@ function deriveGamesFromSectionObject(obj: Record<string, unknown>): GamesData |
   };
 }
 
-function coerceSection(name: string, value: unknown): ReportSection | null {
+function coerceSection(sectionName: string, value: unknown): ReportSection | null {
   if (value === null || value === undefined) return null;
 
   if (!isObject(value)) {
@@ -344,14 +319,14 @@ function coerceSection(name: string, value: unknown): ReportSection | null {
     if (!text) return null;
 
     return {
-      name,
-      title: formatLabel(name),
+      name: sectionName,
+      title: formatLabel(sectionName),
       content: text,
     };
   }
 
   const obj = value as Record<string, unknown>;
-  const games = deriveGamesFromSectionObject(obj);
+  const games = deriveGamesFromValue(obj);
 
   const structuredEntries = Object.entries(obj).filter(([key]) => {
     return ![
@@ -361,6 +336,8 @@ function coerceSection(name: string, value: unknown): ReportSection | null {
       "title",
       "headline",
       "snapshot",
+      "summary",
+      "overview",
       "key_storylines",
       "top_storylines",
       "updated_at",
@@ -377,28 +354,21 @@ function coerceSection(name: string, value: unknown): ReportSection | null {
       "recent_final_scores",
       "today_results",
       "today_schedule",
-      "advanced",
       "content",
+      "advanced",
     ].includes(key);
   });
 
   const structured_sections =
     structuredEntries.length > 0
-      ? Object.fromEntries(structuredEntries) as JsonObject
-      : undefined;
-
-  const content =
-    obj.content !== undefined
-      ? (obj.content as JsonValue)
-      : structuredEntries.length === 0
-      ? (obj as JsonObject)
+      ? (Object.fromEntries(structuredEntries) as JsonObject)
       : undefined;
 
   return {
-    name,
-    key: pickFirstString(obj.key) || name,
-    label: pickFirstString(obj.label) || formatLabel(name),
-    title: pickFirstString(obj.title) || formatLabel(name),
+    name: sectionName,
+    key: pickFirstString(obj.key) || sectionName,
+    label: pickFirstString(obj.label) || formatLabel(sectionName),
+    title: pickFirstString(obj.title) || formatLabel(sectionName),
     headline: pickFirstString(obj.headline),
     snapshot:
       pickFirstString(obj.snapshot) ||
@@ -418,7 +388,7 @@ function coerceSection(name: string, value: unknown): ReportSection | null {
       pickFirstString(obj.generated_at) ||
       pickFirstString(obj.published_at) ||
       undefined,
-    content,
+    content: obj.content as JsonValue | undefined,
     structured_sections,
     advanced: isObject(obj.advanced) ? (obj.advanced as JsonObject) : undefined,
     games,
@@ -430,16 +400,16 @@ function deriveSectionsFromRoot(data: RootReport): ReportSection[] {
 
   for (const sectionName of SECTION_ORDER) {
     const aliases = ROOT_SECTION_ALIASES[sectionName] || [sectionName];
-    let matchedValue: unknown;
+    let matched: unknown = undefined;
 
     for (const alias of aliases) {
       if (alias in data) {
-        matchedValue = data[alias];
+        matched = data[alias];
         break;
       }
     }
 
-    const section = coerceSection(sectionName, matchedValue);
+    const section = coerceSection(sectionName, matched);
     if (section) sections.push(section);
   }
 
@@ -447,8 +417,6 @@ function deriveSectionsFromRoot(data: RootReport): ReportSection[] {
 
   for (const [key, value] of Object.entries(data)) {
     if (ROOT_META_KEYS.has(key)) continue;
-    if (!value) continue;
-
     const section = coerceSection(key.toUpperCase(), value);
     if (section) sections.push(section);
   }
@@ -498,13 +466,10 @@ function getSectionDisplayName(section: ReportSection): string {
   return raw ? formatLabel(raw) : "Section";
 }
 
-function getRootStatCards(data: RootReport): Array<{ label: string; value: string }> {
+function getRootStatCards(data: RootReport, sections: ReportSection[]) {
   const cards: Array<{ label: string; value: string }> = [];
 
-  const sectionCount =
-    (Array.isArray(data.sections) ? data.sections.length : 0) || deriveSectionsFromRoot(data).length;
-
-  if (sectionCount) cards.push({ label: "Reports", value: String(sectionCount) });
+  if (sections.length) cards.push({ label: "Reports", value: String(sections.length) });
 
   const snapshot = flattenToText(data.snapshot);
   if (snapshot) cards.push({ label: "Snapshot", value: snapshot });
@@ -545,63 +510,35 @@ function getTelegramUrl(data: RootReport): string {
   return clean ? `https://t.me/${clean}` : "";
 }
 
-function looksLikeLeagueCollection(obj: Record<string, unknown>) {
-  const keys = Object.keys(obj).map((k) => k.toLowerCase());
-  return keys.some((key) =>
-    [
-      "premier league",
-      "bundesliga",
-      "la liga",
-      "mls",
-      "serie a",
-      "ligue 1",
-      "champions league",
-      "europa league",
-      "acc",
-      "american",
-      "big 12",
-      "big ten",
-      "conference usa",
-      "fbs independents",
-      "mac",
-      "mountain west",
-      "pac-12",
-      "sec",
-      "sun belt",
-      "mlb",
-      "nba",
-      "nhl",
-      "nfl",
-      "soccer",
-      "fantasy",
-      "betting",
-    ].includes(key)
-  );
-}
+function hasRenderableBody(section: ReportSection): boolean {
+  const structuredSections = isJsonObject(section.structured_sections)
+    ? section.structured_sections
+    : undefined;
+  const advanced = isJsonObject(section.advanced) ? section.advanced : undefined;
 
-function looksLikeSummaryObject(obj: Record<string, unknown>) {
-  const keys = Object.keys(obj).map((k) => k.toLowerCase());
-  return (
-    keys.includes("headline") ||
-    keys.includes("notes") ||
-    keys.includes("summary") ||
-    keys.includes("overview") ||
-    keys.includes("today_schedule") ||
-    keys.includes("today_results") ||
-    keys.includes("counts")
-  );
-}
+  const visibleStructuredEntries = structuredSections
+    ? Object.entries(structuredSections).filter(
+        ([key, value]) => !STRUCTURED_HIDE_KEYS.has(key) && flattenToText(value).trim()
+      )
+    : [];
 
-function compactSectionTitle(title: string): string {
-  if (RECENT_FINAL_KEYS.has(title)) return "Recent Finals";
-  if (title === "today_schedule") return "Schedule";
-  if (title === "today_results") return "Recent Results";
-  if (title === "key_data_points") return "Key Points";
-  if (title === "current_data_and_analytics") return "Analytics";
-  if (title === "story_angles") return "Story Angles";
-  if (title === "why_it_matters") return "Why It Matters";
-  if (title === "historical_context") return "Context";
-  return formatLabel(title);
+  return Boolean(
+    pickFirstString(section.headline) ||
+      flattenToText(section.snapshot).trim() ||
+      arrayifyStrings(section.key_storylines).length ||
+      arrayifyStrings(section.key_data_points).length ||
+      arrayifyStrings(section.why_it_matters).length ||
+      arrayifyStrings(section.story_angles).length ||
+      arrayifyStrings(section.live).length ||
+      arrayifyStrings(section.upcoming).length ||
+      arrayifyStrings(section.final_scores).length ||
+      arrayifyStrings(section.games?.live).length ||
+      arrayifyStrings(section.games?.upcoming).length ||
+      arrayifyStrings(section.games?.final).length ||
+      visibleStructuredEntries.length ||
+      (advanced && Object.keys(advanced).length) ||
+      flattenToText(section.content).trim()
+  );
 }
 
 function renderSimpleList(items: string[]) {
@@ -621,8 +558,8 @@ function renderSimpleList(items: string[]) {
   );
 }
 
-function renderCompactText(text: string) {
-  const paragraphs = splitParagraphs(text).slice(0, 3);
+function renderParagraphs(text: string) {
+  const paragraphs = splitParagraphs(text).slice(0, 5);
   if (!paragraphs.length) return null;
 
   return (
@@ -639,295 +576,45 @@ function renderCompactText(text: string) {
   );
 }
 
-function renderPrimitiveStack(obj: Record<string, unknown>) {
-  const entries = Object.entries(obj).filter(
-    ([, value]) => flattenToText(value).trim().length > 0
-  );
-
-  if (!entries.length) return null;
-
-  return (
-    <div className="space-y-3">
-      {entries.map(([key, value]) => (
-        <div key={key} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4">
-          <div className="text-[11px] uppercase tracking-[0.2em] text-zinc-500">
-            {compactSectionTitle(key)}
-          </div>
-          <div className="mt-2 text-sm leading-6 text-zinc-100 break-words whitespace-normal">
-            {String(value)}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function renderKeyValueTextRows(obj: Record<string, unknown>) {
-  const entries = Object.entries(obj).filter(
-    ([, value]) => flattenToText(value).trim().length > 0
-  );
-
-  if (!entries.length) return null;
-
-  return (
-    <div className="space-y-3">
-      {entries.map(([key, value]) => (
-        <div key={key} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4">
-          <h4 className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-400">
-            {compactSectionTitle(key)}
-          </h4>
-          {renderContent(value, 1)}
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function renderFieldCards(obj: Record<string, unknown>, columns = "lg:grid-cols-2") {
-  const entries = Object.entries(obj).filter(
-    ([, value]) => flattenToText(value).trim().length > 0
-  );
-
-  if (!entries.length) return null;
-
-  return (
-    <div className={`grid gap-3 ${columns}`}>
-      {entries.map(([key, value]) => (
-        <div
-          key={key}
-          className="rounded-lg border border-zinc-800 bg-zinc-950 p-4 min-w-0"
-        >
-          <h4 className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-400 break-words">
-            {compactSectionTitle(key)}
-          </h4>
-          <div className="min-w-0">{renderContent(value, 1)}</div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function renderTeamsGrid(teams: unknown[]) {
-  if (!teams.length) return null;
-
-  return (
-    <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-3">
-      {teams.map((team, index) => {
-        if (!isObject(team)) {
-          return (
-            <div
-              key={`team-${index}`}
-              className="rounded-lg border border-zinc-800 bg-zinc-950 p-3 text-sm text-zinc-200 break-words"
-            >
-              {flattenToText(team)}
-            </div>
-          );
-        }
-
-        const teamName = pickFirstString(team.team, team.name) || `Team ${index + 1}`;
-        const record = pickFirstString(team.record);
-        const coach = pickFirstString(team.coach);
-        const keyPlayers = arrayifyStrings(team.key_players);
-
-        return (
-          <div key={`${teamName}-${index}`} className="rounded-lg border border-zinc-800 bg-zinc-950 p-3">
-            <div className="text-sm font-semibold text-white break-words">{teamName}</div>
-            {record ? (
-              <div className="mt-1 text-xs uppercase tracking-[0.14em] text-zinc-400 break-words">
-                Record: {record}
-              </div>
-            ) : null}
-            {coach ? (
-              <div className="mt-1 text-xs uppercase tracking-[0.14em] text-zinc-400 break-words">
-                Coach: {coach}
-              </div>
-            ) : null}
-            {keyPlayers.length ? (
-              <div className="mt-2 text-xs leading-5 text-zinc-300 break-words">
-                Key players: {keyPlayers.join(", ")}
-              </div>
-            ) : null}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
-function renderConferenceView(conferences: Record<string, unknown>) {
-  const entries = Object.entries(conferences).filter(([, value]) => isObject(value));
-  if (!entries.length) return null;
-
-  return (
-    <div className="grid gap-4 lg:grid-cols-2">
-      {entries.map(([conferenceName, conferenceValue]) => {
-        const conf = conferenceValue as Record<string, unknown>;
-        const teams = Array.isArray(conf.teams) ? conf.teams : [];
-        const finals = arrayifyStrings(conf.finals);
-        const live = arrayifyStrings(conf.live);
-        const upcoming = arrayifyStrings(conf.upcoming);
-
-        const headlineStats = [
-          teams.length ? `${teams.length} teams` : "",
-          finals.length ? `${finals.length} finals` : "0 finals",
-          live.length ? `${live.length} live` : "0 live",
-          upcoming.length ? `${upcoming.length} upcoming` : "0 upcoming",
-        ].filter(Boolean);
-
-        return (
-          <div
-            key={conferenceName}
-            className="rounded-xl border border-zinc-800 bg-[#0b0b0f] p-4 min-w-0"
-          >
-            <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
-              <h4 className="text-sm font-semibold uppercase tracking-[0.16em] text-white break-words">
-                {conferenceName}
-              </h4>
-              <div className="text-[10px] uppercase tracking-[0.16em] text-zinc-500">
-                {headlineStats.join(" • ")}
-              </div>
-            </div>
-
-            <div className="space-y-3">
-              {teams.length > 0 ? (
-                <div>
-                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
-                    Teams
-                  </div>
-                  {renderTeamsGrid(teams)}
-                </div>
-              ) : null}
-
-              {live.length > 0 ? (
-                <div>
-                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
-                    Live
-                  </div>
-                  {renderSimpleList(live)}
-                </div>
-              ) : null}
-
-              {upcoming.length > 0 ? (
-                <div>
-                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
-                    Upcoming
-                  </div>
-                  {renderSimpleList(upcoming)}
-                </div>
-              ) : null}
-
-              {finals.length > 0 ? (
-                <div>
-                  <div className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
-                    Finals
-                  </div>
-                  {renderSimpleList(finals)}
-                </div>
-              ) : null}
-            </div>
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
-function renderLeagueSummaryCards(obj: Record<string, unknown>) {
-  const entries = Object.entries(obj).filter(
-    ([, value]) => flattenToText(value).trim().length > 0
-  );
-
-  if (!entries.length) return null;
-
-  return (
-    <div className="grid gap-4 lg:grid-cols-2">
-      {entries.map(([key, value]) => (
-        <div
-          key={key}
-          className="rounded-xl border border-zinc-800 bg-[#0b0b0f] p-4 min-w-0"
-        >
-          <h4 className="mb-3 text-sm font-semibold uppercase tracking-[0.16em] text-white break-words">
-            {compactSectionTitle(key)}
-          </h4>
-          {isObject(value) && looksLikeSummaryObject(value)
-            ? renderKeyValueTextRows(value)
-            : renderContent(value, 1)}
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function renderContent(value: unknown, depth = 0): React.ReactNode {
+function renderContent(value: unknown): React.ReactNode {
   if (value === null || value === undefined) return null;
 
   if (typeof value === "string") {
-    const normalized = normalizeText(value);
-    const paragraphs = splitParagraphs(normalized);
-    const listish = arrayifyStrings(normalized);
+    const text = normalizeText(value);
+    const listish = arrayifyStrings(text);
 
-    if (
-      listish.length >= 3 &&
-      listish.length <= 20 &&
-      paragraphs.length <= 2 &&
-      normalized.includes("\n")
-    ) {
+    if (text.includes("\n") && listish.length >= 2) {
       return renderSimpleList(listish);
     }
 
-    return renderCompactText(normalized);
+    return renderParagraphs(text);
   }
 
   if (typeof value === "number" || typeof value === "boolean") {
-    return (
-      <p className="text-sm leading-6 text-zinc-200 break-words whitespace-normal">
-        {String(value)}
-      </p>
-    );
+    return <p className="text-sm leading-6 text-zinc-200">{String(value)}</p>;
   }
 
   if (Array.isArray(value)) {
-    const simple = value.every(
-      (item) =>
-        typeof item === "string" ||
-        typeof item === "number" ||
-        typeof item === "boolean"
-    );
+    const items = value.flatMap((item) => arrayifyStrings(item));
+    return renderSimpleList(items);
+  }
 
-    if (simple) return renderSimpleList(value.map((item) => String(item)));
+  if (isObject(value)) {
+    const entries = Object.entries(value).filter(([, v]) => flattenToText(v).trim());
+    if (!entries.length) return null;
 
     return (
-      <div className="space-y-3">
-        {value.map((item, index) => (
-          <div key={index} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4 min-w-0">
-            {renderContent(item, depth + 1)}
+      <div className="grid gap-3 lg:grid-cols-2">
+        {entries.map(([key, nested]) => (
+          <div key={key} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4">
+            <div className="mb-2 text-[11px] uppercase tracking-[0.18em] text-zinc-500">
+              {formatLabel(key)}
+            </div>
+            {renderContent(nested)}
           </div>
         ))}
       </div>
     );
-  }
-
-  if (isObject(value)) {
-    if ("conferences" in value && isObject(value.conferences)) {
-      return renderConferenceView(value.conferences as Record<string, unknown>);
-    }
-
-    const primitiveOnly = Object.values(value).every(
-      (nested) =>
-        typeof nested === "string" ||
-        typeof nested === "number" ||
-        typeof nested === "boolean"
-    );
-
-    if (primitiveOnly) return renderPrimitiveStack(value);
-
-    if (looksLikeLeagueCollection(value)) return renderLeagueSummaryCards(value);
-
-    if (looksLikeSummaryObject(value)) return renderKeyValueTextRows(value);
-
-    if (depth === 0) return renderFieldCards(value, "lg:grid-cols-2");
-
-    return renderKeyValueTextRows(value);
   }
 
   return null;
@@ -936,44 +623,19 @@ function renderContent(value: unknown, depth = 0): React.ReactNode {
 function SectionShell({
   title,
   children,
-  compact = false,
 }: {
   title: string;
   children: React.ReactNode;
-  compact?: boolean;
 }) {
   if (!children) return null;
 
   return (
-    <section className={`rounded-xl border border-zinc-800 bg-[#0b0b0f] ${compact ? "p-4" : "p-5"}`}>
+    <section className="rounded-xl border border-zinc-800 bg-[#0b0b0f] p-4">
       <h3 className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-white">
         {title}
       </h3>
       {children}
     </section>
-  );
-}
-
-function AdvancedSection({ advanced }: { advanced: JsonObject }) {
-  const entries = Object.entries(advanced).filter(
-    ([key, value]) => key !== "title" && flattenToText(value).trim().length > 0
-  );
-
-  if (!entries.length) return null;
-
-  return (
-    <SectionShell title="Advanced" compact>
-      <div className="grid gap-3 md:grid-cols-2">
-        {entries.map(([key, value]) => (
-          <div key={key} className="rounded-lg border border-zinc-800 bg-zinc-950 p-4">
-            <div className="text-[10px] uppercase tracking-[0.2em] text-zinc-500">
-              {compactSectionTitle(key)}
-            </div>
-            <div className="mt-2 min-w-0">{renderContent(value, 1)}</div>
-          </div>
-        ))}
-      </div>
-    </SectionShell>
   );
 }
 
@@ -1007,88 +669,40 @@ function PlatformButtons({ data }: { data: RootReport }) {
   );
 }
 
-function hasRenderableBody(section: ReportSection): boolean {
-  const games = isJsonObject(section.games) ? (section.games as GamesData) : undefined;
-  const structuredSections = isJsonObject(section.structured_sections)
-    ? section.structured_sections
-    : undefined;
-  const advanced = isJsonObject(section.advanced)
-    ? section.advanced
-    : undefined;
-
-  const visibleStructuredEntries = structuredSections
-    ? Object.entries(structuredSections).filter(
-        ([key, value]) =>
-          !["headline", "snapshot", "static_graphic"].includes(key) &&
-          flattenToText(value).trim().length > 0
-      )
-    : [];
-
-  return Boolean(
-    arrayifyStrings(section.key_storylines).length ||
-      flattenToText(section.snapshot).trim() ||
-      (games &&
-        (arrayifyStrings(games.live).length ||
-          arrayifyStrings(games.upcoming).length ||
-          arrayifyStrings(games.final).length)) ||
-      visibleStructuredEntries.length ||
-      (advanced &&
-        Object.keys(advanced).some(
-          (key) => key !== "title" && flattenToText(advanced[key]).trim()
-        )) ||
-      flattenToText(section.content).trim() ||
-      arrayifyStrings(section.live).length ||
-      arrayifyStrings(section.upcoming).length ||
-      arrayifyStrings(section.final_scores).length
-  );
-}
-
 function SportSectionCard({ section }: { section: ReportSection }) {
   const displayName = getSectionDisplayName(section);
   const title = pickFirstString(section.title) || displayName;
   const headline = pickFirstString(section.headline);
-  const snapshot = section.snapshot;
+  const snapshot = pickFirstString(section.snapshot);
   const keyStorylines = arrayifyStrings(section.key_storylines);
+  const keyDataPoints = arrayifyStrings(section.key_data_points);
+  const whyItMatters = arrayifyStrings(section.why_it_matters);
+  const storyAngles = arrayifyStrings(section.story_angles);
   const updatedAt = pickFirstString(section.updated_at);
-  const games = isJsonObject(section.games) ? (section.games as GamesData) : undefined;
+
+  const liveItems = arrayifyStrings(section.games?.live).length
+    ? arrayifyStrings(section.games?.live)
+    : arrayifyStrings(section.live);
+
+  const upcomingItems = arrayifyStrings(section.games?.upcoming).length
+    ? arrayifyStrings(section.games?.upcoming)
+    : arrayifyStrings(section.upcoming);
+
+  const finalItems = arrayifyStrings(section.games?.final).length
+    ? arrayifyStrings(section.games?.final)
+    : arrayifyStrings(section.final_scores);
+
   const structuredSections = isJsonObject(section.structured_sections)
-    ? section.structured_sections
-    : undefined;
-  const advanced = isJsonObject(section.advanced)
-    ? section.advanced
-    : undefined;
-
-  const fallbackGameLive = arrayifyStrings(section.live);
-  const fallbackGameUpcoming = arrayifyStrings(section.upcoming);
-  const fallbackGameFinal = arrayifyStrings(section.final_scores);
-
-  const visibleStructuredEntries = structuredSections
-    ? Object.entries(structuredSections).filter(
-        ([key, value]) =>
-          !["headline", "snapshot", "static_graphic"].includes(key) &&
-          flattenToText(value).trim().length > 0
+    ? Object.entries(section.structured_sections).filter(
+        ([key, value]) => !STRUCTURED_HIDE_KEYS.has(key) && flattenToText(value).trim()
       )
     : [];
 
-  const prioritizedEntries = visibleStructuredEntries.filter(([key]) => COMPACT_KEYS.has(key));
-  const remainingEntries = visibleStructuredEntries.filter(([key]) => !COMPACT_KEYS.has(key));
+  const advancedEntries = isJsonObject(section.advanced)
+    ? Object.entries(section.advanced).filter(([, value]) => flattenToText(value).trim())
+    : [];
 
-  const liveItems = arrayifyStrings(games?.live).length
-    ? arrayifyStrings(games?.live)
-    : fallbackGameLive;
-
-  const upcomingItems = arrayifyStrings(games?.upcoming).length
-    ? arrayifyStrings(games?.upcoming)
-    : fallbackGameUpcoming;
-
-  const finalItems = arrayifyStrings(games?.final).length
-    ? arrayifyStrings(games?.final)
-    : fallbackGameFinal;
-
-  const fallbackReportDetails =
-    !visibleStructuredEntries.length && flattenToText(section.content).trim()
-      ? renderContent(section.content)
-      : null;
+  const fallbackContent = flattenToText(section.content).trim();
 
   return (
     <section className="rounded-2xl border border-zinc-800 bg-gradient-to-r from-[#111117] to-[#0b0b0f] p-5">
@@ -1118,65 +732,63 @@ function SportSectionCard({ section }: { section: ReportSection }) {
 
       <div className="space-y-4">
         {snapshot ? (
-          <SectionShell title="Snapshot" compact>
-            {renderContent(snapshot)}
-          </SectionShell>
+          <SectionShell title="Snapshot">{renderParagraphs(snapshot)}</SectionShell>
         ) : null}
 
         {keyStorylines.length > 0 ? (
-          <SectionShell title="Key Storylines" compact>
-            {renderSimpleList(keyStorylines)}
-          </SectionShell>
+          <SectionShell title="Key Storylines">{renderSimpleList(keyStorylines)}</SectionShell>
         ) : null}
 
         {(liveItems.length || upcomingItems.length || finalItems.length) ? (
           <div className="grid gap-3 xl:grid-cols-3">
             {liveItems.length > 0 ? (
-              <SectionShell title="Live Games" compact>
-                {renderSimpleList(liveItems)}
-              </SectionShell>
+              <SectionShell title="Live Games">{renderSimpleList(liveItems)}</SectionShell>
             ) : null}
-
             {upcomingItems.length > 0 ? (
-              <SectionShell title="Upcoming Games" compact>
-                {renderSimpleList(upcomingItems)}
-              </SectionShell>
+              <SectionShell title="Upcoming Games">{renderSimpleList(upcomingItems)}</SectionShell>
             ) : null}
-
             {finalItems.length > 0 ? (
-              <SectionShell title="Recent Finals" compact>
-                {renderSimpleList(finalItems)}
-              </SectionShell>
+              <SectionShell title="Final Scores">{renderSimpleList(finalItems)}</SectionShell>
             ) : null}
           </div>
         ) : null}
 
-        {prioritizedEntries.length > 0 ? (
+        {(keyDataPoints.length || whyItMatters.length || storyAngles.length) ? (
+          <div className="grid gap-3 lg:grid-cols-3">
+            {keyDataPoints.length > 0 ? (
+              <SectionShell title="Key Data Points">{renderSimpleList(keyDataPoints)}</SectionShell>
+            ) : null}
+            {whyItMatters.length > 0 ? (
+              <SectionShell title="Why It Matters">{renderSimpleList(whyItMatters)}</SectionShell>
+            ) : null}
+            {storyAngles.length > 0 ? (
+              <SectionShell title="Story Angles">{renderSimpleList(storyAngles)}</SectionShell>
+            ) : null}
+          </div>
+        ) : null}
+
+        {structuredSections.length > 0 ? (
           <div className="grid gap-3 lg:grid-cols-2">
-            {prioritizedEntries.map(([key, value]) => (
-              <SectionShell key={key} title={compactSectionTitle(key)} compact>
+            {structuredSections.map(([key, value]) => (
+              <SectionShell key={key} title={formatLabel(key)}>
                 {renderContent(value)}
               </SectionShell>
             ))}
           </div>
         ) : null}
 
-        {remainingEntries.length > 0 ? (
-          <div className="space-y-4">
-            {remainingEntries.map(([key, value]) => (
-              <SectionShell key={key} title={compactSectionTitle(key)} compact>
+        {advancedEntries.length > 0 ? (
+          <div className="grid gap-3 lg:grid-cols-2">
+            {advancedEntries.map(([key, value]) => (
+              <SectionShell key={key} title={formatLabel(key)}>
                 {renderContent(value)}
               </SectionShell>
             ))}
           </div>
         ) : null}
 
-        {advanced ? <AdvancedSection advanced={advanced} /> : null}
-
-        {fallbackReportDetails ? (
-          <SectionShell title="Report Details" compact>
-            {fallbackReportDetails}
-          </SectionShell>
+        {fallbackContent ? (
+          <SectionShell title="Report Details">{renderParagraphs(fallbackContent)}</SectionShell>
         ) : null}
       </div>
     </section>
@@ -1185,6 +797,8 @@ function SportSectionCard({ section }: { section: ReportSection }) {
 
 export default async function Page() {
   const data = await loadLatestReport();
+  const sections = getSections(data).filter(hasRenderableBody);
+
   const title = pickFirstString(data.title) || "Global Sports Report";
   const headline = pickFirstString(data.headline);
   const generatedAt = pickFirstString(
@@ -1193,14 +807,13 @@ export default async function Page() {
     data.published_at,
     data.generated_date
   );
-  const sections = getSections(data);
+
   const topStorylines =
     arrayifyStrings(data.key_storylines).length > 0
       ? arrayifyStrings(data.key_storylines)
       : sections
           .map((section) => {
-            const sectionName = getSectionDisplayName(section);
-            const sectionSnapshot = pickFirstString(section.snapshot);
+            const name = getSectionDisplayName(section);
             const liveCount =
               arrayifyStrings(section.games?.live).length || arrayifyStrings(section.live).length;
             const upcomingCount =
@@ -1209,26 +822,23 @@ export default async function Page() {
             const finalCount =
               arrayifyStrings(section.games?.final).length ||
               arrayifyStrings(section.final_scores).length;
+            const snap = pickFirstString(section.snapshot);
 
             if (liveCount || upcomingCount || finalCount) {
-              return `${sectionName} shows ${liveCount} live and ${upcomingCount} upcoming on the board.`;
+              return `${name} shows ${liveCount} live and ${upcomingCount} upcoming on the board.`;
             }
 
-            if (sectionSnapshot) {
-              return `${sectionName} snapshot: ${sectionSnapshot}`;
-            }
-
+            if (snap) return `${name} snapshot: ${snap}`;
             return "";
           })
           .filter(Boolean)
-          .slice(0, 6);
+          .slice(0, 8);
 
-  const statCards = getRootStatCards(data);
+  const statCards = getRootStatCards(data, sections);
+
   const disclaimer =
     pickFirstString(data.disclaimer) ||
     "This report is an automated summary intended to support, not replace, human sports journalism.";
-
-  const renderableSections = sections.filter(hasRenderableBody);
 
   return (
     <main className="min-h-screen bg-black text-white">
@@ -1297,25 +907,17 @@ export default async function Page() {
                 </span>
               </div>
 
-              {VIDEO_URL ? (
-                <div className="overflow-hidden rounded-lg border border-zinc-800 bg-black">
-                  <div className="aspect-video">
-                    <iframe
-                      src={VIDEO_URL}
-                      title="Global Sports Report Live Video"
-                      className="h-full w-full"
-                      allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-                      allowFullScreen
-                    />
-                  </div>
+              <div className="overflow-hidden rounded-lg border border-zinc-800 bg-black">
+                <div className="aspect-video">
+                  <iframe
+                    src={VIDEO_URL}
+                    title="Global Sports Report Live Video"
+                    className="h-full w-full"
+                    allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+                    allowFullScreen
+                  />
                 </div>
-              ) : (
-                <div className="flex aspect-video items-center justify-center rounded-lg border border-dashed border-zinc-700 bg-black px-6 text-center text-sm leading-6 text-zinc-400">
-                  <div className="max-w-md break-words whitespace-normal">
-                    Add your Yahoo Sports Network embed URL in the VIDEO_URL constant.
-                  </div>
-                </div>
-              )}
+              </div>
 
               <p className="mt-3 text-xs leading-5 text-zinc-500">{disclaimer}</p>
             </div>
@@ -1332,7 +934,7 @@ export default async function Page() {
               renderSimpleList(topStorylines)
             ) : (
               <p className="text-sm leading-6 text-zinc-400">
-                No top-level storyline data is available in the current report.
+                No storyline data is available in the current report.
               </p>
             )}
           </section>
@@ -1341,7 +943,9 @@ export default async function Page() {
             <h2 className="mb-3 text-base font-semibold uppercase tracking-[0.16em] text-white">
               Daily Snapshot
             </h2>
-            {renderContent(data.snapshot) || (
+            {pickFirstString(data.snapshot) ? (
+              renderParagraphs(pickFirstString(data.snapshot))
+            ) : (
               <p className="text-sm leading-6 text-zinc-400">
                 No root snapshot is available in the current report.
               </p>
@@ -1350,7 +954,7 @@ export default async function Page() {
         </div>
 
         <div className="mt-5 space-y-4">
-          {renderableSections.map((section, index) => (
+          {sections.map((section, index) => (
             <SportSectionCard
               key={`${pickFirstString(section.name, section.title, section.key, section.label)}-${index}`}
               section={section}
