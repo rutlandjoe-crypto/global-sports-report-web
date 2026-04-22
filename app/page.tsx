@@ -14,6 +14,7 @@ const PRIMARY_ORDER = [
   "nba",
   "nhl",
   "nfl",
+  "nfl_draft",
   "ncaafb",
   "soccer",
   "fantasy",
@@ -27,15 +28,32 @@ const PRIMARY_LABELS: Record<PrimaryKey, string> = {
   nba: "NBA",
   nhl: "NHL",
   nfl: "NFL",
+  nfl_draft: "NFL DRAFT",
   ncaafb: "NCAA FOOTBALL",
   soccer: "SOCCER",
   fantasy: "FANTASY",
   betting_odds: "BETTING ODDS",
 };
 
-const HIDDEN_FIELDS = new Set([
-  "source_file",
-  "disclaimer",
+const HIDDEN_FIELDS = new Set(["source_file", "disclaimer"]);
+
+const RESERVED_TOP_LEVEL_KEYS = new Set([
+  "title",
+  "generated_date",
+  "generated_at",
+  "headline",
+  "snapshot",
+  "key_storylines",
+  "substack_url",
+  "x_handle",
+  "meta",
+  "sections",
+  "sections_map",
+  "section_order",
+  "full_text",
+  "full_report",
+  "updated_at",
+  "name",
 ]);
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -103,6 +121,34 @@ function cleanLabel(label: string): string {
     .trim();
 }
 
+function normalizeSectionKey(value: string): string {
+  const normalized = value
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+
+  const aliasMap: Record<string, string> = {
+    mlb: "mlb",
+    nba: "nba",
+    nhl: "nhl",
+    nfl: "nfl",
+    nfl_draft: "nfl_draft",
+    nfl_draft_signals: "nfl_draft",
+    draft_signals: "nfl_draft",
+    ncaafb: "ncaafb",
+    ncaa_football: "ncaafb",
+    soccer: "soccer",
+    fantasy: "fantasy",
+    betting: "betting_odds",
+    betting_odds: "betting_odds",
+    betting_odds_report: "betting_odds",
+  };
+
+  return aliasMap[normalized] || normalized;
+}
+
 function isNoiseLine(line: string): boolean {
   const lower = line.toLowerCase();
 
@@ -125,7 +171,7 @@ function cleanTextBlock(text: string): string {
   const cleaned = lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
 
   if (!cleaned) {
-    return "Limited betting data was available during this report window.";
+    return "";
   }
 
   return cleaned;
@@ -137,7 +183,6 @@ function splitLines(text: string): string[] {
     .map((line) => line.trim())
     .filter(Boolean);
 }
-
 function normalizeArray(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
 
@@ -182,7 +227,7 @@ function formatSectionText(value: unknown): string {
       .map(([k, v]) => {
         if (typeof v === "string" || typeof v === "number" || typeof v === "boolean") {
           const text = toDisplayText(v);
-          return text && !isNoiseLine(text) ? `${cleanLabel(k)}: ${text}` : "";
+          return text ? `${cleanLabel(k)}: ${text}` : "";
         }
 
         if (Array.isArray(v)) {
@@ -315,33 +360,136 @@ function renderValue(value: unknown) {
   return null;
 }
 
-function getPrimaryCards(data: JsonObject) {
-  return PRIMARY_ORDER.map((key) => {
-    const value = data[key];
-    if (!isRecord(value)) return null;
+type SectionEntry = {
+  key: string;
+  label: string;
+  value: Record<string, unknown>;
+};
 
-    return {
-      key,
-      label: PRIMARY_LABELS[key],
-      value,
-    };
-  }).filter(Boolean) as { key: PrimaryKey; label: string; value: Record<string, unknown> }[];
+function getSectionsFromArray(data: JsonObject): SectionEntry[] {
+  const rawSections = data.sections;
+  if (!Array.isArray(rawSections)) return [];
+
+  return rawSections
+    .map((item) => {
+      if (!isRecord(item)) return null;
+
+      const rawName =
+        toDisplayText(item.name) || toDisplayText(item.title) || "SECTION";
+
+      const key = normalizeSectionKey(rawName);
+      const label =
+        PRIMARY_LABELS[key as PrimaryKey] || cleanLabel(toDisplayText(item.name) || key);
+
+      return {
+        key,
+        label,
+        value: item,
+      };
+    })
+    .filter(Boolean) as SectionEntry[];
+}
+
+function getSectionsFromMap(data: JsonObject): SectionEntry[] {
+  const rawMap = data.sections_map;
+  if (!isRecord(rawMap)) return [];
+
+  return Object.entries(rawMap)
+    .map(([mapKey, value]) => {
+      if (!isRecord(value)) return null;
+
+      const key = normalizeSectionKey(mapKey);
+      const rawName =
+        toDisplayText(value.name) || toDisplayText(value.title) || mapKey;
+      const label =
+        PRIMARY_LABELS[key as PrimaryKey] || cleanLabel(rawName);
+
+      return {
+        key,
+        label,
+        value,
+      };
+    })
+    .filter(Boolean) as SectionEntry[];
+}
+
+function getSectionsFromLegacyTopLevel(data: JsonObject): SectionEntry[] {
+  return Object.entries(data)
+    .filter(([key, value]) => {
+      return !RESERVED_TOP_LEVEL_KEYS.has(key) && isRecord(value);
+    })
+    .map(([key, value]) => {
+      const normalizedKey = normalizeSectionKey(key);
+      const rawName =
+        toDisplayText((value as Record<string, unknown>).name) ||
+        toDisplayText((value as Record<string, unknown>).title) ||
+        key;
+
+      return {
+        key: normalizedKey,
+        label: PRIMARY_LABELS[normalizedKey as PrimaryKey] || cleanLabel(rawName),
+        value: value as Record<string, unknown>,
+      };
+    });
+}
+
+function getAllSections(data: JsonObject): SectionEntry[] {
+  const candidates = [
+    ...getSectionsFromArray(data),
+    ...getSectionsFromMap(data),
+    ...getSectionsFromLegacyTopLevel(data),
+  ];
+
+  const byKey = new Map<string, SectionEntry>();
+
+  for (const section of candidates) {
+    if (!byKey.has(section.key)) {
+      byKey.set(section.key, section);
+      continue;
+    }
+
+    const existing = byKey.get(section.key)!;
+    const existingScore = Object.keys(existing.value).length;
+    const incomingScore = Object.keys(section.value).length;
+
+    if (incomingScore >= existingScore) {
+      byKey.set(section.key, section);
+    }
+  }
+
+  const orderedKeysFromJson = Array.isArray(data.section_order)
+    ? normalizeArray(data.section_order).map(normalizeSectionKey)
+    : [];
+
+  const orderedKeys = [
+    ...PRIMARY_ORDER,
+    ...orderedKeysFromJson.filter((k) => !PRIMARY_ORDER.includes(k as PrimaryKey)),
+    ...Array.from(byKey.keys()).filter(
+      (k) =>
+        !PRIMARY_ORDER.includes(k as PrimaryKey) &&
+        !orderedKeysFromJson.includes(k)
+    ),
+  ];
+
+  return orderedKeys
+    .map((key) => byKey.get(key))
+    .filter(Boolean) as SectionEntry[];
+}
+
+function getPrimaryCards(data: JsonObject) {
+  const sections = getAllSections(data);
+
+  return sections.filter((section) =>
+    PRIMARY_ORDER.includes(section.key as PrimaryKey)
+  ) as { key: PrimaryKey; label: string; value: Record<string, unknown> }[];
 }
 
 function getExtraSections(data: JsonObject) {
-  return Object.entries(data)
-    .filter(([key, value]) => {
-      return (
-        !PRIMARY_ORDER.includes(key as PrimaryKey) &&
-        isRecord(value) &&
-        key !== "meta"
-      );
-    })
-    .map(([key, value]) => ({
-      key,
-      label: cleanLabel(key),
-      value: value as Record<string, unknown>,
-    }));
+  const sections = getAllSections(data);
+
+  return sections.filter(
+    (section) => !PRIMARY_ORDER.includes(section.key as PrimaryKey)
+  );
 }
 
 function SummaryCard({
@@ -358,7 +506,7 @@ function SummaryCard({
       <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
         {title}
       </div>
-      <div className="text-sm leading-6 text-zinc-200">{value}</div>
+      <div className="text-sm leading-6 text-zinc-200 whitespace-pre-line">{value}</div>
     </div>
   );
 }
@@ -376,16 +524,30 @@ function LeagueCard({
     "snapshot",
     "key_storylines",
     "key_data_points",
+    "current_data_and_analytics",
+    "story_angles",
+    "draft_calendar",
+    "top_10_draft_order",
+    "full_round_1_order",
+    "day_2_opening_board",
+    "team_capital_watch",
     "final_scores",
+    "today_final_scores",
+    "yesterday_final_scores",
     "live",
+    "today_live",
     "upcoming",
+    "today_schedule",
+    "upcoming_games",
     "analytics",
     "fantasy_spotlight",
     "betting_angles",
     "notable_lines",
     "watch_list",
     "content",
+    "structured_sections",
     "advanced",
+    "games",
     "body",
     "summary",
   ];
@@ -441,7 +603,9 @@ function LeagueCard({
                 if (childVal === null || childVal === undefined) return false;
                 if (typeof childVal === "string") return cleanTextBlock(childVal).trim().length > 0;
                 if (Array.isArray(childVal)) return normalizeArray(childVal).length > 0;
-                if (isRecord(childVal)) return Object.keys(childVal).length > 0;
+                if (isRecord(childVal)) return Object.keys(childVal).some(
+                  (nestedKey) => !HIDDEN_FIELDS.has(nestedKey)
+                );
                 return true;
               }))
           ) {
@@ -481,6 +645,7 @@ export default function Page() {
   const generatedDate =
     toDisplayText(data.generated_date) ||
     toDisplayText(data.generated_at) ||
+    toDisplayText(data.updated_at) ||
     new Date().toLocaleString("en-US", {
       timeZone: "America/New_York",
       dateStyle: "full",
@@ -508,29 +673,30 @@ export default function Page() {
                   {title}
                 </h1>
                 <p className="mt-2 text-sm text-zinc-400">Updated: {generatedDate}</p>
-                <div className="mt-4 flex gap-3 flex-wrap">
-  {data.substack_url && (
-    <a
-      href={data.substack_url as string}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 text-sm font-semibold rounded-lg bg-orange-600 hover:bg-orange-500 text-white transition"
-    >
-      Substack
-    </a>
-  )}
 
-  {data.x_handle && (
-    <a
-      href={`https://x.com/${(data.x_handle as string).replace("@", "")}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 text-sm font-semibold rounded-lg bg-zinc-800 hover:bg-zinc-700 text-white transition"
-    >
-      X / Twitter
-    </a>
-  )}
-</div>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  {data.substack_url && (
+                    <a
+                      href={data.substack_url as string}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-lg bg-orange-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-500"
+                    >
+                      Substack
+                    </a>
+                  )}
+
+                  {data.x_handle && (
+                    <a
+                      href={`https://x.com/${(data.x_handle as string).replace("@", "")}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-lg bg-zinc-800 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-700"
+                    >
+                      X / Twitter
+                    </a>
+                  )}
+                </div>
               </div>
 
               {headline ? (
