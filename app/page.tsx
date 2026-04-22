@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 
+export const dynamic = "force-dynamic";
+
 type Primitive = string | number | boolean | null | undefined;
 type JsonValue = Primitive | JsonObject | JsonValue[] | Record<string, unknown>;
 type JsonObject = { [key: string]: JsonValue };
@@ -40,6 +42,7 @@ const HIDDEN_FIELDS = new Set([
   "disclaimer",
   "full_text",
   "full_report",
+  "static graphic",
 ]);
 
 const RESERVED_TOP_LEVEL_KEYS = new Set([
@@ -61,6 +64,8 @@ const RESERVED_TOP_LEVEL_KEYS = new Set([
   "published_at",
   "generated",
   "name",
+  "statcast_graphic",
+  "disclaimer",
 ]);
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -178,28 +183,27 @@ function cleanTextBlock(text: string): string {
   const normalized = text
     .replace(/\r\n/g, "\n")
     .replace(/\r/g, "\n")
-    .replace(/â€™/g, "’")
-    .replace(/â€˜/g, "‘")
-    .replace(/â€œ/g, '"')
-    .replace(/â€\x9d/g, '"')
-    .replace(/â€”/g, "—")
-    .replace(/â€“/g, "–")
-    .replace(/â€¦/g, "…")
-    .replace(/Â/g, "")
-    .replace(/Ã©/g, "é")
-    .replace(/Ã¡/g, "á")
-    .replace(/Ã³/g, "ó")
-    .replace(/Ã±/g, "ñ")
-    .replace(/Ã¼/g, "ü")
-    .replace(/�/g, "");
+    .replace(/Ã¢â‚¬â„¢/g, "’")
+    .replace(/Ã¢â‚¬Ëœ/g, "‘")
+    .replace(/Ã¢â‚¬Å“/g, '"')
+    .replace(/Ã¢â‚¬\x9d/g, '"')
+    .replace(/Ã¢â‚¬â€/g, "—")
+    .replace(/Ã¢â‚¬â€œ/g, "–")
+    .replace(/Ã¢â‚¬Â¦/g, "…")
+    .replace(/Ã‚/g, "")
+    .replace(/ÃƒÂ©/g, "é")
+    .replace(/ÃƒÂ¡/g, "á")
+    .replace(/ÃƒÂ³/g, "ó")
+    .replace(/ÃƒÂ±/g, "ñ")
+    .replace(/ÃƒÂ¼/g, "ü")
+    .replace(/ï¿½/g, "");
 
   const lines = normalized
     .split("\n")
     .map((line) => line.trimEnd())
     .filter((line) => !isNoiseLine(line));
 
-  const cleaned = lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
-  return cleaned;
+  return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
 }
 
 function splitLines(text: string): string[] {
@@ -743,9 +747,9 @@ export default function Page() {
                 <p className="mt-2 text-sm text-zinc-400">Updated: {generatedDate}</p>
 
                 <div className="mt-4 flex flex-wrap gap-3">
-                  {data.substack_url && (
+                  {typeof data.substack_url === "string" && data.substack_url.trim() && (
                     <a
-                      href={data.substack_url as string}
+                      href={data.substack_url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-lg bg-orange-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-500"
@@ -754,9 +758,9 @@ export default function Page() {
                     </a>
                   )}
 
-                  {data.x_handle && (
+                  {typeof data.x_handle === "string" && data.x_handle.trim() && (
                     <a
-                      href={`https://x.com/${(data.x_handle as string).replace("@", "")}`}
+                      href={`https://x.com/${data.x_handle.replace("@", "")}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-lg bg-zinc-800 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-700"
@@ -776,18 +780,21 @@ export default function Page() {
                 </div>
               ) : null}
 
-              {data.statcast_graphic && (
+{/* STATCAST SNAPSHOT (TEXT-BASED) */}
+{data.sections?.mlb?.advanced?.sections?.statcast_watch?.length ? (
   <div className="rounded-2xl border border-zinc-800 bg-black/40 p-4">
     <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
       Statcast Snapshot
     </div>
-    <img
-      src={data.statcast_graphic as string}
-      alt="MLB Statcast Snapshot"
-      className="w-full rounded-lg border border-zinc-800"
-    />
+    <ul className="space-y-2">
+      {data.sections.mlb.advanced.sections.statcast_watch.map((item: string, idx: number) => (
+        <li key={idx} className="ml-5 list-disc text-sm leading-6 text-zinc-300">
+          {item.replace(/^[-•]\s*/, "")}
+        </li>
+      ))}
+    </ul>
   </div>
-)}
+) : null}
 
               <div className="grid gap-4 md:grid-cols-2">
                 <SummaryCard title="Snapshot" value={snapshot} />
