@@ -43,6 +43,10 @@ const HIDDEN_FIELDS = new Set([
   "full_text",
   "full_report",
   "static graphic",
+  "static_graphic",
+  "statcast_graphic",
+  "statcast_snapshot",
+  "advanced",
 ]);
 
 const RESERVED_TOP_LEVEL_KEYS = new Set([
@@ -557,6 +561,23 @@ function getExtraSections(data: JsonObject) {
   );
 }
 
+function getStatcastWatchItems(data: JsonObject): string[] {
+  const fromMap =
+    isRecord(data.sections_map) &&
+    isRecord(data.sections_map.mlb) &&
+    isRecord((data.sections_map.mlb as Record<string, unknown>).advanced) &&
+    isRecord(
+      ((data.sections_map.mlb as Record<string, unknown>).advanced as Record<string, unknown>).sections
+    )
+      ? (
+          (((data.sections_map.mlb as Record<string, unknown>).advanced as Record<string, unknown>)
+            .sections as Record<string, unknown>).statcast_watch
+        )
+      : null;
+
+  return normalizeArray(fromMap);
+}
+
 function SummaryCard({
   title,
   value,
@@ -583,42 +604,41 @@ function LeagueCard({
   title: string;
   section: Record<string, unknown>;
 }) {
-  const preferredOrder = [
-    "title",
-    "headline",
-    "snapshot",
-    "key_storylines",
-    "key_data_points",
-    "current_data_and_analytics",
-    "story_angles",
-    "draft_calendar",
-    "top_10_draft_order",
-    "full_round_1_order",
-    "day_2_opening_board",
-    "team_capital_watch",
-    "final_scores",
-    "today_final_scores",
-    "yesterday_final_scores",
-    "yesterday_playoff_results",
-    "live",
-    "today_live",
-    "live_now",
-    "upcoming",
-    "today_schedule",
-    "today_playoff_schedule",
-    "upcoming_games",
-    "analytics",
-    "fantasy_spotlight",
-    "betting_angles",
-    "notable_lines",
-    "watch_list",
-    "content",
-    "structured_sections",
-    "advanced",
-    "games",
-    "body",
-    "summary",
-  ];
+const preferredOrder = [
+  "title",
+  "headline",
+  "snapshot",
+  "key_storylines",
+  "key_data_points",
+  "current_data_and_analytics",
+  "story_angles",
+  "draft_calendar",
+  "top_10_draft_order",
+  "full_round_1_order",
+  "day_2_opening_board",
+  "team_capital_watch",
+  "final_scores",
+  "today_final_scores",
+  "yesterday_final_scores",
+  "yesterday_playoff_results",
+  "live",
+  "today_live",
+  "live_now",
+  "upcoming",
+  "today_schedule",
+  "today_playoff_schedule",
+  "upcoming_games",
+  "analytics",
+  "fantasy_spotlight",
+  "betting_angles",
+  "notable_lines",
+  "watch_list",
+  "content",
+  "structured_sections",
+  "games",
+  "body",
+  "summary",
+];
 
   const used = new Set<string>();
   const orderedEntries: [string, unknown][] = [];
@@ -729,6 +749,7 @@ export default function Page() {
   const keyStorylines = data.key_storylines;
   const primaryCards = getPrimaryCards(data);
   const extraSections = getExtraSections(data);
+  const statcastWatchItems = getStatcastWatchItems(data);
 
   return (
     <main className="min-h-screen bg-black text-white">
@@ -780,21 +801,20 @@ export default function Page() {
                 </div>
               ) : null}
 
-{/* STATCAST SNAPSHOT (TEXT-BASED) */}
-{data.sections?.mlb?.advanced?.sections?.statcast_watch?.length ? (
-  <div className="rounded-2xl border border-zinc-800 bg-black/40 p-4">
-    <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-      Statcast Snapshot
-    </div>
-    <ul className="space-y-2">
-      {data.sections.mlb.advanced.sections.statcast_watch.map((item: string, idx: number) => (
-        <li key={idx} className="ml-5 list-disc text-sm leading-6 text-zinc-300">
-          {item.replace(/^[-•]\s*/, "")}
-        </li>
-      ))}
-    </ul>
-  </div>
-) : null}
+              {statcastWatchItems.length ? (
+                <div className="rounded-2xl border border-zinc-800 bg-black/40 p-4">
+                  <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
+                    Statcast Snapshot
+                  </div>
+                  <ul className="space-y-2">
+                    {statcastWatchItems.map((item, idx) => (
+                      <li key={idx} className="ml-5 list-disc text-sm leading-6 text-zinc-300">
+                        {item.replace(/^[-•]\s*/, "")}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
 
               <div className="grid gap-4 md:grid-cols-2">
                 <SummaryCard title="Snapshot" value={snapshot} />
