@@ -6,10 +6,12 @@ The college football report window is built around conference-by-conference team
 SNAPSHOT
 - The report currently tracks 113 teams across 11 conference buckets.
 - The reporting window currently shows 0 finals from yesterday, 0 live games today, 0 upcoming games today, and 0 finals already posted today.
+- Active scoreboard source: ESPN college football fallback.
 
 KEY DATA POINTS
 - The cleanest college football reporting value in this window comes from separating 0 yesterday finals from 0 live and 0 upcoming games on today's board.
 - Today's scoreboard also already contains 0 final entries, which keeps completed same-day results distinct from games still ahead.
+- Primary scoreboard layer: ESPN college football fallback. Sportradar token detected: True.
 - SEC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - ACC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - Big Ten: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
@@ -39,4 +41,4 @@ DISCLAIMER
 This report is an automated summary intended to support, not replace, human sports journalism.
 
 UPDATED
-2026-04-24 10:32:01 AM ET
+2026-04-24 11:09:47 AM ET
