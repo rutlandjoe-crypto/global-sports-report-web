@@ -8,8 +8,8 @@ KEY STORYLINES
 
 - Yesterday's MLB board is cleanly separated with 9 final scores.
 - 14 MLB games remain on today's schedule.
-- The report window includes 0 completed games from yesterday and 3 games on today's board.
-- 3 games have already gone final on today's board.
+- Yesterday's NBA playoff board closed with 0 final game(s).
+- Today's NBA playoff board shows 0 game(s): 0 final, 0 live, and 0 scheduled.
 - No confirmed live NFL Draft pick data was returned during this refresh.
 
 SNAPSHOT
@@ -79,52 +79,28 @@ STORY ANGLES
 - Which scheduled games carry the most pitching, bullpen, lineup, or playoff-race leverage?
 - Which Statcast and probable-pitcher signals deserve deeper reporting once lineups and starters are confirmed?
 
+DATA SOURCE
+- Primary scoreboard source: ESPN MLB scoreboard.
+- Optional enrichment source: Sportradar MLB probable-pitcher schedule feed.
+- Sportradar token detected: True.
+- Sportradar access level: trial.
+
 NBA
 
 HEADLINE
-The NBA board remains in focus, though usable game-state data is limited in this report window.
+The NBA playoff board is organized into clean score and schedule windows, with completed games, live games and upcoming games separated for newsroom use.
 
 SNAPSHOT
-The NBA slate currently shows 0 finals from yesterday, 0 live today, 0 upcoming today, 3 already final today.
-
-KEY DATA POINTS
-- The report window includes 0 completed games from yesterday and 3 games on today's board.
-- 3 games have already gone final on today's board.
-- Fresh standings context was unavailable, so team-record analytics were limited in this report window.
-- The base ESPN scoreboard feed was used as a fallback after at least one dated endpoint lookup failed.
-
-WHY IT MATTERS
-Even in a thinner data window, the NBA board still supports planning for previews, recaps, and reaction coverage.
-
-CURRENT DATA AND ANALYTICS
-Current analytics context was limited in this report window, but the board still supports schedule, score, and standings framing.
-
-STORY ANGLES
-Matchup framing and scoreboard sequencing remain the clearest NBA story entry points in this report window.
-
-YESTERDAY FINAL SCORES
-- Atlanta Hawks beat New York Knicks, 109-108.
-- Toronto Raptors beat Cleveland Cavaliers, 126-104.
-- Minnesota Timberwolves beat Denver Nuggets, 113-96.
-
-NHL
-
-HEADLINE
-The NHL playoff board is organized into clean score and schedule windows for newsroom use.
-
-SNAPSHOT
-The NHL report is running with Sportradar NHL as the active data layer.
+The NBA report is running with ESPN NBA fallback as the active data layer.
 
 KEY STORYLINES
-- Yesterday's NHL playoff board closed with 3 final game(s).
-- Today's NHL playoff board shows 3 game(s): 0 final, 0 live, and 3 scheduled.
-- Primary source: Sportradar NHL, with ESPN used only as fallback.
-- Remaining NHL playoff games are isolated in the schedule block so they do not repeat as final scores.
+- Yesterday's NBA playoff board closed with 0 final game(s).
+- Today's NBA playoff board shows 0 game(s): 0 final, 0 live, and 0 scheduled.
+- Active data source: ESPN NBA fallback.
+- Sportradar NBA token is detected; ESPN remains the safety net when Sportradar endpoint access is unavailable.
 
 YESTERDAY FINAL SCORES
-- Buffalo Sabres 3, Boston Bruins 1 — Final
-- Carolina Hurricanes 2, Ottawa Senators 1 — Final
-- Colorado Avalanche 4, Los Angeles Kings 2 — Final
+- No games in this window.
 
 TODAY FINAL SCORES
 - No games in this window.
@@ -133,9 +109,51 @@ TODAY LIVE
 - No games in this window.
 
 TODAY PLAYOFF SCHEDULE
-- Tampa Bay Lightning at Montreal Canadiens — 7:00 PM ET — Bell Centre
-- Vegas Golden Knights at Utah Mammoth — 9:30 PM ET — Delta Center
-- Edmonton Oilers at Anaheim Ducks — 10:00 PM ET — Honda Center
+- No games in this window.
+
+WHY IT MATTERS
+- This structure prevents completed NBA playoff games from repeating inside schedule blocks.
+- Sportradar can function as the premium GSR basketball layer when endpoint access is available, while ESPN remains the safety net.
+- The site can keep its existing design while the backend data quality improves.
+
+DATA SOURCE
+- Active source: ESPN NBA fallback
+- Source priority: Sportradar NBA first when endpoint access is available, ESPN fallback second.
+- Sportradar token detected: True
+- Sportradar access level: trial
+
+UPDATED
+2026-04-24 11:55:46 AM ET
+
+NHL
+
+HEADLINE
+The NHL playoff board is organized into clean score and schedule windows for newsroom use.
+
+SNAPSHOT
+The NHL report is running with ESPN NHL fallback as the active data layer.
+
+KEY STORYLINES
+- Yesterday's NHL playoff board closed with 3 final game(s).
+- Today's NHL playoff board shows 3 game(s): 0 final, 0 live, and 3 scheduled.
+- Sportradar NHL token/key is not configured yet; ESPN fallback is powering this report.
+- Remaining NHL playoff games are isolated in the schedule block so they do not repeat as final scores.
+
+YESTERDAY FINAL SCORES
+- Sabres 3, Bruins 1 — Final
+- Hurricanes 2, Senators 1 — Final
+- Avalanche 4, Kings 2 — Final
+
+TODAY FINAL SCORES
+- No games in this window.
+
+TODAY LIVE
+- No games in this window.
+
+TODAY PLAYOFF SCHEDULE
+- Lightning at Canadiens — 7:00 PM ET — Bell Centre
+- Golden Knights at Mammoth — 9:30 PM ET — Delta Center
+- Oilers at Ducks — 10:00 PM ET — Honda Center
 
 WHY IT MATTERS
 - This structure prevents completed NHL games from repeating inside schedule blocks.
@@ -143,18 +161,19 @@ WHY IT MATTERS
 - The site can keep its existing design while the backend data quality improves.
 
 DATA SOURCE
-- Active source: Sportradar NHL
+- Active source: ESPN NHL fallback
 - Source priority: Sportradar NHL first, ESPN fallback second.
-- Sportradar token detected: True
+- Sportradar token detected: False
+- Sportradar access level: trial
 
 UPDATED
-2026-04-24 11:09:08 AM ET
+2026-04-24 11:56:09 AM ET
 
 NFL
 
 KEY DATA POINTS
 - No confirmed live NFL Draft pick data was returned during this refresh.
-- Sportradar token detected: True.
+- Sportradar token detected: False.
 - Sportradar is treated as the premium source layer when a valid NFL key is configured.
 - ESPN remains a fallback only and will not be used to invent draft selections.
 
@@ -181,7 +200,7 @@ SNAPSHOT
 KEY DATA POINTS
 - The cleanest college football reporting value in this window comes from separating 0 yesterday finals from 0 live and 0 upcoming games on today's board.
 - Today's scoreboard also already contains 0 final entries, which keeps completed same-day results distinct from games still ahead.
-- Primary scoreboard layer: ESPN college football fallback. Sportradar token detected: True.
+- Primary scoreboard layer: ESPN college football fallback. Sportradar token detected: False.
 - SEC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - ACC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - Big Ten: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
@@ -797,4 +816,4 @@ This report is an automated summary intended to support, not replace, human spor
 
 UPDATED
 
-2026-04-24 11:09:51 AM ET
+2026-04-24 11:57:06 AM ET
