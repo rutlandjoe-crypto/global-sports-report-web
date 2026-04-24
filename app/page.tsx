@@ -85,7 +85,7 @@ function readLatestReport(): JsonObject {
   try {
     if (!fs.existsSync(filePath)) {
       return {
-        title: "GLOBAL ENTERTAINMENT REPORT",
+        title: "GLOBAL SPORTS REPORT",
         generated_date: new Date().toLocaleString("en-US", {
           timeZone: "America/New_York",
           dateStyle: "full",
@@ -102,7 +102,7 @@ function readLatestReport(): JsonObject {
     if (isRecord(parsed)) return parsed;
 
     return {
-      title: "GLOBAL ENTERTAINMENT REPORT",
+      title: "GLOBAL SPORTS REPORT",
       generated_date: new Date().toLocaleString("en-US", {
         timeZone: "America/New_York",
         dateStyle: "full",
@@ -113,7 +113,7 @@ function readLatestReport(): JsonObject {
     };
   } catch (error) {
     return {
-      title: "GLOBAL ENTERTAINMENT REPORT",
+      title: "GLOBAL SPORTS REPORT",
       generated_date: new Date().toLocaleString("en-US", {
         timeZone: "America/New_York",
         dateStyle: "full",
@@ -772,7 +772,7 @@ function LeagueCard({
 export default function Page() {
   const data = readLatestReport();
 
-  const title = toDisplayText(data.title) || "GLOBAL ENTERTAINMENT REPORT";
+  const title = toDisplayText(data.title) || "GLOBAL SPORTS REPORT";
   const generatedDate =
     toDisplayText(data.generated_date) ||
     toDisplayText(data.generated_at) ||
@@ -934,10 +934,10 @@ export default function Page() {
 
         <footer className="rounded-3xl border border-zinc-800 bg-zinc-950/90 p-5 text-center shadow-2xl shadow-black/40">
           <p className="text-xs uppercase tracking-[0.22em] text-zinc-500">
-            Global Entertainment Report
+            Global Sports Report
           </p>
           <p className="mt-2 text-sm text-zinc-400">
-            Automated entertainment journalism support for the modern newsroom.
+            Automated sports journalism support for the modern newsroom.
           </p>
         </footer>
       </div>
