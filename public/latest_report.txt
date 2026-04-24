@@ -10,7 +10,7 @@ KEY STORYLINES
 - 9 games are already final in the current reporting window.
 - The report window includes 0 completed games from yesterday and 3 games on today's board.
 - 3 games have already gone final on today's board.
-- NFL Draft Round 1 is scheduled for Thursday, April 23 at 8:00 PM ET, with Rounds 2-3 on Friday, April 24 and Rounds 4-7 on Saturday, April 25.
+- No confirmed live NFL Draft pick data was returned during this refresh.
 
 SNAPSHOT
 
@@ -144,103 +144,20 @@ YESTERDAY PLAYOFF RESULTS
 
 NFL
 
-HEADLINE
-The NFL board has shifted into live draft coverage, where pick sequence, trade movement, and team strategy now matter more than standard schedule framing.
-
-SNAPSHOT
-The draft has opened, and the live NFL board is now defined by pick order, trade movement, and team-by-team selection strategy.
-
 KEY DATA POINTS
-- NFL Draft Round 1 is scheduled for Thursday, April 23 at 8:00 PM ET, with Rounds 2-3 on Friday, April 24 and Rounds 4-7 on Saturday, April 25.
-- The official seven-round order is set at 257 total picks, and the league has assigned 33 compensatory selections to this draft.
-- The current top five stands as Las Vegas, New York Jets, Arizona, Tennessee, and New York Giants.
-- 6 clubs currently own multiple first-round selections, which raises the board's trade and packaging value before Thursday night.
-- NFL Draft Round 1 has already opened, shifting the reporting window toward pick reaction, trade movement, and live board flow.
+- No confirmed live NFL Draft pick data was returned during this refresh.
+- Sportradar is now treated as the premium source layer when SPORTSRADAR_NFL_API_KEY is configured.
+- ESPN remains a fallback only and will not be used to invent draft selections.
 
-CURRENT DATA AND ANALYTICS
-- The first round currently holds 32 picks, while the full 2026 draft board carries 257 selections, including 33 compensatory picks.
-- The top 10 of the board averaged 5.3 wins and 11.7 losses last season, which underscores how heavily the early draft capital is concentrated among losing teams.
-- The AFC controls 16 first-round picks, while the NFC controls 16.
-- AFC East currently carries the heaviest Round 1 footprint with 6 first-round picks.
-- Teams with multiple first-round picks currently include New York Jets (2, 16); New York Giants (5, 10); Cleveland Browns (6, 24); Kansas City Chiefs (9, 29); Miami Dolphins (11, 30); Dallas Cowboys (12, 20).
+WHY IT MATTERS
+- NFL Draft data is one of the highest-value products on Global Sports Report because every selection creates immediate newsroom utility.
+- The report now separates confirmed draft results from schedule and standings data, which prevents stale pre-draft order from being presented as actual results.
+- Sportradar gives GSR a stronger path toward current, structured, real-time football data during draft week and eventually during the regular season.
 
 STORY ANGLES
-- The Giants holding Picks 5 and 10 gives them one of the most flexible Round 1 positions on the board, whether they stay put or become an early trade pivot.
-- The Jets start at No. 2 and also own No. 16, giving them both premium access at the top and another meaningful swing later in the round.
-- Kansas City owning two first-rounders keeps a playoff-level roster tied to unusual draft leverage, which makes the Chiefs one of the more interesting team-building watches on Day 1.
-- The top 10 remains the strongest story zone because that is where rebuild pressure, quarterback urgency, and trade-up chatter tend to compress the fastest.
-- Once Round 1 ends, the opening of Round 2 immediately matters because clubs such as the Jets, Cardinals, Titans, Raiders, Giants, Texans, Browns, and Chiefs return early on Day 2.
-
-DRAFT CALENDAR
-- Round 1: Thursday, April 23 - 8:00 PM ET
-- Rounds 2-3: Friday, April 24 - 7:00 PM ET
-- Rounds 4-7: Saturday, April 25 - 12:00 PM ET
-- Location: Pittsburgh, Pennsylvania
-- Venue footprint: Acrisure Stadium and Point State Park
-
-TOP 10 DRAFT ORDER
-- 1. Las Vegas Raiders | 2025 record: 3-14
-- 2. New York Jets | 2025 record: 4-13
-- 3. Arizona Cardinals | 2025 record: 4-13
-- 4. Tennessee Titans | 2025 record: 5-12
-- 5. New York Giants | 2025 record: 5-12
-- 6. Cleveland Browns | 2025 record: 6-11
-- 7. Washington Commanders | 2025 record: 6-11
-- 8. New Orleans Saints | 2025 record: 7-10
-- 9. Kansas City Chiefs | 2025 record: 8-9
-- 10. New York Giants (from Bengals) | 2025 record: 5-12
-
-FULL ROUND 1 ORDER
-- 1. Las Vegas Raiders | 2025 record: 3-14
-- 2. New York Jets | 2025 record: 4-13
-- 3. Arizona Cardinals | 2025 record: 4-13
-- 4. Tennessee Titans | 2025 record: 5-12
-- 5. New York Giants | 2025 record: 5-12
-- 6. Cleveland Browns | 2025 record: 6-11
-- 7. Washington Commanders | 2025 record: 6-11
-- 8. New Orleans Saints | 2025 record: 7-10
-- 9. Kansas City Chiefs | 2025 record: 8-9
-- 10. New York Giants (from Bengals) | 2025 record: 5-12
-- 11. Miami Dolphins | 2025 record: 8-9
-- 12. Dallas Cowboys | 2025 record: 8-9
-- 13. Los Angeles Rams (from Falcons) | 2025 record: 9-8
-- 14. Baltimore Ravens | 2025 record: 9-8
-- 15. Tampa Bay Buccaneers | 2025 record: 9-8
-- 16. New York Jets (from Colts) | 2025 record: 4-13
-- 17. Detroit Lions | 2025 record: 10-7
-- 18. Minnesota Vikings | 2025 record: 10-7
-- 19. Carolina Panthers | 2025 record: 10-7
-- 20. Dallas Cowboys (from Packers) | 2025 record: 8-9
-- 21. Pittsburgh Steelers | 2025 record: 10-7
-- 22. Los Angeles Chargers | 2025 record: 10-7
-- 23. Philadelphia Eagles | 2025 record: 11-6
-- 24. Cleveland Browns (from Jaguars) | 2025 record: 6-11
-- 25. Chicago Bears | 2025 record: 11-6
-- 26. Buffalo Bills | 2025 record: 11-6
-- 27. San Francisco 49ers | 2025 record: 11-6
-- 28. Houston Texans | 2025 record: 11-6
-- 29. Kansas City Chiefs (from Rams) | 2025 record: 8-9
-- 30. Miami Dolphins (from Broncos) | 2025 record: 8-9
-- 31. New England Patriots | 2025 record: 12-5
-- 32. Seattle Seahawks | 2025 record: 13-4
-
-DAY 2 OPENING BOARD
-- 33. New York Jets
-- 34. Arizona Cardinals
-- 35. Tennessee Titans
-- 36. Las Vegas Raiders
-- 37. New York Giants
-- 38. Houston Texans (from Commanders)
-- 39. Cleveland Browns
-- 40. Kansas City Chiefs
-
-TEAM CAPITAL WATCH
-- New York Jets: Picks 2, 16 | 2025 record: 4-13
-- New York Giants: Picks 5, 10 | 2025 record: 5-12
-- Cleveland Browns: Picks 6, 24 | 2025 record: 6-11
-- Kansas City Chiefs: Picks 9, 29 | 2025 record: 8-9
-- Miami Dolphins: Picks 11, 30 | 2025 record: 8-9
-- Dallas Cowboys: Picks 12, 20 | 2025 record: 8-9
+- How quickly does the Sportradar feed begin returning confirmed selections once the draft window is active?
+- Which teams gain the most leverage as Round 2 opens?
+- Can GSR turn the NFL draft board into a live newsroom planning tool?
 
 NCAAFB
 
@@ -347,9 +264,9 @@ The fantasy sports board is active across multiple leagues, with current schedul
 
 SNAPSHOT
 - MLB: 5 result-driven fantasy notes, 1 live-context notes, and 5 schedule-focused notes are available in this report window.
-- NBA: 3 result-driven fantasy notes, 1 live-context notes, and 1 schedule-focused notes are available in this report window.
-- NHL: 3 result-driven fantasy notes, 1 live-context notes, and 1 schedule-focused notes are available in this report window.
-- NFL: 5 result-driven fantasy notes, 0 live-context notes, and 5 schedule-focused notes are available in this report window.
+- NBA: 3 result-driven fantasy notes, 0 live-context notes, and 0 schedule-focused notes are available in this report window.
+- NHL: 3 result-driven fantasy notes, 0 live-context notes, and 0 schedule-focused notes are available in this report window.
+- NFL: 0 result-driven fantasy notes, 0 live-context notes, and 5 schedule-focused notes are available in this report window.
 - SOCCER: 0 result-driven fantasy notes, 0 live-context notes, and 0 schedule-focused notes are available in this report window.
 - BETTING: 0 result-driven fantasy notes, 0 live-context notes, and 6 schedule-focused notes are available in this report window.
 
@@ -380,39 +297,39 @@ TOP BOARD
 
 Boston Celtics at Philadelphia 76 ers - 7:10 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Boston Celtics -286 at Bet Rivers
+Best away moneyline: Boston Celtics -292 at Low Vig.ag
 Best home moneyline: Philadelphia 76 ers +255 at Bovada
 Representative spread: Boston Celtics -7.5 / Philadelphia 76 ers 7.5 (Draft Kings)
 Representative total: 215.5 (Draft Kings)
 Draft Kings | ML Boston Celtics -305 / Philadelphia 76 ers +245 | Spread Boston Celtics -7.5 (-108) / Philadelphia 76 ers 7.5 (-112) | Total 215.5 (Over -110 / Under -110)
 Bet MGM | ML Boston Celtics -300 / Philadelphia 76 ers +240 | Spread Boston Celtics -7.5 (-105) / Philadelphia 76 ers 7.5 (-115) | Total 215.5 (Over -110 / Under -110)
-Fan Duel | ML Boston Celtics -300 / Philadelphia 76 ers +245 | Spread Boston Celtics -7.5 (-108) / Philadelphia 76 ers 7.5 (-112) | Total 215.5 (Over -108 / Under -112)
-Caesars | ML Boston Celtics -305 / Philadelphia 76 ers +240 | Spread Boston Celtics -7 (-110) / Philadelphia 76 ers 7 (-110) | Total 215.5 (Over -110 / Under -110)
-Bet Rivers | ML Boston Celtics -286 / Philadelphia 76 ers +220 | Spread Boston Celtics -7.5 (-112) / Philadelphia 76 ers 7.5 (-112) | Total 216 (Over -110 / Under -113)
+Fan Duel | ML Boston Celtics -295 / Philadelphia 76 ers +240 | Spread Boston Celtics -7.5 (-108) / Philadelphia 76 ers 7.5 (-112) | Total 215.5 (Over -108 / Under -112)
+Caesars | ML Boston Celtics -305 / Philadelphia 76 ers +240 | Spread Boston Celtics -7 (-115) / Philadelphia 76 ers 7 (-105) | Total 215.5 (Over -110 / Under -110)
+Bet Rivers | ML Boston Celtics -295 / Philadelphia 76 ers +225 | Spread Boston Celtics -7.5 (-113) / Philadelphia 76 ers 7.5 (-110) | Total 216 (Over -109 / Under -114)
 
 Los Angeles Lakers at Houston Rockets - 8:10 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Los Angeles Lakers +275 at Fan Duel
+Best away moneyline: Los Angeles Lakers +285 at Bet Rivers
 Best home moneyline: Houston Rockets -317 at Low Vig.ag
 Representative spread: Los Angeles Lakers 8.5 / Houston Rockets -8.5 (Draft Kings)
 Representative total: 206.5 (Draft Kings)
 Draft Kings | ML Los Angeles Lakers +270 / Houston Rockets -340 | Spread Los Angeles Lakers 8.5 (-108) / Houston Rockets -8.5 (-112) | Total 206.5 (Over -110 / Under -110)
 Bet MGM | ML Los Angeles Lakers +260 / Houston Rockets -325 | Spread Los Angeles Lakers 8.5 (-110) / Houston Rockets -8.5 (-110) | Total 207.5 (Over -110 / Under -110)
-Fan Duel | ML Los Angeles Lakers +275 / Houston Rockets -340 | Spread Los Angeles Lakers 9.5 (-115) / Houston Rockets -9.5 (-105) | Total 206.5 (Over -110 / Under -110)
+Fan Duel | ML Los Angeles Lakers +270 / Houston Rockets -335 | Spread Los Angeles Lakers 9.5 (-115) / Houston Rockets -9.5 (-105) | Total 206.5 (Over -114 / Under -106)
 Caesars | ML Los Angeles Lakers +260 / Houston Rockets -335 | Spread Los Angeles Lakers 8.5 (-110) / Houston Rockets -8.5 (-110) | Total 207 (Over -110 / Under -110)
-Bet Rivers | ML Los Angeles Lakers +275 / Houston Rockets -375 | Spread Los Angeles Lakers 9 (-113) / Houston Rockets -9 (-110) | Total 206.5 (Over -110 / Under -113)
+Bet Rivers | ML Los Angeles Lakers +285 / Houston Rockets -385 | Spread Los Angeles Lakers 9 (-112) / Houston Rockets -9 (-112) | Total 206.5 (Over -112 / Under -112)
 
 San Antonio Spurs at Portland Trail Blazers - 10:40 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: San Antonio Spurs -138 at Low Vig.ag
+Best away moneyline: San Antonio Spurs -132 at Bet Rivers
 Best home moneyline: Portland Trail Blazers +122 at Low Vig.ag
 Representative spread: San Antonio Spurs -2.5 / Portland Trail Blazers 2.5 (Draft Kings)
 Representative total: 220.5 (Draft Kings)
 Draft Kings | ML San Antonio Spurs -142 / Portland Trail Blazers +120 | Spread San Antonio Spurs -2.5 (-110) / Portland Trail Blazers 2.5 (-110) | Total 220.5 (Over -108 / Under -112)
 Bet MGM | ML San Antonio Spurs -140 / Portland Trail Blazers +115 | Spread San Antonio Spurs -2.5 (-110) / Portland Trail Blazers 2.5 (-110) | Total 219.5 (Over -110 / Under -110)
-Fan Duel | ML San Antonio Spurs -142 / Portland Trail Blazers +120 | Spread San Antonio Spurs -2.5 (-108) / Portland Trail Blazers 2.5 (-112) | Total 219.5 (Over -114 / Under -106)
-Caesars | ML San Antonio Spurs -140 / Portland Trail Blazers +118 | Spread San Antonio Spurs -2.5 (-110) / Portland Trail Blazers 2.5 (-110) | Total 219.5 (Over -110 / Under -110)
-Bet Rivers | ML San Antonio Spurs -139 / Portland Trail Blazers +112 | Spread San Antonio Spurs -2.5 (-112) / Portland Trail Blazers 2.5 (-112) | Total 220.5 (Over -112 / Under -112)
+Fan Duel | ML San Antonio Spurs -138 / Portland Trail Blazers +118 | Spread San Antonio Spurs -2.5 (-108) / Portland Trail Blazers 2.5 (-112) | Total 219.5 (Over -114 / Under -106)
+Caesars | ML San Antonio Spurs -140 / Portland Trail Blazers +118 | Spread San Antonio Spurs -2.5 (-110) / Portland Trail Blazers 2.5 (-110) | Total 219 (Over -105 / Under -115)
+Bet Rivers | ML San Antonio Spurs -132 / Portland Trail Blazers +106 | Spread San Antonio Spurs -2 (-110) / Portland Trail Blazers 2 (-113) | Total 220.5 (Over -110 / Under -113)
 
 Detroit Pistons at Orlando Magic - 1:10 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
@@ -433,9 +350,9 @@ Best home moneyline: Phoenix Suns +360 at Draft Kings
 Representative spread: Oklahoma City Thunder -9.5 / Phoenix Suns 9.5 (Draft Kings)
 Representative total: 214.5 (Draft Kings)
 Draft Kings | ML Oklahoma City Thunder -470 / Phoenix Suns +360 | Spread Oklahoma City Thunder -9.5 (-110) / Phoenix Suns 9.5 (-110) | Total 214.5 (Over -110 / Under -110)
-Bet MGM | ML Oklahoma City Thunder -450 / Phoenix Suns +340 | Spread Oklahoma City Thunder -9.5 (-110) / Phoenix Suns 9.5 (-110) | Total 214.5 (Over -110 / Under -110)
+Bet MGM | ML Oklahoma City Thunder -450 / Phoenix Suns +340 | Spread Oklahoma City Thunder -9.5 (-105) / Phoenix Suns 9.5 (-115) | Total 214.5 (Over -110 / Under -110)
 Fan Duel | ML Oklahoma City Thunder -420 / Phoenix Suns +330 | Spread Oklahoma City Thunder -9.5 (-105) / Phoenix Suns 9.5 (-115) | Total 214.5 (Over -114 / Under -106)
-Caesars | ML Oklahoma City Thunder -455 / Phoenix Suns +345 | Spread Oklahoma City Thunder -9.5 (-110) / Phoenix Suns 9.5 (-110) | Total 214.5 (Over -110 / Under -110)
+Caesars | ML Oklahoma City Thunder -455 / Phoenix Suns +345 | Spread Oklahoma City Thunder -9 (-115) / Phoenix Suns 9 (-105) | Total 214.5 (Over -110 / Under -110)
 Bet Rivers | ML Oklahoma City Thunder -435 / Phoenix Suns +320 | Spread Oklahoma City Thunder -9.5 (-113) / Phoenix Suns 9.5 (-110) | Total 214.5 (Over -113 / Under -110)
 
 MLB
@@ -449,15 +366,15 @@ TOP BOARD
 
 Detroit Tigers at Cincinnati Reds - 6:41 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Detroit Tigers -125 at Bet Rivers
-Best home moneyline: Cincinnati Reds +117 at Bet Online.ag
+Best away moneyline: Detroit Tigers -130 at Fan Duel
+Best home moneyline: Cincinnati Reds +121 at Bet Online.ag
 Representative spread: Detroit Tigers -1.5 / Cincinnati Reds 1.5 (Draft Kings)
 Representative total: 8.5 (Draft Kings)
-Draft Kings | ML Detroit Tigers -136 / Cincinnati Reds +113 | Spread Detroit Tigers -1.5 (+119) / Cincinnati Reds 1.5 (-143) | Total 8.5 (Over -112 / Under -108)
+Draft Kings | ML Detroit Tigers -136 / Cincinnati Reds +113 | Spread Detroit Tigers -1.5 (+119) / Cincinnati Reds 1.5 (-143) | Total 8.5 (Over -115 / Under -105)
 Bet MGM | ML Detroit Tigers -140 / Cincinnati Reds +115 | Spread Detroit Tigers -1.5 (+125) / Cincinnati Reds 1.5 (-155) | Total 8.5 (Over -110 / Under -110)
-Fan Duel | ML Detroit Tigers -130 / Cincinnati Reds +110 | Spread Detroit Tigers -1.5 (+130) / Cincinnati Reds 1.5 (-156) | Total 8.5 (Over -110 / Under -110)
-Caesars | ML Detroit Tigers -135 / Cincinnati Reds +115 | Spread Detroit Tigers -1.5 (+118) / Cincinnati Reds 1.5 (-140) | Total 8.5 (Over -110 / Under -110)
-Bet Rivers | ML Detroit Tigers -125 / Cincinnati Reds +102 | Spread Detroit Tigers -1.5 (+133) / Cincinnati Reds 1.5 (-167) | Total 8.5 (Over -110 / Under -113)
+Fan Duel | ML Detroit Tigers -130 / Cincinnati Reds +110 | Spread Detroit Tigers -1.5 (+126) / Cincinnati Reds 1.5 (-152) | Total 8.5 (Over -110 / Under -110)
+Caesars | ML Detroit Tigers -135 / Cincinnati Reds +115 | Spread Detroit Tigers -1.5 (+118) / Cincinnati Reds 1.5 (-140) | Total 8.5 (Over -115 / Under -105)
+Bet Rivers | ML Detroit Tigers -132 / Cincinnati Reds +106 | Spread Detroit Tigers -1.5 (+128) / Cincinnati Reds 1.5 (-159) | Total 8.5 (Over -112 / Under -110)
 
 Boston Red Sox at Baltimore Orioles - 7:06 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
@@ -465,47 +382,47 @@ Best away moneyline: Boston Red Sox +104 at Bet Online.ag
 Best home moneyline: Baltimore Orioles -114 at Bet US
 Representative spread: Boston Red Sox -1.5 / Baltimore Orioles 1.5 (Draft Kings)
 Representative total: 9 (Draft Kings)
-Draft Kings | ML Boston Red Sox -102 / Baltimore Orioles -118 | Spread Boston Red Sox -1.5 (+144) / Baltimore Orioles 1.5 (-175) | Total 9 (Over -108 / Under -112)
+Draft Kings | ML Boston Red Sox -102 / Baltimore Orioles -118 | Spread Boston Red Sox -1.5 (+146) / Baltimore Orioles 1.5 (-177) | Total 9 (Over -105 / Under -115)
 Bet MGM | ML Boston Red Sox -105 / Baltimore Orioles -115 | Spread Boston Red Sox -1.5 (+155) / Baltimore Orioles 1.5 (-190) | Total 9 (Over -110 / Under -110)
-Fan Duel | ML Boston Red Sox +102 / Baltimore Orioles -120 | Spread Boston Red Sox 1.5 (-182) / Baltimore Orioles -1.5 (+150) | Total 9 (Over -108 / Under -112)
+Fan Duel | ML Boston Red Sox +100 / Baltimore Orioles -118 | Spread Boston Red Sox -1.5 (+146) / Baltimore Orioles 1.5 (-176) | Total 9 (Over -108 / Under -112)
 Caesars | ML Boston Red Sox +100 / Baltimore Orioles -120 | Spread Boston Red Sox 1.5 (-205) / Baltimore Orioles -1.5 (+170) | Total 9 (Over -110 / Under -110)
-Bet Rivers | ML Boston Red Sox -103 / Baltimore Orioles -122 | Spread Boston Red Sox -1.5 (+163) / Baltimore Orioles 1.5 (-205) | Total 8.5 (Over -124 / Under +100)
+Bet Rivers | ML Boston Red Sox -103 / Baltimore Orioles -121 | Spread Boston Red Sox -1.5 (+160) / Baltimore Orioles 1.5 (-200) | Total 9 (Over -110 / Under -113)
 
 Cleveland Guardians at Toronto Blue Jays - 7:08 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Cleveland Guardians -125 at Bet MGM
-Best home moneyline: Toronto Blue Jays +114 at Bet US
+Best away moneyline: Cleveland Guardians -124 at Bet US
+Best home moneyline: Toronto Blue Jays +113 at Bet Online.ag
 Representative spread: Cleveland Guardians -1.5 / Toronto Blue Jays 1.5 (Draft Kings)
 Representative total: 8 (Draft Kings)
 Draft Kings | ML Cleveland Guardians -131 / Toronto Blue Jays +109 | Spread Cleveland Guardians -1.5 (+135) / Toronto Blue Jays 1.5 (-163) | Total 8 (Over -102 / Under -118)
 Bet MGM | ML Cleveland Guardians -125 / Toronto Blue Jays +105 | Spread Cleveland Guardians -1.5 (+140) / Toronto Blue Jays 1.5 (-170) | Total 8 (Over +100 / Under -120)
 Fan Duel | ML Cleveland Guardians -126 / Toronto Blue Jays +108 | Spread Cleveland Guardians -1.5 (+128) / Toronto Blue Jays 1.5 (-154) | Total 7.5 (Over -124 / Under +102)
 Caesars | ML Cleveland Guardians -130 / Toronto Blue Jays +110 | Spread Cleveland Guardians -1.5 (+135) / Toronto Blue Jays 1.5 (-160) | Total 8 (Over +100 / Under -120)
-Bet Rivers | ML Cleveland Guardians -129 / Toronto Blue Jays +104 | Spread Cleveland Guardians -1.5 (+132) / Toronto Blue Jays 1.5 (-162) | Total 8 (Over -105 / Under -120)
+Bet Rivers | ML Cleveland Guardians -129 / Toronto Blue Jays +105 | Spread Cleveland Guardians -1.5 (+130) / Toronto Blue Jays 1.5 (-162) | Total 8 (Over -104 / Under -120)
 
 Colorado Rockies at New York Mets - 7:11 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Colorado Rockies +195 at Bovada
+Best away moneyline: Colorado Rockies +190 at Bovada
 Best home moneyline: New York Mets -210 at Bet Online.ag
 Representative spread: Colorado Rockies 1.5 / New York Mets -1.5 (Draft Kings)
 Representative total: 7.5 (Draft Kings)
 Draft Kings | ML Colorado Rockies +189 / New York Mets -232 | Spread Colorado Rockies 1.5 (-120) / New York Mets -1.5 (+100) | Total 7.5 (Over -105 / Under -115)
 Bet MGM | ML Colorado Rockies +185 / New York Mets -225 | Spread Colorado Rockies 1.5 (-120) / New York Mets -1.5 (+100) | Total 7.5 (Over -102 / Under -118)
-Fan Duel | ML Colorado Rockies +188 / New York Mets -225 | Spread Colorado Rockies 1.5 (-120) / New York Mets -1.5 (+100) | Total 7.5 (Over -110 / Under -110)
+Fan Duel | ML Colorado Rockies +188 / New York Mets -225 | Spread Colorado Rockies 1.5 (-118) / New York Mets -1.5 (-102) | Total 7.5 (Over -105 / Under -115)
 Caesars | ML Colorado Rockies +185 / New York Mets -225 | Spread Colorado Rockies 1.5 (-120) / New York Mets -1.5 (+100) | Total 7.5 (Over -105 / Under -115)
-Bet Rivers | ML Colorado Rockies +185 / New York Mets -235 | Spread Colorado Rockies 1.5 (-129) / New York Mets -1.5 (+104) | Total 7.5 (Over -114 / Under -109)
+Bet Rivers | ML Colorado Rockies +185 / New York Mets -235 | Spread Colorado Rockies 1.5 (-125) / New York Mets -1.5 (+102) | Total 7.5 (Over -115 / Under -108)
 
 Minnesota Twins at Tampa Bay Rays - 7:11 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
 Best away moneyline: Minnesota Twins +111 at Bet Online.ag
-Best home moneyline: Tampa Bay Rays -122 at Fan Duel
+Best home moneyline: Tampa Bay Rays -121 at Bet US
 Representative spread: Minnesota Twins -1.5 / Tampa Bay Rays 1.5 (Draft Kings)
 Representative total: 7.5 (Draft Kings)
-Draft Kings | ML Minnesota Twins +104 / Tampa Bay Rays -126 | Spread Minnesota Twins -1.5 (+164) / Tampa Bay Rays 1.5 (-200) | Total 7.5 (Over -105 / Under -115)
+Draft Kings | ML Minnesota Twins +104 / Tampa Bay Rays -126 | Spread Minnesota Twins -1.5 (+163) / Tampa Bay Rays 1.5 (-199) | Total 7.5 (Over -108 / Under -112)
 Bet MGM | ML Minnesota Twins +105 / Tampa Bay Rays -125 | Spread Minnesota Twins -1.5 (+170) / Tampa Bay Rays 1.5 (-210) | Total 7.5 (Over -102 / Under -118)
-Fan Duel | ML Minnesota Twins +104 / Tampa Bay Rays -122 | Spread Minnesota Twins -1.5 (+176) / Tampa Bay Rays 1.5 (-210) | Total 7.5 (Over -104 / Under -118)
+Fan Duel | ML Minnesota Twins +104 / Tampa Bay Rays -122 | Spread Minnesota Twins -1.5 (+180) / Tampa Bay Rays 1.5 (-220) | Total 7.5 (Over -108 / Under -112)
 Caesars | ML Minnesota Twins +105 / Tampa Bay Rays -125 | Spread Minnesota Twins 1.5 (-210) / Tampa Bay Rays -1.5 (+175) | Total 7.5 (Over -105 / Under -115)
-Bet Rivers | ML Minnesota Twins +102 / Tampa Bay Rays -125 | Spread Minnesota Twins -1.5 (+175) / Tampa Bay Rays 1.5 (-230) | Total 7.5 (Over +100 / Under -122)
+Bet Rivers | ML Minnesota Twins +100 / Tampa Bay Rays -122 | Spread Minnesota Twins -1.5 (+175) / Tampa Bay Rays 1.5 (-225) | Total 7.5 (Over +100 / Under -122)
 
 NHL
 MARKET SNAPSHOT
@@ -518,8 +435,8 @@ TOP BOARD
 
 Tampa Bay Lightning at Montréal Canadiens - 7:10 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Tampa Bay Lightning -120 at Bet MGM
-Best home moneyline: Montréal Canadiens +110 at Bet Online.ag
+Best away moneyline: Tampa Bay Lightning -117 at Bet Online.ag
+Best home moneyline: Montréal Canadiens +103 at Bet Online.ag
 Representative spread: Tampa Bay Lightning -1.5 / Montréal Canadiens 1.5 (Draft Kings)
 Representative total: 5.5 (Draft Kings)
 Draft Kings | ML Tampa Bay Lightning -122 / Montréal Canadiens +102 | Spread Tampa Bay Lightning -1.5 (+200) / Montréal Canadiens 1.5 (-245) | Total 5.5 (Over -130 / Under +110)
@@ -531,7 +448,7 @@ Bet Rivers | ML Tampa Bay Lightning -120 / Montréal Canadiens -103 | Spread Tam
 Vegas Golden Knights at Utah Mammoth - 9:40 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
 Best away moneyline: Vegas Golden Knights -110 at Bet MGM
-Best home moneyline: Utah Mammoth -101 at Bet Online.ag
+Best home moneyline: Utah Mammoth -103 at Bet Online.ag
 Representative spread: Vegas Golden Knights -1.5 / Utah Mammoth 1.5 (Draft Kings)
 Representative total: 5.5 (Draft Kings)
 Draft Kings | ML Vegas Golden Knights -112 / Utah Mammoth -108 | Spread Vegas Golden Knights -1.5 (+220) / Utah Mammoth 1.5 (-270) | Total 5.5 (Over -130 / Under +110)
@@ -554,11 +471,11 @@ Bet Rivers | ML Edmonton Oilers -136 / Anaheim Ducks +112 | Spread Edmonton Oile
 
 Carolina Hurricanes at Ottawa Senators - 3:00 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Carolina Hurricanes -105 at Draft Kings
-Best home moneyline: Ottawa Senators -108 at Bovada
+Best away moneyline: Carolina Hurricanes -106 at Bet Online.ag
+Best home moneyline: Ottawa Senators -105 at Bovada
 Representative spread: Carolina Hurricanes 1.5 / Ottawa Senators -1.5 (Draft Kings)
 Representative total: 5.5 (Draft Kings)
-Draft Kings | ML Carolina Hurricanes -105 / Ottawa Senators -115 | Spread Carolina Hurricanes 1.5 (-278) / Ottawa Senators -1.5 (+225) | Total 5.5 (Over -120 / Under +100)
+Draft Kings | ML Carolina Hurricanes -112 / Ottawa Senators -108 | Spread Carolina Hurricanes 1.5 (-278) / Ottawa Senators -1.5 (+225) | Total 5.5 (Over -120 / Under +100)
 Bet MGM | ML Carolina Hurricanes -110 / Ottawa Senators -110 | Spread Carolina Hurricanes 1.5 (-275) / Ottawa Senators -1.5 (+220) | Total 5.5 (Over -120 / Under +100)
 Fan Duel | ML Carolina Hurricanes -110 / Ottawa Senators -110 | Spread Carolina Hurricanes 1.5 (-260) / Ottawa Senators -1.5 (+205) | Total 5.5 (Over -118 / Under -104)
 Caesars | ML Carolina Hurricanes -110 / Ottawa Senators -110 | Spread Carolina Hurricanes 1.5 (-278) / Ottawa Senators -1.5 (+222) | Total 5.5 (Over -120 / Under +100)
@@ -590,51 +507,51 @@ TOP BOARD
 
 Nottingham Forest at Sunderland - 3:00 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Nottingham Forest +175 at Fanatics
-Best home moneyline: Sunderland +175 at Bovada
+Best away moneyline: Nottingham Forest +175 at Bet MGM
+Best home moneyline: Sunderland +176 at Bovada
 Representative spread: Nottingham Forest 0 / Sunderland 0 (Bovada)
 Representative total: 2.5 (Bet MGM)
 Draft Kings | ML Nottingham Forest +170 / Sunderland +170
-Bet MGM | ML Nottingham Forest +170 / Sunderland +165 | Total 2.5 (Over +110 / Under -150)
+Bet MGM | ML Nottingham Forest +175 / Sunderland +170 | Total 2.5 (Over +110 / Under -150)
 Fan Duel | ML Nottingham Forest +170 / Sunderland +170
 Caesars | ML Nottingham Forest +170 / Sunderland +170
-Bet Rivers | ML Nottingham Forest +165 / Sunderland +170 | Total 2.5 (Over +110 / Under -141)
+Bet Rivers | ML Nottingham Forest +165 / Sunderland +170 | Total 2.5 (Over +112 / Under -141)
 
 Aston Villa at Fulham - 7:30 AM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
 Best away moneyline: Aston Villa +150 at Draft Kings
-Best home moneyline: Fulham +180 at Fan Duel
+Best home moneyline: Fulham +177 at Bet Online.ag
 Representative spread: Aston Villa 0 / Fulham 0 (Bovada)
 Representative total: 2.5 (Bet MGM)
 Draft Kings | ML Aston Villa +150 / Fulham +170
 Bet MGM | ML Aston Villa +138 / Fulham +155 | Total 2.5 (Over -140 / Under +100)
-Fan Duel | ML Aston Villa +145 / Fulham +180
+Fan Duel | ML Aston Villa +145 / Fulham +175
 Caesars | ML Aston Villa +145 / Fulham +170
 Bet Rivers | ML Aston Villa +140 / Fulham +175 | Total 2.5 (Over -136 / Under +107)
 
 Crystal Palace at Liverpool - 10:00 AM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Crystal Palace +560 at Bet Online.ag
+Best away moneyline: Crystal Palace +535 at Bet Online.ag
 Best home moneyline: Liverpool -200 at Bet MGM
-Representative spread: Crystal Palace 1.2 / Liverpool -1.2 (Bovada)
+Representative spread: Crystal Palace 1 / Liverpool -1 (Bovada)
 Representative total: 2.5 (Bet MGM)
 Draft Kings | ML Crystal Palace +500 / Liverpool -215
 Bet MGM | ML Crystal Palace +475 / Liverpool -200 | Total 2.5 (Over -185 / Under +130)
-Fan Duel | ML Crystal Palace +550 / Liverpool -230
+Fan Duel | ML Crystal Palace +500 / Liverpool -220
 Caesars | ML Crystal Palace +525 / Liverpool -220
-Bet Rivers | ML Crystal Palace +550 / Liverpool -235 | Total 2.5 (Over -180 / Under +140)
+Bet Rivers | ML Crystal Palace +525 / Liverpool -220 | Total 2.5 (Over -177 / Under +138)
 
 Everton at West Ham United - 10:00 AM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Everton +204 at Bet Online.ag
+Best away moneyline: Everton +210 at Fan Duel
 Best home moneyline: West Ham United +145 at Draft Kings
 Representative spread: Everton 0.2 / West Ham United -0.2 (Bovada)
 Representative total: 2.5 (Bet MGM)
 Draft Kings | ML Everton +195 / West Ham United +145
 Bet MGM | ML Everton +195 / West Ham United +138 | Total 2.5 (Over -125 / Under -110)
-Fan Duel | ML Everton +200 / West Ham United +135
+Fan Duel | ML Everton +210 / West Ham United +135
 Caesars | ML Everton +200 / West Ham United +140
-Bet Rivers | ML Everton +190 / West Ham United +140 | Total 2.5 (Over -125 / Under -103)
+Bet Rivers | ML Everton +188 / West Ham United +140 | Total 2.5 (Over -124 / Under -103)
 
 Tottenham Hotspur at Wolverhampton Wanderers - 10:00 AM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
@@ -659,7 +576,7 @@ TOP BOARD
 
 Union Berlin at RB Leipzig - 2:30 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Union Berlin +550 at Fan Duel
+Best away moneyline: Union Berlin +575 at Bet Rivers
 Best home moneyline: RB Leipzig -200 at Bet MGM
 Representative spread: Union Berlin 1.2 / RB Leipzig -1.2 (Bovada)
 Representative total: 3.5 (Bet MGM)
@@ -667,11 +584,11 @@ Draft Kings | ML Union Berlin +500 / RB Leipzig -225
 Bet MGM | ML Union Berlin +450 / RB Leipzig -200 | Total 3.5 (Over +120 / Under -165)
 Fan Duel | ML Union Berlin +550 / RB Leipzig -220
 Caesars | ML Union Berlin +500 / RB Leipzig -200
-Bet Rivers | ML Union Berlin +540 / RB Leipzig -235 | Total 3.5 (Over +123 / Under -167)
+Bet Rivers | ML Union Berlin +575 / RB Leipzig -240 | Total 3.5 (Over +120 / Under -162)
 
 FC St. Pauli at 1. FC Heidenheim - 9:30 AM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: FC St. Pauli +205 at Bet Online.ag
+Best away moneyline: FC St. Pauli +205 at Bet Rivers
 Best home moneyline: 1. FC Heidenheim +140 at Fan Duel
 Representative spread: FC St. Pauli 0.2 / 1. FC Heidenheim -0.2 (Bovada)
 Representative total: 2.5 (Bet MGM)
@@ -679,11 +596,11 @@ Draft Kings | ML FC St. Pauli +190 / 1. FC Heidenheim +130
 Bet MGM | ML FC St. Pauli +195 / 1. FC Heidenheim +135 | Total 2.5 (Over -118 / Under -118)
 Fan Duel | ML FC St. Pauli +190 / 1. FC Heidenheim +140
 Caesars | ML FC St. Pauli +200 / 1. FC Heidenheim +140
-Bet Rivers | ML FC St. Pauli +195 / 1. FC Heidenheim +135 | Total 2.5 (Over -107 / Under -125)
+Bet Rivers | ML FC St. Pauli +205 / 1. FC Heidenheim +128 | Total 2.5 (Over -107 / Under -124)
 
 Bayer Leverkusen at 1. FC Köln - 9:30 AM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Bayer Leverkusen -113 at Bovada
+Best away moneyline: Bayer Leverkusen -112 at Bovada
 Best home moneyline: 1. FC Köln +290 at Bet Online.ag
 Representative spread: Bayer Leverkusen -0.5 / 1. FC Köln 0.5 (Bovada)
 Representative total: 3.5 (Bet MGM)
@@ -708,14 +625,14 @@ Bet Rivers | ML Eintracht Frankfurt +155 / Augsburg +145 | Total 3.5 (Over +138 
 Bayern Munich at FSV Mainz 05 - 9:30 AM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
 Best away moneyline: Bayern Munich -145 at Bet Online.ag
-Best home moneyline: FSV Mainz 05 +360 at Bet Rivers
+Best home moneyline: FSV Mainz 05 +350 at Fan Duel
 Representative spread: Bayern Munich -0.8 / FSV Mainz 05 0.8 (Bovada)
 Representative total: 3.5 (Bet MGM)
 Draft Kings | ML Bayern Munich -160 / FSV Mainz 05 +330
 Bet MGM | ML Bayern Munich -155 / FSV Mainz 05 +320 | Total 3.5 (Over +100 / Under -140)
-Fan Duel | ML Bayern Munich -160 / FSV Mainz 05 +350
+Fan Duel | ML Bayern Munich -150 / FSV Mainz 05 +350
 Caesars | ML Bayern Munich -155 / FSV Mainz 05 +340
-Bet Rivers | ML Bayern Munich -162 / FSV Mainz 05 +360 | Total 3.5 (Over +102 / Under -136)
+Bet Rivers | ML Bayern Munich -155 / FSV Mainz 05 +335 | Total 3.5 (Over +104 / Under -139)
 
 La Liga
 MARKET SNAPSHOT
@@ -790,7 +707,7 @@ MLS
 MARKET SNAPSHOT
 - MLS currently shows 30 lined events, with an average of 6.9 sportsbooks posting odds per event.
 - MLS books in this feed include Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers, Fanatics.
-- MLS market depth currently shows spreads on 101 bookmaker-event combinations and totals on 149 bookmaker-event combinations.
+- MLS market depth currently shows spreads on 102 bookmaker-event combinations and totals on 149 bookmaker-event combinations.
 - Atlanta United FC at Toronto FC stands out as one of the deeper MLS boards by sportsbook count.
 
 TOP BOARD
@@ -821,13 +738,13 @@ Bet Rivers | ML New York City FC +140 / CF Montreal +175 | Total 2.5 (Over -136 
 
 Los Angeles FC at Minnesota United FC - 4:45 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Los Angeles FC +190 at Fan Duel
+Best away moneyline: Los Angeles FC +190 at Caesars
 Best home moneyline: Minnesota United FC +145 at Bet Online.ag
-Representative spread: Los Angeles FC 0.2 / Minnesota United FC -0.2 (Bovada)
+Representative spread: Los Angeles FC 0 / Minnesota United FC 0 (Bovada)
 Representative total: 2.5 (Bet MGM)
 Draft Kings | ML Los Angeles FC +175 / Minnesota United FC +135
 Bet MGM | ML Los Angeles FC +175 / Minnesota United FC +138 | Total 2.5 (Over -145 / Under +105)
-Fan Duel | ML Los Angeles FC +190 / Minnesota United FC +125
+Fan Duel | ML Los Angeles FC +180 / Minnesota United FC +140
 Caesars | ML Los Angeles FC +190 / Minnesota United FC +135
 Bet Rivers | ML Los Angeles FC +165 / Minnesota United FC +140 | Total 2.5 (Over -159 / Under +123)
 
@@ -846,14 +763,14 @@ Bet Rivers | ML Philadelphia Union +350 / Columbus Crew SC -143 | Total 2.5 (Ove
 New York Red Bulls at FC Cincinnati - 7:30 PM ET
 Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
 Best away moneyline: New York Red Bulls +310 at Bet Online.ag
-Best home moneyline: FC Cincinnati -120 at Fanatics
+Best home moneyline: FC Cincinnati -124 at My Bookie.ag
 Representative spread: New York Red Bulls 0.8 / FC Cincinnati -0.8 (Bovada)
 Representative total: 3.5 (Bet MGM)
-Draft Kings | ML New York Red Bulls +280 / FC Cincinnati -130
-Bet MGM | ML New York Red Bulls +270 / FC Cincinnati -130 | Total 3.5 (Over -102 / Under -140)
-Fan Duel | ML New York Red Bulls +270 / FC Cincinnati -130
+Draft Kings | ML New York Red Bulls +275 / FC Cincinnati -135
+Bet MGM | ML New York Red Bulls +270 / FC Cincinnati -130 | Total 3.5 (Over -110 / Under -130)
+Fan Duel | ML New York Red Bulls +280 / FC Cincinnati -140
 Caesars | ML New York Red Bulls +300 / FC Cincinnati -125
-Bet Rivers | ML New York Red Bulls +270 / FC Cincinnati -122 | Total 3.5 (Over +116 / Under -152)
+Bet Rivers | ML New York Red Bulls +270 / FC Cincinnati -125 | Total 3.5 (Over +100 / Under -130)
 
 BETTING MARKET NOTE
 This report reflects publicly available odds at the time of generation. Lines move throughout the day and can vary materially by sportsbook.
@@ -861,7 +778,7 @@ This report reflects publicly available odds at the time of generation. Lines mo
 DISCLAIMER
 
 UPDATED
-2026-04-24 09:23:48 AM ET
+2026-04-24 10:09:40 AM ET
 
 DISCLAIMER
 
@@ -869,4 +786,4 @@ This report is an automated summary intended to support, not replace, human spor
 
 UPDATED
 
-2026-04-24 09:23:52 AM ET
+2026-04-24 10:09:45 AM ET
