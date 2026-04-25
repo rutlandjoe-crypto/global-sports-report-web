@@ -8,9 +8,9 @@ KEY STORYLINES
 
 - Yesterday's MLB board is cleanly separated with 14 final scores.
 - Today's MLB board already includes 2 completed results.
-- Yesterday's NBA playoff board closed with 0 final game(s).
-- Today's NBA playoff board shows 0 game(s): 0 final, 0 live, and 0 scheduled.
 - No confirmed live NFL Draft pick data was returned during this refresh.
+- Sportradar token detected: True.
+- The cleanest college football reporting value in this window comes from separating 0 yesterday finals from 0 live and 0 upcoming games on today's board.
 
 SNAPSHOT
 
@@ -22,13 +22,13 @@ HEADLINE
 Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.
 
 SNAPSHOT
-The MLB report window shows 14 yesterday finals, 2 today finals, 1 live game, and 12 scheduled games.
+The MLB report window shows 14 yesterday finals, 2 today finals, 5 live games, and 8 scheduled games.
 
 KEY STORYLINES
 - Yesterday's MLB board is cleanly separated with 14 final scores.
 - Today's MLB board already includes 2 completed results.
-- 1 MLB game is currently live, creating real-time scoreboard movement.
-- 12 MLB games remain on today's schedule.
+- 5 MLB games are currently live, creating real-time scoreboard movement.
+- 8 MLB games remain on today's schedule.
 - For journalists, the clean split between yesterday's finals, today's live games, today's completed games, and today's schedule keeps the report usable without scoreboard confusion.
 
 YESTERDAY FINAL SCORES
@@ -52,13 +52,13 @@ TODAY FINAL SCORES
 - Colorado Rockies 0, New York Mets 0 — Postponed
 
 TODAY LIVE
-- Seattle Mariners 4, St. Louis Cardinals 3 — Bottom 3rd
+- Seattle Mariners 9, St. Louis Cardinals 9 — End 8th
+- Cleveland Guardians 2, Toronto Blue Jays 4 — Middle 7th
+- Miami Marlins 0, San Francisco Giants 0 — Top 3rd
+- Minnesota Twins 0, Tampa Bay Rays 0 — Bottom 3rd
+- Washington Nationals 0, Chicago White Sox 0 — Top 4th
 
 TODAY SCHEDULE
-- Cleveland Guardians at Toronto Blue Jays — 3:07 PM ET
-- Miami Marlins at San Francisco Giants — 4:05 PM ET
-- Minnesota Twins at Tampa Bay Rays — 4:10 PM ET
-- Washington Nationals at Chicago White Sox — 4:10 PM ET
 - San Diego Padres at Arizona Diamondbacks — 6:05 PM ET
 - Athletics at Texas Rangers — 7:05 PM ET
 - Los Angeles Angels at Kansas City Royals — 7:10 PM ET
@@ -69,12 +69,12 @@ TODAY SCHEDULE
 - Chicago Cubs at Los Angeles Dodgers — 7:15 PM ET
 
 STATCAST WATCH
-- Cleveland Guardians at Toronto Blue Jays — 3:07 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
-- Miami Marlins at San Francisco Giants — 4:05 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
-- Minnesota Twins at Tampa Bay Rays — 4:10 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
-- Washington Nationals at Chicago White Sox — 4:10 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 - San Diego Padres at Arizona Diamondbacks — 6:05 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 - Athletics at Texas Rangers — 7:05 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
+- Los Angeles Angels at Kansas City Royals — 7:10 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
+- New York Yankees at Houston Astros — 7:10 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
+- Pittsburgh Pirates at Milwaukee Brewers — 7:10 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
+- Detroit Tigers at Cincinnati Reds — 7:15 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 
 WHY IT MATTERS
 MLB coverage can get messy when old finals, live games, and upcoming games are blended together. This report keeps those windows separate so journalists can quickly see what happened yesterday, what has already happened today, what is live now, and what is still ahead.
@@ -88,98 +88,53 @@ STORY ANGLES
 DATA SOURCE
 - Primary scoreboard source: ESPN MLB scoreboard.
 - Optional enrichment source: Sportradar MLB probable-pitcher schedule feed.
-- Sportradar token detected: False.
+- Sportradar token detected: True.
 - Sportradar access level: trial.
 
 NBA
 
 HEADLINE
-The NBA playoff board is organized into clean score and schedule windows, with completed games, live games and upcoming games separated for newsroom use.
+Clean NBA scoreboard with separated final, live and scheduled windows.
 
 SNAPSHOT
-The NBA report is running with ESPN NBA fallback as the active data layer.
-
-KEY STORYLINES
-- Yesterday's NBA playoff board closed with 0 final game(s).
-- Today's NBA playoff board shows 0 game(s): 0 final, 0 live, and 0 scheduled.
-- Active data source: ESPN NBA fallback.
-- Sportradar NBA key is not configured yet; ESPN fallback is powering this report.
-
-YESTERDAY FINAL SCORES
-- No games in this window.
-
-TODAY FINAL SCORES
-- No games in this window.
-
-TODAY LIVE
-- No games in this window.
-
-TODAY PLAYOFF SCHEDULE
-- No games in this window.
-
-WHY IT MATTERS
-- This structure prevents completed NBA playoff games from repeating inside schedule blocks.
-- Sportradar can function as the premium GSR basketball layer when endpoint access is available, while ESPN remains the safety net.
-- The site can keep its existing design while the backend data quality improves.
+Source: ESPN fallback
 
 DATA SOURCE
-- Active source: ESPN NBA fallback
-- Source priority: Sportradar NBA first when endpoint access is available, ESPN fallback second.
-- Sportradar token detected: False
-- Sportradar access level: trial
+- Sportradar token detected: True
+- Active source: ESPN fallback
 
 UPDATED
-2026-04-25 03:03:49 PM ET
+2026-04-25 05:01:20 PM ET
 
 NHL
 
 HEADLINE
-The NHL playoff board is organized into clean score and schedule windows for newsroom use.
+Clean NHL playoff board with separated windows.
 
 SNAPSHOT
-The NHL report is running with ESPN NHL fallback as the active data layer.
-
-KEY STORYLINES
-- Yesterday's NHL playoff board closed with 3 final game(s).
-- Today's NHL playoff board shows 3 game(s): 0 final, 0 live, and 3 scheduled.
-- Sportradar NHL token/key is not configured yet; ESPN fallback is powering this report.
-- Remaining NHL playoff games are isolated in the schedule block so they do not repeat as final scores.
+Running on Sportradar NHL
 
 YESTERDAY FINAL SCORES
-- Lightning 2, Canadiens 3 — Final
-- Golden Knights 2, Mammoth 4 — Final
-- Oilers 4, Ducks 7 — Final
+- None
 
 TODAY FINAL SCORES
-- No games in this window.
+- None
 
 TODAY LIVE
-- No games in this window.
+Carolina Hurricanes vs Ottawa Senators (LIVE)
 
-TODAY PLAYOFF SCHEDULE
-- Hurricanes at Senators — 3:00 PM ET — Canadian Tire Centre
-- Stars at Wild — 5:30 PM ET — Grand Casino Arena
-- Penguins at Flyers — 8:00 PM ET — Xfinity Mobile Arena
-
-WHY IT MATTERS
-- This structure prevents completed NHL games from repeating inside schedule blocks.
-- Sportradar can now become the premium GSR hockey layer, while ESPN remains the safety net.
-- The site can keep its existing design while the backend data quality improves.
-
-DATA SOURCE
-- Active source: ESPN NHL fallback
-- Source priority: Sportradar NHL first, ESPN fallback second.
-- Sportradar token detected: False
-- Sportradar access level: trial
+TODAY SCHEDULE
+Dallas Stars at Minnesota Wild
+Pittsburgh Penguins at Philadelphia Flyers
 
 UPDATED
-2026-04-25 03:04:00 PM ET
+2026-04-25 05:01:27 PM ET
 
 NFL
 
 KEY DATA POINTS
 - No confirmed live NFL Draft pick data was returned during this refresh.
-- Sportradar token detected: False.
+- Sportradar token detected: True.
 - Sportradar is treated as the premium source layer when a valid NFL key is configured.
 - ESPN remains a fallback only and will not be used to invent draft selections.
 
@@ -206,11 +161,11 @@ SNAPSHOT
 KEY DATA POINTS
 - The cleanest college football reporting value in this window comes from separating 0 yesterday finals from 0 live and 0 upcoming games on today's board.
 - Today's scoreboard also already contains 0 final entries, which keeps completed same-day results distinct from games still ahead.
-- Primary scoreboard layer: ESPN college football fallback. Sportradar token detected: False.
+- Primary scoreboard layer: ESPN college football fallback. Sportradar token detected: True.
 - SEC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - ACC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - Big Ten: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
-- News note: Auburn lands four-star RB Myson Johnson-Cook - Auburn secured a commitment from four-star running back recruit Myson Johnson-Cook, beating out Miami.
+- News note: How every 2027 five-star college football prospect will fit - There are 21 five-star players in the class and we scout each one's game for the next level.
 
 WHY IT MATTERS
 - Conference-wide reporting matters more in college football because team identity is shaped not only by last season's record, but also by coaching continuity, roster turnover, and league structure.
@@ -221,6 +176,8 @@ STORY ANGLES
 The clearest national story line still runs through how the SEC, Big Ten, Big 12, and ACC stack up against the rest of the FBS structure in depth, continuity, and preseason profile.
 
 NEWS
+- How every 2027 five-star college football prospect will fit - There are 21 five-star players in the class and we scout each one's game for the next level.
+- Elijah Haven, No. 1 overall 2027 QB, chooses Alabama - Alabama secured the No. 1 overall quarterback in the Class of 2027, gaining a commitment from five-star passer Elijah Haven, a 6-foot-5, 220-pound prospect from Baton Rouge, Louisiana.
 - Auburn lands four-star RB Myson Johnson-Cook - Auburn secured a commitment from four-star running back recruit Myson Johnson-Cook, beating out Miami.
 - Showcasing SEC players selected in Round 3 of the 2026 NFL Draft - SEC Now runs through every SEC prospect that completed their dream of reaching the NFL, listing an overview of their new team and how they'll fit.
 - Highlighting SEC players taken in Round 2 of the 2026 NFL Draft - SEC Now whips around the country to highlight the stars off on their professional journeys including punishing edge rushers and flashy pass catchers.
@@ -229,8 +186,6 @@ NEWS
 - Source: Miami AD Dan Radakovich expected to announce retirement - Miami athletic director Dan Radakovich is expected to announce his retirement as early as next week, a source confirmed to ESPN.
 - Ranking the best SEC outfits from the first round of the 2026 NFL Draft - SEC Network's Chris Doering and Dari Nowkhah weigh in on the style of the conference's first-round NFL Draft picks.
 - Nebraska regents approves $600M Memorial Stadium plan - University of Nebraska regents on Friday approved a $600 million overhaul of Memorial Stadium.
-- Paige Shiver opens up on GMA about relationship with Sherrone Moore - Former Michigan staffer Paige Shiver says she felt pressured to have a relationship with then coach Sherrone Moore.
-- Ex-staffer says Michigan didn't protect her enough from Moore - Former Michigan football staffer Paige Shiver characterized her relationship with Sherrone Moore as an "open secret" within the athletic department and said those in leadership didn't do enough to protect her from the former Wolverines coach.
 
 SOCCER
 
@@ -303,526 +258,130 @@ TODAY RESULTS
 
 FANTASY
 
+GLOBAL SPORTS REPORT — FANTASY WATCH
+
+SPORTRADAR TOKEN DETECTED: True
+
 HEADLINE
-The fantasy report remains active across several leagues, with enough current board context to support cross-sport lineup and strategy framing.
+Fantasy watch board generated from live scoreboard context.
 
 SNAPSHOT
-- MLB: 0 result-driven fantasy notes, 0 live-context notes, and 0 schedule-focused notes are available in this report window.
-- NBA: 1 result-driven fantasy notes, 1 live-context notes, and 0 schedule-focused notes are available in this report window.
-- NHL: 0 result-driven fantasy notes, 1 live-context notes, and 3 schedule-focused notes are available in this report window.
-- NFL: 0 result-driven fantasy notes, 0 live-context notes, and 5 schedule-focused notes are available in this report window.
-- SOCCER: 0 result-driven fantasy notes, 0 live-context notes, and 0 schedule-focused notes are available in this report window.
-- BETTING: 0 result-driven fantasy notes, 0 live-context notes, and 6 schedule-focused notes are available in this report window.
+A quick fantasy-focused scan of games, usage angles and lineup-monitoring items for journalists and fantasy editors.
 
-KEY FANTASY TAKEAWAYS
-- The fantasy board is strongest when schedule context, recent results, and betting-market environment are read together rather than as separate signals.
-- MLB and NBA remain the clearest day-to-day fantasy drivers because both current slate shape and recent scoring context matter immediately.
-- NHL playoff structure adds concentrated fantasy pressure through goalie environment, one-goal volatility, and narrower game pools.
-- NFL fantasy attention is currently tied more to rookie landing spots and draft capital than to live game production.
-- Soccer and betting context expand the report beyond one-sport fantasy framing and help identify slate quality across multiple leagues.
-- MLB: MLB fantasy value remains driven by lineup volume, probable starters, and live scoring environment.
-- NBA: NBA fantasy value is tied to pace, game environment, and the strength of the current schedule board.
+FANTASY WATCH ITEMS
+
+- NFL: Seattle Seahawks at New England Patriots
+  Status: Final
+  Angle: New England Patriots vs. Seattle Seahawks: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.
+
+- NBA: Detroit Pistons at Orlando Magic
+  Status: Final
+  Angle: Orlando Magic vs. Detroit Pistons: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.
+
+- NBA: Oklahoma City Thunder at Phoenix Suns
+  Status: 9:17 - 3rd
+  Angle: Phoenix Suns vs. Oklahoma City Thunder: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement.
+
+- NBA: New York Knicks at Atlanta Hawks
+  Status: 4/25 - 6:00 PM EDT
+  Angle: Atlanta Hawks vs. New York Knicks: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- NBA: Denver Nuggets at Minnesota Timberwolves
+  Status: 4/25 - 8:30 PM EDT
+  Angle: Minnesota Timberwolves vs. Denver Nuggets: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Boston Red Sox at Baltimore Orioles
+  Status: Final
+  Angle: Baltimore Orioles vs. Boston Red Sox: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.
+
+- MLB: Seattle Mariners at St. Louis Cardinals
+  Status: End 8th
+  Angle: St. Louis Cardinals vs. Seattle Mariners: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement.
+
+- MLB: Cleveland Guardians at Toronto Blue Jays
+  Status: Bot 7th
+  Angle: Toronto Blue Jays vs. Cleveland Guardians: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement.
+
+- MLB: Miami Marlins at San Francisco Giants
+  Status: Top 3rd
+  Angle: San Francisco Giants vs. Miami Marlins: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement.
+
+- MLB: Colorado Rockies at New York Mets
+  Status: Postponed
+  Angle: New York Mets vs. Colorado Rockies: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Minnesota Twins at Tampa Bay Rays
+  Status: End 3rd
+  Angle: Tampa Bay Rays vs. Minnesota Twins: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement.
+
+- MLB: Washington Nationals at Chicago White Sox
+  Status: Top 4th
+  Angle: Chicago White Sox vs. Washington Nationals: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement.
+
+- MLB: San Diego Padres at Arizona Diamondbacks
+  Status: 4/25 - 6:05 PM EDT
+  Angle: Arizona Diamondbacks vs. San Diego Padres: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Athletics Athletics at Texas Rangers
+  Status: 4/25 - 7:05 PM EDT
+  Angle: Texas Rangers vs. Athletics: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Los Angeles Angels at Kansas City Royals
+  Status: 4/25 - 7:10 PM EDT
+  Angle: Kansas City Royals vs. Los Angeles Angels: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: New York Yankees at Houston Astros
+  Status: 4/25 - 7:10 PM EDT
+  Angle: Houston Astros vs. New York Yankees: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Pittsburgh Pirates at Milwaukee Brewers
+  Status: 4/25 - 7:10 PM EDT
+  Angle: Milwaukee Brewers vs. Pittsburgh Pirates: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Detroit Tigers at Cincinnati Reds
+  Status: 4/25 - 7:15 PM EDT
+  Angle: Cincinnati Reds vs. Detroit Tigers: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Philadelphia Phillies at Atlanta Braves
+  Status: 4/25 - 7:15 PM EDT
+  Angle: Atlanta Braves vs. Philadelphia Phillies: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- MLB: Chicago Cubs at Los Angeles Dodgers
+  Status: 4/25 - 7:15 PM EDT
+  Angle: Los Angeles Dodgers vs. Chicago Cubs: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- NHL: Carolina Hurricanes at Ottawa Senators
+  Status: End of 2nd
+  Angle: Ottawa Senators vs. Carolina Hurricanes: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement.
+
+- NHL: Dallas Stars at Minnesota Wild
+  Status: 4/25 - 5:30 PM EDT
+  Angle: Minnesota Wild vs. Dallas Stars: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
+
+- NHL: Pittsburgh Penguins at Philadelphia Flyers
+  Status: 4/25 - 8:00 PM EDT
+  Angle: Philadelphia Flyers vs. Pittsburgh Penguins: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement.
 
 BETTING
 
-Across the betting board, attention turns to the market, where moneylines, spreads, and totals from multiple sportsbooks help frame the day across major U.S. leagues and soccer.
+GLOBAL SPORTS REPORT — BETTING ODDS WATCH
 
-GLOBAL SNAPSHOT
-A broad odds board is in place across 7 leagues, offering multi-sportsbook pricing and strong same-day market coverage.
+HEADLINE
+Betting odds feed unavailable.
 
-NBA
-MARKET SNAPSHOT
-- NBA currently shows 8 lined events, with an average of 10.5 sportsbooks posting odds per event.
-- NBA books in this feed include Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers, Fanatics.
-- NBA market depth currently shows spreads on 84 bookmaker-event combinations and totals on 84 bookmaker-event combinations.
-- Detroit Pistons at Orlando Magic stands out as one of the deeper NBA boards by sportsbook count.
+SNAPSHOT
+Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.
 
-TOP BOARD
+KEY BETTING STORYLINES
+- Odds feed unavailable during this run.
+- Pipeline completed safely without exposing any API token.
+- Check SPORTRADAR_TOKEN or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable.
 
-Detroit Pistons at Orlando Magic - 1:10 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Detroit Pistons -130 at Fan Duel
-Best home moneyline: Orlando Magic +117 at Low Vig.ag
-Representative spread: Detroit Pistons -2.5 / Orlando Magic 2.5 (Draft Kings)
-Representative total: 215.5 (Draft Kings)
-Draft Kings | ML Detroit Pistons -135 / Orlando Magic +114 | Spread Detroit Pistons -2.5 (-110) / Orlando Magic 2.5 (-110) | Total 215.5 (Over -112 / Under -108)
-Bet MGM | ML Detroit Pistons -140 / Orlando Magic +115 | Spread Detroit Pistons -2.5 (-102) / Orlando Magic 2.5 (-118) | Total 215.5 (Over -110 / Under -110)
-Fan Duel | ML Detroit Pistons -130 / Orlando Magic +110 | Spread Detroit Pistons -2.5 (-106) / Orlando Magic 2.5 (-114) | Total 215.5 (Over -114 / Under -106)
-Caesars | ML Detroit Pistons -135 / Orlando Magic +115 | Spread Detroit Pistons -2 (-110) / Orlando Magic 2 (-110) | Total 215.5 (Over -110 / Under -110)
-Bet Rivers | ML Detroit Pistons -139 / Orlando Magic +112 | Spread Detroit Pistons -2.5 (-112) / Orlando Magic 2.5 (-112) | Total 215.5 (Over -110 / Under -113)
+MARKET BOARD
+No betting markets available during this run.
 
-Oklahoma City Thunder at Phoenix Suns - 3:40 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Oklahoma City Thunder -395 at Draft Kings
-Best home moneyline: Phoenix Suns +330 at Bet US
-Representative spread: Oklahoma City Thunder -9.5 / Phoenix Suns 9.5 (Draft Kings)
-Representative total: 214.5 (Draft Kings)
-Draft Kings | ML Oklahoma City Thunder -395 / Phoenix Suns +310 | Spread Oklahoma City Thunder -9.5 (-110) / Phoenix Suns 9.5 (-110) | Total 214.5 (Over -110 / Under -110)
-Bet MGM | ML Oklahoma City Thunder -425 / Phoenix Suns +320 | Spread Oklahoma City Thunder -9.5 (-105) / Phoenix Suns 9.5 (-115) | Total 214.5 (Over -110 / Under -110)
-Fan Duel | ML Oklahoma City Thunder -405 / Phoenix Suns +320 | Spread Oklahoma City Thunder -9.5 (-108) / Phoenix Suns 9.5 (-112) | Total 214.5 (Over -108 / Under -112)
-Caesars | ML Oklahoma City Thunder -420 / Phoenix Suns +320 | Spread Oklahoma City Thunder -9 (-105) / Phoenix Suns 9 (-115) | Total 214 (Over -105 / Under -115)
-Bet Rivers | ML Oklahoma City Thunder -435 / Phoenix Suns +320 | Spread Oklahoma City Thunder -9.5 (-109) / Phoenix Suns 9.5 (-114) | Total 214 (Over -113 / Under -110)
-
-New York Knicks at Atlanta Hawks - 6:10 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: New York Knicks -125 at Fanatics
-Best home moneyline: Atlanta Hawks +122 at Caesars
-Representative spread: New York Knicks -2.5 / Atlanta Hawks 2.5 (Draft Kings)
-Representative total: 214.5 (Draft Kings)
-Draft Kings | ML New York Knicks -130 / Atlanta Hawks +110 | Spread New York Knicks -2.5 (-102) / Atlanta Hawks 2.5 (-118) | Total 214.5 (Over -110 / Under -110)
-Bet MGM | ML New York Knicks -130 / Atlanta Hawks +110 | Spread New York Knicks -2.5 (-102) / Atlanta Hawks 2.5 (-118) | Total 215.5 (Over -110 / Under -110)
-Fan Duel | ML New York Knicks -132 / Atlanta Hawks +112 | Spread New York Knicks -1.5 (-114) / Atlanta Hawks 1.5 (-106) | Total 214.5 (Over -114 / Under -106)
-Caesars | ML New York Knicks -145 / Atlanta Hawks +122 | Spread New York Knicks -2.5 (-110) / Atlanta Hawks 2.5 (-110) | Total 215 (Over -110 / Under -110)
-Bet Rivers | ML New York Knicks -132 / Atlanta Hawks +107 | Spread New York Knicks -2 (-110) / Atlanta Hawks 2 (-113) | Total 214.5 (Over -113 / Under -110)
-
-Denver Nuggets at Minnesota Timberwolves - 8:40 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Denver Nuggets -115 at Bovada
-Best home moneyline: Minnesota Timberwolves +102 at Draft Kings
-Representative spread: Denver Nuggets -1.5 / Minnesota Timberwolves 1.5 (Draft Kings)
-Representative total: 229.5 (Draft Kings)
-Draft Kings | ML Denver Nuggets -122 / Minnesota Timberwolves +102 | Spread Denver Nuggets -1.5 (-112) / Minnesota Timberwolves 1.5 (-108) | Total 229.5 (Over -112 / Under -108)
-Bet MGM | ML Denver Nuggets -118 / Minnesota Timberwolves -102 | Spread Denver Nuggets -1.5 (-105) / Minnesota Timberwolves 1.5 (-115) | Total 229.5 (Over -110 / Under -110)
-Fan Duel | ML Denver Nuggets -120 / Minnesota Timberwolves +102 | Spread Denver Nuggets -1.5 (-106) / Minnesota Timberwolves 1.5 (-114) | Total 229.5 (Over -110 / Under -110)
-Caesars | ML Denver Nuggets -120 / Minnesota Timberwolves +100 | Spread Denver Nuggets -1 (-110) / Minnesota Timberwolves 1 (-110) | Total 229 (Over -110 / Under -110)
-Bet Rivers | ML Denver Nuggets -124 / Minnesota Timberwolves +100 | Spread Denver Nuggets -1.5 (-112) / Minnesota Timberwolves 1.5 (-112) | Total 230 (Over -110 / Under -112)
-
-Cleveland Cavaliers at Toronto Raptors - 1:10 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Cleveland Cavaliers -158 at Fan Duel
-Best home moneyline: Toronto Raptors +148 at Low Vig.ag
-Representative spread: Cleveland Cavaliers -3.5 / Toronto Raptors 3.5 (Draft Kings)
-Representative total: 220.5 (Draft Kings)
-Draft Kings | ML Cleveland Cavaliers -166 / Toronto Raptors +140 | Spread Cleveland Cavaliers -3.5 (-110) / Toronto Raptors 3.5 (-110) | Total 220.5 (Over -112 / Under -108)
-Bet MGM | ML Cleveland Cavaliers -170 / Toronto Raptors +140 | Spread Cleveland Cavaliers -3.5 (-110) / Toronto Raptors 3.5 (-110) | Total 220.5 (Over -110 / Under -110)
-Fan Duel | ML Cleveland Cavaliers -158 / Toronto Raptors +134 | Spread Cleveland Cavaliers -3.5 (-108) / Toronto Raptors 3.5 (-112) | Total 220.5 (Over -110 / Under -110)
-Caesars | ML Cleveland Cavaliers -165 / Toronto Raptors +140 | Spread Cleveland Cavaliers -3.5 (-110) / Toronto Raptors 3.5 (-110) | Total 220.5 (Over -110 / Under -110)
-Bet Rivers | ML Cleveland Cavaliers -175 / Toronto Raptors +135 | Spread Cleveland Cavaliers -4 (-109) / Toronto Raptors 4 (-114) | Total 220.5 (Over -114 / Under -109)
-
-MLB
-MARKET SNAPSHOT
-- MLB currently shows 14 lined events, with an average of 11.0 sportsbooks posting odds per event.
-- MLB books in this feed include Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers, Fanatics.
-- MLB market depth currently shows spreads on 153 bookmaker-event combinations and totals on 154 bookmaker-event combinations.
-- Boston Red Sox at Baltimore Orioles stands out as one of the deeper MLB boards by sportsbook count.
-
-TOP BOARD
-
-Boston Red Sox at Baltimore Orioles - 12:06 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Boston Red Sox +109 at Bet Online.ag
-Best home moneyline: Baltimore Orioles -113 at Draft Kings
-Representative spread: Boston Red Sox -1.5 / Baltimore Orioles 1.5 (Draft Kings)
-Representative total: 7 (Draft Kings)
-Draft Kings | ML Boston Red Sox -107 / Baltimore Orioles -113 | Spread Boston Red Sox -1.5 (+152) / Baltimore Orioles 1.5 (-185) | Total 7 (Over -122 / Under +101)
-Bet MGM | ML Boston Red Sox +100 / Baltimore Orioles -120 | Spread Boston Red Sox -1.5 (+170) / Baltimore Orioles 1.5 (-210) | Total 7.5 (Over +100 / Under -120)
-Fan Duel | ML Boston Red Sox +100 / Baltimore Orioles -118 | Spread Boston Red Sox -1.5 (+172) / Baltimore Orioles 1.5 (-210) | Total 7 (Over -118 / Under -104)
-Caesars | ML Boston Red Sox +105 / Baltimore Orioles -125 | Spread Boston Red Sox 1.5 (-220) / Baltimore Orioles -1.5 (+180) | Total 7.5 (Over +105 / Under -125)
-Bet Rivers | ML Boston Red Sox -105 / Baltimore Orioles -120 | Spread Boston Red Sox -1.5 (+170) / Baltimore Orioles 1.5 (-220) | Total 7.5 (Over -105 / Under -118)
-
-Seattle Mariners at St. Louis Cardinals - 2:16 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Seattle Mariners -140 at Bet Online.ag
-Best home moneyline: St. Louis Cardinals +130 at Fan Duel
-Representative spread: Seattle Mariners -1.5 / St. Louis Cardinals 1.5 (Draft Kings)
-Representative total: 7.5 (Draft Kings)
-Draft Kings | ML Seattle Mariners -149 / St. Louis Cardinals +123 | Spread Seattle Mariners -1.5 (+113) / St. Louis Cardinals 1.5 (-136) | Total 7.5 (Over -105 / Under -115)
-Bet MGM | ML Seattle Mariners -155 / St. Louis Cardinals +125 | Spread Seattle Mariners -1.5 (+118) / St. Louis Cardinals 1.5 (-145) | Total 7.5 (Over -105 / Under -115)
-Fan Duel | ML Seattle Mariners -154 / St. Louis Cardinals +130 | Spread Seattle Mariners -1.5 (+115) / St. Louis Cardinals 1.5 (-138) | Total 7.5 (Over -110 / Under -110)
-Caesars | ML Seattle Mariners -145 / St. Louis Cardinals +122 | Spread Seattle Mariners -1.5 (+110) / St. Louis Cardinals 1.5 (-130) | Total 7.5 (Over -110 / Under -110)
-Bet Rivers | ML Seattle Mariners -155 / St. Louis Cardinals +125 | Spread Seattle Mariners -1.5 (+120) / St. Louis Cardinals 1.5 (-148) | Total 7.5 (Over -105 / Under -120)
-
-Cleveland Guardians at Toronto Blue Jays - 3:08 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Cleveland Guardians +127 at Bet Online.ag
-Best home moneyline: Toronto Blue Jays -140 at Bet Online.ag
-Representative spread: Cleveland Guardians 1.5 / Toronto Blue Jays -1.5 (Draft Kings)
-Representative total: 7 (Draft Kings)
-Draft Kings | ML Cleveland Guardians +123 / Toronto Blue Jays -149 | Spread Cleveland Guardians 1.5 (-175) / Toronto Blue Jays -1.5 (+144) | Total 7 (Over -122 / Under +102)
-Bet MGM | ML Cleveland Guardians +120 / Toronto Blue Jays -145 | Spread Cleveland Guardians 1.5 (-190) / Toronto Blue Jays -1.5 (+155) | Total 7.5 (Over +100 / Under -120)
-Fan Duel | ML Cleveland Guardians +120 / Toronto Blue Jays -142 | Spread Cleveland Guardians 1.5 (-182) / Toronto Blue Jays -1.5 (+150) | Total 7 (Over -120 / Under -102)
-Caesars | ML Cleveland Guardians +122 / Toronto Blue Jays -145 | Spread Cleveland Guardians 1.5 (-170) / Toronto Blue Jays -1.5 (+143) | Total 7 (Over -120 / Under +100)
-Bet Rivers | ML Cleveland Guardians +117 / Toronto Blue Jays -148 | Spread Cleveland Guardians 1.5 (-190) / Toronto Blue Jays -1.5 (+150) | Total 7.5 (Over +100 / Under -124)
-
-Miami Marlins at San Francisco Giants - 4:06 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Miami Marlins +105 at Bet MGM
-Best home moneyline: San Francisco Giants -109 at Bet Online.ag
-Representative spread: Miami Marlins -1.5 / San Francisco Giants 1.5 (Draft Kings)
-Representative total: 7.5 (Draft Kings)
-Draft Kings | ML Miami Marlins -102 / San Francisco Giants -118 | Spread Miami Marlins -1.5 (+158) / San Francisco Giants 1.5 (-193) | Total 7.5 (Over -110 / Under -110)
-Bet MGM | ML Miami Marlins +105 / San Francisco Giants -130 | Spread Miami Marlins -1.5 (+170) / San Francisco Giants 1.5 (-225) | Total 7.5 (Over -105 / Under -115)
-Fan Duel | ML Miami Marlins -102 / San Francisco Giants -116 | Spread Miami Marlins -1.5 (+168) / San Francisco Giants 1.5 (-205) | Total 7.5 (Over -105 / Under -115)
-Caesars | ML Miami Marlins +100 / San Francisco Giants -120 | Spread Miami Marlins 1.5 (-210) / San Francisco Giants -1.5 (+175) | Total 7.5 (Over -110 / Under -110)
-Bet Rivers | ML Miami Marlins +102 / San Francisco Giants -127 | Spread Miami Marlins -1.5 (+170) / San Francisco Giants 1.5 (-225) | Total 7.5 (Over -108 / Under -115)
-
-Washington Nationals at Chicago White Sox - 4:11 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Washington Nationals +125 at Bet Rivers
-Best home moneyline: Chicago White Sox -134 at Bet Online.ag
-Representative spread: Washington Nationals 1.5 / Chicago White Sox -1.5 (Draft Kings)
-Representative total: 8.5 (Draft Kings)
-Draft Kings | ML Washington Nationals +119 / Chicago White Sox -143 | Spread Washington Nationals 1.5 (-175) / Chicago White Sox -1.5 (+144) | Total 8.5 (Over -102 / Under -118)
-Bet MGM | ML Washington Nationals +120 / Chicago White Sox -145 | Spread Washington Nationals 1.5 (-185) / Chicago White Sox -1.5 (+150) | Total 8.5 (Over -105 / Under -115)
-Fan Duel | ML Washington Nationals +120 / Chicago White Sox -142 | Spread Washington Nationals 1.5 (-188) / Chicago White Sox -1.5 (+155) | Total 8.5 (Over +100 / Under -122)
-Caesars | ML Washington Nationals +118 / Chicago White Sox -140 | Spread Washington Nationals 1.5 (-170) / Chicago White Sox -1.5 (+143) | Total 8.5 (Over +100 / Under -120)
-Bet Rivers | ML Washington Nationals +125 / Chicago White Sox -155 | Spread Washington Nationals 1.5 (-177) / Chicago White Sox -1.5 (+140) | Total 8.5 (Over -105 / Under -118)
-
-NHL
-MARKET SNAPSHOT
-- NHL currently shows 8 lined events, with an average of 10.4 sportsbooks posting odds per event.
-- NHL books in this feed include Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers, Fanatics.
-- NHL market depth currently shows spreads on 83 bookmaker-event combinations and totals on 83 bookmaker-event combinations.
-- Carolina Hurricanes at Ottawa Senators stands out as one of the deeper NHL boards by sportsbook count.
-
-TOP BOARD
-
-Carolina Hurricanes at Ottawa Senators - 3:10 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Carolina Hurricanes -125 at Bet MGM
-Best home moneyline: Ottawa Senators +115 at Caesars
-Representative spread: Carolina Hurricanes -1.5 / Ottawa Senators 1.5 (Draft Kings)
-Representative total: 5.5 (Draft Kings)
-Draft Kings | ML Carolina Hurricanes -130 / Ottawa Senators +110 | Spread Carolina Hurricanes -1.5 (+205) / Ottawa Senators 1.5 (-250) | Total 5.5 (Over -120 / Under +100)
-Bet MGM | ML Carolina Hurricanes -125 / Ottawa Senators +105 | Spread Carolina Hurricanes -1.5 (+195) / Ottawa Senators 1.5 (-235) | Total 5.5 (Over -118 / Under -102)
-Fan Duel | ML Carolina Hurricanes -126 / Ottawa Senators +105 | Spread Carolina Hurricanes -1.5 (+194) / Ottawa Senators 1.5 (-245) | Total 5.5 (Over -118 / Under -104)
-Caesars | ML Carolina Hurricanes -135 / Ottawa Senators +115 | Spread Carolina Hurricanes -1.5 (+185) / Ottawa Senators 1.5 (-225) | Total 5.5 (Over -120 / Under +100)
-Bet Rivers | ML Carolina Hurricanes -125 / Ottawa Senators +104 | Spread Carolina Hurricanes -1.5 (+200) / Ottawa Senators 1.5 (-265) | Total 5.5 (Over -112 / Under -114)
-
-Dallas Stars at Minnesota Wild - 5:40 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Dallas Stars +120 at Draft Kings
-Best home moneyline: Minnesota Wild -133 at Bet Online.ag
-Representative spread: Dallas Stars 1.5 / Minnesota Wild -1.5 (Draft Kings)
-Representative total: 5.5 (Draft Kings)
-Draft Kings | ML Dallas Stars +120 / Minnesota Wild -142 | Spread Dallas Stars 1.5 (-218) / Minnesota Wild -1.5 (+180) | Total 5.5 (Over -130 / Under +110)
-Bet MGM | ML Dallas Stars +118 / Minnesota Wild -145 | Spread Dallas Stars 1.5 (-210) / Minnesota Wild -1.5 (+170) | Total 6 (Over -105 / Under -115)
-Fan Duel | ML Dallas Stars +114 / Minnesota Wild -137 | Spread Dallas Stars 1.5 (-220) / Minnesota Wild -1.5 (+176) | Total 5.5 (Over -134 / Under +110)
-Caesars | ML Dallas Stars +118 / Minnesota Wild -140 | Spread Dallas Stars 1.5 (-220) / Minnesota Wild -1.5 (+180) | Total 6 (Over -105 / Under -115)
-Bet Rivers | ML Dallas Stars +117 / Minnesota Wild -143 | Spread Dallas Stars 1.5 (-245) / Minnesota Wild -1.5 (+188) | Total 5.5 (Over -124 / Under -103)
-
-Buffalo Sabres at Boston Bruins - 2:10 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Buffalo Sabres -101 at Bet Online.ag
-Best home moneyline: Boston Bruins -113 at Bet Online.ag
-Representative spread: Buffalo Sabres 1.5 / Boston Bruins -1.5 (Draft Kings)
-Representative total: 5.5 (Draft Kings)
-Draft Kings | ML Buffalo Sabres -105 / Boston Bruins -115 | Spread Buffalo Sabres 1.5 (-265) / Boston Bruins -1.5 (+215) | Total 5.5 (Over -130 / Under +110)
-Bet MGM | ML Buffalo Sabres -105 / Boston Bruins -115 | Spread Buffalo Sabres 1.5 (-250) / Boston Bruins -1.5 (+200) | Total 6 (Over -105 / Under -115)
-Fan Duel | ML Buffalo Sabres -105 / Boston Bruins -114 | Spread Buffalo Sabres 1.5 (-260) / Boston Bruins -1.5 (+205) | Total 5.5 (Over -138 / Under +112)
-Caesars | ML Buffalo Sabres -105 / Boston Bruins -115 | Spread Buffalo Sabres 1.5 (-267) / Boston Bruins -1.5 (+215) | Total 6 (Over -105 / Under -115)
-Bet Rivers | ML Buffalo Sabres -107 / Boston Bruins -114 | Spread Buffalo Sabres 1.5 (-286) / Boston Bruins -1.5 (+215) | Total 5.5 (Over -134 / Under +105)
-
-Colorado Avalanche at Los Angeles Kings - 4:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Colorado Avalanche -163 at Bet Online.ag
-Best home moneyline: Los Angeles Kings +148 at Bet Rivers
-Representative spread: Colorado Avalanche -1.5 / Los Angeles Kings 1.5 (Draft Kings)
-Representative total: 5.5 (Draft Kings)
-Draft Kings | ML Colorado Avalanche -170 / Los Angeles Kings +142 | Spread Colorado Avalanche -1.5 (+154) / Los Angeles Kings 1.5 (-185) | Total 5.5 (Over -118 / Under -102)
-Bet MGM | ML Colorado Avalanche -170 / Los Angeles Kings +140 | Spread Colorado Avalanche -1.5 (+145) / Los Angeles Kings 1.5 (-175) | Total 5.5 (Over -118 / Under -102)
-Fan Duel | ML Colorado Avalanche -166 / Los Angeles Kings +138 | Spread Colorado Avalanche -1.5 (+148) / Los Angeles Kings 1.5 (-184) | Total 5.5 (Over -118 / Under -104)
-Caesars | ML Colorado Avalanche -170 / Los Angeles Kings +143 | Spread Colorado Avalanche -1.5 (+158) / Los Angeles Kings 1.5 (-190) | Total 5.5 (Over -120 / Under +100)
-Bet Rivers | ML Colorado Avalanche -182 / Los Angeles Kings +148 | Spread Colorado Avalanche -1.5 (+140) / Los Angeles Kings 1.5 (-180) | Total 5.5 (Over -121 / Under -106)
-
-Pittsburgh Penguins at Philadelphia Flyers - 8:20 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Pittsburgh Penguins +106 at Bet Rivers
-Best home moneyline: Philadelphia Flyers -115 at Bet Online.ag
-Representative spread: Pittsburgh Penguins 1.5 / Philadelphia Flyers -1.5 (Draft Kings)
-Representative total: 5.5 (Draft Kings)
-Draft Kings | ML Pittsburgh Penguins +100 / Philadelphia Flyers -120 | Spread Pittsburgh Penguins 1.5 (-258) / Philadelphia Flyers -1.5 (+210) | Total 5.5 (Over -122 / Under +102)
-Bet MGM | ML Pittsburgh Penguins -102 / Philadelphia Flyers -118 | Spread Pittsburgh Penguins 1.5 (-250) / Philadelphia Flyers -1.5 (+200) | Total 5.5 (Over -120 / Under +100)
-Fan Duel | ML Pittsburgh Penguins -102 / Philadelphia Flyers -118 | Spread Pittsburgh Penguins 1.5 (-250) / Philadelphia Flyers -1.5 (+198) | Total 5.5 (Over -130 / Under +106)
-Caesars | ML Pittsburgh Penguins +100 / Philadelphia Flyers -120 | Spread Pittsburgh Penguins 1.5 (-250) / Philadelphia Flyers -1.5 (+205) | Total 5.5 (Over -120 / Under +100)
-Bet Rivers | ML Pittsburgh Penguins +106 / Philadelphia Flyers -129 | Spread Pittsburgh Penguins 1.5 (-250) / Philadelphia Flyers -1.5 (+195) | Total 5.5 (Over -134 / Under +106)
-
-NFL
-No NFL betting board is currently available.
-
-Premier League
-MARKET SNAPSHOT
-- Premier League currently shows 16 lined events, with an average of 8.3 sportsbooks posting odds per event.
-- Premier League books in this feed include Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers, Fanatics.
-- Premier League market depth currently shows spreads on 65 bookmaker-event combinations and totals on 83 bookmaker-event combinations.
-- Newcastle United at Arsenal stands out as one of the deeper Premier League boards by sportsbook count.
-
-TOP BOARD
-
-Newcastle United at Arsenal - 12:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Newcastle United +670 at Bet Online.ag
-Best home moneyline: Arsenal -224 at My Bookie.ag
-Representative spread: Newcastle United 1.2 / Arsenal -1.2 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Newcastle United +650 / Arsenal -230
-Bet MGM | ML Newcastle United +575 / Arsenal -235 | Total 2.5 (Over -145 / Under +105)
-Fan Duel | ML Newcastle United +600 / Arsenal -240
-Caesars | ML Newcastle United +650 / Arsenal -230
-Bet Rivers | ML Newcastle United +650 / Arsenal -250 | Total 2.5 (Over -157 / Under +123)
-
-Brentford at Manchester United - 3:00 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Brentford +310 at Bet Rivers
-Best home moneyline: Manchester United -115 at Draft Kings
-Representative spread: Brentford 0.5 / Manchester United -0.5 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Brentford +295 / Manchester United -115
-Bet MGM | ML Brentford +300 / Manchester United -120 | Total 2.5 (Over -185 / Under +130)
-Fan Duel | ML Brentford +290 / Manchester United -130
-Caesars | ML Brentford +300 / Manchester United -115
-Bet Rivers | ML Brentford +310 / Manchester United -124 | Total 2.5 (Over -167 / Under +130)
-
-Burnley at Leeds United - 3:00 PM ET
-Sportsbooks: Draft Kings, Fan Duel, Bet Rivers, Fanatics, Bovada
-Best away moneyline: Burnley +685 at Bet Online.ag
-Best home moneyline: Leeds United -215 at Draft Kings
-Representative spread: Burnley 1.2 / Leeds United -1.2 (Bovada)
-Representative total: 2.5 (Bet Rivers)
-Draft Kings | ML Burnley +550 / Leeds United -215
-Fan Duel | ML Burnley +650 / Leeds United -260
-Bet Rivers | ML Burnley +650 / Leeds United -245 | Total 2.5 (Over -150 / Under +117)
-Fanatics | ML Burnley +600 / Leeds United -250
-Bovada | ML Burnley +550 / Leeds United -216 | Spread Burnley 1.2 (-108) / Leeds United -1.2 (-112) | Total 2.8 (Over -115 / Under -105)
-
-West Ham United at Brentford - 10:00 AM ET
-Sportsbooks: Draft Kings, Fan Duel, Bet Rivers, Fanatics, Bovada
-Best away moneyline: West Ham United +285 at Bovada
-Best home moneyline: Brentford -105 at Fanatics
-Representative spread: West Ham United 0.5 / Brentford -0.5 (Bovada)
-Representative total: 2.5 (Bet Rivers)
-Draft Kings | ML West Ham United +275 / Brentford -110
-Fan Duel | ML West Ham United +260 / Brentford -120
-Bet Rivers | ML West Ham United +270 / Brentford -108 | Total 2.5 (Over -150 / Under +118)
-Fanatics | ML West Ham United +280 / Brentford -105
-Bovada | ML West Ham United +285 / Brentford -108 | Spread West Ham United 0.5 (-110) / Brentford -0.5 (-110) | Total 2.8 (Over -125 / Under +105)
-
-Brighton and Hove Albion at Newcastle United - 10:00 AM ET
-Sportsbooks: Draft Kings, Fan Duel, Bet Rivers, Fanatics, Bovada
-Best away moneyline: Brighton and Hove Albion +178 at Bet Online.ag
-Best home moneyline: Newcastle United +145 at Bovada
-Representative spread: Brighton and Hove Albion 0 / Newcastle United 0 (Bovada)
-Representative total: 3.5 (Bet Rivers)
-Draft Kings | ML Brighton and Hove Albion +170 / Newcastle United +140
-Fan Duel | ML Brighton and Hove Albion +170 / Newcastle United +130
-Bet Rivers | ML Brighton and Hove Albion +165 / Newcastle United +138 | Total 3.5 (Over +143 / Under -182)
-Fanatics | ML Brighton and Hove Albion +175 / Newcastle United +140
-Bovada | ML Brighton and Hove Albion +169 / Newcastle United +145 | Spread Brighton and Hove Albion 0 (+102) / Newcastle United 0 (-122) | Total 3 (Over -108 / Under -112)
-
-Bundesliga
-MARKET SNAPSHOT
-- Bundesliga currently shows 17 lined events, with an average of 7.1 sportsbooks posting odds per event.
-- Bundesliga books in this feed include Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers, Fanatics.
-- Bundesliga market depth currently shows spreads on 44 bookmaker-event combinations and totals on 73 bookmaker-event combinations.
-- TSG Hoffenheim at Hamburger SV stands out as one of the deeper Bundesliga boards by sportsbook count.
-
-TOP BOARD
-
-TSG Hoffenheim at Hamburger SV - 12:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: TSG Hoffenheim -135 at Bet MGM
-Best home moneyline: Hamburger SV +355 at Bet Online.ag
-Representative spread: TSG Hoffenheim -0.8 / Hamburger SV 0.8 (Bovada)
-Representative total: 3.5 (Bet MGM)
-Draft Kings | ML TSG Hoffenheim -150 / Hamburger SV +320
-Bet MGM | ML TSG Hoffenheim -135 / Hamburger SV +310 | Total 3.5 (Over +110 / Under -155)
-Fan Duel | ML TSG Hoffenheim -145 / Hamburger SV +340
-Caesars | ML TSG Hoffenheim -135 / Hamburger SV +320
-Bet Rivers | ML TSG Hoffenheim -150 / Hamburger SV +340 | Total 3.5 (Over +118 / Under -159)
-
-Werder Bremen at Vf B Stuttgart - 9:30 AM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Werder Bremen +525 at Caesars
-Best home moneyline: Vf B Stuttgart -180 at Fanatics
-Representative spread: Werder Bremen 1 / Vf B Stuttgart -1 (Bovada)
-Representative total: 3.5 (Bet MGM)
-Draft Kings | ML Werder Bremen +450 / Vf B Stuttgart -195
-Bet MGM | ML Werder Bremen +450 / Vf B Stuttgart -190 | Total 3.5 (Over +110 / Under -150)
-Fan Duel | ML Werder Bremen +500 / Vf B Stuttgart -190
-Caesars | ML Werder Bremen +525 / Vf B Stuttgart -190
-Bet Rivers | ML Werder Bremen +460 / Vf B Stuttgart -195 | Total 3.5 (Over +104 / Under -139)
-
-SC Freiburg at Borussia Dortmund - 11:30 AM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: SC Freiburg +750 at Fan Duel
-Best home moneyline: Borussia Dortmund -270 at Bet Online.ag
-Representative spread: SC Freiburg 1.5 / Borussia Dortmund -1.5 (Bovada)
-Representative total: 3.5 (Bet MGM)
-Draft Kings | ML SC Freiburg +600 / Borussia Dortmund -285
-Bet MGM | ML SC Freiburg +725 / Borussia Dortmund -285 | Total 3.5 (Over +125 / Under -175)
-Fan Duel | ML SC Freiburg +750 / Borussia Dortmund -290
-Caesars | ML SC Freiburg +700 / Borussia Dortmund -280
-Bet Rivers | ML SC Freiburg +750 / Borussia Dortmund -315 | Total 3.5 (Over +116 / Under -155)
-
-1. FC Heidenheim at Bayern Munich - 9:30 AM ET
-Sportsbooks: Draft Kings, Bet MGM, Bet Rivers, Fanatics, Bovada
-Best away moneyline: 1. FC Heidenheim +1200 at Bet Rivers
-Best home moneyline: Bayern Munich -550 at Bet MGM
-Representative spread: 1. FC Heidenheim 2.2 / Bayern Munich -2.2 (Bovada)
-Representative total: 3.5 (Bet MGM)
-Draft Kings | ML 1. FC Heidenheim +950 / Bayern Munich -650
-Bet MGM | ML 1. FC Heidenheim +1050 / Bayern Munich -550 | Total 3.5 (Over -175 / Under +125)
-Bet Rivers | ML 1. FC Heidenheim +1200 / Bayern Munich -715 | Total 4.5 (Over +128 / Under -175)
-Fanatics | ML 1. FC Heidenheim +1100 / Bayern Munich -630
-Bovada | ML 1. FC Heidenheim +1000 / Bayern Munich -575 | Spread 1. FC Heidenheim 2.2 (-120) / Bayern Munich -2.2 (+100) | Total 3.8 (Over -122 / Under +102)
-
-1. FC Köln at Union Berlin - 9:30 AM ET
-Sportsbooks: Draft Kings, Bet MGM, Bet Rivers, Fanatics, Bovada
-Best away moneyline: 1. FC Köln +203 at Bet Online.ag
-Best home moneyline: Union Berlin +137 at Bet Online.ag
-Representative spread: 1. FC Köln 0.2 / Union Berlin -0.2 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML 1. FC Köln +185 / Union Berlin +125
-Bet MGM | ML 1. FC Köln +195 / Union Berlin +135 | Total 2.5 (Over -120 / Under -115)
-Bet Rivers | ML 1. FC Köln +200 / Union Berlin +125 | Total 2.5 (Over -120 / Under -112)
-Fanatics | ML 1. FC Köln +200 / Union Berlin +130
-Bovada | ML 1. FC Köln +195 / Union Berlin +134 | Spread 1. FC Köln 0.2 (-122) / Union Berlin -0.2 (+102) | Total 2.5 (Over -115 / Under -105)
-
-La Liga
-MARKET SNAPSHOT
-- La Liga currently shows 18 lined events, with an average of 5.9 sportsbooks posting odds per event.
-- La Liga books in this feed include Draft Kings, Bet MGM, Fan Duel, Bet Rivers, Fanatics, Bovada.
-- La Liga market depth currently shows spreads on 38 bookmaker-event combinations and totals on 53 bookmaker-event combinations.
-- Girona at Valencia stands out as one of the deeper La Liga boards by sportsbook count.
-
-TOP BOARD
-
-Girona at Valencia - 12:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Bet Rivers, Fanatics
-Best away moneyline: Girona +250 at Bet Rivers
-Best home moneyline: Valencia +122 at Bet Online.ag
-Representative spread: Girona 0.2 / Valencia -0.2 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Girona +245 / Valencia +115
-Bet MGM | ML Girona +230 / Valencia +115 | Total 2.5 (Over -110 / Under -130)
-Fan Duel | ML Girona +240 / Valencia +120
-Bet Rivers | ML Girona +250 / Valencia +110 | Total 2.5 (Over -109 / Under -121)
-Fanatics | ML Girona +240 / Valencia +115
-
-Real Sociedad at Rayo Vallecano - 8:00 AM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Bet Rivers, Fanatics
-Best away moneyline: Real Sociedad +166 at Bet Online.ag
-Best home moneyline: Rayo Vallecano +180 at Draft Kings
-Representative spread: Real Sociedad 0 / Rayo Vallecano 0 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Real Sociedad +155 / Rayo Vallecano +180
-Bet MGM | ML Real Sociedad +155 / Rayo Vallecano +175 | Total 2.5 (Over -110 / Under -125)
-Fan Duel | ML Real Sociedad +155 / Rayo Vallecano +180
-Bet Rivers | ML Real Sociedad +155 / Rayo Vallecano +175 | Total 2.5 (Over -112 / Under -118)
-Fanatics | ML Real Sociedad +160 / Rayo Vallecano +175
-
-Elche CF at Oviedo - 10:15 AM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Bet Rivers, Fanatics
-Best away moneyline: Elche CF +210 at Fan Duel
-Best home moneyline: Oviedo +135 at Draft Kings
-Representative spread: Elche CF 0.2 / Oviedo -0.2 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Elche CF +200 / Oviedo +135
-Bet MGM | ML Elche CF +200 / Oviedo +135 | Total 2.5 (Over +100 / Under -140)
-Fan Duel | ML Elche CF +210 / Oviedo +130
-Bet Rivers | ML Elche CF +205 / Oviedo +130 | Total 2.5 (Over +104 / Under -137)
-Fanatics | ML Elche CF +200 / Oviedo +130
-
-Sevilla at CA Osasuna - 12:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Bet Rivers, Fanatics
-Best away moneyline: Sevilla +286 at Bet Online.ag
-Best home moneyline: CA Osasuna +106 at Bet Online.ag
-Representative spread: Sevilla 0.5 / CA Osasuna -0.5 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Sevilla +275 / CA Osasuna +105
-Bet MGM | ML Sevilla +280 / CA Osasuna +100 | Total 2.5 (Over +105 / Under -145)
-Fan Duel | ML Sevilla +280 / CA Osasuna +105
-Bet Rivers | ML Sevilla +280 / CA Osasuna -106 | Total 2.5 (Over -103 / Under -130)
-Fanatics | ML Sevilla +280 / CA Osasuna +100
-
-Celta Vigo at Villarreal - 3:00 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Bet Rivers, Fanatics
-Best away moneyline: Celta Vigo +307 at Bet Online.ag
-Best home moneyline: Villarreal +105 at Bet MGM
-Representative spread: Celta Vigo 0.5 / Villarreal -0.5 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Celta Vigo +285 / Villarreal +100
-Bet MGM | ML Celta Vigo +270 / Villarreal +105 | Total 2.5 (Over -130 / Under -105)
-Fan Duel | ML Celta Vigo +290 / Villarreal -105
-Bet Rivers | ML Celta Vigo +275 / Villarreal -105 | Total 2.5 (Over -122 / Under -108)
-Fanatics | ML Celta Vigo +280 / Villarreal +100
-
-MLS
-MARKET SNAPSHOT
-- MLS currently shows 30 lined events, with an average of 6.9 sportsbooks posting odds per event.
-- MLS books in this feed include Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers, Fanatics.
-- MLS market depth currently shows spreads on 102 bookmaker-event combinations and totals on 149 bookmaker-event combinations.
-- Atlanta United FC at Toronto FC stands out as one of the deeper MLS boards by sportsbook count.
-
-TOP BOARD
-
-Atlanta United FC at Toronto FC - 1:00 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Atlanta United FC +285 at Bet Rivers
-Best home moneyline: Toronto FC +103 at My Bookie.ag
-Representative spread: Atlanta United FC 0.5 / Toronto FC -0.5 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Atlanta United FC +240 / Toronto FC +100
-Bet MGM | ML Atlanta United FC +250 / Toronto FC -110 | Total 2.5 (Over -145 / Under +105)
-Fan Duel | ML Atlanta United FC +260 / Toronto FC -105
-Caesars | ML Atlanta United FC +260 / Toronto FC +100
-Bet Rivers | ML Atlanta United FC +285 / Toronto FC -118 | Total 2.5 (Over -148 / Under +112)
-
-New York City FC at CF Montreal - 2:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: New York City FC +140 at Bet Rivers
-Best home moneyline: CF Montreal +200 at Caesars
-Representative spread: New York City FC -0.2 / CF Montreal 0.2 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML New York City FC +130 / CF Montreal +190
-Bet MGM | ML New York City FC +125 / CF Montreal +195 | Total 2.5 (Over -130 / Under -110)
-Fan Duel | ML New York City FC +125 / CF Montreal +190
-Caesars | ML New York City FC +135 / CF Montreal +200
-Bet Rivers | ML New York City FC +140 / CF Montreal +175 | Total 2.5 (Over -132 / Under +102)
-
-Los Angeles FC at Minnesota United FC - 4:45 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Los Angeles FC +178 at Bet Online.ag
-Best home moneyline: Minnesota United FC +155 at Caesars
-Representative spread: Los Angeles FC 0 / Minnesota United FC 0 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Los Angeles FC +170 / Minnesota United FC +140
-Bet MGM | ML Los Angeles FC +165 / Minnesota United FC +140 | Total 2.5 (Over -145 / Under +100)
-Fan Duel | ML Los Angeles FC +160 / Minnesota United FC +150
-Caesars | ML Los Angeles FC +170 / Minnesota United FC +155
-Bet Rivers | ML Los Angeles FC +165 / Minnesota United FC +143 | Total 2.5 (Over -157 / Under +120)
-
-Philadelphia Union at Columbus Crew SC - 7:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: Philadelphia Union +320 at Bet Rivers
-Best home moneyline: Columbus Crew SC -105 at Fan Duel
-Representative spread: Philadelphia Union 0.5 / Columbus Crew SC -0.5 (Bovada)
-Representative total: 2.5 (Bet MGM)
-Draft Kings | ML Philadelphia Union +270 / Columbus Crew SC -115
-Bet MGM | ML Philadelphia Union +260 / Columbus Crew SC -110 | Total 2.5 (Over -135 / Under -105)
-Fan Duel | ML Philadelphia Union +270 / Columbus Crew SC -105
-Caesars | ML Philadelphia Union +280 / Columbus Crew SC -105
-Bet Rivers | ML Philadelphia Union +320 / Columbus Crew SC -129 | Total 2.5 (Over -136 / Under +105)
-
-New York Red Bulls at FC Cincinnati - 7:30 PM ET
-Sportsbooks: Draft Kings, Bet MGM, Fan Duel, Caesars, Bet Rivers
-Best away moneyline: New York Red Bulls +280 at Caesars
-Best home moneyline: FC Cincinnati -118 at Bet Online.ag
-Representative spread: New York Red Bulls 0.8 / FC Cincinnati -0.8 (Bovada)
-Representative total: 3.5 (Bet MGM)
-Draft Kings | ML New York Red Bulls +255 / FC Cincinnati -125
-Bet MGM | ML New York Red Bulls +250 / FC Cincinnati -120 | Total 3.5 (Over -130 / Under -110)
-Fan Duel | ML New York Red Bulls +250 / FC Cincinnati -130
-Caesars | ML New York Red Bulls +280 / FC Cincinnati -125
-Bet Rivers | ML New York Red Bulls +275 / FC Cincinnati -125 | Total 3.5 (Over -112 / Under -117)
-
-BETTING MARKET NOTE
-This report reflects publicly available odds at the time of generation. Lines move throughout the day and can vary materially by sportsbook.
-
-DISCLAIMER
-
-UPDATED
-2026-04-25 11:08:05 AM ET
+DATA NOTE
+This report is generated for editorial monitoring and market-context purposes. It is not gambling advice.
 
 DISCLAIMER
 
@@ -830,4 +389,4 @@ This report is an automated summary intended to support, not replace, human spor
 
 UPDATED
 
-2026-04-25 03:18:58 PM ET
+2026-04-25 05:03:52 PM ET
