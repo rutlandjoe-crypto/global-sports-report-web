@@ -7,7 +7,7 @@ Major League Baseball's board is organized by completed results, live action, an
 KEY STORYLINES
 
 - Yesterday's MLB board is cleanly separated with 14 final scores.
-- Today's MLB board already includes 1 completed result.
+- Today's MLB board already includes 2 completed results.
 - Yesterday's NBA playoff board closed with 0 final game(s).
 - Today's NBA playoff board shows 0 game(s): 0 final, 0 live, and 0 scheduled.
 - No confirmed live NFL Draft pick data was returned during this refresh.
@@ -22,12 +22,13 @@ HEADLINE
 Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.
 
 SNAPSHOT
-The MLB report window shows 14 yesterday finals, 1 today final, 0 live games, and 14 scheduled games.
+The MLB report window shows 14 yesterday finals, 2 today finals, 1 live game, and 12 scheduled games.
 
 KEY STORYLINES
 - Yesterday's MLB board is cleanly separated with 14 final scores.
-- Today's MLB board already includes 1 completed result.
-- 14 MLB games remain on today's schedule.
+- Today's MLB board already includes 2 completed results.
+- 1 MLB game is currently live, creating real-time scoreboard movement.
+- 12 MLB games remain on today's schedule.
 - For journalists, the clean split between yesterday's finals, today's live games, today's completed games, and today's schedule keeps the report usable without scoreboard confusion.
 
 YESTERDAY FINAL SCORES
@@ -47,14 +48,13 @@ YESTERDAY FINAL SCORES
 - Miami Marlins 9, San Francisco Giants 4 — Final
 
 TODAY FINAL SCORES
+- Boston Red Sox 17, Baltimore Orioles 1 — Final
 - Colorado Rockies 0, New York Mets 0 — Postponed
 
 TODAY LIVE
-No MLB games are live right now.
+- Seattle Mariners 4, St. Louis Cardinals 3 — Bottom 3rd
 
 TODAY SCHEDULE
-- Boston Red Sox at Baltimore Orioles — 12:05 PM ET
-- Seattle Mariners at St. Louis Cardinals — 2:15 PM ET
 - Cleveland Guardians at Toronto Blue Jays — 3:07 PM ET
 - Miami Marlins at San Francisco Giants — 4:05 PM ET
 - Minnesota Twins at Tampa Bay Rays — 4:10 PM ET
@@ -69,12 +69,12 @@ TODAY SCHEDULE
 - Chicago Cubs at Los Angeles Dodgers — 7:15 PM ET
 
 STATCAST WATCH
-- Boston Red Sox at Baltimore Orioles — 12:05 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
-- Seattle Mariners at St. Louis Cardinals — 2:15 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 - Cleveland Guardians at Toronto Blue Jays — 3:07 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 - Miami Marlins at San Francisco Giants — 4:05 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 - Minnesota Twins at Tampa Bay Rays — 4:10 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 - Washington Nationals at Chicago White Sox — 4:10 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
+- San Diego Padres at Arizona Diamondbacks — 6:05 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
+- Athletics at Texas Rangers — 7:05 PM ET: watch starter availability, bullpen leverage, and run-prevention signals once lineups lock in.
 
 WHY IT MATTERS
 MLB coverage can get messy when old finals, live games, and upcoming games are blended together. This report keeps those windows separate so journalists can quickly see what happened yesterday, what has already happened today, what is live now, and what is still ahead.
@@ -88,7 +88,7 @@ STORY ANGLES
 DATA SOURCE
 - Primary scoreboard source: ESPN MLB scoreboard.
 - Optional enrichment source: Sportradar MLB probable-pitcher schedule feed.
-- Sportradar token detected: True.
+- Sportradar token detected: False.
 - Sportradar access level: trial.
 
 NBA
@@ -103,7 +103,7 @@ KEY STORYLINES
 - Yesterday's NBA playoff board closed with 0 final game(s).
 - Today's NBA playoff board shows 0 game(s): 0 final, 0 live, and 0 scheduled.
 - Active data source: ESPN NBA fallback.
-- Sportradar NBA token is detected; ESPN remains the safety net when Sportradar endpoint access is unavailable.
+- Sportradar NBA key is not configured yet; ESPN fallback is powering this report.
 
 YESTERDAY FINAL SCORES
 - No games in this window.
@@ -125,11 +125,11 @@ WHY IT MATTERS
 DATA SOURCE
 - Active source: ESPN NBA fallback
 - Source priority: Sportradar NBA first when endpoint access is available, ESPN fallback second.
-- Sportradar token detected: True
+- Sportradar token detected: False
 - Sportradar access level: trial
 
 UPDATED
-2026-04-25 11:06:33 AM ET
+2026-04-25 03:03:49 PM ET
 
 NHL
 
@@ -173,7 +173,7 @@ DATA SOURCE
 - Sportradar access level: trial
 
 UPDATED
-2026-04-25 11:06:51 AM ET
+2026-04-25 03:04:00 PM ET
 
 NFL
 
@@ -210,7 +210,7 @@ KEY DATA POINTS
 - SEC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - ACC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
 - Big Ten: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key-player context.
-- News note: Showcasing SEC players selected in Round 3 of the 2026 NFL Draft - SEC Now runs through every SEC prospect that completed their dream of reaching the NFL, listing an overview of their new team and how they'll fit.
+- News note: Auburn lands four-star RB Myson Johnson-Cook - Auburn secured a commitment from four-star running back recruit Myson Johnson-Cook, beating out Miami.
 
 WHY IT MATTERS
 - Conference-wide reporting matters more in college football because team identity is shaped not only by last season's record, but also by coaching continuity, roster turnover, and league structure.
@@ -221,6 +221,7 @@ STORY ANGLES
 The clearest national story line still runs through how the SEC, Big Ten, Big 12, and ACC stack up against the rest of the FBS structure in depth, continuity, and preseason profile.
 
 NEWS
+- Auburn lands four-star RB Myson Johnson-Cook - Auburn secured a commitment from four-star running back recruit Myson Johnson-Cook, beating out Miami.
 - Showcasing SEC players selected in Round 3 of the 2026 NFL Draft - SEC Now runs through every SEC prospect that completed their dream of reaching the NFL, listing an overview of their new team and how they'll fit.
 - Highlighting SEC players taken in Round 2 of the 2026 NFL Draft - SEC Now whips around the country to highlight the stars off on their professional journeys including punishing edge rushers and flashy pass catchers.
 - What Jake Golday brings to the Vikings - What Jake Golday brings to the Vikings
@@ -230,86 +231,69 @@ NEWS
 - Nebraska regents approves $600M Memorial Stadium plan - University of Nebraska regents on Friday approved a $600 million overhaul of Memorial Stadium.
 - Paige Shiver opens up on GMA about relationship with Sherrone Moore - Former Michigan staffer Paige Shiver says she felt pressured to have a relationship with then coach Sherrone Moore.
 - Ex-staffer says Michigan didn't protect her enough from Moore - Former Michigan football staffer Paige Shiver characterized her relationship with Sherrone Moore as an "open secret" within the athletic department and said those in leadership didn't do enough to protect her from the former Wolverines coach.
-- How working with Travis Kelce's coach ignited Seydou Traore's NFL dream - While many of the NFL's International Player Pathway Program (IPPP) players have entered the program with little to no knowledge of American football, Seydou 'Ziko' Traore is as league-ready as a prospect from London could be.
 
 SOCCER
 
 HEADLINE
-Soccer's report window is active across Europe and the United States, with 9 live matches, 18 upcoming fixtures, and 0 finals from yesterday helping frame the board.
+Soccer's report window is active across Europe and the United States, with 1 live matches, 0 upcoming fixtures, and 0 finals from yesterday helping frame the board.
 
 SNAPSHOT
-- Premier League: 0 finals from yesterday, 3 live today, 1 upcoming today, and 1 finals already posted today.
-- Bundesliga: 0 finals from yesterday, 5 live today, 1 upcoming today, and 0 finals already posted today.
-- La Liga: 0 finals from yesterday, 1 live today, 2 upcoming today, and 1 finals already posted today.
-- MLS: 0 finals from yesterday, 0 live today, 14 upcoming today, and 0 finals already posted today.
+- Premier League: 0 finals from yesterday, 0 live today, 0 upcoming today, and 5 finals already posted today.
+- Bundesliga: 0 finals from yesterday, 0 live today, 0 upcoming today, and 6 finals already posted today.
+- La Liga: 0 finals from yesterday, 1 live today, 0 upcoming today, and 3 finals already posted today.
+- MLS: 0 finals from yesterday, 0 live today, 0 upcoming today, and 0 finals already posted today.
 - USL Championship: 0 finals from yesterday, 0 live today, 0 upcoming today, and 2 finals already posted today.
 
 KEY STORYLINES
-- The cross-league board currently shows 0 finals from yesterday, 9 live matches, and 18 upcoming fixtures.
-- Premier League is offering one of the better mixed windows right now, combining live reaction value with upcoming-match preview material.
-- Premier League: Newcastle United at Arsenal stands out as one of the stronger upcoming fixtures by current table profile.
+- The cross-league board currently shows 0 finals from yesterday, 1 live matches, and 0 upcoming fixtures.
 - The clearest soccer reporting value in this window comes from connecting yesterday's results to today's schedule, especially when title, European, playoff, or positioning pressure sharpens the next fixture.
+- American soccer remains useful in the same report view because MLS and USL can add same-day recap and preview value alongside Europe's top leagues.
 
 KEY DATA POINTS
-- Across the tracked leagues, the report currently captures 0 yesterday finals, 9 live matches, 18 upcoming fixtures, and 4 finals already logged today.
-- MLS carries the heaviest upcoming schedule load in this report window with 14 matches still ahead.
+Across the tracked leagues, the report currently captures 0 yesterday finals, 1 live matches, 0 upcoming fixtures, and 16 finals already logged today.
 
 RECENT FINAL SCORES
 - Fulham 1, Aston Villa 0.
-- Alavés 2, Mallorca 1.
-- Rhode Island FC 4, Charleston Battery 0.
-- Oakland Roots 4, Las Vegas Lights FC 2.
+- Liverpool 3, Crystal Palace 1.
+- West Ham United 2, Everton 1.
+- Wolverhampton Wanderers 0, Tottenham Hotspur 1.
+- Arsenal 1, Newcastle United 0.
+- 1. FC Heidenheim 1846 2, St. Pauli 0.
+- FC Augsburg 1, Eintracht Frankfurt 1.
+- FC Cologne 1, Bayer Leverkusen 2.
+- Mainz 3, Bayern Munich 4.
+- VfL Wolfsburg 0, Borussia Mönchengladbach 0.
 
 PREMIER LEAGUE
 
-LIVE NOW
-- Crystal Palace 0, Liverpool 2 - 45'.
-- Everton 0, West Ham United 0 - 48'.
-- Tottenham Hotspur 0, Wolverhampton Wanderers 0 - 45'.
-
-UPCOMING
-Newcastle United at Arsenal - 12:30 PM ET | Newcastle United 12-6-15 | Arsenal 21-7-5 | TV: USA Net, Universo | Emirates Stadium.
-
 TODAY RESULTS
-Fulham 1, Aston Villa 0.
+- Fulham 1, Aston Villa 0.
+- Liverpool 3, Crystal Palace 1.
+- West Ham United 2, Everton 1.
+- Wolverhampton Wanderers 0, Tottenham Hotspur 1.
+- Arsenal 1, Newcastle United 0.
 
 BUNDESLIGA
 
-LIVE NOW
-- St. Pauli 0, 1. FC Heidenheim 1846 1 - 77'.
-- Eintracht Frankfurt 1, FC Augsburg 1 - 77'.
-- Bayer Leverkusen 2, FC Cologne 1 - 78'.
-- Bayern Munich 2, Mainz 3 - 76'.
-- Borussia Mönchengladbach 0, VfL Wolfsburg 0 - 79'.
-
-UPCOMING
-TSG Hoffenheim at Hamburg SV - 12:30 PM ET | TSG Hoffenheim 16-6-8 | Hamburg SV 7-10-13 | TV: ESPN+ | Volksparkstadion.
+TODAY RESULTS
+- 1. FC Heidenheim 1846 2, St. Pauli 0.
+- FC Augsburg 1, Eintracht Frankfurt 1.
+- FC Cologne 1, Bayer Leverkusen 2.
+- Mainz 3, Bayern Munich 4.
+- VfL Wolfsburg 0, Borussia Mönchengladbach 0.
+- Hamburg SV 1, TSG Hoffenheim 2.
 
 LA LIGA
 
 LIVE NOW
-Barcelona 1, Getafe 0 - HT.
-
-UPCOMING
-- Girona at Valencia - 12:30 PM ET | Girona 9-11-12 | Valencia 9-9-14 | TV: ESPN+ | Mestalla Stadium.
-- Athletic Club at Atlético Madrid - 3:00 PM ET | Athletic Club 12-5-15 | Atlético Madrid 17-6-9 | TV: ESPN Deportes, ESPN+ | Riyadh Air Metropolitano.
+Athletic Club 0, Atlético Madrid 0 - 5'.
 
 TODAY RESULTS
-Alavés 2, Mallorca 1.
+- Alavés 2, Mallorca 1.
+- Getafe 0, Barcelona 2.
+- Valencia 2, Girona 1.
 
 MLS
-
-UPCOMING
-- Atlanta United FC at Toronto FC - 1:00 PM ET | Atlanta United FC 1-1-7 | Toronto FC 3-4-2 | TV: Apple TV | BMO Field.
-- New York City FC at CF Montréal - 2:30 PM ET | New York City FC 3-3-3 | CF Montréal 2-0-6 | TV: Apple TV | Stade Saputo.
-- LAFC at Minnesota United FC - 4:45 PM ET | LAFC 5-2-2 | Minnesota United FC 5-2-2 | TV: FOX, Apple TV | Allianz Field.
-- Philadelphia Union at Columbus Crew - 7:30 PM ET | Philadelphia Union 1-2-6 | Columbus Crew 2-3-4 | TV: Apple TV | ScottsMiracle-Gro Field.
-- Orlando City SC at D.C. United - 7:30 PM ET | Orlando City SC 2-1-6 | D.C. United 2-3-4 | TV: Apple TV | Audi Field.
-- Red Bull New York at FC Cincinnati - 7:30 PM ET | Red Bull New York 3-3-3 | FC Cincinnati 2-3-4 | TV: Apple TV | TQL Stadium.
-- New England Revolution at Inter Miami CF - 7:30 PM ET | New England Revolution 5-0-3 | Inter Miami CF 5-3-1 | TV: Apple TV | Nu Stadium.
-- Houston Dynamo FC at Austin FC - 8:30 PM ET | Houston Dynamo FC 4-0-4 | Austin FC 1-4-4 | TV: Apple TV | Q2 Stadium.
-- Sporting Kansas City at Chicago Fire FC - 8:30 PM ET | Sporting Kansas City 1-1-6 | Chicago Fire FC 4-2-2 | TV: Apple TV | Soldier Field.
-- Charlotte FC at Nashville SC - 8:30 PM ET | Charlotte FC 4-2-3 | Nashville SC 6-1-1 | TV: Apple TV | GEODIS Park.
 
 USL CHAMPIONSHIP
 
@@ -846,4 +830,4 @@ This report is an automated summary intended to support, not replace, human spor
 
 UPDATED
 
-2026-04-25 11:08:20 AM ET
+2026-04-25 03:18:58 PM ET
