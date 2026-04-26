@@ -581,25 +581,6 @@ function getStatcastWatchItems(data: JsonObject): string[] {
   return normalizeArray(fromMap);
 }
 
-function SummaryCard({
-  title,
-  value,
-}: {
-  title: string;
-  value: string;
-}) {
-  if (!value.trim()) return null;
-
-  return (
-    <div className="rounded-2xl border border-zinc-800 bg-zinc-950/80 p-4 shadow-lg shadow-black/20">
-      <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-        {title}
-      </div>
-      <div className="whitespace-pre-line text-sm leading-6 text-zinc-200">{value}</div>
-    </div>
-  );
-}
-
 function LeagueCard({
   title,
   section,
@@ -793,61 +774,41 @@ export default function Page() {
   return (
     <main className="min-h-screen bg-black text-white">
       <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <header className="mb-5 rounded-3xl border border-zinc-800 bg-zinc-950/90 p-5 shadow-2xl shadow-black/40">
-          <div className="flex flex-col gap-5 xl:grid xl:grid-cols-[1.15fr_0.85fr] xl:items-stretch">
-            <div className="space-y-4">
-              <div className="inline-flex w-fit rounded-full border border-zinc-700 bg-zinc-900 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.28em] text-zinc-400">
-                Built for Journalists
-              </div>
+        <header className="mb-6 rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 shadow-sm">
+          <div className="grid gap-6 lg:grid-cols-[1.35fr_0.65fr]">
+            <div>
+              <p className="text-sm font-bold tracking-[0.25em] text-red-700">
+                BUILT FOR JOURNALISTS, BY A JOURNALIST
+              </p>
 
-              <div>
-                <h1 className="text-3xl font-black uppercase tracking-[0.14em] text-white sm:text-4xl">
-                  {title}
-                </h1>
-                <p className="mt-2 text-sm text-zinc-400">Updated: {generatedDate}</p>
+              <h1 className="mt-3 text-4xl font-black tracking-tight md:text-6xl">
+                {title}
+              </h1>
 
-                <div className="mt-4 flex flex-wrap gap-3">
-                  {typeof data.substack_url === "string" && data.substack_url.trim() && (
-                    <a
-                      href={data.substack_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="rounded-lg bg-orange-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-500"
-                    >
-                      Substack
-                    </a>
-                  )}
-
-                  {typeof data.x_handle === "string" && data.x_handle.trim() && (
-                    <a
-                      href={`https://x.com/${data.x_handle.replace("@", "")}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="rounded-lg bg-zinc-800 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-700"
-                    >
-                      X / Twitter
-                    </a>
-                  )}
-                </div>
-              </div>
+              <p className="mt-3 text-sm font-semibold text-gray-600">
+                Updated: {generatedDate}
+              </p>
 
               {headline ? (
-                <div className="rounded-2xl border border-zinc-800 bg-black/30 p-4">
-                  <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-                    Headline
-                  </div>
-                  <p className="text-base leading-7 text-zinc-100">{headline}</p>
-                </div>
+                <h2 className="mt-6 text-2xl font-extrabold leading-tight md:text-3xl">
+                  {headline}
+                </h2>
+              ) : null}
+
+              {snapshot ? (
+                <p className="mt-4 max-w-3xl whitespace-pre-line text-lg leading-8 text-gray-700">
+                  {snapshot}
+                </p>
               ) : null}
 
               {statcastWatchItems.length ? (
-                <div className="rounded-2xl border border-zinc-800 bg-black/40 p-4">
-                  <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-                    Statcast Snapshot
-                  </div>
+                <div className="mt-5 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <p className="mb-2 text-xs font-black tracking-[0.22em] text-red-700">
+                    STATCAST SNAPSHOT
+                  </p>
                   <ul className="space-y-2">
                     {statcastWatchItems.map((item, idx) => (
-                      <li key={idx} className="ml-5 list-disc text-sm leading-6 text-zinc-300">
+                      <li key={idx} className="ml-5 list-disc text-sm font-semibold leading-6 text-slate-800">
                         {item.replace(/^[-•]\s*/, "")}
                       </li>
                     ))}
@@ -855,34 +816,46 @@ export default function Page() {
                 </div>
               ) : null}
 
-              <div className="grid gap-4 md:grid-cols-2">
-                <SummaryCard title="Snapshot" value={snapshot} />
-                <div className="rounded-2xl border border-zinc-800 bg-zinc-950/80 p-4 shadow-lg shadow-black/20">
-                  <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-                    Newsroom Note
-                  </div>
-                  <p className="text-sm leading-6 text-zinc-200">
-                    This report is an automated summary intended to support, not replace,
-                    human sports journalism.
-                  </p>
-                </div>
-              </div>
-
               {keyStorylines ? (
-                <div className="rounded-2xl border border-zinc-800 bg-zinc-950/80 p-4 shadow-lg shadow-black/20">
-                  <div className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-                    Key Storylines
-                  </div>
-                  {renderValue(keyStorylines)}
+                <div className="mt-5 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <p className="mb-2 text-xs font-black tracking-[0.22em] text-red-700">
+                    KEY STORYLINES
+                  </p>
+                  <div className="text-slate-900">{renderValue(keyStorylines)}</div>
                 </div>
               ) : null}
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                {typeof data.substack_url === "string" && data.substack_url.trim() && (
+                  <a
+                    href={data.substack_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full bg-red-700 px-5 py-3 text-sm font-bold text-white hover:bg-red-800"
+                  >
+                    Substack
+                  </a>
+                )}
+
+                {typeof data.x_handle === "string" && data.x_handle.trim() && (
+                  <a
+                    href={`https://x.com/${data.x_handle.replace("@", "")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full border border-gray-300 bg-white px-5 py-3 text-sm font-bold hover:bg-gray-100"
+                  >
+                    X / Twitter
+                  </a>
+                )}
+              </div>
             </div>
 
-            <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950 shadow-2xl shadow-black/40">
-              <div className="border-b border-zinc-800 px-4 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-400">
-                Yahoo Sports Network
-              </div>
-              <div className="aspect-video w-full bg-black">
+            <aside className="rounded-3xl border border-slate-200 bg-black p-5 text-white">
+              <p className="text-xs font-bold tracking-[0.25em] text-red-400">
+                LIVE SPORTS NETWORK
+              </p>
+
+              <div className="mt-4 aspect-video overflow-hidden rounded-2xl bg-black">
                 <iframe
                   src={VIDEO_URL}
                   title="Yahoo Sports Network Live"
@@ -892,7 +865,11 @@ export default function Page() {
                   allowFullScreen
                 />
               </div>
-            </div>
+
+              <p className="mt-4 text-sm leading-6 text-zinc-300">
+                Live video plus automated sports intelligence for the modern newsroom.
+              </p>
+            </aside>
           </div>
         </header>
 
