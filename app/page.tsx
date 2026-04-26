@@ -3,921 +3,370 @@ import path from "path";
 
 export const dynamic = "force-dynamic";
 
-type Primitive = string | number | boolean | null | undefined;
-type JsonValue = Primitive | JsonObject | JsonValue[] | Record<string, unknown>;
-type JsonObject = { [key: string]: JsonValue };
+type JsonObject = { [key: string]: any };
+
+const SITE = {
+  name: "Global Sports Report",
+  tagline: "Built for journalists, by a journalist.",
+  url: "https://globalsportsreport.com",
+  xHandle: "@GlobalSportsRp",
+  substack: "https://globalsportsreport.substack.com",
+};
+
+const COLORS = {
+  pageBg: "bg-neutral-950",
+  red: "bg-red-700",
+  redText: "text-red-700",
+  redBorder: "border-red-700",
+  card: "bg-white",
+  cardText: "text-neutral-950",
+  mutedText: "text-neutral-700",
+};
 
 const VIDEO_URL =
   process.env.NEXT_PUBLIC_GSR_VIDEO_URL ||
   "https://www.youtube.com/embed/PMDQ82w1pAE?autoplay=1&mute=1";
 
-const PRIMARY_ORDER = [
-  "mlb",
-  "nba",
-  "nhl",
-  "nfl",
-  "nfl_draft",
-  "ncaafb",
-  "soccer",
-  "fantasy",
-  "betting_odds",
-] as const;
-
-type PrimaryKey = (typeof PRIMARY_ORDER)[number];
-
-const PRIMARY_LABELS: Record<PrimaryKey, string> = {
-  mlb: "MLB",
-  nba: "NBA",
-  nhl: "NHL",
-  nfl: "NFL",
-  nfl_draft: "NFL DRAFT",
-  ncaafb: "NCAA FOOTBALL",
-  soccer: "SOCCER",
-  fantasy: "FANTASY",
-  betting_odds: "BETTING ODDS",
-};
-
-const HIDDEN_FIELDS = new Set([
-  "source_file",
-  "source_kind",
-  "source_modified_at",
-  "source_report_date",
-  "disclaimer",
-  "full_text",
-  "full_report",
-  "static graphic",
-  "static_graphic",
-  "statcast_graphic",
-  "statcast_snapshot",
-  "advanced",
-]);
-
-const RESERVED_TOP_LEVEL_KEYS = new Set([
-  "title",
-  "generated_date",
-  "generated_at",
-  "headline",
-  "snapshot",
-  "key_storylines",
-  "substack_url",
-  "x_handle",
-  "meta",
-  "sections",
-  "sections_map",
-  "section_order",
-  "full_text",
-  "full_report",
-  "updated_at",
-  "published_at",
-  "generated",
-  "name",
-  "statcast_graphic",
-  "disclaimer",
-]);
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === "object" && value !== null && !Array.isArray(value);
-}
-
-function readLatestReport(): JsonObject {
-  const filePath = path.join(process.cwd(), "public", "latest_report.json");
-
+function readReport(): JsonObject {
   try {
-    if (!fs.existsSync(filePath)) {
-      return {
-        title: "GLOBAL SPORTS REPORT",
-        generated_date: new Date().toLocaleString("en-US", {
-          timeZone: "America/New_York",
-          dateStyle: "full",
-          timeStyle: "short",
-        }),
-        headline: "Latest report file not found.",
-        snapshot: "Add public/latest_report.json to display live data.",
-      };
-    }
-
+    const filePath = path.join(process.cwd(), "public", "latest_report.json");
     const raw = fs.readFileSync(filePath, "utf8");
-    const parsed = JSON.parse(raw) as JsonObject;
-
-    if (isRecord(parsed)) return parsed;
-
+    return JSON.parse(raw);
+  } catch {
     return {
-      title: "GLOBAL SPORTS REPORT",
-      generated_date: new Date().toLocaleString("en-US", {
-        timeZone: "America/New_York",
-        dateStyle: "full",
-        timeStyle: "short",
-      }),
-      headline: "The JSON file loaded, but its root structure is invalid.",
-      snapshot: "The file must contain a top-level JSON object.",
-    };
-  } catch (error) {
-    return {
-      title: "GLOBAL SPORTS REPORT",
-      generated_date: new Date().toLocaleString("en-US", {
-        timeZone: "America/New_York",
-        dateStyle: "full",
-        timeStyle: "short",
-      }),
-      headline: "There was an error reading latest_report.json.",
+      headline: "Global Sports Report is updating.",
       snapshot:
-        error instanceof Error ? error.message : "Unknown file read error.",
+        "The latest sports report is being generated. Please check back shortly.",
+      key_storylines: [],
+      sections: [],
+      updated_at: new Date().toISOString(),
     };
   }
 }
 
-function toDisplayText(value: unknown): string {
-  if (value === null || value === undefined) return "";
-  if (typeof value === "string") return value;
-  if (typeof value === "number" || typeof value === "boolean") return String(value);
-  return "";
-}
-
-function cleanLabel(label: string): string {
-  return label
-    .replace(/_/g, " ")
-    .replace(/\b\w/g, (m) => m.toUpperCase())
-    .trim();
-}
-
-function normalizeSectionKey(value: string): string {
-  const normalized = value
-    .trim()
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, "_")
-    .replace(/^_+|_+$/g, "");
-
-  const aliasMap: Record<string, string> = {
-    mlb: "mlb",
-    mlb_advanced: "mlb_advanced",
-    nba: "nba",
-    nba_advanced: "nba_advanced",
-    nhl: "nhl",
-    nfl: "nfl",
-    nfl_advanced: "nfl_advanced",
-    nfl_draft: "nfl_draft",
-    nfl_draft_signals: "nfl_draft",
-    draft_signals: "nfl_draft",
-    ncaafb: "ncaafb",
-    ncaa_football: "ncaafb",
-    soccer: "soccer",
-    fantasy: "fantasy",
-    betting: "betting_odds",
-    betting_odds: "betting_odds",
-    betting_odds_report: "betting_odds",
-    betting_odds_reports: "betting_odds",
-    bettingodds: "betting_odds",
-  };
-
-  return aliasMap[normalized] || normalized;
-}
-
-function isNoiseLine(line: string): boolean {
-  const lower = line.toLowerCase();
-
-  return (
-    lower.includes("http 401") ||
-    lower.includes("out_of_usage_credits") ||
-    lower.includes("details_url") ||
-    lower.includes("could not load odds") ||
-    lower.includes("usage quota has been reached") ||
-    lower.includes("the-odds-api.com")
-  );
-}
-
-function cleanTextBlock(text: string): string {
-  const normalized = text
-    .replace(/\r\n/g, "\n")
-    .replace(/\r/g, "\n")
-    .replace(/Ã¢â‚¬â„¢/g, "’")
-    .replace(/Ã¢â‚¬Ëœ/g, "‘")
-    .replace(/Ã¢â‚¬Å“/g, '"')
-    .replace(/Ã¢â‚¬\x9d/g, '"')
-    .replace(/Ã¢â‚¬â€/g, "—")
-    .replace(/Ã¢â‚¬â€œ/g, "–")
-    .replace(/Ã¢â‚¬Â¦/g, "…")
-    .replace(/Ã‚/g, "")
-    .replace(/ÃƒÂ©/g, "é")
-    .replace(/ÃƒÂ¡/g, "á")
-    .replace(/ÃƒÂ³/g, "ó")
-    .replace(/ÃƒÂ±/g, "ñ")
-    .replace(/ÃƒÂ¼/g, "ü")
-    .replace(/ï¿½/g, "");
-
-  const lines = normalized
-    .split("\n")
-    .map((line) => line.trimEnd())
-    .filter((line) => !isNoiseLine(line));
-
-  return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
-}
-
-function splitLines(text: string): string[] {
-  return cleanTextBlock(text)
-    .split(/\n+/)
-    .map((line) => line.trim())
-    .filter(Boolean);
-}
-
-function normalizeArray(value: unknown): string[] {
-  if (!Array.isArray(value)) return [];
-
-  return value
-    .flatMap((item) => {
-      if (typeof item === "string") {
-        const cleaned = cleanTextBlock(item);
-        return cleaned ? splitLines(cleaned) : [];
-      }
-
-      if (typeof item === "number" || typeof item === "boolean") {
-        return [String(item)];
-      }
-
-      if (isRecord(item)) {
-        const bits = Object.entries(item)
-          .filter(([k]) => !HIDDEN_FIELDS.has(k))
-          .map(([k, v]) => {
-            const text = toDisplayText(v);
-            return text ? `${cleanLabel(k)}: ${text}` : "";
-          })
-          .filter(Boolean);
-
-        return bits.length ? [bits.join(" | ")] : [];
-      }
-
-      return [];
-    })
-    .filter((item) => !isNoiseLine(item) && item.trim().length > 0);
-}
-
-function formatSectionText(value: unknown): string {
-  if (typeof value === "string") return cleanTextBlock(value);
-
-  if (Array.isArray(value)) {
-    return normalizeArray(value).join("\n");
-  }
-
-  if (isRecord(value)) {
-    return Object.entries(value)
-      .filter(([k]) => !HIDDEN_FIELDS.has(k))
-      .map(([k, v]) => {
-        if (
-          typeof v === "string" ||
-          typeof v === "number" ||
-          typeof v === "boolean"
-        ) {
-          const text = toDisplayText(v);
-          return text ? `${cleanLabel(k)}: ${text}` : "";
-        }
-
-        if (Array.isArray(v)) {
-          const arr = normalizeArray(v);
-          return arr.length
-            ? `${cleanLabel(k)}:\n${arr.map((x) => `- ${x}`).join("\n")}`
-            : "";
-        }
-
-        return "";
-      })
-      .filter(Boolean)
-      .join("\n\n")
-      .trim();
-  }
-
-  return "";
-}
-
-function extractListItems(value: unknown): string[] {
-  if (Array.isArray(value)) return normalizeArray(value);
-
-  if (typeof value === "string") {
-    const lines = splitLines(value);
-    return lines
-      .map((line) => line.replace(/^[-•*]\s*/, "").trim())
-      .filter((line) => !isNoiseLine(line));
-  }
-
+function asArray(value: any): any[] {
+  if (!value) return [];
+  if (Array.isArray(value)) return value;
+  if (typeof value === "object") return Object.values(value);
   return [];
 }
 
-function renderTextBlock(text: string) {
-  const lines = splitLines(text);
-  const bullets = lines.filter((line) => /^[-•*]\s*/.test(line));
-  const paragraphs = lines.filter((line) => !/^[-•*]\s*/.test(line));
+function cleanText(value: any): string {
+  if (value === null || value === undefined) return "";
+  if (typeof value === "string") return value.trim();
+  return String(value).trim();
+}
 
+function getReportSections(report: JsonObject): any[] {
+  const raw = report.sections || report.leagues || report.reports || [];
+  return asArray(raw).filter(Boolean);
+}
+
+function getSectionTitle(section: JsonObject, index: number): string {
   return (
-    <div className="space-y-3">
-      {paragraphs.map((line, idx) => (
-        <p key={`p-${idx}`} className="text-sm leading-6 text-zinc-300">
-          {line}
-        </p>
-      ))}
-
-      {bullets.length ? (
-        <ul className="space-y-2">
-          {bullets.map((line, idx) => (
-            <li key={`b-${idx}`} className="ml-5 list-disc text-sm leading-6 text-zinc-300">
-              {line.replace(/^[-•*]\s*/, "").trim()}
-            </li>
-          ))}
-        </ul>
-      ) : null}
-    </div>
+    cleanText(section.title) ||
+    cleanText(section.league) ||
+    cleanText(section.name) ||
+    `Sports Section ${index + 1}`
   );
 }
 
-function renderValue(value: unknown) {
-  if (value === null || value === undefined) return null;
+function getStorylines(section: JsonObject): string[] {
+  const items =
+    section.key_storylines ||
+    section.key_data_points ||
+    section.storylines ||
+    section.items ||
+    [];
 
-  if (typeof value === "string") {
-    const cleanedText = cleanTextBlock(value);
-    const items = extractListItems(cleanedText);
-    const bulletLike =
-      items.length >= 2 &&
-      splitLines(cleanedText).every((line) => /^[-•*]\s*/.test(line));
-
-    if (bulletLike) {
-      return (
-        <ul className="space-y-2">
-          {items.map((item, idx) => (
-            <li key={idx} className="ml-5 list-disc text-sm leading-6 text-zinc-300">
-              {item}
-            </li>
-          ))}
-        </ul>
-      );
-    }
-
-    return renderTextBlock(cleanedText);
-  }
-
-  if (typeof value === "number" || typeof value === "boolean") {
-    return <p className="text-sm leading-6 text-zinc-300">{String(value)}</p>;
-  }
-
-  if (Array.isArray(value)) {
-    const items = normalizeArray(value);
-    if (!items.length) return null;
-
-    return (
-      <ul className="space-y-2">
-        {items.map((item, idx) => (
-          <li key={idx} className="ml-5 list-disc text-sm leading-6 text-zinc-300">
-            {item}
-          </li>
-        ))}
-      </ul>
-    );
-  }
-
-  if (isRecord(value)) {
-    const entries = Object.entries(value).filter(([key, v]) => {
-      if (HIDDEN_FIELDS.has(key)) return false;
-      if (v === null || v === undefined) return false;
-      if (typeof v === "string") return cleanTextBlock(v).trim().length > 0;
-      if (Array.isArray(v)) return normalizeArray(v).length > 0;
-      if (isRecord(v))
-        return Object.keys(v).some((k) => !HIDDEN_FIELDS.has(k));
-      return true;
-    });
-
-    if (!entries.length) return null;
-
-    return (
-      <div className="space-y-4">
-        {entries.map(([key, val]) => (
-          <div key={key} className="rounded-xl border border-zinc-800 bg-zinc-950/70 p-4">
-            <h4 className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
-              {cleanLabel(key)}
-            </h4>
-            {renderValue(val)}
-          </div>
-        ))}
-      </div>
-    );
-  }
-
-  return null;
-}
-
-type SectionEntry = {
-  key: string;
-  label: string;
-  value: Record<string, unknown>;
-};
-
-function getSectionsFromArray(data: JsonObject): SectionEntry[] {
-  const rawSections = data.sections;
-  if (!Array.isArray(rawSections)) return [];
-
-  return rawSections
+  return asArray(items)
     .map((item) => {
-      if (!isRecord(item)) return null;
-
-      const rawName =
-        toDisplayText(item.name) || toDisplayText(item.title) || "SECTION";
-
-      const key = normalizeSectionKey(rawName);
-      const label =
-        PRIMARY_LABELS[key as PrimaryKey] || cleanLabel(toDisplayText(item.name) || rawName);
-
-      return {
-        key,
-        label,
-        value: item,
-      };
+      if (typeof item === "string") return item;
+      return (
+        cleanText(item.text) ||
+        cleanText(item.title) ||
+        cleanText(item.headline) ||
+        cleanText(item.value)
+      );
     })
-    .filter(Boolean) as SectionEntry[];
+    .filter(Boolean);
 }
 
-function getSectionsFromSectionsObject(data: JsonObject): SectionEntry[] {
-  const rawSections = data.sections;
-  if (!isRecord(rawSections)) return [];
-
-  return Object.entries(rawSections)
-    .map(([sectionKey, value]) => {
-      if (!isRecord(value)) return null;
-
-      const normalizedKey = normalizeSectionKey(sectionKey);
-      const rawName =
-        toDisplayText(value.name) || toDisplayText(value.title) || sectionKey;
-
-      return {
-        key: normalizedKey,
-        label:
-          PRIMARY_LABELS[normalizedKey as PrimaryKey] || cleanLabel(rawName),
-        value,
-      };
-    })
-    .filter(Boolean) as SectionEntry[];
+function splitContent(content: string): string[] {
+  return content
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .slice(0, 8);
 }
 
-function getSectionsFromMap(data: JsonObject): SectionEntry[] {
-  const rawMap = data.sections_map;
-  if (!isRecord(rawMap)) return [];
-
-  return Object.entries(rawMap)
-    .map(([mapKey, value]) => {
-      if (!isRecord(value)) return null;
-
-      const key = normalizeSectionKey(mapKey);
-      const rawName =
-        toDisplayText(value.name) || toDisplayText(value.title) || mapKey;
-      const label =
-        PRIMARY_LABELS[key as PrimaryKey] || cleanLabel(rawName);
-
-      return {
-        key,
-        label,
-        value,
-      };
-    })
-    .filter(Boolean) as SectionEntry[];
-}
-
-function getSectionsFromLegacyTopLevel(data: JsonObject): SectionEntry[] {
-  return Object.entries(data)
-    .filter(([key, value]) => {
-      return !RESERVED_TOP_LEVEL_KEYS.has(key) && isRecord(value);
-    })
-    .map(([key, value]) => {
-      const normalizedKey = normalizeSectionKey(key);
-      const rawName =
-        toDisplayText((value as Record<string, unknown>).name) ||
-        toDisplayText((value as Record<string, unknown>).title) ||
-        key;
-
-      return {
-        key: normalizedKey,
-        label:
-          PRIMARY_LABELS[normalizedKey as PrimaryKey] || cleanLabel(rawName),
-        value: value as Record<string, unknown>,
-      };
-    });
-}
-
-function getAllSections(data: JsonObject): SectionEntry[] {
-  const candidates = [
-    ...getSectionsFromArray(data),
-    ...getSectionsFromSectionsObject(data),
-    ...getSectionsFromMap(data),
-    ...getSectionsFromLegacyTopLevel(data),
-  ];
-
-  const byKey = new Map<string, SectionEntry>();
-
-  for (const section of candidates) {
-    if (!byKey.has(section.key)) {
-      byKey.set(section.key, section);
-      continue;
-    }
-
-    const existing = byKey.get(section.key)!;
-    const existingScore = Object.keys(existing.value).length;
-    const incomingScore = Object.keys(section.value).length;
-
-    if (incomingScore >= existingScore) {
-      byKey.set(section.key, section);
-    }
-  }
-
-  const orderedKeysFromJson = Array.isArray(data.section_order)
-    ? normalizeArray(data.section_order).map(normalizeSectionKey)
-    : [];
-
-  const orderedKeys = [
-    ...PRIMARY_ORDER,
-    ...orderedKeysFromJson.filter((k) => !PRIMARY_ORDER.includes(k as PrimaryKey)),
-    ...Array.from(byKey.keys()).filter(
-      (k) =>
-        !PRIMARY_ORDER.includes(k as PrimaryKey) &&
-        !orderedKeysFromJson.includes(k)
-    ),
-  ];
-
-  return orderedKeys
-    .map((key) => byKey.get(key))
-    .filter(Boolean) as SectionEntry[];
-}
-
-function getPrimaryCards(data: JsonObject) {
-  const sections = getAllSections(data);
-  const primary = sections.filter((section) =>
-    PRIMARY_ORDER.includes(section.key as PrimaryKey)
-  ) as { key: PrimaryKey; label: string; value: Record<string, unknown> }[];
-
-  if (primary.length) return primary;
-
-  return sections.slice(0, 9) as {
-    key: PrimaryKey;
-    label: string;
-    value: Record<string, unknown>;
-  }[];
-}
-
-function getExtraSections(data: JsonObject) {
-  const sections = getAllSections(data);
-
-  return sections.filter(
-    (section) => !PRIMARY_ORDER.includes(section.key as PrimaryKey)
+function Badge({ children }: { children: React.ReactNode }) {
+  return (
+    <span className="inline-flex items-center rounded-full border border-red-200 bg-red-50 px-3 py-1 text-xs font-bold uppercase tracking-wide text-red-700">
+      {children}
+    </span>
   );
 }
 
-function getStatcastWatchItems(data: JsonObject): string[] {
-  const fromMap =
-    isRecord(data.sections_map) &&
-    isRecord(data.sections_map.mlb) &&
-    isRecord((data.sections_map.mlb as Record<string, unknown>).advanced) &&
-    isRecord(
-      ((data.sections_map.mlb as Record<string, unknown>).advanced as Record<string, unknown>).sections
-    )
-      ? (
-          (((data.sections_map.mlb as Record<string, unknown>).advanced as Record<string, unknown>)
-            .sections as Record<string, unknown>).statcast_watch
-        )
-      : null;
-
-  return normalizeArray(fromMap);
-}
-
-function LeagueCard({
-  title,
-  section,
+function Card({
+  children,
+  className = "",
 }: {
-  title: string;
-  section: Record<string, unknown>;
+  children: React.ReactNode;
+  className?: string;
 }) {
-  const hasStructuredGameBuckets = [
-    "yesterday_final_scores",
-    "yesterday_playoff_results",
-    "today_final_scores",
-    "final_scores",
-    "live_now",
-    "today_live",
-    "live",
-    "today_schedule",
-    "today_playoff_schedule",
-    "upcoming",
-    "upcoming_games",
-  ].some((field) => {
-    const value = section[field];
-    if (value === null || value === undefined) return false;
-    if (typeof value === "string") return cleanTextBlock(value).trim().length > 0;
-    if (Array.isArray(value)) return normalizeArray(value).length > 0;
-    if (isRecord(value)) {
-      return Object.entries(value).some(([childKey, childVal]) => {
-        if (HIDDEN_FIELDS.has(childKey)) return false;
-        if (childVal === null || childVal === undefined) return false;
-        if (typeof childVal === "string") return cleanTextBlock(childVal).trim().length > 0;
-        if (Array.isArray(childVal)) return normalizeArray(childVal).length > 0;
-        if (isRecord(childVal)) {
-          return Object.keys(childVal).some((nestedKey) => !HIDDEN_FIELDS.has(nestedKey));
-        }
-        return true;
-      });
-    }
-    return true;
-  });
-
-  const preferredOrder = [
-    "title",
-    "headline",
-    "snapshot",
-    "key_storylines",
-    "key_data_points",
-    "current_data_and_analytics",
-    "story_angles",
-    "draft_calendar",
-    "top_10_draft_order",
-    "full_round_1_order",
-    "day_2_opening_board",
-    "team_capital_watch",
-    "yesterday_final_scores",
-    "yesterday_playoff_results",
-    "today_final_scores",
-    "final_scores",
-    "live_now",
-    "today_live",
-    "live",
-    "today_schedule",
-    "today_playoff_schedule",
-    "upcoming",
-    "upcoming_games",
-    "analytics",
-    "fantasy_spotlight",
-    "betting_angles",
-    "notable_lines",
-    "watch_list",
-    "content",
-    "structured_sections",
-    "games",
-    "body",
-    "summary",
-  ];
-
-  const used = new Set<string>();
-  const orderedEntries: [string, unknown][] = [];
-
-  preferredOrder.forEach((field) => {
-    if (field === "games" && hasStructuredGameBuckets) return;
-
-    if (field in section && !HIDDEN_FIELDS.has(field)) {
-      orderedEntries.push([field, section[field]]);
-      used.add(field);
-    }
-  });
-
-  Object.entries(section).forEach(([key, value]) => {
-    if (key === "games" && hasStructuredGameBuckets) return;
-
-    if (!used.has(key) && !HIDDEN_FIELDS.has(key)) {
-      orderedEntries.push([key, value]);
-    }
-  });
-
-  const hasAnyContent = orderedEntries.some(([key, value]) => {
-    if (HIDDEN_FIELDS.has(key)) return false;
-    if (value === null || value === undefined) return false;
-    if (typeof value === "string") return cleanTextBlock(value).trim().length > 0;
-    if (Array.isArray(value)) return normalizeArray(value).length > 0;
-    if (isRecord(value))
-      return Object.keys(value).some((k) => !HIDDEN_FIELDS.has(k));
-    return true;
-  });
-
-  if (!hasAnyContent) return null;
-
   return (
-    <section className="rounded-3xl border border-zinc-800 bg-zinc-900/85 p-5 shadow-2xl shadow-black/30">
-      <div className="mb-4 flex items-center justify-between gap-3 border-b border-zinc-800 pb-3">
-        <h2 className="text-lg font-bold tracking-[0.16em] text-white">{title}</h2>
-        <span className="rounded-full border border-zinc-700 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.24em] text-zinc-400">
-          Live Desk
-        </span>
-      </div>
-
-      <div className="space-y-4">
-        {orderedEntries.map(([key, value]) => {
-          if (HIDDEN_FIELDS.has(key)) return null;
-
-          if (
-            value === null ||
-            value === undefined ||
-            (typeof value === "string" && !cleanTextBlock(value).trim()) ||
-            (Array.isArray(value) && normalizeArray(value).length === 0) ||
-            (isRecord(value) &&
-              !Object.entries(value).some(([childKey, childVal]) => {
-                if (HIDDEN_FIELDS.has(childKey)) return false;
-                if (childVal === null || childVal === undefined) return false;
-                if (typeof childVal === "string")
-                  return cleanTextBlock(childVal).trim().length > 0;
-                if (Array.isArray(childVal))
-                  return normalizeArray(childVal).length > 0;
-                if (isRecord(childVal))
-                  return Object.keys(childVal).some(
-                    (nestedKey) => !HIDDEN_FIELDS.has(nestedKey)
-                  );
-                return true;
-              }))
-          ) {
-            return null;
-          }
-
-          const isTitle = key === "title";
-          const showAsHeadingOnly =
-            isTitle && typeof value === "string" && value.trim().length > 0;
-
-          if (showAsHeadingOnly) {
-            return (
-              <div key={key} className="rounded-2xl border border-zinc-800 bg-black/30 p-4">
-                <p className="text-sm font-semibold tracking-wide text-zinc-100">{value}</p>
-              </div>
-            );
-          }
-
-          return (
-            <div key={key} className="rounded-2xl border border-zinc-800 bg-black/30 p-4">
-              <h3 className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-400">
-                {cleanLabel(key)}
-              </h3>
-              {renderValue(value)}
-            </div>
-          );
-        })}
-      </div>
+    <section
+      className={`rounded-3xl border border-neutral-200 bg-white p-6 text-neutral-950 shadow-xl ${className}`}
+    >
+      {children}
     </section>
   );
 }
 
-export default function Page() {
-  const data = readLatestReport();
+function VideoCard() {
+  return (
+    <Card className="overflow-hidden p-0">
+      <div className="border-b border-neutral-200 bg-neutral-950 px-5 py-4">
+        <p className="text-xs font-bold uppercase tracking-[0.25em] text-red-400">
+          Live Video
+        </p>
+        <h2 className="mt-1 text-lg font-black text-white">
+          Sports News Stream
+        </h2>
+      </div>
 
-  const title = toDisplayText(data.title) || "GLOBAL SPORTS REPORT";
-  const generatedDate =
-    toDisplayText(data.generated_date) ||
-    toDisplayText(data.generated_at) ||
-    toDisplayText(data.updated_at) ||
-    new Date().toLocaleString("en-US", {
-      timeZone: "America/New_York",
-      dateStyle: "full",
-      timeStyle: "short",
-    });
+      <div className="aspect-video w-full bg-black">
+        <iframe
+          src={VIDEO_URL}
+          title="Global Sports Report Live Video"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowFullScreen
+          className="h-full w-full"
+        />
+      </div>
+    </Card>
+  );
+}
 
-  const headline = formatSectionText(data.headline);
-  const snapshot = formatSectionText(data.snapshot);
-  const keyStorylines = data.key_storylines;
-  const primaryCards = getPrimaryCards(data);
-  const extraSections = getExtraSections(data);
-  const statcastWatchItems = getStatcastWatchItems(data);
+function Header({ report }: { report: JsonObject }) {
+  const headline =
+    cleanText(report.headline) ||
+    cleanText(report.title) ||
+    "Global Sports Report";
+
+  const snapshot =
+    cleanText(report.snapshot) ||
+    cleanText(report.body) ||
+    "Live sports intelligence, scores, storylines and newsroom-ready context.";
+
+  const updated =
+    cleanText(report.updated_at) ||
+    cleanText(report.generated_at) ||
+    cleanText(report.published_at);
 
   return (
-    <main className="min-h-screen bg-black text-white">
-      <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <header className="mb-6 rounded-3xl border border-slate-200 bg-white p-6 text-slate-950 shadow-sm">
-          <div className="grid gap-6 lg:grid-cols-[1.35fr_0.65fr]">
-            <div>
-              <p className="text-sm font-bold tracking-[0.25em] text-red-700">
-                BUILT FOR JOURNALISTS, BY A JOURNALIST
-              </p>
-
-              <h1 className="mt-3 text-4xl font-black tracking-tight md:text-6xl">
-                {title}
-              </h1>
-
-              <p className="mt-3 text-sm font-semibold text-gray-600">
-                Updated: {generatedDate}
-              </p>
-
-              {headline ? (
-                <h2 className="mt-6 text-2xl font-extrabold leading-tight md:text-3xl">
-                  {headline}
-                </h2>
-              ) : null}
-
-              {snapshot ? (
-                <p className="mt-4 max-w-3xl whitespace-pre-line text-lg leading-8 text-gray-700">
-                  {snapshot}
-                </p>
-              ) : null}
-
-              {statcastWatchItems.length ? (
-                <div className="mt-5 rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                  <p className="mb-2 text-xs font-black tracking-[0.22em] text-red-700">
-                    STATCAST SNAPSHOT
-                  </p>
-                  <ul className="space-y-2">
-                    {statcastWatchItems.map((item, idx) => (
-                      <li key={idx} className="ml-5 list-disc text-sm font-semibold leading-6 text-slate-800">
-                        {item.replace(/^[-•]\s*/, "")}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-
-              {keyStorylines ? (
-                <div className="mt-5 rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                  <p className="mb-2 text-xs font-black tracking-[0.22em] text-red-700">
-                    KEY STORYLINES
-                  </p>
-                  <div className="text-slate-900">{renderValue(keyStorylines)}</div>
-                </div>
-              ) : null}
-
-              <div className="mt-6 flex flex-wrap gap-3">
-                {typeof data.substack_url === "string" && data.substack_url.trim() && (
-                  <a
-                    href={data.substack_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="rounded-full bg-red-700 px-5 py-3 text-sm font-bold text-white hover:bg-red-800"
-                  >
-                    Substack
-                  </a>
-                )}
-
-                {typeof data.x_handle === "string" && data.x_handle.trim() && (
-                  <a
-                    href={`https://x.com/${data.x_handle.replace("@", "")}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="rounded-full border border-gray-300 bg-white px-5 py-3 text-sm font-bold hover:bg-gray-100"
-                  >
-                    X / Twitter
-                  </a>
-                )}
-              </div>
+    <header className="border-b border-neutral-800 bg-neutral-950 text-white">
+      <div className="mx-auto max-w-7xl px-5 py-8">
+        <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+          <div>
+            <div className="mb-4 flex flex-wrap gap-3">
+              <span className="rounded-full bg-red-700 px-4 py-1 text-xs font-black uppercase tracking-[0.25em] text-white">
+                Global Sports Report
+              </span>
+              <span className="rounded-full border border-white/20 px-4 py-1 text-xs font-bold uppercase tracking-[0.25em] text-white/80">
+                Built for journalists
+              </span>
             </div>
 
-            <aside className="rounded-3xl border border-slate-200 bg-black p-5 text-white">
-              <p className="text-xs font-bold tracking-[0.25em] text-red-400">
-                LIVE SPORTS NETWORK
-              </p>
+            <h1 className="max-w-4xl text-4xl font-black leading-tight text-white md:text-6xl">
+              {headline}
+            </h1>
 
-              <div className="mt-4 aspect-video overflow-hidden rounded-2xl bg-black">
-                <iframe
-                  src={VIDEO_URL}
-                  title="Yahoo Sports Network Live"
-                  className="h-full w-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
-              </div>
+            <p className="mt-5 max-w-3xl text-lg leading-8 text-neutral-200">
+              {snapshot}
+            </p>
 
-              <p className="mt-4 text-sm leading-6 text-zinc-300">
-                Live video plus automated sports intelligence for the modern newsroom.
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a
+                href={SITE.substack}
+                className="rounded-full bg-white px-5 py-3 text-sm font-black text-neutral-950 transition hover:bg-red-100"
+              >
+                Subscribe on Substack
+              </a>
+              <a
+                href={`https://twitter.com/${SITE.xHandle.replace("@", "")}`}
+                className="rounded-full border border-white/30 px-5 py-3 text-sm font-black text-white transition hover:bg-white hover:text-neutral-950"
+              >
+                Follow {SITE.xHandle}
+              </a>
+            </div>
+
+            {updated && (
+              <p className="mt-5 text-sm font-semibold text-neutral-400">
+                Updated: {updated}
               </p>
-            </aside>
+            )}
           </div>
-        </header>
 
-        {primaryCards.length ? (
-          <section className="mb-6">
-            <div className="mb-3 flex items-center justify-between">
-              <h2 className="text-sm font-bold uppercase tracking-[0.22em] text-zinc-400">
-                League Reports
-              </h2>
-            </div>
-
-            <div className="grid gap-5 lg:grid-cols-2">
-              {primaryCards.map((card, idx) => (
-                <LeagueCard key={`${card.key}-${idx}`} title={card.label} section={card.value} />
-              ))}
-            </div>
-          </section>
-        ) : null}
-
-        {extraSections.length ? (
-          <section className="mb-6">
-            <div className="mb-3 flex items-center justify-between">
-              <h2 className="text-sm font-bold uppercase tracking-[0.22em] text-zinc-400">
-                Additional Coverage
-              </h2>
-            </div>
-
-            <div className="grid gap-5 lg:grid-cols-2">
-              {extraSections.map((section, idx) => (
-                <LeagueCard
-                  key={`${section.key}-${idx}`}
-                  title={section.label}
-                  section={section.value}
-                />
-              ))}
-            </div>
-          </section>
-        ) : null}
-
-        <footer className="rounded-3xl border border-zinc-800 bg-zinc-950/90 p-5 text-center shadow-2xl shadow-black/40">
-          <p className="text-xs uppercase tracking-[0.22em] text-zinc-500">
-            Global Sports Report
-          </p>
-          <p className="mt-2 text-sm text-zinc-400">
-            Automated sports journalism support for the modern newsroom.
-          </p>
-        </footer>
+          <VideoCard />
+        </div>
       </div>
+    </header>
+  );
+}
+
+function TopStorylines({ report }: { report: JsonObject }) {
+  const storylines = asArray(
+    report.key_storylines || report.key_data_points || report.storylines || []
+  )
+    .map((item) => {
+      if (typeof item === "string") return item;
+      return cleanText(item.text) || cleanText(item.title) || cleanText(item.headline);
+    })
+    .filter(Boolean)
+    .slice(0, 6);
+
+  if (!storylines.length) return null;
+
+  return (
+    <Card>
+      <div className="mb-4 flex items-center justify-between gap-3">
+        <Badge>Top Storylines</Badge>
+      </div>
+
+      <div className="grid gap-3 md:grid-cols-2">
+        {storylines.map((item, index) => (
+          <div
+            key={`${item}-${index}`}
+            className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4 text-neutral-950"
+          >
+            <p className="text-sm font-bold leading-6 text-neutral-900">
+              {item}
+            </p>
+          </div>
+        ))}
+      </div>
+    </Card>
+  );
+}
+
+function SectionCard({
+  section,
+  index,
+}: {
+  section: JsonObject;
+  index: number;
+}) {
+  const title = getSectionTitle(section, index);
+  const headline = cleanText(section.headline);
+  const snapshot = cleanText(section.snapshot);
+  const content = cleanText(section.content || section.body || section.report);
+  const storylines = getStorylines(section);
+  const updated = cleanText(section.updated_at || section.generated_at);
+
+  return (
+    <Card>
+      <div className="mb-5 flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <Badge>{title}</Badge>
+
+          {headline && (
+            <h2 className="mt-4 text-2xl font-black leading-tight text-neutral-950">
+              {headline}
+            </h2>
+          )}
+        </div>
+
+        {updated && (
+          <p className="rounded-full bg-neutral-100 px-3 py-1 text-xs font-bold text-neutral-700">
+            {updated}
+          </p>
+        )}
+      </div>
+
+      {snapshot && (
+        <p className="mb-5 text-base font-semibold leading-7 text-neutral-800">
+          {snapshot}
+        </p>
+      )}
+
+      {storylines.length > 0 && (
+        <div className="mb-5 space-y-3">
+          {storylines.slice(0, 6).map((item, i) => (
+            <div
+              key={`${title}-story-${i}`}
+              className="border-l-4 border-red-700 bg-neutral-50 px-4 py-3"
+            >
+              <p className="text-sm font-bold leading-6 text-neutral-950">
+                {item}
+              </p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {content && (
+        <div className="space-y-4">
+          {splitContent(content).map((paragraph, i) => (
+            <p key={`${title}-content-${i}`} className="text-sm leading-7 text-neutral-800">
+              {paragraph}
+            </p>
+          ))}
+        </div>
+      )}
+    </Card>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="border-t border-neutral-800 bg-neutral-950 px-5 py-8 text-center text-sm text-neutral-400">
+      <p className="font-semibold text-white">{SITE.name}</p>
+      <p className="mt-1">{SITE.tagline}</p>
+      <p className="mt-3">
+        © {new Date().getFullYear()} Global Sports Report LLC
+      </p>
+    </footer>
+  );
+}
+
+export default function Home() {
+  const report = readReport();
+  const sections = getReportSections(report);
+
+  return (
+    <main className="min-h-screen bg-neutral-950">
+      <Header report={report} />
+
+      <div className="mx-auto max-w-7xl space-y-6 px-5 py-8">
+        <TopStorylines report={report} />
+
+        {sections.length > 0 ? (
+          <div className="grid gap-6 lg:grid-cols-2">
+            {sections.map((section, index) => (
+              <SectionCard
+                key={`${getSectionTitle(section, index)}-${index}`}
+                section={section}
+                index={index}
+              />
+            ))}
+          </div>
+        ) : (
+          <Card>
+            <Badge>Report Updating</Badge>
+            <h2 className="mt-4 text-2xl font-black text-neutral-950">
+              Latest report is being generated.
+            </h2>
+            <p className="mt-3 text-neutral-800">
+              Global Sports Report will refresh as soon as the newest JSON data
+              is available.
+            </p>
+          </Card>
+        )}
+      </div>
+
+      <Footer />
     </main>
   );
 }
