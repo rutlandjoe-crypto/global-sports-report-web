@@ -1,193 +1,3732 @@
 {
-  "site": "Global Sports Report",
-  "title": "Global Sports Report",
+  "site": "global_sports_report",
+  "title": "Global Sports Report | 2026-04-27",
+  "site_name": "Global Sports Report",
+  "tagline": "Built for journalists, by a journalist.",
   "headline": "Tampa Bay Rays at Cleveland Guardians leads remaining MLB schedule",
-  "snapshot": "A fresh sports report is being prepared for journalists, editors, and newsroom users.",
-  "updated_at": "2026-04-27 04:00:29 PM ET",
-  "published_at": "2026-04-27 04:00:29 PM ET",
-  "generated_at": "2026-04-27 04:00:29 PM ET",
+  "snapshot": "Global Sports Report is tracking 16 linked reporter cards across the sports board.",
+  "updated_at": "2026-04-27 05:10:13 PM ET",
+  "published_at": "2026-04-27 05:10:13 PM ET",
+  "generated_at": "2026-04-27 05:10:13 PM ET",
   "generated_date": "2026-04-27",
   "timezone": "America/New_York",
   "x_handle": "@GlobalSportsRp",
-  "substack_url": "https://globalsportsreport.substack.com",
-  "sections": [
+  "substack_url": "https://globalsportsreport.substack.com/",
+  "key_storylines": [
+    "MLB: Tampa Bay Rays at Cleveland Guardians leads remaining MLB schedule",
+    "NBA: Detroit Pistons at Orlando Magic",
+    "NHL: Philadelphia Flyers at Pittsburgh Penguins",
+    "NFL: SEA beat NE, 29-13",
+    "Soccer: Brentford 1, Manchester United 2",
+    "Betting Odds: Betting Odds update",
+    "Fantasy: Fantasy basketball usage and production leaders"
+  ],
+  "homepage_cards": [
     {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+      "title": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+      "key_data": [
+        "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+        "Probables: Steven Matz vs. Parker Messick",
+        "Records: Tampa Bay Rays 16-11; Cleveland Guardians 15-14"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_0",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+      "title": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+      "key_data": [
+        "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+        "Probables: Dustin May vs. Mason Montgomery",
+        "Records: St. Louis Cardinals 14-13; Pittsburgh Pirates 16-12"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_1",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+      "title": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+      "key_data": [
+        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+        "Probables: Ranger Suarez vs. Dylan Cease",
+        "Records: Boston Red Sox 11-17; Toronto Blue Jays 12-15"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_2",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+      "title": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+      "key_data": [
+        "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+        "Probables: Jack Kochanowicz vs. Anthony Kay",
+        "Records: Los Angeles Angels 12-17; Chicago White Sox 11-17"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_3",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Detroit Pistons at Orlando Magic",
+      "title": "Detroit Pistons at Orlando Magic",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Detroit Pistons at Orlando Magic"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_0",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Oklahoma City Thunder at Phoenix Suns",
+      "title": "Oklahoma City Thunder at Phoenix Suns",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869373",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Oklahoma City Thunder at Phoenix Suns"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_1",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Minnesota Timberwolves at Denver Nuggets",
+      "title": "Minnesota Timberwolves at Denver Nuggets",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869401",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Minnesota Timberwolves at Denver Nuggets"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_2",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NHL",
+      "label": "NHL Upcoming",
+      "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+      "title": "Philadelphia Flyers at Pittsburgh Penguins",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "key_data": [
+        "Philadelphia Flyers at Pittsburgh Penguins"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "id": "homepage_nhl_0",
+      "updated_at": "2026-04-27 04:49:37 PM ET",
+      "source_file": "nhl_report.json"
+    },
+    {
+      "league": "NHL",
+      "label": "NHL Upcoming",
+      "headline": "Vegas Golden Knights at Utah Mammoth",
+      "title": "Vegas Golden Knights at Utah Mammoth",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "source_url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "key_data": [
+        "Vegas Golden Knights at Utah Mammoth"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "id": "homepage_nhl_1",
+      "updated_at": "2026-04-27 04:49:37 PM ET",
+      "source_file": "nhl_report.json"
+    },
+    {
+      "league": "NFL",
+      "label": "NFL Final",
+      "headline": "SEA beat NE, 29-13",
+      "title": "SEA beat NE, 29-13",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "summary": "NFL game tracked for newsroom coverage.",
+      "key_data": [
+        "SEA beat NE, 29-13"
+      ],
+      "why_it_matters": [
+        "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
+      ],
+      "id": "homepage_nfl_0",
+      "updated_at": "2026-04-27 04:54:37 PM ET",
+      "source_file": "nfl_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "Brentford 1, Manchester United 2",
+      "title": "Brentford 1, Manchester United 2",
+      "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Brentford 1, Manchester United 2"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_0",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Live",
+      "headline": "Levante 0, Espanyol 0 — Live",
+      "title": "Levante 0, Espanyol 0 — Live",
+      "url": "https://www.espn.com/soccer/match/_/gameId/748461",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/748461",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Levante 0, Espanyol 0 — Live"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_1",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "Werder Bremen 1, VfB Stuttgart 1",
+      "title": "Werder Bremen 1, VfB Stuttgart 1",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746995",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/746995",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Werder Bremen 1, VfB Stuttgart 1"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_2",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "SC Freiburg 0, Borussia Dortmund 4",
+      "title": "SC Freiburg 0, Borussia Dortmund 4",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746991",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/746991",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "SC Freiburg 0, Borussia Dortmund 4"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_3",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "headline": "Betting Odds update",
+      "title": "Betting Odds update",
+      "summary": "Betting Odds board update.",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Betting Odds update"
+      ],
+      "why_it_matters": [
+        "Betting Odds board drives daily sports coverage."
+      ],
+      "what_to_watch": [
+        "Monitor the next Betting Odds update."
+      ],
+      "id": "homepage_betting_odds_0",
+      "league": "Betting Odds",
+      "label": "Betting Odds Watch",
+      "updated_at": "2026-04-27 05:06:52 PM ET",
+      "source_file": "betting_odds_report.json"
+    },
+    {
+      "headline": "Fantasy basketball usage and production leaders",
+      "title": "Fantasy basketball usage and production leaders",
+      "summary": "Fantasy board update.",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Fantasy basketball usage and production leaders"
+      ],
+      "why_it_matters": [
+        "Fantasy board drives daily sports coverage."
+      ],
+      "what_to_watch": [
+        "Monitor the next Fantasy update."
+      ],
+      "id": "homepage_fantasy_0",
+      "league": "Fantasy",
+      "label": "Fantasy Watch",
+      "updated_at": "2026-04-27 05:10:03 PM ET",
+      "source_file": "fantasy_report.json"
+    }
+  ],
+  "cards": [
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+      "title": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+      "key_data": [
+        "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+        "Probables: Steven Matz vs. Parker Messick",
+        "Records: Tampa Bay Rays 16-11; Cleveland Guardians 15-14"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_0",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+      "title": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+      "key_data": [
+        "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+        "Probables: Dustin May vs. Mason Montgomery",
+        "Records: St. Louis Cardinals 14-13; Pittsburgh Pirates 16-12"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_1",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+      "title": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+      "key_data": [
+        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+        "Probables: Ranger Suarez vs. Dylan Cease",
+        "Records: Boston Red Sox 11-17; Toronto Blue Jays 12-15"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_2",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+      "title": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+      "key_data": [
+        "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+        "Probables: Jack Kochanowicz vs. Anthony Kay",
+        "Records: Los Angeles Angels 12-17; Chicago White Sox 11-17"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_3",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Detroit Pistons at Orlando Magic",
+      "title": "Detroit Pistons at Orlando Magic",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Detroit Pistons at Orlando Magic"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_0",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Oklahoma City Thunder at Phoenix Suns",
+      "title": "Oklahoma City Thunder at Phoenix Suns",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869373",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Oklahoma City Thunder at Phoenix Suns"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_1",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Minnesota Timberwolves at Denver Nuggets",
+      "title": "Minnesota Timberwolves at Denver Nuggets",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869401",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Minnesota Timberwolves at Denver Nuggets"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_2",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NHL",
+      "label": "NHL Upcoming",
+      "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+      "title": "Philadelphia Flyers at Pittsburgh Penguins",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "key_data": [
+        "Philadelphia Flyers at Pittsburgh Penguins"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "id": "homepage_nhl_0",
+      "updated_at": "2026-04-27 04:49:37 PM ET",
+      "source_file": "nhl_report.json"
+    },
+    {
+      "league": "NHL",
+      "label": "NHL Upcoming",
+      "headline": "Vegas Golden Knights at Utah Mammoth",
+      "title": "Vegas Golden Knights at Utah Mammoth",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "source_url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "key_data": [
+        "Vegas Golden Knights at Utah Mammoth"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "id": "homepage_nhl_1",
+      "updated_at": "2026-04-27 04:49:37 PM ET",
+      "source_file": "nhl_report.json"
+    },
+    {
+      "league": "NFL",
+      "label": "NFL Final",
+      "headline": "SEA beat NE, 29-13",
+      "title": "SEA beat NE, 29-13",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "summary": "NFL game tracked for newsroom coverage.",
+      "key_data": [
+        "SEA beat NE, 29-13"
+      ],
+      "why_it_matters": [
+        "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
+      ],
+      "id": "homepage_nfl_0",
+      "updated_at": "2026-04-27 04:54:37 PM ET",
+      "source_file": "nfl_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "Brentford 1, Manchester United 2",
+      "title": "Brentford 1, Manchester United 2",
+      "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Brentford 1, Manchester United 2"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_0",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Live",
+      "headline": "Levante 0, Espanyol 0 — Live",
+      "title": "Levante 0, Espanyol 0 — Live",
+      "url": "https://www.espn.com/soccer/match/_/gameId/748461",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/748461",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Levante 0, Espanyol 0 — Live"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_1",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "Werder Bremen 1, VfB Stuttgart 1",
+      "title": "Werder Bremen 1, VfB Stuttgart 1",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746995",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/746995",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Werder Bremen 1, VfB Stuttgart 1"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_2",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "SC Freiburg 0, Borussia Dortmund 4",
+      "title": "SC Freiburg 0, Borussia Dortmund 4",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746991",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/746991",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "SC Freiburg 0, Borussia Dortmund 4"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_3",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "headline": "Betting Odds update",
+      "title": "Betting Odds update",
+      "summary": "Betting Odds board update.",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Betting Odds update"
+      ],
+      "why_it_matters": [
+        "Betting Odds board drives daily sports coverage."
+      ],
+      "what_to_watch": [
+        "Monitor the next Betting Odds update."
+      ],
+      "id": "homepage_betting_odds_0",
+      "league": "Betting Odds",
+      "label": "Betting Odds Watch",
+      "updated_at": "2026-04-27 05:06:52 PM ET",
+      "source_file": "betting_odds_report.json"
+    },
+    {
+      "headline": "Fantasy basketball usage and production leaders",
+      "title": "Fantasy basketball usage and production leaders",
+      "summary": "Fantasy board update.",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Fantasy basketball usage and production leaders"
+      ],
+      "why_it_matters": [
+        "Fantasy board drives daily sports coverage."
+      ],
+      "what_to_watch": [
+        "Monitor the next Fantasy update."
+      ],
+      "id": "homepage_fantasy_0",
+      "league": "Fantasy",
+      "label": "Fantasy Watch",
+      "updated_at": "2026-04-27 05:10:03 PM ET",
+      "source_file": "fantasy_report.json"
+    }
+  ],
+  "stories": [
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+      "title": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+      "key_data": [
+        "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+        "Probables: Steven Matz vs. Parker Messick",
+        "Records: Tampa Bay Rays 16-11; Cleveland Guardians 15-14"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_0",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+      "title": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+      "key_data": [
+        "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+        "Probables: Dustin May vs. Mason Montgomery",
+        "Records: St. Louis Cardinals 14-13; Pittsburgh Pirates 16-12"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_1",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+      "title": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+      "key_data": [
+        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+        "Probables: Ranger Suarez vs. Dylan Cease",
+        "Records: Boston Red Sox 11-17; Toronto Blue Jays 12-15"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_2",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "MLB",
+      "label": "MLB Schedule",
+      "headline": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+      "title": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+      "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+      "key_data": [
+        "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+        "Probables: Jack Kochanowicz vs. Anthony Kay",
+        "Records: Los Angeles Angels 12-17; Chicago White Sox 11-17"
+      ],
+      "why_it_matters": [
+        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+      ],
+      "what_to_watch": [
+        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+      ],
+      "id": "homepage_mlb_3",
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "source_file": "mlb_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Detroit Pistons at Orlando Magic",
+      "title": "Detroit Pistons at Orlando Magic",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Detroit Pistons at Orlando Magic"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_0",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Oklahoma City Thunder at Phoenix Suns",
+      "title": "Oklahoma City Thunder at Phoenix Suns",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869373",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Oklahoma City Thunder at Phoenix Suns"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_1",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NBA",
+      "label": "NBA Upcoming",
+      "headline": "Minnesota Timberwolves at Denver Nuggets",
+      "title": "Minnesota Timberwolves at Denver Nuggets",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869401",
+      "summary": "NBA game tracked for newsroom coverage.",
+      "key_data": [
+        "Minnesota Timberwolves at Denver Nuggets"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, injuries, rotations and late-game execution."
+      ],
+      "id": "homepage_nba_2",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "source_file": "nba_report.json"
+    },
+    {
+      "league": "NHL",
+      "label": "NHL Upcoming",
+      "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+      "title": "Philadelphia Flyers at Pittsburgh Penguins",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "key_data": [
+        "Philadelphia Flyers at Pittsburgh Penguins"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "id": "homepage_nhl_0",
+      "updated_at": "2026-04-27 04:49:37 PM ET",
+      "source_file": "nhl_report.json"
+    },
+    {
+      "league": "NHL",
+      "label": "NHL Upcoming",
+      "headline": "Vegas Golden Knights at Utah Mammoth",
+      "title": "Vegas Golden Knights at Utah Mammoth",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "source_url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "key_data": [
+        "Vegas Golden Knights at Utah Mammoth"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "id": "homepage_nhl_1",
+      "updated_at": "2026-04-27 04:49:37 PM ET",
+      "source_file": "nhl_report.json"
+    },
+    {
+      "league": "NFL",
+      "label": "NFL Final",
+      "headline": "SEA beat NE, 29-13",
+      "title": "SEA beat NE, 29-13",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "summary": "NFL game tracked for newsroom coverage.",
+      "key_data": [
+        "SEA beat NE, 29-13"
+      ],
+      "why_it_matters": [
+        "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
+      ],
+      "id": "homepage_nfl_0",
+      "updated_at": "2026-04-27 04:54:37 PM ET",
+      "source_file": "nfl_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "Brentford 1, Manchester United 2",
+      "title": "Brentford 1, Manchester United 2",
+      "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Brentford 1, Manchester United 2"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_0",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Live",
+      "headline": "Levante 0, Espanyol 0 — Live",
+      "title": "Levante 0, Espanyol 0 — Live",
+      "url": "https://www.espn.com/soccer/match/_/gameId/748461",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/748461",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Levante 0, Espanyol 0 — Live"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_1",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "Werder Bremen 1, VfB Stuttgart 1",
+      "title": "Werder Bremen 1, VfB Stuttgart 1",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746995",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/746995",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "Werder Bremen 1, VfB Stuttgart 1"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_2",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "league": "Soccer",
+      "label": "Soccer Final",
+      "headline": "SC Freiburg 0, Borussia Dortmund 4",
+      "title": "SC Freiburg 0, Borussia Dortmund 4",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746991",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/746991",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "key_data": [
+        "SC Freiburg 0, Borussia Dortmund 4"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "id": "homepage_soccer_3",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "source_file": "soccer_report.json"
+    },
+    {
+      "headline": "Betting Odds update",
+      "title": "Betting Odds update",
+      "summary": "Betting Odds board update.",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Betting Odds update"
+      ],
+      "why_it_matters": [
+        "Betting Odds board drives daily sports coverage."
+      ],
+      "what_to_watch": [
+        "Monitor the next Betting Odds update."
+      ],
+      "id": "homepage_betting_odds_0",
+      "league": "Betting Odds",
+      "label": "Betting Odds Watch",
+      "updated_at": "2026-04-27 05:06:52 PM ET",
+      "source_file": "betting_odds_report.json"
+    },
+    {
+      "headline": "Fantasy basketball usage and production leaders",
+      "title": "Fantasy basketball usage and production leaders",
+      "summary": "Fantasy board update.",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Fantasy basketball usage and production leaders"
+      ],
+      "why_it_matters": [
+        "Fantasy board drives daily sports coverage."
+      ],
+      "what_to_watch": [
+        "Monitor the next Fantasy update."
+      ],
+      "id": "homepage_fantasy_0",
+      "league": "Fantasy",
+      "label": "Fantasy Watch",
+      "updated_at": "2026-04-27 05:10:03 PM ET",
+      "source_file": "fantasy_report.json"
+    }
+  ],
+  "sections": {
+    "mlb": {
       "id": "mlb",
-      "title": "MLB",
+      "league": "MLB",
+      "title": "MLB Report",
       "headline": "Tampa Bay Rays at Cleveland Guardians leads remaining MLB schedule",
       "snapshot": "0 today finals, 0 live, 8 scheduled.",
-      "updated_at": "2026-04-27 03:51:23 PM ET",
-      "key_storylines": [
+      "updated_at": "2026-04-27 04:41:13 PM ET",
+      "url": "https://www.espn.com/mlb/scoreboard",
+      "source_url": "https://www.espn.com/mlb/scoreboard",
+      "key_data": [
         "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET",
         "UPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET",
-        "UPCOMING: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET",
-        "Tampa Bay Rays 0, Cleveland Guardians 0",
-        "St. Louis Cardinals 0, Pittsburgh Pirates 0",
-        "Boston Red Sox 0, Toronto Blue Jays 0",
-        "Los Angeles Angels 0, Chicago White Sox 0",
-        "Seattle Mariners 0, Minnesota Twins 0",
-        "New York Yankees 0, Texas Rangers 0",
-        "Chicago Cubs 0, San Diego Padres 0",
-        "Miami Marlins 0, Los Angeles Dodgers 0"
+        "UPCOMING: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET"
       ],
-      "blocks": [
+      "why_it_matters": [
+        "MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text."
+      ],
+      "what_to_watch": [
+        "Monitor confirmed lineups, probable pitchers, bullpen workload, injuries and Statcast indicators."
+      ],
+      "cards": [
         {
-          "title": "Live Board",
-          "items": [
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+          "title": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+          "key_data": [
+            "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+            "Probables: Steven Matz vs. Parker Messick",
+            "Records: Tampa Bay Rays 16-11; Cleveland Guardians 15-14"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_0"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+          "title": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+          "key_data": [
+            "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+            "Probables: Dustin May vs. Mason Montgomery",
+            "Records: St. Louis Cardinals 14-13; Pittsburgh Pirates 16-12"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_1"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+          "title": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+          "key_data": [
+            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+            "Probables: Ranger Suarez vs. Dylan Cease",
+            "Records: Boston Red Sox 11-17; Toronto Blue Jays 12-15"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_2"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+          "title": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+          "key_data": [
+            "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+            "Probables: Jack Kochanowicz vs. Anthony Kay",
+            "Records: Los Angeles Angels 12-17; Chicago White Sox 11-17"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_3"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+          "title": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+          "key_data": [
+            "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+            "Probables: Luis Castillo vs. Connor Prielipp",
+            "Records: Seattle Mariners 14-15; Minnesota Twins 12-16"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_4"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+          "title": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+          "key_data": [
+            "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+            "Probables: Max Fried vs. Jack Leiter",
+            "Records: New York Yankees 18-10; Texas Rangers 14-14"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_5"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+          "title": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+          "key_data": [
+            "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+            "Probables: Matthew Boyd vs. Randy Vasquez",
+            "Records: Chicago Cubs 17-11; San Diego Padres 18-9"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_6"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+          "title": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+          "key_data": [
+            "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+            "Probables: Chris Paddack vs. Yoshinobu Yamamoto",
+            "Records: Miami Marlins 13-15; Los Angeles Dodgers 19-9"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_7"
+        }
+      ],
+      "stories": [
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+          "title": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+          "key_data": [
+            "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+            "Probables: Steven Matz vs. Parker Messick",
+            "Records: Tampa Bay Rays 16-11; Cleveland Guardians 15-14"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_0"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+          "title": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+          "key_data": [
+            "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+            "Probables: Dustin May vs. Mason Montgomery",
+            "Records: St. Louis Cardinals 14-13; Pittsburgh Pirates 16-12"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_1"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+          "title": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+          "key_data": [
+            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+            "Probables: Ranger Suarez vs. Dylan Cease",
+            "Records: Boston Red Sox 11-17; Toronto Blue Jays 12-15"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_2"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+          "title": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+          "key_data": [
+            "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+            "Probables: Jack Kochanowicz vs. Anthony Kay",
+            "Records: Los Angeles Angels 12-17; Chicago White Sox 11-17"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_3"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+          "title": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+          "key_data": [
+            "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+            "Probables: Luis Castillo vs. Connor Prielipp",
+            "Records: Seattle Mariners 14-15; Minnesota Twins 12-16"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_4"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+          "title": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+          "key_data": [
+            "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+            "Probables: Max Fried vs. Jack Leiter",
+            "Records: New York Yankees 18-10; Texas Rangers 14-14"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_5"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+          "title": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+          "key_data": [
+            "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+            "Probables: Matthew Boyd vs. Randy Vasquez",
+            "Records: Chicago Cubs 17-11; San Diego Padres 18-9"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_6"
+        },
+        {
+          "league": "MLB",
+          "label": "MLB Schedule",
+          "headline": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+          "title": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+          "key_data": [
+            "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+            "Probables: Chris Paddack vs. Yoshinobu Yamamoto",
+            "Records: Miami Marlins 13-15; Los Angeles Dodgers 19-9"
+          ],
+          "why_it_matters": [
+            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+          ],
+          "what_to_watch": [
+            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+          ],
+          "id": "mlb_7"
+        }
+      ],
+      "raw_json": {
+        "league": "MLB",
+        "headline": "Tampa Bay Rays at Cleveland Guardians leads remaining MLB schedule",
+        "snapshot": "0 today finals, 0 live, 8 scheduled.",
+        "updated_at": "2026-04-27 04:41:13 PM ET",
+        "generated_at": "2026-04-27 04:41:13 PM ET",
+        "published_at": "2026-04-27 04:41:13 PM ET",
+        "url": "https://www.espn.com/mlb/scoreboard",
+        "source_url": "https://www.espn.com/mlb/scoreboard",
+        "key_storylines": [
+          "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET",
+          "UPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET",
+          "UPCOMING: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET"
+        ],
+        "key_data": [
+          "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET",
+          "UPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET",
+          "UPCOMING: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET"
+        ],
+        "why_it_matters": [
+          "MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text."
+        ],
+        "what_to_watch": [
+          "Monitor confirmed lineups, probable pitchers, bullpen workload, injuries and Statcast indicators."
+        ],
+        "story_angles": [
+          "Which result changes the main baseball conversation?",
+          "Which starting pitcher or bullpen decision deserves deeper review?",
+          "Which matchup creates the strongest preview or follow-up angle?"
+        ],
+        "sections": {
+          "key_storylines": [
             "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET",
             "UPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET",
-            "UPCOMING: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET",
-            "Tampa Bay Rays 0, Cleveland Guardians 0",
-            "St. Louis Cardinals 0, Pittsburgh Pirates 0",
-            "Boston Red Sox 0, Toronto Blue Jays 0",
-            "Los Angeles Angels 0, Chicago White Sox 0",
-            "Seattle Mariners 0, Minnesota Twins 0",
-            "New York Yankees 0, Texas Rangers 0",
-            "Chicago Cubs 0, San Diego Padres 0",
-            "Miami Marlins 0, Los Angeles Dodgers 0"
+            "UPCOMING: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET"
+          ],
+          "today_final_scores": [],
+          "today_live": [],
+          "today_schedule": [
+            {
+              "id": "401815112",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+              "away": "Tampa Bay Rays",
+              "home": "Cleveland Guardians",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "16-11",
+              "home_record": "15-14",
+              "away_probable_pitcher": "Steven Matz",
+              "home_probable_pitcher": "Parker Messick",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "6:10 PM ET",
+              "date": "2026-04-27"
+            },
+            {
+              "id": "401815111",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+              "away": "St. Louis Cardinals",
+              "home": "Pittsburgh Pirates",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "14-13",
+              "home_record": "16-12",
+              "away_probable_pitcher": "Dustin May",
+              "home_probable_pitcher": "Mason Montgomery",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "6:40 PM ET",
+              "date": "2026-04-27"
+            },
+            {
+              "id": "401815110",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+              "away": "Boston Red Sox",
+              "home": "Toronto Blue Jays",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "11-17",
+              "home_record": "12-15",
+              "away_probable_pitcher": "Ranger Suarez",
+              "home_probable_pitcher": "Dylan Cease",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "7:07 PM ET",
+              "date": "2026-04-27"
+            },
+            {
+              "id": "401815113",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+              "away": "Los Angeles Angels",
+              "home": "Chicago White Sox",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "12-17",
+              "home_record": "11-17",
+              "away_probable_pitcher": "Jack Kochanowicz",
+              "home_probable_pitcher": "Anthony Kay",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "7:40 PM ET",
+              "date": "2026-04-27"
+            },
+            {
+              "id": "401815115",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+              "away": "Seattle Mariners",
+              "home": "Minnesota Twins",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "14-15",
+              "home_record": "12-16",
+              "away_probable_pitcher": "Luis Castillo",
+              "home_probable_pitcher": "Connor Prielipp",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "7:40 PM ET",
+              "date": "2026-04-27"
+            },
+            {
+              "id": "401815114",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+              "away": "New York Yankees",
+              "home": "Texas Rangers",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "18-10",
+              "home_record": "14-14",
+              "away_probable_pitcher": "Max Fried",
+              "home_probable_pitcher": "Jack Leiter",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "8:05 PM ET",
+              "date": "2026-04-27"
+            },
+            {
+              "id": "401815116",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+              "away": "Chicago Cubs",
+              "home": "San Diego Padres",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "17-11",
+              "home_record": "18-9",
+              "away_probable_pitcher": "Matthew Boyd",
+              "home_probable_pitcher": "Randy Vasquez",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "9:40 PM ET",
+              "date": "2026-04-27"
+            },
+            {
+              "id": "401815117",
+              "url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+              "source_url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+              "away": "Miami Marlins",
+              "home": "Los Angeles Dodgers",
+              "away_score": "0",
+              "home_score": "0",
+              "away_record": "13-15",
+              "home_record": "19-9",
+              "away_probable_pitcher": "Chris Paddack",
+              "home_probable_pitcher": "Yoshinobu Yamamoto",
+              "final": false,
+              "live": false,
+              "scheduled": true,
+              "status": "STATUS_SCHEDULED",
+              "status_detail": "Scheduled",
+              "time": "10:10 PM ET",
+              "date": "2026-04-27"
+            }
           ]
-        }
-      ]
+        },
+        "stories": [
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+            "title": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+            "key_data": [
+              "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+              "Probables: Steven Matz vs. Parker Messick",
+              "Records: Tampa Bay Rays 16-11; Cleveland Guardians 15-14"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+            "title": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+            "key_data": [
+              "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+              "Probables: Dustin May vs. Mason Montgomery",
+              "Records: St. Louis Cardinals 14-13; Pittsburgh Pirates 16-12"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+            "title": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+            "key_data": [
+              "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+              "Probables: Ranger Suarez vs. Dylan Cease",
+              "Records: Boston Red Sox 11-17; Toronto Blue Jays 12-15"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+            "title": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+            "key_data": [
+              "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+              "Probables: Jack Kochanowicz vs. Anthony Kay",
+              "Records: Los Angeles Angels 12-17; Chicago White Sox 11-17"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+            "title": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+            "key_data": [
+              "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+              "Probables: Luis Castillo vs. Connor Prielipp",
+              "Records: Seattle Mariners 14-15; Minnesota Twins 12-16"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+            "title": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+            "key_data": [
+              "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+              "Probables: Max Fried vs. Jack Leiter",
+              "Records: New York Yankees 18-10; Texas Rangers 14-14"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+            "title": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+            "key_data": [
+              "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+              "Probables: Matthew Boyd vs. Randy Vasquez",
+              "Records: Chicago Cubs 17-11; San Diego Padres 18-9"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+            "title": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+            "key_data": [
+              "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+              "Probables: Chris Paddack vs. Yoshinobu Yamamoto",
+              "Records: Miami Marlins 13-15; Los Angeles Dodgers 19-9"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+            "title": "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815112",
+            "key_data": [
+              "Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Steven Matz; Cleveland Guardians: Parker Messick",
+              "Probables: Steven Matz vs. Parker Messick",
+              "Records: Tampa Bay Rays 16-11; Cleveland Guardians 15-14"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+            "title": "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815111",
+            "key_data": [
+              "St. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Dustin May; Pittsburgh Pirates: Mason Montgomery",
+              "Probables: Dustin May vs. Mason Montgomery",
+              "Records: St. Louis Cardinals 14-13; Pittsburgh Pirates 16-12"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+            "title": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815110",
+            "key_data": [
+              "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Ranger Suarez; Toronto Blue Jays: Dylan Cease",
+              "Probables: Ranger Suarez vs. Dylan Cease",
+              "Records: Boston Red Sox 11-17; Toronto Blue Jays 12-15"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+            "title": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815113",
+            "key_data": [
+              "Los Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jack Kochanowicz; Chicago White Sox: Anthony Kay",
+              "Probables: Jack Kochanowicz vs. Anthony Kay",
+              "Records: Los Angeles Angels 12-17; Chicago White Sox 11-17"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+            "title": "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815115",
+            "key_data": [
+              "Seattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Luis Castillo; Minnesota Twins: Connor Prielipp",
+              "Probables: Luis Castillo vs. Connor Prielipp",
+              "Records: Seattle Mariners 14-15; Minnesota Twins 12-16"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+            "title": "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815114",
+            "key_data": [
+              "New York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Max Fried; Texas Rangers: Jack Leiter",
+              "Probables: Max Fried vs. Jack Leiter",
+              "Records: New York Yankees 18-10; Texas Rangers 14-14"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+            "title": "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815116",
+            "key_data": [
+              "Chicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Matthew Boyd; San Diego Padres: Randy Vasquez",
+              "Probables: Matthew Boyd vs. Randy Vasquez",
+              "Records: Chicago Cubs 17-11; San Diego Padres 18-9"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          },
+          {
+            "league": "MLB",
+            "label": "MLB Schedule",
+            "headline": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+            "title": "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+            "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+            "source_url": "https://www.espn.com/mlb/game/_/gameId/401815117",
+            "key_data": [
+              "Miami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Chris Paddack; Los Angeles Dodgers: Yoshinobu Yamamoto",
+              "Probables: Chris Paddack vs. Yoshinobu Yamamoto",
+              "Records: Miami Marlins 13-15; Los Angeles Dodgers 19-9"
+            ],
+            "why_it_matters": [
+              "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            ],
+            "what_to_watch": [
+              "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            ]
+          }
+        ]
+      }
     },
-    {
+    "nba": {
       "id": "nba",
-      "title": "NBA",
-      "headline": "DET at ORL leads remaining NBA schedule",
-      "snapshot": "0 today finals, 0 live, 3 scheduled.",
-      "updated_at": "2026-04-27 03:51:44 PM ET",
-      "key_storylines": [
-        "UPCOMING: DET at ORL — 8:00 PM ET",
-        "UPCOMING: OKC at PHX — 9:30 PM ET",
-        "UPCOMING: MIN at DEN — 10:30 PM ET",
-        "DET 0, ORL 0",
-        "OKC 0, PHX 0",
-        "MIN 0, DEN 0"
+      "league": "NBA",
+      "title": "NBA Report",
+      "headline": "Detroit Pistons at Orlando Magic",
+      "snapshot": "3 games on board.",
+      "updated_at": "2026-04-27 04:45:58 PM ET",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+      "key_data": [
+        "Detroit Pistons at Orlando Magic",
+        "Oklahoma City Thunder at Phoenix Suns",
+        "Minnesota Timberwolves at Denver Nuggets"
       ],
-      "blocks": [
+      "why_it_matters": [
+        "NBA board drives daily coverage."
+      ],
+      "what_to_watch": [
+        "Track scoring swings, injuries and key plays."
+      ],
+      "cards": [
         {
-          "title": "Live Board",
-          "items": [
-            "UPCOMING: DET at ORL — 8:00 PM ET",
-            "UPCOMING: OKC at PHX — 9:30 PM ET",
-            "UPCOMING: MIN at DEN — 10:30 PM ET",
-            "DET 0, ORL 0",
-            "OKC 0, PHX 0",
-            "MIN 0, DEN 0"
-          ]
+          "league": "NBA",
+          "label": "NBA Upcoming",
+          "headline": "Detroit Pistons at Orlando Magic",
+          "title": "Detroit Pistons at Orlando Magic",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+          "summary": "NBA game tracked for newsroom coverage.",
+          "key_data": [
+            "Detroit Pistons at Orlando Magic"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, injuries, rotations and late-game execution."
+          ],
+          "id": "nba_0"
+        },
+        {
+          "league": "NBA",
+          "label": "NBA Upcoming",
+          "headline": "Oklahoma City Thunder at Phoenix Suns",
+          "title": "Oklahoma City Thunder at Phoenix Suns",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401869373",
+          "summary": "NBA game tracked for newsroom coverage.",
+          "key_data": [
+            "Oklahoma City Thunder at Phoenix Suns"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, injuries, rotations and late-game execution."
+          ],
+          "id": "nba_1"
+        },
+        {
+          "league": "NBA",
+          "label": "NBA Upcoming",
+          "headline": "Minnesota Timberwolves at Denver Nuggets",
+          "title": "Minnesota Timberwolves at Denver Nuggets",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401869401",
+          "summary": "NBA game tracked for newsroom coverage.",
+          "key_data": [
+            "Minnesota Timberwolves at Denver Nuggets"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, injuries, rotations and late-game execution."
+          ],
+          "id": "nba_2"
         }
-      ]
+      ],
+      "stories": [
+        {
+          "league": "NBA",
+          "label": "NBA Upcoming",
+          "headline": "Detroit Pistons at Orlando Magic",
+          "title": "Detroit Pistons at Orlando Magic",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+          "summary": "NBA game tracked for newsroom coverage.",
+          "key_data": [
+            "Detroit Pistons at Orlando Magic"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, injuries, rotations and late-game execution."
+          ],
+          "id": "nba_0"
+        },
+        {
+          "league": "NBA",
+          "label": "NBA Upcoming",
+          "headline": "Oklahoma City Thunder at Phoenix Suns",
+          "title": "Oklahoma City Thunder at Phoenix Suns",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401869373",
+          "summary": "NBA game tracked for newsroom coverage.",
+          "key_data": [
+            "Oklahoma City Thunder at Phoenix Suns"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, injuries, rotations and late-game execution."
+          ],
+          "id": "nba_1"
+        },
+        {
+          "league": "NBA",
+          "label": "NBA Upcoming",
+          "headline": "Minnesota Timberwolves at Denver Nuggets",
+          "title": "Minnesota Timberwolves at Denver Nuggets",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401869401",
+          "summary": "NBA game tracked for newsroom coverage.",
+          "key_data": [
+            "Minnesota Timberwolves at Denver Nuggets"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, injuries, rotations and late-game execution."
+          ],
+          "id": "nba_2"
+        }
+      ],
+      "raw_json": {
+        "league": "NBA",
+        "headline": "Detroit Pistons at Orlando Magic",
+        "snapshot": "3 games on board.",
+        "updated_at": "2026-04-27 04:45:58 PM ET",
+        "key_data": [
+          "Detroit Pistons at Orlando Magic",
+          "Oklahoma City Thunder at Phoenix Suns",
+          "Minnesota Timberwolves at Denver Nuggets"
+        ],
+        "why_it_matters": [
+          "NBA board drives daily coverage."
+        ],
+        "what_to_watch": [
+          "Track scoring swings, injuries and key plays."
+        ],
+        "stories": [
+          {
+            "league": "NBA",
+            "label": "NBA Upcoming",
+            "headline": "Detroit Pistons at Orlando Magic",
+            "title": "Detroit Pistons at Orlando Magic",
+            "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+            "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+            "summary": "NBA game tracked for newsroom coverage.",
+            "key_data": [
+              "Detroit Pistons at Orlando Magic"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, injuries, rotations and late-game execution."
+            ]
+          },
+          {
+            "league": "NBA",
+            "label": "NBA Upcoming",
+            "headline": "Oklahoma City Thunder at Phoenix Suns",
+            "title": "Oklahoma City Thunder at Phoenix Suns",
+            "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+            "source_url": "https://www.espn.com/nba/game/_/gameId/401869373",
+            "summary": "NBA game tracked for newsroom coverage.",
+            "key_data": [
+              "Oklahoma City Thunder at Phoenix Suns"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, injuries, rotations and late-game execution."
+            ]
+          },
+          {
+            "league": "NBA",
+            "label": "NBA Upcoming",
+            "headline": "Minnesota Timberwolves at Denver Nuggets",
+            "title": "Minnesota Timberwolves at Denver Nuggets",
+            "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+            "source_url": "https://www.espn.com/nba/game/_/gameId/401869401",
+            "summary": "NBA game tracked for newsroom coverage.",
+            "key_data": [
+              "Minnesota Timberwolves at Denver Nuggets"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, injuries, rotations and late-game execution."
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "league": "NBA",
+            "label": "NBA Upcoming",
+            "headline": "Detroit Pistons at Orlando Magic",
+            "title": "Detroit Pistons at Orlando Magic",
+            "url": "https://www.espn.com/nba/game/_/gameId/401869415",
+            "source_url": "https://www.espn.com/nba/game/_/gameId/401869415",
+            "summary": "NBA game tracked for newsroom coverage.",
+            "key_data": [
+              "Detroit Pistons at Orlando Magic"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, injuries, rotations and late-game execution."
+            ]
+          },
+          {
+            "league": "NBA",
+            "label": "NBA Upcoming",
+            "headline": "Oklahoma City Thunder at Phoenix Suns",
+            "title": "Oklahoma City Thunder at Phoenix Suns",
+            "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+            "source_url": "https://www.espn.com/nba/game/_/gameId/401869373",
+            "summary": "NBA game tracked for newsroom coverage.",
+            "key_data": [
+              "Oklahoma City Thunder at Phoenix Suns"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, injuries, rotations and late-game execution."
+            ]
+          },
+          {
+            "league": "NBA",
+            "label": "NBA Upcoming",
+            "headline": "Minnesota Timberwolves at Denver Nuggets",
+            "title": "Minnesota Timberwolves at Denver Nuggets",
+            "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+            "source_url": "https://www.espn.com/nba/game/_/gameId/401869401",
+            "summary": "NBA game tracked for newsroom coverage.",
+            "key_data": [
+              "Minnesota Timberwolves at Denver Nuggets"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, injuries, rotations and late-game execution."
+            ]
+          }
+        ]
+      }
     },
-    {
+    "nhl": {
       "id": "nhl",
-      "title": "NHL",
-      "headline": "PHI at PIT leads remaining NHL schedule",
-      "snapshot": "0 today finals, 0 live, 2 scheduled.",
-      "updated_at": "2026-04-27 03:51:53 PM ET",
-      "key_storylines": [
-        "UPCOMING: PHI at PIT — 7:00 PM ET",
-        "UPCOMING: VGK at UTA — 9:30 PM ET",
-        "PHI 0, PIT 0",
-        "VGK 0, UTA 0"
+      "league": "NHL",
+      "title": "NHL Report",
+      "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+      "snapshot": "2 games on board.",
+      "updated_at": "2026-04-27 04:49:37 PM ET",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "key_data": [
+        "Philadelphia Flyers at Pittsburgh Penguins",
+        "Vegas Golden Knights at Utah Mammoth"
       ],
-      "blocks": [
+      "why_it_matters": [
+        "NHL board drives daily coverage."
+      ],
+      "what_to_watch": [
+        "Track scoring swings, goalie play and key moments."
+      ],
+      "cards": [
         {
-          "title": "Live Board",
-          "items": [
-            "UPCOMING: PHI at PIT — 7:00 PM ET",
-            "UPCOMING: VGK at UTA — 9:30 PM ET",
-            "PHI 0, PIT 0",
-            "VGK 0, UTA 0"
+          "league": "NHL",
+          "label": "NHL Upcoming",
+          "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+          "title": "Philadelphia Flyers at Pittsburgh Penguins",
+          "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+          "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+          "summary": "NHL game tracked for newsroom coverage.",
+          "key_data": [
+            "Philadelphia Flyers at Pittsburgh Penguins"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, goalie performance and late-game execution."
+          ],
+          "id": "nhl_0"
+        },
+        {
+          "league": "NHL",
+          "label": "NHL Upcoming",
+          "headline": "Vegas Golden Knights at Utah Mammoth",
+          "title": "Vegas Golden Knights at Utah Mammoth",
+          "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+          "source_url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+          "summary": "NHL game tracked for newsroom coverage.",
+          "key_data": [
+            "Vegas Golden Knights at Utah Mammoth"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, goalie performance and late-game execution."
+          ],
+          "id": "nhl_1"
+        }
+      ],
+      "stories": [
+        {
+          "league": "NHL",
+          "label": "NHL Upcoming",
+          "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+          "title": "Philadelphia Flyers at Pittsburgh Penguins",
+          "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+          "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+          "summary": "NHL game tracked for newsroom coverage.",
+          "key_data": [
+            "Philadelphia Flyers at Pittsburgh Penguins"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, goalie performance and late-game execution."
+          ],
+          "id": "nhl_0"
+        },
+        {
+          "league": "NHL",
+          "label": "NHL Upcoming",
+          "headline": "Vegas Golden Knights at Utah Mammoth",
+          "title": "Vegas Golden Knights at Utah Mammoth",
+          "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+          "source_url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+          "summary": "NHL game tracked for newsroom coverage.",
+          "key_data": [
+            "Vegas Golden Knights at Utah Mammoth"
+          ],
+          "why_it_matters": [
+            "Game impacts standings, playoff positioning and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch scoring runs, goalie performance and late-game execution."
+          ],
+          "id": "nhl_1"
+        }
+      ],
+      "raw_json": {
+        "league": "NHL",
+        "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+        "snapshot": "2 games on board.",
+        "updated_at": "2026-04-27 04:49:37 PM ET",
+        "key_data": [
+          "Philadelphia Flyers at Pittsburgh Penguins",
+          "Vegas Golden Knights at Utah Mammoth"
+        ],
+        "why_it_matters": [
+          "NHL board drives daily coverage."
+        ],
+        "what_to_watch": [
+          "Track scoring swings, goalie play and key moments."
+        ],
+        "stories": [
+          {
+            "league": "NHL",
+            "label": "NHL Upcoming",
+            "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+            "title": "Philadelphia Flyers at Pittsburgh Penguins",
+            "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+            "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+            "summary": "NHL game tracked for newsroom coverage.",
+            "key_data": [
+              "Philadelphia Flyers at Pittsburgh Penguins"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, goalie performance and late-game execution."
+            ]
+          },
+          {
+            "league": "NHL",
+            "label": "NHL Upcoming",
+            "headline": "Vegas Golden Knights at Utah Mammoth",
+            "title": "Vegas Golden Knights at Utah Mammoth",
+            "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+            "source_url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+            "summary": "NHL game tracked for newsroom coverage.",
+            "key_data": [
+              "Vegas Golden Knights at Utah Mammoth"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, goalie performance and late-game execution."
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "league": "NHL",
+            "label": "NHL Upcoming",
+            "headline": "Philadelphia Flyers at Pittsburgh Penguins",
+            "title": "Philadelphia Flyers at Pittsburgh Penguins",
+            "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+            "source_url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+            "summary": "NHL game tracked for newsroom coverage.",
+            "key_data": [
+              "Philadelphia Flyers at Pittsburgh Penguins"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, goalie performance and late-game execution."
+            ]
+          },
+          {
+            "league": "NHL",
+            "label": "NHL Upcoming",
+            "headline": "Vegas Golden Knights at Utah Mammoth",
+            "title": "Vegas Golden Knights at Utah Mammoth",
+            "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+            "source_url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+            "summary": "NHL game tracked for newsroom coverage.",
+            "key_data": [
+              "Vegas Golden Knights at Utah Mammoth"
+            ],
+            "why_it_matters": [
+              "Game impacts standings, playoff positioning and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch scoring runs, goalie performance and late-game execution."
+            ]
+          }
+        ]
+      }
+    },
+    "nfl": {
+      "id": "nfl",
+      "league": "NFL",
+      "title": "NFL Report",
+      "headline": "SEA beat NE, 29-13",
+      "snapshot": "1 NFL cards available.",
+      "updated_at": "2026-04-27 04:54:37 PM ET",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+      "key_data": [
+        "SEA beat NE, 29-13"
+      ],
+      "why_it_matters": [
+        "NFL coverage is driven by schedule movement, roster construction, quarterback play, injuries and high-leverage decisions."
+      ],
+      "what_to_watch": [
+        "Monitor the next game window, injury note, quarterback update, draft signal or roster move."
+      ],
+      "cards": [
+        {
+          "league": "NFL",
+          "label": "NFL Final",
+          "headline": "SEA beat NE, 29-13",
+          "title": "SEA beat NE, 29-13",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+          "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+          "summary": "NFL game tracked for newsroom coverage.",
+          "key_data": [
+            "SEA beat NE, 29-13"
+          ],
+          "why_it_matters": [
+            "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
+          ],
+          "id": "nfl_0"
+        }
+      ],
+      "stories": [
+        {
+          "league": "NFL",
+          "label": "NFL Final",
+          "headline": "SEA beat NE, 29-13",
+          "title": "SEA beat NE, 29-13",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+          "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+          "summary": "NFL game tracked for newsroom coverage.",
+          "key_data": [
+            "SEA beat NE, 29-13"
+          ],
+          "why_it_matters": [
+            "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
+          ],
+          "what_to_watch": [
+            "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
+          ],
+          "id": "nfl_0"
+        }
+      ],
+      "raw_json": {
+        "league": "NFL",
+        "headline": "SEA beat NE, 29-13",
+        "snapshot": "1 NFL cards available.",
+        "updated_at": "2026-04-27 04:54:37 PM ET",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+        "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+        "key_data": [
+          "SEA beat NE, 29-13"
+        ],
+        "why_it_matters": [
+          "NFL coverage is driven by schedule movement, roster construction, quarterback play, injuries and high-leverage decisions."
+        ],
+        "what_to_watch": [
+          "Monitor the next game window, injury note, quarterback update, draft signal or roster move."
+        ],
+        "stories": [
+          {
+            "league": "NFL",
+            "label": "NFL Final",
+            "headline": "SEA beat NE, 29-13",
+            "title": "SEA beat NE, 29-13",
+            "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+            "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+            "summary": "NFL game tracked for newsroom coverage.",
+            "key_data": [
+              "SEA beat NE, 29-13"
+            ],
+            "why_it_matters": [
+              "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "league": "NFL",
+            "label": "NFL Final",
+            "headline": "SEA beat NE, 29-13",
+            "title": "SEA beat NE, 29-13",
+            "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+            "source_url": "https://www.espn.com/nfl/game/_/gameId/401772988",
+            "summary": "NFL game tracked for newsroom coverage.",
+            "key_data": [
+              "SEA beat NE, 29-13"
+            ],
+            "why_it_matters": [
+              "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
+            ],
+            "what_to_watch": [
+              "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
+            ]
+          }
+        ],
+        "sections": {
+          "live_draft_picks": [],
+          "round_1_picks": [],
+          "nfl_schedule": [
+            "SEA beat NE, 29-13"
           ]
         }
-      ]
+      }
     },
-    {
+    "soccer": {
       "id": "soccer",
-      "title": "Soccer",
-      "headline": "Atalanta vs Cagliari headlines soccer finals board",
-      "snapshot": "1 finals, 0 live, 3 scheduled",
-      "updated_at": "2026-04-27 03:52:24 PM ET",
-      "key_storylines": [
+      "league": "Soccer",
+      "title": "Soccer Report",
+      "headline": "Brentford 1, Manchester United 2",
+      "snapshot": "12 matches on board.",
+      "updated_at": "2026-04-27 04:58:28 PM ET",
+      "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+      "key_data": [
+        "Brentford 1, Manchester United 2",
+        "Levante 0, Espanyol 0 — Live",
+        "Werder Bremen 1, VfB Stuttgart 1",
+        "SC Freiburg 0, Borussia Dortmund 4",
         "Atalanta 2, Cagliari 3",
-        "Brentford 0, Manchester United 2",
-        "Levante 0, Espanyol 0",
-        "Udinese 1, Lazio 0"
+        "Udinese 3, Lazio 3",
+        "Strasbourg 3, Lorient 2",
+        "Metz 4, Le Havre AC 4"
       ],
-      "blocks": [
+      "why_it_matters": [
+        "Soccer board spans global leagues."
+      ],
+      "what_to_watch": [
+        "Track match flow, goals and standings impact."
+      ],
+      "cards": [
         {
-          "title": "Live Board",
-          "items": [
-            "Atalanta 2, Cagliari 3",
-            "Brentford 0, Manchester United 2",
-            "Levante 0, Espanyol 0",
-            "Udinese 1, Lazio 0"
-          ]
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Brentford 1, Manchester United 2",
+          "title": "Brentford 1, Manchester United 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Brentford 1, Manchester United 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_0"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Live",
+          "headline": "Levante 0, Espanyol 0 — Live",
+          "title": "Levante 0, Espanyol 0 — Live",
+          "url": "https://www.espn.com/soccer/match/_/gameId/748461",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/748461",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Levante 0, Espanyol 0 — Live"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_1"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Werder Bremen 1, VfB Stuttgart 1",
+          "title": "Werder Bremen 1, VfB Stuttgart 1",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746995",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746995",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Werder Bremen 1, VfB Stuttgart 1"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_2"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "SC Freiburg 0, Borussia Dortmund 4",
+          "title": "SC Freiburg 0, Borussia Dortmund 4",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746991",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746991",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "SC Freiburg 0, Borussia Dortmund 4"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_3"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Atalanta 2, Cagliari 3",
+          "title": "Atalanta 2, Cagliari 3",
+          "url": "https://www.espn.com/soccer/match/_/gameId/737122",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/737122",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Atalanta 2, Cagliari 3"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_4"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Udinese 3, Lazio 3",
+          "title": "Udinese 3, Lazio 3",
+          "url": "https://www.espn.com/soccer/match/_/gameId/737123",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/737123",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Udinese 3, Lazio 3"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_5"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Strasbourg 3, Lorient 2",
+          "title": "Strasbourg 3, Lorient 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746685",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746685",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Strasbourg 3, Lorient 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_6"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Metz 4, Le Havre AC 4",
+          "title": "Metz 4, Le Havre AC 4",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746684",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746684",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Metz 4, Le Havre AC 4"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_7"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Lille 1, Paris FC 0",
+          "title": "Lille 1, Paris FC 0",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746688",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746688",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Lille 1, Paris FC 0"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_8"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Nantes 1, Stade Rennais 2",
+          "title": "Nantes 1, Stade Rennais 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746689",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746689",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Nantes 1, Stade Rennais 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_9"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Nice 1, Marseille 1",
+          "title": "Nice 1, Marseille 1",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746687",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746687",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Nice 1, Marseille 1"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_10"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Real Salt Lake 1, LA Galaxy 2",
+          "title": "Real Salt Lake 1, LA Galaxy 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/761584",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/761584",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Real Salt Lake 1, LA Galaxy 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_11"
         }
-      ]
+      ],
+      "stories": [
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Brentford 1, Manchester United 2",
+          "title": "Brentford 1, Manchester United 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Brentford 1, Manchester United 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_0"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Live",
+          "headline": "Levante 0, Espanyol 0 — Live",
+          "title": "Levante 0, Espanyol 0 — Live",
+          "url": "https://www.espn.com/soccer/match/_/gameId/748461",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/748461",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Levante 0, Espanyol 0 — Live"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_1"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Werder Bremen 1, VfB Stuttgart 1",
+          "title": "Werder Bremen 1, VfB Stuttgart 1",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746995",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746995",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Werder Bremen 1, VfB Stuttgart 1"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_2"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "SC Freiburg 0, Borussia Dortmund 4",
+          "title": "SC Freiburg 0, Borussia Dortmund 4",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746991",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746991",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "SC Freiburg 0, Borussia Dortmund 4"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_3"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Atalanta 2, Cagliari 3",
+          "title": "Atalanta 2, Cagliari 3",
+          "url": "https://www.espn.com/soccer/match/_/gameId/737122",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/737122",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Atalanta 2, Cagliari 3"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_4"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Udinese 3, Lazio 3",
+          "title": "Udinese 3, Lazio 3",
+          "url": "https://www.espn.com/soccer/match/_/gameId/737123",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/737123",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Udinese 3, Lazio 3"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_5"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Strasbourg 3, Lorient 2",
+          "title": "Strasbourg 3, Lorient 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746685",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746685",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Strasbourg 3, Lorient 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_6"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Metz 4, Le Havre AC 4",
+          "title": "Metz 4, Le Havre AC 4",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746684",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746684",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Metz 4, Le Havre AC 4"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_7"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Lille 1, Paris FC 0",
+          "title": "Lille 1, Paris FC 0",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746688",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746688",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Lille 1, Paris FC 0"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_8"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Nantes 1, Stade Rennais 2",
+          "title": "Nantes 1, Stade Rennais 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746689",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746689",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Nantes 1, Stade Rennais 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_9"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Nice 1, Marseille 1",
+          "title": "Nice 1, Marseille 1",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746687",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/746687",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Nice 1, Marseille 1"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_10"
+        },
+        {
+          "league": "Soccer",
+          "label": "Soccer Final",
+          "headline": "Real Salt Lake 1, LA Galaxy 2",
+          "title": "Real Salt Lake 1, LA Galaxy 2",
+          "url": "https://www.espn.com/soccer/match/_/gameId/761584",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/761584",
+          "summary": "Soccer match tracked for newsroom coverage.",
+          "key_data": [
+            "Real Salt Lake 1, LA Galaxy 2"
+          ],
+          "why_it_matters": [
+            "Match impacts league standings, title races and coverage angles."
+          ],
+          "what_to_watch": [
+            "Watch goals, cards, substitutions and late-match swings."
+          ],
+          "id": "soccer_11"
+        }
+      ],
+      "raw_json": {
+        "league": "Soccer",
+        "headline": "Brentford 1, Manchester United 2",
+        "snapshot": "12 matches on board.",
+        "updated_at": "2026-04-27 04:58:28 PM ET",
+        "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+        "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+        "key_data": [
+          "Brentford 1, Manchester United 2",
+          "Levante 0, Espanyol 0 — Live",
+          "Werder Bremen 1, VfB Stuttgart 1",
+          "SC Freiburg 0, Borussia Dortmund 4",
+          "Atalanta 2, Cagliari 3",
+          "Udinese 3, Lazio 3",
+          "Strasbourg 3, Lorient 2",
+          "Metz 4, Le Havre AC 4"
+        ],
+        "why_it_matters": [
+          "Soccer board spans global leagues."
+        ],
+        "what_to_watch": [
+          "Track match flow, goals and standings impact."
+        ],
+        "stories": [
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Brentford 1, Manchester United 2",
+            "title": "Brentford 1, Manchester United 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Brentford 1, Manchester United 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Live",
+            "headline": "Levante 0, Espanyol 0 — Live",
+            "title": "Levante 0, Espanyol 0 — Live",
+            "url": "https://www.espn.com/soccer/match/_/gameId/748461",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/748461",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Levante 0, Espanyol 0 — Live"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Werder Bremen 1, VfB Stuttgart 1",
+            "title": "Werder Bremen 1, VfB Stuttgart 1",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746995",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746995",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Werder Bremen 1, VfB Stuttgart 1"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "SC Freiburg 0, Borussia Dortmund 4",
+            "title": "SC Freiburg 0, Borussia Dortmund 4",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746991",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746991",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "SC Freiburg 0, Borussia Dortmund 4"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Atalanta 2, Cagliari 3",
+            "title": "Atalanta 2, Cagliari 3",
+            "url": "https://www.espn.com/soccer/match/_/gameId/737122",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/737122",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Atalanta 2, Cagliari 3"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Udinese 3, Lazio 3",
+            "title": "Udinese 3, Lazio 3",
+            "url": "https://www.espn.com/soccer/match/_/gameId/737123",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/737123",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Udinese 3, Lazio 3"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Strasbourg 3, Lorient 2",
+            "title": "Strasbourg 3, Lorient 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746685",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746685",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Strasbourg 3, Lorient 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Metz 4, Le Havre AC 4",
+            "title": "Metz 4, Le Havre AC 4",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746684",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746684",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Metz 4, Le Havre AC 4"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Lille 1, Paris FC 0",
+            "title": "Lille 1, Paris FC 0",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746688",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746688",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Lille 1, Paris FC 0"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Nantes 1, Stade Rennais 2",
+            "title": "Nantes 1, Stade Rennais 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746689",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746689",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Nantes 1, Stade Rennais 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Nice 1, Marseille 1",
+            "title": "Nice 1, Marseille 1",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746687",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746687",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Nice 1, Marseille 1"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Real Salt Lake 1, LA Galaxy 2",
+            "title": "Real Salt Lake 1, LA Galaxy 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/761584",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/761584",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Real Salt Lake 1, LA Galaxy 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Brentford 1, Manchester United 2",
+            "title": "Brentford 1, Manchester United 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/740932",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/740932",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Brentford 1, Manchester United 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Live",
+            "headline": "Levante 0, Espanyol 0 — Live",
+            "title": "Levante 0, Espanyol 0 — Live",
+            "url": "https://www.espn.com/soccer/match/_/gameId/748461",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/748461",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Levante 0, Espanyol 0 — Live"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Werder Bremen 1, VfB Stuttgart 1",
+            "title": "Werder Bremen 1, VfB Stuttgart 1",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746995",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746995",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Werder Bremen 1, VfB Stuttgart 1"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "SC Freiburg 0, Borussia Dortmund 4",
+            "title": "SC Freiburg 0, Borussia Dortmund 4",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746991",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746991",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "SC Freiburg 0, Borussia Dortmund 4"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Atalanta 2, Cagliari 3",
+            "title": "Atalanta 2, Cagliari 3",
+            "url": "https://www.espn.com/soccer/match/_/gameId/737122",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/737122",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Atalanta 2, Cagliari 3"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Udinese 3, Lazio 3",
+            "title": "Udinese 3, Lazio 3",
+            "url": "https://www.espn.com/soccer/match/_/gameId/737123",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/737123",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Udinese 3, Lazio 3"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Strasbourg 3, Lorient 2",
+            "title": "Strasbourg 3, Lorient 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746685",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746685",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Strasbourg 3, Lorient 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Metz 4, Le Havre AC 4",
+            "title": "Metz 4, Le Havre AC 4",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746684",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746684",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Metz 4, Le Havre AC 4"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Lille 1, Paris FC 0",
+            "title": "Lille 1, Paris FC 0",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746688",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746688",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Lille 1, Paris FC 0"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Nantes 1, Stade Rennais 2",
+            "title": "Nantes 1, Stade Rennais 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746689",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746689",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Nantes 1, Stade Rennais 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Nice 1, Marseille 1",
+            "title": "Nice 1, Marseille 1",
+            "url": "https://www.espn.com/soccer/match/_/gameId/746687",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/746687",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Nice 1, Marseille 1"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          },
+          {
+            "league": "Soccer",
+            "label": "Soccer Final",
+            "headline": "Real Salt Lake 1, LA Galaxy 2",
+            "title": "Real Salt Lake 1, LA Galaxy 2",
+            "url": "https://www.espn.com/soccer/match/_/gameId/761584",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/761584",
+            "summary": "Soccer match tracked for newsroom coverage.",
+            "key_data": [
+              "Real Salt Lake 1, LA Galaxy 2"
+            ],
+            "why_it_matters": [
+              "Match impacts league standings, title races and coverage angles."
+            ],
+            "what_to_watch": [
+              "Watch goals, cards, substitutions and late-match swings."
+            ]
+          }
+        ]
+      }
     },
-    {
+    "betting_odds": {
       "id": "betting_odds",
-      "title": "Betting Odds",
-      "headline": "Los Angeles Lakers at Houston Rockets — 9:43 PM ET | Los Angeles Lakers 9.5 (-115) / Houston Rockets -9.5 (-115) | 193.5",
-      "snapshot": "12 verified items available.",
-      "updated_at": "2026-04-26 10:30:58 PM ET",
-      "key_storylines": [
-        "Los Angeles Lakers at Houston Rockets — 9:43 PM ET | Los Angeles Lakers 9.5 (-115) / Houston Rockets -9.5 (-115) | 193.5 (O -115 / U -115)",
-        "Detroit Pistons at Orlando Magic — 8:10 PM ET | Detroit Pistons -2.5 (-115) / Orlando Magic 2.5 (-105) | 214.5 (O -108 / U -112)",
-        "Oklahoma City Thunder at Phoenix Suns — 9:40 PM ET | Oklahoma City Thunder -10.5 (-112) / Phoenix Suns 10.5 (-108) | 213.5 (O -110 / U -110)",
-        "Minnesota Timberwolves at Denver Nuggets — 10:40 PM ET | Minnesota Timberwolves 10.5 (-105) / Denver Nuggets -10.5 (-115) | 222.5 (O -108 / U -112)",
-        "Philadelphia 76ers at Boston Celtics — 7:10 PM ET | Philadelphia 76ers 11.5 (-106) / Boston Celtics -11.5 (-114) | 215.5 (O -110 / U -110)",
-        "Tampa Bay Rays at Cleveland Guardians — 6:11 PM ET | Tampa Bay Rays 1.5 (-182) / Cleveland Guardians -1.5 (150) | 7.5 (O -110 / U -110)",
-        "St. Louis Cardinals at Pittsburgh Pirates — 6:41 PM ET | St. Louis Cardinals 1.5 (-205) / Pittsburgh Pirates -1.5 (168) | 8.5 (O 100 / U -122)",
-        "Boston Red Sox at Toronto Blue Jays — 7:08 PM ET | Boston Red Sox 1.5 (-188) / Toronto Blue Jays -1.5 (155) | 7.5 (O 104 / U -128)",
-        "Los Angeles Angels at Chicago White Sox — 7:40 PM ET | Los Angeles Angels -1.5 (129) / Chicago White Sox 1.5 (-156) | 9.5 (O 102 / U -122)",
-        "Seattle Mariners at Minnesota Twins — 7:41 PM ET | Seattle Mariners -1.5 (116) / Minnesota Twins 1.5 (-140) | 8.5 (O -118 / U -104)",
-        "Edmonton Oilers at Anaheim Ducks — 9:52 PM ET | Edmonton Oilers -2.5 (-120) / Anaheim Ducks 2.5 (-110) | 6.5 (O -170 / U 130)",
-        "Philadelphia Flyers at Pittsburgh Penguins — 7:00 PM ET | Philadelphia Flyers 1.5 (-215) / Pittsburgh Penguins -1.5 (172) | 5.5 (O -120 / U -102)"
+      "league": "Betting Odds",
+      "title": "Betting Odds Report",
+      "headline": "Betting Odds update",
+      "snapshot": "Betting Odds board update.",
+      "updated_at": "2026-04-27 05:06:52 PM ET",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Betting Odds update"
       ],
-      "blocks": [
+      "why_it_matters": [
+        "Betting Odds remains important to the daily sports coverage board."
+      ],
+      "what_to_watch": [
+        "Monitor the next Betting Odds result, matchup shift or performance signal."
+      ],
+      "cards": [
         {
-          "title": "Live Board",
-          "items": [
-            "Los Angeles Lakers at Houston Rockets — 9:43 PM ET | Los Angeles Lakers 9.5 (-115) / Houston Rockets -9.5 (-115) | 193.5 (O -115 / U -115)",
-            "Detroit Pistons at Orlando Magic — 8:10 PM ET | Detroit Pistons -2.5 (-115) / Orlando Magic 2.5 (-105) | 214.5 (O -108 / U -112)",
-            "Oklahoma City Thunder at Phoenix Suns — 9:40 PM ET | Oklahoma City Thunder -10.5 (-112) / Phoenix Suns 10.5 (-108) | 213.5 (O -110 / U -110)",
-            "Minnesota Timberwolves at Denver Nuggets — 10:40 PM ET | Minnesota Timberwolves 10.5 (-105) / Denver Nuggets -10.5 (-115) | 222.5 (O -108 / U -112)",
-            "Philadelphia 76ers at Boston Celtics — 7:10 PM ET | Philadelphia 76ers 11.5 (-106) / Boston Celtics -11.5 (-114) | 215.5 (O -110 / U -110)",
-            "Tampa Bay Rays at Cleveland Guardians — 6:11 PM ET | Tampa Bay Rays 1.5 (-182) / Cleveland Guardians -1.5 (150) | 7.5 (O -110 / U -110)",
-            "St. Louis Cardinals at Pittsburgh Pirates — 6:41 PM ET | St. Louis Cardinals 1.5 (-205) / Pittsburgh Pirates -1.5 (168) | 8.5 (O 100 / U -122)",
-            "Boston Red Sox at Toronto Blue Jays — 7:08 PM ET | Boston Red Sox 1.5 (-188) / Toronto Blue Jays -1.5 (155) | 7.5 (O 104 / U -128)",
-            "Los Angeles Angels at Chicago White Sox — 7:40 PM ET | Los Angeles Angels -1.5 (129) / Chicago White Sox 1.5 (-156) | 9.5 (O 102 / U -122)",
-            "Seattle Mariners at Minnesota Twins — 7:41 PM ET | Seattle Mariners -1.5 (116) / Minnesota Twins 1.5 (-140) | 8.5 (O -118 / U -104)",
-            "Edmonton Oilers at Anaheim Ducks — 9:52 PM ET | Edmonton Oilers -2.5 (-120) / Anaheim Ducks 2.5 (-110) | 6.5 (O -170 / U 130)",
-            "Philadelphia Flyers at Pittsburgh Penguins — 7:00 PM ET | Philadelphia Flyers 1.5 (-215) / Pittsburgh Penguins -1.5 (172) | 5.5 (O -120 / U -102)"
-          ]
+          "headline": "Betting Odds update",
+          "title": "Betting Odds update",
+          "summary": "Betting Odds board update.",
+          "url": "#",
+          "source_url": "#",
+          "key_data": [
+            "Betting Odds update"
+          ],
+          "why_it_matters": [
+            "Betting Odds board drives daily sports coverage."
+          ],
+          "what_to_watch": [
+            "Monitor the next Betting Odds update."
+          ],
+          "id": "betting_odds_0",
+          "league": "Betting Odds",
+          "label": "Betting Odds Watch"
         }
-      ]
-    },
-    {
-      "id": "fantasy",
-      "title": "Fantasy",
-      "headline": "Fantasy basketball usage and production leaders",
-      "snapshot": "4 verified items available.",
-      "updated_at": "2026-04-26 10:19:38 PM ET",
-      "key_storylines": [
-        "Nikola Jokic trending in usage",
-        "Luka Doncic high-volume scoring stretch",
-        "Jayson Tatum strong minutes load",
-        "Shai Gilgeous-Alexander elite production run"
       ],
-      "blocks": [
+      "stories": [
         {
-          "title": "Live Board",
-          "items": [
+          "headline": "Betting Odds update",
+          "title": "Betting Odds update",
+          "summary": "Betting Odds board update.",
+          "url": "#",
+          "source_url": "#",
+          "key_data": [
+            "Betting Odds update"
+          ],
+          "why_it_matters": [
+            "Betting Odds board drives daily sports coverage."
+          ],
+          "what_to_watch": [
+            "Monitor the next Betting Odds update."
+          ],
+          "id": "betting_odds_0",
+          "league": "Betting Odds",
+          "label": "Betting Odds Watch"
+        }
+      ],
+      "raw_json": {
+        "league": "betting",
+        "updated_at": "2026-04-27 05:06:52 PM ET",
+        "sections": {
+          "nba": [
+            {
+              "game": "Detroit Pistons at Orlando Magic — 8:10 PM ET",
+              "spread": "Detroit Pistons -3.5 (-110) / Orlando Magic 3.5 (-110)",
+              "total": "214.5 (O -112 / U -108)"
+            },
+            {
+              "game": "Oklahoma City Thunder at Phoenix Suns — 9:40 PM ET",
+              "spread": "Oklahoma City Thunder -10.5 (-115) / Phoenix Suns 10.5 (-105)",
+              "total": "214.5 (O -115 / U -105)"
+            },
+            {
+              "game": "Minnesota Timberwolves at Denver Nuggets — 10:40 PM ET",
+              "spread": "Minnesota Timberwolves 11.5 (-110) / Denver Nuggets -11.5 (-110)",
+              "total": "224.5 (O -110 / U -110)"
+            },
+            {
+              "game": "Philadelphia 76ers at Boston Celtics — 7:10 PM ET",
+              "spread": "Philadelphia 76ers 11.5 (-106) / Boston Celtics -11.5 (-114)",
+              "total": "214.5 (O -108 / U -112)"
+            },
+            {
+              "game": "Atlanta Hawks at New York Knicks — 8:10 PM ET",
+              "spread": "Atlanta Hawks 6.5 (-112) / New York Knicks -6.5 (-108)",
+              "total": "213.5 (O -110 / U -110)"
+            }
+          ],
+          "mlb": [
+            {
+              "game": "Tampa Bay Rays at Cleveland Guardians — 6:11 PM ET",
+              "spread": "Tampa Bay Rays 1.5 (-178) / Cleveland Guardians -1.5 (146)",
+              "total": "8.0 (O -120 / U -102)"
+            },
+            {
+              "game": "St. Louis Cardinals at Pittsburgh Pirates — 6:41 PM ET",
+              "spread": "St. Louis Cardinals 1.5 (-200) / Pittsburgh Pirates -1.5 (164)",
+              "total": "8.0 (O -118 / U -104)"
+            },
+            {
+              "game": "Boston Red Sox at Toronto Blue Jays — 7:08 PM ET",
+              "spread": "Boston Red Sox 1.5 (-192) / Toronto Blue Jays -1.5 (158)",
+              "total": "7.0 (O -110 / U -110)"
+            },
+            {
+              "game": "Los Angeles Angels at Chicago White Sox — 7:40 PM ET",
+              "spread": "Los Angeles Angels -1.5 (149) / Chicago White Sox 1.5 (-181)",
+              "total": "9.0 (O -105 / U -115)"
+            },
+            {
+              "game": "Seattle Mariners at Minnesota Twins — 7:41 PM ET",
+              "spread": "Seattle Mariners -1.5 (120) / Minnesota Twins 1.5 (-144)",
+              "total": "9.0 (O -105 / U -115)"
+            }
+          ],
+          "nhl": [
+            {
+              "game": "Philadelphia Flyers at Pittsburgh Penguins — 7:10 PM ET",
+              "spread": "Philadelphia Flyers 1.5 (-215) / Pittsburgh Penguins -1.5 (172)",
+              "total": "5.5 (O -120 / U -102)"
+            },
+            {
+              "game": "Vegas Golden Knights at Utah Mammoth — 9:40 PM ET",
+              "spread": "Vegas Golden Knights -1.5 (194) / Utah Mammoth 1.5 (-245)",
+              "total": "5.5 (O -124 / U 102)"
+            },
+            {
+              "game": "Boston Bruins at Buffalo Sabres — 7:40 PM ET",
+              "spread": "Boston Bruins 1.5 (-180) / Buffalo Sabres -1.5 (150)",
+              "total": "5.5 (O -130 / U 110)"
+            },
+            {
+              "game": "Minnesota Wild at Dallas Stars — 8:00 PM ET",
+              "spread": "Minnesota Wild 1.5 (-220) / Dallas Stars -1.5 (176)",
+              "total": "5.5 (O -120 / U -102)"
+            },
+            {
+              "game": "Anaheim Ducks at Edmonton Oilers — 10:00 PM ET",
+              "spread": "Anaheim Ducks 1.5 (-154) / Edmonton Oilers -1.5 (126)",
+              "total": "6.5 (O -170 / U 138)"
+            }
+          ],
+          "nfl": []
+        }
+      }
+    },
+    "fantasy": {
+      "id": "fantasy",
+      "league": "Fantasy",
+      "title": "Fantasy Report",
+      "headline": "Fantasy basketball usage and production leaders",
+      "snapshot": "Fantasy board update.",
+      "updated_at": "2026-04-27 05:10:03 PM ET",
+      "url": "#",
+      "source_url": "#",
+      "key_data": [
+        "Fantasy basketball usage and production leaders"
+      ],
+      "why_it_matters": [
+        "Fantasy remains important to the daily sports coverage board."
+      ],
+      "what_to_watch": [
+        "Monitor the next Fantasy result, matchup shift or performance signal."
+      ],
+      "cards": [
+        {
+          "headline": "Fantasy basketball usage and production leaders",
+          "title": "Fantasy basketball usage and production leaders",
+          "summary": "Fantasy board update.",
+          "url": "#",
+          "source_url": "#",
+          "key_data": [
+            "Fantasy basketball usage and production leaders"
+          ],
+          "why_it_matters": [
+            "Fantasy board drives daily sports coverage."
+          ],
+          "what_to_watch": [
+            "Monitor the next Fantasy update."
+          ],
+          "id": "fantasy_0",
+          "league": "Fantasy",
+          "label": "Fantasy Watch"
+        }
+      ],
+      "stories": [
+        {
+          "headline": "Fantasy basketball usage and production leaders",
+          "title": "Fantasy basketball usage and production leaders",
+          "summary": "Fantasy board update.",
+          "url": "#",
+          "source_url": "#",
+          "key_data": [
+            "Fantasy basketball usage and production leaders"
+          ],
+          "why_it_matters": [
+            "Fantasy board drives daily sports coverage."
+          ],
+          "what_to_watch": [
+            "Monitor the next Fantasy update."
+          ],
+          "id": "fantasy_0",
+          "league": "Fantasy",
+          "label": "Fantasy Watch"
+        }
+      ],
+      "raw_json": {
+        "league": "fantasy",
+        "headline": "Fantasy basketball usage and production leaders",
+        "updated_at": "2026-04-27 05:10:03 PM ET",
+        "sections": {
+          "key_storylines": [
             "Nikola Jokic trending in usage",
             "Luka Doncic high-volume scoring stretch",
             "Jayson Tatum strong minutes load",
             "Shai Gilgeous-Alexander elite production run"
           ]
         }
-      ]
+      }
+    }
+  },
+  "journalist_toolkit": [
+    {
+      "title": "ESPN Scoreboards",
+      "url": "https://www.espn.com/",
+      "description": "Scores, schedules and game pages."
+    },
+    {
+      "title": "Baseball Savant",
+      "url": "https://baseballsavant.mlb.com/",
+      "description": "Statcast and MLB advanced metrics."
+    },
+    {
+      "title": "Sports Reference",
+      "url": "https://www.sports-reference.com/",
+      "description": "Historical sports statistics."
+    },
+    {
+      "title": "Spotrac",
+      "url": "https://www.spotrac.com/",
+      "description": "Contracts, payrolls and salary cap data."
+    },
+    {
+      "title": "The Athletic",
+      "url": "https://www.nytimes.com/athletic/",
+      "description": "Deep sports reporting and analysis."
     }
   ]
 }
