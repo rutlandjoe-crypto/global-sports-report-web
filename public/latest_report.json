@@ -1,387 +1,868 @@
 {
   "site": "Global Sports Report",
-  "brand": "Built for journalists, by a journalist.",
-  "headline": "Recapping a historic NFL Draft with a record 87 SEC players selected - The SEC has now led the NFL Draft in players selected for the 20th st",
-  "snapshot": "Major League Baseball: Boston Red Sox 5, Baltimore Orioles 3 | NBA: CLE 89, TOR 93 | NHL: CAR 4, OTT 2",
-  "updated_at": "2026-04-26 09:07:08 PM ET",
-  "generated_at": "2026-04-26 09:07:08 PM ET",
-  "published_at": "2026-04-26 09:07:08 PM ET",
+  "network": "GSR Network",
+  "tagline": "Built for journalists, by a journalist.",
+  "title": "Global Sports Report",
+  "headline": "No recent final scores were available during this report window",
+  "snapshot": "A live sports newsroom board built around current scores, schedules, analytics and story angles for working journalists.",
+  "updated_at": "2026-04-26 09:21:55 PM ET",
+  "published_at": "2026-04-26 09:21:55 PM ET",
+  "generated_at": "2026-04-26 09:21:55 PM ET",
+  "generated_date": "2026-04-26",
+  "timezone": "America/New_York",
   "x_handle": "@GlobalSportsRp",
-  "substack_url": "https://globalsportsreport.substack.com/",
-  "video_url": "https://www.youtube.com/embed/PMDQ82w1pAE?autoplay=1&mute=1",
+  "substack_url": "https://globalsportsreport.substack.com",
+  "sections": [
+    {
+      "id": "mlb",
+      "title": "MLB",
+      "headline": "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule",
+      "snapshot": "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.",
+      "key_storylines": [
+        "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.",
+        "14 yesterday finals, 15 today finals, 0 live, 2 scheduled.",
+        "MLB REPORT | 2026-04-26",
+        "HEADLINE",
+        "SNAPSHOT"
+      ],
+      "blocks": [
+        {
+          "title": "Today Final Scores",
+          "items": [
+            "Boston Red Sox 5, Baltimore Orioles 3",
+            "Philadelphia Phillies 2, Atlanta Braves 6",
+            "Cleveland Guardians 2, Toronto Blue Jays 4",
+            "Colorado Rockies 3, New York Mets 1",
+            "Detroit Tigers 8, Cincinnati Reds 3",
+            "Minnesota Twins 2, Tampa Bay Rays 4",
+            "New York Yankees 4, Houston Astros 7",
+            "Pittsburgh Pirates 0, Milwaukee Brewers 5",
+            "Washington Nationals 2, Chicago White Sox 1",
+            "Seattle Mariners 3, St. Louis Cardinals 2"
+          ]
+        },
+        {
+          "title": "Yesterday Final Scores",
+          "items": [
+            "Boston Red Sox 17, Baltimore Orioles 1",
+            "Seattle Mariners 11, St. Louis Cardinals 9",
+            "Cleveland Guardians 3, Toronto Blue Jays 5",
+            "Miami Marlins 2, San Francisco Giants 6",
+            "Minnesota Twins 1, Tampa Bay Rays 6",
+            "Washington Nationals 6, Chicago White Sox 3",
+            "San Diego Padres 6, Arizona Diamondbacks 4",
+            "Athletics 3, Texas Rangers 4",
+            "Los Angeles Angels 1, Kansas City Royals 12",
+            "New York Yankees 8, Houston Astros 3"
+          ]
+        },
+        {
+          "title": "Today Live",
+          "items": [
+            "None"
+          ]
+        },
+        {
+          "title": "Today Schedule",
+          "items": [
+            "Colorado Rockies 0, New York Mets 0",
+            "Los Angeles Angels 9, Kansas City Royals 8"
+          ]
+        },
+        {
+          "title": "Snapshot",
+          "items": [
+            "14 yesterday finals, 15 today finals, 0 live, 2 scheduled."
+          ]
+        },
+        {
+          "title": "Report Notes",
+          "items": [
+            "MLB REPORT | 2026-04-26"
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule."
+          ]
+        }
+      ],
+      "advanced": [],
+      "source_file": "mlb_report.txt",
+      "json_source_file": "mlb_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    },
+    {
+      "id": "nba",
+      "title": "NBA",
+      "headline": "NBA board is organized by completed games, live action, and today's remaining schedule",
+      "snapshot": "NBA board is organized by completed games, live action, and today's remaining schedule.",
+      "key_storylines": [
+        "NBA board is organized by completed games, live action, and today's remaining schedule.",
+        "NBA REPORT",
+        "2 finals, 0 live games, 2 upcoming.",
+        "NBA REPORT | 2026-04-26",
+        "HEADLINE"
+      ],
+      "blocks": [
+        {
+          "title": "Final Scores",
+          "items": [
+            "CLE 89, TOR 93",
+            "SA 114, POR 93"
+          ]
+        },
+        {
+          "title": "Today Schedule",
+          "items": [
+            "BOS 104, PHI 78",
+            "LAL 0, HOU 0"
+          ]
+        },
+        {
+          "title": "Snapshot",
+          "items": [
+            "2 finals, 0 live games, 2 upcoming."
+          ]
+        },
+        {
+          "title": "Report Notes",
+          "items": [
+            "NBA REPORT | 2026-04-26"
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "NBA board is organized by completed games, live action, and today's remaining schedule."
+          ]
+        },
+        {
+          "title": "Live Now",
+          "items": [
+            "None"
+          ]
+        },
+        {
+          "title": "Advanced Analysis",
+          "items": [
+            "NBA ADVANCED REPORT | 2026-04-25 03:03:49 PM ET",
+            "PLAYOFF CONTEXT",
+            "Advanced NBA context is reserved for verified data such as net rating, pace, true shooting percentage, turnover rate, lineup usage, on/off indicators and player-level matchup data.",
+            "DATA NOTE",
+            "Sportradar NBA is detected when configured, but ESPN remains the safe scoreboard fallback if Sportradar endpoint access is unavailable.",
+            "Advanced playoff layers should be added only when verified stats endpoints are connected.",
+            "UPDATED",
+            "2026-04-25 03:03:49 PM ET"
+          ]
+        }
+      ],
+      "advanced": [
+        "NBA ADVANCED REPORT | 2026-04-25 03:03:49 PM ET",
+        "PLAYOFF CONTEXT",
+        "Advanced NBA context is reserved for verified data such as net rating, pace, true shooting percentage, turnover rate, lineup usage, on/off indicators and player-level matchup data.",
+        "DATA NOTE",
+        "Sportradar NBA is detected when configured, but ESPN remains the safe scoreboard fallback if Sportradar endpoint access is unavailable.",
+        "Advanced playoff layers should be added only when verified stats endpoints are connected.",
+        "UPDATED",
+        "2026-04-25 03:03:49 PM ET"
+      ],
+      "source_file": "nba_report.txt",
+      "json_source_file": "nba_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    },
+    {
+      "id": "nhl",
+      "title": "NHL",
+      "headline": "NHL board is organized by final scores, live games and remaining schedule",
+      "snapshot": "NHL board is organized by final scores, live games and remaining schedule.",
+      "key_storylines": [
+        "NHL board is organized by final scores, live games and remaining schedule.",
+        "5 finals, 0 live, 2 scheduled.",
+        "NHL REPORT | 2026-04-26",
+        "HEADLINE",
+        "SNAPSHOT"
+      ],
+      "blocks": [
+        {
+          "title": "Final Scores",
+          "items": [
+            "CAR 4, OTT 2",
+            "DAL 2, MIN 3",
+            "PIT 4, PHI 2",
+            "BUF 6, BOS 1",
+            "COL 5, LA 1"
+          ]
+        },
+        {
+          "title": "Today Schedule",
+          "items": [
+            "TB 1, MTL 2",
+            "EDM 0, ANA 0"
+          ]
+        },
+        {
+          "title": "Snapshot",
+          "items": [
+            "5 finals, 0 live, 2 scheduled."
+          ]
+        },
+        {
+          "title": "Report Notes",
+          "items": [
+            "NHL REPORT | 2026-04-26"
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "NHL board is organized by final scores, live games and remaining schedule."
+          ]
+        },
+        {
+          "title": "Live Now",
+          "items": [
+            "None"
+          ]
+        }
+      ],
+      "advanced": [],
+      "source_file": "nhl_report.txt",
+      "json_source_file": "nhl_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    },
+    {
+      "id": "nfl",
+      "title": "NFL",
+      "headline": "NFL Draft board is live with confirmed selections and team-building signals",
+      "snapshot": "NFL Draft board is live with confirmed selections and team-building signals.",
+      "key_storylines": [
+        "NFL Draft board is live with confirmed selections and team-building signals.",
+        "0 confirmed picks.",
+        "NFL REPORT | 2026-04-26",
+        "HEADLINE",
+        "SNAPSHOT"
+      ],
+      "blocks": [
+        {
+          "title": "Snapshot",
+          "items": [
+            "0 confirmed picks."
+          ]
+        },
+        {
+          "title": "Report Notes",
+          "items": [
+            "NFL REPORT | 2026-04-26"
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "NFL Draft board is live with confirmed selections and team-building signals."
+          ]
+        },
+        {
+          "title": "Live Draft Picks",
+          "items": [
+            "None"
+          ]
+        },
+        {
+          "title": "Round 1 Picks",
+          "items": [
+            "None"
+          ]
+        },
+        {
+          "title": "Nfl Schedule",
+          "items": [
+            "SEA at NE � Final"
+          ]
+        }
+      ],
+      "advanced": [],
+      "source_file": "nfl_report.txt",
+      "json_source_file": "nfl_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    },
+    {
+      "id": "ncaafb",
+      "title": "College Football",
+      "headline": "No recent final scores were available during this report window",
+      "snapshot": "NCAAFB REPORT | 2026-04-26",
+      "key_storylines": [
+        "NCAAFB REPORT | 2026-04-26",
+        "HEADLINE",
+        "The college football report window is built around conference-by-conference team context, with current conference structure, schedule movement, coaching inventory, and news all driving the strongest angles.",
+        "SNAPSHOT",
+        "The report currently tracks 113 teams across 11 conference buckets."
+      ],
+      "blocks": [
+        {
+          "title": "Recent Final Scores",
+          "items": [
+            "No recent final scores were available during this report window."
+          ]
+        },
+        {
+          "title": "Live",
+          "items": [
+            "No games are currently in progress."
+          ]
+        },
+        {
+          "title": "Upcoming",
+          "items": [
+            "No upcoming games were scheduled."
+          ]
+        },
+        {
+          "title": "Snapshot",
+          "items": [
+            "The report currently tracks 113 teams across 11 conference buckets.",
+            "The reporting window currently shows 0 finals from yesterday, 0 live games today, 0 upcoming games today, and 0 finals already posted today.",
+            "Active scoreboard source: ESPN college football fallback."
+          ]
+        },
+        {
+          "title": "Report Notes",
+          "items": [
+            "NCAAFB REPORT | 2026-04-26"
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "The college football report window is built around conference-by-conference team context, with current conference structure, schedule movement, coaching inventory, and news all driving the strongest angles."
+          ]
+        },
+        {
+          "title": "Key Data Points",
+          "items": [
+            "The cleanest college football reporting value in this window comes from separating 0 yesterday finals from 0 live and 0 upcoming games on today's board.",
+            "Today's scoreboard also already contains 0 final entries, which keeps completed same - day results distinct from games still ahead.",
+            "Primary scoreboard layer: ESPN college football fallback. Sportradar token detected: True.",
+            "SEC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.",
+            "ACC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.",
+            "Big Ten: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.",
+            "News note: Monte Coleman, ex - Washington LB and UAPB coach, dies at 68 - Monte Coleman, the hard - nosed linebacker who won three Super Bowls with Washington and later coached Arkansas - Pine Bluff to a conference championship, has died. He was 68."
+          ]
+        },
+        {
+          "title": "Why It Matters",
+          "items": [
+            "Conference - wide reporting matters more in college football because team identity is shaped not only by last season's record, but also by coaching continuity, roster turnover, and league structure.",
+            "A clean morning - style reporting window keeps completed results from bleeding into today's live and upcoming board, which makes the file more useful for both recap and preview work.",
+            "Coach context and conference inventory make the report more useful for previews, offseason files, and broad league framing than a scoreboard - only shell."
+          ]
+        },
+        {
+          "title": "Story Angles",
+          "items": [
+            "The clearest national story line still runs through how the SEC, Big Ten, Big 12, and ACC stack up against the rest of the FBS structure in depth, continuity, and preseason profile."
+          ]
+        },
+        {
+          "title": "Rankings Context",
+          "items": [
+            "No rankings context was available during this report window."
+          ]
+        },
+        {
+          "title": "Player Moves",
+          "items": [
+            "No player-move context was available during this report window."
+          ]
+        },
+        {
+          "title": "News",
+          "items": [
+            "Monte Coleman, ex - Washington LB and UAPB coach, dies at 68 - Monte Coleman, the hard - nosed linebacker who won three Super Bowls with Washington and later coached Arkansas - Pine Bluff to a conference championship, has died. He was 68.",
+            "How every 2027 five - star college football prospect will fit - There are 21 five - star players in the class and we scout each one's game for the next level.",
+            "Texas A&M lands third 2027 five - star in OT Kennedy Brown - Texas A&M landed its third five - star recruit in the 2027 cycle in offensive tackle Kennedy Brown, No. 5 in the SC Next 300.",
+            "Recapping a historic NFL Draft with a record 87 SEC players selected - The SEC has now led the NFL Draft in players selected for the 20th straight season as star players from around the league get scooped up on the final day.",
+            "2026 NFL draft: Judging overreactions to picks, team classes - It's time to weigh in on the biggest overreactions of NFL draft weekend, from Jeremiyah Love's fit to the Eagles' position in the NFC East.",
+            "Evaluating SEC studs LSU's Delane, Bama's Simpson NFL selection - Marty & McGee explains their love for Mansoor Delane, explaining how high they are on his skills and discuss Ty Simpson's potential, highlighting his IQ and arm talent.",
+            "Elijah Haven, No. 1 overall 2027 QB, chooses Alabama - Alabama secured the No. 1 overall quarterback in the Class of 2027, gaining a commitment from five - star passer Elijah Haven, a 6 - foot - 5, 220 - pound prospect from Baton Rouge, Louisiana.",
+            "Auburn lands four - star RB Myson Johnson - Cook - Auburn secured a commitment from four - star running back recruit Myson Johnson - Cook, beating out Miami."
+          ]
+        },
+        {
+          "title": "Acc",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Boston College Eagles",
+            "California Golden Bears",
+            "Clemson Tigers",
+            "Duke Blue Devils",
+            "Florida State Seminoles",
+            "Georgia Tech Yellow Jackets",
+            "Louisville Cardinals",
+            "Miami Hurricanes",
+            "NC State Wolfpack"
+          ]
+        },
+        {
+          "title": "Yesterday Results",
+          "items": [
+            "No results from yesterday were available during this report window."
+          ]
+        },
+        {
+          "title": "Today Results",
+          "items": [
+            "No games had gone final yet on today's board during this report window."
+          ]
+        },
+        {
+          "title": "American",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Army Black Knights",
+            "Charlotte 49ers",
+            "East Carolina Pirates",
+            "Florida Atlantic Owls",
+            "Memphis Tigers",
+            "Navy Midshipmen",
+            "North Texas Mean Green",
+            "Rice Owls",
+            "South Florida Bulls"
+          ]
+        },
+        {
+          "title": "Big 12",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Arizona State Sun Devils",
+            "Arizona Wildcats",
+            "Baylor Bears",
+            "BYU Cougars",
+            "Cincinnati Bearcats",
+            "Colorado Buffaloes",
+            "Houston Cougars",
+            "Iowa State Cyclones",
+            "Kansas Jayhawks"
+          ]
+        },
+        {
+          "title": "Big Ten",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Illinois Fighting Illini",
+            "Indiana Hoosiers",
+            "Iowa Hawkeyes",
+            "Maryland Terrapins",
+            "Michigan State Spartans",
+            "Michigan Wolverines",
+            "Minnesota Golden Gophers",
+            "Nebraska Cornhuskers",
+            "Northwestern Wildcats"
+          ]
+        },
+        {
+          "title": "Conference Usa",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Delaware Blue Hens",
+            "Florida International Panthers",
+            "Jacksonville State Gamecocks",
+            "Kennesaw State Owls",
+            "Liberty Flames",
+            "Louisiana Tech Bulldogs",
+            "Middle Tennessee Blue Raiders",
+            "Missouri State Bears",
+            "New Mexico State Aggies"
+          ]
+        },
+        {
+          "title": "Fbs Independents",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Connecticut Huskies",
+            "Massachusetts Minutemen",
+            "Notre Dame Fighting Irish"
+          ]
+        },
+        {
+          "title": "Mac",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Akron Zips",
+            "Ball State Cardinals",
+            "Bowling Green Falcons",
+            "Buffalo Bulls",
+            "Central Michigan Chippewas",
+            "Eastern Michigan Eagles",
+            "Kent State Golden Flashes",
+            "Miami (OH) RedHawks",
+            "Northern Illinois Huskies"
+          ]
+        },
+        {
+          "title": "Mountain West",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Air Force Falcons",
+            "Boise State Broncos",
+            "Colorado State Rams",
+            "Fresno State Bulldogs",
+            "Hawai'i Rainbow Warriors",
+            "Nevada Wolf Pack",
+            "New Mexico Lobos",
+            "San Diego State Aztecs",
+            "San José State Spartans"
+          ]
+        },
+        {
+          "title": "Pac-12",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Oregon State Beavers",
+            "Washington State Cougars"
+          ]
+        },
+        {
+          "title": "Sec",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "Alabama Crimson Tide",
+            "Arkansas Razorbacks",
+            "Auburn Tigers",
+            "Florida Gators",
+            "Georgia Bulldogs",
+            "Kentucky Wildcats",
+            "LSU Tigers",
+            "Mississippi State Bulldogs",
+            "Missouri Tigers"
+          ]
+        },
+        {
+          "title": "Sun Belt",
+          "items": [
+            "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
+            "App State Mountaineers",
+            "Arkansas State Red Wolves",
+            "Coastal Carolina Chanticleers",
+            "Georgia Southern Eagles",
+            "Georgia State Panthers",
+            "James Madison Dukes",
+            "Louisiana Ragin' Cajuns",
+            "Marshall Thundering Herd",
+            "Old Dominion Monarchs"
+          ]
+        },
+        {
+          "title": "Data Source",
+          "items": [
+            "Active scoreboard source: ESPN college football fallback",
+            "Source priority: Sportradar NCAAFB v7 daily/weekly schedule first, ESPN college football scoreboard fallback second.",
+            "Sportradar season/week configuration: 2025 REG Week 01"
+          ]
+        },
+        {
+          "title": "Disclaimer",
+          "items": [
+            "This report is an automated summary intended to support, not replace, human sports journalism."
+          ]
+        }
+      ],
+      "advanced": [],
+      "source_file": "ncaafb_report.txt",
+      "json_source_file": "ncaafb_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    },
+    {
+      "id": "soccer",
+      "title": "Soccer",
+      "headline": "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value a...",
+      "snapshot": "The cross-league board currently shows 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 same-day finals.",
+      "key_storylines": [
+        "The cross-league board currently shows 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 same-day finals.",
+        "The cleanest soccer reporting value comes from separating yesterday results, live windows, upcoming fixtures, and completed same-day matches.",
+        "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value alongside top European leagues.",
+        "Active source: ESPN soccer fallback. Sportradar token detected: True.",
+        "Soccer's report window is active across Europe and the United States, with 1 live matches, 0 upcoming fixtures, 15 same-day finals, and 31 yesterday finals separated for newsroom use."
+      ],
+      "blocks": [
+        {
+          "title": "Recent Final Scores",
+          "items": [
+            "Bundesliga: Bremen 1, Stuttgart 1 - Final",
+            "Bundesliga: Freiburg 0, Dortmund 4 - Final",
+            "La Liga: Real Sociedad 3, Rayo 3 - Final",
+            "La Liga: Elche 2, Real Oviedo 1 - Final",
+            "La Liga: Sevilla 1, Osasuna 2 - Final",
+            "La Liga: Celta Vigo 1, Villarreal 2 - Final",
+            "Serie A: Sassuolo 0, Fiorentina 0 - Final",
+            "Serie A: Como 2, Genoa 0 - Final",
+            "Serie A: Inter Milan 2, Torino 2 - Final",
+            "Serie A: Juventus 0, Milan 0 - Final"
+          ]
+        },
+        {
+          "title": "Upcoming",
+          "items": [
+            "No upcoming matches were available during this report window."
+          ]
+        },
+        {
+          "title": "Key Storylines",
+          "items": [
+            "The cross-league board currently shows 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 same-day finals.",
+            "The cleanest soccer reporting value comes from separating yesterday results, live windows, upcoming fixtures, and completed same-day matches.",
+            "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value alongside top European leagues.",
+            "Active source: ESPN soccer fallback. Sportradar token detected: True."
+          ]
+        },
+        {
+          "title": "Snapshot",
+          "items": [
+            "Premier League: 5 yesterday finals, 0 live today, 0 upcoming today, and 0 finals already posted today.",
+            "Bundesliga: 6 yesterday finals, 0 live today, 0 upcoming today, and 2 finals already posted today.",
+            "La Liga: 4 yesterday finals, 0 live today, 0 upcoming today, and 4 finals already posted today.",
+            "Serie A: 3 yesterday finals, 0 live today, 0 upcoming today, and 4 finals already posted today.",
+            "Ligue 1: 3 yesterday finals, 0 live today, 0 upcoming today, and 5 finals already posted today.",
+            "MLS: 10 yesterday finals, 1 live today, 0 upcoming today, and 0 finals already posted today.",
+            "USL Championship: 0 yesterday finals, 0 live today, 0 upcoming today, and 0 finals already posted today."
+          ]
+        },
+        {
+          "title": "Report Notes",
+          "items": [
+            "SOCCER PRO REPORT | 2026-04-26",
+            "Sportradar soccer lookup failed or was blocked: https://api. sportradar. com/soccer/trial/v 4/en/schedules/2026-04-26/schedule. json",
+            "Sportradar soccer lookup failed or was blocked: https://api. sportradar. us/soccer/trial/v 4/en/schedules/2026-04-26/schedule. json"
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "Soccer's report window is active across Europe and the United States, with 1 live matches, 0 upcoming fixtures, 15 same-day finals, and 31 yesterday finals separated for newsroom use."
+          ]
+        },
+        {
+          "title": "Key Data Points",
+          "items": [
+            "Across the tracked leagues, the report currently captures 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 finals already logged today.",
+            "Primary soccer data layer: ESPN soccer fallback. Sportradar token detected: True.",
+            "The report keeps completed matches out of upcoming blocks so editors can quickly separate recap and preview work."
+          ]
+        },
+        {
+          "title": "Yesterday Results",
+          "items": [
+            "Aston Villa 0, Fulham 1 - Final",
+            "C Palace 1, Liverpool 3 - Final",
+            "Everton 1, West Ham 2 - Final",
+            "Spurs 1, Wolves 0 - Final",
+            "Newcastle 0, Arsenal 1 - Final",
+            "St. Pauli 0, Heidenheim 2 - Final",
+            "Frankfurt 1, Augsburg 1 - Final",
+            "Leverkusen 2, Cologne 1 - Final",
+            "Bayern 4, Mainz 3 - Final",
+            "Gladbach 0, Wolfsburg 0 - Final"
+          ]
+        },
+        {
+          "title": "Live Now",
+          "items": [
+            "No live matches were available during this report window.",
+            "Salt Lake 1, LA Galaxy 2 - 90'+6'"
+          ]
+        },
+        {
+          "title": "Today Results",
+          "items": [
+            "No matches had gone final yet on today's board during this report window.",
+            "Bremen 1, Stuttgart 1 - Final",
+            "Freiburg 0, Dortmund 4 - Final",
+            "Real Sociedad 3, Rayo 3 - Final",
+            "Elche 2, Real Oviedo 1 - Final",
+            "Sevilla 1, Osasuna 2 - Final",
+            "Celta Vigo 1, Villarreal 2 - Final",
+            "Sassuolo 0, Fiorentina 0 - Final",
+            "Como 2, Genoa 0 - Final",
+            "Inter Milan 2, Torino 2 - Final"
+          ]
+        },
+        {
+          "title": "Data Source",
+          "items": [
+            "Active source: ESPN soccer fallback",
+            "Source priority: Sportradar soccer first when endpoint access is available, ESPN fallback second.",
+            "Sportradar access level: trial"
+          ]
+        },
+        {
+          "title": "Disclaimer",
+          "items": [
+            "This report is an automated summary intended to support, not replace, human sports journalism."
+          ]
+        }
+      ],
+      "advanced": [],
+      "source_file": "soccer_report.txt",
+      "json_source_file": "soccer_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    },
+    {
+      "id": "betting_odds",
+      "title": "Betting Odds",
+      "headline": "Betting odds feed unavailable",
+      "snapshot": "Odds feed unavailable during this run.",
+      "key_storylines": [
+        "Odds feed unavailable during this run.",
+        "Pipeline completed safely without exposing any API token.",
+        "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable.",
+        "Betting odds feed unavailable.",
+        "BETTING ODDS WATCH"
+      ],
+      "blocks": [
+        {
+          "title": "Live",
+          "items": [
+            "No live games with betting context were available during this run."
+          ]
+        },
+        {
+          "title": "Upcoming",
+          "items": [
+            "No upcoming games with betting context were available during this run."
+          ]
+        },
+        {
+          "title": "Snapshot",
+          "items": [
+            "Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking."
+          ]
+        },
+        {
+          "title": "— Betting Odds Watch",
+          "items": [
+            "Generated: 2026-04-26 09:11:12 PM ET"
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "Betting odds feed unavailable."
+          ]
+        },
+        {
+          "title": "Key Betting Storylines",
+          "items": [
+            "Odds feed unavailable during this run.",
+            "Pipeline completed safely without exposing any API token.",
+            "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable."
+          ]
+        },
+        {
+          "title": "Final",
+          "items": [
+            "No final games with betting context were available during this run."
+          ]
+        },
+        {
+          "title": "Market Board",
+          "items": [
+            "No betting markets available during this run."
+          ]
+        },
+        {
+          "title": "Data Note",
+          "items": [
+            "This report is generated for editorial monitoring and market-context purposes. It is not gambling advice."
+          ]
+        }
+      ],
+      "advanced": [],
+      "source_file": "betting_odds_report.txt",
+      "json_source_file": "betting_odds_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    },
+    {
+      "id": "fantasy",
+      "title": "Fantasy",
+      "headline": "MLB Athletics Athletics at Texas Rangers Final Texas Rangers vs",
+      "snapshot": "Final",
+      "key_storylines": [
+        "Final",
+        "9:33 - 4th",
+        "4/26 - 9:30 PM EDT",
+        "Final/10",
+        "Bot 10th"
+      ],
+      "blocks": [
+        {
+          "title": "Snapshot",
+          "items": [
+            "A quick fantasy-focused scan of games, usage angles and lineup-monitoring items for journalists and fantasy editors."
+          ]
+        },
+        {
+          "title": "Headline",
+          "items": [
+            "Fantasy watch board generated from live scoreboard context."
+          ]
+        },
+        {
+          "title": "Fantasy Watch Items",
+          "items": [
+            "NFL: Seattle Seahawks at New England Patriots",
+            "Status: Final",
+            "Angle: New England Patriots vs. Seattle Seahawks: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
+            "NBA: Cleveland Cavaliers at Toronto Raptors",
+            "Angle: Toronto Raptors vs. Cleveland Cavaliers: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
+            "NBA: San Antonio Spurs at Portland Trail Blazers",
+            "Angle: Portland Trail Blazers vs. San Antonio Spurs: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
+            "NBA: Boston Celtics at Philadelphia 76ers",
+            "Status: 9:33 - 4th",
+            "Angle: Philadelphia 76ers vs. Boston Celtics: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement."
+          ]
+        }
+      ],
+      "advanced": [],
+      "source_file": "fantasy_report.txt",
+      "json_source_file": "fantasy_report.json",
+      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "status": "active"
+    }
+  ],
   "journalist_toolkit": [
     {
-      "name": "ESPN",
+      "name": "ESPN Scores",
       "url": "https://www.espn.com/",
-      "note": "Scores, schedules, standings and breaking sports coverage."
-    },
-    {
-      "name": "The Athletic",
-      "url": "https://www.nytimes.com/athletic/",
-      "note": "Deep reporting, analysis and beat coverage."
-    },
-    {
-      "name": "Sports Reference",
-      "url": "https://www.sports-reference.com/",
-      "note": "Historical stats, player pages and team databases."
+      "description": "Live scores, schedules, standings and game context."
     },
     {
       "name": "Baseball Savant",
       "url": "https://baseballsavant.mlb.com/",
-      "note": "Statcast data, pitch tracking and MLB advanced metrics."
+      "description": "MLB Statcast data, pitch metrics and player trend tools."
     },
     {
-      "name": "Spotrac",
-      "url": "https://www.spotrac.com/",
-      "note": "Contracts, salary caps, payrolls and roster spending."
+      "name": "Sports Reference",
+      "url": "https://www.sports-reference.com/",
+      "description": "Historical sports stats, box scores and reference data."
+    },
+    {
+      "name": "Pro Football Reference",
+      "url": "https://www.pro-football-reference.com/",
+      "description": "NFL player, team, schedule and advanced historical data."
+    },
+    {
+      "name": "Basketball Reference",
+      "url": "https://www.basketball-reference.com/",
+      "description": "NBA player, team, playoff and historical statistical data."
     }
   ],
-  "sections": [
-    {
-      "id": "mlb",
-      "league": "Major League Baseball",
-      "title": "Major League Baseball",
-      "headline": "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.",
-      "snapshot": "14 yesterday finals, 15 today finals, 0 live, 2 scheduled.",
-      "key_storylines": [
-        "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule."
-      ],
-      "final_scores": [
-        "Boston Red Sox 5, Baltimore Orioles 3",
-        "Philadelphia Phillies 2, Atlanta Braves 6",
-        "Cleveland Guardians 2, Toronto Blue Jays 4",
-        "Colorado Rockies 3, New York Mets 1",
-        "Detroit Tigers 8, Cincinnati Reds 3",
-        "Minnesota Twins 2, Tampa Bay Rays 4",
-        "New York Yankees 4, Houston Astros 7",
-        "Pittsburgh Pirates 0, Milwaukee Brewers 5",
-        "Washington Nationals 2, Chicago White Sox 1",
-        "Seattle Mariners 3, St. Louis Cardinals 2",
-        "Athletics 2, Texas Rangers 1",
-        "Miami Marlins 3, San Francisco Giants 6"
-      ],
-      "yesterday_final_scores": [
-        "Boston Red Sox 17, Baltimore Orioles 1",
-        "Seattle Mariners 11, St. Louis Cardinals 9",
-        "Cleveland Guardians 3, Toronto Blue Jays 5",
-        "Miami Marlins 2, San Francisco Giants 6",
-        "Minnesota Twins 1, Tampa Bay Rays 6",
-        "Washington Nationals 6, Chicago White Sox 3",
-        "San Diego Padres 6, Arizona Diamondbacks 4",
-        "Athletics 3, Texas Rangers 4",
-        "Los Angeles Angels 1, Kansas City Royals 12",
-        "New York Yankees 8, Houston Astros 3",
-        "Pittsburgh Pirates 6, Milwaukee Brewers 3",
-        "Detroit Tigers 2, Cincinnati Reds 9"
-      ],
-      "today_live": [
-        "None"
-      ],
-      "today_schedule": [
-        "Colorado Rockies 0, New York Mets 0",
-        "Los Angeles Angels 8, Kansas City Royals 8",
-        "UPDATED",
-        "2026-04-26 09:00:28 PM ET"
-      ],
-      "advanced_watch": [
-        "Advanced watch items will update on the next successful analytics refresh."
-      ],
-      "story_angles": [
-        "MLB REPORT | 2026-04-26"
-      ]
-    },
-    {
-      "id": "nba",
-      "league": "NBA",
-      "title": "NBA",
-      "headline": "NBA board is organized by completed games, live action, and today's remaining schedule.",
-      "snapshot": "2 finals, 0 live games, 2 upcoming.",
-      "key_storylines": [
-        "NBA board is organized by completed games, live action, and today's remaining schedule."
-      ],
-      "final_scores": [
-        "CLE 89, TOR 93",
-        "SA 114, POR 93"
-      ],
-      "yesterday_final_scores": [],
-      "today_live": [
-        "None"
-      ],
-      "today_schedule": [
-        "BOS 93, PHI 72",
-        "LAL 0, HOU 0",
-        "UPDATED",
-        "2026-04-26 09:00:45 PM ET"
-      ],
-      "advanced_watch": [
-        "Advanced NBA context is reserved for verified data such as net rating, pace, true shooting percentage, turnover rate, lineup usage, on/off indicators and player-level matchup data."
-      ],
-      "story_angles": [
-        "NBA REPORT | 2026-04-26"
-      ]
-    },
-    {
-      "id": "nhl",
-      "league": "NHL",
-      "title": "NHL",
-      "headline": "NHL board is organized by final scores, live games and remaining schedule.",
-      "snapshot": "5 finals, 0 live, 2 scheduled.",
-      "key_storylines": [
-        "NHL board is organized by final scores, live games and remaining schedule."
-      ],
-      "final_scores": [
-        "CAR 4, OTT 2",
-        "DAL 2, MIN 3",
-        "PIT 4, PHI 2",
-        "BUF 6, BOS 1",
-        "COL 5, LA 1"
-      ],
-      "yesterday_final_scores": [],
-      "today_live": [
-        "None"
-      ],
-      "today_schedule": [
-        "TB 1, MTL 2",
-        "EDM 0, ANA 0",
-        "UPDATED",
-        "2026-04-26 09:00:59 PM ET"
-      ],
-      "advanced_watch": [
-        "Advanced watch items will update on the next successful analytics refresh."
-      ],
-      "story_angles": [
-        "NHL REPORT | 2026-04-26"
-      ]
-    },
-    {
-      "id": "nfl",
-      "league": "NFL",
-      "title": "NFL",
-      "headline": "NFL Draft board is live with confirmed selections and team-building signals.",
-      "snapshot": "0 confirmed picks.",
-      "key_storylines": [
-        "NFL Draft board is live with confirmed selections and team-building signals."
-      ],
-      "final_scores": [
-        "No final scores available at generation time."
-      ],
-      "yesterday_final_scores": [],
-      "today_live": [
-        "None",
-        "ROUND 1 PICKS"
-      ],
-      "today_schedule": [
-        "SEA at NE Final",
-        "UPDATED",
-        "2026-04-26 09:01:23 PM ET"
-      ],
-      "advanced_watch": [
-        "Advanced watch items will update on the next successful analytics refresh."
-      ],
-      "story_angles": [
-        "NFL REPORT | 2026-04-26",
-        "NFL Draft board is live with confirmed selections and team-building signals.",
-        "0 confirmed picks."
-      ]
-    },
-    {
-      "id": "ncaafb",
-      "league": "College Football",
-      "title": "College Football",
-      "headline": "No games had gone final yet on today's board during this report window.",
-      "snapshot": "The college football report window is built around conference-by-conference team context, with current conference structure, schedule movement, coaching inventory, and news all driving the strongest angles. Today's scoreboard also already contains 0 final entries, which keeps completed same - day results distinct from games still ahead. News note: How every ",
-      "key_storylines": [
-        "The college football report window is built around conference-by-conference team context, with current conference structure, schedule movement, coaching inventory, and news all driving the strongest angles.",
-        "Today's scoreboard also already contains 0 final entries, which keeps completed same - day results distinct from games still ahead.",
-        "News note: How every 2027 five - star college football prospect will fit - There are 21 five - star players in the class and we scout each one's game for the next level.",
-        "How every 2027 five - star college football prospect will fit - There are 21 five - star players in the class and we scout each one's game for the next level.",
-        "Recapping a historic NFL Draft with a record 87 SEC players selected - The SEC has now led the NFL Draft in players selected for the 20th straight season as star players from around the league get scooped up on the final day."
-      ],
-      "final_scores": [
-        "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
-        "Boston College Eagles",
-        "California Golden Bears",
-        "Clemson Tigers",
-        "Duke Blue Devils",
-        "Florida State Seminoles",
-        "Georgia Tech Yellow Jackets",
-        "Louisville Cardinals",
-        "Miami Hurricanes",
-        "NC State Wolfpack",
-        "North Carolina Tar Heels",
-        "Pittsburgh Panthers"
-      ],
-      "yesterday_final_scores": [
-        "Active scoreboard source: ESPN college football fallback.",
-        "Today's scoreboard also already contains 0 final entries, which keeps completed same - day results distinct from games still ahead.",
-        "SEC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.",
-        "ACC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.",
-        "Big Ten: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.",
-        "News note: How every 2027 five - star college football prospect will fit - There are 21 five - star players in the class and we scout each one's game for the next level.",
-        "Conference - wide reporting matters more in college football because team identity is shaped not only by last season's record, but also by coaching continuity, roster turnover, and league structure."
-      ],
-      "today_live": [
-        "No games are currently in progress."
-      ],
-      "today_schedule": [
-        "The report currently tracks 113 teams across 11 conference buckets.",
-        "Coach context and conference inventory make the report more useful for previews, offseason files, and broad league framing than a scoreboard - only shell.",
-        "TODAY RESULTS",
-        "No games had gone final yet on today's board during this report window.",
-        "AMERICAN",
-        "TEAM / RECORD / COACH / KEY PLAYER CONTEXT",
-        "Army Black Knights",
-        "Charlotte 49ers",
-        "East Carolina Pirates",
-        "Florida Atlantic Owls",
-        "Memphis Tigers",
-        "Navy Midshipmen"
-      ],
-      "advanced_watch": [
-        "Advanced watch items will update on the next successful analytics refresh."
-      ],
-      "story_angles": [
-        "NCAAFB REPORT | 2026-04-26",
-        "The clearest national story line still runs through how the SEC, Big Ten, Big 12, and ACC stack up against the rest of the FBS structure in depth, continuity, and preseason profile.",
-        "RANKINGS CONTEXT",
-        "No rankings context was available during this report window.",
-        "PLAYER MOVES",
-        "No player-move context was available during this report window.",
-        "NEWS",
-        "How every 2027 five - star college football prospect will fit - There are 21 five - star players in the class and we scout each one's game for the next level."
-      ]
-    },
-    {
-      "id": "soccer",
-      "league": "Premier League / Soccer",
-      "title": "Premier League / Soccer",
-      "headline": "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value alongside top European l",
-      "snapshot": "['Premier League: 5 yesterday finals, 0 live today, 0 upcoming today, and 0 finals already posted today.', 'Bundesliga: 6 yesterday finals, 0 live today, 0 upcoming today, and 2 finals already posted today.', 'La Liga: 4 yesterday finals, 0 live today, 0 upcoming today, and 4 finals already posted today.', 'Serie A: 3 yesterday finals, 0 live today, 0 upcomi",
-      "key_storylines": [
-        "The cross-league board currently shows 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 same-day finals.",
-        "The cleanest soccer reporting value comes from separating yesterday results, live windows, upcoming fixtures, and completed same-day matches.",
-        "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value alongside top European leagues."
-      ],
-      "final_scores": [
-        "Bundesliga: Bremen 1, Stuttgart 1 - Final",
-        "Bundesliga: Freiburg 0, Dortmund 4 - Final",
-        "La Liga: Real Sociedad 3, Rayo 3 - Final",
-        "La Liga: Elche 2, Real Oviedo 1 - Final",
-        "La Liga: Sevilla 1, Osasuna 2 - Final",
-        "La Liga: Celta Vigo 1, Villarreal 2 - Final",
-        "Serie A: Sassuolo 0, Fiorentina 0 - Final",
-        "Serie A: Como 2, Genoa 0 - Final",
-        "Serie A: Inter Milan 2, Torino 2 - Final",
-        "Serie A: Juventus 0, Milan 0 - Final",
-        "REPORT NOTES"
-      ],
-      "yesterday_final_scores": [],
-      "today_live": [
-        "Everton 1, West Ham 2 - Final",
-        "Spurs 1, Wolves 0 - Final",
-        "Newcastle 0, Arsenal 1 - Final",
-        "No live matches were available during this report window.",
-        "Salt Lake 1, LA Galaxy 2 - 88'"
-      ],
-      "today_schedule": [
-        "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value alongside top European leagues.",
-        "PREMIER LEAGUE",
-        "YESTERDAY RESULTS",
-        "Aston Villa 0, Fulham 1 - Final",
-        "TODAY RESULTS",
-        "No matches had gone final yet on today's board during this report window.",
-        "BUNDESLIGA",
-        "St. Pauli 0, Heidenheim 2 - Final",
-        "Frankfurt 1, Augsburg 1 - Final",
-        "Leverkusen 2, Cologne 1 - Final",
-        "Bayern 4, Mainz 3 - Final",
-        "Gladbach 0, Wolfsburg 0 - Final"
-      ],
-      "advanced_watch": [
-        "Advanced watch items will update on the next successful analytics refresh."
-      ],
-      "story_angles": [
-        "SOCCER PRO REPORT | 2026-04-26"
-      ]
-    },
-    {
-      "id": "betting_odds",
-      "league": "Betting Odds",
-      "title": "Betting Odds",
-      "headline": "Betting odds feed unavailable.",
-      "snapshot": "Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.",
-      "key_storylines": [
-        "Odds feed unavailable during this run.",
-        "Pipeline completed safely without exposing any API token.",
-        "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable."
-      ],
-      "final_scores": [
-        "No final games with betting context were available during this run.",
-        "MARKET BOARD",
-        "No betting markets available during this run.",
-        "DATA NOTE",
-        "This report is generated for editorial monitoring and market-context purposes. It is not gambling advice.",
-        "NAME",
-        "BETTING",
-        "UPDATED AT",
-        "2026-04-26 09:02:46 PM ET"
-      ],
-      "yesterday_final_scores": [],
-      "today_live": [
-        "No live games with betting context were available during this run."
-      ],
-      "today_schedule": [
-        "No upcoming schedule items available at generation time."
-      ],
-      "advanced_watch": [
-        "Advanced watch items will update on the next successful analytics refresh."
-      ],
-      "story_angles": [
-        "Generated: 2026-04-26 09:02:46 PM ET",
-        "Betting odds feed unavailable.",
-        "Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.",
-        "Odds feed unavailable during this run.",
-        "Pipeline completed safely without exposing any API token.",
-        "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable.",
-        "GAMES"
-      ]
-    },
-    {
-      "id": "fantasy",
-      "league": "Fantasy Sports",
-      "title": "Fantasy Sports",
-      "headline": "Fantasy watch board generated from live scoreboard context.",
-      "snapshot": "A quick fantasy-focused scan of games, usage angles and lineup-monitoring items for journalists and fantasy editors.",
-      "key_storylines": [
-        "Angle: New England Patriots vs. Seattle Seahawks: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
-        "Angle: Toronto Raptors vs. Cleveland Cavaliers: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
-        "NBA: San Antonio Spurs at Portland Trail Blazers",
-        "Angle: Portland Trail Blazers vs. San Antonio Spurs: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
-        "Angle: Houston Rockets vs. Los Angeles Lakers: Pre-game fantasy watch item — monitor starters, injuries, lineup changes, usage trends and betting-total movement."
-      ],
-      "final_scores": [
-        "No final scores available at generation time."
-      ],
-      "yesterday_final_scores": [],
-      "today_live": [
-        "No live games at generation time."
-      ],
-      "today_schedule": [
-        "No upcoming schedule items available at generation time."
-      ],
-      "advanced_watch": [
-        "Advanced watch items will update on the next successful analytics refresh."
-      ],
-      "story_angles": [
-        "UPDATED: 2026-04-26 09:06:25 PM ET",
-        "Fantasy watch board generated from live scoreboard context.",
-        "A quick fantasy-focused scan of games, usage angles and lineup-monitoring items for journalists and fantasy editors.",
-        "FANTASY WATCH ITEMS",
-        "NFL: Seattle Seahawks at New England Patriots",
-        "Status: Final",
-        "Angle: New England Patriots vs. Seattle Seahawks: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
-        "NBA: Cleveland Cavaliers at Toronto Raptors"
-      ]
-    }
-  ]
+  "statcast_graphic": "/mlb_statcast_snapshot.svg"
 }
