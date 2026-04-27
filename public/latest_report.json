@@ -1,32 +1,53 @@
 {
+  "site": "Global Sports Report",
   "title": "Global Sports Report",
-  "headline": "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.",
-  "updated_at": "2026-04-26 10:06:16 PM ET",
+  "headline": "Boston Red Sox 5, Baltimore Orioles 3 leads MLB scoreboard",
+  "snapshot": "A fresh sports report is being prepared for journalists, editors, and newsroom users.",
+  "updated_at": "2026-04-26 10:16:17 PM ET",
+  "published_at": "2026-04-26 10:16:17 PM ET",
+  "generated_at": "2026-04-26 10:16:17 PM ET",
+  "generated_date": "2026-04-26",
+  "timezone": "America/New_York",
+  "x_handle": "@GlobalSportsRp",
+  "substack_url": "https://globalsportsreport.substack.com",
   "sections": [
     {
       "id": "mlb",
       "title": "MLB",
-      "headline": "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.",
+      "headline": "Boston Red Sox 5, Baltimore Orioles 3 leads MLB scoreboard",
       "snapshot": "14 yesterday finals, 16 today finals, 0 live, 1 scheduled.",
       "updated_at": "2026-04-26 09:33:36 PM ET",
+      "key_storylines": [
+        "Boston Red Sox 5, Baltimore Orioles 3",
+        "Philadelphia Phillies 2, Atlanta Braves 6",
+        "Cleveland Guardians 2, Toronto Blue Jays 4",
+        "Colorado Rockies 3, New York Mets 1",
+        "Detroit Tigers 8, Cincinnati Reds 3",
+        "Minnesota Twins 2, Tampa Bay Rays 4",
+        "New York Yankees 4, Houston Astros 7",
+        "Pittsburgh Pirates 0, Milwaukee Brewers 5",
+        "Washington Nationals 2, Chicago White Sox 1",
+        "Seattle Mariners 3, St. Louis Cardinals 2",
+        "Athletics 2, Texas Rangers 1",
+        "Miami Marlins 3, San Francisco Giants 6"
+      ],
       "blocks": [
         {
-          "title": "Final Scores",
-          "items": []
-        },
-        {
-          "title": "Live",
-          "items": []
-        },
-        {
-          "title": "Schedule",
+          "title": "Live Board",
           "items": [
-            "Colorado Rockies 0, New York Mets 0"
+            "Boston Red Sox 5, Baltimore Orioles 3",
+            "Philadelphia Phillies 2, Atlanta Braves 6",
+            "Cleveland Guardians 2, Toronto Blue Jays 4",
+            "Colorado Rockies 3, New York Mets 1",
+            "Detroit Tigers 8, Cincinnati Reds 3",
+            "Minnesota Twins 2, Tampa Bay Rays 4",
+            "New York Yankees 4, Houston Astros 7",
+            "Pittsburgh Pirates 0, Milwaukee Brewers 5",
+            "Washington Nationals 2, Chicago White Sox 1",
+            "Seattle Mariners 3, St. Louis Cardinals 2",
+            "Athletics 2, Texas Rangers 1",
+            "Miami Marlins 3, San Francisco Giants 6"
           ]
-        },
-        {
-          "title": "Storylines",
-          "items": []
         }
       ]
     },
@@ -35,33 +56,23 @@
       "title": "NBA",
       "headline": "BOS rout PHI 128-96 as NBA board updates",
       "snapshot": "3 today finals, 1 live, 0 scheduled.",
-      "updated_at": "2026-04-26 09:44:11 PM ET",
+      "updated_at": "2026-04-26 10:14:13 PM ET",
+      "key_storylines": [
+        "CLE 89, TOR 93",
+        "SA 114, POR 93",
+        "BOS 128, PHI 96",
+        "LIVE: LAL 21, HOU 24 — 27.0 - 1st Quarter",
+        "LAL 21, HOU 24"
+      ],
       "blocks": [
         {
-          "title": "Final Scores",
-          "items": [
-            "CLE 89, TOR 93",
-            "SA 114, POR 93",
-            "BOS 128, PHI 96"
-          ]
-        },
-        {
-          "title": "Live",
-          "items": [
-            "LAL 0, HOU 0"
-          ]
-        },
-        {
-          "title": "Schedule",
-          "items": []
-        },
-        {
-          "title": "Storylines",
+          "title": "Live Board",
           "items": [
             "CLE 89, TOR 93",
             "SA 114, POR 93",
             "BOS 128, PHI 96",
-            "LIVE: LAL 0, HOU 0 \u00e2\u20ac\u201d 11:58 - 1st Quarter"
+            "LIVE: LAL 21, HOU 24 — 27.0 - 1st Quarter",
+            "LAL 21, HOU 24"
           ]
         }
       ]
@@ -69,36 +80,25 @@
     {
       "id": "nhl",
       "title": "NHL",
-      "headline": "COL rout LA 5-1 as NHL board updates",
-      "snapshot": "2 today finals, 1 live, 1 scheduled.",
-      "updated_at": "2026-04-26 09:46:33 PM ET",
+      "headline": "TB beat MTL 3-2 as NHL board updates",
+      "snapshot": "3 today finals, 1 live, 0 scheduled.",
+      "updated_at": "2026-04-26 10:14:24 PM ET",
+      "key_storylines": [
+        "BUF 6, BOS 1",
+        "COL 5, LA 1",
+        "TB 3, MTL 2",
+        "LIVE: EDM 2, ANA 0 — 9:14 - 1st Period",
+        "EDM 2, ANA 0"
+      ],
       "blocks": [
         {
-          "title": "Final Scores",
-          "items": [
-            "BUF 6, BOS 1",
-            "COL 5, LA 1"
-          ]
-        },
-        {
-          "title": "Live",
-          "items": [
-            "TB 3, MTL 2"
-          ]
-        },
-        {
-          "title": "Schedule",
-          "items": [
-            "EDM at ANA \u2014 9:52 PM ET"
-          ]
-        },
-        {
-          "title": "Storylines",
+          "title": "Live Board",
           "items": [
             "BUF 6, BOS 1",
             "COL 5, LA 1",
-            "LIVE: TB 3, MTL 2 \u00e2\u20ac\u201d 2:33 - 3rd Period",
-            "UPCOMING: EDM at ANA \u00e2\u20ac\u201d 9:52 PM ET"
+            "TB 3, MTL 2",
+            "LIVE: EDM 2, ANA 0 — 9:14 - 1st Period",
+            "EDM 2, ANA 0"
           ]
         }
       ]
@@ -108,10 +108,24 @@
       "title": "Soccer",
       "headline": "Real Salt Lake vs LA Galaxy headlines soccer finals board",
       "snapshot": "16 finals, 0 live, 0 scheduled",
-      "updated_at": "2026-04-26 09:49:32 PM ET",
+      "updated_at": "2026-04-26 10:14:48 PM ET",
+      "key_storylines": [
+        "Real Sociedad 3, Rayo Vallecano 3",
+        "Elche 2, Real Oviedo 1",
+        "Sevilla 1, Osasuna 2",
+        "Celta Vigo 1, Villarreal 2",
+        "Werder Bremen 1, VfB Stuttgart 1",
+        "SC Freiburg 0, Borussia Dortmund 4",
+        "Sassuolo 0, Fiorentina 0",
+        "Como 2, Genoa 0",
+        "Internazionale 2, Torino 2",
+        "Juventus 0, AC Milan 0",
+        "Strasbourg 3, Lorient 2",
+        "Metz 4, Le Havre AC 4"
+      ],
       "blocks": [
         {
-          "title": "Final Scores",
+          "title": "Live Board",
           "items": [
             "Real Sociedad 3, Rayo Vallecano 3",
             "Elche 2, Real Oviedo 1",
@@ -122,44 +136,23 @@
             "Sassuolo 0, Fiorentina 0",
             "Como 2, Genoa 0",
             "Internazionale 2, Torino 2",
-            "Juventus 0, AC Milan 0"
+            "Juventus 0, AC Milan 0",
+            "Strasbourg 3, Lorient 2",
+            "Metz 4, Le Havre AC 4"
           ]
-        },
-        {
-          "title": "Live",
-          "items": []
-        },
-        {
-          "title": "Schedule",
-          "items": []
-        },
-        {
-          "title": "Storylines",
-          "items": []
         }
       ]
     },
     {
       "id": "betting_odds",
       "title": "Betting Odds",
-      "headline": "Betting Odds updates",
-      "snapshot": "",
-      "updated_at": "2026-04-26 09:52:00 PM ET",
+      "headline": "Betting Odds live board awaiting verified updates",
+      "snapshot": "0 verified items available.",
+      "updated_at": "2026-04-26 10:15:07 PM ET",
+      "key_storylines": [],
       "blocks": [
         {
-          "title": "Final Scores",
-          "items": []
-        },
-        {
-          "title": "Live",
-          "items": []
-        },
-        {
-          "title": "Schedule",
-          "items": []
-        },
-        {
-          "title": "Storylines",
+          "title": "Live Board",
           "items": []
         }
       ]
@@ -168,23 +161,17 @@
       "id": "fantasy",
       "title": "Fantasy",
       "headline": "Fantasy basketball usage and production leaders",
-      "snapshot": "",
-      "updated_at": "2026-04-26 09:53:47 PM ET",
+      "snapshot": "4 verified items available.",
+      "updated_at": "2026-04-26 10:15:22 PM ET",
+      "key_storylines": [
+        "Nikola Jokic trending in usage",
+        "Luka Doncic high-volume scoring stretch",
+        "Jayson Tatum strong minutes load",
+        "Shai Gilgeous-Alexander elite production run"
+      ],
       "blocks": [
         {
-          "title": "Final Scores",
-          "items": []
-        },
-        {
-          "title": "Live",
-          "items": []
-        },
-        {
-          "title": "Schedule",
-          "items": []
-        },
-        {
-          "title": "Storylines",
+          "title": "Live Board",
           "items": [
             "Nikola Jokic trending in usage",
             "Luka Doncic high-volume scoring stretch",
