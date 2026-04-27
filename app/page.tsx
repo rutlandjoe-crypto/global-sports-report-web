@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import EditorialStandard from "@/components/EditorialStandard";
 
 export const dynamic = "force-dynamic";
 
@@ -499,6 +500,7 @@ export default function Home() {
             ))
           )}
         </section>
+        <EditorialStandard />
       </div>
     </main>
   );
