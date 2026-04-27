@@ -1,167 +1,88 @@
 import fs from "fs";
 import path from "path";
-import EditorialStandard from "@/components/EditorialStandard";
 
 export const dynamic = "force-dynamic";
 
-type JsonObject = { [key: string]: any };
+import EditorialStandard from "@/components/EditorialStandard";
 
-const VIDEO_URL =
-  process.env.NEXT_PUBLIC_GSR_VIDEO_URL ||
-  "https://www.youtube.com/embed/PMDQ82w1pAE?autoplay=1&mute=1";
+type AnyObj = Record<string, any>;
 
-const TOOLKIT_LINKS = [
-  {
-    name: "ESPN",
-    url: "https://www.espn.com/",
-    note: "Scores, schedules, standings and breaking sports coverage.",
-  },
-  {
-    name: "The Athletic",
-    url: "https://www.nytimes.com/athletic/",
-    note: "Deep reporting, analysis and beat coverage.",
-  },
-  {
-    name: "Sports Reference",
-    url: "https://www.sports-reference.com/",
-    note: "Historical stats, player pages and team databases.",
-  },
-  {
-    name: "Baseball Savant",
-    url: "https://baseballsavant.mlb.com/",
-    note: "Statcast data, pitch tracking and MLB advanced metrics.",
-  },
-  {
-    name: "Spotrac",
-    url: "https://www.spotrac.com/",
-    note: "Contracts, salary caps, payrolls and roster spending.",
-  },
+const SITE = {
+  name: "Global Sports Report",
+  tagline: "Built for journalists, by a journalist.",
+  topic: "Sports",
+  descriptor:
+    "Global Sports Report tracks live scores, schedules, advanced metrics, story angles and newsroom-ready sports intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
+};
+
+const TOOLKIT = [
+  ["ESPN", "https://www.espn.com/"],
+  ["The Athletic", "https://www.nytimes.com/athletic/"],
+  ["Sports Reference", "https://www.sports-reference.com/"],
+  ["Baseball Savant", "https://baseballsavant.mlb.com/"],
+  ["Spotrac", "https://www.spotrac.com/"],
 ];
 
-function readReport(): JsonObject {
+function readReport(): AnyObj {
   try {
-    const filePath = path.join(process.cwd(), "public", "latest_report.json");
-    const raw = fs.readFileSync(filePath, "utf8");
+    const file = path.join(process.cwd(), "public", "latest_report.json");
+    const raw = fs.readFileSync(file, "utf8");
     return JSON.parse(raw);
   } catch {
-    return {
-      site: "Global Sports Report",
-      brand: "Built for journalists, by a journalist.",
-      headline: "Global Sports Report Is Loading Today’s Sports Board",
-      snapshot:
-        "The report file could not be loaded yet. Check public/latest_report.json.",
-      sections: [],
-    };
+    return {};
   }
 }
 
-function asText(value: any): string {
+function cleanText(value: any): string {
   if (value === null || value === undefined) return "";
-  if (typeof value === "string") return value.trim();
-  if (typeof value === "number" || typeof value === "boolean") return String(value);
-
-  if (Array.isArray(value)) {
-    return value.map(asText).filter(Boolean).join(" ");
-  }
-
+  if (Array.isArray(value)) return value.map(cleanText).filter(Boolean).join(" • ");
   if (typeof value === "object") {
-    return (
-      value.text ||
-      value.title ||
-      value.headline ||
-      value.name ||
-      value.summary ||
-      value.description ||
-      value.result ||
-      value.game ||
-      value.matchup ||
-      value.note ||
-      value.angle ||
-      ""
-    )
-      .toString()
-      .trim();
+    return Object.values(value).map(cleanText).filter(Boolean).join(" • ");
   }
-
-  return "";
-}
-
-function splitCleanLines(value: string): string[] {
-  return value
-    .replace(/\r/g, "\n")
-    .split(/\n|•|(?:\s+-\s+)|(?:\s+\|\s+)/)
-    .map((item) =>
-      item
-        .replace(/^[-–—•\s]+/, "")
-        .replace(/\s+/g, " ")
-        .trim()
-    )
-    .filter(Boolean);
-}
-
-function cleanTitle(value: string): string {
-  return value
-    .replace(/_/g, " ")
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase());
+  return String(value).replace(/\s+/g, " ").trim();
 }
 
 function asList(value: any): string[] {
   if (!value) return [];
 
   if (Array.isArray(value)) {
-    return value
-      .flatMap((item) => {
-        if (typeof item === "string") return splitCleanLines(item);
+    return value.flatMap((item) => {
+      if (typeof item === "string") {
+        return item
+          .split(/\n|•|\|/)
+          .map((x) => x.trim())
+          .filter(Boolean);
+      }
 
-        if (item && typeof item === "object") {
-          const parts = [
-            item.time,
-            item.status,
-            item.away_team || item.away,
-            item.away_score,
-            item.home_team || item.home,
-            item.home_score,
-            item.text,
-            item.title,
-            item.headline,
-            item.name,
-            item.summary,
-            item.note,
-            item.angle,
-          ]
-            .map(asText)
-            .filter(Boolean);
+      if (item && typeof item === "object") {
+        const text =
+          cleanText(item.text) ||
+          cleanText(item.title) ||
+          cleanText(item.headline) ||
+          cleanText(item.summary) ||
+          cleanText(item.description) ||
+          cleanText(item.note) ||
+          cleanText(item.angle) ||
+          cleanText(item.game) ||
+          cleanText(item.matchup);
 
-          if (parts.length) return [parts.join(" — ")];
+        return text ? [text] : [];
+      }
 
-          return splitCleanLines(asText(item));
-        }
-
-        return splitCleanLines(asText(item));
-      })
-      .map((item) => item.replace(/\s+/g, " ").trim())
-      .filter(Boolean);
+      return cleanText(item) ? [cleanText(item)] : [];
+    });
   }
 
-  if (typeof value === "string") return splitCleanLines(value);
+  if (typeof value === "object") return Object.values(value).map(cleanText).filter(Boolean);
 
-  if (typeof value === "object") {
-    return Object.entries(value)
-      .map(([key, val]) => {
-        const text = asText(val);
-        if (!text) return "";
-        return `${cleanTitle(key)} — ${text}`;
-      })
-      .filter(Boolean);
-  }
-
-  return [];
+  return cleanText(value)
+    .split(/\n|•|\|/)
+    .map((x) => x.trim())
+    .filter(Boolean);
 }
 
-function uniqueList(items: string[]): string[] {
+function unique(items: string[]): string[] {
   const seen = new Set<string>();
-
   return items
     .map((item) => item.replace(/\s+/g, " ").trim())
     .filter((item) => {
@@ -173,404 +94,347 @@ function uniqueList(items: string[]): string[] {
     });
 }
 
-function pickFirst(...values: any[]): any {
-  return values.find((value) => {
-    if (Array.isArray(value)) return value.length > 0;
-    if (typeof value === "string") return value.trim().length > 0;
-    return value !== null && value !== undefined;
-  });
-}
+function getStories(report: AnyObj): AnyObj[] {
+  const candidates =
+    report.homepage_cards ||
+    report.cards ||
+    report.stories ||
+    report.news ||
+    report.headlines ||
+    report.items ||
+    report.articles ||
+    report.sections ||
+    [];
 
-function normalizeSection(key: string, value: any): JsonObject {
-  const title = asText(value.title) || cleanTitle(key);
+  if (Array.isArray(candidates)) return candidates.filter(Boolean);
 
-  return {
-    id: value.id || key,
-    title,
-    headline: pickFirst(value.headline, value.title, title),
-    snapshot: pickFirst(value.snapshot, value.summary, value.body, value.content, ""),
-    key_storylines: pickFirst(
-      value.key_storylines,
-      value.keyStorylines,
-      value.storylines,
-      value.top_storylines,
-      value.items,
-      []
-    ),
-    key_data: pickFirst(value.key_data, value.keyData, value.data_points, []),
-    final_scores: pickFirst(
-      value.final_scores,
-      value.finalScores,
-      value.finals,
-      value.scores,
-      []
-    ),
-    yesterday_final_scores: pickFirst(
-      value.yesterday_final_scores,
-      value.yesterdayFinalScores,
-      value.previous_final_scores,
-      []
-    ),
-    today_live: pickFirst(value.today_live, value.live, value.live_games, []),
-    today_schedule: pickFirst(
-      value.today_schedule,
-      value.todaySchedule,
-      value.schedule,
-      value.upcoming,
-      []
-    ),
-    advanced_watch: pickFirst(
-      value.advanced_watch,
-      value.advancedWatch,
-      value.metrics,
-      value.analytics,
-      value.advanced,
-      []
-    ),
-    story_angles: pickFirst(value.story_angles, value.storyAngles, value.angles, []),
-    what_to_watch: pickFirst(
-      value.what_to_watch,
-      value.whatToWatch,
-      value.watch,
-      value.watchlist,
-      []
-    ),
-    why_it_matters: pickFirst(value.why_it_matters, value.whyItMatters, ""),
-    source_file: value.source_file || "",
-    updated_at: pickFirst(value.updated_at, value.generated_at, value.published_at, ""),
-  };
-}
+  if (typeof candidates === "object") {
+    return Object.entries(candidates).map(([key, value]: [string, any]) => {
+      if (value && typeof value === "object") {
+        return {
+          id: key,
+          league: value.league || key.toUpperCase(),
+          ...value,
+        };
+      }
 
-function getReportSections(report: JsonObject): any[] {
-  if (!report || typeof report !== "object") return [];
-
-  if (Array.isArray(report.sections)) {
-    return report.sections
-      .filter(Boolean)
-      .map((section: any, index: number) =>
-        normalizeSection(section.id || section.title || `section-${index}`, section)
-      );
-  }
-
-  if (report.sections && typeof report.sections === "object") {
-    return Object.entries(report.sections)
-      .filter(([, value]) => value && typeof value === "object")
-      .map(([key, value]: [string, any]) => normalizeSection(key, value));
+      return {
+        id: key,
+        league: key.toUpperCase(),
+        headline: cleanText(value),
+      };
+    });
   }
 
   return [];
 }
 
-function sectionHasRealContent(section: any): boolean {
-  const headline = asText(section.headline || section.title);
-  const snapshot = asText(section.snapshot);
-
-  const lists = [
-    asList(section.key_storylines),
-    asList(section.key_data),
-    asList(section.final_scores),
-    asList(section.yesterday_final_scores),
-    asList(section.today_live),
-    asList(section.today_schedule),
-    asList(section.advanced_watch),
-    asList(section.story_angles),
-    asList(section.what_to_watch),
-  ];
-
-  const whyItMatters = asText(section.why_it_matters);
-
+function storyTitle(story: AnyObj, index: number): string {
   return (
-    headline.length >= 10 &&
-    (snapshot.length >= 15 ||
-      whyItMatters.length >= 15 ||
-      lists.some((list) => list.length > 0))
+    cleanText(story.headline) ||
+    cleanText(story.title) ||
+    cleanText(story.name) ||
+    cleanText(story.league) ||
+    `Sports Storyline ${index + 1}`
   );
 }
 
-function SectionList({
-  title,
-  items,
-  tone = "light",
-}: {
-  title: string;
-  items: string[];
-  tone?: "light" | "dark" | "red";
-}) {
-  const cleanItems = uniqueList(items).slice(0, 8);
-  if (!cleanItems.length) return null;
+function storyUrl(story: AnyObj): string {
+  return cleanText(story.url) || cleanText(story.link) || cleanText(story.source_url) || "#";
+}
 
-  const boxClass =
-    tone === "dark"
-      ? "rounded-xl border border-neutral-800 bg-neutral-950 px-4 py-3 text-sm font-semibold leading-6 text-white"
-      : tone === "red"
-      ? "rounded-xl border border-red-800 bg-red-700 px-4 py-3 text-sm font-semibold leading-6 text-white"
-      : "rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-semibold leading-6 text-neutral-950";
+function storySummary(story: AnyObj): string {
+  return (
+    cleanText(story.snapshot) ||
+    cleanText(story.summary) ||
+    cleanText(story.description) ||
+    cleanText(story.body) ||
+    "Sports development flagged for newsroom monitoring."
+  );
+}
 
-  const headingClass =
-    tone === "dark"
-      ? "mb-3 text-xs font-black uppercase tracking-[0.18em] text-red-400"
-      : tone === "red"
-      ? "mb-3 text-xs font-black uppercase tracking-[0.18em] text-white"
-      : "mb-3 text-xs font-black uppercase tracking-[0.18em] text-red-700";
+function storyLabel(story: AnyObj): string {
+  return cleanText(story.league) || cleanText(story.label) || "Sports Watch";
+}
+
+function Block({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+      <h2 className="mb-3 text-sm font-black uppercase tracking-wide text-red-700">
+        {title}
+      </h2>
+      {children}
+    </section>
+  );
+}
+
+function LineList({ items }: { items: string[] }) {
+  const safe = unique(items).slice(0, 8);
+
+  if (!safe.length) {
+    return <p className="text-sm leading-6 text-neutral-700">No current items available.</p>;
+  }
 
   return (
-    <div className="mt-5">
-      <h4 className={headingClass}>{title}</h4>
-
-      <div className="space-y-2">
-        {cleanItems.map((item, index) => (
-          <div key={`${title}-${index}`} className={boxClass}>
-            {item}
-          </div>
-        ))}
-      </div>
+    <div className="space-y-2">
+      {safe.map((item, i) => (
+        <p key={i} className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800">
+          {item}
+        </p>
+      ))}
     </div>
   );
 }
 
-function ReportCard({ section }: { section: any }) {
-  const title = asText(section.title || "Report");
-  const headline = asText(section.headline || title);
-  const snapshot = asText(section.snapshot);
-  const updatedAt = asText(section.updated_at);
-
-  const storylines = asList(section.key_storylines);
-  const explicitKeyData = asList(section.key_data);
-  const finalScores = asList(section.final_scores);
-  const yesterdayFinals = asList(section.yesterday_final_scores);
-  const todayLive = asList(section.today_live);
-  const todaySchedule = asList(section.today_schedule);
-  const advancedWatch = asList(section.advanced_watch);
-  const storyAngles = asList(section.story_angles);
-  const whatToWatch = asList(section.what_to_watch);
-  const whyItMatters = asText(section.why_it_matters);
-
-  const keyData = uniqueList([
-    ...explicitKeyData,
-    ...yesterdayFinals,
-    ...finalScores,
-    ...todayLive,
-    ...todaySchedule,
-    ...storylines,
-  ]);
-
-  const watchItems = uniqueList([...whatToWatch, ...storyAngles]);
-
-  if (!sectionHasRealContent(section)) return null;
+function NewsroomBriefing({ items }: { items: string[] }) {
+  const safe = unique(items).slice(0, 6);
 
   return (
-    <article className="rounded-3xl bg-white p-6 text-neutral-950 shadow-xl ring-1 ring-neutral-200">
-      <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
-        <p className="text-xs font-black uppercase tracking-[0.22em] text-red-700">
-          {title}
+    <div className="rounded-2xl border border-neutral-300 bg-white p-5 shadow-sm">
+      <p className="mb-3 text-xs font-black uppercase tracking-wide text-red-700">
+        Live Newsroom Briefing
+      </p>
+
+      {safe.length ? (
+        <div className="space-y-2">
+          {safe.map((item, i) => (
+            <p
+              key={i}
+              className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800"
+            >
+              {item}
+            </p>
+          ))}
+        </div>
+      ) : (
+        <p className="text-sm leading-6 text-neutral-700">
+          Monitoring scores, schedules, injuries, playoff races, betting movement and advanced performance signals.
         </p>
+      )}
+    </div>
+  );
+}
 
-        {updatedAt ? (
-          <p className="text-xs font-bold uppercase tracking-[0.16em] text-neutral-500">
-            Updated {updatedAt}
-          </p>
-        ) : null}
+function StoryCard({ story, index }: { story: AnyObj; index: number }) {
+  const title = storyTitle(story, index);
+  const url = storyUrl(story);
+  const summary = storySummary(story);
+  const label = storyLabel(story);
+
+  const blocks = story.journalist_blocks || {};
+
+  const keyData = asList(
+    story.key_data ||
+      story.keyData ||
+      story.data ||
+      story.metrics ||
+      story.items ||
+      blocks.key_data
+  );
+
+  const why = asList(
+    story.why_it_matters ||
+      story.whyItMatters ||
+      story.why ||
+      blocks.why_it_matters
+  );
+
+  const watch = asList(
+    story.what_to_watch ||
+      story.whatToWatch ||
+      story.watch ||
+      blocks.what_to_watch ||
+      story.story_angles ||
+      blocks.story_angles
+  );
+
+  return (
+    <article className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+      <p className="mb-2 text-xs font-black uppercase tracking-wide text-red-700">
+        {label}
+      </p>
+
+      <h3 className="text-xl font-black leading-tight text-neutral-950">
+        {url !== "#" ? (
+          <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
+            {title}
+          </a>
+        ) : (
+          title
+        )}
+      </h3>
+
+      <p className="mt-3 text-sm leading-6 text-neutral-700">{summary}</p>
+
+      <div className="mt-4 grid gap-3 md:grid-cols-3">
+        <div className="rounded-xl bg-neutral-50 p-3">
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Key Data</p>
+          <LineList items={keyData.length ? keyData : ["No verified data point attached yet."]} />
+        </div>
+
+        <div className="rounded-xl bg-neutral-50 p-3">
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Why It Matters</p>
+          <LineList items={why.length ? why : ["This affects sports coverage priorities."]} />
+        </div>
+
+        <div className="rounded-xl bg-neutral-50 p-3">
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">What To Watch</p>
+          <LineList items={watch.length ? watch : ["Monitor the next score, matchup, injury note, metric shift or roster development."]} />
+        </div>
       </div>
-
-      <h2 className="text-2xl font-black leading-tight text-neutral-950">
-        {headline}
-      </h2>
-
-      {snapshot ? (
-        <div className="mt-4 rounded-2xl bg-neutral-100 p-4">
-          <p className="text-base font-semibold leading-7 text-neutral-800">
-            {snapshot}
-          </p>
-        </div>
-      ) : null}
-
-      <SectionList title="Key Data" items={keyData} />
-      <SectionList title="Advanced Watch" items={advancedWatch} />
-
-      {whyItMatters ? (
-        <div className="mt-5 rounded-2xl bg-neutral-950 p-4 text-white">
-          <h4 className="mb-2 text-xs font-black uppercase tracking-[0.18em] text-red-400">
-            Why It Matters
-          </h4>
-          <p className="text-sm font-semibold leading-6">{whyItMatters}</p>
-        </div>
-      ) : null}
-
-      <SectionList title="What To Watch" items={watchItems} tone="red" />
     </article>
   );
 }
 
-function VideoCard() {
-  return (
-    <section className="rounded-3xl bg-white p-6 text-neutral-950 shadow-xl ring-1 ring-neutral-200">
-      <div className="mb-4">
-        <p className="text-xs font-black uppercase tracking-[0.22em] text-red-700">
-          Live Video
-        </p>
-        <h2 className="mt-2 text-2xl font-black text-neutral-950">
-          Global Sports Report Video Desk
-        </h2>
-        <p className="mt-2 text-sm font-semibold leading-6 text-neutral-700">
-          A live sports video window paired with the latest newsroom-ready report.
-        </p>
-      </div>
-
-      <div className="aspect-video overflow-hidden rounded-2xl bg-neutral-950">
-        <iframe
-          src={VIDEO_URL}
-          title="Global Sports Report Video Desk"
-          allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-          allowFullScreen
-          className="h-full w-full border-0"
-        />
-      </div>
-    </section>
-  );
-}
-
-function JournalistToolkitCard() {
-  return (
-    <section className="rounded-3xl bg-white p-6 text-neutral-950 shadow-xl ring-1 ring-neutral-200">
-      <p className="text-xs font-black uppercase tracking-[0.22em] text-red-700">
-        Journalist Toolkit
-      </p>
-
-      <h2 className="mt-2 text-2xl font-black text-neutral-950">
-        Five Go-To Sports Sites For Reporters
-      </h2>
-
-      <div className="mt-5 space-y-3">
-        {TOOLKIT_LINKS.map((item) => (
-          <a
-            key={item.name}
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block rounded-2xl border border-neutral-200 bg-neutral-50 px-4 py-3 transition hover:bg-white hover:shadow-md"
-          >
-            <span className="block text-sm font-black text-neutral-950">
-              {item.name}
-            </span>
-            <span className="mt-1 block text-sm font-semibold leading-6 text-neutral-700">
-              {item.note}
-            </span>
-          </a>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-export default function Home() {
+export default function Page() {
   const report = readReport();
-  const sections = getReportSections(report).filter(sectionHasRealContent);
 
   const headline =
-    asText(report.headline) ||
-    "Global Sports Report Is Loading Today’s Sports Board";
+    cleanText(report.headline) ||
+    cleanText(report.title) ||
+    "Sports Newsroom Watch: Today’s Board Under Review";
 
   const snapshot =
-    asText(report.snapshot) ||
-    "A fresh sports report is being prepared for journalists, editors, and newsroom decision-makers.";
+    cleanText(report.snapshot) ||
+    cleanText(report.summary) ||
+    cleanText(report.body) ||
+    "A live sports briefing built for journalists tracking scores, schedules, analytics, playoff races and story angles.";
 
-  const updatedAt =
-    asText(report.updated_at) ||
-    asText(report.generated_at) ||
-    asText(report.published_at);
+  const updated =
+    cleanText(report.updated_at) ||
+    cleanText(report.generated_at) ||
+    cleanText(report.published_at) ||
+    "Update time unavailable";
+
+  let stories = getStories(report).filter((story) => story && typeof story === "object");
+
+  if (!stories.length) {
+    stories = [
+      {
+        headline,
+        summary: snapshot,
+        key_data: ["Latest sports report generated from the current board."],
+        why_it_matters: ["Editors need fast clarity across scores, schedules and live story movement."],
+        what_to_watch: ["Next result, matchup shift, injury note, playoff angle or advanced metric signal."],
+      },
+    ];
+  }
+
+  const leadStories = stories.slice(0, 10);
+
+  const signals = asList(
+    report.key_storylines ||
+      report.keyStorylines ||
+      report.signals ||
+      report.toplines ||
+      report.takeaways
+  );
 
   return (
-    <main className="min-h-screen bg-black text-white">
-      <div className="mx-auto max-w-7xl px-4 py-10">
-        <header className="overflow-hidden rounded-[2rem] bg-white text-neutral-950 shadow-2xl ring-1 ring-neutral-200">
-          <div className="border-b-8 border-red-700 bg-neutral-950 px-6 py-5 text-white md:px-8">
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <div>
-                <p className="text-xs font-black uppercase tracking-[0.28em] text-red-400">
-                  Global Sports Report
-                </p>
-                <p className="mt-2 text-sm font-black uppercase tracking-[0.2em] text-white">
-                  Built for journalists, by a journalist.
-                </p>
-              </div>
+    <main className="min-h-screen bg-neutral-100 text-neutral-950">
+      <header className="border-b border-neutral-300 bg-white">
+        <div className="mx-auto grid max-w-7xl gap-6 px-5 py-8 lg:grid-cols-[1.2fr_0.8fr]">
+          <div>
+            <p className="text-sm font-black uppercase tracking-wide text-red-700">
+              {SITE.name}
+            </p>
 
-              {updatedAt ? (
-                <p className="rounded-full bg-white px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-neutral-950">
-                  Updated {updatedAt}
-                </p>
-              ) : null}
+            <h1 className="mt-3 text-4xl font-black leading-tight md:text-5xl">
+              {headline}
+            </h1>
+
+            <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-700">
+              {snapshot}
+            </p>
+
+            <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold">
+              <span className="rounded-full bg-black px-4 py-2 text-white">
+                {SITE.tagline}
+              </span>
+              <span className="rounded-full bg-neutral-200 px-4 py-2 text-neutral-800">
+                Updated: {updated}
+              </span>
             </div>
           </div>
 
-          <div className="p-6 md:p-8">
-            <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
-              <div>
-                <p className="text-xs font-black uppercase tracking-[0.22em] text-red-700">
-                  Today’s Sports Intelligence
-                </p>
+          <NewsroomBriefing
+            items={
+              signals.length
+                ? signals
+                : [
+                    "Track the strongest sports development on today’s board.",
+                    "Prioritize scores, schedules, matchup context and verified links.",
+                    "Watch advanced metrics, playoff movement, injuries and betting-market signals.",
+                    "Monitor league-by-league angles for reporters and editors.",
+                  ]
+            }
+          />
+        </div>
+      </header>
 
-                <h1 className="mt-3 text-4xl font-black leading-tight md:text-6xl">
-                  {headline}
-                </h1>
+      <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
+        <aside className="space-y-6">
+          <Block title="Editor Signals">
+            <LineList
+              items={
+                signals.length
+                  ? signals
+                  : [
+                      "Track the strongest sports development on today’s board.",
+                      "Prioritize verified scores, schedules and story angles.",
+                      "Watch injuries, playoff races, roster movement and advanced performance signals.",
+                    ]
+              }
+            />
+          </Block>
 
-                <p className="mt-5 max-w-4xl text-lg font-semibold leading-8 text-neutral-800">
-                  {snapshot}
-                </p>
-
-                <div className="mt-6 rounded-3xl bg-neutral-950 p-6 text-white">
-                  <p className="text-xs font-black uppercase tracking-[0.22em] text-red-400">
-                    Editorial Standard
-                  </p>
-                  <h2 className="mt-3 text-3xl font-black leading-tight">
-                    Real sports headlines. Clean data. No empty cards.
-                  </h2>
-                  <p className="mt-4 text-base font-semibold leading-7 text-neutral-200">
-                    Global Sports Report is built to surface usable angles,
-                    current scores, schedules, advanced watch points and
-                    newsroom-ready context for working journalists.
-                  </p>
-                </div>
-              </div>
-
-              <VideoCard />
+          <Block title="Journalist Toolkit">
+            <div className="space-y-2">
+              {TOOLKIT.map(([name, url]) => (
+                <a
+                  key={name}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-bold text-red-800 hover:bg-red-50"
+                >
+                  {name}
+                </a>
+              ))}
             </div>
-          </div>
-        </header>
+          </Block>
 
-        <section className="mt-8 grid gap-6 lg:grid-cols-2">
-          <JournalistToolkitCard />
+          <Block title="Coverage Lens">
+            <LineList
+              items={[
+                "Scoreboard: What result changes the day’s sports conversation?",
+                "Matchup: Which game creates the clearest reporter angle?",
+                "Performance: Which player or team metric deserves follow-up?",
+                "Context: What standings, playoff or roster angle matters?",
+                "Newsroom: What should journalists verify next?",
+              ]}
+            />
+          </Block>
+        </aside>
 
-          {sections.length === 0 ? (
-            <article className="rounded-3xl bg-white p-6 text-neutral-950 shadow-xl ring-1 ring-neutral-200">
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-red-700">
-                Report Status
-              </p>
-              <h2 className="mt-2 text-2xl font-black">
-                No complete report cards are ready yet.
-              </h2>
-              <p className="mt-3 text-base leading-7 text-neutral-800">
-                The site is protecting the page from empty cards. Check
-                public/latest_report.json or rerun the content engine.
-              </p>
-            </article>
-          ) : (
-            sections.map((section, index) => (
-              <ReportCard key={section.id || index} section={section} />
-            ))
-          )}
+        <section className="space-y-6">
+          {leadStories.map((story, index) => (
+            <StoryCard key={index} story={story} index={index} />
+          ))}
         </section>
+      </section>
 
-        <EditorialStandard />
-
-        <div className="mt-10 border-t border-neutral-800 pt-6 text-sm text-neutral-400">
-          <p>© 2026 Global Sports Report. Built for journalists, by a journalist.</p>
-          <p className="mt-2">
-            Global Sports Report delivers real-time scores, analytics, trends,
-            and journalist-ready insights across MLB, NBA, NFL, NHL, and global
-            sports.
+      <footer className="border-t border-neutral-300 bg-white">
+        <div className="mx-auto max-w-7xl px-5 py-6">
+          <p className="text-sm font-medium text-neutral-700">
+            © {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+          </p>
+          <p className="mt-2 max-w-4xl text-sm leading-6 text-neutral-500">
+            {SITE.descriptor}
           </p>
         </div>
-      </div>
+        <EditorialStandard />
+      </footer>
     </main>
   );
 }
