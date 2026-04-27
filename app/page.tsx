@@ -7,7 +7,7 @@ type JsonObject = { [key: string]: any };
 
 const VIDEO_URL =
   process.env.NEXT_PUBLIC_GSR_VIDEO_URL ||
-  "https://www.youtube.com/embed/21X5lGlDOfg";
+  "https://www.youtube.com/embed/PMDQ82w1pAE?autoplay=1&mute=1";
 
 const TOOLKIT_LINKS = [
   {
@@ -358,7 +358,7 @@ function VideoCard() {
 
       <div className="aspect-video overflow-hidden rounded-2xl bg-neutral-950">
         <iframe
-          src={VIDEO_URL.includes("?") ? VIDEO_URL : `${VIDEO_URL}?autoplay=1&mute=1`}
+          src={VIDEO_URL}
           title="Global Sports Report Video Desk"
           allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
           allowFullScreen
