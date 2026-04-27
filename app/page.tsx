@@ -501,6 +501,16 @@ export default function Home() {
           )}
         </section>
         <EditorialStandard />
+        {/* GSR Sports Footer Descriptor */}
+<div className="mt-10 border-t border-neutral-800 pt-6 text-sm text-neutral-400">
+  <p>
+    © 2026 Global Sports Report. Built for journalists, by a journalist.
+  </p>
+  <p className="mt-2">
+    Global Sports Report delivers real-time scores, analytics, trends, and
+    journalist-ready insights across MLB, NBA, NFL, NHL, and global sports.
+  </p>
+</div>
       </div>
     </main>
   );
