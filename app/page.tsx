@@ -59,7 +59,11 @@ function asText(value: any): string {
   if (value === null || value === undefined) return "";
   if (typeof value === "string") return value.trim();
   if (typeof value === "number" || typeof value === "boolean") return String(value);
-  if (Array.isArray(value)) return value.map(asText).filter(Boolean).join(" ");
+
+  if (Array.isArray(value)) {
+    return value.map(asText).filter(Boolean).join(" ");
+  }
+
   if (typeof value === "object") {
     return (
       value.text ||
@@ -71,11 +75,14 @@ function asText(value: any): string {
       value.result ||
       value.game ||
       value.matchup ||
+      value.note ||
+      value.angle ||
       ""
     )
       .toString()
       .trim();
   }
+
   return "";
 }
 
@@ -90,6 +97,13 @@ function splitCleanLines(value: string): string[] {
         .trim()
     )
     .filter(Boolean);
+}
+
+function cleanTitle(value: string): string {
+  return value
+    .replace(/_/g, " ")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
 function asList(value: any): string[] {
@@ -145,11 +159,18 @@ function asList(value: any): string[] {
   return [];
 }
 
-function cleanTitle(value: string): string {
-  return value
-    .replace(/_/g, " ")
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase());
+function uniqueList(items: string[]): string[] {
+  const seen = new Set<string>();
+
+  return items
+    .map((item) => item.replace(/\s+/g, " ").trim())
+    .filter((item) => {
+      if (!item) return false;
+      const key = item.toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
 }
 
 function pickFirst(...values: any[]): any {
@@ -176,6 +197,7 @@ function normalizeSection(key: string, value: any): JsonObject {
       value.items,
       []
     ),
+    key_data: pickFirst(value.key_data, value.keyData, value.data_points, []),
     final_scores: pickFirst(
       value.final_scores,
       value.finalScores,
@@ -206,6 +228,13 @@ function normalizeSection(key: string, value: any): JsonObject {
       []
     ),
     story_angles: pickFirst(value.story_angles, value.storyAngles, value.angles, []),
+    what_to_watch: pickFirst(
+      value.what_to_watch,
+      value.whatToWatch,
+      value.watch,
+      value.watchlist,
+      []
+    ),
     why_it_matters: pickFirst(value.why_it_matters, value.whyItMatters, ""),
     source_file: value.source_file || "",
     updated_at: pickFirst(value.updated_at, value.generated_at, value.published_at, ""),
@@ -238,12 +267,14 @@ function sectionHasRealContent(section: any): boolean {
 
   const lists = [
     asList(section.key_storylines),
+    asList(section.key_data),
     asList(section.final_scores),
     asList(section.yesterday_final_scores),
     asList(section.today_live),
     asList(section.today_schedule),
     asList(section.advanced_watch),
     asList(section.story_angles),
+    asList(section.what_to_watch),
   ];
 
   const whyItMatters = asText(section.why_it_matters);
@@ -256,21 +287,39 @@ function sectionHasRealContent(section: any): boolean {
   );
 }
 
-function SectionList({ title, items }: { title: string; items: string[] }) {
-  if (!items.length) return null;
+function SectionList({
+  title,
+  items,
+  tone = "light",
+}: {
+  title: string;
+  items: string[];
+  tone?: "light" | "dark" | "red";
+}) {
+  const cleanItems = uniqueList(items).slice(0, 8);
+  if (!cleanItems.length) return null;
+
+  const boxClass =
+    tone === "dark"
+      ? "rounded-xl border border-neutral-800 bg-neutral-950 px-4 py-3 text-sm font-semibold leading-6 text-white"
+      : tone === "red"
+      ? "rounded-xl border border-red-800 bg-red-700 px-4 py-3 text-sm font-semibold leading-6 text-white"
+      : "rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-semibold leading-6 text-neutral-950";
+
+  const headingClass =
+    tone === "dark"
+      ? "mb-3 text-xs font-black uppercase tracking-[0.18em] text-red-400"
+      : tone === "red"
+      ? "mb-3 text-xs font-black uppercase tracking-[0.18em] text-white"
+      : "mb-3 text-xs font-black uppercase tracking-[0.18em] text-red-700";
 
   return (
     <div className="mt-5">
-      <h4 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-red-700">
-        {title}
-      </h4>
+      <h4 className={headingClass}>{title}</h4>
 
       <div className="space-y-2">
-        {items.slice(0, 8).map((item, index) => (
-          <div
-            key={`${title}-${index}`}
-            className="rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-semibold leading-6 text-neutral-950"
-          >
+        {cleanItems.map((item, index) => (
+          <div key={`${title}-${index}`} className={boxClass}>
             {item}
           </div>
         ))}
@@ -286,13 +335,26 @@ function ReportCard({ section }: { section: any }) {
   const updatedAt = asText(section.updated_at);
 
   const storylines = asList(section.key_storylines);
+  const explicitKeyData = asList(section.key_data);
   const finalScores = asList(section.final_scores);
   const yesterdayFinals = asList(section.yesterday_final_scores);
   const todayLive = asList(section.today_live);
   const todaySchedule = asList(section.today_schedule);
   const advancedWatch = asList(section.advanced_watch);
   const storyAngles = asList(section.story_angles);
+  const whatToWatch = asList(section.what_to_watch);
   const whyItMatters = asText(section.why_it_matters);
+
+  const keyData = uniqueList([
+    ...explicitKeyData,
+    ...yesterdayFinals,
+    ...finalScores,
+    ...todayLive,
+    ...todaySchedule,
+    ...storylines,
+  ]);
+
+  const watchItems = uniqueList([...whatToWatch, ...storyAngles]);
 
   if (!sectionHasRealContent(section)) return null;
 
@@ -322,13 +384,8 @@ function ReportCard({ section }: { section: any }) {
         </div>
       ) : null}
 
-      <SectionList title="Key Storylines" items={storylines} />
-      <SectionList title="Yesterday Final Scores" items={yesterdayFinals} />
-      <SectionList title="Final Scores" items={finalScores} />
-      <SectionList title="Today Live" items={todayLive} />
-      <SectionList title="Today Schedule" items={todaySchedule} />
+      <SectionList title="Key Data" items={keyData} />
       <SectionList title="Advanced Watch" items={advancedWatch} />
-      <SectionList title="Story Angles" items={storyAngles} />
 
       {whyItMatters ? (
         <div className="mt-5 rounded-2xl bg-neutral-950 p-4 text-white">
@@ -338,6 +395,8 @@ function ReportCard({ section }: { section: any }) {
           <p className="text-sm font-semibold leading-6">{whyItMatters}</p>
         </div>
       ) : null}
+
+      <SectionList title="What To Watch" items={watchItems} tone="red" />
     </article>
   );
 }
@@ -500,17 +559,17 @@ export default function Home() {
             ))
           )}
         </section>
+
         <EditorialStandard />
-        {/* GSR Sports Footer Descriptor */}
-<div className="mt-10 border-t border-neutral-800 pt-6 text-sm text-neutral-400">
-  <p>
-    © 2026 Global Sports Report. Built for journalists, by a journalist.
-  </p>
-  <p className="mt-2">
-    Global Sports Report delivers real-time scores, analytics, trends, and
-    journalist-ready insights across MLB, NBA, NFL, NHL, and global sports.
-  </p>
-</div>
+
+        <div className="mt-10 border-t border-neutral-800 pt-6 text-sm text-neutral-400">
+          <p>© 2026 Global Sports Report. Built for journalists, by a journalist.</p>
+          <p className="mt-2">
+            Global Sports Report delivers real-time scores, analytics, trends,
+            and journalist-ready insights across MLB, NBA, NFL, NHL, and global
+            sports.
+          </p>
+        </div>
       </div>
     </main>
   );
