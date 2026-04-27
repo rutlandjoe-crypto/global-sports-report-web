@@ -3,11 +3,11 @@
   "network": "GSR Network",
   "tagline": "Built for journalists, by a journalist.",
   "title": "Global Sports Report",
-  "headline": "No recent final scores were available during this report window",
+  "headline": "BOS rout PHI 128-96 as NBA board updates",
   "snapshot": "A live sports newsroom board built around current scores, schedules, analytics and story angles for working journalists.",
-  "updated_at": "2026-04-26 09:21:55 PM ET",
-  "published_at": "2026-04-26 09:21:55 PM ET",
-  "generated_at": "2026-04-26 09:21:55 PM ET",
+  "updated_at": "2026-04-26 09:54:00 PM ET",
+  "published_at": "2026-04-26 09:54:00 PM ET",
+  "generated_at": "2026-04-26 09:54:00 PM ET",
   "generated_date": "2026-04-26",
   "timezone": "America/New_York",
   "x_handle": "@GlobalSportsRp",
@@ -20,7 +20,7 @@
       "snapshot": "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.",
       "key_storylines": [
         "Major League Baseball's board is organized by completed results, live action, and today's remaining schedule.",
-        "14 yesterday finals, 15 today finals, 0 live, 2 scheduled.",
+        "14 yesterday finals, 16 today finals, 0 live, 1 scheduled.",
         "MLB REPORT | 2026-04-26",
         "HEADLINE",
         "SNAPSHOT"
@@ -65,14 +65,13 @@
         {
           "title": "Today Schedule",
           "items": [
-            "Colorado Rockies 0, New York Mets 0",
-            "Los Angeles Angels 9, Kansas City Royals 8"
+            "Colorado Rockies 0, New York Mets 0"
           ]
         },
         {
           "title": "Snapshot",
           "items": [
-            "14 yesterday finals, 15 today finals, 0 live, 2 scheduled."
+            "14 yesterday finals, 16 today finals, 0 live, 1 scheduled."
           ]
         },
         {
@@ -91,18 +90,18 @@
       "advanced": [],
       "source_file": "mlb_report.txt",
       "json_source_file": "mlb_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     },
     {
       "id": "nba",
       "title": "NBA",
-      "headline": "NBA board is organized by completed games, live action, and today's remaining schedule",
-      "snapshot": "NBA board is organized by completed games, live action, and today's remaining schedule.",
+      "headline": "BOS rout PHI 128-96 as NBA board updates",
+      "snapshot": "BOS rout PHI 128-96 as NBA board updates",
       "key_storylines": [
-        "NBA board is organized by completed games, live action, and today's remaining schedule.",
+        "BOS rout PHI 128-96 as NBA board updates",
         "NBA REPORT",
-        "2 finals, 0 live games, 2 upcoming.",
+        "3 today finals, 1 live, 0 scheduled.",
         "NBA REPORT | 2026-04-26",
         "HEADLINE"
       ],
@@ -111,20 +110,29 @@
           "title": "Final Scores",
           "items": [
             "CLE 89, TOR 93",
-            "SA 114, POR 93"
+            "SA 114, POR 93",
+            "BOS 128, PHI 96"
           ]
         },
         {
           "title": "Today Schedule",
           "items": [
-            "BOS 104, PHI 78",
-            "LAL 0, HOU 0"
+            "None"
+          ]
+        },
+        {
+          "title": "Key Storylines",
+          "items": [
+            "CLE 89, TOR 93",
+            "SA 114, POR 93",
+            "BOS 128, PHI 96",
+            "LIVE: LAL 0, HOU 0 — 11:58 - 1st Quarter"
           ]
         },
         {
           "title": "Snapshot",
           "items": [
-            "2 finals, 0 live games, 2 upcoming."
+            "3 today finals, 1 live, 0 scheduled."
           ]
         },
         {
@@ -136,13 +144,13 @@
         {
           "title": "Headline",
           "items": [
-            "NBA board is organized by completed games, live action, and today's remaining schedule."
+            "BOS rout PHI 128-96 as NBA board updates"
           ]
         },
         {
           "title": "Live Now",
           "items": [
-            "None"
+            "LAL 0, HOU 0 — 11:58 - 1st Quarter"
           ]
         },
         {
@@ -171,17 +179,17 @@
       ],
       "source_file": "nba_report.txt",
       "json_source_file": "nba_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     },
     {
       "id": "nhl",
       "title": "NHL",
-      "headline": "NHL board is organized by final scores, live games and remaining schedule",
-      "snapshot": "NHL board is organized by final scores, live games and remaining schedule.",
+      "headline": "COL rout LA 5-1 as NHL board updates",
+      "snapshot": "COL rout LA 5-1 as NHL board updates",
       "key_storylines": [
-        "NHL board is organized by final scores, live games and remaining schedule.",
-        "5 finals, 0 live, 2 scheduled.",
+        "COL rout LA 5-1 as NHL board updates",
+        "2 today finals, 1 live, 1 scheduled.",
         "NHL REPORT | 2026-04-26",
         "HEADLINE",
         "SNAPSHOT"
@@ -190,9 +198,6 @@
         {
           "title": "Final Scores",
           "items": [
-            "CAR 4, OTT 2",
-            "DAL 2, MIN 3",
-            "PIT 4, PHI 2",
             "BUF 6, BOS 1",
             "COL 5, LA 1"
           ]
@@ -200,14 +205,22 @@
         {
           "title": "Today Schedule",
           "items": [
-            "TB 1, MTL 2",
-            "EDM 0, ANA 0"
+            "EDM at ANA — 9:52 PM ET"
+          ]
+        },
+        {
+          "title": "Key Storylines",
+          "items": [
+            "BUF 6, BOS 1",
+            "COL 5, LA 1",
+            "LIVE: TB 3, MTL 2 — 2:33 - 3rd Period",
+            "UPCOMING: EDM at ANA — 9:52 PM ET"
           ]
         },
         {
           "title": "Snapshot",
           "items": [
-            "5 finals, 0 live, 2 scheduled."
+            "2 today finals, 1 live, 1 scheduled."
           ]
         },
         {
@@ -219,20 +232,20 @@
         {
           "title": "Headline",
           "items": [
-            "NHL board is organized by final scores, live games and remaining schedule."
+            "COL rout LA 5-1 as NHL board updates"
           ]
         },
         {
           "title": "Live Now",
           "items": [
-            "None"
+            "TB 3, MTL 2 — 2:33 - 3rd Period"
           ]
         }
       ],
       "advanced": [],
       "source_file": "nhl_report.txt",
       "json_source_file": "nhl_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     },
     {
@@ -288,7 +301,7 @@
       "advanced": [],
       "source_file": "nfl_report.txt",
       "json_source_file": "nfl_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     },
     {
@@ -575,265 +588,175 @@
       "advanced": [],
       "source_file": "ncaafb_report.txt",
       "json_source_file": "ncaafb_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     },
     {
       "id": "soccer",
       "title": "Soccer",
-      "headline": "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value a...",
-      "snapshot": "The cross-league board currently shows 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 same-day finals.",
+      "headline": "Real Salt Lake vs LA Galaxy headlines soccer finals board",
+      "snapshot": "Real Salt Lake vs LA Galaxy headlines soccer finals board",
       "key_storylines": [
-        "The cross-league board currently shows 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 same-day finals.",
-        "The cleanest soccer reporting value comes from separating yesterday results, live windows, upcoming fixtures, and completed same-day matches.",
-        "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value alongside top European leagues.",
-        "Active source: ESPN soccer fallback. Sportradar token detected: True.",
-        "Soccer's report window is active across Europe and the United States, with 1 live matches, 0 upcoming fixtures, 15 same-day finals, and 31 yesterday finals separated for newsroom use."
+        "Real Salt Lake vs LA Galaxy headlines soccer finals board",
+        "16 finals, 0 live, 0 scheduled",
+        "SOCCER REPORT | 2026-04-26",
+        "HEADLINE",
+        "SNAPSHOT"
       ],
       "blocks": [
         {
-          "title": "Recent Final Scores",
+          "title": "Final Scores",
           "items": [
-            "Bundesliga: Bremen 1, Stuttgart 1 - Final",
-            "Bundesliga: Freiburg 0, Dortmund 4 - Final",
-            "La Liga: Real Sociedad 3, Rayo 3 - Final",
-            "La Liga: Elche 2, Real Oviedo 1 - Final",
-            "La Liga: Sevilla 1, Osasuna 2 - Final",
-            "La Liga: Celta Vigo 1, Villarreal 2 - Final",
-            "Serie A: Sassuolo 0, Fiorentina 0 - Final",
-            "Serie A: Como 2, Genoa 0 - Final",
-            "Serie A: Inter Milan 2, Torino 2 - Final",
-            "Serie A: Juventus 0, Milan 0 - Final"
+            "Real Sociedad 3, Rayo Vallecano 3",
+            "Elche 2, Real Oviedo 1",
+            "Sevilla 1, Osasuna 2",
+            "Celta Vigo 1, Villarreal 2",
+            "Werder Bremen 1, VfB Stuttgart 1",
+            "SC Freiburg 0, Borussia Dortmund 4",
+            "Sassuolo 0, Fiorentina 0",
+            "Como 2, Genoa 0",
+            "Internazionale 2, Torino 2",
+            "Juventus 0, AC Milan 0"
           ]
         },
         {
-          "title": "Upcoming",
+          "title": "Today Schedule",
           "items": [
-            "No upcoming matches were available during this report window."
-          ]
-        },
-        {
-          "title": "Key Storylines",
-          "items": [
-            "The cross-league board currently shows 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 same-day finals.",
-            "The cleanest soccer reporting value comes from separating yesterday results, live windows, upcoming fixtures, and completed same-day matches.",
-            "European soccer and American soccer are kept in the same report view so MLS and USL can add same-day newsroom value alongside top European leagues.",
-            "Active source: ESPN soccer fallback. Sportradar token detected: True."
+            "None"
           ]
         },
         {
           "title": "Snapshot",
           "items": [
-            "Premier League: 5 yesterday finals, 0 live today, 0 upcoming today, and 0 finals already posted today.",
-            "Bundesliga: 6 yesterday finals, 0 live today, 0 upcoming today, and 2 finals already posted today.",
-            "La Liga: 4 yesterday finals, 0 live today, 0 upcoming today, and 4 finals already posted today.",
-            "Serie A: 3 yesterday finals, 0 live today, 0 upcoming today, and 4 finals already posted today.",
-            "Ligue 1: 3 yesterday finals, 0 live today, 0 upcoming today, and 5 finals already posted today.",
-            "MLS: 10 yesterday finals, 1 live today, 0 upcoming today, and 0 finals already posted today.",
-            "USL Championship: 0 yesterday finals, 0 live today, 0 upcoming today, and 0 finals already posted today."
+            "16 finals, 0 live, 0 scheduled"
           ]
         },
         {
           "title": "Report Notes",
           "items": [
-            "SOCCER PRO REPORT | 2026-04-26",
-            "Sportradar soccer lookup failed or was blocked: https://api. sportradar. com/soccer/trial/v 4/en/schedules/2026-04-26/schedule. json",
-            "Sportradar soccer lookup failed or was blocked: https://api. sportradar. us/soccer/trial/v 4/en/schedules/2026-04-26/schedule. json"
+            "SOCCER REPORT | 2026-04-26"
           ]
         },
         {
           "title": "Headline",
           "items": [
-            "Soccer's report window is active across Europe and the United States, with 1 live matches, 0 upcoming fixtures, 15 same-day finals, and 31 yesterday finals separated for newsroom use."
-          ]
-        },
-        {
-          "title": "Key Data Points",
-          "items": [
-            "Across the tracked leagues, the report currently captures 31 yesterday finals, 1 live matches, 0 upcoming fixtures, and 15 finals already logged today.",
-            "Primary soccer data layer: ESPN soccer fallback. Sportradar token detected: True.",
-            "The report keeps completed matches out of upcoming blocks so editors can quickly separate recap and preview work."
-          ]
-        },
-        {
-          "title": "Yesterday Results",
-          "items": [
-            "Aston Villa 0, Fulham 1 - Final",
-            "C Palace 1, Liverpool 3 - Final",
-            "Everton 1, West Ham 2 - Final",
-            "Spurs 1, Wolves 0 - Final",
-            "Newcastle 0, Arsenal 1 - Final",
-            "St. Pauli 0, Heidenheim 2 - Final",
-            "Frankfurt 1, Augsburg 1 - Final",
-            "Leverkusen 2, Cologne 1 - Final",
-            "Bayern 4, Mainz 3 - Final",
-            "Gladbach 0, Wolfsburg 0 - Final"
+            "Real Salt Lake vs LA Galaxy headlines soccer finals board"
           ]
         },
         {
           "title": "Live Now",
           "items": [
-            "No live matches were available during this report window.",
-            "Salt Lake 1, LA Galaxy 2 - 90'+6'"
-          ]
-        },
-        {
-          "title": "Today Results",
-          "items": [
-            "No matches had gone final yet on today's board during this report window.",
-            "Bremen 1, Stuttgart 1 - Final",
-            "Freiburg 0, Dortmund 4 - Final",
-            "Real Sociedad 3, Rayo 3 - Final",
-            "Elche 2, Real Oviedo 1 - Final",
-            "Sevilla 1, Osasuna 2 - Final",
-            "Celta Vigo 1, Villarreal 2 - Final",
-            "Sassuolo 0, Fiorentina 0 - Final",
-            "Como 2, Genoa 0 - Final",
-            "Inter Milan 2, Torino 2 - Final"
-          ]
-        },
-        {
-          "title": "Data Source",
-          "items": [
-            "Active source: ESPN soccer fallback",
-            "Source priority: Sportradar soccer first when endpoint access is available, ESPN fallback second.",
-            "Sportradar access level: trial"
-          ]
-        },
-        {
-          "title": "Disclaimer",
-          "items": [
-            "This report is an automated summary intended to support, not replace, human sports journalism."
+            "None"
           ]
         }
       ],
       "advanced": [],
       "source_file": "soccer_report.txt",
       "json_source_file": "soccer_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     },
     {
       "id": "betting_odds",
       "title": "Betting Odds",
-      "headline": "Betting odds feed unavailable",
-      "snapshot": "Odds feed unavailable during this run.",
+      "headline": "BETTING ODDS | 2026-04-26",
+      "snapshot": "BETTING ODDS | 2026-04-26",
       "key_storylines": [
-        "Odds feed unavailable during this run.",
-        "Pipeline completed safely without exposing any API token.",
-        "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable.",
-        "Betting odds feed unavailable.",
-        "BETTING ODDS WATCH"
+        "BETTING ODDS | 2026-04-26",
+        "NBA",
+        "Los Angeles Lakers at Houston Rockets � 9:43 PM ET | Los Angeles Lakers 2.5 (-120) / Houston Rockets -2.5 (-110) | 200.5 (O -115 / U -115)",
+        "Detroit Pistons at Orlando Magic � 8:10 PM ET | Detroit Pistons -2.5 (-112) / Orlando Magic 2.5 (-108) | 214.5 (O -108 / U -112)",
+        "Oklahoma City Thunder at Phoenix Suns � 9:40 PM ET | Oklahoma City Thunder -10.5 (-112) / Phoenix Suns 10.5 (-108) | 213.5 (O -110 / U -110)"
       ],
       "blocks": [
         {
-          "title": "Live",
+          "title": "Report Notes",
           "items": [
-            "No live games with betting context were available during this run."
+            "BETTING ODDS | 2026-04-26"
           ]
         },
         {
-          "title": "Upcoming",
+          "title": "Nba",
           "items": [
-            "No upcoming games with betting context were available during this run."
+            "Los Angeles Lakers at Houston Rockets � 9:43 PM ET | Los Angeles Lakers 2.5 (-120) / Houston Rockets -2.5 (-110) | 200.5 (O -115 / U -115)",
+            "Detroit Pistons at Orlando Magic � 8:10 PM ET | Detroit Pistons -2.5 (-112) / Orlando Magic 2.5 (-108) | 214.5 (O -108 / U -112)",
+            "Oklahoma City Thunder at Phoenix Suns � 9:40 PM ET | Oklahoma City Thunder -10.5 (-112) / Phoenix Suns 10.5 (-108) | 213.5 (O -110 / U -110)",
+            "Minnesota Timberwolves at Denver Nuggets � 10:40 PM ET | Minnesota Timberwolves 10.5 (-105) / Denver Nuggets -10.5 (-115) | 222.5 (O -108 / U -112)",
+            "Philadelphia 76ers at Boston Celtics � 7:10 PM ET | Philadelphia 76ers 11.5 (-106) / Boston Celtics -11.5 (-114) | 215.5 (O -110 / U -110)"
           ]
         },
         {
-          "title": "Snapshot",
+          "title": "Mlb",
           "items": [
-            "Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking."
+            "Tampa Bay Rays at Cleveland Guardians � 6:11 PM ET | Tampa Bay Rays 1.5 (-182) / Cleveland Guardians -1.5 (150) | 7.5 (O -110 / U -110)",
+            "St. Louis Cardinals at Pittsburgh Pirates � 6:41 PM ET | St. Louis Cardinals 1.5 (-205) / Pittsburgh Pirates -1.5 (168) | 8.5 (O 100 / U -122)",
+            "Boston Red Sox at Toronto Blue Jays � 7:08 PM ET | Boston Red Sox 1.5 (-196) / Toronto Blue Jays -1.5 (162) | 7.5 (O 104 / U -128)",
+            "Los Angeles Angels at Chicago White Sox � 7:40 PM ET | Los Angeles Angels -1.5 (129) / Chicago White Sox 1.5 (-156) | 9.5 (O 102 / U -122)",
+            "Seattle Mariners at Minnesota Twins � 7:41 PM ET | Seattle Mariners -1.5 (122) / Minnesota Twins 1.5 (-146) | 8.5 (O -106 / U -114)"
           ]
         },
         {
-          "title": "— Betting Odds Watch",
+          "title": "Nhl",
           "items": [
-            "Generated: 2026-04-26 09:11:12 PM ET"
+            "Tampa Bay Lightning at Montr�al Canadiens � 7:15 PM ET | Tampa Bay Lightning -1.5 (130) / Montr�al Canadiens 1.5 (-170) | 6.5 (O 154 / U -205)",
+            "Edmonton Oilers at Anaheim Ducks � 9:52 PM ET | Edmonton Oilers -1.5 (164) / Anaheim Ducks 1.5 (-205) | 7.5 (O 132 / U -162)",
+            "Philadelphia Flyers at Pittsburgh Penguins � 7:00 PM ET | Philadelphia Flyers 1.5 (-215) / Pittsburgh Penguins -1.5 (172) | 5.5 (O -120 / U -102)",
+            "Vegas Golden Knights at Utah Mammoth � 9:30 PM ET | Vegas Golden Knights -1.5 (205) / Utah Mammoth 1.5 (-265) | 5.5 (O -130 / U 106)",
+            "Boston Bruins at Buffalo Sabres � 7:40 PM ET | Boston Bruins 1.5 (-170) / Buffalo Sabres -1.5 (142) | 5.5 (O -130 / U 110)"
           ]
         },
         {
-          "title": "Headline",
+          "title": "Nfl",
           "items": [
-            "Betting odds feed unavailable."
-          ]
-        },
-        {
-          "title": "Key Betting Storylines",
-          "items": [
-            "Odds feed unavailable during this run.",
-            "Pipeline completed safely without exposing any API token.",
-            "Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable."
-          ]
-        },
-        {
-          "title": "Final",
-          "items": [
-            "No final games with betting context were available during this run."
-          ]
-        },
-        {
-          "title": "Market Board",
-          "items": [
-            "No betting markets available during this run."
-          ]
-        },
-        {
-          "title": "Data Note",
-          "items": [
-            "This report is generated for editorial monitoring and market-context purposes. It is not gambling advice."
+            "No NFL betting board available"
           ]
         }
       ],
       "advanced": [],
       "source_file": "betting_odds_report.txt",
       "json_source_file": "betting_odds_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     },
     {
       "id": "fantasy",
       "title": "Fantasy",
-      "headline": "MLB Athletics Athletics at Texas Rangers Final Texas Rangers vs",
-      "snapshot": "Final",
+      "headline": "Top fantasy performers and usage trends across the board",
+      "snapshot": "Fantasy basketball usage and production leaders",
       "key_storylines": [
-        "Final",
-        "9:33 - 4th",
-        "4/26 - 9:30 PM EDT",
-        "Final/10",
-        "Bot 10th"
+        "Fantasy basketball usage and production leaders",
+        "FANTASY SPORTS | 2026-04-26",
+        "HEADLINE",
+        "Top fantasy performers and usage trends across the board",
+        "KEY STORYLINES"
       ],
       "blocks": [
         {
-          "title": "Snapshot",
+          "title": "Key Storylines",
           "items": [
-            "A quick fantasy-focused scan of games, usage angles and lineup-monitoring items for journalists and fantasy editors."
+            "Nikola Jokic trending in usage",
+            "Luka Doncic high-volume scoring stretch",
+            "Jayson Tatum strong minutes load",
+            "Shai Gilgeous-Alexander elite production run"
+          ]
+        },
+        {
+          "title": "Report Notes",
+          "items": [
+            "FANTASY SPORTS | 2026-04-26"
           ]
         },
         {
           "title": "Headline",
           "items": [
-            "Fantasy watch board generated from live scoreboard context."
-          ]
-        },
-        {
-          "title": "Fantasy Watch Items",
-          "items": [
-            "NFL: Seattle Seahawks at New England Patriots",
-            "Status: Final",
-            "Angle: New England Patriots vs. Seattle Seahawks: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
-            "NBA: Cleveland Cavaliers at Toronto Raptors",
-            "Angle: Toronto Raptors vs. Cleveland Cavaliers: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
-            "NBA: San Antonio Spurs at Portland Trail Blazers",
-            "Angle: Portland Trail Blazers vs. San Antonio Spurs: Review box-score leaders, snap/usage clues and late-game roles before making waiver or lineup decisions.",
-            "NBA: Boston Celtics at Philadelphia 76ers",
-            "Status: 9:33 - 4th",
-            "Angle: Philadelphia 76ers vs. Boston Celtics: Live usage is worth tracking now, especially touches, targets, minutes, shot volume and bullpen role movement."
+            "Top fantasy performers and usage trends across the board"
           ]
         }
       ],
       "advanced": [],
       "source_file": "fantasy_report.txt",
       "json_source_file": "fantasy_report.json",
-      "updated_at": "2026-04-26 09:21:55 PM ET",
+      "updated_at": "2026-04-26 09:54:00 PM ET",
       "status": "active"
     }
   ],
