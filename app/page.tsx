@@ -23,6 +23,75 @@ const TOOLKIT = [
   ["Spotrac", "https://www.spotrac.com/"],
 ];
 
+const BAD_CONTENT_PHRASES = [
+  "source refresh",
+  "refresh needed",
+  "needed before publication",
+  "stale",
+  "blocked",
+  "strict mode",
+  "current-day update pending",
+  "feed checked",
+  "required date",
+  "rebuild distribution",
+  "bad or stale",
+  "not allowed onto the homepage",
+  "no verified data point attached yet",
+  "no current items available",
+];
+
+const WEAK_HEADLINE_PHRASES = [
+  "probable",
+  "probables",
+  "scheduled matchup",
+  "matchup available",
+  "current-day update pending",
+  "source refresh",
+  "refresh needed",
+];
+
+const RESULT_WORDS = [
+  "beat",
+  "beats",
+  "defeat",
+  "defeats",
+  "won",
+  "wins",
+  "final",
+  "rally",
+  "rallies",
+  "shutout",
+  "walk-off",
+  "walkoff",
+  "overtime",
+  "clinched",
+  "eliminated",
+];
+
+const NEWS_WORDS = [
+  "breaking",
+  "injury",
+  "injured",
+  "trade",
+  "traded",
+  "signs",
+  "signed",
+  "waived",
+  "released",
+  "suspended",
+  "suspension",
+  "fired",
+  "hired",
+  "coach",
+  "manager",
+  "contract",
+  "extension",
+  "draft",
+  "playoff",
+  "returns",
+  "ruled out",
+];
+
 function readReport(): AnyObj {
   try {
     const file = path.join(process.cwd(), "public", "latest_report.json");
@@ -35,11 +104,20 @@ function readReport(): AnyObj {
 
 function cleanText(value: any): string {
   if (value === null || value === undefined) return "";
-  if (Array.isArray(value)) return value.map(cleanText).filter(Boolean).join(" • ");
+
+  if (Array.isArray(value)) {
+    return value.map(cleanText).filter(Boolean).join(" • ");
+  }
+
   if (typeof value === "object") {
     return Object.values(value).map(cleanText).filter(Boolean).join(" • ");
   }
+
   return String(value).replace(/\s+/g, " ").trim();
+}
+
+function normalizeText(value: any): string {
+  return cleanText(value).toLowerCase();
 }
 
 function asList(value: any): string[] {
@@ -73,7 +151,9 @@ function asList(value: any): string[] {
     });
   }
 
-  if (typeof value === "object") return Object.values(value).map(cleanText).filter(Boolean);
+  if (typeof value === "object") {
+    return Object.values(value).map(cleanText).filter(Boolean);
+  }
 
   return cleanText(value)
     .split(/\n|•|\|/)
@@ -83,15 +163,161 @@ function asList(value: any): string[] {
 
 function unique(items: string[]): string[] {
   const seen = new Set<string>();
+
   return items
     .map((item) => item.replace(/\s+/g, " ").trim())
     .filter((item) => {
       if (!item) return false;
+
       const key = item.toLowerCase();
+
       if (seen.has(key)) return false;
+
       seen.add(key);
       return true;
     });
+}
+
+function isBadContent(value: any): boolean {
+  const text = normalizeText(value);
+
+  if (!text) return true;
+
+  return BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase));
+}
+
+function looksLikeScheduledMatchup(value: any): boolean {
+  const text = normalizeText(value);
+
+  if (!text) return false;
+
+  if (text.includes("probable") || text.includes("probables")) return true;
+  if (text.includes("scheduled matchup")) return true;
+  if (text.includes("matchup available")) return true;
+
+  const hasTime = /\b\d{1,2}:\d{2}\s*(am|pm)?\s*et\b/i.test(text);
+  const hasAt = /\s+at\s+/.test(text);
+  const hasVs = /\s+vs\.?\s+/.test(text) || /\s+v\.\s+/.test(text);
+
+  return hasTime && (hasAt || hasVs);
+}
+
+function isWeakHeadline(value: any): boolean {
+  const text = normalizeText(value);
+
+  if (!text) return true;
+
+  if (BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase))) return true;
+  if (WEAK_HEADLINE_PHRASES.some((phrase) => text.includes(phrase))) return true;
+  if (looksLikeScheduledMatchup(text)) return true;
+
+  return false;
+}
+
+function storyText(story: AnyObj): string {
+  return cleanText([
+    story.headline,
+    story.title,
+    story.name,
+    story.summary,
+    story.snapshot,
+    story.description,
+    story.league,
+    story.story_type,
+  ]);
+}
+
+function storyTitle(story: AnyObj, index: number): string {
+  return (
+    cleanText(story.headline) ||
+    cleanText(story.title) ||
+    cleanText(story.name) ||
+    cleanText(story.league) ||
+    `Sports Storyline ${index + 1}`
+  );
+}
+
+function storyUrl(story: AnyObj): string {
+  const url = cleanText(story.url) || cleanText(story.link) || cleanText(story.source_url);
+  return url.startsWith("http://") || url.startsWith("https://") ? url : "#";
+}
+
+function storySummary(story: AnyObj): string {
+  return (
+    cleanText(story.snapshot) ||
+    cleanText(story.summary) ||
+    cleanText(story.description) ||
+    cleanText(story.body) ||
+    "Sports development flagged for newsroom monitoring."
+  );
+}
+
+function storyLabel(story: AnyObj): string {
+  return cleanText(story.league) || cleanText(story.label) || "Sports Watch";
+}
+
+function storyType(story: AnyObj): string {
+  const explicit = normalizeText(story.story_type);
+
+  if (explicit) return explicit;
+
+  const text = normalizeText(storyText(story));
+
+  if (looksLikeScheduledMatchup(text)) return "schedule";
+
+  if (NEWS_WORDS.some((word) => text.includes(word))) return "news";
+
+  if (RESULT_WORDS.some((word) => text.includes(word))) return "result";
+
+  return "analysis";
+}
+
+function isPublishableStory(story: AnyObj): boolean {
+  if (!story || typeof story !== "object") return false;
+
+  const title = storyTitle(story, 0);
+  const summary = storySummary(story);
+  const text = `${title} ${summary} ${storyText(story)}`;
+
+  if (!title) return false;
+  if (isBadContent(text)) return false;
+
+  return true;
+}
+
+function storyScore(story: AnyObj): number {
+  const type = storyType(story);
+  const text = normalizeText(storyText(story));
+  let score = 0;
+
+  if (type === "news") score += 100;
+  else if (type === "result") score += 85;
+  else if (type === "analysis") score += 60;
+  else if (type === "schedule") score += 10;
+
+  if (NEWS_WORDS.some((word) => text.includes(word))) score += 20;
+  if (RESULT_WORDS.some((word) => text.includes(word))) score += 15;
+
+  if (storyUrl(story) !== "#") score += 8;
+
+  if (looksLikeScheduledMatchup(text)) score -= 80;
+  if (text.includes("probable") || text.includes("probables")) score -= 80;
+
+  return score;
+}
+
+function sortStories(stories: AnyObj[]): AnyObj[] {
+  return [...stories].sort((a, b) => {
+    const aType = storyType(a);
+    const bType = storyType(b);
+
+    const aSchedule = aType === "schedule" ? 1 : 0;
+    const bSchedule = bType === "schedule" ? 1 : 0;
+
+    if (aSchedule !== bSchedule) return aSchedule - bSchedule;
+
+    return storyScore(b) - storyScore(a);
+  });
 }
 
 function getStories(report: AnyObj): AnyObj[] {
@@ -103,12 +329,13 @@ function getStories(report: AnyObj): AnyObj[] {
     report.headlines ||
     report.items ||
     report.articles ||
-    report.sections ||
     [];
 
-  if (Array.isArray(candidates)) return candidates.filter(Boolean);
+  if (Array.isArray(candidates)) {
+    return candidates.filter((story) => story && typeof story === "object");
+  }
 
-  if (typeof candidates === "object") {
+  if (candidates && typeof candidates === "object") {
     return Object.entries(candidates).map(([key, value]: [string, any]) => {
       if (value && typeof value === "object") {
         return {
@@ -129,32 +356,45 @@ function getStories(report: AnyObj): AnyObj[] {
   return [];
 }
 
-function storyTitle(story: AnyObj, index: number): string {
-  return (
-    cleanText(story.headline) ||
-    cleanText(story.title) ||
-    cleanText(story.name) ||
-    cleanText(story.league) ||
-    `Sports Storyline ${index + 1}`
-  );
+function cleanSignals(items: string[]): string[] {
+  return unique(items)
+    .filter((item) => !isBadContent(item))
+    .filter((item) => !isWeakHeadline(item))
+    .slice(0, 6);
 }
 
-function storyUrl(story: AnyObj): string {
-  return cleanText(story.url) || cleanText(story.link) || cleanText(story.source_url) || "#";
+function pickStrongHeadline(stories: AnyObj[], fallback: string): string {
+  const sorted = sortStories(stories);
+
+  for (const story of sorted) {
+    const title = storyTitle(story, 0);
+
+    if (!isWeakHeadline(title) && !isBadContent(title)) {
+      return title;
+    }
+  }
+
+  for (const story of sorted) {
+    const title = storyTitle(story, 0);
+
+    if (!isBadContent(title)) {
+      return title;
+    }
+  }
+
+  return fallback;
 }
 
-function storySummary(story: AnyObj): string {
-  return (
-    cleanText(story.snapshot) ||
-    cleanText(story.summary) ||
-    cleanText(story.description) ||
-    cleanText(story.body) ||
-    "Sports development flagged for newsroom monitoring."
-  );
-}
+function buildBriefingItems(stories: AnyObj[], rawSignals: string[]): string[] {
+  const fromStories = sortStories(stories)
+    .filter((story) => storyType(story) !== "schedule")
+    .map((story) => {
+      const label = storyLabel(story);
+      const title = storyTitle(story, 0);
+      return `${label}: ${title}`;
+    });
 
-function storyLabel(story: AnyObj): string {
-  return cleanText(story.league) || cleanText(story.label) || "Sports Watch";
+  return cleanSignals([...fromStories, ...rawSignals]);
 }
 
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
@@ -169,10 +409,16 @@ function Block({ title, children }: { title: string; children: React.ReactNode }
 }
 
 function LineList({ items }: { items: string[] }) {
-  const safe = unique(items).slice(0, 8);
+  const safe = unique(items)
+    .filter((item) => !isBadContent(item))
+    .slice(0, 8);
 
   if (!safe.length) {
-    return <p className="text-sm leading-6 text-neutral-700">No current items available.</p>;
+    return (
+      <p className="text-sm leading-6 text-neutral-700">
+        Monitoring verified developments for the next clean newsroom update.
+      </p>
+    );
   }
 
   return (
@@ -187,7 +433,7 @@ function LineList({ items }: { items: string[] }) {
 }
 
 function NewsroomBriefing({ items }: { items: string[] }) {
-  const safe = unique(items).slice(0, 6);
+  const safe = cleanSignals(items);
 
   return (
     <div className="rounded-2xl border border-neutral-300 bg-white p-5 shadow-sm">
@@ -208,7 +454,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Monitoring scores, schedules, injuries, playoff races, betting movement and advanced performance signals.
+          Monitoring verified scores, injuries, playoff movement, roster changes and advanced performance signals.
         </p>
       )}
     </div>
@@ -230,14 +476,14 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
       story.metrics ||
       story.items ||
       blocks.key_data
-  );
+  ).filter((item) => !isBadContent(item));
 
   const why = asList(
     story.why_it_matters ||
       story.whyItMatters ||
       story.why ||
       blocks.why_it_matters
-  );
+  ).filter((item) => !isBadContent(item));
 
   const watch = asList(
     story.what_to_watch ||
@@ -246,7 +492,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
       blocks.what_to_watch ||
       story.story_angles ||
       blocks.story_angles
-  );
+  ).filter((item) => !isBadContent(item));
 
   return (
     <article className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
@@ -269,17 +515,29 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
       <div className="mt-4 grid gap-3 md:grid-cols-3">
         <div className="rounded-xl bg-neutral-50 p-3">
           <p className="mb-2 text-xs font-black uppercase text-neutral-600">Key Data</p>
-          <LineList items={keyData.length ? keyData : ["No verified data point attached yet."]} />
+          <LineList items={keyData.length ? keyData : [title]} />
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
           <p className="mb-2 text-xs font-black uppercase text-neutral-600">Why It Matters</p>
-          <LineList items={why.length ? why : ["This affects sports coverage priorities."]} />
+          <LineList
+            items={
+              why.length
+                ? why
+                : ["This development can affect coverage priorities, follow-up angles or newsroom planning."]
+            }
+          />
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
           <p className="mb-2 text-xs font-black uppercase text-neutral-600">What To Watch</p>
-          <LineList items={watch.length ? watch : ["Monitor the next score, matchup, injury note, metric shift or roster development."]} />
+          <LineList
+            items={
+              watch.length
+                ? watch
+                : ["Monitor confirmed reporting, next-game context, injury updates, standings movement or metric shifts."]
+            }
+          />
         </div>
       </div>
     </article>
@@ -289,16 +547,26 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 export default function Page() {
   const report = readReport();
 
-  const headline =
-    cleanText(report.headline) ||
-    cleanText(report.title) ||
-    "Sports Newsroom Watch: Today’s Board Under Review";
+  let stories = getStories(report).filter(isPublishableStory);
+  stories = sortStories(stories);
+
+  const rawSignals = asList(
+    report.key_storylines ||
+      report.keyStorylines ||
+      report.signals ||
+      report.toplines ||
+      report.takeaways
+  );
+
+  const fallbackHeadline =
+    "Global Sports Report: Live Sports Newsroom Board";
+
+  const headline = pickStrongHeadline(stories, fallbackHeadline);
 
   const snapshot =
-    cleanText(report.snapshot) ||
-    cleanText(report.summary) ||
-    cleanText(report.body) ||
-    "A live sports briefing built for journalists tracking scores, schedules, analytics, playoff races and story angles.";
+    cleanText(report.snapshot) && !isBadContent(report.snapshot)
+      ? cleanText(report.snapshot)
+      : "A live sports briefing built for journalists tracking verified scores, results, analytics, playoff races, injuries and story angles.";
 
   const updated =
     cleanText(report.updated_at) ||
@@ -306,29 +574,22 @@ export default function Page() {
     cleanText(report.published_at) ||
     "Update time unavailable";
 
-  let stories = getStories(report).filter((story) => story && typeof story === "object");
-
   if (!stories.length) {
     stories = [
       {
+        league: "Sports Watch",
         headline,
         summary: snapshot,
-        key_data: ["Latest sports report generated from the current board."],
-        why_it_matters: ["Editors need fast clarity across scores, schedules and live story movement."],
-        what_to_watch: ["Next result, matchup shift, injury note, playoff angle or advanced metric signal."],
+        key_data: ["Latest sports report generated from the current verified newsroom board."],
+        why_it_matters: ["Editors need fast clarity across scores, results, analytics and live story movement."],
+        what_to_watch: ["Next verified result, injury note, roster move, playoff angle or advanced metric signal."],
+        story_type: "analysis",
       },
     ];
   }
 
   const leadStories = stories.slice(0, 10);
-
-  const signals = asList(
-    report.key_storylines ||
-      report.keyStorylines ||
-      report.signals ||
-      report.toplines ||
-      report.takeaways
-  );
+  const briefingItems = buildBriefingItems(stories, rawSignals);
 
   return (
     <main className="min-h-screen bg-neutral-100 text-neutral-950">
@@ -359,12 +620,12 @@ export default function Page() {
 
           <NewsroomBriefing
             items={
-              signals.length
-                ? signals
+              briefingItems.length
+                ? briefingItems
                 : [
-                    "Track the strongest sports development on today’s board.",
-                    "Prioritize scores, schedules, matchup context and verified links.",
-                    "Watch advanced metrics, playoff movement, injuries and betting-market signals.",
+                    "Track the strongest verified sports development on today’s board.",
+                    "Prioritize results, injuries, playoff movement, roster news and verified links.",
+                    "Watch advanced metrics, standings shifts and late-breaking league updates.",
                     "Monitor league-by-league angles for reporters and editors.",
                   ]
             }
@@ -377,12 +638,12 @@ export default function Page() {
           <Block title="Editor Signals">
             <LineList
               items={
-                signals.length
-                  ? signals
+                briefingItems.length
+                  ? briefingItems
                   : [
-                      "Track the strongest sports development on today’s board.",
-                      "Prioritize verified scores, schedules and story angles.",
-                      "Watch injuries, playoff races, roster movement and advanced performance signals.",
+                      "Track the strongest verified sports development on today’s board.",
+                      "Prioritize results, injuries, playoff movement, roster news and verified links.",
+                      "Watch advanced metrics, standings shifts and late-breaking league updates.",
                     ]
               }
             />
@@ -408,9 +669,9 @@ export default function Page() {
             <LineList
               items={[
                 "Scoreboard: What result changes the day’s sports conversation?",
-                "Matchup: Which game creates the clearest reporter angle?",
-                "Performance: Which player or team metric deserves follow-up?",
-                "Context: What standings, playoff or roster angle matters?",
+                "News: What injury, roster, playoff or league development needs follow-up?",
+                "Performance: Which player or team metric deserves deeper reporting?",
+                "Context: What standings, playoff or roster angle matters most?",
                 "Newsroom: What should journalists verify next?",
               ]}
             />
