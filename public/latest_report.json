@@ -3,11 +3,21 @@
   "title": "Global Sports Report | 2026-04-28",
   "tagline": "Built for journalists, by a journalist.",
   "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-  "snapshot": "Tracking 16 priority stories across MLB, NBA, NHL, NFL, soccer, betting and fantasy coverage.",
-  "updated_at": "2026-04-28 10:07:03 AM ET",
-  "published_at": "2026-04-28 10:07:03 AM ET",
-  "generated_at": "2026-04-28 10:07:03 AM ET",
+  "snapshot": "Strict Mode tracking 16 verified homepage cards across MLB, NBA, NFL, NHL, soccer, betting and fantasy coverage.",
+  "updated_at": "2026-04-28 10:20:30 AM ET",
+  "published_at": "2026-04-28 10:20:30 AM ET",
+  "generated_at": "2026-04-28 10:20:30 AM ET",
   "generated_date": "2026-04-28",
+  "strict_mode": true,
+  "freshness_log": [
+    "MLB: fresh",
+    "NBA: fresh",
+    "NFL: stale-blocked",
+    "NHL: fresh",
+    "Soccer: fresh",
+    "Betting Odds: stale-blocked",
+    "Fantasy: stale-blocked"
+  ],
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
   "homepage_cards": [
@@ -19,9 +29,10 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
       "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
       "key_data": [
-        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-        "Probables: Payton Tolle vs. Trey Yesavage",
-        "Records: Boston Red Sox 12-17; Toronto Blue Jays 12-16"
+        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
+        "Toronto Blue Jays: Trey Yesavage",
+        "Probables: Payton Tolle vs.",
+        "Trey Yesavage"
       ],
       "why_it_matters": [
         "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -29,9 +40,10 @@
       "what_to_watch": [
         "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
       ],
-      "priority_score": 61,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 88,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
       "id": "mlb_13",
@@ -41,9 +53,10 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
       "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
       "key_data": [
-        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-        "Probables: Payton Tolle vs. Trey Yesavage",
-        "Records: Boston Red Sox 12-17; Toronto Blue Jays 12-16"
+        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
+        "Toronto Blue Jays: Trey Yesavage",
+        "Probables: Payton Tolle vs.",
+        "Trey Yesavage"
       ],
       "why_it_matters": [
         "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -51,9 +64,10 @@
       "what_to_watch": [
         "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
       ],
-      "priority_score": 61,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 88,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
       "id": "mlb_6",
@@ -63,9 +77,10 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
       "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
       "key_data": [
-        "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-        "Probables: Zack Littell vs. Clay Holmes",
-        "Records: Washington Nationals 13-16; New York Mets 9-19"
+        "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
+        "New York Mets: Clay Holmes",
+        "Probables: Zack Littell vs.",
+        "Clay Holmes"
       ],
       "why_it_matters": [
         "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -73,9 +88,10 @@
       "what_to_watch": [
         "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
       ],
-      "priority_score": 61,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 88,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
       "id": "mlb_14",
@@ -85,9 +101,10 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
       "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
       "key_data": [
-        "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-        "Probables: Zack Littell vs. Clay Holmes",
-        "Records: Washington Nationals 13-16; New York Mets 9-19"
+        "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
+        "New York Mets: Clay Holmes",
+        "Probables: Zack Littell vs.",
+        "Clay Holmes"
       ],
       "why_it_matters": [
         "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -95,141 +112,10 @@
       "what_to_watch": [
         "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
       ],
-      "priority_score": 61,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 88,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
-    },
-    {
-      "id": "mlb_2",
-      "league": "MLB",
-      "headline": "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815119",
-      "image": "sports-baseball-news-card-colorado-rockies-at-cincinnati-reds-6-40-pm-et-probables-colorado-rock",
-      "key_data": [
-        "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-        "Probables: Kyle Freeland vs. Chase Burns",
-        "Records: Colorado Rockies 13-16; Cincinnati Reds 18-10"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "priority_score": 43,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
-    },
-    {
-      "id": "mlb_10",
-      "league": "MLB",
-      "headline": "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815119",
-      "image": "sports-baseball-news-card-colorado-rockies-at-cincinnati-reds-6-40-pm-et-probables-colorado-rock",
-      "key_data": [
-        "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-        "Probables: Kyle Freeland vs. Chase Burns",
-        "Records: Colorado Rockies 13-16; Cincinnati Reds 18-10"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "priority_score": 43,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
-    },
-    {
-      "id": "mlb_7",
-      "league": "MLB",
-      "headline": "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815120",
-      "image": "sports-baseball-news-card-detroit-tigers-at-atlanta-braves-7-15-pm-et-probables-detroit-tigers-c",
-      "key_data": [
-        "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-        "Probables: Casey Mize vs. Martin Perez",
-        "Records: Detroit Tigers 15-14; Atlanta Braves 20-9"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "priority_score": 43,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
-    },
-    {
-      "id": "mlb_15",
-      "league": "MLB",
-      "headline": "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815120",
-      "image": "sports-baseball-news-card-detroit-tigers-at-atlanta-braves-7-15-pm-et-probables-detroit-tigers-c",
-      "key_data": [
-        "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-        "Probables: Casey Mize vs. Martin Perez",
-        "Records: Detroit Tigers 15-14; Atlanta Braves 20-9"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "priority_score": 43,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
-    },
-    {
-      "id": "mlb_1",
-      "league": "MLB",
-      "headline": "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815121",
-      "image": "sports-baseball-news-card-houston-astros-at-baltimore-orioles-6-35-pm-et-probables-houston-astro",
-      "key_data": [
-        "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-        "Probables: Kai-Wei Teng vs. Shane Baz",
-        "Records: Houston Astros 11-18; Baltimore Orioles 13-15"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "priority_score": 43,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
-    },
-    {
-      "id": "mlb_9",
-      "league": "MLB",
-      "headline": "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815121",
-      "image": "sports-baseball-news-card-houston-astros-at-baltimore-orioles-6-35-pm-et-probables-houston-astro",
-      "key_data": [
-        "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-        "Probables: Kai-Wei Teng vs. Shane Baz",
-        "Records: Houston Astros 11-18; Baltimore Orioles 13-15"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "priority_score": 43,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
       "id": "nba_2",
@@ -247,9 +133,10 @@
       "what_to_watch": [
         "Watch scoring runs, injuries, rotations and late-game execution."
       ],
-      "priority_score": 43,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
       "id": "nba_5",
@@ -267,9 +154,10 @@
       "what_to_watch": [
         "Watch scoring runs, injuries, rotations and late-game execution."
       ],
-      "priority_score": 43,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
       "id": "nba_0",
@@ -287,9 +175,10 @@
       "what_to_watch": [
         "Watch scoring runs, injuries, rotations and late-game execution."
       ],
-      "priority_score": 43,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
       "id": "nba_3",
@@ -307,59 +196,189 @@
       "what_to_watch": [
         "Watch scoring runs, injuries, rotations and late-game execution."
       ],
-      "priority_score": 43,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
-      "id": "nba_1",
-      "league": "NBA",
-      "headline": "Phoenix Suns beat Oklahoma City Thunder, 122-131",
-      "summary": "NBA game tracked for newsroom coverage.",
-      "url": "https://www.espn.com/nba/game/_/gameId/401869373",
-      "image": "sports-basketball-news-card-phoenix-suns-beat-oklahoma-city-thunder-122-131",
+      "id": "nfl_strict_refresh_needed",
+      "league": "NFL",
+      "headline": "NFL source refresh needed before publication",
+      "summary": "Strict Mode blocked stale NFL data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
+      "url": "#",
+      "image": "sports-football-news-card-nfl-source-refresh-needed-before-publication",
       "key_data": [
-        "Phoenix Suns beat Oklahoma City Thunder, 122-131"
+        "NFL stale data rejected",
+        "Required date: 2026-04-28 ET"
+      ],
+      "why_it_matters": [
+        "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
+      ],
+      "what_to_watch": [
+        "Run the NFL report script and rebuild distribution."
+      ],
+      "strict_mode_status": "stale_source_blocked",
+      "priority_score": 42,
+      "tier": 1,
+      "updated_at": "2026-04-28 10:20:30 AM ET"
+    },
+    {
+      "id": "nhl_0",
+      "league": "NHL",
+      "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
+      "key_data": [
+        "Pittsburgh Penguins beat Philadelphia Flyers, 3-2"
       ],
       "why_it_matters": [
         "Game impacts standings, playoff positioning and coverage priorities."
       ],
       "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution."
+        "Watch scoring runs, goalie performance and late-game execution."
       ],
-      "priority_score": 43,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     },
     {
-      "id": "nba_4",
-      "league": "NBA",
-      "headline": "Phoenix Suns beat Oklahoma City Thunder, 122-131",
-      "summary": "NBA game tracked for newsroom coverage.",
-      "url": "https://www.espn.com/nba/game/_/gameId/401869373",
-      "image": "sports-basketball-news-card-phoenix-suns-beat-oklahoma-city-thunder-122-131",
+      "id": "nhl_2",
+      "league": "NHL",
+      "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
+      "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
       "key_data": [
-        "Phoenix Suns beat Oklahoma City Thunder, 122-131"
+        "Pittsburgh Penguins beat Philadelphia Flyers, 3-2"
       ],
       "why_it_matters": [
         "Game impacts standings, playoff positioning and coverage priorities."
       ],
       "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution."
+        "Watch scoring runs, goalie performance and late-game execution."
       ],
-      "priority_score": 43,
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
       "tier": 1,
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET"
+    },
+    {
+      "id": "nhl_1",
+      "league": "NHL",
+      "headline": "Utah Mammoth beat Vegas Golden Knights, 4-5",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "image": "sports-hockey-news-card-utah-mammoth-beat-vegas-golden-knights-4-5",
+      "key_data": [
+        "Utah Mammoth beat Vegas Golden Knights, 4-5"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
+      "tier": 1,
+      "updated_at": "2026-04-28 10:20:30 AM ET"
+    },
+    {
+      "id": "nhl_3",
+      "league": "NHL",
+      "headline": "Utah Mammoth beat Vegas Golden Knights, 4-5",
+      "summary": "NHL game tracked for newsroom coverage.",
+      "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
+      "image": "sports-hockey-news-card-utah-mammoth-beat-vegas-golden-knights-4-5",
+      "key_data": [
+        "Utah Mammoth beat Vegas Golden Knights, 4-5"
+      ],
+      "why_it_matters": [
+        "Game impacts standings, playoff positioning and coverage priorities."
+      ],
+      "what_to_watch": [
+        "Watch scoring runs, goalie performance and late-game execution."
+      ],
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 45,
+      "tier": 1,
+      "updated_at": "2026-04-28 10:20:30 AM ET"
+    },
+    {
+      "id": "soccer_0",
+      "league": "Soccer",
+      "headline": "Burnley at Leeds United",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "url": "https://www.espn.com/soccer/match/_/gameId/740942",
+      "image": "sports-soccer-news-card-burnley-at-leeds-united",
+      "key_data": [
+        "Burnley at Leeds United"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 28,
+      "tier": 2,
+      "updated_at": "2026-04-28 10:20:30 AM ET"
+    },
+    {
+      "id": "soccer_11",
+      "league": "Soccer",
+      "headline": "Burnley at Leeds United",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "url": "https://www.espn.com/soccer/match/_/gameId/740942",
+      "image": "sports-soccer-news-card-burnley-at-leeds-united",
+      "key_data": [
+        "Burnley at Leeds United"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 28,
+      "tier": 2,
+      "updated_at": "2026-04-28 10:20:30 AM ET"
+    },
+    {
+      "id": "soccer_4",
+      "league": "Soccer",
+      "headline": "Lecce at Pisa",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "url": "https://www.espn.com/soccer/match/_/gameId/737126",
+      "image": "sports-soccer-news-card-lecce-at-pisa",
+      "key_data": [
+        "Lecce at Pisa"
+      ],
+      "why_it_matters": [
+        "Match impacts league standings, title races and coverage angles."
+      ],
+      "what_to_watch": [
+        "Watch goals, cards, substitutions and late-match swings."
+      ],
+      "strict_mode_status": "fresh_checked",
+      "priority_score": 28,
+      "tier": 2,
+      "updated_at": "2026-04-28 10:20:30 AM ET"
     }
   ],
   "key_storylines": [
     "MLB: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
     "NBA: Denver Nuggets beat Minnesota Timberwolves, 125-113",
+    "NFL: NFL source refresh needed before publication",
     "NHL: Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-    "NFL: SEA beat NE, 29-13",
     "Soccer: Burnley at Leeds United",
-    "Betting Odds: Betting Odds update",
-    "Fantasy: Fantasy basketball usage and production leaders"
+    "Betting Odds: Betting Odds source refresh needed before publication",
+    "Fantasy: Fantasy source refresh needed before publication"
   ],
   "sections": {
     "mlb": {
@@ -375,9 +394,10 @@
           "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
           "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
           "key_data": [
-            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-            "Probables: Payton Tolle vs. Trey Yesavage",
-            "Records: Boston Red Sox 12-17; Toronto Blue Jays 12-16"
+            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
+            "Toronto Blue Jays: Trey Yesavage",
+            "Probables: Payton Tolle vs.",
+            "Trey Yesavage"
           ],
           "why_it_matters": [
             "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -385,9 +405,10 @@
           "what_to_watch": [
             "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
           ],
-          "priority_score": 61,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 88,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "mlb_13",
@@ -397,9 +418,10 @@
           "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
           "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
           "key_data": [
-            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-            "Probables: Payton Tolle vs. Trey Yesavage",
-            "Records: Boston Red Sox 12-17; Toronto Blue Jays 12-16"
+            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
+            "Toronto Blue Jays: Trey Yesavage",
+            "Probables: Payton Tolle vs.",
+            "Trey Yesavage"
           ],
           "why_it_matters": [
             "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -407,9 +429,10 @@
           "what_to_watch": [
             "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
           ],
-          "priority_score": 61,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 88,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "mlb_6",
@@ -419,9 +442,10 @@
           "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
           "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
           "key_data": [
-            "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-            "Probables: Zack Littell vs. Clay Holmes",
-            "Records: Washington Nationals 13-16; New York Mets 9-19"
+            "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
+            "New York Mets: Clay Holmes",
+            "Probables: Zack Littell vs.",
+            "Clay Holmes"
           ],
           "why_it_matters": [
             "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -429,9 +453,10 @@
           "what_to_watch": [
             "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
           ],
-          "priority_score": 61,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 88,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "mlb_14",
@@ -441,9 +466,10 @@
           "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
           "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
           "key_data": [
-            "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-            "Probables: Zack Littell vs. Clay Holmes",
-            "Records: Washington Nationals 13-16; New York Mets 9-19"
+            "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
+            "New York Mets: Clay Holmes",
+            "Probables: Zack Littell vs.",
+            "Clay Holmes"
           ],
           "why_it_matters": [
             "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
@@ -451,144 +477,14 @@
           "what_to_watch": [
             "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
           ],
-          "priority_score": 61,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 88,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "mlb_2",
-          "league": "MLB",
-          "headline": "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815119",
-          "image": "sports-baseball-news-card-colorado-rockies-at-cincinnati-reds-6-40-pm-et-probables-colorado-rock",
-          "key_data": [
-            "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-            "Probables: Kyle Freeland vs. Chase Burns",
-            "Records: Colorado Rockies 13-16; Cincinnati Reds 18-10"
-          ],
-          "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-          ],
-          "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "mlb_10",
-          "league": "MLB",
-          "headline": "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815119",
-          "image": "sports-baseball-news-card-colorado-rockies-at-cincinnati-reds-6-40-pm-et-probables-colorado-rock",
-          "key_data": [
-            "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-            "Probables: Kyle Freeland vs. Chase Burns",
-            "Records: Colorado Rockies 13-16; Cincinnati Reds 18-10"
-          ],
-          "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-          ],
-          "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "mlb_7",
-          "league": "MLB",
-          "headline": "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815120",
-          "image": "sports-baseball-news-card-detroit-tigers-at-atlanta-braves-7-15-pm-et-probables-detroit-tigers-c",
-          "key_data": [
-            "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-            "Probables: Casey Mize vs. Martin Perez",
-            "Records: Detroit Tigers 15-14; Atlanta Braves 20-9"
-          ],
-          "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-          ],
-          "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "mlb_15",
-          "league": "MLB",
-          "headline": "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815120",
-          "image": "sports-baseball-news-card-detroit-tigers-at-atlanta-braves-7-15-pm-et-probables-detroit-tigers-c",
-          "key_data": [
-            "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-            "Probables: Casey Mize vs. Martin Perez",
-            "Records: Detroit Tigers 15-14; Atlanta Braves 20-9"
-          ],
-          "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-          ],
-          "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "mlb_1",
-          "league": "MLB",
-          "headline": "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815121",
-          "image": "sports-baseball-news-card-houston-astros-at-baltimore-orioles-6-35-pm-et-probables-houston-astro",
-          "key_data": [
-            "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-            "Probables: Kai-Wei Teng vs. Shane Baz",
-            "Records: Houston Astros 11-18; Baltimore Orioles 13-15"
-          ],
-          "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-          ],
-          "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "mlb_9",
-          "league": "MLB",
-          "headline": "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815121",
-          "image": "sports-baseball-news-card-houston-astros-at-baltimore-orioles-6-35-pm-et-probables-houston-astro",
-          "key_data": [
-            "Houston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz",
-            "Probables: Kai-Wei Teng vs. Shane Baz",
-            "Records: Houston Astros 11-18; Baltimore Orioles 13-15"
-          ],
-          "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-          ],
-          "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET",
+      "strict_mode": true
     },
     "nba": {
       "league": "NBA",
@@ -611,9 +507,10 @@
           "what_to_watch": [
             "Watch scoring runs, injuries, rotations and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "nba_5",
@@ -631,9 +528,10 @@
           "what_to_watch": [
             "Watch scoring runs, injuries, rotations and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "nba_0",
@@ -651,9 +549,10 @@
           "what_to_watch": [
             "Watch scoring runs, injuries, rotations and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "nba_3",
@@ -671,52 +570,45 @@
           "what_to_watch": [
             "Watch scoring runs, injuries, rotations and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "nba_1",
-          "league": "NBA",
-          "headline": "Phoenix Suns beat Oklahoma City Thunder, 122-131",
-          "summary": "NBA game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869373",
-          "image": "sports-basketball-news-card-phoenix-suns-beat-oklahoma-city-thunder-122-131",
-          "key_data": [
-            "Phoenix Suns beat Oklahoma City Thunder, 122-131"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "nba_4",
-          "league": "NBA",
-          "headline": "Phoenix Suns beat Oklahoma City Thunder, 122-131",
-          "summary": "NBA game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869373",
-          "image": "sports-basketball-news-card-phoenix-suns-beat-oklahoma-city-thunder-122-131",
-          "key_data": [
-            "Phoenix Suns beat Oklahoma City Thunder, 122-131"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution."
-          ],
-          "priority_score": 43,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET",
+      "strict_mode": true
+    },
+    "nfl": {
+      "league": "NFL",
+      "headline": "NFL source refresh needed before publication",
+      "snapshot": "1 NFL cards available.",
+      "cards": [
+        {
+          "id": "nfl_strict_refresh_needed",
+          "league": "NFL",
+          "headline": "NFL source refresh needed before publication",
+          "summary": "Strict Mode blocked stale NFL data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
+          "url": "#",
+          "image": "sports-football-news-card-nfl-source-refresh-needed-before-publication",
+          "key_data": [
+            "NFL stale data rejected",
+            "Required date: 2026-04-28 ET"
+          ],
+          "why_it_matters": [
+            "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
+          ],
+          "what_to_watch": [
+            "Run the NFL report script and rebuild distribution."
+          ],
+          "strict_mode_status": "stale_source_blocked",
+          "priority_score": 42,
+          "tier": 1,
+          "updated_at": "2026-04-28 10:20:30 AM ET"
+        }
+      ],
+      "updated_at": "2026-04-28 10:20:30 AM ET",
+      "strict_mode": true
     },
     "nhl": {
       "league": "NHL",
@@ -739,9 +631,10 @@
           "what_to_watch": [
             "Watch scoring runs, goalie performance and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "nhl_2",
@@ -759,9 +652,10 @@
           "what_to_watch": [
             "Watch scoring runs, goalie performance and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "nhl_1",
@@ -779,9 +673,10 @@
           "what_to_watch": [
             "Watch scoring runs, goalie performance and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "nhl_3",
@@ -799,60 +694,14 @@
           "what_to_watch": [
             "Watch scoring runs, goalie performance and late-game execution."
           ],
-          "priority_score": 43,
+          "strict_mode_status": "fresh_checked",
+          "priority_score": 45,
           "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:07:03 AM ET"
-    },
-    "nfl": {
-      "league": "NFL",
-      "headline": "SEA beat NE, 29-13",
-      "snapshot": "1 NFL cards available.",
-      "cards": [
-        {
-          "id": "nfl_0",
-          "league": "NFL",
-          "headline": "SEA beat NE, 29-13",
-          "summary": "NFL game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
-          "image": "sports-football-news-card-sea-beat-ne-29-13",
-          "key_data": [
-            "SEA beat NE, 29-13"
-          ],
-          "why_it_matters": [
-            "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
-          ],
-          "what_to_watch": [
-            "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
-          ],
-          "priority_score": 38,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "nfl_1",
-          "league": "NFL",
-          "headline": "SEA beat NE, 29-13",
-          "summary": "NFL game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nfl/game/_/gameId/401772988",
-          "image": "sports-football-news-card-sea-beat-ne-29-13",
-          "key_data": [
-            "SEA beat NE, 29-13"
-          ],
-          "why_it_matters": [
-            "NFL games affect standings, playoff positioning, roster evaluation and coverage priorities."
-          ],
-          "what_to_watch": [
-            "Watch quarterback play, injuries, turnovers, fourth-down choices and late-game decisions."
-          ],
-          "priority_score": 38,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET",
+      "strict_mode": true
     },
     "soccer": {
       "league": "Soccer",
@@ -875,9 +724,10 @@
           "what_to_watch": [
             "Watch goals, cards, substitutions and late-match swings."
           ],
+          "strict_mode_status": "fresh_checked",
           "priority_score": 28,
           "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "soccer_11",
@@ -895,9 +745,10 @@
           "what_to_watch": [
             "Watch goals, cards, substitutions and late-match swings."
           ],
+          "strict_mode_status": "fresh_checked",
           "priority_score": 28,
           "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "soccer_4",
@@ -915,9 +766,10 @@
           "what_to_watch": [
             "Watch goals, cards, substitutions and late-match swings."
           ],
+          "strict_mode_status": "fresh_checked",
           "priority_score": 28,
           "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         },
         {
           "id": "soccer_15",
@@ -935,188 +787,76 @@
           "what_to_watch": [
             "Watch goals, cards, substitutions and late-match swings."
           ],
+          "strict_mode_status": "fresh_checked",
           "priority_score": 28,
           "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "soccer_7",
-          "league": "Soccer",
-          "headline": "Lille 1, Paris FC 0",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746688",
-          "image": "sports-soccer-news-card-lille-1-paris-fc-0",
-          "key_data": [
-            "Lille 1, Paris FC 0"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
-          ],
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "soccer_18",
-          "league": "Soccer",
-          "headline": "Lille 1, Paris FC 0",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746688",
-          "image": "sports-soccer-news-card-lille-1-paris-fc-0",
-          "key_data": [
-            "Lille 1, Paris FC 0"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
-          ],
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "soccer_1",
-          "league": "Soccer",
-          "headline": "Mallorca at Girona",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/748476",
-          "image": "sports-soccer-news-card-mallorca-at-girona",
-          "key_data": [
-            "Mallorca at Girona"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
-          ],
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "soccer_12",
-          "league": "Soccer",
-          "headline": "Mallorca at Girona",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/748476",
-          "image": "sports-soccer-news-card-mallorca-at-girona",
-          "key_data": [
-            "Mallorca at Girona"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
-          ],
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "soccer_6",
-          "league": "Soccer",
-          "headline": "Metz 4, Le Havre AC 4",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746684",
-          "image": "sports-soccer-news-card-metz-4-le-havre-ac-4",
-          "key_data": [
-            "Metz 4, Le Havre AC 4"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
-          ],
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
-        },
-        {
-          "id": "soccer_17",
-          "league": "Soccer",
-          "headline": "Metz 4, Le Havre AC 4",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746684",
-          "image": "sports-soccer-news-card-metz-4-le-havre-ac-4",
-          "key_data": [
-            "Metz 4, Le Havre AC 4"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
-          ],
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET",
+      "strict_mode": true
     },
     "betting_odds": {
       "league": "Betting Odds",
-      "headline": "Betting Odds update",
-      "snapshot": "Betting Odds newsroom card built from latest available feed.",
+      "headline": "Betting Odds source refresh needed before publication",
+      "snapshot": "Betting Odds newsroom card built from latest verified feed.",
       "cards": [
         {
-          "id": "betting_odds_fallback",
+          "id": "betting_odds_strict_refresh_needed",
           "league": "Betting Odds",
-          "headline": "Betting Odds update",
-          "summary": "Latest Betting Odds reporting snapshot.",
+          "headline": "Betting Odds source refresh needed before publication",
+          "summary": "Strict Mode blocked stale Betting Odds data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
           "url": "#",
-          "image": "sports-betting-odds-card-betting-odds-update",
+          "image": "sports-betting-odds-card-betting-odds-source-refresh-needed-before-publication",
           "key_data": [
-            "Betting Odds update"
+            "Betting Odds stale data rejected",
+            "Required date: 2026-04-28 ET"
           ],
           "why_it_matters": [
-            "Betting Odds remains part of the daily GSR newsroom board."
+            "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
           ],
           "what_to_watch": [
-            "Watch for the next verified Betting Odds update."
+            "Run the Betting Odds report script and rebuild distribution."
           ],
-          "priority_score": 25,
+          "strict_mode_status": "stale_source_blocked",
+          "priority_score": 30,
           "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET",
+      "strict_mode": true
     },
     "fantasy": {
       "league": "Fantasy",
-      "headline": "Fantasy basketball usage and production leaders",
-      "snapshot": "Fantasy newsroom card built from latest available feed.",
+      "headline": "Fantasy source refresh needed before publication",
+      "snapshot": "Fantasy newsroom card built from latest verified feed.",
       "cards": [
         {
-          "id": "fantasy_fallback",
+          "id": "fantasy_strict_refresh_needed",
           "league": "Fantasy",
-          "headline": "Fantasy basketball usage and production leaders",
-          "summary": "Latest Fantasy reporting snapshot.",
+          "headline": "Fantasy source refresh needed before publication",
+          "summary": "Strict Mode blocked stale Fantasy data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
           "url": "#",
-          "image": "sports-fantasy-news-card-fantasy-basketball-usage-and-production-leaders",
+          "image": "sports-fantasy-news-card-fantasy-source-refresh-needed-before-publication",
           "key_data": [
-            "Fantasy basketball usage and production leaders"
+            "Fantasy stale data rejected",
+            "Required date: 2026-04-28 ET"
           ],
           "why_it_matters": [
-            "Fantasy remains part of the daily GSR newsroom board."
+            "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
           ],
           "what_to_watch": [
-            "Watch for the next verified Fantasy update."
+            "Run the Fantasy report script and rebuild distribution."
           ],
-          "priority_score": 5,
+          "strict_mode_status": "stale_source_blocked",
+          "priority_score": 30,
           "tier": 2,
-          "updated_at": "2026-04-28 10:07:03 AM ET"
+          "updated_at": "2026-04-28 10:20:30 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:07:03 AM ET"
+      "updated_at": "2026-04-28 10:20:30 AM ET",
+      "strict_mode": true
     }
   },
   "journalist_toolkit": [
