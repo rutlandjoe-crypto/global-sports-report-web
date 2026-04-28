@@ -1,699 +1,293 @@
 {
-  "site": "global_sports_report",
-  "title": "Global Sports Report | 2026-04-28",
+  "title": "Global Sports Report",
+  "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-  "snapshot": "Tracking 9 publishable sports newsroom cards: 0 news, 5 results, 4 analysis, 0 schedule. Editorial validation, stale-source suppression and clean one-line card formatting are active.",
-  "updated_at": "2026-04-28 11:47:51 AM ET",
-  "published_at": "2026-04-28 11:47:51 AM ET",
-  "generated_at": "2026-04-28 11:47:51 AM ET",
-  "generated_date": "2026-04-28",
-  "strict_mode": true,
-  "freshness_log": [
-    "MLB: fresh",
-    "NBA: fresh",
-    "NFL: stale-suppressed",
-    "NHL: fresh",
-    "Soccer: fresh",
-    "Betting Odds: stale-suppressed",
-    "Fantasy: stale-suppressed"
+  "headline": "NCAAFB REPORT | 2026-04-26",
+  "snapshot": "HEADLINE NFL: SEA beat NE, 29-13 MLB: Tampa Bay Rays at Cleveland Guardians leads remaining MLB schedule NBA: Orlando Magic beat Detroit Pistons, 94-88",
+  "key_storylines": [
+    "College Football: NCAAFB REPORT | 2026-04-26",
+    "NFL: SEA beat NE, 29-13",
+    "MLB: Tampa Bay Rays at Cleveland Guardians leads remaining MLB schedule",
+    "NBA: Orlando Magic beat Detroit Pistons, 94-88",
+    "NHL: Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
+    "Global Soccer: Burnley at Leeds United"
   ],
-  "urgent_story": {
-    "active": true,
-    "league": "NBA",
-    "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-    "summary": "Denver Nuggets beat Minnesota Timberwolves by 12. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-    "url": "https://www.espn.com/nba/game/_/gameId/401869401",
-    "published_at": "2026-04-28 11:47:52 AM ET",
-    "urgency_score": 135,
-    "why_it_matters": [
-      "Game impacts standings, playoff positioning and coverage priorities.",
-      "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-      "Denver Nuggets gets the result"
-    ]
-  },
-  "x_handle": "@GlobalSportsRp",
-  "substack_url": "https://globalsportsreport.substack.com/",
-  "homepage_cards": [
+  "lead_section": "ncaafb",
+  "lead_story_type": "manager_coach",
+  "sections": [
     {
-      "id": "nba_2",
-      "league": "NBA",
-      "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-      "summary": "Denver Nuggets beat Minnesota Timberwolves by 12. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-      "url": "https://www.espn.com/nba/game/_/gameId/401869401",
-      "image": "sports-basketball-news-card-denver-nuggets-beat-minnesota-timberwolves-125-113",
-      "key_data": [
-        "Final: Denver Nuggets 125, Minnesota Timberwolves 113",
-        "Margin: 12 points"
+      "key": "ncaafb",
+      "title": "College Football",
+      "headline": "NCAAFB REPORT | 2026-04-26",
+      "snapshot": "HEADLINE",
+      "key_storylines": [
+        "NCAAFB REPORT | 2026-04-26",
+        "HEADLINE",
+        "The college football report window is built around conference-by-conference team context, with current conference structure, schedule movement, coaching inventory, and news all driving the strongest angles.",
+        "SNAPSHOT",
+        "The report currently tracks 113 teams across 11 conference buckets.",
+        "The reporting window currently shows 0 finals from yesterday, 0 live games today, 0 upcoming games today, and 0 finals already posted today.",
+        "Active scoreboard source: ESPN college football fallback."
       ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities.",
-        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-        "Denver Nuggets gets the result"
+        "College Football leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "College Football final results help frame momentum, standings pressure and follow-up coverage."
       ],
-      "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution.",
-        "Check official box score leaders, injury notes and coach/player availability.",
-        "Look for standings movement, playoff implications and next-game matchup changes."
+      "story_angles": [
+        "What changed inside the organization?",
+        "Who are the realistic replacement candidates?",
+        "How does this affect the locker room or clubhouse timeline?",
+        "Which transfer portal or recruiting signal matters?",
+        "Which conference race storyline has national implications?"
       ],
-      "story_type": "result",
-      "priority_score": 126,
-      "urgency_score": 135,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
+      "priority_score": 107,
+      "story_type": "manager_coach",
+      "content": "NCAAFB REPORT | 2026-04-26\n\nHEADLINE\nThe college football report window is built around conference-by-conference team context, with current conference structure, schedule movement, coaching inventory, and news all driving the strongest angles.\n\nSNAPSHOT\n- The report currently tracks 113 teams across 11 conference buckets.\n- The reporting window currently shows 0 finals from yesterday, 0 live games today, 0 upcoming games today, and 0 finals already posted today.\n- Active scoreboard source: ESPN college football fallback.\n\nKEY DATA POINTS\n- The cleanest college football reporting value in this window comes from separating 0 yesterday finals from 0 live and 0 upcoming games on today's board.\n- Today's scoreboard also already contains 0 final entries, which keeps completed same - day results distinct from games still ahead.\n- Primary scoreboard layer: ESPN college football fallback. Sportradar token detected: True.\n- SEC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.\n- ACC: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.\n- Big Ten: 12 teams tracked, 0 with record context, 0 with identified head coach context, and 0 with key - player context.\n- News note: Monte Coleman, ex - Washington LB and UAPB coach, dies at 68 - Monte Coleman, the hard - nosed linebacker who won three Super Bowls with Washington and later coached Arkansas - Pine Bluff to a conference championship, has died. He was 68.\n\nWHY IT MATTERS\n- Conference - wide reporting matters more in college football because team identity is shaped not only by last season's record, but also by coaching continuity, roster turnover, and league structure.\n- A clean morning - style reporting window keeps completed results from bleeding into today's live and upcoming board, which makes the file more useful for both recap and preview work.\n- Coach context and conference inventory make the report more useful for previews, offseason files, and broad league framing than a scoreboard - only shell.\n\nSTORY ANGLES\n- The clearest national story line still runs through how the SEC, Big Ten, Big 12, and ACC stack up against the rest of the FBS structure in depth, continuity, and preseason profile.\n\nRANKINGS CONTEXT\nNo rankings context was available during this report window.\n\nPLAYER MOVES\nNo player-move context was available during this report window.\n\nNEWS\n- Monte Coleman, ex - Washington LB and UAPB coach, dies at 68 - Monte Coleman, the hard - nosed linebacker who won three Super Bowls with Washington and later coached Arkansas - Pine Bluff to a conference championship, has died. He was 68.\n- How every 2027 five - star college football prospect will fit - There are 21 five - star players in the class and we scout each one's game for the next level.\n- Texas A&M lands third 2027 five - star in OT Kennedy Brown - Texas A&M landed its third five - star recruit in the 2027 cycle in offensive tackle Kennedy Brown, No. 5 in the SC Next 300.\n- Recapping a historic NFL Draft with a record 87 SEC players selected - The SEC has now led the NFL Draft in players selected for the 20th straight season as star players from around the league get scooped up on the final day.\n- 2026 NFL draft: Judging overreactions to picks, team classes - It's time to weigh in on the biggest overreactions of NFL draft weekend, from Jeremiyah Love's fit to the Eagles' position in the NFC East.\n- Evaluating SEC studs LSU's Delane, Bama's Simpson NFL selection - Marty & McGee explains their love for Mansoor Delane, explaining how high they are on his skills and discuss Ty Simpson's potential, highlighting his IQ and arm talent.\n- Elijah Haven, No. 1 overall 2027 QB, chooses Alabama - Alabama secured the No. 1 overall quarterback in the Class of 2027, gaining a commitment from five - star passer Elijah Haven, a 6 - foot - 5, 220 - pound prospect from Baton Rouge, Louisiana.\n- Auburn lands four - star RB Myson Johnson - Cook - Auburn secured a commitment from four - star running back recruit Myson Johnson - Cook, beating out Miami.\n\nRECENT FINAL SCORES\nNo recent final scores were available during this report window.\n\nACC\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Boston College Eagles\n- California Golden Bears\n- Clemson Tigers\n- Duke Blue Devils\n- Florida State Seminoles\n- Georgia Tech Yellow Jackets\n- Louisville Cardinals\n- Miami Hurricanes\n- NC State Wolfpack\n- North Carolina Tar Heels\n- Pittsburgh Panthers\n- SMU Mustangs\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nAMERICAN\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Army Black Knights\n- Charlotte 49ers\n- East Carolina Pirates\n- Florida Atlantic Owls\n- Memphis Tigers\n- Navy Midshipmen\n- North Texas Mean Green\n- Rice Owls\n- South Florida Bulls\n- Temple Owls\n- Tulane Green Wave\n- Tulsa Golden Hurricane\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nBIG 12\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Arizona State Sun Devils\n- Arizona Wildcats\n- Baylor Bears\n- BYU Cougars\n- Cincinnati Bearcats\n- Colorado Buffaloes\n- Houston Cougars\n- Iowa State Cyclones\n- Kansas Jayhawks\n- Kansas State Wildcats\n- Oklahoma State Cowboys\n- TCU Horned Frogs\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nBIG TEN\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Illinois Fighting Illini\n- Indiana Hoosiers\n- Iowa Hawkeyes\n- Maryland Terrapins\n- Michigan State Spartans\n- Michigan Wolverines\n- Minnesota Golden Gophers\n- Nebraska Cornhuskers\n- Northwestern Wildcats\n- Ohio State Buckeyes\n- Oregon Ducks\n- Penn State Nittany Lions\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nCONFERENCE USA\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Delaware Blue Hens\n- Florida International Panthers\n- Jacksonville State Gamecocks\n- Kennesaw State Owls\n- Liberty Flames\n- Louisiana Tech Bulldogs\n- Middle Tennessee Blue Raiders\n- Missouri State Bears\n- New Mexico State Aggies\n- Sam Houston Bearkats\n- UTEP Miners\n- Western Kentucky Hilltoppers\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nFBS INDEPENDENTS\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Connecticut Huskies\n- Massachusetts Minutemen\n- Notre Dame Fighting Irish\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nMAC\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Akron Zips\n- Ball State Cardinals\n- Bowling Green Falcons\n- Buffalo Bulls\n- Central Michigan Chippewas\n- Eastern Michigan Eagles\n- Kent State Golden Flashes\n- Miami (OH) RedHawks\n- Northern Illinois Huskies\n- Ohio Bobcats\n- Toledo Rockets\n- Western Michigan Broncos\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nMOUNTAIN WEST\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Air Force Falcons\n- Boise State Broncos\n- Colorado State Rams\n- Fresno State Bulldogs\n- Hawai'i Rainbow Warriors\n- Nevada Wolf Pack\n- New Mexico Lobos\n- San Diego State Aztecs\n- San José State Spartans\n- UNLV Rebels\n- Utah State Aggies\n- Wyoming Cowboys\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nPAC-12\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Oregon State Beavers\n- Washington State Cougars\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nSEC\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- Alabama Crimson Tide\n- Arkansas Razorbacks\n- Auburn Tigers\n- Florida Gators\n- Georgia Bulldogs\n- Kentucky Wildcats\n- LSU Tigers\n- Mississippi State Bulldogs\n- Missouri Tigers\n- Oklahoma Sooners\n- Ole Miss Rebels\n- South Carolina Gamecocks\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nSUN BELT\n\nTEAM / RECORD / COACH / KEY PLAYER CONTEXT\n- App State Mountaineers\n- Arkansas State Red Wolves\n- Coastal Carolina Chanticleers\n- Georgia Southern Eagles\n- Georgia State Panthers\n- James Madison Dukes\n- Louisiana Ragin' Cajuns\n- Marshall Thundering Herd\n- Old Dominion Monarchs\n- South Alabama Jaguars\n- Southern Miss Golden Eagles\n- Texas State Bobcats\n\nYESTERDAY RESULTS\nNo results from yesterday were available during this report window.\n\nLIVE\nNo games are currently in progress.\n\nUPCOMING\nNo upcoming games were scheduled.\n\nTODAY RESULTS\nNo games had gone final yet on today's board during this report window.\n\nDATA SOURCE\n- Active scoreboard source: ESPN college football fallback\n- Source priority: Sportradar NCAAFB v7 daily/weekly schedule first, ESPN college football scoreboard fallback second.\n- Sportradar token detected: True\n- Sportradar season/week configuration: 2025 REG Week 01\n\nDISCLAIMER\nThis report is an automated summary intended to support, not replace, human sports journalism.\n\nUPDATED\n2026-04-26 09:11:36 PM ET",
+      "updated_at": "2026-04-26 09:11:36 PM ET",
+      "source_file": ""
     },
     {
-      "id": "nba_1",
-      "league": "NBA",
-      "headline": "Oklahoma City Thunder beat Phoenix Suns, 131-122",
-      "summary": "Oklahoma City Thunder beat Phoenix Suns by 9. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-      "url": "https://www.espn.com/nba/game/_/gameId/401869373",
-      "image": "sports-basketball-news-card-oklahoma-city-thunder-beat-phoenix-suns-131-122",
-      "key_data": [
-        "Final: Oklahoma City Thunder 131, Phoenix Suns 122",
-        "Margin: 9 points"
+      "key": "nfl",
+      "title": "NFL",
+      "headline": "SEA beat NE, 29-13",
+      "snapshot": "1 NFL cards available.",
+      "key_storylines": [
+        "NFL REPORT | 2026-04-27",
+        "HEADLINE",
+        "SEA beat NE, 29-13",
+        "SNAPSHOT",
+        "NFL cards available.",
+        "LIVE DRAFT PICKS",
+        "None"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "SEA beat NE, 29-13"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities.",
-        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-        "Oklahoma City Thunder gets the result"
+        "NFL coverage is driven by schedule movement, roster construction, quarterback play, injuries and high-leverage decisions."
       ],
-      "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution.",
-        "Check official box score leaders, injury notes and coach/player availability.",
-        "Look for standings movement, playoff implications and next-game matchup changes."
+      "story_angles": [
+        "Monitor the next game window, injury note, quarterback update, draft signal or roster move."
       ],
-      "story_type": "result",
-      "priority_score": 126,
-      "urgency_score": 135,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
+      "priority_score": 96,
+      "story_type": "draft",
+      "content": "NFL REPORT | 2026-04-27\n\nHEADLINE\nSEA beat NE, 29-13\n\nSNAPSHOT\n1 NFL cards available.\n\nLIVE DRAFT PICKS\n- None\n\nROUND 1 PICKS\n- None\n\nNFL SCHEDULE\nSEA beat NE, 29-13\n\nWHY IT MATTERS\nNFL coverage is driven by schedule movement, roster construction, quarterback play, injuries and high-leverage decisions.\n\nWHAT TO WATCH\nMonitor the next game window, injury note, quarterback update, draft signal or roster move.\n\nUPDATED\n2026-04-27 04:54:37 PM ET",
+      "updated_at": "2026-04-27 04:54:37 PM ET",
+      "source_file": ""
     },
     {
-      "id": "nba_0",
-      "league": "NBA",
+      "key": "mlb",
+      "title": "MLB",
+      "headline": "Tampa Bay Rays at Cleveland Guardians leads remaining MLB schedule",
+      "snapshot": "0 today finals, 0 live, 15 scheduled.",
+      "key_storylines": [
+        "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET",
+        "UPCOMING: Houston Astros at Baltimore Orioles — 6:35 PM ET",
+        "UPCOMING: Colorado Rockies at Cincinnati Reds — 6:40 PM ET"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET",
+        "UPCOMING: Houston Astros at Baltimore Orioles — 6:35 PM ET",
+        "UPCOMING: Colorado Rockies at Cincinnati Reds — 6:40 PM ET"
+      ],
+      "why_it_matters": [
+        "MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text."
+      ],
+      "story_angles": [
+        "Which result changes the main baseball conversation?",
+        "Which starting pitcher or bullpen decision deserves deeper review?",
+        "Which matchup creates the strongest preview or follow-up angle?"
+      ],
+      "priority_score": 80,
+      "story_type": "live",
+      "content": "MLB REPORT | 2026-04-28\n\nHEADLINE\nTampa Bay Rays at Cleveland Guardians leads remaining MLB schedule\n\nSNAPSHOT\n0 today finals, 0 live, 15 scheduled.\n\nKEY STORYLINES\nUPCOMING: Tampa Bay Rays at Cleveland Guardians — 6:10 PM ET\nUPCOMING: Houston Astros at Baltimore Orioles — 6:35 PM ET\nUPCOMING: Colorado Rockies at Cincinnati Reds — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nTampa Bay Rays at Cleveland Guardians — 6:10 PM ET — Probables: Tampa Bay Rays: Nick Martinez; Cleveland Guardians: Tanner Bibee\nHouston Astros at Baltimore Orioles — 6:35 PM ET — Probables: Houston Astros: Kai-Wei Teng; Baltimore Orioles: Shane Baz\nColorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns\nSan Francisco Giants at Philadelphia Phillies — 6:40 PM ET — Probables: San Francisco Giants: Tyler Mahle; Philadelphia Phillies: Jesus Luzardo\nSt. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET — Probables: St. Louis Cardinals: Kyle Leahy\nBoston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage\nWashington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes\nDetroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez\nLos Angeles Angels at Chicago White Sox — 7:40 PM ET — Probables: Los Angeles Angels: Jose Soriano; Chicago White Sox: Davis Martin\nArizona Diamondbacks at Milwaukee Brewers — 7:40 PM ET — Probables: Arizona Diamondbacks: Merrill Kelly; Milwaukee Brewers: Chad Patrick\nSeattle Mariners at Minnesota Twins — 7:40 PM ET — Probables: Seattle Mariners: Logan Gilbert; Minnesota Twins: Joe Ryan\nNew York Yankees at Texas Rangers — 8:05 PM ET — Probables: New York Yankees: Cam Schlittler; Texas Rangers: Jacob deGrom\nChicago Cubs at San Diego Padres — 9:40 PM ET — Probables: Chicago Cubs: Edward Cabrera; San Diego Padres: Walker Buehler\nKansas City Royals at Athletics — 9:40 PM ET — Probables: Kansas City Royals: Kris Bubic; Athletics: Aaron Civale\nMiami Marlins at Los Angeles Dodgers — 10:10 PM ET — Probables: Miami Marlins: Janson Junk; Los Angeles Dodgers: Shohei Ohtani\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich starting pitcher or bullpen decision deserves deeper review?\nWhich matchup creates the strongest preview or follow-up angle?\n\nUPDATED\n2026-04-28 10:06:08 AM ET",
+      "updated_at": "2026-04-28 10:06:08 AM ET",
+      "source_file": ""
+    },
+    {
+      "key": "nba",
+      "title": "NBA",
       "headline": "Orlando Magic beat Detroit Pistons, 94-88",
-      "summary": "Orlando Magic beat Detroit Pistons by 6. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-      "url": "https://www.espn.com/nba/game/_/gameId/401869415",
-      "image": "sports-basketball-news-card-orlando-magic-beat-detroit-pistons-94-88",
-      "key_data": [
-        "Final: Orlando Magic 94, Detroit Pistons 88",
-        "Margin: 6 points"
+      "snapshot": "3 games on board.",
+      "key_storylines": [
+        "Orlando Magic beat Detroit Pistons, 94-88"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Orlando Magic beat Detroit Pistons, 94-88",
+        "Phoenix Suns beat Oklahoma City Thunder, 122-131",
+        "Denver Nuggets beat Minnesota Timberwolves, 125-113"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities.",
-        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-        "Orlando Magic gets the result"
+        "NBA board drives daily coverage."
       ],
-      "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution.",
-        "Check official box score leaders, injury notes and coach/player availability.",
-        "Look for standings movement, playoff implications and next-game matchup changes."
+      "story_angles": [
+        "Track scoring swings, injuries and key plays."
       ],
-      "story_type": "result",
-      "priority_score": 126,
-      "urgency_score": 135,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
+      "priority_score": 65,
+      "story_type": "final",
+      "content": "Orlando Magic beat Detroit Pistons, 94-88",
+      "updated_at": "2026-04-28 10:06:20 AM ET",
+      "source_file": ""
     },
     {
-      "id": "nhl_0",
-      "league": "NHL",
+      "key": "nhl",
+      "title": "NHL",
       "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-      "summary": "Pittsburgh Penguins beat Philadelphia Flyers by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
-      "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
-      "key_data": [
-        "Final: Pittsburgh Penguins 3, Philadelphia Flyers 2",
-        "Margin: 1 point"
+      "snapshot": "2 games on board.",
+      "key_storylines": [
+        "Pittsburgh Penguins beat Philadelphia Flyers, 3-2"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
+        "Utah Mammoth beat Vegas Golden Knights, 4-5"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities.",
-        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-        "Pittsburgh Penguins gets the result"
+        "NHL board drives daily coverage."
       ],
-      "what_to_watch": [
-        "Watch scoring runs, goalie performance and late-game execution.",
-        "Check official box score leaders, injury notes and coach/player availability.",
-        "Look for standings movement, playoff implications and next-game matchup changes."
+      "story_angles": [
+        "Track scoring swings, goalie play and key moments."
       ],
-      "story_type": "result",
-      "priority_score": 126,
-      "urgency_score": 135,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
+      "priority_score": 65,
+      "story_type": "final",
+      "content": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
+      "updated_at": "2026-04-28 10:06:31 AM ET",
+      "source_file": ""
     },
     {
-      "id": "nhl_1",
-      "league": "NHL",
-      "headline": "Vegas Golden Knights beat Utah Mammoth, 5-4",
-      "summary": "Vegas Golden Knights beat Utah Mammoth by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-      "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
-      "image": "sports-hockey-news-card-vegas-golden-knights-beat-utah-mammoth-5-4",
-      "key_data": [
-        "Final: Vegas Golden Knights 5, Utah Mammoth 4",
-        "Margin: 1 point"
+      "key": "soccer",
+      "title": "Global Soccer",
+      "headline": "Burnley at Leeds United",
+      "snapshot": "11 matches on board.",
+      "key_storylines": [
+        "Burnley at Leeds United"
       ],
-      "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities.",
-        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-        "Vegas Golden Knights gets the result"
-      ],
-      "what_to_watch": [
-        "Watch scoring runs, goalie performance and late-game execution.",
-        "Check official box score leaders, injury notes and coach/player availability.",
-        "Look for standings movement, playoff implications and next-game matchup changes."
-      ],
-      "story_type": "result",
-      "priority_score": 126,
-      "urgency_score": 135,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
-    },
-    {
-      "id": "soccer_7",
-      "league": "Soccer",
-      "headline": "Lille 1, Paris FC 0",
-      "summary": "Soccer match tracked for newsroom coverage.",
-      "url": "https://www.espn.com/soccer/match/_/gameId/746688",
-      "image": "sports-soccer-news-card-lille-1-paris-fc-0",
-      "key_data": [
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Burnley at Leeds United",
+        "Mallorca at Girona",
+        "Werder Bremen 1, VfB Stuttgart 1",
+        "SC Freiburg 0, Borussia Dortmund 4",
+        "Lecce at Pisa",
+        "Strasbourg 3, Lorient 2",
+        "Metz 4, Le Havre AC 4",
         "Lille 1, Paris FC 0"
       ],
       "why_it_matters": [
-        "Match impacts league standings, title races and coverage angles.",
-        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
+        "Soccer board spans global leagues."
       ],
-      "what_to_watch": [
-        "Watch goals, cards, substitutions and late-match swings.",
-        "Watch for verified reporting, data movement, official updates and follow-up angles."
+      "story_angles": [
+        "Track match flow, goals and standings impact."
       ],
-      "story_type": "analysis",
-      "priority_score": 75,
-      "urgency_score": 30,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
+      "priority_score": 25,
+      "story_type": "generic",
+      "content": "Burnley at Leeds United",
+      "updated_at": "2026-04-28 10:06:49 AM ET",
+      "source_file": ""
     },
     {
-      "id": "soccer_6",
-      "league": "Soccer",
-      "headline": "Metz 4, Le Havre AC 4",
-      "summary": "Soccer match tracked for newsroom coverage.",
-      "url": "https://www.espn.com/soccer/match/_/gameId/746684",
-      "image": "sports-soccer-news-card-metz-4-le-havre-ac-4",
-      "key_data": [
-        "Metz 4, Le Havre AC 4"
+      "key": "fantasy",
+      "title": "Fantasy Sports",
+      "headline": "Fantasy basketball usage and production leaders",
+      "snapshot": "HEADLINE",
+      "key_storylines": [
+        "FANTASY SPORTS | 2026-04-27",
+        "HEADLINE",
+        "Top fantasy performers and usage trends across the board",
+        "KEY STORYLINES",
+        "Nikola Jokic trending in usage",
+        "Luka Doncic high-volume scoring stretch",
+        "Jayson Tatum strong minutes load"
       ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [],
       "why_it_matters": [
-        "Match impacts league standings, title races and coverage angles.",
-        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
+        "Fantasy Sports coverage is updated with the latest available storylines for journalist-facing planning."
       ],
-      "what_to_watch": [
-        "Watch goals, cards, substitutions and late-match swings.",
-        "Watch for verified reporting, data movement, official updates and follow-up angles."
+      "story_angles": [
+        "What should reporters watch next in Fantasy Sports?"
       ],
-      "story_type": "analysis",
-      "priority_score": 75,
-      "urgency_score": 30,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
-    },
-    {
-      "id": "soccer_8",
-      "league": "Soccer",
-      "headline": "Nantes 1, Stade Rennais 2",
-      "summary": "Soccer match tracked for newsroom coverage.",
-      "url": "https://www.espn.com/soccer/match/_/gameId/746689",
-      "image": "sports-soccer-news-card-nantes-1-stade-rennais-2",
-      "key_data": [
-        "Nantes 1, Stade Rennais 2"
-      ],
-      "why_it_matters": [
-        "Match impacts league standings, title races and coverage angles.",
-        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
-      ],
-      "what_to_watch": [
-        "Watch goals, cards, substitutions and late-match swings.",
-        "Watch for verified reporting, data movement, official updates and follow-up angles."
-      ],
-      "story_type": "analysis",
-      "priority_score": 75,
-      "urgency_score": 30,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
-    },
-    {
-      "id": "soccer_9",
-      "league": "Soccer",
-      "headline": "Nice 1, Marseille 1",
-      "summary": "Soccer match tracked for newsroom coverage.",
-      "url": "https://www.espn.com/soccer/match/_/gameId/746687",
-      "image": "sports-soccer-news-card-nice-1-marseille-1",
-      "key_data": [
-        "Nice 1, Marseille 1"
-      ],
-      "why_it_matters": [
-        "Match impacts league standings, title races and coverage angles.",
-        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
-      ],
-      "what_to_watch": [
-        "Watch goals, cards, substitutions and late-match swings.",
-        "Watch for verified reporting, data movement, official updates and follow-up angles."
-      ],
-      "story_type": "analysis",
-      "priority_score": 75,
-      "urgency_score": 30,
-      "tier": 1,
-      "updated_at": "2026-04-28 11:47:51 AM ET"
+      "priority_score": 25,
+      "story_type": "generic",
+      "content": "FANTASY SPORTS | 2026-04-27\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-27 05:10:03 PM ET",
+      "updated_at": "2026-04-27 05:10:03 PM ET",
+      "source_file": ""
     }
   ],
-  "key_storylines": [
-    "MLB: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-    "NBA: Denver Nuggets beat Minnesota Timberwolves, 125-113",
-    "NHL: Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-    "Soccer: Lille 1, Paris FC 0"
-  ],
-  "sections": {
-    "mlb": {
-      "league": "MLB",
-      "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-      "snapshot": "0 today finals, 0 live, 15 scheduled.",
-      "cards": [
-        {
-          "id": "mlb_5",
-          "league": "MLB",
-          "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
-          "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
-          "key_data": [
-            "Payton Tolle vs. Trey Yesavage"
-          ],
-          "why_it_matters": [
-            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
-            "This belongs below results and confirmed news unless no higher-priority stories are available."
-          ],
-          "what_to_watch": [
-            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
-            "Watch for status changes that can turn a planning item into a live newsroom story."
-          ],
-          "story_type": "schedule",
-          "priority_score": -26,
-          "urgency_score": -25,
-          "tier": 2,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "mlb_6",
-          "league": "MLB",
-          "headline": "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
-          "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
-          "key_data": [
-            "Zack Littell vs. Clay Holmes"
-          ],
-          "why_it_matters": [
-            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
-            "This belongs below results and confirmed news unless no higher-priority stories are available."
-          ],
-          "what_to_watch": [
-            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
-            "Watch for status changes that can turn a planning item into a live newsroom story."
-          ],
-          "story_type": "schedule",
-          "priority_score": -26,
-          "urgency_score": -25,
-          "tier": 2,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "mlb_2",
-          "league": "MLB",
-          "headline": "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
-          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815119",
-          "image": "sports-baseball-news-card-colorado-rockies-at-cincinnati-reds-6-40-pm-et-probables-colorado-rock",
-          "key_data": [
-            "Kyle Freeland vs. Chase Burns"
-          ],
-          "why_it_matters": [
-            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
-            "This belongs below results and confirmed news unless no higher-priority stories are available."
-          ],
-          "what_to_watch": [
-            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
-            "Watch for status changes that can turn a planning item into a live newsroom story."
-          ],
-          "story_type": "schedule",
-          "priority_score": -36,
-          "urgency_score": -35,
-          "tier": 2,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "mlb_7",
-          "league": "MLB",
-          "headline": "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
-          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815120",
-          "image": "sports-baseball-news-card-detroit-tigers-at-atlanta-braves-7-15-pm-et-probables-detroit-tigers-c",
-          "key_data": [
-            "Casey Mize vs. Martin Perez"
-          ],
-          "why_it_matters": [
-            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
-            "This belongs below results and confirmed news unless no higher-priority stories are available."
-          ],
-          "what_to_watch": [
-            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
-            "Watch for status changes that can turn a planning item into a live newsroom story."
-          ],
-          "story_type": "schedule",
-          "priority_score": -36,
-          "urgency_score": -35,
-          "tier": 2,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 11:47:51 AM ET",
-      "strict_mode": true,
-      "public_status": "published"
-    },
-    "nba": {
-      "league": "NBA",
-      "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-      "snapshot": "3 games on board.",
-      "cards": [
-        {
-          "id": "nba_2",
-          "league": "NBA",
-          "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-          "summary": "Denver Nuggets beat Minnesota Timberwolves by 12. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869401",
-          "image": "sports-basketball-news-card-denver-nuggets-beat-minnesota-timberwolves-125-113",
-          "key_data": [
-            "Final: Denver Nuggets 125, Minnesota Timberwolves 113",
-            "Margin: 12 points"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities.",
-            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-            "Denver Nuggets gets the result"
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution.",
-            "Check official box score leaders, injury notes and coach/player availability.",
-            "Look for standings movement, playoff implications and next-game matchup changes."
-          ],
-          "story_type": "result",
-          "priority_score": 126,
-          "urgency_score": 135,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "nba_1",
-          "league": "NBA",
-          "headline": "Oklahoma City Thunder beat Phoenix Suns, 131-122",
-          "summary": "Oklahoma City Thunder beat Phoenix Suns by 9. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869373",
-          "image": "sports-basketball-news-card-oklahoma-city-thunder-beat-phoenix-suns-131-122",
-          "key_data": [
-            "Final: Oklahoma City Thunder 131, Phoenix Suns 122",
-            "Margin: 9 points"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities.",
-            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-            "Oklahoma City Thunder gets the result"
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution.",
-            "Check official box score leaders, injury notes and coach/player availability.",
-            "Look for standings movement, playoff implications and next-game matchup changes."
-          ],
-          "story_type": "result",
-          "priority_score": 126,
-          "urgency_score": 135,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "nba_0",
-          "league": "NBA",
-          "headline": "Orlando Magic beat Detroit Pistons, 94-88",
-          "summary": "Orlando Magic beat Detroit Pistons by 6. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869415",
-          "image": "sports-basketball-news-card-orlando-magic-beat-detroit-pistons-94-88",
-          "key_data": [
-            "Final: Orlando Magic 94, Detroit Pistons 88",
-            "Margin: 6 points"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities.",
-            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-            "Orlando Magic gets the result"
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution.",
-            "Check official box score leaders, injury notes and coach/player availability.",
-            "Look for standings movement, playoff implications and next-game matchup changes."
-          ],
-          "story_type": "result",
-          "priority_score": 126,
-          "urgency_score": 135,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 11:47:51 AM ET",
-      "strict_mode": true,
-      "public_status": "published"
-    },
-    "nfl": {
-      "league": "NFL",
-      "headline": "",
-      "snapshot": "",
-      "cards": [],
-      "updated_at": "2026-04-28 11:47:51 AM ET",
-      "strict_mode": true,
-      "public_status": "suppressed"
-    },
-    "nhl": {
-      "league": "NHL",
-      "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-      "snapshot": "2 games on board.",
-      "cards": [
-        {
-          "id": "nhl_0",
-          "league": "NHL",
-          "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-          "summary": "Pittsburgh Penguins beat Philadelphia Flyers by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-          "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
-          "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
-          "key_data": [
-            "Final: Pittsburgh Penguins 3, Philadelphia Flyers 2",
-            "Margin: 1 point"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities.",
-            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-            "Pittsburgh Penguins gets the result"
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, goalie performance and late-game execution.",
-            "Check official box score leaders, injury notes and coach/player availability.",
-            "Look for standings movement, playoff implications and next-game matchup changes."
-          ],
-          "story_type": "result",
-          "priority_score": 126,
-          "urgency_score": 135,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "nhl_1",
-          "league": "NHL",
-          "headline": "Vegas Golden Knights beat Utah Mammoth, 5-4",
-          "summary": "Vegas Golden Knights beat Utah Mammoth by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
-          "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
-          "image": "sports-hockey-news-card-vegas-golden-knights-beat-utah-mammoth-5-4",
-          "key_data": [
-            "Final: Vegas Golden Knights 5, Utah Mammoth 4",
-            "Margin: 1 point"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities.",
-            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
-            "Vegas Golden Knights gets the result"
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, goalie performance and late-game execution.",
-            "Check official box score leaders, injury notes and coach/player availability.",
-            "Look for standings movement, playoff implications and next-game matchup changes."
-          ],
-          "story_type": "result",
-          "priority_score": 126,
-          "urgency_score": 135,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 11:47:51 AM ET",
-      "strict_mode": true,
-      "public_status": "published"
-    },
-    "soccer": {
-      "league": "Soccer",
-      "headline": "Lille 1, Paris FC 0",
-      "snapshot": "11 matches on board.",
-      "cards": [
-        {
-          "id": "soccer_7",
-          "league": "Soccer",
-          "headline": "Lille 1, Paris FC 0",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746688",
-          "image": "sports-soccer-news-card-lille-1-paris-fc-0",
-          "key_data": [
-            "Lille 1, Paris FC 0"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles.",
-            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings.",
-            "Watch for verified reporting, data movement, official updates and follow-up angles."
-          ],
-          "story_type": "analysis",
-          "priority_score": 75,
-          "urgency_score": 30,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "soccer_6",
-          "league": "Soccer",
-          "headline": "Metz 4, Le Havre AC 4",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746684",
-          "image": "sports-soccer-news-card-metz-4-le-havre-ac-4",
-          "key_data": [
-            "Metz 4, Le Havre AC 4"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles.",
-            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings.",
-            "Watch for verified reporting, data movement, official updates and follow-up angles."
-          ],
-          "story_type": "analysis",
-          "priority_score": 75,
-          "urgency_score": 30,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "soccer_8",
-          "league": "Soccer",
-          "headline": "Nantes 1, Stade Rennais 2",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746689",
-          "image": "sports-soccer-news-card-nantes-1-stade-rennais-2",
-          "key_data": [
-            "Nantes 1, Stade Rennais 2"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles.",
-            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings.",
-            "Watch for verified reporting, data movement, official updates and follow-up angles."
-          ],
-          "story_type": "analysis",
-          "priority_score": 75,
-          "urgency_score": 30,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        },
-        {
-          "id": "soccer_9",
-          "league": "Soccer",
-          "headline": "Nice 1, Marseille 1",
-          "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/746687",
-          "image": "sports-soccer-news-card-nice-1-marseille-1",
-          "key_data": [
-            "Nice 1, Marseille 1"
-          ],
-          "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles.",
-            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
-          ],
-          "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings.",
-            "Watch for verified reporting, data movement, official updates and follow-up angles."
-          ],
-          "story_type": "analysis",
-          "priority_score": 75,
-          "urgency_score": 30,
-          "tier": 1,
-          "updated_at": "2026-04-28 11:47:51 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 11:47:51 AM ET",
-      "strict_mode": true,
-      "public_status": "published"
-    },
-    "betting_odds": {
-      "league": "Betting Odds",
-      "headline": "",
-      "snapshot": "",
-      "cards": [],
-      "updated_at": "2026-04-28 11:47:51 AM ET",
-      "strict_mode": true,
-      "public_status": "suppressed"
-    },
-    "fantasy": {
-      "league": "Fantasy",
-      "headline": "",
-      "snapshot": "",
-      "cards": [],
-      "updated_at": "2026-04-28 11:47:51 AM ET",
-      "strict_mode": true,
-      "public_status": "suppressed"
-    }
+  "journalist_toolkit": {
+    "title": "Journalist Toolkit",
+    "snapshot": "Fast-access reporting resources for sports journalists.",
+    "resources": [
+      {
+        "label": "ESPN Scoreboards",
+        "url": "https://www.espn.com"
+      },
+      {
+        "label": "Baseball Savant",
+        "url": "https://baseballsavant.mlb.com"
+      },
+      {
+        "label": "Sports Reference",
+        "url": "https://www.sports-reference.com"
+      },
+      {
+        "label": "Pro Football Reference",
+        "url": "https://www.pro-football-reference.com"
+      },
+      {
+        "label": "Basketball Reference",
+        "url": "https://www.basketball-reference.com"
+      },
+      {
+        "label": "Hockey Reference",
+        "url": "https://www.hockey-reference.com"
+      },
+      {
+        "label": "FBref",
+        "url": "https://fbref.com"
+      },
+      {
+        "label": "NCAA Statistics",
+        "url": "https://www.ncaa.com/stats"
+      }
+    ]
   },
-  "journalist_toolkit": [
-    {
-      "name": "ESPN",
-      "url": "https://www.espn.com/",
-      "note": "Scores, schedules, game context and news wires."
-    },
-    {
-      "name": "The Athletic",
-      "url": "https://www.nytimes.com/athletic/",
-      "note": "Enterprise sports coverage, beat reporting and analysis."
-    },
-    {
-      "name": "Sports Reference",
-      "url": "https://www.sports-reference.com/",
-      "note": "Historical sports data, player pages and team context."
-    },
-    {
-      "name": "Baseball Savant",
-      "url": "https://baseballsavant.mlb.com/",
-      "note": "Statcast, pitch data, batted-ball quality and MLB trends."
-    },
-    {
-      "name": "Spotrac",
-      "url": "https://www.spotrac.com/",
-      "note": "Contracts, salary cap data and roster-building context."
-    }
-  ]
+  "x_handle": "@GlobalSportsRp",
+  "substack_url": "https://globalsportsreport.substack.com",
+  "updated_at": "2026-04-28 12:11:16 PM ET",
+  "generated_at": "2026-04-28 12:11:16 PM ET",
+  "published_at": "2026-04-28 12:11:16 PM ET",
+  "editorial_brain": {
+    "status": "active",
+    "focus": [
+      "Breaking news hierarchy",
+      "Major U.S. sports leagues",
+      "Global soccer",
+      "Final scores",
+      "Live games",
+      "Upcoming schedules",
+      "Advanced journalist-facing angles",
+      "Orderly one-line card data"
+    ],
+    "version": "2026-04-28-full-distribution-editorial-brain"
+  }
 }
