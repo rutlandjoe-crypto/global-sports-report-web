@@ -2,383 +2,276 @@
   "site": "global_sports_report",
   "title": "Global Sports Report | 2026-04-28",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-  "snapshot": "Strict Mode tracking 16 verified homepage cards across MLB, NBA, NFL, NHL, soccer, betting and fantasy coverage.",
-  "updated_at": "2026-04-28 10:20:30 AM ET",
-  "published_at": "2026-04-28 10:20:30 AM ET",
-  "generated_at": "2026-04-28 10:20:30 AM ET",
+  "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
+  "snapshot": "Tracking 9 publishable sports newsroom cards: 0 news, 5 results, 4 analysis, 0 schedule. Editorial validation, stale-source suppression and clean one-line card formatting are active.",
+  "updated_at": "2026-04-28 11:47:51 AM ET",
+  "published_at": "2026-04-28 11:47:51 AM ET",
+  "generated_at": "2026-04-28 11:47:51 AM ET",
   "generated_date": "2026-04-28",
   "strict_mode": true,
   "freshness_log": [
     "MLB: fresh",
     "NBA: fresh",
-    "NFL: stale-blocked",
+    "NFL: stale-suppressed",
     "NHL: fresh",
     "Soccer: fresh",
-    "Betting Odds: stale-blocked",
-    "Fantasy: stale-blocked"
+    "Betting Odds: stale-suppressed",
+    "Fantasy: stale-suppressed"
   ],
+  "urgent_story": {
+    "active": true,
+    "league": "NBA",
+    "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
+    "summary": "Denver Nuggets beat Minnesota Timberwolves by 12. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
+    "url": "https://www.espn.com/nba/game/_/gameId/401869401",
+    "published_at": "2026-04-28 11:47:52 AM ET",
+    "urgency_score": 135,
+    "why_it_matters": [
+      "Game impacts standings, playoff positioning and coverage priorities.",
+      "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+      "Denver Nuggets gets the result"
+    ]
+  },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
   "homepage_cards": [
     {
-      "id": "mlb_5",
-      "league": "MLB",
-      "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
-      "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
-      "key_data": [
-        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
-        "Toronto Blue Jays: Trey Yesavage",
-        "Probables: Payton Tolle vs.",
-        "Trey Yesavage"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 88,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
-    },
-    {
-      "id": "mlb_13",
-      "league": "MLB",
-      "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
-      "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
-      "key_data": [
-        "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
-        "Toronto Blue Jays: Trey Yesavage",
-        "Probables: Payton Tolle vs.",
-        "Trey Yesavage"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 88,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
-    },
-    {
-      "id": "mlb_6",
-      "league": "MLB",
-      "headline": "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
-      "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
-      "key_data": [
-        "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
-        "New York Mets: Clay Holmes",
-        "Probables: Zack Littell vs.",
-        "Clay Holmes"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 88,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
-    },
-    {
-      "id": "mlb_14",
-      "league": "MLB",
-      "headline": "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-      "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
-      "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
-      "key_data": [
-        "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
-        "New York Mets: Clay Holmes",
-        "Probables: Zack Littell vs.",
-        "Clay Holmes"
-      ],
-      "why_it_matters": [
-        "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-      ],
-      "what_to_watch": [
-        "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-      ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 88,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
-    },
-    {
       "id": "nba_2",
       "league": "NBA",
       "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-      "summary": "NBA game tracked for newsroom coverage.",
+      "summary": "Denver Nuggets beat Minnesota Timberwolves by 12. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
       "url": "https://www.espn.com/nba/game/_/gameId/401869401",
       "image": "sports-basketball-news-card-denver-nuggets-beat-minnesota-timberwolves-125-113",
       "key_data": [
-        "Denver Nuggets beat Minnesota Timberwolves, 125-113"
+        "Final: Denver Nuggets 125, Minnesota Timberwolves 113",
+        "Margin: 12 points"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
+        "Game impacts standings, playoff positioning and coverage priorities.",
+        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+        "Denver Nuggets gets the result"
       ],
       "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution."
+        "Watch scoring runs, injuries, rotations and late-game execution.",
+        "Check official box score leaders, injury notes and coach/player availability.",
+        "Look for standings movement, playoff implications and next-game matchup changes."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
+      "story_type": "result",
+      "priority_score": 126,
+      "urgency_score": 135,
       "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
-      "id": "nba_5",
+      "id": "nba_1",
       "league": "NBA",
-      "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-      "summary": "NBA game tracked for newsroom coverage.",
-      "url": "https://www.espn.com/nba/game/_/gameId/401869401",
-      "image": "sports-basketball-news-card-denver-nuggets-beat-minnesota-timberwolves-125-113",
+      "headline": "Oklahoma City Thunder beat Phoenix Suns, 131-122",
+      "summary": "Oklahoma City Thunder beat Phoenix Suns by 9. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
+      "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+      "image": "sports-basketball-news-card-oklahoma-city-thunder-beat-phoenix-suns-131-122",
       "key_data": [
-        "Denver Nuggets beat Minnesota Timberwolves, 125-113"
+        "Final: Oklahoma City Thunder 131, Phoenix Suns 122",
+        "Margin: 9 points"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
+        "Game impacts standings, playoff positioning and coverage priorities.",
+        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+        "Oklahoma City Thunder gets the result"
       ],
       "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution."
+        "Watch scoring runs, injuries, rotations and late-game execution.",
+        "Check official box score leaders, injury notes and coach/player availability.",
+        "Look for standings movement, playoff implications and next-game matchup changes."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
+      "story_type": "result",
+      "priority_score": 126,
+      "urgency_score": 135,
       "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
       "id": "nba_0",
       "league": "NBA",
       "headline": "Orlando Magic beat Detroit Pistons, 94-88",
-      "summary": "NBA game tracked for newsroom coverage.",
+      "summary": "Orlando Magic beat Detroit Pistons by 6. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
       "url": "https://www.espn.com/nba/game/_/gameId/401869415",
       "image": "sports-basketball-news-card-orlando-magic-beat-detroit-pistons-94-88",
       "key_data": [
-        "Orlando Magic beat Detroit Pistons, 94-88"
+        "Final: Orlando Magic 94, Detroit Pistons 88",
+        "Margin: 6 points"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
+        "Game impacts standings, playoff positioning and coverage priorities.",
+        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+        "Orlando Magic gets the result"
       ],
       "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution."
+        "Watch scoring runs, injuries, rotations and late-game execution.",
+        "Check official box score leaders, injury notes and coach/player availability.",
+        "Look for standings movement, playoff implications and next-game matchup changes."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
+      "story_type": "result",
+      "priority_score": 126,
+      "urgency_score": 135,
       "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
-    },
-    {
-      "id": "nba_3",
-      "league": "NBA",
-      "headline": "Orlando Magic beat Detroit Pistons, 94-88",
-      "summary": "NBA game tracked for newsroom coverage.",
-      "url": "https://www.espn.com/nba/game/_/gameId/401869415",
-      "image": "sports-basketball-news-card-orlando-magic-beat-detroit-pistons-94-88",
-      "key_data": [
-        "Orlando Magic beat Detroit Pistons, 94-88"
-      ],
-      "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
-      ],
-      "what_to_watch": [
-        "Watch scoring runs, injuries, rotations and late-game execution."
-      ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
-    },
-    {
-      "id": "nfl_strict_refresh_needed",
-      "league": "NFL",
-      "headline": "NFL source refresh needed before publication",
-      "summary": "Strict Mode blocked stale NFL data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
-      "url": "#",
-      "image": "sports-football-news-card-nfl-source-refresh-needed-before-publication",
-      "key_data": [
-        "NFL stale data rejected",
-        "Required date: 2026-04-28 ET"
-      ],
-      "why_it_matters": [
-        "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
-      ],
-      "what_to_watch": [
-        "Run the NFL report script and rebuild distribution."
-      ],
-      "strict_mode_status": "stale_source_blocked",
-      "priority_score": 42,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
       "id": "nhl_0",
       "league": "NHL",
       "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-      "summary": "NHL game tracked for newsroom coverage.",
+      "summary": "Pittsburgh Penguins beat Philadelphia Flyers by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
       "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
       "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
       "key_data": [
-        "Pittsburgh Penguins beat Philadelphia Flyers, 3-2"
+        "Final: Pittsburgh Penguins 3, Philadelphia Flyers 2",
+        "Margin: 1 point"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
+        "Game impacts standings, playoff positioning and coverage priorities.",
+        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+        "Pittsburgh Penguins gets the result"
       ],
       "what_to_watch": [
-        "Watch scoring runs, goalie performance and late-game execution."
+        "Watch scoring runs, goalie performance and late-game execution.",
+        "Check official box score leaders, injury notes and coach/player availability.",
+        "Look for standings movement, playoff implications and next-game matchup changes."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
+      "story_type": "result",
+      "priority_score": 126,
+      "urgency_score": 135,
       "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
-    },
-    {
-      "id": "nhl_2",
-      "league": "NHL",
-      "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-      "summary": "NHL game tracked for newsroom coverage.",
-      "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
-      "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
-      "key_data": [
-        "Pittsburgh Penguins beat Philadelphia Flyers, 3-2"
-      ],
-      "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
-      ],
-      "what_to_watch": [
-        "Watch scoring runs, goalie performance and late-game execution."
-      ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
-      "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
       "id": "nhl_1",
       "league": "NHL",
-      "headline": "Utah Mammoth beat Vegas Golden Knights, 4-5",
-      "summary": "NHL game tracked for newsroom coverage.",
+      "headline": "Vegas Golden Knights beat Utah Mammoth, 5-4",
+      "summary": "Vegas Golden Knights beat Utah Mammoth by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
       "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
-      "image": "sports-hockey-news-card-utah-mammoth-beat-vegas-golden-knights-4-5",
+      "image": "sports-hockey-news-card-vegas-golden-knights-beat-utah-mammoth-5-4",
       "key_data": [
-        "Utah Mammoth beat Vegas Golden Knights, 4-5"
+        "Final: Vegas Golden Knights 5, Utah Mammoth 4",
+        "Margin: 1 point"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
+        "Game impacts standings, playoff positioning and coverage priorities.",
+        "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+        "Vegas Golden Knights gets the result"
       ],
       "what_to_watch": [
-        "Watch scoring runs, goalie performance and late-game execution."
+        "Watch scoring runs, goalie performance and late-game execution.",
+        "Check official box score leaders, injury notes and coach/player availability.",
+        "Look for standings movement, playoff implications and next-game matchup changes."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
+      "story_type": "result",
+      "priority_score": 126,
+      "urgency_score": 135,
       "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
-      "id": "nhl_3",
-      "league": "NHL",
-      "headline": "Utah Mammoth beat Vegas Golden Knights, 4-5",
-      "summary": "NHL game tracked for newsroom coverage.",
-      "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
-      "image": "sports-hockey-news-card-utah-mammoth-beat-vegas-golden-knights-4-5",
+      "id": "soccer_7",
+      "league": "Soccer",
+      "headline": "Lille 1, Paris FC 0",
+      "summary": "Soccer match tracked for newsroom coverage.",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746688",
+      "image": "sports-soccer-news-card-lille-1-paris-fc-0",
       "key_data": [
-        "Utah Mammoth beat Vegas Golden Knights, 4-5"
+        "Lille 1, Paris FC 0"
       ],
       "why_it_matters": [
-        "Game impacts standings, playoff positioning and coverage priorities."
+        "Match impacts league standings, title races and coverage angles.",
+        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
       ],
       "what_to_watch": [
-        "Watch scoring runs, goalie performance and late-game execution."
+        "Watch goals, cards, substitutions and late-match swings.",
+        "Watch for verified reporting, data movement, official updates and follow-up angles."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 45,
+      "story_type": "analysis",
+      "priority_score": 75,
+      "urgency_score": 30,
       "tier": 1,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
-      "id": "soccer_0",
+      "id": "soccer_6",
       "league": "Soccer",
-      "headline": "Burnley at Leeds United",
+      "headline": "Metz 4, Le Havre AC 4",
       "summary": "Soccer match tracked for newsroom coverage.",
-      "url": "https://www.espn.com/soccer/match/_/gameId/740942",
-      "image": "sports-soccer-news-card-burnley-at-leeds-united",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746684",
+      "image": "sports-soccer-news-card-metz-4-le-havre-ac-4",
       "key_data": [
-        "Burnley at Leeds United"
+        "Metz 4, Le Havre AC 4"
       ],
       "why_it_matters": [
-        "Match impacts league standings, title races and coverage angles."
+        "Match impacts league standings, title races and coverage angles.",
+        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
       ],
       "what_to_watch": [
-        "Watch goals, cards, substitutions and late-match swings."
+        "Watch goals, cards, substitutions and late-match swings.",
+        "Watch for verified reporting, data movement, official updates and follow-up angles."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 28,
-      "tier": 2,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "story_type": "analysis",
+      "priority_score": 75,
+      "urgency_score": 30,
+      "tier": 1,
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
-      "id": "soccer_11",
+      "id": "soccer_8",
       "league": "Soccer",
-      "headline": "Burnley at Leeds United",
+      "headline": "Nantes 1, Stade Rennais 2",
       "summary": "Soccer match tracked for newsroom coverage.",
-      "url": "https://www.espn.com/soccer/match/_/gameId/740942",
-      "image": "sports-soccer-news-card-burnley-at-leeds-united",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746689",
+      "image": "sports-soccer-news-card-nantes-1-stade-rennais-2",
       "key_data": [
-        "Burnley at Leeds United"
+        "Nantes 1, Stade Rennais 2"
       ],
       "why_it_matters": [
-        "Match impacts league standings, title races and coverage angles."
+        "Match impacts league standings, title races and coverage angles.",
+        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
       ],
       "what_to_watch": [
-        "Watch goals, cards, substitutions and late-match swings."
+        "Watch goals, cards, substitutions and late-match swings.",
+        "Watch for verified reporting, data movement, official updates and follow-up angles."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 28,
-      "tier": 2,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "story_type": "analysis",
+      "priority_score": 75,
+      "urgency_score": 30,
+      "tier": 1,
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     },
     {
-      "id": "soccer_4",
+      "id": "soccer_9",
       "league": "Soccer",
-      "headline": "Lecce at Pisa",
+      "headline": "Nice 1, Marseille 1",
       "summary": "Soccer match tracked for newsroom coverage.",
-      "url": "https://www.espn.com/soccer/match/_/gameId/737126",
-      "image": "sports-soccer-news-card-lecce-at-pisa",
+      "url": "https://www.espn.com/soccer/match/_/gameId/746687",
+      "image": "sports-soccer-news-card-nice-1-marseille-1",
       "key_data": [
-        "Lecce at Pisa"
+        "Nice 1, Marseille 1"
       ],
       "why_it_matters": [
-        "Match impacts league standings, title races and coverage angles."
+        "Match impacts league standings, title races and coverage angles.",
+        "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
       ],
       "what_to_watch": [
-        "Watch goals, cards, substitutions and late-match swings."
+        "Watch goals, cards, substitutions and late-match swings.",
+        "Watch for verified reporting, data movement, official updates and follow-up angles."
       ],
-      "strict_mode_status": "fresh_checked",
-      "priority_score": 28,
-      "tier": 2,
-      "updated_at": "2026-04-28 10:20:30 AM ET"
+      "story_type": "analysis",
+      "priority_score": 75,
+      "urgency_score": 30,
+      "tier": 1,
+      "updated_at": "2026-04-28 11:47:51 AM ET"
     }
   ],
   "key_storylines": [
     "MLB: Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
     "NBA: Denver Nuggets beat Minnesota Timberwolves, 125-113",
-    "NFL: NFL source refresh needed before publication",
     "NHL: Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-    "Soccer: Burnley at Leeds United",
-    "Betting Odds: Betting Odds source refresh needed before publication",
-    "Fantasy: Fantasy source refresh needed before publication"
+    "Soccer: Lille 1, Paris FC 0"
   ],
   "sections": {
     "mlb": {
@@ -390,101 +283,102 @@
           "id": "mlb_5",
           "league": "MLB",
           "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
           "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
           "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
           "key_data": [
-            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
-            "Toronto Blue Jays: Trey Yesavage",
-            "Probables: Payton Tolle vs.",
-            "Trey Yesavage"
+            "Payton Tolle vs. Trey Yesavage"
           ],
           "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
+            "This belongs below results and confirmed news unless no higher-priority stories are available."
           ],
           "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
+            "Watch for status changes that can turn a planning item into a live newsroom story."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 88,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
-        },
-        {
-          "id": "mlb_13",
-          "league": "MLB",
-          "headline": "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle; Toronto Blue Jays: Trey Yesavage",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815118",
-          "image": "sports-baseball-news-card-boston-red-sox-at-toronto-blue-jays-7-07-pm-et-probables-boston-red-so",
-          "key_data": [
-            "Boston Red Sox at Toronto Blue Jays — 7:07 PM ET — Probables: Boston Red Sox: Payton Tolle",
-            "Toronto Blue Jays: Trey Yesavage",
-            "Probables: Payton Tolle vs.",
-            "Trey Yesavage"
-          ],
-          "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
-          ],
-          "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
-          ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 88,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "story_type": "schedule",
+          "priority_score": -26,
+          "urgency_score": -25,
+          "tier": 2,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
           "id": "mlb_6",
           "league": "MLB",
           "headline": "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
+          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
           "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
           "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
           "key_data": [
-            "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
-            "New York Mets: Clay Holmes",
-            "Probables: Zack Littell vs.",
-            "Clay Holmes"
+            "Zack Littell vs. Clay Holmes"
           ],
           "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
+            "This belongs below results and confirmed news unless no higher-priority stories are available."
           ],
           "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
+            "Watch for status changes that can turn a planning item into a live newsroom story."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 88,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "story_type": "schedule",
+          "priority_score": -26,
+          "urgency_score": -25,
+          "tier": 2,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
-          "id": "mlb_14",
+          "id": "mlb_2",
           "league": "MLB",
-          "headline": "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell; New York Mets: Clay Holmes",
-          "summary": "Scheduled MLB matchup available for preview, lineup and pitching-angle coverage.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815125",
-          "image": "sports-baseball-news-card-washington-nationals-at-new-york-mets-7-10-pm-et-probables-washington-",
+          "headline": "Colorado Rockies at Cincinnati Reds — 6:40 PM ET — Probables: Colorado Rockies: Kyle Freeland; Cincinnati Reds: Chase Burns",
+          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815119",
+          "image": "sports-baseball-news-card-colorado-rockies-at-cincinnati-reds-6-40-pm-et-probables-colorado-rock",
           "key_data": [
-            "Washington Nationals at New York Mets — 7:10 PM ET — Probables: Washington Nationals: Zack Littell",
-            "New York Mets: Clay Holmes",
-            "Probables: Zack Littell vs.",
-            "Clay Holmes"
+            "Kyle Freeland vs. Chase Burns"
           ],
           "why_it_matters": [
-            "Scheduled games give reporters a clean path to preview angles, pitching context and matchup notes."
+            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
+            "This belongs below results and confirmed news unless no higher-priority stories are available."
           ],
           "what_to_watch": [
-            "Watch confirmed lineups, starting pitchers, weather, bullpen availability and late scratches."
+            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
+            "Watch for status changes that can turn a planning item into a live newsroom story."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 88,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "story_type": "schedule",
+          "priority_score": -36,
+          "urgency_score": -35,
+          "tier": 2,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
+        },
+        {
+          "id": "mlb_7",
+          "league": "MLB",
+          "headline": "Detroit Tigers at Atlanta Braves — 7:15 PM ET — Probables: Detroit Tigers: Casey Mize; Atlanta Braves: Martin Perez",
+          "summary": "Planning item for reporters monitoring matchup, lineup and availability context.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815120",
+          "image": "sports-baseball-news-card-detroit-tigers-at-atlanta-braves-7-15-pm-et-probables-detroit-tigers-c",
+          "key_data": [
+            "Casey Mize vs. Martin Perez"
+          ],
+          "why_it_matters": [
+            "Scheduled games are planning items for preview angles, lineup checks and matchup context.",
+            "This belongs below results and confirmed news unless no higher-priority stories are available."
+          ],
+          "what_to_watch": [
+            "Verify confirmed lineups, starting pitchers, availability, weather, betting movement and late scratches.",
+            "Watch for status changes that can turn a planning item into a live newsroom story."
+          ],
+          "story_type": "schedule",
+          "priority_score": -36,
+          "urgency_score": -35,
+          "tier": 2,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:20:30 AM ET",
-      "strict_mode": true
+      "updated_at": "2026-04-28 11:47:51 AM ET",
+      "strict_mode": true,
+      "public_status": "published"
     },
     "nba": {
       "league": "NBA",
@@ -495,120 +389,96 @@
           "id": "nba_2",
           "league": "NBA",
           "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-          "summary": "NBA game tracked for newsroom coverage.",
+          "summary": "Denver Nuggets beat Minnesota Timberwolves by 12. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
           "url": "https://www.espn.com/nba/game/_/gameId/401869401",
           "image": "sports-basketball-news-card-denver-nuggets-beat-minnesota-timberwolves-125-113",
           "key_data": [
-            "Denver Nuggets beat Minnesota Timberwolves, 125-113"
+            "Final: Denver Nuggets 125, Minnesota Timberwolves 113",
+            "Margin: 12 points"
           ],
           "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
+            "Game impacts standings, playoff positioning and coverage priorities.",
+            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+            "Denver Nuggets gets the result"
           ],
           "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution."
+            "Watch scoring runs, injuries, rotations and late-game execution.",
+            "Check official box score leaders, injury notes and coach/player availability.",
+            "Look for standings movement, playoff implications and next-game matchup changes."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
+          "story_type": "result",
+          "priority_score": 126,
+          "urgency_score": 135,
           "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
-          "id": "nba_5",
+          "id": "nba_1",
           "league": "NBA",
-          "headline": "Denver Nuggets beat Minnesota Timberwolves, 125-113",
-          "summary": "NBA game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869401",
-          "image": "sports-basketball-news-card-denver-nuggets-beat-minnesota-timberwolves-125-113",
+          "headline": "Oklahoma City Thunder beat Phoenix Suns, 131-122",
+          "summary": "Oklahoma City Thunder beat Phoenix Suns by 9. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869373",
+          "image": "sports-basketball-news-card-oklahoma-city-thunder-beat-phoenix-suns-131-122",
           "key_data": [
-            "Denver Nuggets beat Minnesota Timberwolves, 125-113"
+            "Final: Oklahoma City Thunder 131, Phoenix Suns 122",
+            "Margin: 9 points"
           ],
           "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
+            "Game impacts standings, playoff positioning and coverage priorities.",
+            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+            "Oklahoma City Thunder gets the result"
           ],
           "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution."
+            "Watch scoring runs, injuries, rotations and late-game execution.",
+            "Check official box score leaders, injury notes and coach/player availability.",
+            "Look for standings movement, playoff implications and next-game matchup changes."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
+          "story_type": "result",
+          "priority_score": 126,
+          "urgency_score": 135,
           "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
           "id": "nba_0",
           "league": "NBA",
           "headline": "Orlando Magic beat Detroit Pistons, 94-88",
-          "summary": "NBA game tracked for newsroom coverage.",
+          "summary": "Orlando Magic beat Detroit Pistons by 6. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
           "url": "https://www.espn.com/nba/game/_/gameId/401869415",
           "image": "sports-basketball-news-card-orlando-magic-beat-detroit-pistons-94-88",
           "key_data": [
-            "Orlando Magic beat Detroit Pistons, 94-88"
+            "Final: Orlando Magic 94, Detroit Pistons 88",
+            "Margin: 6 points"
           ],
           "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
+            "Game impacts standings, playoff positioning and coverage priorities.",
+            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+            "Orlando Magic gets the result"
           ],
           "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution."
+            "Watch scoring runs, injuries, rotations and late-game execution.",
+            "Check official box score leaders, injury notes and coach/player availability.",
+            "Look for standings movement, playoff implications and next-game matchup changes."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
+          "story_type": "result",
+          "priority_score": 126,
+          "urgency_score": 135,
           "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
-        },
-        {
-          "id": "nba_3",
-          "league": "NBA",
-          "headline": "Orlando Magic beat Detroit Pistons, 94-88",
-          "summary": "NBA game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869415",
-          "image": "sports-basketball-news-card-orlando-magic-beat-detroit-pistons-94-88",
-          "key_data": [
-            "Orlando Magic beat Detroit Pistons, 94-88"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, injuries, rotations and late-game execution."
-          ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:20:30 AM ET",
-      "strict_mode": true
+      "updated_at": "2026-04-28 11:47:51 AM ET",
+      "strict_mode": true,
+      "public_status": "published"
     },
     "nfl": {
       "league": "NFL",
-      "headline": "NFL source refresh needed before publication",
-      "snapshot": "1 NFL cards available.",
-      "cards": [
-        {
-          "id": "nfl_strict_refresh_needed",
-          "league": "NFL",
-          "headline": "NFL source refresh needed before publication",
-          "summary": "Strict Mode blocked stale NFL data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
-          "url": "#",
-          "image": "sports-football-news-card-nfl-source-refresh-needed-before-publication",
-          "key_data": [
-            "NFL stale data rejected",
-            "Required date: 2026-04-28 ET"
-          ],
-          "why_it_matters": [
-            "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
-          ],
-          "what_to_watch": [
-            "Run the NFL report script and rebuild distribution."
-          ],
-          "strict_mode_status": "stale_source_blocked",
-          "priority_score": 42,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 10:20:30 AM ET",
-      "strict_mode": true
+      "headline": "",
+      "snapshot": "",
+      "cards": [],
+      "updated_at": "2026-04-28 11:47:51 AM ET",
+      "strict_mode": true,
+      "public_status": "suppressed"
     },
     "nhl": {
       "league": "NHL",
@@ -619,244 +489,184 @@
           "id": "nhl_0",
           "league": "NHL",
           "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-          "summary": "NHL game tracked for newsroom coverage.",
+          "summary": "Pittsburgh Penguins beat Philadelphia Flyers by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
           "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
           "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
           "key_data": [
-            "Pittsburgh Penguins beat Philadelphia Flyers, 3-2"
+            "Final: Pittsburgh Penguins 3, Philadelphia Flyers 2",
+            "Margin: 1 point"
           ],
           "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
+            "Game impacts standings, playoff positioning and coverage priorities.",
+            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+            "Pittsburgh Penguins gets the result"
           ],
           "what_to_watch": [
-            "Watch scoring runs, goalie performance and late-game execution."
+            "Watch scoring runs, goalie performance and late-game execution.",
+            "Check official box score leaders, injury notes and coach/player availability.",
+            "Look for standings movement, playoff implications and next-game matchup changes."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
+          "story_type": "result",
+          "priority_score": 126,
+          "urgency_score": 135,
           "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
-        },
-        {
-          "id": "nhl_2",
-          "league": "NHL",
-          "headline": "Pittsburgh Penguins beat Philadelphia Flyers, 3-2",
-          "summary": "NHL game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nhl/game/_/gameId/401869801",
-          "image": "sports-hockey-news-card-pittsburgh-penguins-beat-philadelphia-flyers-3-2",
-          "key_data": [
-            "Pittsburgh Penguins beat Philadelphia Flyers, 3-2"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, goalie performance and late-game execution."
-          ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
           "id": "nhl_1",
           "league": "NHL",
-          "headline": "Utah Mammoth beat Vegas Golden Knights, 4-5",
-          "summary": "NHL game tracked for newsroom coverage.",
+          "headline": "Vegas Golden Knights beat Utah Mammoth, 5-4",
+          "summary": "Vegas Golden Knights beat Utah Mammoth by 1. The useful newsroom angle is what changed in standings, availability, usage and next-game coverage.",
           "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
-          "image": "sports-hockey-news-card-utah-mammoth-beat-vegas-golden-knights-4-5",
+          "image": "sports-hockey-news-card-vegas-golden-knights-beat-utah-mammoth-5-4",
           "key_data": [
-            "Utah Mammoth beat Vegas Golden Knights, 4-5"
+            "Final: Vegas Golden Knights 5, Utah Mammoth 4",
+            "Margin: 1 point"
           ],
           "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
+            "Game impacts standings, playoff positioning and coverage priorities.",
+            "Final scores create immediate follow-up questions around standings, playoff positioning and rotation usage.",
+            "Vegas Golden Knights gets the result"
           ],
           "what_to_watch": [
-            "Watch scoring runs, goalie performance and late-game execution."
+            "Watch scoring runs, goalie performance and late-game execution.",
+            "Check official box score leaders, injury notes and coach/player availability.",
+            "Look for standings movement, playoff implications and next-game matchup changes."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
+          "story_type": "result",
+          "priority_score": 126,
+          "urgency_score": 135,
           "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
-        },
-        {
-          "id": "nhl_3",
-          "league": "NHL",
-          "headline": "Utah Mammoth beat Vegas Golden Knights, 4-5",
-          "summary": "NHL game tracked for newsroom coverage.",
-          "url": "https://www.espn.com/nhl/game/_/gameId/401869760",
-          "image": "sports-hockey-news-card-utah-mammoth-beat-vegas-golden-knights-4-5",
-          "key_data": [
-            "Utah Mammoth beat Vegas Golden Knights, 4-5"
-          ],
-          "why_it_matters": [
-            "Game impacts standings, playoff positioning and coverage priorities."
-          ],
-          "what_to_watch": [
-            "Watch scoring runs, goalie performance and late-game execution."
-          ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 45,
-          "tier": 1,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:20:30 AM ET",
-      "strict_mode": true
+      "updated_at": "2026-04-28 11:47:51 AM ET",
+      "strict_mode": true,
+      "public_status": "published"
     },
     "soccer": {
       "league": "Soccer",
-      "headline": "Burnley at Leeds United",
+      "headline": "Lille 1, Paris FC 0",
       "snapshot": "11 matches on board.",
       "cards": [
         {
-          "id": "soccer_0",
+          "id": "soccer_7",
           "league": "Soccer",
-          "headline": "Burnley at Leeds United",
+          "headline": "Lille 1, Paris FC 0",
           "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/740942",
-          "image": "sports-soccer-news-card-burnley-at-leeds-united",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746688",
+          "image": "sports-soccer-news-card-lille-1-paris-fc-0",
           "key_data": [
-            "Burnley at Leeds United"
+            "Lille 1, Paris FC 0"
           ],
           "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
+            "Match impacts league standings, title races and coverage angles.",
+            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
           ],
           "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
+            "Watch goals, cards, substitutions and late-match swings.",
+            "Watch for verified reporting, data movement, official updates and follow-up angles."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "story_type": "analysis",
+          "priority_score": 75,
+          "urgency_score": 30,
+          "tier": 1,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
-          "id": "soccer_11",
+          "id": "soccer_6",
           "league": "Soccer",
-          "headline": "Burnley at Leeds United",
+          "headline": "Metz 4, Le Havre AC 4",
           "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/740942",
-          "image": "sports-soccer-news-card-burnley-at-leeds-united",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746684",
+          "image": "sports-soccer-news-card-metz-4-le-havre-ac-4",
           "key_data": [
-            "Burnley at Leeds United"
+            "Metz 4, Le Havre AC 4"
           ],
           "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
+            "Match impacts league standings, title races and coverage angles.",
+            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
           ],
           "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
+            "Watch goals, cards, substitutions and late-match swings.",
+            "Watch for verified reporting, data movement, official updates and follow-up angles."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "story_type": "analysis",
+          "priority_score": 75,
+          "urgency_score": 30,
+          "tier": 1,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
-          "id": "soccer_4",
+          "id": "soccer_8",
           "league": "Soccer",
-          "headline": "Lecce at Pisa",
+          "headline": "Nantes 1, Stade Rennais 2",
           "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/737126",
-          "image": "sports-soccer-news-card-lecce-at-pisa",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746689",
+          "image": "sports-soccer-news-card-nantes-1-stade-rennais-2",
           "key_data": [
-            "Lecce at Pisa"
+            "Nantes 1, Stade Rennais 2"
           ],
           "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
+            "Match impacts league standings, title races and coverage angles.",
+            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
           ],
           "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
+            "Watch goals, cards, substitutions and late-match swings.",
+            "Watch for verified reporting, data movement, official updates and follow-up angles."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "story_type": "analysis",
+          "priority_score": 75,
+          "urgency_score": 30,
+          "tier": 1,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         },
         {
-          "id": "soccer_15",
+          "id": "soccer_9",
           "league": "Soccer",
-          "headline": "Lecce at Pisa",
+          "headline": "Nice 1, Marseille 1",
           "summary": "Soccer match tracked for newsroom coverage.",
-          "url": "https://www.espn.com/soccer/match/_/gameId/737126",
-          "image": "sports-soccer-news-card-lecce-at-pisa",
+          "url": "https://www.espn.com/soccer/match/_/gameId/746687",
+          "image": "sports-soccer-news-card-nice-1-marseille-1",
           "key_data": [
-            "Lecce at Pisa"
+            "Nice 1, Marseille 1"
           ],
           "why_it_matters": [
-            "Match impacts league standings, title races and coverage angles."
+            "Match impacts league standings, title races and coverage angles.",
+            "This Soccer item needs context, verification and a clear reporting angle before it becomes a larger story."
           ],
           "what_to_watch": [
-            "Watch goals, cards, substitutions and late-match swings."
+            "Watch goals, cards, substitutions and late-match swings.",
+            "Watch for verified reporting, data movement, official updates and follow-up angles."
           ],
-          "strict_mode_status": "fresh_checked",
-          "priority_score": 28,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
+          "story_type": "analysis",
+          "priority_score": 75,
+          "urgency_score": 30,
+          "tier": 1,
+          "updated_at": "2026-04-28 11:47:51 AM ET"
         }
       ],
-      "updated_at": "2026-04-28 10:20:30 AM ET",
-      "strict_mode": true
+      "updated_at": "2026-04-28 11:47:51 AM ET",
+      "strict_mode": true,
+      "public_status": "published"
     },
     "betting_odds": {
       "league": "Betting Odds",
-      "headline": "Betting Odds source refresh needed before publication",
-      "snapshot": "Betting Odds newsroom card built from latest verified feed.",
-      "cards": [
-        {
-          "id": "betting_odds_strict_refresh_needed",
-          "league": "Betting Odds",
-          "headline": "Betting Odds source refresh needed before publication",
-          "summary": "Strict Mode blocked stale Betting Odds data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
-          "url": "#",
-          "image": "sports-betting-odds-card-betting-odds-source-refresh-needed-before-publication",
-          "key_data": [
-            "Betting Odds stale data rejected",
-            "Required date: 2026-04-28 ET"
-          ],
-          "why_it_matters": [
-            "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
-          ],
-          "what_to_watch": [
-            "Run the Betting Odds report script and rebuild distribution."
-          ],
-          "strict_mode_status": "stale_source_blocked",
-          "priority_score": 30,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 10:20:30 AM ET",
-      "strict_mode": true
+      "headline": "",
+      "snapshot": "",
+      "cards": [],
+      "updated_at": "2026-04-28 11:47:51 AM ET",
+      "strict_mode": true,
+      "public_status": "suppressed"
     },
     "fantasy": {
       "league": "Fantasy",
-      "headline": "Fantasy source refresh needed before publication",
-      "snapshot": "Fantasy newsroom card built from latest verified feed.",
-      "cards": [
-        {
-          "id": "fantasy_strict_refresh_needed",
-          "league": "Fantasy",
-          "headline": "Fantasy source refresh needed before publication",
-          "summary": "Strict Mode blocked stale Fantasy data from the homepage. The feed needs a current-day refresh before matchup or schedule items publish.",
-          "url": "#",
-          "image": "sports-fantasy-news-card-fantasy-source-refresh-needed-before-publication",
-          "key_data": [
-            "Fantasy stale data rejected",
-            "Required date: 2026-04-28 ET"
-          ],
-          "why_it_matters": [
-            "The homepage is protected from day-old schedules, matchups and stale newsroom cards."
-          ],
-          "what_to_watch": [
-            "Run the Fantasy report script and rebuild distribution."
-          ],
-          "strict_mode_status": "stale_source_blocked",
-          "priority_score": 30,
-          "tier": 2,
-          "updated_at": "2026-04-28 10:20:30 AM ET"
-        }
-      ],
-      "updated_at": "2026-04-28 10:20:30 AM ET",
-      "strict_mode": true
+      "headline": "",
+      "snapshot": "",
+      "cards": [],
+      "updated_at": "2026-04-28 11:47:51 AM ET",
+      "strict_mode": true,
+      "public_status": "suppressed"
     }
   },
   "journalist_toolkit": [
@@ -866,24 +676,24 @@
       "note": "Scores, schedules, game context and news wires."
     },
     {
+      "name": "The Athletic",
+      "url": "https://www.nytimes.com/athletic/",
+      "note": "Enterprise sports coverage, beat reporting and analysis."
+    },
+    {
+      "name": "Sports Reference",
+      "url": "https://www.sports-reference.com/",
+      "note": "Historical sports data, player pages and team context."
+    },
+    {
       "name": "Baseball Savant",
       "url": "https://baseballsavant.mlb.com/",
-      "note": "Statcast, pitch data, batted-ball quality and MLB player trends."
+      "note": "Statcast, pitch data, batted-ball quality and MLB trends."
     },
     {
-      "name": "Pro Football Reference",
-      "url": "https://www.pro-football-reference.com/",
-      "note": "NFL historical stats, team data and player comparison work."
-    },
-    {
-      "name": "Basketball Reference",
-      "url": "https://www.basketball-reference.com/",
-      "note": "NBA box scores, advanced metrics and historical player/team pages."
-    },
-    {
-      "name": "Hockey Reference",
-      "url": "https://www.hockey-reference.com/",
-      "note": "NHL stats, team pages, player logs and historical context."
+      "name": "Spotrac",
+      "url": "https://www.spotrac.com/",
+      "note": "Contracts, salary cap data and roster-building context."
     }
   ]
 }
