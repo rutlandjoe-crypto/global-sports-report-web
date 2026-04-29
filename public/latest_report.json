@@ -2,31 +2,31 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Hurricanes hopeful Ehlers, Nikishin will return in Round 2",
-  "snapshot": "Carolina coach Rod Brind'Amour is hopeful Hurricanes winger Nikolaj Ehlers and defenseman Alexander Nikishin will be ready for Round 2 of the Stanley Cup playoffs with extra time off to recover from injuries suffered in their sweep of the Ottawa Senators. College Football: NCAAFB REPORT | 2026-04-26 NBA: Portland Trail Blazers 45, San Antonio Spurs 65 — Live MLB: New York Yankees 3, Texas Rangers 2 — Bottom 9th",
+  "headline": "Matt Boldy and Wild go home with chance to clinch series after beating Stars 4-2 in Game 5",
+  "snapshot": "— Matt Boldy scored the tiebreaking power-play goal in the final minute of the second period, after having one taken away late in the first, and the... College Football: NCAAFB REPORT | 2026-04-26 MLB: MLB schedule opens with Tampa Bay Rays at Cleveland Guardians NBA: New York Knicks beat Atlanta Hawks, 126-97",
   "key_storylines": [
-    "Breaking Sports News: Hurricanes hopeful Ehlers, Nikishin will return in Round 2",
+    "Breaking Sports News: Matt Boldy and Wild go home with chance to clinch series after beating Stars 4-2 in Game 5",
     "College Football: NCAAFB REPORT | 2026-04-26",
-    "NBA: Portland Trail Blazers 45, San Antonio Spurs 65 — Live",
-    "MLB: New York Yankees 3, Texas Rangers 2 — Bottom 9th",
+    "MLB: MLB schedule opens with Tampa Bay Rays at Cleveland Guardians",
+    "NBA: New York Knicks beat Atlanta Hawks, 126-97",
     "NHL: Buffalo Sabres beat Boston Bruins, 1-2",
     "NFL: NFL offseason roster signals emerging"
   ],
   "lead_section": "breaking_news",
-  "lead_story_type": "leadership",
+  "lead_story_type": "breaking",
   "sections": [
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "Hurricanes hopeful Ehlers, Nikishin will return in Round 2",
-      "snapshot": "Carolina coach Rod Brind'Amour is hopeful Hurricanes winger Nikolaj Ehlers and defenseman Alexander Nikishin will be ready for Round 2 of the Stanley Cup playoffs with extra time off to recover from injuries suffered in their sweep of the Ottawa Senators.",
+      "headline": "Matt Boldy and Wild go home with chance to clinch series after beating Stars 4-2 in Game 5",
+      "snapshot": "— Matt Boldy scored the tiebreaking power-play goal in the final minute of the second period, after having one taken away late in the first, and the...",
       "key_storylines": [
-        "NHL: Hurricanes hopeful Ehlers, Nikishin will return in Round 2",
-        "NFL: Patriots players support Vrabel, stay focused on football",
+        "NHL: Matt Boldy and Wild go home with chance to clinch series after beating Stars 4-2 in Game 5",
         "NFL: Chad Brinker steps down as Titans' football operations chief",
         "College Football: Paul Finebaum: Brendan Sorsby's alleged gambling is 'tip of an iceberg'",
-        "NHL: Tourigny: Peterka's benching in Utah's loss coach's decision",
-        "NFL: NFL fifth-year option tracker: 2023 first-round draft class"
+        "NFL: NFL fifth-year option tracker: 2023 first-round draft class",
+        "NBA: Spurs close out Blazers to roll into second round of playoffs",
+        "NBA: 2026 NBA playoffs: Western Conference first-round takeaways"
       ],
       "final_scores": [],
       "live_games": [],
@@ -37,8 +37,8 @@
         "This card is designed to override stale scoreboard-only hierarchy when major news breaks."
       ],
       "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
         "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
         "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
       ],
       "story_angles": [
@@ -47,10 +47,10 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 172,
-      "story_type": "leadership",
-      "content": "NHL: Hurricanes hopeful Ehlers, Nikishin will return in Round 2\nNFL: Patriots players support Vrabel, stay focused on football\nNFL: Chad Brinker steps down as Titans' football operations chief\nCollege Football: Paul Finebaum: Brendan Sorsby's alleged gambling is 'tip of an iceberg'\nNHL: Tourigny: Peterka's benching in Utah's loss coach's decision\nNFL: NFL fifth-year option tracker: 2023 first-round draft class",
-      "updated_at": "2026-04-28 10:51:24 PM ET",
+      "priority_score": 180,
+      "story_type": "breaking",
+      "content": "NHL: Matt Boldy and Wild go home with chance to clinch series after beating Stars 4-2 in Game 5\nNFL: Chad Brinker steps down as Titans' football operations chief\nCollege Football: Paul Finebaum: Brendan Sorsby's alleged gambling is 'tip of an iceberg'\nNFL: NFL fifth-year option tracker: 2023 first-round draft class\nNBA: Spurs close out Blazers to roll into second round of playoffs\nNBA: 2026 NBA playoffs: Western Conference first-round takeaways",
+      "updated_at": "2026-04-29 01:52:58 AM ET",
       "source_file": "breaking_news_engine",
       "links": []
     },
@@ -89,61 +89,24 @@
       "source_file": ""
     },
     {
-      "key": "nba",
-      "title": "NBA",
-      "headline": "Portland Trail Blazers 45, San Antonio Spurs 65 — Live",
-      "snapshot": "3 NBA games on the board: 1 live, 2 final, 0 upcoming.",
-      "key_storylines": [
-        "Portland Trail Blazers 45, San Antonio Spurs 65 — Live"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Portland Trail Blazers 45, San Antonio Spurs 65 — Live",
-        "New York Knicks beat Atlanta Hawks, 126-97",
-        "Philadelphia 76ers beat Boston Celtics, 113-97"
-      ],
-      "why_it_matters": [
-        "The NBA board helps editors separate real results, live games and planning items before building coverage.",
-        "Final scores should drive follow-up around standings, rotations, injury availability and next-game context."
-      ],
-      "story_angles": [
-        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
-        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
-      ],
-      "priority_score": 104,
-      "story_type": "injury",
-      "content": "Portland Trail Blazers 45, San Antonio Spurs 65 — Live",
-      "updated_at": "2026-04-28 10:51:21 PM ET",
-      "source_file": ""
-    },
-    {
       "key": "mlb",
       "title": "MLB",
-      "headline": "New York Yankees 3, Texas Rangers 2 — Bottom 9th",
-      "snapshot": "11 today finals, 4 live and 0 scheduled for 2026-04-28 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "headline": "MLB schedule opens with Tampa Bay Rays at Cleveland Guardians",
+      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-04-29 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "key_storylines": [
-        "LIVE: New York Yankees 3, Texas Rangers 2 — Bottom 9th",
-        "LIVE: Chicago Cubs 2, San Diego Padres 2 — End 4th",
-        "LIVE: Kansas City Royals 0, Athletics 1 — Middle 4th",
-        "LIVE: Miami Marlins 1, Los Angeles Dodgers 0 — Bottom 3rd",
-        "FINAL: Tampa Bay Rays beat Cleveland Guardians, 1-0",
-        "FINAL: Baltimore Orioles beat Houston Astros, 5-3",
-        "FINAL: Cincinnati Reds beat Colorado Rockies, 7-2"
+        "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 1:10 PM ET",
+        "UPCOMING: Los Angeles Angels at Chicago White Sox — 1:10 PM ET",
+        "UPCOMING: Seattle Mariners at Minnesota Twins — 1:40 PM ET",
+        "UPCOMING: New York Yankees at Texas Rangers — 2:35 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: New York Yankees 3, Texas Rangers 2 — Bottom 9th",
-        "LIVE: Chicago Cubs 2, San Diego Padres 2 — End 4th",
-        "LIVE: Kansas City Royals 0, Athletics 1 — Middle 4th",
-        "LIVE: Miami Marlins 1, Los Angeles Dodgers 0 — Bottom 3rd",
-        "FINAL: Tampa Bay Rays beat Cleveland Guardians, 1-0",
-        "FINAL: Baltimore Orioles beat Houston Astros, 5-3",
-        "FINAL: Cincinnati Reds beat Colorado Rockies, 7-2",
-        "FINAL: Philadelphia Phillies rout San Francisco Giants, 7-0"
+        "UPCOMING: Tampa Bay Rays at Cleveland Guardians — 1:10 PM ET",
+        "UPCOMING: Los Angeles Angels at Chicago White Sox — 1:10 PM ET",
+        "UPCOMING: Seattle Mariners at Minnesota Twins — 1:40 PM ET",
+        "UPCOMING: New York Yankees at Texas Rangers — 2:35 PM ET"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -155,8 +118,38 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-04-28\n\nHEADLINE\nNew York Yankees 3, Texas Rangers 2 — Bottom 9th\n\nSNAPSHOT\n11 today finals, 4 live and 0 scheduled for 2026-04-28 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: New York Yankees 3, Texas Rangers 2 — Bottom 9th\nLIVE: Chicago Cubs 2, San Diego Padres 2 — End 4th\nLIVE: Kansas City Royals 0, Athletics 1 — Middle 4th\nLIVE: Miami Marlins 1, Los Angeles Dodgers 0 — Bottom 3rd\nFINAL: Tampa Bay Rays beat Cleveland Guardians, 1-0\nFINAL: Baltimore Orioles beat Houston Astros, 5-3\nFINAL: Cincinnati Reds beat Colorado Rockies, 7-2\nFINAL: Philadelphia Phillies rout San Francisco Giants, 7-0\nFINAL: St. Louis Cardinals beat Pittsburgh Pirates, 11-7\n\nTODAY FINAL SCORES\nTampa Bay Rays beat Cleveland Guardians, 1-0\nBaltimore Orioles beat Houston Astros, 5-3\nCincinnati Reds beat Colorado Rockies, 7-2\nPhiladelphia Phillies rout San Francisco Giants, 7-0\nSt. Louis Cardinals beat Pittsburgh Pirates, 11-7\nToronto Blue Jays beat Boston Red Sox, 3-0\nNew York Mets rout Washington Nationals, 8-0\nAtlanta Braves beat Detroit Tigers, 5-2\nChicago White Sox beat Los Angeles Angels, 5-2\nMilwaukee Brewers rout Arizona Diamondbacks, 13-2\nSeattle Mariners rout Minnesota Twins, 7-1\n\nTODAY LIVE\nNew York Yankees 3, Texas Rangers 2 — Bottom 9th\nChicago Cubs 2, San Diego Padres 2 — End 4th\nKansas City Royals 0, Athletics 1 — Middle 4th\nMiami Marlins 1, Los Angeles Dodgers 0 — Bottom 3rd\n\nTODAY SCHEDULE\n- None\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-28 10:51:20 PM ET",
-      "updated_at": "2026-04-28 10:51:20 PM ET",
+      "content": "MLB REPORT | 2026-04-29\n\nHEADLINE\nMLB schedule opens with Tampa Bay Rays at Cleveland Guardians\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-04-29 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Tampa Bay Rays at Cleveland Guardians — 1:10 PM ET\nUPCOMING: Los Angeles Angels at Chicago White Sox — 1:10 PM ET\nUPCOMING: Seattle Mariners at Minnesota Twins — 1:40 PM ET\nUPCOMING: New York Yankees at Texas Rangers — 2:35 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nTampa Bay Rays at Cleveland Guardians — 1:10 PM ET\nLos Angeles Angels at Chicago White Sox — 1:10 PM ET\nSeattle Mariners at Minnesota Twins — 1:40 PM ET\nNew York Yankees at Texas Rangers — 2:35 PM ET\nBoston Red Sox at Toronto Blue Jays — 3:07 PM ET\nMiami Marlins at Los Angeles Dodgers — 3:10 PM ET\nChicago Cubs at San Diego Padres — 4:10 PM ET\nHouston Astros at Baltimore Orioles — 6:35 PM ET\nColorado Rockies at Cincinnati Reds — 6:40 PM ET\nSan Francisco Giants at Philadelphia Phillies — 6:40 PM ET\nSt. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET\nWashington Nationals at New York Mets — 7:10 PM ET\nDetroit Tigers at Atlanta Braves — 7:15 PM ET\nArizona Diamondbacks at Milwaukee Brewers — 7:40 PM ET\nKansas City Royals at Athletics — 9:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-29 01:52:54 AM ET",
+      "updated_at": "2026-04-29 01:52:54 AM ET",
+      "source_file": ""
+    },
+    {
+      "key": "nba",
+      "title": "NBA",
+      "headline": "New York Knicks beat Atlanta Hawks, 126-97",
+      "snapshot": "3 NBA games on the board: 0 live, 3 final, 0 upcoming.",
+      "key_storylines": [
+        "New York Knicks beat Atlanta Hawks, 126-97"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "New York Knicks beat Atlanta Hawks, 126-97",
+        "Philadelphia 76ers beat Boston Celtics, 113-97",
+        "San Antonio Spurs beat Portland Trail Blazers, 114-95"
+      ],
+      "why_it_matters": [
+        "The NBA board helps editors separate real results, live games and planning items before building coverage.",
+        "Final scores should drive follow-up around standings, rotations, injury availability and next-game context."
+      ],
+      "story_angles": [
+        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
+        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "New York Knicks beat Atlanta Hawks, 126-97",
+      "updated_at": "2026-04-29 01:52:55 AM ET",
       "source_file": ""
     },
     {
@@ -173,7 +166,7 @@
       "advanced": [
         "Buffalo Sabres beat Boston Bruins, 1-2",
         "Dallas Stars beat Minnesota Wild, 2-4",
-        "Anaheim Ducks 0, Edmonton Oilers 3 — Live"
+        "Edmonton Oilers beat Anaheim Ducks, 4-1"
       ],
       "why_it_matters": [
         "NHL board drives daily coverage."
@@ -184,7 +177,7 @@
       "priority_score": 65,
       "story_type": "final",
       "content": "Buffalo Sabres beat Boston Bruins, 1-2",
-      "updated_at": "2026-04-28 10:51:22 PM ET",
+      "updated_at": "2026-04-29 01:52:55 AM ET",
       "source_file": ""
     },
     {
@@ -193,13 +186,13 @@
       "headline": "NFL offseason roster signals emerging",
       "snapshot": "No active games; offseason coverage signals in focus",
       "key_storylines": [
-        "NFL REPORT | 2026-04-28",
+        "NFL REPORT | 2026-04-29",
         "HEADLINE",
         "NFL offseason roster signals emerging",
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":51:22 PM ET"
+        ":52:56 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -214,15 +207,15 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-04-28\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-28 10:51:22 PM ET",
-      "updated_at": "2026-04-28 10:51:22 PM ET",
+      "content": "NFL REPORT | 2026-04-29\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-29 01:52:56 AM ET",
+      "updated_at": "2026-04-29 01:52:56 AM ET",
       "source_file": ""
     },
     {
       "key": "soccer",
       "title": "Global Soccer",
       "headline": "Burnley at Leeds United",
-      "snapshot": "11 matches on board.",
+      "snapshot": "15 matches on board.",
       "key_storylines": [
         "Burnley at Leeds United"
       ],
@@ -232,12 +225,12 @@
       "advanced": [
         "Burnley at Leeds United",
         "Mallorca at Girona",
-        "Werder Bremen 1, VfB Stuttgart 1",
-        "SC Freiburg 0, Borussia Dortmund 4",
-        "Lecce at Pisa",
-        "Strasbourg 3, Lorient 2",
-        "Metz 4, Le Havre AC 4",
-        "Lille 1, Paris FC 0"
+        "FC Cologne at 1. FC Union Berlin",
+        "FC Heidenheim 1846 at Bayern Munich",
+        "Hamburg SV at Eintracht Frankfurt",
+        "VfB Stuttgart at TSG Hoffenheim",
+        "FC Augsburg at Werder Bremen",
+        "RB Leipzig at Bayer Leverkusen"
       ],
       "why_it_matters": [
         "Soccer board spans global leagues."
@@ -248,7 +241,7 @@
       "priority_score": 25,
       "story_type": "generic",
       "content": "Burnley at Leeds United",
-      "updated_at": "2026-04-28 10:51:22 PM ET",
+      "updated_at": "2026-04-29 01:52:56 AM ET",
       "source_file": ""
     },
     {
@@ -257,7 +250,7 @@
       "headline": "Fantasy basketball usage and production leaders",
       "snapshot": "HEADLINE",
       "key_storylines": [
-        "FANTASY SPORTS | 2026-04-28",
+        "FANTASY SPORTS | 2026-04-29",
         "HEADLINE",
         "Top fantasy performers and usage trends across the board",
         "KEY STORYLINES",
@@ -277,8 +270,8 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-04-28\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-28 10:51:24 PM ET",
-      "updated_at": "2026-04-28 10:51:24 PM ET",
+      "content": "FANTASY SPORTS | 2026-04-29\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-29 01:52:57 AM ET",
+      "updated_at": "2026-04-29 01:52:57 AM ET",
       "source_file": ""
     }
   ],
@@ -322,9 +315,9 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-04-28 10:51:24 PM ET",
-  "generated_at": "2026-04-28 10:51:24 PM ET",
-  "published_at": "2026-04-28 10:51:24 PM ET",
+  "updated_at": "2026-04-29 01:52:58 AM ET",
+  "generated_at": "2026-04-29 01:52:58 AM ET",
+  "published_at": "2026-04-29 01:52:58 AM ET",
   "editorial_brain": {
     "status": "active",
     "breaking_news_engine": "active",
