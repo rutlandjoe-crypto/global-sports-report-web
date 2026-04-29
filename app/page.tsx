@@ -23,7 +23,15 @@ const TOOLKIT = [
   ["Spotrac", "https://www.spotrac.com/"],
 ];
 
+const GSR_NETWORK = [
+  ["Sports", "https://globalsportsreport.com"],
+  ["AI", "https://globalaireport.news"],
+  ["Politics", "https://globalpoliticsreport.com"],
+  ["Entertainment", "https://globalentertainmentreport.com"],
+];
+
 const LEAGUE_LABELS: AnyObj = {
+  breaking_news: "Breaking Sports News",
   mlb: "MLB",
   nba: "NBA",
   nhl: "NHL",
@@ -157,7 +165,6 @@ function extractSectionLines(content: string, heading: string): string[] {
 }
 
 function extractHeadline(section: AnyObj): string {
-  const content = cleanText(section.content);
   const headlineLines = extractSectionLines(section.content || "", "HEADLINE");
 
   return (
@@ -186,11 +193,13 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     ...extractSectionLines(content, "KEY DATA POINTS"),
     ...asList(section.advanced?.sections?.key_data_points),
     ...asList(section.advanced?.sections?.matchup_flags),
+    ...asList(section.advanced),
   ];
 
   const why = [
     ...extractSectionLines(content, "WHY IT MATTERS"),
     ...asList(section.advanced?.sections?.why_it_matters),
+    ...asList(section.why_it_matters),
   ];
 
   const watch = [
@@ -201,19 +210,42 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     ...asList(section.advanced?.sections?.story_angles),
     ...asList(section.advanced?.sections?.statcast_watch),
     ...asList(section.advanced?.sections?.league_efficiency_watch),
+    ...asList(section.story_angles),
+    ...asList(section.what_to_watch),
   ];
 
   return {
     id: key,
-    league: LEAGUE_LABELS[key] || key.toUpperCase(),
+    key,
+    league: section.title || LEAGUE_LABELS[key] || key.toUpperCase(),
+    title: section.title || LEAGUE_LABELS[key] || key.toUpperCase(),
     headline: extractHeadline(section),
     summary: extractSnapshot(section),
+    snapshot: extractSnapshot(section),
     updated_at: section.updated_at,
     source_file: section.source_file,
+    url: section.url || section.link || "#",
     key_data: unique(keyData).filter((item) => !isBadContent(item)).slice(0, 5),
     why_it_matters: unique(why).filter((item) => !isBadContent(item)).slice(0, 5),
     what_to_watch: unique(watch).filter((item) => !isBadContent(item)).slice(0, 6),
-    story_type: "analysis",
+    story_type: section.story_type || "analysis",
+  };
+}
+
+function normalizeStory(story: AnyObj, index: number): AnyObj {
+  const key = cleanText(story.key || story.id || story.league || `story-${index}`);
+  const title = cleanText(story.title || story.league || LEAGUE_LABELS[key] || "Sports Watch");
+
+  return {
+    ...story,
+    id: key || `story-${index}`,
+    key,
+    league: title,
+    title,
+    headline: cleanText(story.headline || story.title || story.name),
+    summary: cleanText(story.summary || story.snapshot || story.description || story.body),
+    snapshot: cleanText(story.snapshot || story.summary || story.description || story.body),
+    url: story.url || story.link || story.source_url || "#",
   };
 }
 
@@ -229,25 +261,41 @@ function getStories(report: AnyObj): AnyObj[] {
     null;
 
   if (Array.isArray(candidates) && candidates.length) {
-    return candidates.filter((story) => story && typeof story === "object");
+    return candidates
+      .filter((story) => story && typeof story === "object")
+      .map((story, index) => normalizeStory(story, index));
   }
 
   if (candidates && typeof candidates === "object") {
-    return Object.entries(candidates).map(([key, value]: [string, any]) => {
+    return Object.entries(candidates).map(([key, value]: [string, any], index) => {
       if (value && typeof value === "object") {
-        return {
-          id: key,
-          league: value.league || LEAGUE_LABELS[key] || key.toUpperCase(),
-          ...value,
-        };
+        return normalizeStory(
+          {
+            id: key,
+            key,
+            league: value.league || LEAGUE_LABELS[key] || key.toUpperCase(),
+            ...value,
+          },
+          index
+        );
       }
 
-      return {
-        id: key,
-        league: LEAGUE_LABELS[key] || key.toUpperCase(),
-        headline: cleanText(value),
-      };
+      return normalizeStory(
+        {
+          id: key,
+          key,
+          league: LEAGUE_LABELS[key] || key.toUpperCase(),
+          headline: cleanText(value),
+        },
+        index
+      );
     });
+  }
+
+  if (Array.isArray(report.sections)) {
+    return report.sections.map((section: AnyObj, index: number) =>
+      sectionToStory(section.key || section.id || `section-${index}`, section || {})
+    );
   }
 
   if (report.sections && typeof report.sections === "object") {
@@ -257,6 +305,17 @@ function getStories(report: AnyObj): AnyObj[] {
   }
 
   return [];
+}
+
+function getSpotlightStories(report: AnyObj, key: "live_newsroom" | "editor_signals"): AnyObj[] {
+  const raw = report[key];
+
+  if (!Array.isArray(raw)) return [];
+
+  return raw
+    .filter((item) => item && typeof item === "object")
+    .map((item, index) => normalizeStory(item, index))
+    .filter(isPublishableStory);
 }
 
 function storyTitle(story: AnyObj, index: number): string {
@@ -285,7 +344,7 @@ function storySummary(story: AnyObj): string {
 }
 
 function storyLabel(story: AnyObj): string {
-  return cleanText(story.league) || cleanText(story.label) || "Sports Watch";
+  return cleanText(story.league) || cleanText(story.title) || cleanText(story.label) || "Sports Watch";
 }
 
 function isPublishableStory(story: AnyObj): boolean {
@@ -308,13 +367,23 @@ function cleanSignals(items: string[]): string[] {
 }
 
 function buildBriefingItems(stories: AnyObj[], rawSignals: string[]): string[] {
-  const fromStories = stories.map((story) => {
+  const fromStories = stories.map((story, index) => {
     const label = storyLabel(story);
-    const title = storyTitle(story, 0);
+    const title = storyTitle(story, index);
     return `${label}: ${title}`;
   });
 
   return cleanSignals([...fromStories, ...rawSignals]);
+}
+
+function spotlightItemsFromStories(stories: AnyObj[]): string[] {
+  return cleanSignals(
+    stories.map((story, index) => {
+      const label = storyLabel(story);
+      const title = storyTitle(story, index);
+      return `${label}: ${title}`;
+    })
+  );
 }
 
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
@@ -451,6 +520,9 @@ export default function Page() {
 
   let stories = getStories(report).filter(isPublishableStory);
 
+  const liveNewsroomStories = getSpotlightStories(report, "live_newsroom");
+  const editorSignalStories = getSpotlightStories(report, "editor_signals");
+
   const rawSignals = asList(
     report.key_storylines ||
       report.keyStorylines ||
@@ -492,10 +564,36 @@ export default function Page() {
   }
 
   const leadStories = stories.slice(0, 10);
-  const briefingItems = buildBriefingItems(stories, rawSignals);
+
+  const liveBriefingItems = liveNewsroomStories.length
+    ? spotlightItemsFromStories(liveNewsroomStories)
+    : buildBriefingItems(stories, rawSignals);
+
+  const editorSignalItems = editorSignalStories.length
+    ? spotlightItemsFromStories(editorSignalStories)
+    : cleanSignals(rawSignals.length ? rawSignals : buildBriefingItems(stories.slice(3), []));
 
   return (
     <main className="min-h-screen bg-neutral-100 text-neutral-950">
+      <div className="border-b border-neutral-800 bg-black text-white">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-3 px-5 py-2 text-xs font-bold uppercase tracking-wide">
+          <span className="text-neutral-300">GSR Network:</span>
+          {GSR_NETWORK.map(([name, url], index) => (
+            <span key={name} className="flex items-center gap-3">
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-red-300"
+              >
+                {name}
+              </a>
+              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">•</span> : null}
+            </span>
+          ))}
+        </div>
+      </div>
+
       <header className="border-b border-neutral-300 bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-5 py-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
@@ -523,8 +621,8 @@ export default function Page() {
 
           <NewsroomBriefing
             items={
-              briefingItems.length
-                ? briefingItems
+              liveBriefingItems.length
+                ? liveBriefingItems
                 : [
                     "Track the strongest verified sports development on today’s board.",
                     "Prioritize results, injuries, playoff movement, roster news and verified links.",
@@ -541,8 +639,8 @@ export default function Page() {
           <Block title="Editor Signals">
             <LineList
               items={
-                briefingItems.length
-                  ? briefingItems
+                editorSignalItems.length
+                  ? editorSignalItems
                   : [
                       "Track the strongest verified sports development on today’s board.",
                       "Prioritize results, injuries, playoff movement, roster news and verified links.",
