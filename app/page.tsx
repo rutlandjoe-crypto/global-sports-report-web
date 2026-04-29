@@ -23,6 +23,17 @@ const TOOLKIT = [
   ["Spotrac", "https://www.spotrac.com/"],
 ];
 
+const LEAGUE_LABELS: AnyObj = {
+  mlb: "MLB",
+  nba: "NBA",
+  nhl: "NHL",
+  nfl: "NFL",
+  ncaafb: "College Football",
+  soccer: "Soccer",
+  betting_odds: "Betting Odds",
+  fantasy: "Fantasy",
+};
+
 const BAD_CONTENT_PHRASES = [
   "source refresh",
   "refresh needed",
@@ -38,58 +49,6 @@ const BAD_CONTENT_PHRASES = [
   "not allowed onto the homepage",
   "no verified data point attached yet",
   "no current items available",
-];
-
-const WEAK_HEADLINE_PHRASES = [
-  "probable",
-  "probables",
-  "scheduled matchup",
-  "matchup available",
-  "current-day update pending",
-  "source refresh",
-  "refresh needed",
-];
-
-const RESULT_WORDS = [
-  "beat",
-  "beats",
-  "defeat",
-  "defeats",
-  "won",
-  "wins",
-  "final",
-  "rally",
-  "rallies",
-  "shutout",
-  "walk-off",
-  "walkoff",
-  "overtime",
-  "clinched",
-  "eliminated",
-];
-
-const NEWS_WORDS = [
-  "breaking",
-  "injury",
-  "injured",
-  "trade",
-  "traded",
-  "signs",
-  "signed",
-  "waived",
-  "released",
-  "suspended",
-  "suspension",
-  "fired",
-  "hired",
-  "coach",
-  "manager",
-  "contract",
-  "extension",
-  "draft",
-  "playoff",
-  "returns",
-  "ruled out",
 ];
 
 function readReport(): AnyObj {
@@ -120,45 +79,10 @@ function normalizeText(value: any): string {
   return cleanText(value).toLowerCase();
 }
 
-function asList(value: any): string[] {
-  if (!value) return [];
-
-  if (Array.isArray(value)) {
-    return value.flatMap((item) => {
-      if (typeof item === "string") {
-        return item
-          .split(/\n|•|\|/)
-          .map((x) => x.trim())
-          .filter(Boolean);
-      }
-
-      if (item && typeof item === "object") {
-        const text =
-          cleanText(item.text) ||
-          cleanText(item.title) ||
-          cleanText(item.headline) ||
-          cleanText(item.summary) ||
-          cleanText(item.description) ||
-          cleanText(item.note) ||
-          cleanText(item.angle) ||
-          cleanText(item.game) ||
-          cleanText(item.matchup);
-
-        return text ? [text] : [];
-      }
-
-      return cleanText(item) ? [cleanText(item)] : [];
-    });
-  }
-
-  if (typeof value === "object") {
-    return Object.values(value).map(cleanText).filter(Boolean);
-  }
-
-  return cleanText(value)
-    .split(/\n|•|\|/)
-    .map((x) => x.trim())
-    .filter(Boolean);
+function isBadContent(value: any): boolean {
+  const text = normalizeText(value);
+  if (!text) return true;
+  return BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase));
 }
 
 function unique(items: string[]): string[] {
@@ -168,63 +92,171 @@ function unique(items: string[]): string[] {
     .map((item) => item.replace(/\s+/g, " ").trim())
     .filter((item) => {
       if (!item) return false;
-
       const key = item.toLowerCase();
-
       if (seen.has(key)) return false;
-
       seen.add(key);
       return true;
     });
 }
 
-function isBadContent(value: any): boolean {
-  const text = normalizeText(value);
+function asList(value: any): string[] {
+  if (!value) return [];
 
-  if (!text) return true;
+  if (Array.isArray(value)) {
+    return value.flatMap((item) =>
+      cleanText(item)
+        .split(/\n|•|\|/)
+        .map((x) => x.trim())
+        .filter(Boolean)
+    );
+  }
 
-  return BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase));
+  if (typeof value === "object") {
+    return Object.values(value).flatMap((item) =>
+      cleanText(item)
+        .split(/\n|•|\|/)
+        .map((x) => x.trim())
+        .filter(Boolean)
+    );
+  }
+
+  return cleanText(value)
+    .split(/\n|•|\|/)
+    .map((x) => x.trim())
+    .filter(Boolean);
 }
 
-function looksLikeScheduledMatchup(value: any): boolean {
-  const text = normalizeText(value);
+function extractSectionLines(content: string, heading: string): string[] {
+  if (!content) return [];
 
-  if (!text) return false;
+  const lines = content.split("\n");
+  const startIndex = lines.findIndex(
+    (line) => line.trim().toUpperCase() === heading.toUpperCase()
+  );
 
-  if (text.includes("probable") || text.includes("probables")) return true;
-  if (text.includes("scheduled matchup")) return true;
-  if (text.includes("matchup available")) return true;
+  if (startIndex === -1) return [];
 
-  const hasTime = /\b\d{1,2}:\d{2}\s*(am|pm)?\s*et\b/i.test(text);
-  const hasAt = /\s+at\s+/.test(text);
-  const hasVs = /\s+vs\.?\s+/.test(text) || /\s+v\.\s+/.test(text);
+  const output: string[] = [];
 
-  return hasTime && (hasAt || hasVs);
+  for (let i = startIndex + 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+
+    if (!line) continue;
+
+    const isNextHeading =
+      /^[A-Z0-9\s&/()-]{4,}$/.test(line) &&
+      !line.includes(".") &&
+      !line.includes(":");
+
+    if (isNextHeading) break;
+
+    output.push(line.replace(/^- /, "").trim());
+  }
+
+  return output.filter(Boolean);
 }
 
-function isWeakHeadline(value: any): boolean {
-  const text = normalizeText(value);
+function extractHeadline(section: AnyObj): string {
+  const content = cleanText(section.content);
+  const headlineLines = extractSectionLines(section.content || "", "HEADLINE");
 
-  if (!text) return true;
-
-  if (BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase))) return true;
-  if (WEAK_HEADLINE_PHRASES.some((phrase) => text.includes(phrase))) return true;
-  if (looksLikeScheduledMatchup(text)) return true;
-
-  return false;
+  return (
+    cleanText(section.headline) ||
+    cleanText(headlineLines[0]) ||
+    cleanText(section.title) ||
+    "Sports newsroom update"
+  );
 }
 
-function storyText(story: AnyObj): string {
-  return cleanText([
-    story.headline,
-    story.title,
-    story.name,
-    story.summary,
-    story.snapshot,
-    story.description,
-    story.league,
-    story.story_type,
-  ]);
+function extractSnapshot(section: AnyObj): string {
+  const snapshotLines = extractSectionLines(section.content || "", "SNAPSHOT");
+
+  return (
+    cleanText(section.snapshot) ||
+    cleanText(snapshotLines[0]) ||
+    cleanText(section.content).slice(0, 260) ||
+    "Latest verified sports report generated for newsroom review."
+  );
+}
+
+function sectionToStory(key: string, section: AnyObj): AnyObj {
+  const content = section.content || "";
+
+  const keyData = [
+    ...extractSectionLines(content, "KEY DATA POINTS"),
+    ...asList(section.advanced?.sections?.key_data_points),
+    ...asList(section.advanced?.sections?.matchup_flags),
+  ];
+
+  const why = [
+    ...extractSectionLines(content, "WHY IT MATTERS"),
+    ...asList(section.advanced?.sections?.why_it_matters),
+  ];
+
+  const watch = [
+    ...extractSectionLines(content, "STORY ANGLES"),
+    ...extractSectionLines(content, "LIVE"),
+    ...extractSectionLines(content, "UPCOMING"),
+    ...extractSectionLines(content, "FINAL SCORES"),
+    ...asList(section.advanced?.sections?.story_angles),
+    ...asList(section.advanced?.sections?.statcast_watch),
+    ...asList(section.advanced?.sections?.league_efficiency_watch),
+  ];
+
+  return {
+    id: key,
+    league: LEAGUE_LABELS[key] || key.toUpperCase(),
+    headline: extractHeadline(section),
+    summary: extractSnapshot(section),
+    updated_at: section.updated_at,
+    source_file: section.source_file,
+    key_data: unique(keyData).filter((item) => !isBadContent(item)).slice(0, 5),
+    why_it_matters: unique(why).filter((item) => !isBadContent(item)).slice(0, 5),
+    what_to_watch: unique(watch).filter((item) => !isBadContent(item)).slice(0, 6),
+    story_type: "analysis",
+  };
+}
+
+function getStories(report: AnyObj): AnyObj[] {
+  const candidates =
+    report.homepage_cards ||
+    report.cards ||
+    report.stories ||
+    report.news ||
+    report.headlines ||
+    report.items ||
+    report.articles ||
+    null;
+
+  if (Array.isArray(candidates) && candidates.length) {
+    return candidates.filter((story) => story && typeof story === "object");
+  }
+
+  if (candidates && typeof candidates === "object") {
+    return Object.entries(candidates).map(([key, value]: [string, any]) => {
+      if (value && typeof value === "object") {
+        return {
+          id: key,
+          league: value.league || LEAGUE_LABELS[key] || key.toUpperCase(),
+          ...value,
+        };
+      }
+
+      return {
+        id: key,
+        league: LEAGUE_LABELS[key] || key.toUpperCase(),
+        headline: cleanText(value),
+      };
+    });
+  }
+
+  if (report.sections && typeof report.sections === "object") {
+    return Object.entries(report.sections).map(([key, value]: [string, any]) =>
+      sectionToStory(key, value || {})
+    );
+  }
+
+  return [];
 }
 
 function storyTitle(story: AnyObj, index: number): string {
@@ -256,28 +288,12 @@ function storyLabel(story: AnyObj): string {
   return cleanText(story.league) || cleanText(story.label) || "Sports Watch";
 }
 
-function storyType(story: AnyObj): string {
-  const explicit = normalizeText(story.story_type);
-
-  if (explicit) return explicit;
-
-  const text = normalizeText(storyText(story));
-
-  if (looksLikeScheduledMatchup(text)) return "schedule";
-
-  if (NEWS_WORDS.some((word) => text.includes(word))) return "news";
-
-  if (RESULT_WORDS.some((word) => text.includes(word))) return "result";
-
-  return "analysis";
-}
-
 function isPublishableStory(story: AnyObj): boolean {
   if (!story || typeof story !== "object") return false;
 
   const title = storyTitle(story, 0);
   const summary = storySummary(story);
-  const text = `${title} ${summary} ${storyText(story)}`;
+  const text = `${title} ${summary}`;
 
   if (!title) return false;
   if (isBadContent(text)) return false;
@@ -285,114 +301,18 @@ function isPublishableStory(story: AnyObj): boolean {
   return true;
 }
 
-function storyScore(story: AnyObj): number {
-  const type = storyType(story);
-  const text = normalizeText(storyText(story));
-  let score = 0;
-
-  if (type === "news") score += 100;
-  else if (type === "result") score += 85;
-  else if (type === "analysis") score += 60;
-  else if (type === "schedule") score += 10;
-
-  if (NEWS_WORDS.some((word) => text.includes(word))) score += 20;
-  if (RESULT_WORDS.some((word) => text.includes(word))) score += 15;
-
-  if (storyUrl(story) !== "#") score += 8;
-
-  if (looksLikeScheduledMatchup(text)) score -= 80;
-  if (text.includes("probable") || text.includes("probables")) score -= 80;
-
-  return score;
-}
-
-function sortStories(stories: AnyObj[]): AnyObj[] {
-  return [...stories].sort((a, b) => {
-    const aType = storyType(a);
-    const bType = storyType(b);
-
-    const aSchedule = aType === "schedule" ? 1 : 0;
-    const bSchedule = bType === "schedule" ? 1 : 0;
-
-    if (aSchedule !== bSchedule) return aSchedule - bSchedule;
-
-    return storyScore(b) - storyScore(a);
-  });
-}
-
-function getStories(report: AnyObj): AnyObj[] {
-  const candidates =
-    report.homepage_cards ||
-    report.cards ||
-    report.stories ||
-    report.news ||
-    report.headlines ||
-    report.items ||
-    report.articles ||
-    [];
-
-  if (Array.isArray(candidates)) {
-    return candidates.filter((story) => story && typeof story === "object");
-  }
-
-  if (candidates && typeof candidates === "object") {
-    return Object.entries(candidates).map(([key, value]: [string, any]) => {
-      if (value && typeof value === "object") {
-        return {
-          id: key,
-          league: value.league || key.toUpperCase(),
-          ...value,
-        };
-      }
-
-      return {
-        id: key,
-        league: key.toUpperCase(),
-        headline: cleanText(value),
-      };
-    });
-  }
-
-  return [];
-}
-
 function cleanSignals(items: string[]): string[] {
   return unique(items)
     .filter((item) => !isBadContent(item))
-    .filter((item) => !isWeakHeadline(item))
     .slice(0, 6);
 }
 
-function pickStrongHeadline(stories: AnyObj[], fallback: string): string {
-  const sorted = sortStories(stories);
-
-  for (const story of sorted) {
-    const title = storyTitle(story, 0);
-
-    if (!isWeakHeadline(title) && !isBadContent(title)) {
-      return title;
-    }
-  }
-
-  for (const story of sorted) {
-    const title = storyTitle(story, 0);
-
-    if (!isBadContent(title)) {
-      return title;
-    }
-  }
-
-  return fallback;
-}
-
 function buildBriefingItems(stories: AnyObj[], rawSignals: string[]): string[] {
-  const fromStories = sortStories(stories)
-    .filter((story) => storyType(story) !== "schedule")
-    .map((story) => {
-      const label = storyLabel(story);
-      const title = storyTitle(story, 0);
-      return `${label}: ${title}`;
-    });
+  const fromStories = stories.map((story) => {
+    const label = storyLabel(story);
+    const title = storyTitle(story, 0);
+    return `${label}: ${title}`;
+  });
 
   return cleanSignals([...fromStories, ...rawSignals]);
 }
@@ -444,10 +364,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
       {safe.length ? (
         <div className="space-y-2">
           {safe.map((item, i) => (
-            <p
-              key={i}
-              className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800"
-            >
+            <p key={i} className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800">
               {item}
             </p>
           ))}
@@ -467,32 +384,17 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
   const summary = storySummary(story);
   const label = storyLabel(story);
 
-  const blocks = story.journalist_blocks || {};
+  const keyData = asList(story.key_data || story.keyData || story.data || story.metrics).filter(
+    (item) => !isBadContent(item)
+  );
 
-  const keyData = asList(
-    story.key_data ||
-      story.keyData ||
-      story.data ||
-      story.metrics ||
-      story.items ||
-      blocks.key_data
-  ).filter((item) => !isBadContent(item));
+  const why = asList(story.why_it_matters || story.whyItMatters || story.why).filter(
+    (item) => !isBadContent(item)
+  );
 
-  const why = asList(
-    story.why_it_matters ||
-      story.whyItMatters ||
-      story.why ||
-      blocks.why_it_matters
-  ).filter((item) => !isBadContent(item));
-
-  const watch = asList(
-    story.what_to_watch ||
-      story.whatToWatch ||
-      story.watch ||
-      blocks.what_to_watch ||
-      story.story_angles ||
-      blocks.story_angles
-  ).filter((item) => !isBadContent(item));
+  const watch = asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles).filter(
+    (item) => !isBadContent(item)
+  );
 
   return (
     <article className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
@@ -548,7 +450,6 @@ export default function Page() {
   const report = readReport();
 
   let stories = getStories(report).filter(isPublishableStory);
-  stories = sortStories(stories);
 
   const rawSignals = asList(
     report.key_storylines ||
@@ -558,10 +459,12 @@ export default function Page() {
       report.takeaways
   );
 
-  const fallbackHeadline =
-    "Global Sports Report: Live Sports Newsroom Board";
+  const fallbackHeadline = "Global Sports Report: Live Sports Newsroom Board";
 
-  const headline = pickStrongHeadline(stories, fallbackHeadline);
+  const headline =
+    cleanText(report.headline) && !isBadContent(report.headline)
+      ? cleanText(report.headline)
+      : fallbackHeadline;
 
   const snapshot =
     cleanText(report.snapshot) && !isBadContent(report.snapshot)
@@ -680,7 +583,7 @@ export default function Page() {
 
         <section className="space-y-6">
           {leadStories.map((story, index) => (
-            <StoryCard key={index} story={story} index={index} />
+            <StoryCard key={story.id || index} story={story} index={index} />
           ))}
         </section>
       </section>
