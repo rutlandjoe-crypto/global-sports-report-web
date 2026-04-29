@@ -2,31 +2,31 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "'The Hoop Collective': Episodes of Brian Windhorst's NBA podcast",
-  "snapshot": "From breaking news to the latest intel from around the NBA, here are the top highlights from Brian Windhorst's \"The Hoop Collective\" podcast. College Football: NCAAFB REPORT | 2026-04-26 MLB: Tampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st NBA: Houston Rockets at Los Angeles Lakers",
+  "headline": "Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
+  "snapshot": "Saints coach Kellen Moore joins Rich Eisen and breaks down the team's draft class, including Jordyn Tyson. College Football: NCAAFB REPORT | 2026-04-26 MLB: Tampa Bay Rays 0, Cleveland Guardians 1 — Top 4th NBA: Houston Rockets at Los Angeles Lakers",
   "key_storylines": [
-    "Breaking Sports News: 'The Hoop Collective': Episodes of Brian Windhorst's NBA podcast",
+    "Breaking Sports News: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
     "College Football: NCAAFB REPORT | 2026-04-26",
-    "MLB: Tampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st",
+    "MLB: Tampa Bay Rays 0, Cleveland Guardians 1 — Top 4th",
     "NBA: Houston Rockets at Los Angeles Lakers",
     "NHL: Montreal Canadiens at Tampa Bay Lightning",
     "NFL: NFL offseason roster signals emerging"
   ],
   "lead_section": "breaking_news",
-  "lead_story_type": "breaking",
+  "lead_story_type": "leadership",
   "sections": [
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "'The Hoop Collective': Episodes of Brian Windhorst's NBA podcast",
-      "snapshot": "From breaking news to the latest intel from around the NBA, here are the top highlights from Brian Windhorst's \"The Hoop Collective\" podcast.",
+      "headline": "Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
+      "snapshot": "Saints coach Kellen Moore joins Rich Eisen and breaks down the team's draft class, including Jordyn Tyson.",
       "key_storylines": [
-        "NBA: 'The Hoop Collective': Episodes of Brian Windhorst's NBA podcast",
+        "NFL: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
         "College Football: Paul Finebaum: Brendan Sorsby's alleged gambling is 'tip of an iceberg'",
+        "NBA: Sources: Warriors' brass meet with Kerr; will reconvene next week",
         "NFL: NFL fifth-year option tracker: 2023 first-round draft class",
-        "NFL: 2026 NFL draft: Ranking the 100 best picks, steals, fits",
-        "NHL: Stanley Cup playoffs daily: Previews, stats, schedule, bracket",
-        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news"
+        "NBA: Betting tips, DFS picks for Wednesday's NBA playoff games",
+        "NHL: Stanley Cup playoffs daily: Previews, stats, schedule, bracket"
       ],
       "final_scores": [],
       "live_games": [],
@@ -37,6 +37,7 @@
         "This card is designed to override stale scoreboard-only hierarchy when major news breaks."
       ],
       "why_it_matters": [
+        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
         "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
         "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
       ],
@@ -46,10 +47,10 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 165,
-      "story_type": "breaking",
-      "content": "NBA: 'The Hoop Collective': Episodes of Brian Windhorst's NBA podcast\nCollege Football: Paul Finebaum: Brendan Sorsby's alleged gambling is 'tip of an iceberg'\nNFL: NFL fifth-year option tracker: 2023 first-round draft class\nNFL: 2026 NFL draft: Ranking the 100 best picks, steals, fits\nNHL: Stanley Cup playoffs daily: Previews, stats, schedule, bracket\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news",
-      "updated_at": "2026-04-29 01:26:07 PM ET",
+      "priority_score": 169,
+      "story_type": "leadership",
+      "content": "NFL: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson\nCollege Football: Paul Finebaum: Brendan Sorsby's alleged gambling is 'tip of an iceberg'\nNBA: Sources: Warriors' brass meet with Kerr; will reconvene next week\nNFL: NFL fifth-year option tracker: 2023 first-round draft class\nNBA: Betting tips, DFS picks for Wednesday's NBA playoff games\nNHL: Stanley Cup playoffs daily: Previews, stats, schedule, bracket",
+      "updated_at": "2026-04-29 03:21:47 PM ET",
       "source_file": "breaking_news_engine",
       "links": []
     },
@@ -90,26 +91,29 @@
     {
       "key": "mlb",
       "title": "MLB",
-      "headline": "Tampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st",
-      "snapshot": "0 today finals, 2 live and 13 scheduled for 2026-04-29 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "headline": "Tampa Bay Rays 0, Cleveland Guardians 1 — Top 4th",
+      "snapshot": "0 today finals, 6 live and 9 scheduled for 2026-04-29 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "key_storylines": [
-        "LIVE: Tampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st",
-        "LIVE: Los Angeles Angels 0, Chicago White Sox 0 — Bottom 1st",
-        "UPCOMING: Seattle Mariners at Minnesota Twins — 1:40 PM ET",
-        "UPCOMING: New York Yankees at Texas Rangers — 2:35 PM ET",
-        "UPCOMING: Boston Red Sox at Toronto Blue Jays — 3:07 PM ET",
-        "UPCOMING: Miami Marlins at Los Angeles Dodgers — 3:10 PM ET"
+        "LIVE: Tampa Bay Rays 0, Cleveland Guardians 1 — Top 4th",
+        "LIVE: Los Angeles Angels 2, Chicago White Sox 1 — Top 8th",
+        "LIVE: Seattle Mariners 1, Minnesota Twins 2 — End 6th",
+        "LIVE: New York Yankees 0, Texas Rangers 0 — Top 3rd",
+        "UPCOMING: Chicago Cubs at San Diego Padres — 4:10 PM ET",
+        "UPCOMING: San Francisco Giants at Philadelphia Phillies — 6:10 PM ET",
+        "UPCOMING: Houston Astros at Baltimore Orioles — 6:35 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: Tampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st",
-        "LIVE: Los Angeles Angels 0, Chicago White Sox 0 — Bottom 1st",
-        "UPCOMING: Seattle Mariners at Minnesota Twins — 1:40 PM ET",
-        "UPCOMING: New York Yankees at Texas Rangers — 2:35 PM ET",
-        "UPCOMING: Boston Red Sox at Toronto Blue Jays — 3:07 PM ET",
-        "UPCOMING: Miami Marlins at Los Angeles Dodgers — 3:10 PM ET"
+        "LIVE: Tampa Bay Rays 0, Cleveland Guardians 1 — Top 4th",
+        "LIVE: Los Angeles Angels 2, Chicago White Sox 1 — Top 8th",
+        "LIVE: Seattle Mariners 1, Minnesota Twins 2 — End 6th",
+        "LIVE: New York Yankees 0, Texas Rangers 0 — Top 3rd",
+        "UPCOMING: Chicago Cubs at San Diego Padres — 4:10 PM ET",
+        "UPCOMING: San Francisco Giants at Philadelphia Phillies — 6:10 PM ET",
+        "UPCOMING: Houston Astros at Baltimore Orioles — 6:35 PM ET",
+        "UPCOMING: Colorado Rockies at Cincinnati Reds — 6:40 PM ET"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -121,8 +125,8 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-04-29\n\nHEADLINE\nTampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st\n\nSNAPSHOT\n0 today finals, 2 live and 13 scheduled for 2026-04-29 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Tampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st\nLIVE: Los Angeles Angels 0, Chicago White Sox 0 — Bottom 1st\nUPCOMING: Seattle Mariners at Minnesota Twins — 1:40 PM ET\nUPCOMING: New York Yankees at Texas Rangers — 2:35 PM ET\nUPCOMING: Boston Red Sox at Toronto Blue Jays — 3:07 PM ET\nUPCOMING: Miami Marlins at Los Angeles Dodgers — 3:10 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\nTampa Bay Rays 0, Cleveland Guardians 0 — Rain Delay, Top 1st\nLos Angeles Angels 0, Chicago White Sox 0 — Bottom 1st\n\nTODAY SCHEDULE\nSeattle Mariners at Minnesota Twins — 1:40 PM ET\nNew York Yankees at Texas Rangers — 2:35 PM ET\nBoston Red Sox at Toronto Blue Jays — 3:07 PM ET\nMiami Marlins at Los Angeles Dodgers — 3:10 PM ET\nChicago Cubs at San Diego Padres — 4:10 PM ET\nHouston Astros at Baltimore Orioles — 6:35 PM ET\nColorado Rockies at Cincinnati Reds — 6:40 PM ET\nSan Francisco Giants at Philadelphia Phillies — 6:40 PM ET\nSt. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET\nWashington Nationals at New York Mets — 7:10 PM ET\nDetroit Tigers at Atlanta Braves — 7:15 PM ET\nArizona Diamondbacks at Milwaukee Brewers — 7:40 PM ET\nKansas City Royals at Athletics — 9:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-29 01:26:03 PM ET",
-      "updated_at": "2026-04-29 01:26:03 PM ET",
+      "content": "MLB REPORT | 2026-04-29\n\nHEADLINE\nTampa Bay Rays 0, Cleveland Guardians 1 — Top 4th\n\nSNAPSHOT\n0 today finals, 6 live and 9 scheduled for 2026-04-29 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Tampa Bay Rays 0, Cleveland Guardians 1 — Top 4th\nLIVE: Los Angeles Angels 2, Chicago White Sox 1 — Top 8th\nLIVE: Seattle Mariners 1, Minnesota Twins 2 — End 6th\nLIVE: New York Yankees 0, Texas Rangers 0 — Top 3rd\nUPCOMING: Chicago Cubs at San Diego Padres — 4:10 PM ET\nUPCOMING: San Francisco Giants at Philadelphia Phillies — 6:10 PM ET\nUPCOMING: Houston Astros at Baltimore Orioles — 6:35 PM ET\nUPCOMING: Colorado Rockies at Cincinnati Reds — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\nTampa Bay Rays 0, Cleveland Guardians 1 — Top 4th\nLos Angeles Angels 2, Chicago White Sox 1 — Top 8th\nSeattle Mariners 1, Minnesota Twins 2 — End 6th\nNew York Yankees 0, Texas Rangers 0 — Top 3rd\nBoston Red Sox 1, Toronto Blue Jays 0 — Bottom 1st\nMiami Marlins 0, Los Angeles Dodgers 0 — Bottom 1st\n\nTODAY SCHEDULE\nChicago Cubs at San Diego Padres — 4:10 PM ET\nSan Francisco Giants at Philadelphia Phillies — 6:10 PM ET\nHouston Astros at Baltimore Orioles — 6:35 PM ET\nColorado Rockies at Cincinnati Reds — 6:40 PM ET\nSt. Louis Cardinals at Pittsburgh Pirates — 6:40 PM ET\nWashington Nationals at New York Mets — 7:10 PM ET\nDetroit Tigers at Atlanta Braves — 7:15 PM ET\nArizona Diamondbacks at Milwaukee Brewers — 7:40 PM ET\nKansas City Royals at Athletics — 9:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-29 03:21:43 PM ET",
+      "updated_at": "2026-04-29 03:21:43 PM ET",
       "source_file": ""
     },
     {
@@ -152,7 +156,7 @@
       "priority_score": 72,
       "story_type": "live",
       "content": "Houston Rockets at Los Angeles Lakers",
-      "updated_at": "2026-04-29 01:26:03 PM ET",
+      "updated_at": "2026-04-29 03:21:44 PM ET",
       "source_file": ""
     },
     {
@@ -180,7 +184,7 @@
       "priority_score": 25,
       "story_type": "generic",
       "content": "Montreal Canadiens at Tampa Bay Lightning",
-      "updated_at": "2026-04-29 01:26:04 PM ET",
+      "updated_at": "2026-04-29 03:21:44 PM ET",
       "source_file": ""
     },
     {
@@ -195,7 +199,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":26:04 PM ET"
+        ":21:45 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -210,8 +214,8 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-04-29\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-29 01:26:04 PM ET",
-      "updated_at": "2026-04-29 01:26:04 PM ET",
+      "content": "NFL REPORT | 2026-04-29\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-29 03:21:45 PM ET",
+      "updated_at": "2026-04-29 03:21:45 PM ET",
       "source_file": ""
     },
     {
@@ -244,7 +248,7 @@
       "priority_score": 25,
       "story_type": "generic",
       "content": "Burnley at Leeds United",
-      "updated_at": "2026-04-29 01:26:05 PM ET",
+      "updated_at": "2026-04-29 03:21:45 PM ET",
       "source_file": ""
     },
     {
@@ -273,8 +277,8 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-04-29\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-29 01:26:06 PM ET",
-      "updated_at": "2026-04-29 01:26:06 PM ET",
+      "content": "FANTASY SPORTS | 2026-04-29\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-29 03:21:46 PM ET",
+      "updated_at": "2026-04-29 03:21:46 PM ET",
       "source_file": ""
     }
   ],
@@ -318,9 +322,9 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-04-29 01:26:07 PM ET",
-  "generated_at": "2026-04-29 01:26:07 PM ET",
-  "published_at": "2026-04-29 01:26:07 PM ET",
+  "updated_at": "2026-04-29 03:21:47 PM ET",
+  "generated_at": "2026-04-29 03:21:47 PM ET",
+  "published_at": "2026-04-29 03:21:47 PM ET",
   "editorial_brain": {
     "status": "active",
     "breaking_news_engine": "active",
