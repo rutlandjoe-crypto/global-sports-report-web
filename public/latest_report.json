@@ -2,10 +2,10 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
-  "snapshot": "Saints coach Kellen Moore joins Rich Eisen and breaks down the team's draft class, including Jordyn Tyson.",
+  "headline": "How five 49ers draft picks fit into current, future plans",
+  "snapshot": "Breaking down 49ers' vision for top five picks. Will De'Zhaun Stribling, Kaelon Black contribute right away?",
   "key_storylines": [
-    "Breaking Sports News: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
+    "Breaking Sports News: How five 49ers draft picks fit into current, future plans",
     "College Football: NCAAFB REPORT | 2026-04-26",
     "MLB: MLB schedule opens with Detroit Tigers at Atlanta Braves",
     "NBA: Cleveland Cavaliers beat Toronto Raptors, 125-120",
@@ -13,6 +13,45 @@
     "NFL: NFL offseason roster signals emerging"
   ],
   "live_newsroom": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "How five 49ers draft picks fit into current, future plans",
+      "snapshot": "Breaking down 49ers' vision for top five picks. Will De'Zhaun Stribling, Kaelon Black contribute right away?",
+      "key_storylines": [
+        "NFL: How five 49ers draft picks fit into current, future plans",
+        "NFL: Bears banking on health, better coaching to improve pass rush",
+        "College Football: Rebels' Malloy, Golding on drilling in the basics at Regions Tradition",
+        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news",
+        "College Football: Kirby Smart details his thoughts on potential NCAA football changes",
+        "NFL: 2027 NFL mock draft: Reid's early first-round predictions"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Stories are elevated when news terms such as fired, traded, injured, suspended, hired, investigation, playoff or draft appear in trusted sports feeds.",
+        "This card is designed to override stale scoreboard-only hierarchy when major news breaks."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 177,
+      "story_type": "breaking",
+      "content": "NFL: How five 49ers draft picks fit into current, future plans\nNFL: Bears banking on health, better coaching to improve pass rush\nCollege Football: Rebels' Malloy, Golding on drilling in the basics at Regions Tradition\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nCollege Football: Kirby Smart details his thoughts on potential NCAA football changes\nNFL: 2027 NFL mock draft: Reid's early first-round predictions",
+      "updated_at": "2026-04-30 06:53:27 AM ET",
+      "source_file": "breaking_news_engine",
+      "links": []
+    },
     {
       "key": "mlb",
       "title": "MLB",
@@ -43,8 +82,8 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-04-30\n\nHEADLINE\nMLB schedule opens with Detroit Tigers at Atlanta Braves\n\nSNAPSHOT\n0 today finals, 0 live and 11 scheduled for 2026-04-30 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Detroit Tigers at Atlanta Braves — 12:15 PM ET\nUPCOMING: Houston Astros at Baltimore Orioles — 12:35 PM ET\nUPCOMING: San Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nUPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nDetroit Tigers at Atlanta Braves — 12:15 PM ET\nHouston Astros at Baltimore Orioles — 12:35 PM ET\nSan Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nSt. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\nColorado Rockies at Cincinnati Reds — 12:40 PM ET\nWashington Nationals at New York Mets — 1:10 PM ET\nArizona Diamondbacks at Milwaukee Brewers — 1:40 PM ET\nKansas City Royals at Athletics — 3:05 PM ET\nHouston Astros at Baltimore Orioles — 4:05 PM ET\nSan Francisco Giants at Philadelphia Phillies — 5:35 PM ET\nToronto Blue Jays at Minnesota Twins — 7:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-30 04:24:55 AM ET",
-      "updated_at": "2026-04-30 04:24:55 AM ET",
+      "content": "MLB REPORT | 2026-04-30\n\nHEADLINE\nMLB schedule opens with Detroit Tigers at Atlanta Braves\n\nSNAPSHOT\n0 today finals, 0 live and 11 scheduled for 2026-04-30 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Detroit Tigers at Atlanta Braves — 12:15 PM ET\nUPCOMING: Houston Astros at Baltimore Orioles — 12:35 PM ET\nUPCOMING: San Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nUPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nDetroit Tigers at Atlanta Braves — 12:15 PM ET\nHouston Astros at Baltimore Orioles — 12:35 PM ET\nSan Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nSt. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\nColorado Rockies at Cincinnati Reds — 12:40 PM ET\nWashington Nationals at New York Mets — 1:10 PM ET\nArizona Diamondbacks at Milwaukee Brewers — 1:40 PM ET\nKansas City Royals at Athletics — 3:05 PM ET\nHouston Astros at Baltimore Orioles — 4:05 PM ET\nSan Francisco Giants at Philadelphia Phillies — 5:35 PM ET\nToronto Blue Jays at Minnesota Twins — 7:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-30 06:53:23 AM ET",
+      "updated_at": "2026-04-30 06:53:23 AM ET",
       "source_file": ""
     },
     {
@@ -74,46 +113,8 @@
       "priority_score": 72,
       "story_type": "live",
       "content": "Cleveland Cavaliers beat Toronto Raptors, 125-120",
-      "updated_at": "2026-04-30 04:24:56 AM ET",
+      "updated_at": "2026-04-30 06:53:24 AM ET",
       "source_file": ""
-    },
-    {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
-      "snapshot": "Saints coach Kellen Moore joins Rich Eisen and breaks down the team's draft class, including Jordyn Tyson.",
-      "key_storylines": [
-        "NFL: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
-        "College Football: Rebels' Malloy, Golding on drilling in the basics at Regions Tradition",
-        "College Football: Kirby Smart details his thoughts on potential NCAA football changes",
-        "NFL: The 2026 NFL Draft was historic, for Africa and the league's international programme",
-        "NFL: Fantasy football buzz: Focusing on this year's top rookies, including Love and Price",
-        "NFL: Mike Tannenbaum: Texans have a championship defense"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Stories are elevated when news terms such as fired, traded, injured, suspended, hired, investigation, playoff or draft appear in trusted sports feeds.",
-        "This card is designed to override stale scoreboard-only hierarchy when major news breaks."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
-        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 169,
-      "story_type": "leadership",
-      "content": "NFL: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson\nCollege Football: Rebels' Malloy, Golding on drilling in the basics at Regions Tradition\nCollege Football: Kirby Smart details his thoughts on potential NCAA football changes\nNFL: The 2026 NFL Draft was historic, for Africa and the league's international programme\nNFL: Fantasy football buzz: Focusing on this year's top rookies, including Love and Price\nNFL: Mike Tannenbaum: Texans have a championship defense",
-      "updated_at": "2026-04-30 04:24:59 AM ET",
-      "source_file": "breaking_news_engine",
-      "links": []
     },
     {
       "key": "ncaafb",
@@ -174,7 +175,7 @@
       "priority_score": 65,
       "story_type": "final",
       "content": "Tampa Bay Lightning beat Montreal Canadiens, 2-3",
-      "updated_at": "2026-04-30 04:24:56 AM ET",
+      "updated_at": "2026-04-30 06:53:24 AM ET",
       "source_file": ""
     }
   ],
@@ -191,7 +192,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":24:56 AM ET"
+        ":53:24 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -206,8 +207,8 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-04-30\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-30 04:24:56 AM ET",
-      "updated_at": "2026-04-30 04:24:56 AM ET",
+      "content": "NFL REPORT | 2026-04-30\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-30 06:53:24 AM ET",
+      "updated_at": "2026-04-30 06:53:24 AM ET",
       "source_file": ""
     },
     {
@@ -240,7 +241,7 @@
       "priority_score": 25,
       "story_type": "generic",
       "content": "Burnley at Leeds United",
-      "updated_at": "2026-04-30 04:24:57 AM ET",
+      "updated_at": "2026-04-30 06:53:25 AM ET",
       "source_file": ""
     },
     {
@@ -269,26 +270,26 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-04-30\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-30 04:24:58 AM ET",
-      "updated_at": "2026-04-30 04:24:58 AM ET",
+      "content": "FANTASY SPORTS | 2026-04-30\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-30 06:53:26 AM ET",
+      "updated_at": "2026-04-30 06:53:26 AM ET",
       "source_file": ""
     }
   ],
   "lead_section": "breaking_news",
-  "lead_story_type": "leadership",
+  "lead_story_type": "breaking",
   "sections": [
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
-      "snapshot": "Saints coach Kellen Moore joins Rich Eisen and breaks down the team's draft class, including Jordyn Tyson.",
+      "headline": "How five 49ers draft picks fit into current, future plans",
+      "snapshot": "Breaking down 49ers' vision for top five picks. Will De'Zhaun Stribling, Kaelon Black contribute right away?",
       "key_storylines": [
-        "NFL: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson",
+        "NFL: How five 49ers draft picks fit into current, future plans",
+        "NFL: Bears banking on health, better coaching to improve pass rush",
         "College Football: Rebels' Malloy, Golding on drilling in the basics at Regions Tradition",
+        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news",
         "College Football: Kirby Smart details his thoughts on potential NCAA football changes",
-        "NFL: The 2026 NFL Draft was historic, for Africa and the league's international programme",
-        "NFL: Fantasy football buzz: Focusing on this year's top rookies, including Love and Price",
-        "NFL: Mike Tannenbaum: Texans have a championship defense"
+        "NFL: 2027 NFL mock draft: Reid's early first-round predictions"
       ],
       "final_scores": [],
       "live_games": [],
@@ -300,6 +301,7 @@
       ],
       "why_it_matters": [
         "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
         "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
       ],
       "story_angles": [
@@ -308,10 +310,10 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 169,
-      "story_type": "leadership",
-      "content": "NFL: Kellen Moore: 'We got the right kind of guy' in Jordyn Tyson\nCollege Football: Rebels' Malloy, Golding on drilling in the basics at Regions Tradition\nCollege Football: Kirby Smart details his thoughts on potential NCAA football changes\nNFL: The 2026 NFL Draft was historic, for Africa and the league's international programme\nNFL: Fantasy football buzz: Focusing on this year's top rookies, including Love and Price\nNFL: Mike Tannenbaum: Texans have a championship defense",
-      "updated_at": "2026-04-30 04:24:59 AM ET",
+      "priority_score": 177,
+      "story_type": "breaking",
+      "content": "NFL: How five 49ers draft picks fit into current, future plans\nNFL: Bears banking on health, better coaching to improve pass rush\nCollege Football: Rebels' Malloy, Golding on drilling in the basics at Regions Tradition\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nCollege Football: Kirby Smart details his thoughts on potential NCAA football changes\nNFL: 2027 NFL mock draft: Reid's early first-round predictions",
+      "updated_at": "2026-04-30 06:53:27 AM ET",
       "source_file": "breaking_news_engine",
       "links": []
     },
@@ -379,8 +381,8 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-04-30\n\nHEADLINE\nMLB schedule opens with Detroit Tigers at Atlanta Braves\n\nSNAPSHOT\n0 today finals, 0 live and 11 scheduled for 2026-04-30 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Detroit Tigers at Atlanta Braves — 12:15 PM ET\nUPCOMING: Houston Astros at Baltimore Orioles — 12:35 PM ET\nUPCOMING: San Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nUPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nDetroit Tigers at Atlanta Braves — 12:15 PM ET\nHouston Astros at Baltimore Orioles — 12:35 PM ET\nSan Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nSt. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\nColorado Rockies at Cincinnati Reds — 12:40 PM ET\nWashington Nationals at New York Mets — 1:10 PM ET\nArizona Diamondbacks at Milwaukee Brewers — 1:40 PM ET\nKansas City Royals at Athletics — 3:05 PM ET\nHouston Astros at Baltimore Orioles — 4:05 PM ET\nSan Francisco Giants at Philadelphia Phillies — 5:35 PM ET\nToronto Blue Jays at Minnesota Twins — 7:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-30 04:24:55 AM ET",
-      "updated_at": "2026-04-30 04:24:55 AM ET",
+      "content": "MLB REPORT | 2026-04-30\n\nHEADLINE\nMLB schedule opens with Detroit Tigers at Atlanta Braves\n\nSNAPSHOT\n0 today finals, 0 live and 11 scheduled for 2026-04-30 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Detroit Tigers at Atlanta Braves — 12:15 PM ET\nUPCOMING: Houston Astros at Baltimore Orioles — 12:35 PM ET\nUPCOMING: San Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nUPCOMING: St. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nDetroit Tigers at Atlanta Braves — 12:15 PM ET\nHouston Astros at Baltimore Orioles — 12:35 PM ET\nSan Francisco Giants at Philadelphia Phillies — 12:35 PM ET\nSt. Louis Cardinals at Pittsburgh Pirates — 12:35 PM ET\nColorado Rockies at Cincinnati Reds — 12:40 PM ET\nWashington Nationals at New York Mets — 1:10 PM ET\nArizona Diamondbacks at Milwaukee Brewers — 1:40 PM ET\nKansas City Royals at Athletics — 3:05 PM ET\nHouston Astros at Baltimore Orioles — 4:05 PM ET\nSan Francisco Giants at Philadelphia Phillies — 5:35 PM ET\nToronto Blue Jays at Minnesota Twins — 7:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-04-30 06:53:23 AM ET",
+      "updated_at": "2026-04-30 06:53:23 AM ET",
       "source_file": ""
     },
     {
@@ -410,7 +412,7 @@
       "priority_score": 72,
       "story_type": "live",
       "content": "Cleveland Cavaliers beat Toronto Raptors, 125-120",
-      "updated_at": "2026-04-30 04:24:56 AM ET",
+      "updated_at": "2026-04-30 06:53:24 AM ET",
       "source_file": ""
     },
     {
@@ -438,7 +440,7 @@
       "priority_score": 65,
       "story_type": "final",
       "content": "Tampa Bay Lightning beat Montreal Canadiens, 2-3",
-      "updated_at": "2026-04-30 04:24:56 AM ET",
+      "updated_at": "2026-04-30 06:53:24 AM ET",
       "source_file": ""
     },
     {
@@ -453,7 +455,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":24:56 AM ET"
+        ":53:24 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -468,8 +470,8 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-04-30\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-30 04:24:56 AM ET",
-      "updated_at": "2026-04-30 04:24:56 AM ET",
+      "content": "NFL REPORT | 2026-04-30\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-04-30 06:53:24 AM ET",
+      "updated_at": "2026-04-30 06:53:24 AM ET",
       "source_file": ""
     },
     {
@@ -502,7 +504,7 @@
       "priority_score": 25,
       "story_type": "generic",
       "content": "Burnley at Leeds United",
-      "updated_at": "2026-04-30 04:24:57 AM ET",
+      "updated_at": "2026-04-30 06:53:25 AM ET",
       "source_file": ""
     },
     {
@@ -531,8 +533,8 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-04-30\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-30 04:24:58 AM ET",
-      "updated_at": "2026-04-30 04:24:58 AM ET",
+      "content": "FANTASY SPORTS | 2026-04-30\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-04-30 06:53:26 AM ET",
+      "updated_at": "2026-04-30 06:53:26 AM ET",
       "source_file": ""
     }
   ],
@@ -576,9 +578,9 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-04-30 04:24:59 AM ET",
-  "generated_at": "2026-04-30 04:24:59 AM ET",
-  "published_at": "2026-04-30 04:24:59 AM ET",
+  "updated_at": "2026-04-30 06:53:27 AM ET",
+  "generated_at": "2026-04-30 06:53:27 AM ET",
+  "published_at": "2026-04-30 06:53:27 AM ET",
   "editorial_brain": {
     "status": "active",
     "breaking_news_engine": "active",
