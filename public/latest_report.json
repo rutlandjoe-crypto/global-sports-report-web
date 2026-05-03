@@ -2,27 +2,68 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East",
-  "snapshot": "The Knicks are 19-1 to win the NBA championship after their lopsided series-clinching win over Atlanta, while the Timberwolves are at 180-1.",
+  "headline": "Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep",
+  "snapshot": "— Oneil Cruz hit a tie-breaking single in the bottom of the eighth inning and the Pittsburgh Pirates completed a sweep of Cincinnati with a 1-0 win on Sunday.",
   "key_storylines": [
-    "Breaking Sports News: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East",
-    "MLB: Baltimore Orioles 3, New York Yankees 4 — Top 7th",
-    "NBA: Orlando Magic 17, Detroit Pistons 18 — Live",
+    "Breaking Sports News: Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep",
+    "MLB: Baltimore Orioles 3, New York Yankees 4 — Bottom 7th",
+    "NBA: Orlando Magic 22, Detroit Pistons 20 — Live",
     "NHL: Minnesota Wild at Colorado Avalanche — 5/3 - 9:00 PM EDT",
     "College Football: College football schedule loaded with 10 upcoming matchups across the board.",
     "Betting Market Watch: NBA: Orlando Magic at Detroit Pistons betting market is active"
   ],
   "live_newsroom": [
     {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep",
+      "snapshot": "— Oneil Cruz hit a tie-breaking single in the bottom of the eighth inning and the Pittsburgh Pirates completed a sweep of Cincinnati with a 1-0 win on Sunday.",
+      "key_storylines": [
+        "MLB: Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep",
+        "NBA: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East",
+        "MLB: Cubs closer Daniel Palencia off IL following oblique injury",
+        "NBA: Celtics' Jayson Tatum laments 'unfortunate timing' of knee injury",
+        "NBA: NBA's Cooper Flagg gets ride from NASCAR rookie Connor Zilisch",
+        "NBA: Sources: Wolves' Anthony Edwards could return midseries"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 165,
+      "story_type": "breaking",
+      "content": "MLB: Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep\nNBA: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East\nMLB: Cubs closer Daniel Palencia off IL following oblique injury\nNBA: Celtics' Jayson Tatum laments 'unfortunate timing' of knee injury\nNBA: NBA's Cooper Flagg gets ride from NASCAR rookie Connor Zilisch\nNBA: Sources: Wolves' Anthony Edwards could return midseries",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.14,
+      "lead_eligible": true,
+      "links": []
+    },
+    {
       "key": "mlb",
       "title": "MLB",
-      "headline": "Baltimore Orioles 3, New York Yankees 4 — Top 7th",
-      "snapshot": "3 today finals, 7 live and 5 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "headline": "Baltimore Orioles 3, New York Yankees 4 — Bottom 7th",
+      "snapshot": "3 today finals, 10 live and 2 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "key_storylines": [
-        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Top 7th",
-        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 7th",
-        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 8th",
-        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th",
+        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Bottom 7th",
+        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 8th",
+        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 9th",
+        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th",
         "FINAL: Minnesota Twins beat Toronto Blue Jays, 4-3",
         "FINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0",
         "FINAL: Washington Nationals beat Milwaukee Brewers, 3-2"
@@ -31,14 +72,14 @@
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Top 7th",
-        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 7th",
-        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 8th",
-        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th",
+        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Bottom 7th",
+        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 8th",
+        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 9th",
+        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th",
         "FINAL: Minnesota Twins beat Toronto Blue Jays, 4-3",
         "FINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0",
         "FINAL: Washington Nationals beat Milwaukee Brewers, 3-2",
-        "UPCOMING: Cleveland Guardians at Athletics — 4:05 PM ET"
+        "UPCOMING: Kansas City Royals at Seattle Mariners — 4:10 PM ET"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -50,9 +91,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-03\n\nHEADLINE\nBaltimore Orioles 3, New York Yankees 4 — Top 7th\n\nSNAPSHOT\n3 today finals, 7 live and 5 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Baltimore Orioles 3, New York Yankees 4 — Top 7th\nLIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 7th\nLIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 8th\nLIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th\nFINAL: Minnesota Twins beat Toronto Blue Jays, 4-3\nFINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0\nFINAL: Washington Nationals beat Milwaukee Brewers, 3-2\nUPCOMING: Cleveland Guardians at Athletics — 4:05 PM ET\nUPCOMING: New York Mets at Los Angeles Angels — 4:07 PM ET\nUPCOMING: Chicago White Sox at San Diego Padres — 4:10 PM ET\nUPCOMING: Kansas City Royals at Seattle Mariners — 4:10 PM ET\n\nTODAY FINAL SCORES\nMinnesota Twins beat Toronto Blue Jays, 4-3\nPittsburgh Pirates beat Cincinnati Reds, 1-0\nWashington Nationals beat Milwaukee Brewers, 3-2\n\nTODAY LIVE\nBaltimore Orioles 3, New York Yankees 4 — Top 7th\nHouston Astros 1, Boston Red Sox 1 — Bottom 7th\nPhiladelphia Phillies 7, Miami Marlins 2 — Bottom 8th\nSan Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th\nLos Angeles Dodgers 3, St. Louis Cardinals 0 — Top 7th\nArizona Diamondbacks 2, Chicago Cubs 6 — Top 6th\nAtlanta Braves 3, Colorado Rockies 1 — Top 3rd\n\nTODAY SCHEDULE\nCleveland Guardians at Athletics — 4:05 PM ET\nNew York Mets at Los Angeles Angels — 4:07 PM ET\nChicago White Sox at San Diego Padres — 4:10 PM ET\nKansas City Royals at Seattle Mariners — 4:10 PM ET\nTexas Rangers at Detroit Tigers — 7:20 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-03 03:58:45 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:45 PM ET",
+      "content": "MLB REPORT | 2026-05-03\n\nHEADLINE\nBaltimore Orioles 3, New York Yankees 4 — Bottom 7th\n\nSNAPSHOT\n3 today finals, 10 live and 2 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Baltimore Orioles 3, New York Yankees 4 — Bottom 7th\nLIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 8th\nLIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 9th\nLIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th\nFINAL: Minnesota Twins beat Toronto Blue Jays, 4-3\nFINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0\nFINAL: Washington Nationals beat Milwaukee Brewers, 3-2\nUPCOMING: Kansas City Royals at Seattle Mariners — 4:10 PM ET\nUPCOMING: Texas Rangers at Detroit Tigers — 7:20 PM ET\n\nTODAY FINAL SCORES\nMinnesota Twins beat Toronto Blue Jays, 4-3\nPittsburgh Pirates beat Cincinnati Reds, 1-0\nWashington Nationals beat Milwaukee Brewers, 3-2\n\nTODAY LIVE\nBaltimore Orioles 3, New York Yankees 4 — Bottom 7th\nHouston Astros 1, Boston Red Sox 1 — Bottom 8th\nPhiladelphia Phillies 7, Miami Marlins 2 — Bottom 9th\nSan Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th\nLos Angeles Dodgers 3, St. Louis Cardinals 0 — Top 8th\nArizona Diamondbacks 2, Chicago Cubs 6 — Top 7th\nAtlanta Braves 3, Colorado Rockies 2 — End 3rd\nCleveland Guardians 0, Athletics 0 — Top 1st\nNew York Mets 0, Los Angeles Angels 0 — Top 1st\nChicago White Sox 0, San Diego Padres 0 — Top 1st\n\nTODAY SCHEDULE\nKansas City Royals at Seattle Mariners — 4:10 PM ET\nTexas Rangers at Detroit Tigers — 7:20 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-03 04:11:24 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:24 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -61,17 +102,17 @@
     {
       "key": "nba",
       "title": "NBA",
-      "headline": "Orlando Magic 17, Detroit Pistons 18 — Live",
+      "headline": "Orlando Magic 22, Detroit Pistons 20 — Live",
       "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "key_storylines": [
-        "Orlando Magic 17, Detroit Pistons 18 — Live",
+        "Orlando Magic 22, Detroit Pistons 20 — Live",
         "Toronto Raptors at Cleveland Cavaliers"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "Orlando Magic 17, Detroit Pistons 18 — Live",
+        "Orlando Magic 22, Detroit Pistons 20 — Live",
         "Toronto Raptors at Cleveland Cavaliers"
       ],
       "why_it_matters": [
@@ -84,9 +125,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "Orlando Magic 17, Detroit Pistons 18 — Live\nToronto Raptors at Cleveland Cavaliers",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:47 PM ET",
+      "content": "Orlando Magic 22, Detroit Pistons 20 — Live\nToronto Raptors at Cleveland Cavaliers",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:25 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -118,8 +159,8 @@
       "priority_score": 72,
       "story_type": "live",
       "content": "Minnesota Wild at Colorado Avalanche — 5/3 - 9:00 PM EDT\nMontreal Canadiens at Tampa Bay Lightning — 5/3 - 6:00 PM EDT",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:48 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:26 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -164,14 +205,16 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-03\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-03 03:02:52 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:02:52 PM ET",
+      "content": "NCAAFB REPORT | 2026-05-03\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-03 03:58:06 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 03:58:06 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
-      "source_age_hours": 0.93,
+      "source_age_hours": 0.22,
       "lead_eligible": true
-    },
+    }
+  ],
+  "editor_signals": [
     {
       "key": "betting_odds",
       "title": "Betting Market Watch",
@@ -179,7 +222,7 @@
       "snapshot": "Betting markets checked for live signals, market context and operator-facing story angles.",
       "key_storylines": [
         "GLOBAL BETTING REPORT",
-        "Updated: 2026-05-03 03:58:51 PM ET",
+        "Updated: 2026-05-03 04:11:29 PM ET",
         "HEADLINE",
         "NBA: Orlando Magic at Detroit Pistons betting market is active",
         "SNAPSHOT",
@@ -198,56 +241,13 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-03 03:58:51 PM ET\n\nHEADLINE\nNBA: Orlando Magic at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Orlando Magic at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at DraftKings: Detroit Pistons -345 | Orlando Magic +250\n- Spread market active: Detroit Pistons -7.5 (-125) | Orlando Magic 7.5 (-105)\n- Total market active: Over 195.5 (-115) | Under 195.5 (-115)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n21 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Orlando Magic at Detroit Pistons — DraftKings\n- NBA: Toronto Raptors at Cleveland Cavaliers — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — DraftKings\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NHL: Montréal Canadiens at Tampa Bay Lightning — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — FanDuel\n- NHL: Philadelphia Flyers at Carolina Hurricanes — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- MLB: Baltimore Orioles at New York Yankees — FanDuel\n- MLB: Houston Astros at Boston Red Sox — FanDuel\n- MLB: Philadelphia Phillies at Miami Marlins — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:51 PM ET",
+      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-03 04:11:29 PM ET\n\nHEADLINE\nNBA: Orlando Magic at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Orlando Magic at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at DraftKings: Detroit Pistons -270 | Orlando Magic +200\n- Spread market active: Detroit Pistons -6.5 (-110) | Orlando Magic 6.5 (-120)\n- Total market active: Over 192.5 (-110) | Under 192.5 (-120)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n21 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Orlando Magic at Detroit Pistons — DraftKings\n- NBA: Toronto Raptors at Cleveland Cavaliers — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — DraftKings\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NHL: Montréal Canadiens at Tampa Bay Lightning — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — FanDuel\n- NHL: Philadelphia Flyers at Carolina Hurricanes — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- MLB: Baltimore Orioles at New York Yankees — FanDuel\n- MLB: Houston Astros at Boston Red Sox — FanDuel\n- MLB: Los Angeles Dodgers at St. Louis Cardinals — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:29 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
       "lead_eligible": true
-    }
-  ],
-  "editor_signals": [
-    {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East",
-      "snapshot": "The Knicks are 19-1 to win the NBA championship after their lopsided series-clinching win over Atlanta, while the Timberwolves are at 180-1.",
-      "key_storylines": [
-        "NBA: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East",
-        "MLB: Cubs closer Daniel Palencia off IL following oblique injury",
-        "MLB: Braves place Ronald Acuna on IL, reinstate Spencer Strider",
-        "NBA: Celtics' Jayson Tatum laments 'unfortunate timing' of knee injury",
-        "NBA: NBA's Cooper Flagg gets ride from NASCAR rookie Connor Zilisch",
-        "NBA: Sources: Wolves' Anthony Edwards could return midseries"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 155,
-      "story_type": "playoff",
-      "content": "NBA: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East\nMLB: Cubs closer Daniel Palencia off IL following oblique injury\nMLB: Braves place Ronald Acuna on IL, reinstate Spencer Strider\nNBA: Celtics' Jayson Tatum laments 'unfortunate timing' of knee injury\nNBA: NBA's Cooper Flagg gets ride from NASCAR rookie Connor Zilisch\nNBA: Sources: Wolves' Anthony Edwards could return midseries",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 2.29,
-      "lead_eligible": true,
-      "links": []
     },
     {
       "key": "soccer",
@@ -285,8 +285,8 @@
       "priority_score": 124,
       "story_type": "championship",
       "content": "Michael Carrick on Man United's Champions League return: 'Feels natural'\nBarcelona's Flick picks magician over Madrid with title in sight\nWeekend predictions: Can Man United beat Liverpool to seal Champions League return?\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nFantasy Goal Assist? Why Bruno Fernandes didn't equal Premier League record against Liverpool\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:49 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:27 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -304,7 +304,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":58:48 PM ET"
+        ":11:26 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -319,9 +319,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-03\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-03 03:58:48 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:48 PM ET",
+      "content": "NFL REPORT | 2026-05-03\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-03 04:11:26 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:26 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -353,9 +353,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-03\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-03 03:58:50 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:50 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-03\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-03 04:11:28 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:28 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -363,17 +363,17 @@
     }
   ],
   "lead_section": "breaking_news",
-  "lead_story_type": "playoff",
+  "lead_story_type": "breaking",
   "sections": [
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East",
-      "snapshot": "The Knicks are 19-1 to win the NBA championship after their lopsided series-clinching win over Atlanta, while the Timberwolves are at 180-1.",
+      "headline": "Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep",
+      "snapshot": "— Oneil Cruz hit a tie-breaking single in the bottom of the eighth inning and the Pittsburgh Pirates completed a sweep of Cincinnati with a 1-0 win on Sunday.",
       "key_storylines": [
+        "MLB: Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep",
         "NBA: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East",
         "MLB: Cubs closer Daniel Palencia off IL following oblique injury",
-        "MLB: Braves place Ronald Acuna on IL, reinstate Spencer Strider",
         "NBA: Celtics' Jayson Tatum laments 'unfortunate timing' of knee injury",
         "NBA: NBA's Cooper Flagg gets ride from NASCAR rookie Connor Zilisch",
         "NBA: Sources: Wolves' Anthony Edwards could return midseries"
@@ -396,26 +396,26 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 155,
-      "story_type": "playoff",
-      "content": "NBA: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East\nMLB: Cubs closer Daniel Palencia off IL following oblique injury\nMLB: Braves place Ronald Acuna on IL, reinstate Spencer Strider\nNBA: Celtics' Jayson Tatum laments 'unfortunate timing' of knee injury\nNBA: NBA's Cooper Flagg gets ride from NASCAR rookie Connor Zilisch\nNBA: Sources: Wolves' Anthony Edwards could return midseries",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
+      "priority_score": 165,
+      "story_type": "breaking",
+      "content": "MLB: Cruz delivers go-ahead hit in the 8th as Pirates top Reds 1-0 to complete a 3-game sweep\nNBA: NBA championship and Finals MVP odds: Celtics' exit shortens odds in the East\nMLB: Cubs closer Daniel Palencia off IL following oblique injury\nNBA: Celtics' Jayson Tatum laments 'unfortunate timing' of knee injury\nNBA: NBA's Cooper Flagg gets ride from NASCAR rookie Connor Zilisch\nNBA: Sources: Wolves' Anthony Edwards could return midseries",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
       "source_file": "breaking_news_engine",
       "freshness_status": "fresh",
-      "source_age_hours": 2.29,
+      "source_age_hours": 0.14,
       "lead_eligible": true,
       "links": []
     },
     {
       "key": "mlb",
       "title": "MLB",
-      "headline": "Baltimore Orioles 3, New York Yankees 4 — Top 7th",
-      "snapshot": "3 today finals, 7 live and 5 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "headline": "Baltimore Orioles 3, New York Yankees 4 — Bottom 7th",
+      "snapshot": "3 today finals, 10 live and 2 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "key_storylines": [
-        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Top 7th",
-        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 7th",
-        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 8th",
-        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th",
+        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Bottom 7th",
+        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 8th",
+        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 9th",
+        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th",
         "FINAL: Minnesota Twins beat Toronto Blue Jays, 4-3",
         "FINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0",
         "FINAL: Washington Nationals beat Milwaukee Brewers, 3-2"
@@ -424,14 +424,14 @@
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Top 7th",
-        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 7th",
-        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 8th",
-        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th",
+        "LIVE: Baltimore Orioles 3, New York Yankees 4 — Bottom 7th",
+        "LIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 8th",
+        "LIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 9th",
+        "LIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th",
         "FINAL: Minnesota Twins beat Toronto Blue Jays, 4-3",
         "FINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0",
         "FINAL: Washington Nationals beat Milwaukee Brewers, 3-2",
-        "UPCOMING: Cleveland Guardians at Athletics — 4:05 PM ET"
+        "UPCOMING: Kansas City Royals at Seattle Mariners — 4:10 PM ET"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -443,9 +443,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-03\n\nHEADLINE\nBaltimore Orioles 3, New York Yankees 4 — Top 7th\n\nSNAPSHOT\n3 today finals, 7 live and 5 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Baltimore Orioles 3, New York Yankees 4 — Top 7th\nLIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 7th\nLIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 8th\nLIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th\nFINAL: Minnesota Twins beat Toronto Blue Jays, 4-3\nFINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0\nFINAL: Washington Nationals beat Milwaukee Brewers, 3-2\nUPCOMING: Cleveland Guardians at Athletics — 4:05 PM ET\nUPCOMING: New York Mets at Los Angeles Angels — 4:07 PM ET\nUPCOMING: Chicago White Sox at San Diego Padres — 4:10 PM ET\nUPCOMING: Kansas City Royals at Seattle Mariners — 4:10 PM ET\n\nTODAY FINAL SCORES\nMinnesota Twins beat Toronto Blue Jays, 4-3\nPittsburgh Pirates beat Cincinnati Reds, 1-0\nWashington Nationals beat Milwaukee Brewers, 3-2\n\nTODAY LIVE\nBaltimore Orioles 3, New York Yankees 4 — Top 7th\nHouston Astros 1, Boston Red Sox 1 — Bottom 7th\nPhiladelphia Phillies 7, Miami Marlins 2 — Bottom 8th\nSan Francisco Giants 1, Tampa Bay Rays 1 — Bottom 9th\nLos Angeles Dodgers 3, St. Louis Cardinals 0 — Top 7th\nArizona Diamondbacks 2, Chicago Cubs 6 — Top 6th\nAtlanta Braves 3, Colorado Rockies 1 — Top 3rd\n\nTODAY SCHEDULE\nCleveland Guardians at Athletics — 4:05 PM ET\nNew York Mets at Los Angeles Angels — 4:07 PM ET\nChicago White Sox at San Diego Padres — 4:10 PM ET\nKansas City Royals at Seattle Mariners — 4:10 PM ET\nTexas Rangers at Detroit Tigers — 7:20 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-03 03:58:45 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:45 PM ET",
+      "content": "MLB REPORT | 2026-05-03\n\nHEADLINE\nBaltimore Orioles 3, New York Yankees 4 — Bottom 7th\n\nSNAPSHOT\n3 today finals, 10 live and 2 scheduled for 2026-05-03 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Baltimore Orioles 3, New York Yankees 4 — Bottom 7th\nLIVE: Houston Astros 1, Boston Red Sox 1 — Bottom 8th\nLIVE: Philadelphia Phillies 7, Miami Marlins 2 — Bottom 9th\nLIVE: San Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th\nFINAL: Minnesota Twins beat Toronto Blue Jays, 4-3\nFINAL: Pittsburgh Pirates beat Cincinnati Reds, 1-0\nFINAL: Washington Nationals beat Milwaukee Brewers, 3-2\nUPCOMING: Kansas City Royals at Seattle Mariners — 4:10 PM ET\nUPCOMING: Texas Rangers at Detroit Tigers — 7:20 PM ET\n\nTODAY FINAL SCORES\nMinnesota Twins beat Toronto Blue Jays, 4-3\nPittsburgh Pirates beat Cincinnati Reds, 1-0\nWashington Nationals beat Milwaukee Brewers, 3-2\n\nTODAY LIVE\nBaltimore Orioles 3, New York Yankees 4 — Bottom 7th\nHouston Astros 1, Boston Red Sox 1 — Bottom 8th\nPhiladelphia Phillies 7, Miami Marlins 2 — Bottom 9th\nSan Francisco Giants 1, Tampa Bay Rays 1 — Middle 10th\nLos Angeles Dodgers 3, St. Louis Cardinals 0 — Top 8th\nArizona Diamondbacks 2, Chicago Cubs 6 — Top 7th\nAtlanta Braves 3, Colorado Rockies 2 — End 3rd\nCleveland Guardians 0, Athletics 0 — Top 1st\nNew York Mets 0, Los Angeles Angels 0 — Top 1st\nChicago White Sox 0, San Diego Padres 0 — Top 1st\n\nTODAY SCHEDULE\nKansas City Royals at Seattle Mariners — 4:10 PM ET\nTexas Rangers at Detroit Tigers — 7:20 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-03 04:11:24 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:24 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -454,17 +454,17 @@
     {
       "key": "nba",
       "title": "NBA",
-      "headline": "Orlando Magic 17, Detroit Pistons 18 — Live",
+      "headline": "Orlando Magic 22, Detroit Pistons 20 — Live",
       "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "key_storylines": [
-        "Orlando Magic 17, Detroit Pistons 18 — Live",
+        "Orlando Magic 22, Detroit Pistons 20 — Live",
         "Toronto Raptors at Cleveland Cavaliers"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "Orlando Magic 17, Detroit Pistons 18 — Live",
+        "Orlando Magic 22, Detroit Pistons 20 — Live",
         "Toronto Raptors at Cleveland Cavaliers"
       ],
       "why_it_matters": [
@@ -477,9 +477,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "Orlando Magic 17, Detroit Pistons 18 — Live\nToronto Raptors at Cleveland Cavaliers",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:47 PM ET",
+      "content": "Orlando Magic 22, Detroit Pistons 20 — Live\nToronto Raptors at Cleveland Cavaliers",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:25 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -511,8 +511,8 @@
       "priority_score": 72,
       "story_type": "live",
       "content": "Minnesota Wild at Colorado Avalanche — 5/3 - 9:00 PM EDT\nMontreal Canadiens at Tampa Bay Lightning — 5/3 - 6:00 PM EDT",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:48 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:26 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -557,12 +557,12 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-03\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-03 03:02:52 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:02:52 PM ET",
+      "content": "NCAAFB REPORT | 2026-05-03\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-03 03:58:06 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 03:58:06 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
-      "source_age_hours": 0.93,
+      "source_age_hours": 0.22,
       "lead_eligible": true
     },
     {
@@ -572,7 +572,7 @@
       "snapshot": "Betting markets checked for live signals, market context and operator-facing story angles.",
       "key_storylines": [
         "GLOBAL BETTING REPORT",
-        "Updated: 2026-05-03 03:58:51 PM ET",
+        "Updated: 2026-05-03 04:11:29 PM ET",
         "HEADLINE",
         "NBA: Orlando Magic at Detroit Pistons betting market is active",
         "SNAPSHOT",
@@ -591,9 +591,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-03 03:58:51 PM ET\n\nHEADLINE\nNBA: Orlando Magic at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Orlando Magic at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at DraftKings: Detroit Pistons -345 | Orlando Magic +250\n- Spread market active: Detroit Pistons -7.5 (-125) | Orlando Magic 7.5 (-105)\n- Total market active: Over 195.5 (-115) | Under 195.5 (-115)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n21 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Orlando Magic at Detroit Pistons — DraftKings\n- NBA: Toronto Raptors at Cleveland Cavaliers — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — DraftKings\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NHL: Montréal Canadiens at Tampa Bay Lightning — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — FanDuel\n- NHL: Philadelphia Flyers at Carolina Hurricanes — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- MLB: Baltimore Orioles at New York Yankees — FanDuel\n- MLB: Houston Astros at Boston Red Sox — FanDuel\n- MLB: Philadelphia Phillies at Miami Marlins — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:51 PM ET",
+      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-03 04:11:29 PM ET\n\nHEADLINE\nNBA: Orlando Magic at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Orlando Magic at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at DraftKings: Detroit Pistons -270 | Orlando Magic +200\n- Spread market active: Detroit Pistons -6.5 (-110) | Orlando Magic 6.5 (-120)\n- Total market active: Over 192.5 (-110) | Under 192.5 (-120)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n21 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Orlando Magic at Detroit Pistons — DraftKings\n- NBA: Toronto Raptors at Cleveland Cavaliers — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — DraftKings\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NHL: Montréal Canadiens at Tampa Bay Lightning — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — FanDuel\n- NHL: Philadelphia Flyers at Carolina Hurricanes — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- MLB: Baltimore Orioles at New York Yankees — FanDuel\n- MLB: Houston Astros at Boston Red Sox — FanDuel\n- MLB: Los Angeles Dodgers at St. Louis Cardinals — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:29 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -635,8 +635,8 @@
       "priority_score": 124,
       "story_type": "championship",
       "content": "Michael Carrick on Man United's Champions League return: 'Feels natural'\nBarcelona's Flick picks magician over Madrid with title in sight\nWeekend predictions: Can Man United beat Liverpool to seal Champions League return?\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nFantasy Goal Assist? Why Bruno Fernandes didn't equal Premier League record against Liverpool\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:49 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:27 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -654,7 +654,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":58:48 PM ET"
+        ":11:26 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -669,9 +669,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-03\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-03 03:58:48 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:48 PM ET",
+      "content": "NFL REPORT | 2026-05-03\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-03 04:11:26 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:26 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -703,9 +703,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-03\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-03 03:58:50 PM ET",
-      "updated_at": "2026-05-03 03:58:52 PM ET",
-      "source_updated_at": "2026-05-03 03:58:50 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-03\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-03 04:11:28 PM ET",
+      "updated_at": "2026-05-03 04:11:29 PM ET",
+      "source_updated_at": "2026-05-03 04:11:28 PM ET",
       "source_file": "",
       "freshness_status": "fresh",
       "source_age_hours": 0.0,
@@ -752,15 +752,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-03 03:58:51 PM ET",
-  "generated_at": "2026-05-03 03:58:51 PM ET",
-  "published_at": "2026-05-03 03:58:51 PM ET",
-  "heartbeat": "2026-05-03T15:58:51-04:00",
-  "cache_buster": "2026-05-03T15:58:51-04:00",
+  "updated_at": "2026-05-03 04:11:29 PM ET",
+  "generated_at": "2026-05-03 04:11:29 PM ET",
+  "published_at": "2026-05-03 04:11:29 PM ET",
+  "heartbeat": "2026-05-03T16:11:29-04:00",
+  "cache_buster": "2026-05-03T16:11:29-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-03 03:58:51 PM ET",
-    "last_successful_build_iso": "2026-05-03T15:58:51-04:00",
+    "last_successful_build": "2026-05-03 04:11:29 PM ET",
+    "last_successful_build_iso": "2026-05-03T16:11:29-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -801,7 +801,7 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 0.93,
+        "age_hours": 0.22,
         "status": "fresh",
         "max_age_hours": 6
       },
@@ -827,8 +827,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-03 03:58:51 PM ET",
-    "heartbeat": "2026-05-03T15:58:51-04:00"
+    "last_checked": "2026-05-03 04:11:29 PM ET",
+    "heartbeat": "2026-05-03T16:11:29-04:00"
   },
   "editorial_brain": {
     "status": "active",
