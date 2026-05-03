@@ -2,6 +2,8 @@ import fs from "fs";
 import path from "path";
 
 export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const fetchCache = "force-no-store";
 
 import EditorialStandard from "@/components/EditorialStandard";
 
@@ -46,8 +48,6 @@ const BAD_CONTENT_PHRASES = [
   "source refresh",
   "refresh needed",
   "needed before publication",
-  "stale",
-  "blocked",
   "strict mode",
   "current-day update pending",
   "feed checked",
@@ -191,6 +191,10 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
 
   const keyData = [
     ...extractSectionLines(content, "KEY DATA POINTS"),
+    ...asList(section.key_storylines),
+    ...asList(section.final_scores),
+    ...asList(section.live_games),
+    ...asList(section.upcoming),
     ...asList(section.advanced?.sections?.key_data_points),
     ...asList(section.advanced?.sections?.matchup_flags),
     ...asList(section.advanced),
@@ -214,6 +218,9 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     ...asList(section.what_to_watch),
   ];
 
+  const firstLink =
+    Array.isArray(section.links) && section.links[0]?.url ? section.links[0].url : "";
+
   return {
     id: key,
     key,
@@ -224,11 +231,12 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     snapshot: extractSnapshot(section),
     updated_at: section.updated_at,
     source_file: section.source_file,
-    url: section.url || section.link || "#",
+    url: section.url || section.link || firstLink || "#",
     key_data: unique(keyData).filter((item) => !isBadContent(item)).slice(0, 5),
     why_it_matters: unique(why).filter((item) => !isBadContent(item)).slice(0, 5),
     what_to_watch: unique(watch).filter((item) => !isBadContent(item)).slice(0, 6),
     story_type: section.story_type || "analysis",
+    priority_score: section.priority_score || 0,
   };
 }
 
@@ -250,6 +258,18 @@ function normalizeStory(story: AnyObj, index: number): AnyObj {
 }
 
 function getStories(report: AnyObj): AnyObj[] {
+  if (Array.isArray(report.sections) && report.sections.length) {
+    return report.sections.map((section: AnyObj, index: number) =>
+      sectionToStory(section.key || section.id || `section-${index}`, section || {})
+    );
+  }
+
+  if (report.sections && typeof report.sections === "object") {
+    return Object.entries(report.sections).map(([key, value]: [string, any]) =>
+      sectionToStory(key, value || {})
+    );
+  }
+
   const candidates =
     report.homepage_cards ||
     report.cards ||
@@ -290,18 +310,6 @@ function getStories(report: AnyObj): AnyObj[] {
         index
       );
     });
-  }
-
-  if (Array.isArray(report.sections)) {
-    return report.sections.map((section: AnyObj, index: number) =>
-      sectionToStory(section.key || section.id || `section-${index}`, section || {})
-    );
-  }
-
-  if (report.sections && typeof report.sections === "object") {
-    return Object.entries(report.sections).map(([key, value]: [string, any]) =>
-      sectionToStory(key, value || {})
-    );
   }
 
   return [];
