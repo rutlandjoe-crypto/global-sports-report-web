@@ -44,6 +44,18 @@ const LEAGUE_LABELS: AnyObj = {
   fantasy: "Fantasy",
 };
 
+const LEAGUE_DEFAULT_URLS: AnyObj = {
+  breaking_news: "https://www.espn.com/",
+  mlb: "https://www.espn.com/mlb/",
+  nba: "https://www.espn.com/nba/",
+  nhl: "https://www.espn.com/nhl/",
+  nfl: "https://www.espn.com/nfl/",
+  ncaafb: "https://www.espn.com/college-football/",
+  soccer: "https://www.espn.com/soccer/",
+  betting_odds: "https://www.espn.com/",
+  fantasy: "https://www.espn.com/fantasy/",
+};
+
 const BAD_CONTENT_PHRASES = [
   "source refresh",
   "refresh needed",
@@ -134,6 +146,64 @@ function asList(value: any): string[] {
     .filter(Boolean);
 }
 
+function isValidUrl(value: any): boolean {
+  const url = cleanText(value);
+  return url.startsWith("http://") || url.startsWith("https://");
+}
+
+function findUrlInText(value: any): string {
+  const text = cleanText(value);
+  const match = text.match(/https?:\/\/[^\s"'<>]+/);
+  return match ? match[0].replace(/[),.;]+$/, "") : "";
+}
+
+function extractBestUrl(section: AnyObj, key: string): string {
+  const directCandidates = [
+    section.url,
+    section.link,
+    section.source_url,
+    section.sourceUrl,
+    section.href,
+    section.web_url,
+    section.webUrl,
+  ];
+
+  for (const candidate of directCandidates) {
+    if (isValidUrl(candidate)) return cleanText(candidate);
+  }
+
+  if (Array.isArray(section.links)) {
+    for (const link of section.links) {
+      if (typeof link === "string" && isValidUrl(link)) return cleanText(link);
+      if (link && typeof link === "object") {
+        const candidates = [link.url, link.href, link.link, link.source_url];
+        for (const candidate of candidates) {
+          if (isValidUrl(candidate)) return cleanText(candidate);
+        }
+      }
+    }
+  }
+
+  const textSources = [
+    section.content,
+    section.summary,
+    section.snapshot,
+    section.description,
+    section.key_storylines,
+    section.advanced,
+    section.final_scores,
+    section.live_games,
+    section.upcoming,
+  ];
+
+  for (const source of textSources) {
+    const found = findUrlInText(source);
+    if (found) return found;
+  }
+
+  return LEAGUE_DEFAULT_URLS[key] || "https://www.espn.com/";
+}
+
 function extractSectionLines(content: string, heading: string): string[] {
   if (!content) return [];
 
@@ -218,9 +288,6 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     ...asList(section.what_to_watch),
   ];
 
-  const firstLink =
-    Array.isArray(section.links) && section.links[0]?.url ? section.links[0].url : "";
-
   return {
     id: key,
     key,
@@ -231,7 +298,7 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     snapshot: extractSnapshot(section),
     updated_at: section.updated_at,
     source_file: section.source_file,
-    url: section.url || section.link || firstLink || "#",
+    url: extractBestUrl(section, key),
     key_data: unique(keyData).filter((item) => !isBadContent(item)).slice(0, 5),
     why_it_matters: unique(why).filter((item) => !isBadContent(item)).slice(0, 5),
     what_to_watch: unique(watch).filter((item) => !isBadContent(item)).slice(0, 6),
@@ -243,6 +310,7 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
 function normalizeStory(story: AnyObj, index: number): AnyObj {
   const key = cleanText(story.key || story.id || story.league || `story-${index}`);
   const title = cleanText(story.title || story.league || LEAGUE_LABELS[key] || "Sports Watch");
+  const url = extractBestUrl(story, key);
 
   return {
     ...story,
@@ -253,7 +321,7 @@ function normalizeStory(story: AnyObj, index: number): AnyObj {
     headline: cleanText(story.headline || story.title || story.name),
     summary: cleanText(story.summary || story.snapshot || story.description || story.body),
     snapshot: cleanText(story.snapshot || story.summary || story.description || story.body),
-    url: story.url || story.link || story.source_url || "#",
+    url,
   };
 }
 
@@ -338,7 +406,7 @@ function storyTitle(story: AnyObj, index: number): string {
 
 function storyUrl(story: AnyObj): string {
   const url = cleanText(story.url) || cleanText(story.link) || cleanText(story.source_url);
-  return url.startsWith("http://") || url.startsWith("https://") ? url : "#";
+  return isValidUrl(url) ? url : "https://www.espn.com/";
 }
 
 function storySummary(story: AnyObj): string {
@@ -480,13 +548,9 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
       </p>
 
       <h3 className="text-xl font-black leading-tight text-neutral-950">
-        {url !== "#" ? (
-          <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
-            {title}
-          </a>
-        ) : (
-          title
-        )}
+        <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
+          {title}
+        </a>
       </h3>
 
       <p className="mt-3 text-sm leading-6 text-neutral-700">{summary}</p>
@@ -563,6 +627,7 @@ export default function Page() {
         league: "Sports Watch",
         headline,
         summary: snapshot,
+        url: "https://www.espn.com/",
         key_data: ["Latest sports report generated from the current verified newsroom board."],
         why_it_matters: ["Editors need fast clarity across scores, results, analytics and live story movement."],
         what_to_watch: ["Next verified result, injury note, roster move, playoff angle or advanced metric signal."],
