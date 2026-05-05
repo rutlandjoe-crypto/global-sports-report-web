@@ -2,148 +2,17 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
-  "snapshot": "England suffered four defeats in dismal Six Nations Bill Sweeney says improvement not ‘one simple answer’ Steve Borthwick and his coaching staff are to remain in charge of England’s men’s team despite the squad’s worst Five or Six Nations...",
+  "headline": "Ranking the offseason for every Power 4 college football team",
+  "snapshot": "Nail the transfer portal? Miss a big recruit? Find a top coordinator? All are part of our offseason evaluations.",
   "key_storylines": [
-    "Breaking Sports News: RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
-    "NBA: Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-    "NHL: Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+    "Breaking Sports News: Ranking the offseason for every Power 4 college football team",
     "MLB: MLB schedule opens with Athletics at Philadelphia Phillies",
+    "NBA: Los Angeles Lakers at Oklahoma City Thunder",
+    "NHL: Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT",
     "Betting Market Watch: NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
-    "Global Soccer: Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal"
+    "Global Soccer: The earliest dates Arsenal or Man City could win the Premier League title"
   ],
   "live_newsroom": [
-    {
-      "key": "nba",
-      "title": "NBA",
-      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
-      "key_storylines": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "why_it_matters": [
-        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
-        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
-      ],
-      "story_angles": [
-        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
-        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Minnesota Timberwolves beat San Antonio Spurs, 104-102\nNew York Knicks beat Philadelphia 76ers, 137-98",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:10 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nba/scoreboard",
-      "links": [
-        {
-          "label": "NBA.com News",
-          "url": "https://www.nba.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NBA",
-          "url": "https://sports.yahoo.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NBA",
-          "url": "https://www.cbssports.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "nhl",
-      "title": "NHL",
-      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
-      "key_storylines": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "why_it_matters": [
-        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
-        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
-      ],
-      "story_angles": [
-        "Track goalie decisions, special teams, late goals, injuries and standings impact."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Carolina Hurricanes beat Philadelphia Flyers, 3-2\nVegas Golden Knights beat Anaheim Ducks, 3-1",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:11 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nhl/scoreboard",
-      "links": [
-        {
-          "label": "NHL.com News",
-          "url": "https://www.nhl.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NHL",
-          "url": "https://sports.yahoo.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NHL",
-          "url": "https://www.cbssports.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nhl/scoreboard",
-          "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
     {
       "key": "mlb",
       "title": "MLB",
@@ -174,9 +43,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 08:01:09 AM ET",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:09 AM ET",
+      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 11:36:50 AM ET",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:50 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -215,13 +84,142 @@
       }
     },
     {
+      "key": "nba",
+      "title": "NBA",
+      "headline": "Los Angeles Lakers at Oklahoma City Thunder",
+      "snapshot": "2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations.",
+      "key_storylines": [
+        "Los Angeles Lakers at Oklahoma City Thunder",
+        "Cleveland Cavaliers at Detroit Pistons"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Los Angeles Lakers at Oklahoma City Thunder",
+        "Cleveland Cavaliers at Detroit Pistons"
+      ],
+      "why_it_matters": [
+        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
+        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
+      ],
+      "story_angles": [
+        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
+        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Los Angeles Lakers at Oklahoma City Thunder\nCleveland Cavaliers at Detroit Pistons",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:51 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nba/scoreboard",
+      "links": [
+        {
+          "label": "NBA.com News",
+          "url": "https://www.nba.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NBA",
+          "url": "https://sports.yahoo.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NBA",
+          "url": "https://www.cbssports.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nba/scoreboard",
+          "headline": "Los Angeles Lakers at Oklahoma City Thunder"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
+      "key": "nhl",
+      "title": "NHL",
+      "headline": "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT",
+      "snapshot": "1 NHL games on board: 0 live, 0 final, 1 upcoming.",
+      "key_storylines": [
+        "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT"
+      ],
+      "why_it_matters": [
+        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
+        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
+      ],
+      "story_angles": [
+        "Track goalie decisions, special teams, late goals, injuries and standings impact."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:51 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nhl/scoreboard",
+      "links": [
+        {
+          "label": "NHL.com News",
+          "url": "https://www.nhl.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NHL",
+          "url": "https://sports.yahoo.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NHL",
+          "url": "https://www.cbssports.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nhl/scoreboard",
+          "headline": "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
       "key": "betting_odds",
       "title": "Betting Market Watch",
       "headline": "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
       "snapshot": "Betting markets checked for live signals, market context and operator-facing story angles.",
       "key_storylines": [
         "GLOBAL BETTING REPORT",
-        "Updated: 2026-05-05 08:01:13 AM ET",
+        "Updated: 2026-05-05 11:36:55 AM ET",
         "HEADLINE",
         "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
         "SNAPSHOT",
@@ -240,9 +238,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-05 08:01:13 AM ET\n\nHEADLINE\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at FanDuel: Cleveland Cavaliers +124 | Detroit Pistons -146\n- Spread market active: Cleveland Cavaliers 3.5 (-118) | Detroit Pistons -3.5 (-104)\n- Total market active: Over 215.5 (-106) | Under 215.5 (-114)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n20 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — FanDuel\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- NHL: Anaheim Ducks at Vegas Golden Knights — BetRivers\n- NHL: Carolina Hurricanes at Philadelphia Flyers — FanDuel\n- MLB: Athletics at Philadelphia Phillies — FanDuel\n- MLB: Baltimore Orioles at Miami Marlins — FanDuel\n- MLB: Boston Red Sox at Detroit Tigers — FanDuel\n- MLB: Toronto Blue Jays at Tampa Bay Rays — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:13 AM ET",
+      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-05 11:36:55 AM ET\n\nHEADLINE\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at FanDuel: Cleveland Cavaliers +126 | Detroit Pistons -148\n- Spread market active: Cleveland Cavaliers 3.5 (-118) | Detroit Pistons -3.5 (-104)\n- Total market active: Over 215.5 (-114) | Under 215.5 (-106)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n20 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — FanDuel\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- NHL: Anaheim Ducks at Vegas Golden Knights — BetRivers\n- NHL: Carolina Hurricanes at Philadelphia Flyers — FanDuel\n- MLB: Athletics at Philadelphia Phillies — FanDuel\n- MLB: Baltimore Orioles at Miami Marlins — FanDuel\n- MLB: Boston Red Sox at Detroit Tigers — FanDuel\n- MLB: Toronto Blue Jays at Tampa Bay Rays — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:55 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com",
       "links": [
@@ -278,17 +276,17 @@
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
-      "snapshot": "England suffered four defeats in dismal Six Nations Bill Sweeney says improvement not ‘one simple answer’ Steve Borthwick and his coaching staff are to remain in charge of England’s men’s team despite the squad’s worst Five or Six Nations...",
+      "headline": "Ranking the offseason for every Power 4 college football team",
+      "snapshot": "Nail the transfer portal? Miss a big recruit? Find a top coordinator? All are part of our offseason evaluations.",
       "key_storylines": [
-        "NFL: RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
-        "Sports: Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion",
         "College Football: Ranking the offseason for every Power 4 college football team",
-        "NHL: Jamie Benn must decide on coming back for 18th Stars season",
-        "NFL: New Cowboys' LB Dee Winters 'excited that I'm back home'",
-        "NHL: Avalanche vs. Wild odds, prediction, time: 2026 NHL playoff picks, Game 2 best bets from proven model",
-        "NBA: Knicks star unties Jimmy Fallon's shoes during playoff game",
-        "Global Soccer: Derry says debut a 'dream come true' despite injury"
+        "NBA: Why the Timberwolves made Stephen A. nervous despite Game 1 win",
+        "Sports: Patriots rookie will wear Mike Vrabel's former No. 50 jersey in 2026",
+        "MLB: Fantasy baseball waiver wire: Replacing Tarik Skubal means chasing upside arms and buy-low pitching targets",
+        "Global Soccer: O'Neill says Hearts can be regular title contenders",
+        "NFL: NFL Power Rankings 2026: Which teams improved this offseason?",
+        "NBA: Wilbon: Wolves-Spurs was the best 'start-to-finish game' this postseason",
+        "NBA: NBA playoffs intel: Scouting Round 2, free agency decisions to watch"
       ],
       "final_scores": [],
       "live_games": [],
@@ -299,9 +297,9 @@
         "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
       ],
       "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
         "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
       ],
       "story_angles": [
         "What changed since the last site update?",
@@ -309,41 +307,31 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 166,
-      "story_type": "leadership",
-      "content": "NFL: RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review\nSports: Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion\nCollege Football: Ranking the offseason for every Power 4 college football team\nNHL: Jamie Benn must decide on coming back for 18th Stars season\nNFL: New Cowboys' LB Dee Winters 'excited that I'm back home'\nNHL: Avalanche vs. Wild odds, prediction, time: 2026 NHL playoff picks, Game 2 best bets from proven model\nNBA: Knicks star unties Jimmy Fallon's shoes during playoff game\nGlobal Soccer: Derry says debut a 'dream come true' despite injury\nThe Guardian Sport: https://www.theguardian.com/sport/2026/may/05/rfu-backs-steve-borthwick-to-lead-england-for-2027-world-cup-after-six-nations-review\nYahoo Sports: https://sports.yahoo.com/articles/liverpool-could-sign-konrad-laimer-114500652.html\nCBS Sports: https://www.cbssports.com/nhl/news/avalanche-wild-odds-prediction-time-2026-nhl-playoff-picks-game-2-best-bets/\nYahoo Sports: https://sports.yahoo.com/articles/knicks-star-unties-jimmy-fallons-114037063.html\nBBC Sport Football: https://www.bbc.com/sport/football/articles/cj0p27mqpgvo?at_medium=RSS&at_campaign=rss",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
+      "priority_score": 161,
+      "story_type": "injury",
+      "content": "College Football: Ranking the offseason for every Power 4 college football team\nNBA: Why the Timberwolves made Stephen A. nervous despite Game 1 win\nSports: Patriots rookie will wear Mike Vrabel's former No. 50 jersey in 2026\nMLB: Fantasy baseball waiver wire: Replacing Tarik Skubal means chasing upside arms and buy-low pitching targets\nGlobal Soccer: O'Neill says Hearts can be regular title contenders\nNFL: NFL Power Rankings 2026: Which teams improved this offseason?\nNBA: Wilbon: Wolves-Spurs was the best 'start-to-finish game' this postseason\nNBA: NBA playoffs intel: Scouting Round 2, free agency decisions to watch\nYahoo Sports: https://sports.yahoo.com/articles/patriots-rookie-wear-mike-vrabels-152359642.html\nCBS Sports: https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-waiver-wire-replacing-tarik-skubal/\nBBC Sport Football: https://www.bbc.com/sport/football/articles/cn0pygne3gjo?at_medium=RSS&at_campaign=rss",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
       "source_file": "breaking_news_engine",
       "freshness_status": "fresh",
-      "source_age_hours": 2.01,
+      "source_age_hours": 0.74,
       "lead_eligible": true,
-      "url": "https://www.theguardian.com/sport/2026/may/05/rfu-backs-steve-borthwick-to-lead-england-for-2027-world-cup-after-six-nations-review",
-      "source_label": "The Guardian Sport",
+      "url": "https://sports.yahoo.com/articles/patriots-rookie-wear-mike-vrabels-152359642.html",
+      "source_label": "Yahoo Sports",
       "links": [
         {
-          "label": "The Guardian Sport",
-          "url": "https://www.theguardian.com/sport/2026/may/05/rfu-backs-steve-borthwick-to-lead-england-for-2027-world-cup-after-six-nations-review",
-          "headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review"
-        },
-        {
           "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/liverpool-could-sign-konrad-laimer-114500652.html",
-          "headline": "Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion"
+          "url": "https://sports.yahoo.com/articles/patriots-rookie-wear-mike-vrabels-152359642.html",
+          "headline": "Patriots rookie will wear Mike Vrabel's former No. 50 jersey in 2026"
         },
         {
           "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nhl/news/avalanche-wild-odds-prediction-time-2026-nhl-playoff-picks-game-2-best-bets/",
-          "headline": "Avalanche vs. Wild odds, prediction, time: 2026 NHL playoff picks, Game 2 best bets from proven model"
-        },
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/knicks-star-unties-jimmy-fallons-114037063.html",
-          "headline": "Knicks star unties Jimmy Fallon's shoes during playoff game"
+          "url": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-waiver-wire-replacing-tarik-skubal/",
+          "headline": "Fantasy baseball waiver wire: Replacing Tarik Skubal means chasing upside arms and buy-low pitching targets"
         },
         {
           "label": "BBC Sport Football",
-          "url": "https://www.bbc.com/sport/football/articles/cj0p27mqpgvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Derry says debut a 'dream come true' despite injury"
+          "url": "https://www.bbc.com/sport/football/articles/cn0pygne3gjo?at_medium=RSS&at_campaign=rss",
+          "headline": "O'Neill says Hearts can be regular title contenders"
         },
         {
           "label": "Yahoo Sports",
@@ -361,12 +349,12 @@
           "headline": ""
         }
       ],
-      "external_headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
+      "external_headline": "",
       "source_diversity": {
         "status": "active",
-        "primary_domain": "theguardian.com",
-        "non_espn_links": 8,
-        "total_links": 8,
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 6,
+        "total_links": 6,
         "primary_url_policy": "section_url_locked"
       }
     }
@@ -375,27 +363,27 @@
     {
       "key": "soccer",
       "title": "Global Soccer",
-      "headline": "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
+      "headline": "The earliest dates Arsenal or Man City could win the Premier League title",
       "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
       "key_storylines": [
+        "The earliest dates Arsenal or Man City could win the Premier League title",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
         "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
         "PSG denied late penalty as Lorient take point at Parc des Princes",
-        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
-        "Transfer rumors, news: Inter Miami aim to pair Casemiro with Messi"
+        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
+        "The earliest dates Arsenal or Man City could win the Premier League title",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
         "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
         "PSG denied late penalty as Lorient take point at Parc des Princes",
         "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
         "Transfer rumors, news: Inter Miami aim to pair Casemiro with Messi",
-        "Premier League players out of contract: Who could leave your team on a free this summer?",
         "Can Griezmann win Champions League to leave Atlético for MLS on highest of highs?"
       ],
       "why_it_matters": [
@@ -407,16 +395,16 @@
       ],
       "priority_score": 124,
       "story_type": "championship",
-      "content": "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'\nTransfer rumors, news: Inter Miami aim to pair Casemiro with Messi",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:12 AM ET",
+      "content": "The earliest dates Arsenal or Man City could win the Premier League title\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:53 AM ET",
       "source_file": "",
-      "url": "https://www.espn.com/soccer/story/_/id/48674864/bayern-debut-new-home-kit-gold-fringe-vs-psg-ucl-semifinal",
+      "url": "https://www.espn.com/soccer/story/_/id/48618699/the-earliest-dates-arsenal-man-city-win-premier-league-title",
       "links": [
         {
           "label": "Espn",
-          "url": "https://www.espn.com/soccer/story/_/id/48674864/bayern-debut-new-home-kit-gold-fringe-vs-psg-ucl-semifinal",
-          "headline": "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal"
+          "url": "https://www.espn.com/soccer/story/_/id/48618699/the-earliest-dates-arsenal-man-city-win-premier-league-title",
+          "headline": "The earliest dates Arsenal or Man City could win the Premier League title"
         },
         {
           "label": "The Guardian Football",
@@ -459,7 +447,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":01:11 AM ET"
+        ":36:52 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -474,16 +462,16 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 08:01:11 AM ET",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:11 AM ET",
+      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 11:36:52 AM ET",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:52 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
         {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/liverpool-could-sign-konrad-laimer-114500652.html",
-          "headline": "Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion"
+          "label": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/may/05/manchester-city-arsenal-premier-league-title-race-football-daily-newsletter",
+          "headline": "Football Daily | Manchester City and a question of bottle in the Premier League title race"
         },
         {
           "label": "NFL.com News",
@@ -540,9 +528,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-05\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-05 08:01:13 AM ET",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:13 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-05\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-05 11:36:54 AM ET",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:54 AM ET",
       "source_file": "",
       "url": "https://www.rotowire.com",
       "links": [
@@ -577,22 +565,22 @@
     }
   ],
   "lead_section": "breaking_news",
-  "lead_story_type": "leadership",
+  "lead_story_type": "injury",
   "sections": [
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
-      "snapshot": "England suffered four defeats in dismal Six Nations Bill Sweeney says improvement not ‘one simple answer’ Steve Borthwick and his coaching staff are to remain in charge of England’s men’s team despite the squad’s worst Five or Six Nations...",
+      "headline": "Ranking the offseason for every Power 4 college football team",
+      "snapshot": "Nail the transfer portal? Miss a big recruit? Find a top coordinator? All are part of our offseason evaluations.",
       "key_storylines": [
-        "NFL: RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
-        "Sports: Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion",
         "College Football: Ranking the offseason for every Power 4 college football team",
-        "NHL: Jamie Benn must decide on coming back for 18th Stars season",
-        "NFL: New Cowboys' LB Dee Winters 'excited that I'm back home'",
-        "NHL: Avalanche vs. Wild odds, prediction, time: 2026 NHL playoff picks, Game 2 best bets from proven model",
-        "NBA: Knicks star unties Jimmy Fallon's shoes during playoff game",
-        "Global Soccer: Derry says debut a 'dream come true' despite injury"
+        "NBA: Why the Timberwolves made Stephen A. nervous despite Game 1 win",
+        "Sports: Patriots rookie will wear Mike Vrabel's former No. 50 jersey in 2026",
+        "MLB: Fantasy baseball waiver wire: Replacing Tarik Skubal means chasing upside arms and buy-low pitching targets",
+        "Global Soccer: O'Neill says Hearts can be regular title contenders",
+        "NFL: NFL Power Rankings 2026: Which teams improved this offseason?",
+        "NBA: Wilbon: Wolves-Spurs was the best 'start-to-finish game' this postseason",
+        "NBA: NBA playoffs intel: Scouting Round 2, free agency decisions to watch"
       ],
       "final_scores": [],
       "live_games": [],
@@ -603,9 +591,9 @@
         "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
       ],
       "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
         "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
       ],
       "story_angles": [
         "What changed since the last site update?",
@@ -613,41 +601,31 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 166,
-      "story_type": "leadership",
-      "content": "NFL: RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review\nSports: Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion\nCollege Football: Ranking the offseason for every Power 4 college football team\nNHL: Jamie Benn must decide on coming back for 18th Stars season\nNFL: New Cowboys' LB Dee Winters 'excited that I'm back home'\nNHL: Avalanche vs. Wild odds, prediction, time: 2026 NHL playoff picks, Game 2 best bets from proven model\nNBA: Knicks star unties Jimmy Fallon's shoes during playoff game\nGlobal Soccer: Derry says debut a 'dream come true' despite injury\nThe Guardian Sport: https://www.theguardian.com/sport/2026/may/05/rfu-backs-steve-borthwick-to-lead-england-for-2027-world-cup-after-six-nations-review\nYahoo Sports: https://sports.yahoo.com/articles/liverpool-could-sign-konrad-laimer-114500652.html\nCBS Sports: https://www.cbssports.com/nhl/news/avalanche-wild-odds-prediction-time-2026-nhl-playoff-picks-game-2-best-bets/\nYahoo Sports: https://sports.yahoo.com/articles/knicks-star-unties-jimmy-fallons-114037063.html\nBBC Sport Football: https://www.bbc.com/sport/football/articles/cj0p27mqpgvo?at_medium=RSS&at_campaign=rss",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
+      "priority_score": 161,
+      "story_type": "injury",
+      "content": "College Football: Ranking the offseason for every Power 4 college football team\nNBA: Why the Timberwolves made Stephen A. nervous despite Game 1 win\nSports: Patriots rookie will wear Mike Vrabel's former No. 50 jersey in 2026\nMLB: Fantasy baseball waiver wire: Replacing Tarik Skubal means chasing upside arms and buy-low pitching targets\nGlobal Soccer: O'Neill says Hearts can be regular title contenders\nNFL: NFL Power Rankings 2026: Which teams improved this offseason?\nNBA: Wilbon: Wolves-Spurs was the best 'start-to-finish game' this postseason\nNBA: NBA playoffs intel: Scouting Round 2, free agency decisions to watch\nYahoo Sports: https://sports.yahoo.com/articles/patriots-rookie-wear-mike-vrabels-152359642.html\nCBS Sports: https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-waiver-wire-replacing-tarik-skubal/\nBBC Sport Football: https://www.bbc.com/sport/football/articles/cn0pygne3gjo?at_medium=RSS&at_campaign=rss",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
       "source_file": "breaking_news_engine",
       "freshness_status": "fresh",
-      "source_age_hours": 2.01,
+      "source_age_hours": 0.74,
       "lead_eligible": true,
-      "url": "https://www.theguardian.com/sport/2026/may/05/rfu-backs-steve-borthwick-to-lead-england-for-2027-world-cup-after-six-nations-review",
-      "source_label": "The Guardian Sport",
+      "url": "https://sports.yahoo.com/articles/patriots-rookie-wear-mike-vrabels-152359642.html",
+      "source_label": "Yahoo Sports",
       "links": [
         {
-          "label": "The Guardian Sport",
-          "url": "https://www.theguardian.com/sport/2026/may/05/rfu-backs-steve-borthwick-to-lead-england-for-2027-world-cup-after-six-nations-review",
-          "headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review"
-        },
-        {
           "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/liverpool-could-sign-konrad-laimer-114500652.html",
-          "headline": "Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion"
+          "url": "https://sports.yahoo.com/articles/patriots-rookie-wear-mike-vrabels-152359642.html",
+          "headline": "Patriots rookie will wear Mike Vrabel's former No. 50 jersey in 2026"
         },
         {
           "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nhl/news/avalanche-wild-odds-prediction-time-2026-nhl-playoff-picks-game-2-best-bets/",
-          "headline": "Avalanche vs. Wild odds, prediction, time: 2026 NHL playoff picks, Game 2 best bets from proven model"
-        },
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/knicks-star-unties-jimmy-fallons-114037063.html",
-          "headline": "Knicks star unties Jimmy Fallon's shoes during playoff game"
+          "url": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-waiver-wire-replacing-tarik-skubal/",
+          "headline": "Fantasy baseball waiver wire: Replacing Tarik Skubal means chasing upside arms and buy-low pitching targets"
         },
         {
           "label": "BBC Sport Football",
-          "url": "https://www.bbc.com/sport/football/articles/cj0p27mqpgvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Derry says debut a 'dream come true' despite injury"
+          "url": "https://www.bbc.com/sport/football/articles/cn0pygne3gjo?at_medium=RSS&at_campaign=rss",
+          "headline": "O'Neill says Hearts can be regular title contenders"
         },
         {
           "label": "Yahoo Sports",
@@ -665,144 +643,13 @@
           "headline": ""
         }
       ],
-      "external_headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
+      "external_headline": "",
       "source_diversity": {
         "status": "active",
-        "primary_domain": "theguardian.com",
-        "non_espn_links": 8,
-        "total_links": 8,
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 6,
+        "total_links": 6,
         "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
-      "key": "nba",
-      "title": "NBA",
-      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
-      "key_storylines": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
-        "New York Knicks beat Philadelphia 76ers, 137-98"
-      ],
-      "why_it_matters": [
-        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
-        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
-      ],
-      "story_angles": [
-        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
-        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Minnesota Timberwolves beat San Antonio Spurs, 104-102\nNew York Knicks beat Philadelphia 76ers, 137-98",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:10 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nba/scoreboard",
-      "links": [
-        {
-          "label": "NBA.com News",
-          "url": "https://www.nba.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NBA",
-          "url": "https://sports.yahoo.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NBA",
-          "url": "https://www.cbssports.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "nhl",
-      "title": "NHL",
-      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
-      "key_storylines": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
-        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
-      ],
-      "why_it_matters": [
-        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
-        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
-      ],
-      "story_angles": [
-        "Track goalie decisions, special teams, late goals, injuries and standings impact."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Carolina Hurricanes beat Philadelphia Flyers, 3-2\nVegas Golden Knights beat Anaheim Ducks, 3-1",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:11 AM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nhl/scoreboard",
-      "links": [
-        {
-          "label": "NHL.com News",
-          "url": "https://www.nhl.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NHL",
-          "url": "https://sports.yahoo.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NHL",
-          "url": "https://www.cbssports.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nhl/scoreboard",
-          "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
       }
     },
     {
@@ -835,9 +682,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 08:01:09 AM ET",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:09 AM ET",
+      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 11:36:50 AM ET",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:50 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -876,13 +723,142 @@
       }
     },
     {
+      "key": "nba",
+      "title": "NBA",
+      "headline": "Los Angeles Lakers at Oklahoma City Thunder",
+      "snapshot": "2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations.",
+      "key_storylines": [
+        "Los Angeles Lakers at Oklahoma City Thunder",
+        "Cleveland Cavaliers at Detroit Pistons"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Los Angeles Lakers at Oklahoma City Thunder",
+        "Cleveland Cavaliers at Detroit Pistons"
+      ],
+      "why_it_matters": [
+        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
+        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
+      ],
+      "story_angles": [
+        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
+        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Los Angeles Lakers at Oklahoma City Thunder\nCleveland Cavaliers at Detroit Pistons",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:51 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nba/scoreboard",
+      "links": [
+        {
+          "label": "NBA.com News",
+          "url": "https://www.nba.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NBA",
+          "url": "https://sports.yahoo.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NBA",
+          "url": "https://www.cbssports.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nba/scoreboard",
+          "headline": "Los Angeles Lakers at Oklahoma City Thunder"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
+      "key": "nhl",
+      "title": "NHL",
+      "headline": "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT",
+      "snapshot": "1 NHL games on board: 0 live, 0 final, 1 upcoming.",
+      "key_storylines": [
+        "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT"
+      ],
+      "why_it_matters": [
+        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
+        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
+      ],
+      "story_angles": [
+        "Track goalie decisions, special teams, late goals, injuries and standings impact."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:51 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nhl/scoreboard",
+      "links": [
+        {
+          "label": "NHL.com News",
+          "url": "https://www.nhl.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NHL",
+          "url": "https://sports.yahoo.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NHL",
+          "url": "https://www.cbssports.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nhl/scoreboard",
+          "headline": "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
       "key": "betting_odds",
       "title": "Betting Market Watch",
       "headline": "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
       "snapshot": "Betting markets checked for live signals, market context and operator-facing story angles.",
       "key_storylines": [
         "GLOBAL BETTING REPORT",
-        "Updated: 2026-05-05 08:01:13 AM ET",
+        "Updated: 2026-05-05 11:36:55 AM ET",
         "HEADLINE",
         "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
         "SNAPSHOT",
@@ -901,9 +877,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-05 08:01:13 AM ET\n\nHEADLINE\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at FanDuel: Cleveland Cavaliers +124 | Detroit Pistons -146\n- Spread market active: Cleveland Cavaliers 3.5 (-118) | Detroit Pistons -3.5 (-104)\n- Total market active: Over 215.5 (-106) | Under 215.5 (-114)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n20 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — FanDuel\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- NHL: Anaheim Ducks at Vegas Golden Knights — BetRivers\n- NHL: Carolina Hurricanes at Philadelphia Flyers — FanDuel\n- MLB: Athletics at Philadelphia Phillies — FanDuel\n- MLB: Baltimore Orioles at Miami Marlins — FanDuel\n- MLB: Boston Red Sox at Detroit Tigers — FanDuel\n- MLB: Toronto Blue Jays at Tampa Bay Rays — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:13 AM ET",
+      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-05 11:36:55 AM ET\n\nHEADLINE\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at FanDuel: Cleveland Cavaliers +126 | Detroit Pistons -148\n- Spread market active: Cleveland Cavaliers 3.5 (-118) | Detroit Pistons -3.5 (-104)\n- Total market active: Over 215.5 (-114) | Under 215.5 (-106)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n20 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — FanDuel\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- NHL: Anaheim Ducks at Vegas Golden Knights — BetRivers\n- NHL: Carolina Hurricanes at Philadelphia Flyers — FanDuel\n- MLB: Athletics at Philadelphia Phillies — FanDuel\n- MLB: Baltimore Orioles at Miami Marlins — FanDuel\n- MLB: Boston Red Sox at Detroit Tigers — FanDuel\n- MLB: Toronto Blue Jays at Tampa Bay Rays — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:55 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com",
       "links": [
@@ -939,27 +915,27 @@
     {
       "key": "soccer",
       "title": "Global Soccer",
-      "headline": "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
+      "headline": "The earliest dates Arsenal or Man City could win the Premier League title",
       "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
       "key_storylines": [
+        "The earliest dates Arsenal or Man City could win the Premier League title",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
         "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
         "PSG denied late penalty as Lorient take point at Parc des Princes",
-        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
-        "Transfer rumors, news: Inter Miami aim to pair Casemiro with Messi"
+        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
+        "The earliest dates Arsenal or Man City could win the Premier League title",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
         "Tracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
         "PSG denied late penalty as Lorient take point at Parc des Princes",
         "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
         "Transfer rumors, news: Inter Miami aim to pair Casemiro with Messi",
-        "Premier League players out of contract: Who could leave your team on a free this summer?",
         "Can Griezmann win Champions League to leave Atlético for MLS on highest of highs?"
       ],
       "why_it_matters": [
@@ -971,16 +947,16 @@
       ],
       "priority_score": 124,
       "story_type": "championship",
-      "content": "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'\nTransfer rumors, news: Inter Miami aim to pair Casemiro with Messi",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:12 AM ET",
+      "content": "The earliest dates Arsenal or Man City could win the Premier League title\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:53 AM ET",
       "source_file": "",
-      "url": "https://www.espn.com/soccer/story/_/id/48674864/bayern-debut-new-home-kit-gold-fringe-vs-psg-ucl-semifinal",
+      "url": "https://www.espn.com/soccer/story/_/id/48618699/the-earliest-dates-arsenal-man-city-win-premier-league-title",
       "links": [
         {
           "label": "Espn",
-          "url": "https://www.espn.com/soccer/story/_/id/48674864/bayern-debut-new-home-kit-gold-fringe-vs-psg-ucl-semifinal",
-          "headline": "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal"
+          "url": "https://www.espn.com/soccer/story/_/id/48618699/the-earliest-dates-arsenal-man-city-win-premier-league-title",
+          "headline": "The earliest dates Arsenal or Man City could win the Premier League title"
         },
         {
           "label": "The Guardian Football",
@@ -1023,7 +999,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":01:11 AM ET"
+        ":36:52 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1038,16 +1014,16 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 08:01:11 AM ET",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:11 AM ET",
+      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 11:36:52 AM ET",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:52 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
         {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/liverpool-could-sign-konrad-laimer-114500652.html",
-          "headline": "Liverpool could sign Konrad Laimer this summer after blunt Uli Hoeneß statement – opinion"
+          "label": "The Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/may/05/manchester-city-arsenal-premier-league-title-race-football-daily-newsletter",
+          "headline": "Football Daily | Manchester City and a question of bottle in the Premier League title race"
         },
         {
           "label": "NFL.com News",
@@ -1104,9 +1080,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-05\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-05 08:01:13 AM ET",
-      "updated_at": "2026-05-05 08:01:18 AM ET",
-      "source_updated_at": "2026-05-05 08:01:13 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-05\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-05 11:36:54 AM ET",
+      "updated_at": "2026-05-05 11:37:00 AM ET",
+      "source_updated_at": "2026-05-05 11:36:54 AM ET",
       "source_file": "",
       "url": "https://www.rotowire.com",
       "links": [
@@ -1144,20 +1120,31 @@
     {
       "league": "Breaking Sports News",
       "key": "breaking_news",
-      "headline": "RFU backs Steve Borthwick to lead England for 2027 World Cup after Six Nations review",
+      "headline": "Ranking the offseason for every Power 4 college football team",
       "url": "https://sports.yahoo.com",
-      "snapshot": "England suffered four defeats in dismal Six Nations Bill Sweeney says improvement not ‘one simple answer’ Steve Borthwick and his coaching staff are to remain in charge of...",
-      "story_type": "leadership",
-      "priority_score": 166,
+      "snapshot": "Nail the transfer portal? Miss a big recruit? Find a top coordinator? All are part of our offseason evaluations.",
+      "story_type": "injury",
+      "priority_score": 161,
       "freshness_status": "fresh",
       "source": "breaking_news_engine"
     },
     {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
+      "url": "https://www.espn.com/mlb/scoreboard",
+      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "story_type": "live",
+      "priority_score": 72,
+      "freshness_status": "fresh",
+      "source": ""
+    },
+    {
       "league": "NBA",
       "key": "nba",
-      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+      "headline": "Los Angeles Lakers at Oklahoma City Thunder",
       "url": "https://www.espn.com/nba/scoreboard",
-      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
+      "snapshot": "2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "story_type": "live",
       "priority_score": 72,
       "freshness_status": "fresh",
@@ -1166,20 +1153,9 @@
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+      "headline": "Minnesota Wild at Colorado Avalanche — 5/5 - 8:00 PM EDT",
       "url": "https://www.espn.com/nhl/scoreboard",
-      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
-      "story_type": "live",
-      "priority_score": 72,
-      "freshness_status": "fresh",
-      "source": ""
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
-      "url": "https://www.espn.com/mlb/scoreboard",
-      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "snapshot": "1 NHL games on board: 0 live, 0 final, 1 upcoming.",
       "story_type": "live",
       "priority_score": 72,
       "freshness_status": "fresh",
@@ -1199,8 +1175,8 @@
     {
       "league": "Global Soccer",
       "key": "soccer",
-      "headline": "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
-      "url": "https://www.espn.com/soccer/story/_/id/48674864/bayern-debut-new-home-kit-gold-fringe-vs-psg-ucl-semifinal",
+      "headline": "The earliest dates Arsenal or Man City could win the Premier League title",
+      "url": "https://www.espn.com/soccer/story/_/id/48618699/the-earliest-dates-arsenal-man-city-win-premier-league-title",
       "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
       "story_type": "championship",
       "priority_score": 124,
@@ -1270,15 +1246,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-05 08:01:14 AM ET",
-  "generated_at": "2026-05-05 08:01:14 AM ET",
-  "published_at": "2026-05-05 08:01:14 AM ET",
-  "heartbeat": "2026-05-05T08:01:14-04:00",
-  "cache_buster": "2026-05-05T08:01:14-04:00",
+  "updated_at": "2026-05-05 11:36:55 AM ET",
+  "generated_at": "2026-05-05 11:36:55 AM ET",
+  "published_at": "2026-05-05 11:36:55 AM ET",
+  "heartbeat": "2026-05-05T11:36:55-04:00",
+  "cache_buster": "2026-05-05T11:36:55-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-05 08:01:14 AM ET",
-    "last_successful_build_iso": "2026-05-05T08:01:14-04:00",
+    "last_successful_build": "2026-05-05 11:36:55 AM ET",
+    "last_successful_build_iso": "2026-05-05T11:36:55-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -1319,7 +1295,7 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 36.01,
+        "age_hours": 39.6,
         "status": "stale_or_missing",
         "max_age_hours": 6
       },
@@ -1345,8 +1321,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-05 08:01:14 AM ET",
-    "heartbeat": "2026-05-05T08:01:14-04:00"
+    "last_checked": "2026-05-05 11:36:55 AM ET",
+    "heartbeat": "2026-05-05T11:36:55-04:00"
   },
   "editorial_brain": {
     "status": "active",
