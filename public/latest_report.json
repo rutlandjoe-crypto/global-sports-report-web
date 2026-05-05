@@ -2,43 +2,167 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL",
-  "snapshot": "The Chicago White Sox signed veteran outfielder Randal Grichuk to a one-year, $1.25 million deal on Monday and placed outfielder Austin Hays back on the 10-day injured list because of a left calf strain.",
+  "headline": "2026 NBA playoffs: Conference semifinals takeaways",
+  "snapshot": "Here's what has stood out from the latest playoff games of the second round.",
   "key_storylines": [
-    "Breaking Sports News: White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL",
-    "MLB: Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-    "NBA: Philadelphia 76ers 44, New York Knicks 59 — Live",
-    "NHL: Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
-    "Betting Market Watch: NBA: Philadelphia 76ers at New York Knicks betting market is active",
+    "Breaking Sports News: 2026 NBA playoffs: Conference semifinals takeaways",
+    "NBA: Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+    "NHL: Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+    "MLB: MLB schedule opens with Athletics at Philadelphia Phillies",
+    "Betting Market Watch: NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
     "Global Soccer: Guardiola says Premier League out of City's hands after draw"
   ],
   "live_newsroom": [
     {
-      "key": "mlb",
-      "title": "MLB",
-      "headline": "Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-      "snapshot": "3 today finals, 6 live and 3 scheduled for 2026-05-04 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "key": "nba",
+      "title": "NBA",
+      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "key_storylines": [
-        "LIVE: Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-        "LIVE: New York Yankees 6, Baltimore Orioles 1 — Top 7th",
-        "LIVE: Cincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd",
-        "LIVE: Kansas City Royals 5, Cleveland Guardians 2 — Top 7th",
-        "FINAL: New York Mets beat Colorado Rockies, 4-2",
-        "FINAL: Boston Red Sox beat Detroit Tigers, 5-4",
-        "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 5-1"
+        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+        "New York Knicks beat Philadelphia 76ers, 137-98"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-        "LIVE: New York Yankees 6, Baltimore Orioles 1 — Top 7th",
-        "LIVE: Cincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd",
-        "LIVE: Kansas City Royals 5, Cleveland Guardians 2 — Top 7th",
-        "FINAL: New York Mets beat Colorado Rockies, 4-2",
-        "FINAL: Boston Red Sox beat Detroit Tigers, 5-4",
-        "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 5-1",
-        "UPCOMING: Chicago White Sox at Los Angeles Angels — 9:38 PM ET"
+        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+        "New York Knicks beat Philadelphia 76ers, 137-98"
+      ],
+      "why_it_matters": [
+        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
+        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
+      ],
+      "story_angles": [
+        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
+        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Minnesota Timberwolves beat San Antonio Spurs, 104-102\nNew York Knicks beat Philadelphia 76ers, 137-98",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:02 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nba/scoreboard",
+      "links": [
+        {
+          "label": "NBA.com News",
+          "url": "https://www.nba.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NBA",
+          "url": "https://sports.yahoo.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NBA",
+          "url": "https://www.cbssports.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nba/scoreboard",
+          "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
+      "key": "nhl",
+      "title": "NHL",
+      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
+      "key_storylines": [
+        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
+      ],
+      "why_it_matters": [
+        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
+        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
+      ],
+      "story_angles": [
+        "Track goalie decisions, special teams, late goals, injuries and standings impact."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Carolina Hurricanes beat Philadelphia Flyers, 3-2\nVegas Golden Knights beat Anaheim Ducks, 3-1",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:02 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nhl/scoreboard",
+      "links": [
+        {
+          "label": "NHL.com News",
+          "url": "https://www.nhl.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NHL",
+          "url": "https://sports.yahoo.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NHL",
+          "url": "https://www.cbssports.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nhl/scoreboard",
+          "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
+      "key": "mlb",
+      "title": "MLB",
+      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
+      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "key_storylines": [
+        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
+        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
+        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
+        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
+        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
+        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
+        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -50,16 +174,16 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-04\n\nHEADLINE\nPhiladelphia Phillies 1, Miami Marlins 0 — Bottom 9th\n\nSNAPSHOT\n3 today finals, 6 live and 3 scheduled for 2026-05-04 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th\nLIVE: New York Yankees 6, Baltimore Orioles 1 — Top 7th\nLIVE: Cincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd\nLIVE: Kansas City Royals 5, Cleveland Guardians 2 — Top 7th\nFINAL: New York Mets beat Colorado Rockies, 4-2\nFINAL: Boston Red Sox beat Detroit Tigers, 5-4\nFINAL: Tampa Bay Rays beat Toronto Blue Jays, 5-1\nUPCOMING: Chicago White Sox at Los Angeles Angels — 9:38 PM ET\nUPCOMING: Atlanta Braves at Seattle Mariners — 9:40 PM ET\nUPCOMING: San Diego Padres at San Francisco Giants — 9:45 PM ET\n\nTODAY FINAL SCORES\nNew York Mets beat Colorado Rockies, 4-2\nBoston Red Sox beat Detroit Tigers, 5-4\nTampa Bay Rays beat Toronto Blue Jays, 5-1\n\nTODAY LIVE\nPhiladelphia Phillies 1, Miami Marlins 0 — Bottom 9th\nNew York Yankees 6, Baltimore Orioles 1 — Top 7th\nCincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd\nKansas City Royals 5, Cleveland Guardians 2 — Top 7th\nSt. Louis Cardinals 4, Milwaukee Brewers 0 — End 5th\nLos Angeles Dodgers 7, Houston Astros 2 — End 3rd\n\nTODAY SCHEDULE\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-04 09:17:45 PM ET",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:45 PM ET",
+      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 12:35:01 AM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:01 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
         {
           "label": "Espn",
           "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th"
+          "headline": "MLB schedule opens with Athletics at Philadelphia Phillies"
         },
         {
           "label": "MLB.com News",
@@ -91,146 +215,15 @@
       }
     },
     {
-      "key": "nba",
-      "title": "NBA",
-      "headline": "Philadelphia 76ers 44, New York Knicks 59 — Live",
-      "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations.",
-      "key_storylines": [
-        "Philadelphia 76ers 44, New York Knicks 59 — Live",
-        "Minnesota Timberwolves at San Antonio Spurs"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Philadelphia 76ers 44, New York Knicks 59 — Live",
-        "Minnesota Timberwolves at San Antonio Spurs"
-      ],
-      "why_it_matters": [
-        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
-        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
-      ],
-      "story_angles": [
-        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
-        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Philadelphia 76ers 44, New York Knicks 59 — Live\nMinnesota Timberwolves at San Antonio Spurs",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:46 PM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nba/scoreboard",
-      "links": [
-        {
-          "label": "NBA.com News",
-          "url": "https://www.nba.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NBA",
-          "url": "https://sports.yahoo.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NBA",
-          "url": "https://www.cbssports.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Philadelphia 76ers 44, New York Knicks 59 — Live"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "nhl",
-      "title": "NHL",
-      "headline": "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
-      "snapshot": "2 NHL games on board: 1 live, 0 final, 1 upcoming.",
-      "key_storylines": [
-        "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
-        "Anaheim Ducks at Vegas Golden Knights — 5/4 - 9:30 PM EDT"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
-        "Anaheim Ducks at Vegas Golden Knights — 5/4 - 9:30 PM EDT"
-      ],
-      "why_it_matters": [
-        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
-        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
-      ],
-      "story_angles": [
-        "Track goalie decisions, special teams, late goals, injuries and standings impact."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live\nAnaheim Ducks at Vegas Golden Knights — 5/4 - 9:30 PM EDT",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:47 PM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nhl/scoreboard",
-      "links": [
-        {
-          "label": "NHL.com News",
-          "url": "https://www.nhl.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NHL",
-          "url": "https://sports.yahoo.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NHL",
-          "url": "https://www.cbssports.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nhl/scoreboard",
-          "headline": "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
       "key": "betting_odds",
       "title": "Betting Market Watch",
-      "headline": "NBA: Philadelphia 76ers at New York Knicks betting market is active",
+      "headline": "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
       "snapshot": "Betting markets checked for live signals, market context and operator-facing story angles.",
       "key_storylines": [
         "GLOBAL BETTING REPORT",
-        "Updated: 2026-05-04 09:17:49 PM ET",
+        "Updated: 2026-05-05 12:35:05 AM ET",
         "HEADLINE",
-        "NBA: Philadelphia 76ers at New York Knicks betting market is active",
+        "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
         "SNAPSHOT",
         "Betting markets checked for live signals, market context and operator-facing story angles.",
         "Top Betting Signals"
@@ -247,9 +240,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-04 09:17:49 PM ET\n\nHEADLINE\nNBA: Philadelphia 76ers at New York Knicks betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Philadelphia 76ers at New York Knicks betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at DraftKings: New York Knicks -1600 | Philadelphia 76ers +800\n- Spread market active: New York Knicks -16.5 (-110) | Philadelphia 76ers 16.5 (-120)\n- Total market active: Over 218.5 (-110) | Under 218.5 (-120)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n20 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Philadelphia 76ers at New York Knicks — DraftKings\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NHL: Philadelphia Flyers at Carolina Hurricanes — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- MLB: Baltimore Orioles at New York Yankees — FanDuel\n- MLB: Cleveland Guardians at Kansas City Royals — FanDuel\n- MLB: Milwaukee Brewers at St. Louis Cardinals — FanDuel\n- MLB: Cincinnati Reds at Chicago Cubs — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:49 PM ET",
+      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-05 12:35:05 AM ET\n\nHEADLINE\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at FanDuel: Cleveland Cavaliers +130 | Detroit Pistons -154\n- Spread market active: Cleveland Cavaliers 3.5 (-118) | Detroit Pistons -3.5 (-104)\n- Total market active: Over 215.5 (-110) | Under 215.5 (-110)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n21 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — FanDuel\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- NHL: Carolina Hurricanes at Philadelphia Flyers — FanDuel\n- MLB: Athletics at Philadelphia Phillies — FanDuel\n- MLB: Baltimore Orioles at Miami Marlins — FanDuel\n- MLB: Boston Red Sox at Detroit Tigers — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:05 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com",
       "links": [
@@ -285,17 +278,17 @@
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL",
-      "snapshot": "The Chicago White Sox signed veteran outfielder Randal Grichuk to a one-year, $1.25 million deal on Monday and placed outfielder Austin Hays back on the 10-day injured list because of a left calf strain.",
+      "headline": "2026 NBA playoffs: Conference semifinals takeaways",
+      "snapshot": "Here's what has stood out from the latest playoff games of the second round.",
       "key_storylines": [
-        "MLB: White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL",
-        "MLB: Judge says Volpe demotion 'tough,' knows he'll be motivated",
-        "NHL: Maple Leafs hired GM John Chayka after 'deep due diligence'",
-        "NBA: Jaylen Brown for Giannis Antetokounmpo? Why one side probably says no to NBA's hottest trade rumor... for now",
+        "NBA: 2026 NBA playoffs: Conference semifinals takeaways",
+        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news",
+        "NFL: 9 49ers free agent still on the market after the 2026 NFL draft",
+        "NHL: Stanley Cup Playoffs 2026: Bracket, schedule and scores for every second-round series",
         "Global Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg",
-        "Global Soccer: Doku scored 'really top goals' in 'really good game' - Guardiola",
-        "MLB: Yankees' Aaron Boone, Aaron Judge reflect on 'iconic' John Sterling",
-        "NHL: Carolina Hurricanes sold out of popular 'beer skate' mugs"
+        "MLB: A's trade for Jonah Heim to fortify catching depth",
+        "NBA: 2026 NBA playoffs: Schedule, scores, news and highlights",
+        "NHL: Hurricanes beat Flyers on Taylor Hall's OT goal for 2-0 lead"
       ],
       "final_scores": [],
       "live_games": [],
@@ -307,7 +300,9 @@
       ],
       "why_it_matters": [
         "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
         "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction.",
         "Breaking Sports News roster movement gives reporters immediate follow-up angles on depth, payroll and competitive direction."
       ],
       "story_angles": [
@@ -316,26 +311,26 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 161,
-      "story_type": "injury",
-      "content": "MLB: White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL\nMLB: Judge says Volpe demotion 'tough,' knows he'll be motivated\nNHL: Maple Leafs hired GM John Chayka after 'deep due diligence'\nNBA: Jaylen Brown for Giannis Antetokounmpo? Why one side probably says no to NBA's hottest trade rumor... for now\nGlobal Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg\nGlobal Soccer: Doku scored 'really top goals' in 'really good game' - Guardiola\nMLB: Yankees' Aaron Boone, Aaron Judge reflect on 'iconic' John Sterling\nNHL: Carolina Hurricanes sold out of popular 'beer skate' mugs\nYahoo Sports: https://sports.yahoo.com/articles/white-sox-sign-veteran-outfielder-010052228.html\nCBS Sports: https://www.cbssports.com/nba/news/jaylen-brown-giannis-antetokounmpo-celtics-bucks-nba-trade-rumor/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/04/mikel-arteta-arsenal-atletico-madrid-second-leg\nBBC Sport Football: https://www.bbc.com/sport/football/videos/cvgz9kyrx74o?at_medium=RSS&at_campaign=rss",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
+      "priority_score": 155,
+      "story_type": "playoff",
+      "content": "NBA: 2026 NBA playoffs: Conference semifinals takeaways\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nNFL: 9 49ers free agent still on the market after the 2026 NFL draft\nNHL: Stanley Cup Playoffs 2026: Bracket, schedule and scores for every second-round series\nGlobal Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg\nMLB: A's trade for Jonah Heim to fortify catching depth\nNBA: 2026 NBA playoffs: Schedule, scores, news and highlights\nNHL: Hurricanes beat Flyers on Taylor Hall's OT goal for 2-0 lead\nYahoo Sports: https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html\nCBS Sports: https://www.cbssports.com/nhl/news/nhl-playoffs-2026-stanley-cup-schedule-bracket-scores-results/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/04/mikel-arteta-arsenal-atletico-madrid-second-leg\nMLB.com: https://www.mlb.com/news/jonah-heim-traded-to-athletics-from-braves",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
       "source_file": "breaking_news_engine",
       "freshness_status": "fresh",
-      "source_age_hours": 0.28,
+      "source_age_hours": 0.14,
       "lead_eligible": true,
-      "url": "https://sports.yahoo.com/articles/white-sox-sign-veteran-outfielder-010052228.html",
+      "url": "https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html",
       "source_label": "Yahoo Sports",
       "links": [
         {
           "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/white-sox-sign-veteran-outfielder-010052228.html",
-          "headline": "White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL"
+          "url": "https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html",
+          "headline": "9 49ers free agent still on the market after the 2026 NFL draft"
         },
         {
           "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nba/news/jaylen-brown-giannis-antetokounmpo-celtics-bucks-nba-trade-rumor/",
-          "headline": "Jaylen Brown for Giannis Antetokounmpo? Why one side probably says no to NBA's hottest trade rumor... for now"
+          "url": "https://www.cbssports.com/nhl/news/nhl-playoffs-2026-stanley-cup-schedule-bracket-scores-results/",
+          "headline": "Stanley Cup Playoffs 2026: Bracket, schedule and scores for every second-round series"
         },
         {
           "label": "The Guardian Sport",
@@ -343,9 +338,9 @@
           "headline": "Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg"
         },
         {
-          "label": "BBC Sport Football",
-          "url": "https://www.bbc.com/sport/football/videos/cvgz9kyrx74o?at_medium=RSS&at_campaign=rss",
-          "headline": "Doku scored 'really top goals' in 'really good game' - Guardiola"
+          "label": "MLB.com",
+          "url": "https://www.mlb.com/news/jonah-heim-traded-to-athletics-from-braves",
+          "headline": "A's trade for Jonah Heim to fortify catching depth"
         },
         {
           "label": "Yahoo Sports",
@@ -410,8 +405,8 @@
       "priority_score": 104,
       "story_type": "championship",
       "content": "Guardiola says Premier League out of City's hands after draw\nEverton draw could spell doom for Man City in Premier League title race\nArsenal and Man City's remaining Premier League fixtures compared as title race hots up\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nFive times Arsenal have let the Premier League title slip away",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:48 PM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:04 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48679116/guardiola-premier-league-city-hands-draw",
       "links": [
@@ -455,13 +450,13 @@
       "headline": "NFL offseason roster signals emerging",
       "snapshot": "No active games; offseason coverage signals in focus",
       "key_storylines": [
-        "NFL REPORT | 2026-05-04",
+        "NFL REPORT | 2026-05-05",
         "HEADLINE",
         "NFL offseason roster signals emerging",
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":17:47 PM ET"
+        ":35:02 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -476,16 +471,16 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-04\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-04 09:17:47 PM ET",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:47 PM ET",
+      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 12:35:02 AM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:02 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
         {
           "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/bavarian-loan-works-promotion-relegation-010000144.html",
-          "headline": "Bavarian Loan Works: Promotion and relegation battles reach boiling point"
+          "url": "https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html",
+          "headline": "9 49ers free agent still on the market after the 2026 NFL draft"
         },
         {
           "label": "NFL.com News",
@@ -522,7 +517,7 @@
       "headline": "Fantasy basketball usage and production leaders",
       "snapshot": "HEADLINE",
       "key_storylines": [
-        "FANTASY SPORTS | 2026-05-04",
+        "FANTASY SPORTS | 2026-05-05",
         "HEADLINE",
         "Top fantasy performers and usage trends across the board",
         "KEY STORYLINES",
@@ -542,9 +537,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-04\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-04 09:17:49 PM ET",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:49 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-05\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-05 12:35:05 AM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:05 AM ET",
       "source_file": "",
       "url": "https://www.rotowire.com",
       "links": [
@@ -579,22 +574,22 @@
     }
   ],
   "lead_section": "breaking_news",
-  "lead_story_type": "injury",
+  "lead_story_type": "playoff",
   "sections": [
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL",
-      "snapshot": "The Chicago White Sox signed veteran outfielder Randal Grichuk to a one-year, $1.25 million deal on Monday and placed outfielder Austin Hays back on the 10-day injured list because of a left calf strain.",
+      "headline": "2026 NBA playoffs: Conference semifinals takeaways",
+      "snapshot": "Here's what has stood out from the latest playoff games of the second round.",
       "key_storylines": [
-        "MLB: White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL",
-        "MLB: Judge says Volpe demotion 'tough,' knows he'll be motivated",
-        "NHL: Maple Leafs hired GM John Chayka after 'deep due diligence'",
-        "NBA: Jaylen Brown for Giannis Antetokounmpo? Why one side probably says no to NBA's hottest trade rumor... for now",
+        "NBA: 2026 NBA playoffs: Conference semifinals takeaways",
+        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news",
+        "NFL: 9 49ers free agent still on the market after the 2026 NFL draft",
+        "NHL: Stanley Cup Playoffs 2026: Bracket, schedule and scores for every second-round series",
         "Global Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg",
-        "Global Soccer: Doku scored 'really top goals' in 'really good game' - Guardiola",
-        "MLB: Yankees' Aaron Boone, Aaron Judge reflect on 'iconic' John Sterling",
-        "NHL: Carolina Hurricanes sold out of popular 'beer skate' mugs"
+        "MLB: A's trade for Jonah Heim to fortify catching depth",
+        "NBA: 2026 NBA playoffs: Schedule, scores, news and highlights",
+        "NHL: Hurricanes beat Flyers on Taylor Hall's OT goal for 2-0 lead"
       ],
       "final_scores": [],
       "live_games": [],
@@ -606,7 +601,9 @@
       ],
       "why_it_matters": [
         "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
         "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction.",
         "Breaking Sports News roster movement gives reporters immediate follow-up angles on depth, payroll and competitive direction."
       ],
       "story_angles": [
@@ -615,26 +612,26 @@
         "Which team, player or league source should be checked next?",
         "Does this change the lead story across the sports homepage?"
       ],
-      "priority_score": 161,
-      "story_type": "injury",
-      "content": "MLB: White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL\nMLB: Judge says Volpe demotion 'tough,' knows he'll be motivated\nNHL: Maple Leafs hired GM John Chayka after 'deep due diligence'\nNBA: Jaylen Brown for Giannis Antetokounmpo? Why one side probably says no to NBA's hottest trade rumor... for now\nGlobal Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg\nGlobal Soccer: Doku scored 'really top goals' in 'really good game' - Guardiola\nMLB: Yankees' Aaron Boone, Aaron Judge reflect on 'iconic' John Sterling\nNHL: Carolina Hurricanes sold out of popular 'beer skate' mugs\nYahoo Sports: https://sports.yahoo.com/articles/white-sox-sign-veteran-outfielder-010052228.html\nCBS Sports: https://www.cbssports.com/nba/news/jaylen-brown-giannis-antetokounmpo-celtics-bucks-nba-trade-rumor/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/04/mikel-arteta-arsenal-atletico-madrid-second-leg\nBBC Sport Football: https://www.bbc.com/sport/football/videos/cvgz9kyrx74o?at_medium=RSS&at_campaign=rss",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
+      "priority_score": 155,
+      "story_type": "playoff",
+      "content": "NBA: 2026 NBA playoffs: Conference semifinals takeaways\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nNFL: 9 49ers free agent still on the market after the 2026 NFL draft\nNHL: Stanley Cup Playoffs 2026: Bracket, schedule and scores for every second-round series\nGlobal Soccer: Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg\nMLB: A's trade for Jonah Heim to fortify catching depth\nNBA: 2026 NBA playoffs: Schedule, scores, news and highlights\nNHL: Hurricanes beat Flyers on Taylor Hall's OT goal for 2-0 lead\nYahoo Sports: https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html\nCBS Sports: https://www.cbssports.com/nhl/news/nhl-playoffs-2026-stanley-cup-schedule-bracket-scores-results/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/04/mikel-arteta-arsenal-atletico-madrid-second-leg\nMLB.com: https://www.mlb.com/news/jonah-heim-traded-to-athletics-from-braves",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
       "source_file": "breaking_news_engine",
       "freshness_status": "fresh",
-      "source_age_hours": 0.28,
+      "source_age_hours": 0.14,
       "lead_eligible": true,
-      "url": "https://sports.yahoo.com/articles/white-sox-sign-veteran-outfielder-010052228.html",
+      "url": "https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html",
       "source_label": "Yahoo Sports",
       "links": [
         {
           "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/white-sox-sign-veteran-outfielder-010052228.html",
-          "headline": "White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL"
+          "url": "https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html",
+          "headline": "9 49ers free agent still on the market after the 2026 NFL draft"
         },
         {
           "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nba/news/jaylen-brown-giannis-antetokounmpo-celtics-bucks-nba-trade-rumor/",
-          "headline": "Jaylen Brown for Giannis Antetokounmpo? Why one side probably says no to NBA's hottest trade rumor... for now"
+          "url": "https://www.cbssports.com/nhl/news/nhl-playoffs-2026-stanley-cup-schedule-bracket-scores-results/",
+          "headline": "Stanley Cup Playoffs 2026: Bracket, schedule and scores for every second-round series"
         },
         {
           "label": "The Guardian Sport",
@@ -642,9 +639,9 @@
           "headline": "Mikel Arteta promises fired-up Arsenal will play ‘like beasts’ in Atlético second leg"
         },
         {
-          "label": "BBC Sport Football",
-          "url": "https://www.bbc.com/sport/football/videos/cvgz9kyrx74o?at_medium=RSS&at_campaign=rss",
-          "headline": "Doku scored 'really top goals' in 'really good game' - Guardiola"
+          "label": "MLB.com",
+          "url": "https://www.mlb.com/news/jonah-heim-traded-to-athletics-from-braves",
+          "headline": "A's trade for Jonah Heim to fortify catching depth"
         },
         {
           "label": "Yahoo Sports",
@@ -672,31 +669,155 @@
       }
     },
     {
-      "key": "mlb",
-      "title": "MLB",
-      "headline": "Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-      "snapshot": "3 today finals, 6 live and 3 scheduled for 2026-05-04 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "key": "nba",
+      "title": "NBA",
+      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "key_storylines": [
-        "LIVE: Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-        "LIVE: New York Yankees 6, Baltimore Orioles 1 — Top 7th",
-        "LIVE: Cincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd",
-        "LIVE: Kansas City Royals 5, Cleveland Guardians 2 — Top 7th",
-        "FINAL: New York Mets beat Colorado Rockies, 4-2",
-        "FINAL: Boston Red Sox beat Detroit Tigers, 5-4",
-        "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 5-1"
+        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+        "New York Knicks beat Philadelphia 76ers, 137-98"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-        "LIVE: New York Yankees 6, Baltimore Orioles 1 — Top 7th",
-        "LIVE: Cincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd",
-        "LIVE: Kansas City Royals 5, Cleveland Guardians 2 — Top 7th",
-        "FINAL: New York Mets beat Colorado Rockies, 4-2",
-        "FINAL: Boston Red Sox beat Detroit Tigers, 5-4",
-        "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 5-1",
-        "UPCOMING: Chicago White Sox at Los Angeles Angels — 9:38 PM ET"
+        "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
+        "New York Knicks beat Philadelphia 76ers, 137-98"
+      ],
+      "why_it_matters": [
+        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
+        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
+      ],
+      "story_angles": [
+        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
+        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Minnesota Timberwolves beat San Antonio Spurs, 104-102\nNew York Knicks beat Philadelphia 76ers, 137-98",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:02 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nba/scoreboard",
+      "links": [
+        {
+          "label": "NBA.com News",
+          "url": "https://www.nba.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NBA",
+          "url": "https://sports.yahoo.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NBA",
+          "url": "https://www.cbssports.com/nba/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nba/scoreboard",
+          "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
+      "key": "nhl",
+      "title": "NHL",
+      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
+      "key_storylines": [
+        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
+        "Vegas Golden Knights beat Anaheim Ducks, 3-1"
+      ],
+      "why_it_matters": [
+        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
+        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
+      ],
+      "story_angles": [
+        "Track goalie decisions, special teams, late goals, injuries and standings impact."
+      ],
+      "priority_score": 72,
+      "story_type": "live",
+      "content": "Carolina Hurricanes beat Philadelphia Flyers, 3-2\nVegas Golden Knights beat Anaheim Ducks, 3-1",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:02 AM ET",
+      "source_file": "",
+      "url": "https://www.espn.com/nhl/scoreboard",
+      "links": [
+        {
+          "label": "NHL.com News",
+          "url": "https://www.nhl.com/news",
+          "headline": ""
+        },
+        {
+          "label": "Yahoo Sports NHL",
+          "url": "https://sports.yahoo.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "CBS Sports NHL",
+          "url": "https://www.cbssports.com/nhl/",
+          "headline": ""
+        },
+        {
+          "label": "Espn",
+          "url": "https://www.espn.com/nhl/scoreboard",
+          "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2"
+        }
+      ],
+      "freshness_status": "fresh",
+      "source_age_hours": 0.0,
+      "lead_eligible": true,
+      "source_label": "Espn",
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "espn.com",
+        "non_espn_links": 3,
+        "total_links": 4,
+        "primary_url_policy": "game_context_locked"
+      }
+    },
+    {
+      "key": "mlb",
+      "title": "MLB",
+      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
+      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "key_storylines": [
+        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
+        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
+        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
+        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "UPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET",
+        "UPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET",
+        "UPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET",
+        "UPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -708,16 +829,16 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-04\n\nHEADLINE\nPhiladelphia Phillies 1, Miami Marlins 0 — Bottom 9th\n\nSNAPSHOT\n3 today finals, 6 live and 3 scheduled for 2026-05-04 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th\nLIVE: New York Yankees 6, Baltimore Orioles 1 — Top 7th\nLIVE: Cincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd\nLIVE: Kansas City Royals 5, Cleveland Guardians 2 — Top 7th\nFINAL: New York Mets beat Colorado Rockies, 4-2\nFINAL: Boston Red Sox beat Detroit Tigers, 5-4\nFINAL: Tampa Bay Rays beat Toronto Blue Jays, 5-1\nUPCOMING: Chicago White Sox at Los Angeles Angels — 9:38 PM ET\nUPCOMING: Atlanta Braves at Seattle Mariners — 9:40 PM ET\nUPCOMING: San Diego Padres at San Francisco Giants — 9:45 PM ET\n\nTODAY FINAL SCORES\nNew York Mets beat Colorado Rockies, 4-2\nBoston Red Sox beat Detroit Tigers, 5-4\nTampa Bay Rays beat Toronto Blue Jays, 5-1\n\nTODAY LIVE\nPhiladelphia Phillies 1, Miami Marlins 0 — Bottom 9th\nNew York Yankees 6, Baltimore Orioles 1 — Top 7th\nCincinnati Reds 0, Chicago Cubs 0 — Bottom 2nd\nKansas City Royals 5, Cleveland Guardians 2 — Top 7th\nSt. Louis Cardinals 4, Milwaukee Brewers 0 — End 5th\nLos Angeles Dodgers 7, Houston Astros 2 — End 3rd\n\nTODAY SCHEDULE\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-04 09:17:45 PM ET",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:45 PM ET",
+      "content": "MLB REPORT | 2026-05-05\n\nHEADLINE\nMLB schedule opens with Athletics at Philadelphia Phillies\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Athletics at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Baltimore Orioles at Miami Marlins — 6:40 PM ET\nUPCOMING: Boston Red Sox at Detroit Tigers — 6:40 PM ET\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nToronto Blue Jays at Tampa Bay Rays — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 7:45 PM ET\nLos Angeles Dodgers at Houston Astros — 8:10 PM ET\nNew York Mets at Colorado Rockies — 8:40 PM ET\nChicago White Sox at Los Angeles Angels — 9:38 PM ET\nAtlanta Braves at Seattle Mariners — 9:40 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\nSan Diego Padres at San Francisco Giants — 9:45 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-05 12:35:01 AM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:01 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
         {
           "label": "Espn",
           "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th"
+          "headline": "MLB schedule opens with Athletics at Philadelphia Phillies"
         },
         {
           "label": "MLB.com News",
@@ -749,146 +870,15 @@
       }
     },
     {
-      "key": "nba",
-      "title": "NBA",
-      "headline": "Philadelphia 76ers 44, New York Knicks 59 — Live",
-      "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations.",
-      "key_storylines": [
-        "Philadelphia 76ers 44, New York Knicks 59 — Live",
-        "Minnesota Timberwolves at San Antonio Spurs"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Philadelphia 76ers 44, New York Knicks 59 — Live",
-        "Minnesota Timberwolves at San Antonio Spurs"
-      ],
-      "why_it_matters": [
-        "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
-        "This helps prevent a national game such as Lakers-Rockets from being buried when it is the strongest newsroom signal."
-      ],
-      "story_angles": [
-        "Track live score swings, official injury updates, late-game execution and verified postgame quotes.",
-        "Use upcoming games as planning items unless they carry a strong standings, availability or national-interest angle."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Philadelphia 76ers 44, New York Knicks 59 — Live\nMinnesota Timberwolves at San Antonio Spurs",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:46 PM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nba/scoreboard",
-      "links": [
-        {
-          "label": "NBA.com News",
-          "url": "https://www.nba.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NBA",
-          "url": "https://sports.yahoo.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NBA",
-          "url": "https://www.cbssports.com/nba/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Philadelphia 76ers 44, New York Knicks 59 — Live"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
-      "key": "nhl",
-      "title": "NHL",
-      "headline": "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
-      "snapshot": "2 NHL games on board: 1 live, 0 final, 1 upcoming.",
-      "key_storylines": [
-        "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
-        "Anaheim Ducks at Vegas Golden Knights — 5/4 - 9:30 PM EDT"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
-        "Anaheim Ducks at Vegas Golden Knights — 5/4 - 9:30 PM EDT"
-      ],
-      "why_it_matters": [
-        "The NHL board separates finals, live games and upcoming matchups so editors can avoid backwards or misleading score lines.",
-        "Correct winner/loser logic matters for trust, especially when final scores are used in homepage cards."
-      ],
-      "story_angles": [
-        "Track goalie decisions, special teams, late goals, injuries and standings impact."
-      ],
-      "priority_score": 72,
-      "story_type": "live",
-      "content": "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live\nAnaheim Ducks at Vegas Golden Knights — 5/4 - 9:30 PM EDT",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:47 PM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/nhl/scoreboard",
-      "links": [
-        {
-          "label": "NHL.com News",
-          "url": "https://www.nhl.com/news",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NHL",
-          "url": "https://sports.yahoo.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports NHL",
-          "url": "https://www.cbssports.com/nhl/",
-          "headline": ""
-        },
-        {
-          "label": "Espn",
-          "url": "https://www.espn.com/nhl/scoreboard",
-          "headline": "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live"
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 0.0,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 4,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
       "key": "betting_odds",
       "title": "Betting Market Watch",
-      "headline": "NBA: Philadelphia 76ers at New York Knicks betting market is active",
+      "headline": "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
       "snapshot": "Betting markets checked for live signals, market context and operator-facing story angles.",
       "key_storylines": [
         "GLOBAL BETTING REPORT",
-        "Updated: 2026-05-04 09:17:49 PM ET",
+        "Updated: 2026-05-05 12:35:05 AM ET",
         "HEADLINE",
-        "NBA: Philadelphia 76ers at New York Knicks betting market is active",
+        "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
         "SNAPSHOT",
         "Betting markets checked for live signals, market context and operator-facing story angles.",
         "Top Betting Signals"
@@ -905,9 +895,9 @@
       ],
       "priority_score": 72,
       "story_type": "live",
-      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-04 09:17:49 PM ET\n\nHEADLINE\nNBA: Philadelphia 76ers at New York Knicks betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Philadelphia 76ers at New York Knicks betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at DraftKings: New York Knicks -1600 | Philadelphia 76ers +800\n- Spread market active: New York Knicks -16.5 (-110) | Philadelphia 76ers 16.5 (-120)\n- Total market active: Over 218.5 (-110) | Under 218.5 (-120)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n20 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Philadelphia 76ers at New York Knicks — DraftKings\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NHL: Philadelphia Flyers at Carolina Hurricanes — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- MLB: Baltimore Orioles at New York Yankees — FanDuel\n- MLB: Cleveland Guardians at Kansas City Royals — FanDuel\n- MLB: Milwaukee Brewers at St. Louis Cardinals — FanDuel\n- MLB: Cincinnati Reds at Chicago Cubs — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:49 PM ET",
+      "content": "GLOBAL BETTING REPORT\nUpdated: 2026-05-05 12:35:05 AM ET\n\nHEADLINE\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\n\nSNAPSHOT\nBetting markets checked for live signals, market context and operator-facing story angles.\n\nTop Betting Signals\nNBA: Cleveland Cavaliers at Detroit Pistons betting market is active\nHighest-priority betting signal from the current market check.\n\nSIGNALS\n- Moneyline posted at FanDuel: Cleveland Cavaliers +130 | Detroit Pistons -154\n- Spread market active: Cleveland Cavaliers 3.5 (-118) | Detroit Pistons -3.5 (-104)\n- Total market active: Over 215.5 (-110) | Under 215.5 (-110)\n\nWHY IT MATTERS\n- Spread movement should be monitored because it can reveal market pressure before game time.\n- Totals can move quickly when injury, weather, pace or lineup signals change.\n\nWHAT TO WATCH\n- Late injury and availability news\n- Line movement before game time\n- Market differences across books\n\nMarket Board\nActive betting markets by league\n21 betting signals available from the latest run.\n\nSIGNALS\n- NBA: Cleveland Cavaliers at Detroit Pistons — FanDuel\n- NBA: Los Angeles Lakers at Oklahoma City Thunder — DraftKings\n- NBA: Philadelphia 76ers at New York Knicks — FanDuel\n- NBA: Minnesota Timberwolves at San Antonio Spurs — DraftKings\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- NHL: Minnesota Wild at Colorado Avalanche — BetRivers\n- NHL: Montréal Canadiens at Buffalo Sabres — FanDuel\n- NHL: Anaheim Ducks at Vegas Golden Knights — FanDuel\n- NHL: Carolina Hurricanes at Philadelphia Flyers — FanDuel\n- MLB: Athletics at Philadelphia Phillies — FanDuel\n- MLB: Baltimore Orioles at Miami Marlins — FanDuel\n- MLB: Boston Red Sox at Detroit Tigers — FanDuel\n\nWHY IT MATTERS\n- A clean betting board helps operators, editors and partners see which games deserve immediate attention.\n\nWHAT TO WATCH\n- Line movement\n- Book-to-book differences\n- Injury and availability changes\n- Late public market pressure\n\nEDITORIAL STANDARD\nThis report organizes betting signals and market context. It is not betting advice.",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:05 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com",
       "links": [
@@ -976,8 +966,8 @@
       "priority_score": 104,
       "story_type": "championship",
       "content": "Guardiola says Premier League out of City's hands after draw\nEverton draw could spell doom for Man City in Premier League title race\nArsenal and Man City's remaining Premier League fixtures compared as title race hots up\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTracking title races, relegation: Ronaldo nears Saudi trophy; when Barcelona can win LaLiga\nFive times Arsenal have let the Premier League title slip away",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:48 PM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:04 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48679116/guardiola-premier-league-city-hands-draw",
       "links": [
@@ -1021,13 +1011,13 @@
       "headline": "NFL offseason roster signals emerging",
       "snapshot": "No active games; offseason coverage signals in focus",
       "key_storylines": [
-        "NFL REPORT | 2026-05-04",
+        "NFL REPORT | 2026-05-05",
         "HEADLINE",
         "NFL offseason roster signals emerging",
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":17:47 PM ET"
+        ":35:02 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1042,16 +1032,16 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-04\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-04 09:17:47 PM ET",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:47 PM ET",
+      "content": "NFL REPORT | 2026-05-05\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-05 12:35:02 AM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:02 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
         {
           "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/bavarian-loan-works-promotion-relegation-010000144.html",
-          "headline": "Bavarian Loan Works: Promotion and relegation battles reach boiling point"
+          "url": "https://sports.yahoo.com/articles/9-49ers-free-agent-still-041530225.html",
+          "headline": "9 49ers free agent still on the market after the 2026 NFL draft"
         },
         {
           "label": "NFL.com News",
@@ -1088,7 +1078,7 @@
       "headline": "Fantasy basketball usage and production leaders",
       "snapshot": "HEADLINE",
       "key_storylines": [
-        "FANTASY SPORTS | 2026-05-04",
+        "FANTASY SPORTS | 2026-05-05",
         "HEADLINE",
         "Top fantasy performers and usage trends across the board",
         "KEY STORYLINES",
@@ -1108,9 +1098,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-04\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-04 09:17:49 PM ET",
-      "updated_at": "2026-05-04 09:17:53 PM ET",
-      "source_updated_at": "2026-05-04 09:17:49 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-05\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-05 12:35:05 AM ET",
+      "updated_at": "2026-05-05 12:35:13 AM ET",
+      "source_updated_at": "2026-05-05 12:35:05 AM ET",
       "source_file": "",
       "url": "https://www.rotowire.com",
       "links": [
@@ -1148,31 +1138,20 @@
     {
       "league": "Breaking Sports News",
       "key": "breaking_news",
-      "headline": "White Sox sign veteran outfielder Randal Grichuk to $1.25 million deal; place Austin Hays back on IL",
-      "url": "https://sports.yahoo.com/articles/white-sox-sign-veteran-outfielder-010052228.html",
-      "snapshot": "The Chicago White Sox signed veteran outfielder Randal Grichuk to a one-year, $1.25 million deal on Monday and placed outfielder Austin Hays back on the 10-day injured list...",
-      "story_type": "injury",
-      "priority_score": 161,
+      "headline": "2026 NBA playoffs: Conference semifinals takeaways",
+      "url": "https://sports.yahoo.com",
+      "snapshot": "Here's what has stood out from the latest playoff games of the second round.",
+      "story_type": "playoff",
+      "priority_score": 155,
       "freshness_status": "fresh",
       "source": "breaking_news_engine"
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Philadelphia Phillies 1, Miami Marlins 0 — Bottom 9th",
-      "url": "https://www.espn.com/mlb/scoreboard",
-      "snapshot": "3 today finals, 6 live and 3 scheduled for 2026-05-04 ET. Final/live items lead; schedule items stay lower unless news breaks.",
-      "story_type": "live",
-      "priority_score": 72,
-      "freshness_status": "fresh",
-      "source": ""
-    },
-    {
       "league": "NBA",
       "key": "nba",
-      "headline": "Philadelphia 76ers 44, New York Knicks 59 — Live",
+      "headline": "Minnesota Timberwolves beat San Antonio Spurs, 104-102",
       "url": "https://www.espn.com/nba/scoreboard",
-      "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations.",
+      "snapshot": "2 NBA games on the board: 0 live, 2 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "story_type": "live",
       "priority_score": 72,
       "freshness_status": "fresh",
@@ -1181,9 +1160,20 @@
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Philadelphia Flyers 2, Carolina Hurricanes 1 — Live",
+      "headline": "Carolina Hurricanes beat Philadelphia Flyers, 3-2",
       "url": "https://www.espn.com/nhl/scoreboard",
-      "snapshot": "2 NHL games on board: 1 live, 0 final, 1 upcoming.",
+      "snapshot": "2 NHL games on board: 0 live, 2 final, 0 upcoming.",
+      "story_type": "live",
+      "priority_score": 72,
+      "freshness_status": "fresh",
+      "source": ""
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "MLB schedule opens with Athletics at Philadelphia Phillies",
+      "url": "https://www.espn.com/mlb/scoreboard",
+      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-05 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "story_type": "live",
       "priority_score": 72,
       "freshness_status": "fresh",
@@ -1192,7 +1182,7 @@
     {
       "league": "Betting Market Watch",
       "key": "betting_odds",
-      "headline": "NBA: Philadelphia 76ers at New York Knicks betting market is active",
+      "headline": "NBA: Cleveland Cavaliers at Detroit Pistons betting market is active",
       "url": "https://www.actionnetwork.com",
       "snapshot": "Betting markets checked for live signals, market context and operator-facing story angles.",
       "story_type": "live",
@@ -1274,15 +1264,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-04 09:17:49 PM ET",
-  "generated_at": "2026-05-04 09:17:49 PM ET",
-  "published_at": "2026-05-04 09:17:49 PM ET",
-  "heartbeat": "2026-05-04T21:17:49-04:00",
-  "cache_buster": "2026-05-04T21:17:49-04:00",
+  "updated_at": "2026-05-05 12:35:06 AM ET",
+  "generated_at": "2026-05-05 12:35:06 AM ET",
+  "published_at": "2026-05-05 12:35:06 AM ET",
+  "heartbeat": "2026-05-05T00:35:06-04:00",
+  "cache_buster": "2026-05-05T00:35:06-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-04 09:17:49 PM ET",
-    "last_successful_build_iso": "2026-05-04T21:17:49-04:00",
+    "last_successful_build": "2026-05-05 12:35:06 AM ET",
+    "last_successful_build_iso": "2026-05-05T00:35:06-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -1323,7 +1313,7 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 25.28,
+        "age_hours": 28.57,
         "status": "stale_or_missing",
         "max_age_hours": 6
       },
@@ -1349,8 +1339,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-04 09:17:49 PM ET",
-    "heartbeat": "2026-05-04T21:17:49-04:00"
+    "last_checked": "2026-05-05 12:35:06 AM ET",
+    "heartbeat": "2026-05-05T00:35:06-04:00"
   },
   "editorial_brain": {
     "status": "active",
