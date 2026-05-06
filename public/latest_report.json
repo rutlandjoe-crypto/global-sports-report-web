@@ -2,17 +2,71 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Oklahoma City Thunder beat Los Angeles Lakers, 108-90",
-  "snapshot": "Detroit Pistons beat Cleveland Cavaliers, 111-101",
+  "headline": "How the 2026 NHL Draft Order looks after the lottery results",
+  "snapshot": "The 2025–26 NHL season has been a reminder of just how quickly things can change across the league.",
   "key_storylines": [
+    "Breaking Sports News: How the 2026 NHL Draft Order looks after the lottery results",
     "NBA: Oklahoma City Thunder beat Los Angeles Lakers, 108-90",
     "NHL: Colorado Avalanche beat Minnesota Wild, 5-2",
-    "Breaking Sports News: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'",
     "MLB: MLB schedule opens with Toronto Blue Jays at Tampa Bay Rays",
     "Global Soccer: Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory",
-    "College Football: College Football Watch Tracks Schedule, Recruiting and Conference Signals"
+    "NFL: Quarterback depth charts shaping offseason outlook"
   ],
   "live_newsroom": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "How the 2026 NHL Draft Order looks after the lottery results",
+      "snapshot": "The 2025–26 NHL season has been a reminder of just how quickly things can change across the league.",
+      "key_storylines": [
+        "NHL: How the 2026 NHL Draft Order looks after the lottery results",
+        "NBA: Thunder roll past Lakers in Game 1 of West semifinals",
+        "NFL: 2026 NFL offseason: Veterans on the hot seat after the draft",
+        "MLB: Angels and White Sox meet, winner secures 3-game series",
+        "NHL: Hurricanes take 2-0 series lead into game 3 against the Flyers",
+        "NFL: Vítor Pereira creates harmony out of chaos to have Nottingham Forest dreaming big",
+        "Sports: IPL 2026 playoffs qualification scenarios: Rules, chances and points required for progressing to the last four stage",
+        "NBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 214,
+      "story_type": "live",
+      "content": "NHL: How the 2026 NHL Draft Order looks after the lottery results\nNBA: Thunder roll past Lakers in Game 1 of West semifinals\nNFL: 2026 NFL offseason: Veterans on the hot seat after the draft\nMLB: Angels and White Sox meet, winner secures 3-game series\nNHL: Hurricanes take 2-0 series lead into game 3 against the Flyers\nNFL: Vítor Pereira creates harmony out of chaos to have Nottingham Forest dreaming big\nSports: IPL 2026 playoffs qualification scenarios: Rules, chances and points required for progressing to the last four stage\nNBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'\nYahoo Sports: https://sports.yahoo.com/articles/2026-nhl-draft-order-looks-110700329.html\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/06/vitor-pereira-harmony-out-of-chaos-nottingham-forest-dreaming-big-europa-league\nYahoo Sports: https://sports.yahoo.com/articles/ipl-2026-playoffs-qualification-scenarios-064500932.html",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.2,
+      "lead_eligible": true,
+      "url": "https://sports.yahoo.com/articles/2026-nhl-draft-order-looks-110700329.html",
+      "source_label": "Yahoo Sports",
+      "links": [],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 0,
+        "total_links": 0,
+        "primary_url_policy": "section_url_locked"
+      }
+    },
     {
       "key": "nba",
       "title": "NBA",
@@ -40,8 +94,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Oklahoma City Thunder beat Los Angeles Lakers, 108-90\nDetroit Pistons beat Cleveland Cavaliers, 111-101",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:24 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:41 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -103,8 +157,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Colorado Avalanche beat Minnesota Wild, 5-2",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:24 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:41 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -172,9 +226,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nMLB schedule opens with Toronto Blue Jays at Tampa Bay Rays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nUPCOMING: Milwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nUPCOMING: Los Angeles Dodgers at Houston Astros — 2:10 PM ET\nUPCOMING: San Diego Padres at San Francisco Giants — 3:45 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nToronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nLos Angeles Dodgers at Houston Astros — 2:10 PM ET\nSan Diego Padres at San Francisco Giants — 3:45 PM ET\nChicago White Sox at Los Angeles Angels — 4:07 PM ET\nAtlanta Braves at Seattle Mariners — 4:10 PM ET\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nNew York Mets at Colorado Rockies — 9:20 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 05:09:20 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:20 AM ET",
+      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nMLB schedule opens with Toronto Blue Jays at Tampa Bay Rays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nUPCOMING: Milwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nUPCOMING: Los Angeles Dodgers at Houston Astros — 2:10 PM ET\nUPCOMING: San Diego Padres at San Francisco Giants — 3:45 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nToronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nLos Angeles Dodgers at Houston Astros — 2:10 PM ET\nSan Diego Padres at San Francisco Giants — 3:45 PM ET\nChicago White Sox at Los Angeles Angels — 4:07 PM ET\nAtlanta Braves at Seattle Mariners — 4:10 PM ET\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nNew York Mets at Colorado Rockies — 9:20 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 07:18:39 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:39 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -221,9 +275,9 @@
         "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
-        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
-        "PSG denied late penalty as Lorient take point at Parc des Princes",
-        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'"
+        "Declan Rice on facing struggling former club West Ham: 'It's not nice but I've got a job to do'",
+        "Ian Wright hits back at 'celebration police' after reaction to Arsenal reaching Champions League final",
+        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit"
       ],
       "final_scores": [],
       "live_games": [],
@@ -232,11 +286,11 @@
         "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
+        "Declan Rice on facing struggling former club West Ham: 'It's not nice but I've got a job to do'",
+        "Ian Wright hits back at 'celebration police' after reaction to Arsenal reaching Champions League final",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
         "PSG denied late penalty as Lorient take point at Parc des Princes",
-        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
-        "Transfer rumors, news: Inter Miami aim to pair Casemiro with Messi",
-        "Transfer rumors, news: Man United, Atlético eye Atalanta star"
+        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'"
       ],
       "why_it_matters": [
         "The soccer card now ranks real soccer news and high-value matches above generic fixture dumps.",
@@ -247,9 +301,9 @@
       ],
       "priority_score": 104,
       "story_type": "live",
-      "content": "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:26 AM ET",
+      "content": "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nDeclan Rice on facing struggling former club West Ham: 'It's not nice but I've got a job to do'\nIan Wright hits back at 'celebration police' after reaction to Arsenal reaching Champions League final\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:42 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/video/clip?id=48688321",
       "links": [
@@ -286,136 +340,9 @@
         "total_links": 4,
         "primary_url_policy": "section_url_locked"
       }
-    },
-    {
-      "key": "ncaafb",
-      "title": "College Football",
-      "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-      "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
-      "key_storylines": [
-        "NCAAFB REPORT | 2026-05-05",
-        "HEADLINE",
-        "College football schedule loaded with 10 upcoming matchups across the board.",
-        "SNAPSHOT",
-        "final games logged",
-        "games currently live",
-        "upcoming matchups"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [
-        "North Carolina Tar Heels at TCU Horned Frogs - TBD.",
-        "Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.",
-        "NC State Wolfpack at Virginia Cavaliers - TBD.",
-        "Memphis Tigers at UNLV Rebels - TBD.",
-        "San José State Spartans at USC Trojans - TBD.",
-        "New Mexico State Aggies at Florida State Seminoles - TBD.",
-        "Jacksonville State Gamecocks at North Dakota State Bison - TBD.",
-        "Sacramento State Hornets at Eastern Michigan Eagles - TBD.",
-        "Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.",
-        "Bethune-Cookman Wildcats at UCF Knights - TBD."
-      ],
-      "advanced": [],
-      "why_it_matters": [
-        "Clear scoreboard separation improves usability for journalists",
-        "Prevents stale data from appearing in active reporting windows",
-        "Supports both recap and preview workflows cleanly"
-      ],
-      "story_angles": [
-        "Preview-driven coverage leads current reporting"
-      ],
-      "priority_score": 84,
-      "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-05\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-05 11:22:03 PM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-05 11:22:03 PM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/college-football/scoreboard",
-      "links": [
-        {
-          "label": "NCAA Football News",
-          "url": "https://www.ncaa.com/news/football/fbs",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NCAAF",
-          "url": "https://sports.yahoo.com/college-football/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports College Football",
-          "url": "https://www.cbssports.com/college-football/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 5.79,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 3,
-        "primary_url_policy": "game_context_locked"
-      }
     }
   ],
   "editor_signals": [
-    {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'",
-      "snapshot": "Asked to pinpoint Tuesday night why he wasn't getting to the free throw line during the playoffs as much as he was during the regular season, Cavaliers star Donovan Mitchell offered up, \"I don't flop, maybe that's why.\"",
-      "key_storylines": [
-        "NBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'",
-        "Sports: Indy Ignite dominated MLV regular season, hopes 'winning breeds winning' shows in playoffs",
-        "MLB: Angels and White Sox meet, winner secures 3-game series",
-        "NHL: Hurricanes take 2-0 series lead into game 3 against the Flyers",
-        "NFL: Has a football team ever finished on zero points without a deduction? | The Knowledge",
-        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
-        "Sports: Explained: Why Royal Challengers Bengaluru's M Chinnaswamy stadium could miss hosting IPL 2026 final",
-        "MLB: Red Sox look to sweep series against the Tigers"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 195,
-      "story_type": "playoff",
-      "content": "NBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'\nSports: Indy Ignite dominated MLV regular season, hopes 'winning breeds winning' shows in playoffs\nMLB: Angels and White Sox meet, winner secures 3-game series\nNHL: Hurricanes take 2-0 series lead into game 3 against the Flyers\nNFL: Has a football team ever finished on zero points without a deduction? | The Knowledge\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nSports: Explained: Why Royal Challengers Bengaluru's M Chinnaswamy stadium could miss hosting IPL 2026 final\nMLB: Red Sox look to sweep series against the Tigers\nYahoo Sports: https://sports.yahoo.com/articles/indy-ignite-dominated-mlv-regular-084531916.html\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/06/has-a-football-team-ever-finished-on-zero-points-without-a-deduction\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nYahoo Sports: https://sports.yahoo.com/articles/explained-why-royal-challengers-bengalurus-030603416.html",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 1.77,
-      "lead_eligible": true,
-      "url": "",
-      "source_label": "ESPN NBA",
-      "links": [],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "",
-        "non_espn_links": 0,
-        "total_links": 0,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
     {
       "key": "nfl",
       "title": "NFL",
@@ -428,7 +355,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":09:25 AM ET"
+        ":18:41 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -443,9 +370,9 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 05:09:25 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:25 AM ET",
+      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 07:18:41 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:41 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
@@ -504,9 +431,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nPhiladelphia 76ers at New York Knicks — 7:10 PM ET | Philadelphia 76ers 7.5 (-118) / New York Knicks -7.5 (-104) | 215.5 (O -110 / U -110)\nMinnesota Timberwolves at San Antonio Spurs — 9:40 PM ET | Minnesota Timberwolves 9.5 (-105) / San Antonio Spurs -9.5 (-115) | 215.5 (O -110 / U -110)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-112) / Detroit Pistons -3.5 (-108) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 210.5 (O -105 / U -115)\nMLB\nToronto Blue Jays at Tampa Bay Rays — 1:11 PM ET | Toronto Blue Jays 1.5 (-196) / Tampa Bay Rays -1.5 (162) | 7.5 (O -115 / U -105)\nMilwaukee Brewers at St. Louis Cardinals — 1:16 PM ET | Milwaukee Brewers -1.5 (150) / St. Louis Cardinals 1.5 (-182) | 8.5 (O 100 / U -122)\nLos Angeles Dodgers at Houston Astros — 2:11 PM ET | Los Angeles Dodgers -1.5 (-128) / Houston Astros 1.5 (106) | 8.5 (O -128 / U 104)\nSan Diego Padres at San Francisco Giants — 3:46 PM ET | San Diego Padres -1.5 (146) / San Francisco Giants 1.5 (-178) | 8.5 (O -110 / U -110)\nChicago White Sox at Los Angeles Angels — 4:08 PM ET | Chicago White Sox -1.5 (152) / Los Angeles Angels 1.5 (-184) | 9.0 (O -105 / U -115)\nNHL\nMontréal Canadiens at Buffalo Sabres — 7:10 PM ET | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (176) | 5.5 (O -128 / U 104)\nAnaheim Ducks at Vegas Golden Knights — 9:50 PM ET | Anaheim Ducks 1.5 (-186) / Vegas Golden Knights -1.5 (145) | 6.5 (O -105 / U -121)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (164) / Philadelphia Flyers 1.5 (-205) | 5.5 (O 118 / U -144)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 05:09:26 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:26 AM ET",
+      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nPhiladelphia 76ers at New York Knicks — 7:10 PM ET | Philadelphia 76ers 7.5 (-118) / New York Knicks -7.5 (-104) | 215.5 (O -110 / U -110)\nMinnesota Timberwolves at San Antonio Spurs — 9:40 PM ET | Minnesota Timberwolves 9.5 (-105) / San Antonio Spurs -9.5 (-115) | 215.5 (O -110 / U -110)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-112) / Detroit Pistons -3.5 (-108) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 210.5 (O -105 / U -115)\nMLB\nToronto Blue Jays at Tampa Bay Rays — 1:11 PM ET | Toronto Blue Jays 1.5 (-188) / Tampa Bay Rays -1.5 (155) | 7.5 (O -115 / U -105)\nMilwaukee Brewers at St. Louis Cardinals — 1:16 PM ET | Milwaukee Brewers -1.5 (158) / St. Louis Cardinals 1.5 (-192) | 8.5 (O -108 / U -112)\nLos Angeles Dodgers at Houston Astros — 2:11 PM ET | Los Angeles Dodgers -1.5 (-126) / Houston Astros 1.5 (105) | 8.5 (O -128 / U 104)\nSan Diego Padres at San Francisco Giants — 3:46 PM ET | San Diego Padres -1.5 (146) / San Francisco Giants 1.5 (-178) | 8.5 (O -110 / U -110)\nChicago White Sox at Los Angeles Angels — 4:08 PM ET | Chicago White Sox -1.5 (152) / Los Angeles Angels 1.5 (-184) | 9.0 (O -105 / U -115)\nNHL\nMontréal Canadiens at Buffalo Sabres — 7:10 PM ET | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (176) | 5.5 (O -128 / U 104)\nAnaheim Ducks at Vegas Golden Knights — 9:50 PM ET | Anaheim Ducks 1.5 (-186) / Vegas Golden Knights -1.5 (145) | 6.5 (O -105 / U -121)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (154) / Philadelphia Flyers 1.5 (-192) | 5.5 (O 120 / U -148)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 07:18:43 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:43 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -570,9 +497,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 05:09:27 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:27 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 07:18:43 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:43 AM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -606,9 +533,63 @@
       }
     }
   ],
-  "lead_section": "nba",
+  "lead_section": "breaking_news",
   "lead_story_type": "live",
   "sections": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "How the 2026 NHL Draft Order looks after the lottery results",
+      "snapshot": "The 2025–26 NHL season has been a reminder of just how quickly things can change across the league.",
+      "key_storylines": [
+        "NHL: How the 2026 NHL Draft Order looks after the lottery results",
+        "NBA: Thunder roll past Lakers in Game 1 of West semifinals",
+        "NFL: 2026 NFL offseason: Veterans on the hot seat after the draft",
+        "MLB: Angels and White Sox meet, winner secures 3-game series",
+        "NHL: Hurricanes take 2-0 series lead into game 3 against the Flyers",
+        "NFL: Vítor Pereira creates harmony out of chaos to have Nottingham Forest dreaming big",
+        "Sports: IPL 2026 playoffs qualification scenarios: Rules, chances and points required for progressing to the last four stage",
+        "NBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 214,
+      "story_type": "live",
+      "content": "NHL: How the 2026 NHL Draft Order looks after the lottery results\nNBA: Thunder roll past Lakers in Game 1 of West semifinals\nNFL: 2026 NFL offseason: Veterans on the hot seat after the draft\nMLB: Angels and White Sox meet, winner secures 3-game series\nNHL: Hurricanes take 2-0 series lead into game 3 against the Flyers\nNFL: Vítor Pereira creates harmony out of chaos to have Nottingham Forest dreaming big\nSports: IPL 2026 playoffs qualification scenarios: Rules, chances and points required for progressing to the last four stage\nNBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'\nYahoo Sports: https://sports.yahoo.com/articles/2026-nhl-draft-order-looks-110700329.html\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/06/vitor-pereira-harmony-out-of-chaos-nottingham-forest-dreaming-big-europa-league\nYahoo Sports: https://sports.yahoo.com/articles/ipl-2026-playoffs-qualification-scenarios-064500932.html",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.2,
+      "lead_eligible": true,
+      "url": "https://sports.yahoo.com/articles/2026-nhl-draft-order-looks-110700329.html",
+      "source_label": "Yahoo Sports",
+      "links": [],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 0,
+        "total_links": 0,
+        "primary_url_policy": "section_url_locked"
+      }
+    },
     {
       "key": "nba",
       "title": "NBA",
@@ -636,8 +617,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Oklahoma City Thunder beat Los Angeles Lakers, 108-90\nDetroit Pistons beat Cleveland Cavaliers, 111-101",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:24 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:41 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -699,8 +680,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Colorado Avalanche beat Minnesota Wild, 5-2",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:24 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:41 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -739,59 +720,6 @@
       }
     },
     {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'",
-      "snapshot": "Asked to pinpoint Tuesday night why he wasn't getting to the free throw line during the playoffs as much as he was during the regular season, Cavaliers star Donovan Mitchell offered up, \"I don't flop, maybe that's why.\"",
-      "key_storylines": [
-        "NBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'",
-        "Sports: Indy Ignite dominated MLV regular season, hopes 'winning breeds winning' shows in playoffs",
-        "MLB: Angels and White Sox meet, winner secures 3-game series",
-        "NHL: Hurricanes take 2-0 series lead into game 3 against the Flyers",
-        "NFL: Has a football team ever finished on zero points without a deduction? | The Knowledge",
-        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
-        "Sports: Explained: Why Royal Challengers Bengaluru's M Chinnaswamy stadium could miss hosting IPL 2026 final",
-        "MLB: Red Sox look to sweep series against the Tigers"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 195,
-      "story_type": "playoff",
-      "content": "NBA: Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'\nSports: Indy Ignite dominated MLV regular season, hopes 'winning breeds winning' shows in playoffs\nMLB: Angels and White Sox meet, winner secures 3-game series\nNHL: Hurricanes take 2-0 series lead into game 3 against the Flyers\nNFL: Has a football team ever finished on zero points without a deduction? | The Knowledge\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nSports: Explained: Why Royal Challengers Bengaluru's M Chinnaswamy stadium could miss hosting IPL 2026 final\nMLB: Red Sox look to sweep series against the Tigers\nYahoo Sports: https://sports.yahoo.com/articles/indy-ignite-dominated-mlv-regular-084531916.html\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/06/has-a-football-team-ever-finished-on-zero-points-without-a-deduction\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nYahoo Sports: https://sports.yahoo.com/articles/explained-why-royal-challengers-bengalurus-030603416.html",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 1.77,
-      "lead_eligible": true,
-      "url": "",
-      "source_label": "ESPN NBA",
-      "links": [],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "",
-        "non_espn_links": 0,
-        "total_links": 0,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
       "key": "mlb",
       "title": "MLB",
       "headline": "MLB schedule opens with Toronto Blue Jays at Tampa Bay Rays",
@@ -821,9 +749,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nMLB schedule opens with Toronto Blue Jays at Tampa Bay Rays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nUPCOMING: Milwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nUPCOMING: Los Angeles Dodgers at Houston Astros — 2:10 PM ET\nUPCOMING: San Diego Padres at San Francisco Giants — 3:45 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nToronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nLos Angeles Dodgers at Houston Astros — 2:10 PM ET\nSan Diego Padres at San Francisco Giants — 3:45 PM ET\nChicago White Sox at Los Angeles Angels — 4:07 PM ET\nAtlanta Braves at Seattle Mariners — 4:10 PM ET\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nNew York Mets at Colorado Rockies — 9:20 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 05:09:20 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:20 AM ET",
+      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nMLB schedule opens with Toronto Blue Jays at Tampa Bay Rays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Toronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nUPCOMING: Milwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nUPCOMING: Los Angeles Dodgers at Houston Astros — 2:10 PM ET\nUPCOMING: San Diego Padres at San Francisco Giants — 3:45 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nToronto Blue Jays at Tampa Bay Rays — 1:10 PM ET\nMilwaukee Brewers at St. Louis Cardinals — 1:15 PM ET\nLos Angeles Dodgers at Houston Astros — 2:10 PM ET\nSan Diego Padres at San Francisco Giants — 3:45 PM ET\nChicago White Sox at Los Angeles Angels — 4:07 PM ET\nAtlanta Braves at Seattle Mariners — 4:10 PM ET\nAthletics at Philadelphia Phillies — 6:40 PM ET\nBaltimore Orioles at Miami Marlins — 6:40 PM ET\nBoston Red Sox at Detroit Tigers — 6:40 PM ET\nMinnesota Twins at Washington Nationals — 6:45 PM ET\nTexas Rangers at New York Yankees — 7:05 PM ET\nCincinnati Reds at Chicago Cubs — 7:40 PM ET\nCleveland Guardians at Kansas City Royals — 7:40 PM ET\nNew York Mets at Colorado Rockies — 9:20 PM ET\nPittsburgh Pirates at Arizona Diamondbacks — 9:40 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 07:18:39 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:39 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -870,9 +798,9 @@
         "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
-        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
-        "PSG denied late penalty as Lorient take point at Parc des Princes",
-        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'"
+        "Declan Rice on facing struggling former club West Ham: 'It's not nice but I've got a job to do'",
+        "Ian Wright hits back at 'celebration police' after reaction to Arsenal reaching Champions League final",
+        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit"
       ],
       "final_scores": [],
       "live_games": [],
@@ -881,11 +809,11 @@
         "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Bayern to debut new home kit with gold fringe vs. PSG in UCL semifinal",
+        "Declan Rice on facing struggling former club West Ham: 'It's not nice but I've got a job to do'",
+        "Ian Wright hits back at 'celebration police' after reaction to Arsenal reaching Champions League final",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
         "PSG denied late penalty as Lorient take point at Parc des Princes",
-        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
-        "Transfer rumors, news: Inter Miami aim to pair Casemiro with Messi",
-        "Transfer rumors, news: Man United, Atlético eye Atalanta star"
+        "PSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'"
       ],
       "why_it_matters": [
         "The soccer card now ranks real soccer news and high-value matches above generic fixture dumps.",
@@ -896,9 +824,9 @@
       ],
       "priority_score": 104,
       "story_type": "live",
-      "content": "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:26 AM ET",
+      "content": "Klinsmann backs CL finalists Arsenal to 'cruise' to Premier League glory\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nDeclan Rice on facing struggling former club West Ham: 'It's not nice but I've got a job to do'\nIan Wright hits back at 'celebration police' after reaction to Arsenal reaching Champions League final\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:42 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/video/clip?id=48688321",
       "links": [
@@ -937,80 +865,6 @@
       }
     },
     {
-      "key": "ncaafb",
-      "title": "College Football",
-      "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-      "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
-      "key_storylines": [
-        "NCAAFB REPORT | 2026-05-05",
-        "HEADLINE",
-        "College football schedule loaded with 10 upcoming matchups across the board.",
-        "SNAPSHOT",
-        "final games logged",
-        "games currently live",
-        "upcoming matchups"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [
-        "North Carolina Tar Heels at TCU Horned Frogs - TBD.",
-        "Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.",
-        "NC State Wolfpack at Virginia Cavaliers - TBD.",
-        "Memphis Tigers at UNLV Rebels - TBD.",
-        "San José State Spartans at USC Trojans - TBD.",
-        "New Mexico State Aggies at Florida State Seminoles - TBD.",
-        "Jacksonville State Gamecocks at North Dakota State Bison - TBD.",
-        "Sacramento State Hornets at Eastern Michigan Eagles - TBD.",
-        "Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.",
-        "Bethune-Cookman Wildcats at UCF Knights - TBD."
-      ],
-      "advanced": [],
-      "why_it_matters": [
-        "Clear scoreboard separation improves usability for journalists",
-        "Prevents stale data from appearing in active reporting windows",
-        "Supports both recap and preview workflows cleanly"
-      ],
-      "story_angles": [
-        "Preview-driven coverage leads current reporting"
-      ],
-      "priority_score": 84,
-      "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-05\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-05 11:22:03 PM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-05 11:22:03 PM ET",
-      "source_file": "",
-      "url": "https://www.espn.com/college-football/scoreboard",
-      "links": [
-        {
-          "label": "NCAA Football News",
-          "url": "https://www.ncaa.com/news/football/fbs",
-          "headline": ""
-        },
-        {
-          "label": "Yahoo Sports NCAAF",
-          "url": "https://sports.yahoo.com/college-football/",
-          "headline": ""
-        },
-        {
-          "label": "CBS Sports College Football",
-          "url": "https://www.cbssports.com/college-football/",
-          "headline": ""
-        }
-      ],
-      "freshness_status": "fresh",
-      "source_age_hours": 5.79,
-      "lead_eligible": true,
-      "source_label": "Espn",
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "espn.com",
-        "non_espn_links": 3,
-        "total_links": 3,
-        "primary_url_policy": "game_context_locked"
-      }
-    },
-    {
       "key": "nfl",
       "title": "NFL",
       "headline": "Quarterback depth charts shaping offseason outlook",
@@ -1022,7 +876,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":09:25 AM ET"
+        ":18:41 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1037,9 +891,9 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 05:09:25 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:25 AM ET",
+      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 07:18:41 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:41 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
@@ -1098,9 +952,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nPhiladelphia 76ers at New York Knicks — 7:10 PM ET | Philadelphia 76ers 7.5 (-118) / New York Knicks -7.5 (-104) | 215.5 (O -110 / U -110)\nMinnesota Timberwolves at San Antonio Spurs — 9:40 PM ET | Minnesota Timberwolves 9.5 (-105) / San Antonio Spurs -9.5 (-115) | 215.5 (O -110 / U -110)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-112) / Detroit Pistons -3.5 (-108) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 210.5 (O -105 / U -115)\nMLB\nToronto Blue Jays at Tampa Bay Rays — 1:11 PM ET | Toronto Blue Jays 1.5 (-196) / Tampa Bay Rays -1.5 (162) | 7.5 (O -115 / U -105)\nMilwaukee Brewers at St. Louis Cardinals — 1:16 PM ET | Milwaukee Brewers -1.5 (150) / St. Louis Cardinals 1.5 (-182) | 8.5 (O 100 / U -122)\nLos Angeles Dodgers at Houston Astros — 2:11 PM ET | Los Angeles Dodgers -1.5 (-128) / Houston Astros 1.5 (106) | 8.5 (O -128 / U 104)\nSan Diego Padres at San Francisco Giants — 3:46 PM ET | San Diego Padres -1.5 (146) / San Francisco Giants 1.5 (-178) | 8.5 (O -110 / U -110)\nChicago White Sox at Los Angeles Angels — 4:08 PM ET | Chicago White Sox -1.5 (152) / Los Angeles Angels 1.5 (-184) | 9.0 (O -105 / U -115)\nNHL\nMontréal Canadiens at Buffalo Sabres — 7:10 PM ET | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (176) | 5.5 (O -128 / U 104)\nAnaheim Ducks at Vegas Golden Knights — 9:50 PM ET | Anaheim Ducks 1.5 (-186) / Vegas Golden Knights -1.5 (145) | 6.5 (O -105 / U -121)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (164) / Philadelphia Flyers 1.5 (-205) | 5.5 (O 118 / U -144)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 05:09:26 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:26 AM ET",
+      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nPhiladelphia 76ers at New York Knicks — 7:10 PM ET | Philadelphia 76ers 7.5 (-118) / New York Knicks -7.5 (-104) | 215.5 (O -110 / U -110)\nMinnesota Timberwolves at San Antonio Spurs — 9:40 PM ET | Minnesota Timberwolves 9.5 (-105) / San Antonio Spurs -9.5 (-115) | 215.5 (O -110 / U -110)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-112) / Detroit Pistons -3.5 (-108) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 210.5 (O -105 / U -115)\nMLB\nToronto Blue Jays at Tampa Bay Rays — 1:11 PM ET | Toronto Blue Jays 1.5 (-188) / Tampa Bay Rays -1.5 (155) | 7.5 (O -115 / U -105)\nMilwaukee Brewers at St. Louis Cardinals — 1:16 PM ET | Milwaukee Brewers -1.5 (158) / St. Louis Cardinals 1.5 (-192) | 8.5 (O -108 / U -112)\nLos Angeles Dodgers at Houston Astros — 2:11 PM ET | Los Angeles Dodgers -1.5 (-126) / Houston Astros 1.5 (105) | 8.5 (O -128 / U 104)\nSan Diego Padres at San Francisco Giants — 3:46 PM ET | San Diego Padres -1.5 (146) / San Francisco Giants 1.5 (-178) | 8.5 (O -110 / U -110)\nChicago White Sox at Los Angeles Angels — 4:08 PM ET | Chicago White Sox -1.5 (152) / Los Angeles Angels 1.5 (-184) | 9.0 (O -105 / U -115)\nNHL\nMontréal Canadiens at Buffalo Sabres — 7:10 PM ET | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (176) | 5.5 (O -128 / U 104)\nAnaheim Ducks at Vegas Golden Knights — 9:50 PM ET | Anaheim Ducks 1.5 (-186) / Vegas Golden Knights -1.5 (145) | 6.5 (O -105 / U -121)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (154) / Philadelphia Flyers 1.5 (-192) | 5.5 (O 120 / U -148)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 07:18:43 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:43 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -1164,9 +1018,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 05:09:27 AM ET",
-      "updated_at": "2026-05-06 05:09:31 AM ET",
-      "source_updated_at": "2026-05-06 05:09:27 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 07:18:43 AM ET",
+      "updated_at": "2026-05-06 07:18:48 AM ET",
+      "source_updated_at": "2026-05-06 07:18:43 AM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -1202,6 +1056,17 @@
   ],
   "homepage_cards": [
     {
+      "league": "Breaking Sports News",
+      "key": "breaking_news",
+      "headline": "How the 2026 NHL Draft Order looks after the lottery results",
+      "url": "https://sports.yahoo.com/articles/2026-nhl-draft-order-looks-110700329.html",
+      "snapshot": "The 2025–26 NHL season has been a reminder of just how quickly things can change across the league.",
+      "story_type": "live",
+      "priority_score": 214,
+      "freshness_status": "fresh",
+      "source": "breaking_news_engine"
+    },
+    {
       "league": "NBA",
       "key": "nba",
       "headline": "Oklahoma City Thunder beat Los Angeles Lakers, 108-90",
@@ -1224,17 +1089,6 @@
       "source": ""
     },
     {
-      "league": "Breaking Sports News",
-      "key": "breaking_news",
-      "headline": "Cavs' Mitchell on lack of foul calls: 'I don't flop, maybe that's why'",
-      "url": "",
-      "snapshot": "Asked to pinpoint Tuesday night why he wasn't getting to the free throw line during the playoffs as much as he was during the regular season, Cavaliers star Donovan Mitchell...",
-      "story_type": "playoff",
-      "priority_score": 195,
-      "freshness_status": "fresh",
-      "source": "breaking_news_engine"
-    },
-    {
       "league": "MLB",
       "key": "mlb",
       "headline": "MLB schedule opens with Toronto Blue Jays at Tampa Bay Rays",
@@ -1253,17 +1107,6 @@
       "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
       "story_type": "live",
       "priority_score": 104,
-      "freshness_status": "fresh",
-      "source": ""
-    },
-    {
-      "league": "College Football",
-      "key": "ncaafb",
-      "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-      "url": "https://www.espn.com/college-football/scoreboard",
-      "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
-      "story_type": "live",
-      "priority_score": 84,
       "freshness_status": "fresh",
       "source": ""
     },
@@ -1341,15 +1184,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-06 05:09:27 AM ET",
-  "generated_at": "2026-05-06 05:09:27 AM ET",
-  "published_at": "2026-05-06 05:09:27 AM ET",
-  "heartbeat": "2026-05-06T05:09:27-04:00",
-  "cache_buster": "2026-05-06T05:09:27-04:00",
+  "updated_at": "2026-05-06 07:18:44 AM ET",
+  "generated_at": "2026-05-06 07:18:44 AM ET",
+  "published_at": "2026-05-06 07:18:44 AM ET",
+  "heartbeat": "2026-05-06T07:18:44-04:00",
+  "cache_buster": "2026-05-06T07:18:44-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-06 05:09:27 AM ET",
-    "last_successful_build_iso": "2026-05-06T05:09:27-04:00",
+    "last_successful_build": "2026-05-06 07:18:44 AM ET",
+    "last_successful_build_iso": "2026-05-06T07:18:44-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -1357,7 +1200,7 @@
     "max_section_age_hours": 6,
     "max_breaking_news_age_hours": 6,
     "max_lead_breaking_news_age_hours": 3,
-    "fresh_sections": 9,
+    "fresh_sections": 8,
     "league_inputs": [
       {
         "league": "MLB",
@@ -1390,8 +1233,8 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 5.79,
-        "status": "fresh",
+        "age_hours": 7.95,
+        "status": "stale_or_missing",
         "max_age_hours": 6
       },
       {
@@ -1416,8 +1259,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-06 05:09:27 AM ET",
-    "heartbeat": "2026-05-06T05:09:27-04:00"
+    "last_checked": "2026-05-06 07:18:44 AM ET",
+    "heartbeat": "2026-05-06T07:18:44-04:00"
   },
   "editorial_brain": {
     "status": "active",
