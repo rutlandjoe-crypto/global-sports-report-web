@@ -30,6 +30,7 @@ const GSR_NETWORK = [
   ["AI", "https://globalaireport.news"],
   ["Politics", "https://globalpoliticsreport.com"],
   ["Entertainment", "https://globalentertainmentreport.com"],
+  ["Betting", "https://globalbettingreport.com"],
 ];
 
 const LEAGUE_LABELS: AnyObj = {
@@ -52,7 +53,7 @@ const LEAGUE_DEFAULT_URLS: AnyObj = {
   nfl: "https://www.espn.com/nfl/",
   ncaafb: "https://www.espn.com/college-football/",
   soccer: "https://www.espn.com/soccer/",
-  betting_odds: "https://www.espn.com/",
+  betting_odds: "https://globalbettingreport.com",
   fantasy: "https://www.espn.com/fantasy/",
 };
 
@@ -69,6 +70,7 @@ const BAD_CONTENT_PHRASES = [
   "not allowed onto the homepage",
   "no verified data point attached yet",
   "no current items available",
+  "undefined",
 ];
 
 function readReport(): AnyObj {
@@ -109,9 +111,9 @@ function unique(items: string[]): string[] {
   const seen = new Set<string>();
 
   return items
-    .map((item) => item.replace(/\s+/g, " ").trim())
+    .map((item) => cleanText(item))
+    .filter((item) => item && !isBadContent(item))
     .filter((item) => {
-      if (!item) return false;
       const key = item.toLowerCase();
       if (seen.has(key)) return false;
       seen.add(key);
@@ -123,27 +125,33 @@ function asList(value: any): string[] {
   if (!value) return [];
 
   if (Array.isArray(value)) {
-    return value.flatMap((item) =>
-      cleanText(item)
-        .split(/\n|•|\|/)
-        .map((x) => x.trim())
-        .filter(Boolean)
+    return unique(
+      value.flatMap((item) =>
+        cleanText(item)
+          .split(/\n|•|\|/)
+          .map((x) => x.trim())
+          .filter(Boolean)
+      )
     );
   }
 
   if (typeof value === "object") {
-    return Object.values(value).flatMap((item) =>
-      cleanText(item)
-        .split(/\n|•|\|/)
-        .map((x) => x.trim())
-        .filter(Boolean)
+    return unique(
+      Object.values(value).flatMap((item) =>
+        cleanText(item)
+          .split(/\n|•|\|/)
+          .map((x) => x.trim())
+          .filter(Boolean)
+      )
     );
   }
 
-  return cleanText(value)
-    .split(/\n|•|\|/)
-    .map((x) => x.trim())
-    .filter(Boolean);
+  return unique(
+    cleanText(value)
+      .split(/\n|•|\|/)
+      .map((x) => x.trim())
+      .filter(Boolean)
+  );
 }
 
 function isValidUrl(value: any): boolean {
@@ -175,8 +183,10 @@ function extractBestUrl(section: AnyObj, key: string): string {
   if (Array.isArray(section.links)) {
     for (const link of section.links) {
       if (typeof link === "string" && isValidUrl(link)) return cleanText(link);
+
       if (link && typeof link === "object") {
         const candidates = [link.url, link.href, link.link, link.source_url];
+
         for (const candidate of candidates) {
           if (isValidUrl(candidate)) return cleanText(candidate);
         }
@@ -231,7 +241,7 @@ function extractSectionLines(content: string, heading: string): string[] {
     output.push(line.replace(/^- /, "").trim());
   }
 
-  return output.filter(Boolean);
+  return unique(output);
 }
 
 function extractHeadline(section: AnyObj): string {
@@ -299,9 +309,9 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     updated_at: section.updated_at,
     source_file: section.source_file,
     url: extractBestUrl(section, key),
-    key_data: unique(keyData).filter((item) => !isBadContent(item)).slice(0, 5),
-    why_it_matters: unique(why).filter((item) => !isBadContent(item)).slice(0, 5),
-    what_to_watch: unique(watch).filter((item) => !isBadContent(item)).slice(0, 6),
+    key_data: unique(keyData).slice(0, 5),
+    why_it_matters: unique(why).slice(0, 5),
+    what_to_watch: unique(watch).slice(0, 6),
     story_type: section.story_type || "analysis",
     priority_score: section.priority_score || 0,
   };
@@ -339,6 +349,7 @@ function getStories(report: AnyObj): AnyObj[] {
   }
 
   const candidates =
+    report.live_newsroom ||
     report.homepage_cards ||
     report.cards ||
     report.stories ||
@@ -437,9 +448,7 @@ function isPublishableStory(story: AnyObj): boolean {
 }
 
 function cleanSignals(items: string[]): string[] {
-  return unique(items)
-    .filter((item) => !isBadContent(item))
-    .slice(0, 6);
+  return unique(items).slice(0, 6);
 }
 
 function buildBriefingItems(stories: AnyObj[], rawSignals: string[]): string[] {
@@ -466,7 +475,7 @@ function Block({ title, children }: { title: string; children: React.ReactNode }
   return (
     <section className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
       <h2 className="mb-3 text-sm font-black uppercase tracking-wide text-red-700">
-        {title}
+        {cleanText(title)}
       </h2>
       {children}
     </section>
@@ -474,9 +483,7 @@ function Block({ title, children }: { title: string; children: React.ReactNode }
 }
 
 function LineList({ items }: { items: string[] }) {
-  const safe = unique(items)
-    .filter((item) => !isBadContent(item))
-    .slice(0, 8);
+  const safe = unique(items).slice(0, 8);
 
   if (!safe.length) {
     return (
@@ -529,17 +536,9 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
   const summary = storySummary(story);
   const label = storyLabel(story);
 
-  const keyData = asList(story.key_data || story.keyData || story.data || story.metrics).filter(
-    (item) => !isBadContent(item)
-  );
-
-  const why = asList(story.why_it_matters || story.whyItMatters || story.why).filter(
-    (item) => !isBadContent(item)
-  );
-
-  const watch = asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles).filter(
-    (item) => !isBadContent(item)
-  );
+  const keyData = asList(story.key_data || story.keyData || story.data || story.metrics);
+  const why = asList(story.why_it_matters || story.whyItMatters || story.why);
+  const watch = asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles);
 
   return (
     <article className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
@@ -657,7 +656,11 @@ export default function Page() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-red-300"
+                className={
+                  name === "Sports"
+                    ? "text-red-300 hover:text-white"
+                    : "text-white hover:text-red-300"
+                }
               >
                 {name}
               </a>
