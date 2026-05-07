@@ -2,17 +2,82 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "New York Knicks beat Philadelphia 76ers, 108-102",
-  "snapshot": "Minnesota Timberwolves 14, San Antonio Spurs 19 — Live",
+  "headline": "Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs",
+  "snapshot": "San Antonio tried to avoid an early 0-2 deficit.",
   "key_storylines": [
+    "Breaking Sports News: Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs",
     "NBA: New York Knicks beat Philadelphia 76ers, 108-102",
-    "MLB: Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
+    "MLB: New York Mets 4, Colorado Rockies 0 — Middle 5th",
     "NHL: Anaheim Ducks 0, Vegas Golden Knights 0 — Live",
-    "Breaking Sports News: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
     "Global Soccer: Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
     "NFL: Quarterback depth charts shaping offseason outlook"
   ],
   "live_newsroom": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs",
+      "snapshot": "San Antonio tried to avoid an early 0-2 deficit.",
+      "key_storylines": [
+        "NBA: Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs",
+        "NBA: 2026 NBA playoffs: Conference semifinals takeaways",
+        "NHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener",
+        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
+        "MLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
+        "NFL: Patriots QB Maye backs Vrabel, not worried about distraction",
+        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news",
+        "MLB: Gabe Alvarez: Firing due to 'inappropriate' text to female colleague"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 214,
+      "story_type": "live",
+      "content": "NBA: Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs\nNBA: 2026 NBA playoffs: Conference semifinals takeaways\nNHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nMLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves\nNFL: Patriots QB Maye backs Vrabel, not worried about distraction\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nMLB: Gabe Alvarez: Firing due to 'inappropriate' text to female colleague\nYahoo Sports: https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nMLB.com: https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.2,
+      "lead_eligible": true,
+      "url": "https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html",
+      "source_label": "Yahoo Sports",
+      "links": [
+        {
+          "label": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html",
+          "headline": "Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs"
+        },
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
+          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
+        }
+      ],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 2,
+        "total_links": 2,
+        "primary_url_policy": "section_url_locked"
+      }
+    },
     {
       "key": "nba",
       "title": "NBA",
@@ -20,14 +85,14 @@
       "snapshot": "2 NBA games on the board: 1 live, 1 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "key_storylines": [
         "New York Knicks beat Philadelphia 76ers, 108-102",
-        "Minnesota Timberwolves 14, San Antonio Spurs 19 — Live"
+        "Minnesota Timberwolves 34, San Antonio Spurs 57 — Live"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
         "New York Knicks beat Philadelphia 76ers, 108-102",
-        "Minnesota Timberwolves 14, San Antonio Spurs 19 — Live"
+        "Minnesota Timberwolves 34, San Antonio Spurs 57 — Live"
       ],
       "why_it_matters": [
         "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
@@ -39,9 +104,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "New York Knicks beat Philadelphia 76ers, 108-102\nMinnesota Timberwolves 14, San Antonio Spurs 19 — Live",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:39 PM ET",
+      "content": "New York Knicks beat Philadelphia 76ers, 108-102\nMinnesota Timberwolves 34, San Antonio Spurs 57 — Live",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:03 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -82,29 +147,28 @@
     {
       "key": "mlb",
       "title": "MLB",
-      "headline": "Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
-      "snapshot": "11 today finals, 4 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "headline": "New York Mets 4, Colorado Rockies 0 — Middle 5th",
+      "snapshot": "13 today finals, 2 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "key_storylines": [
-        "LIVE: Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
-        "LIVE: Cleveland Guardians 3, Kansas City Royals 1 — Top 9th",
-        "LIVE: New York Mets 1, Colorado Rockies 0 — End 3rd",
-        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd",
+        "LIVE: New York Mets 4, Colorado Rockies 0 — Middle 5th",
+        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th",
         "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0",
         "FINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2",
-        "FINAL: Los Angeles Dodgers rout Houston Astros, 12-2"
+        "FINAL: Los Angeles Dodgers rout Houston Astros, 12-2",
+        "FINAL: San Diego Padres beat San Francisco Giants, 5-1",
+        "FINAL: Los Angeles Angels rout Chicago White Sox, 8-2"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
-        "LIVE: Cleveland Guardians 3, Kansas City Royals 1 — Top 9th",
-        "LIVE: New York Mets 1, Colorado Rockies 0 — End 3rd",
-        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd",
+        "LIVE: New York Mets 4, Colorado Rockies 0 — Middle 5th",
+        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th",
         "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0",
         "FINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2",
         "FINAL: Los Angeles Dodgers rout Houston Astros, 12-2",
-        "FINAL: San Diego Padres beat San Francisco Giants, 5-1"
+        "FINAL: San Diego Padres beat San Francisco Giants, 5-1",
+        "FINAL: Los Angeles Angels rout Chicago White Sox, 8-2"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -116,16 +180,16 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nCincinnati Reds 6, Chicago Cubs 4 — Bottom 9th\n\nSNAPSHOT\n11 today finals, 4 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th\nLIVE: Cleveland Guardians 3, Kansas City Royals 1 — Top 9th\nLIVE: New York Mets 1, Colorado Rockies 0 — End 3rd\nLIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd\nFINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0\nFINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2\nFINAL: Los Angeles Dodgers rout Houston Astros, 12-2\nFINAL: San Diego Padres beat San Francisco Giants, 5-1\nFINAL: Los Angeles Angels rout Chicago White Sox, 8-2\n\nTODAY FINAL SCORES\nTampa Bay Rays beat Toronto Blue Jays, 3-0\nMilwaukee Brewers beat St. Louis Cardinals, 6-2\nLos Angeles Dodgers rout Houston Astros, 12-2\nSan Diego Padres beat San Francisco Giants, 5-1\nLos Angeles Angels rout Chicago White Sox, 8-2\nSeattle Mariners beat Atlanta Braves, 3-1\nPhiladelphia Phillies beat Athletics, 6-3\nBaltimore Orioles beat Miami Marlins, 7-4\nBoston Red Sox beat Detroit Tigers, 4-0\nWashington Nationals rout Minnesota Twins, 15-2\nTexas Rangers beat New York Yankees, 6-1\n\nTODAY LIVE\nCincinnati Reds 6, Chicago Cubs 4 — Bottom 9th\nCleveland Guardians 3, Kansas City Royals 1 — Top 9th\nNew York Mets 1, Colorado Rockies 0 — End 3rd\nPittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd\n\nTODAY SCHEDULE\n- None\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 10:13:37 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:37 PM ET",
+      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nNew York Mets 4, Colorado Rockies 0 — Middle 5th\n\nSNAPSHOT\n13 today finals, 2 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: New York Mets 4, Colorado Rockies 0 — Middle 5th\nLIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th\nFINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0\nFINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2\nFINAL: Los Angeles Dodgers rout Houston Astros, 12-2\nFINAL: San Diego Padres beat San Francisco Giants, 5-1\nFINAL: Los Angeles Angels rout Chicago White Sox, 8-2\n\nTODAY FINAL SCORES\nTampa Bay Rays beat Toronto Blue Jays, 3-0\nMilwaukee Brewers beat St. Louis Cardinals, 6-2\nLos Angeles Dodgers rout Houston Astros, 12-2\nSan Diego Padres beat San Francisco Giants, 5-1\nLos Angeles Angels rout Chicago White Sox, 8-2\nSeattle Mariners beat Atlanta Braves, 3-1\nPhiladelphia Phillies beat Athletics, 6-3\nBaltimore Orioles beat Miami Marlins, 7-4\nBoston Red Sox beat Detroit Tigers, 4-0\nWashington Nationals rout Minnesota Twins, 15-2\nTexas Rangers beat New York Yankees, 6-1\nChicago Cubs beat Cincinnati Reds, 7-6\nCleveland Guardians beat Kansas City Royals, 3-1\n\nTODAY LIVE\nNew York Mets 4, Colorado Rockies 0 — Middle 5th\nPittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th\n\nTODAY SCHEDULE\n- None\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 10:48:02 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:02 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
         {
           "label": "Espn",
           "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th"
+          "headline": "New York Mets 4, Colorado Rockies 0 — Middle 5th"
         },
         {
           "label": "MLB.com News",
@@ -182,8 +246,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Anaheim Ducks 0, Vegas Golden Knights 0 — Live\nBuffalo Sabres beat Montreal Canadiens, 4-2",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:39 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:03 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -222,66 +286,6 @@
       }
     },
     {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
-      "snapshot": "Fresh sports-news signal from MLB.com.",
-      "key_storylines": [
-        "MLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
-        "NBA: Timberwolves vs. Spurs live score, updates, highlights from 2026 NBA playoffs second-round series",
-        "NBA: 2026 NBA playoffs: Conference semifinals takeaways",
-        "NHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener",
-        "NFL: Patriots QB Maye backs Vrabel, not worried about distraction",
-        "NBA: Timberwolves vs. Spurs odds, prediction, time: 2026 NBA playoff picks, Game 2 best bets from proven model",
-        "NBA: Kristian Winfield: Karl-Anthony Towns’ foul trouble nearly cost the Knicks Game 2",
-        "NBA: Jay Z, Jimmy Fallon lead NBA playoffs celebrity sightings"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 217,
-      "story_type": "breaking",
-      "content": "MLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves\nNBA: Timberwolves vs. Spurs live score, updates, highlights from 2026 NBA playoffs second-round series\nNBA: 2026 NBA playoffs: Conference semifinals takeaways\nNHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener\nNFL: Patriots QB Maye backs Vrabel, not worried about distraction\nNBA: Timberwolves vs. Spurs odds, prediction, time: 2026 NBA playoff picks, Game 2 best bets from proven model\nNBA: Kristian Winfield: Karl-Anthony Towns’ foul trouble nearly cost the Knicks Game 2\nNBA: Jay Z, Jimmy Fallon lead NBA playoffs celebrity sightings\nMLB.com: https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves\nYahoo Sports: https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html\nCBS Sports: https://www.cbssports.com/nba/news/timberwolves-spurs-odds-spread-line-prediction-start-time-2026-nba-playoff-picks-game-2-best-bets/\nYahoo Sports: https://sports.yahoo.com/articles/kristian-winfield-karl-anthony-towns-020200484.html",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 1.48,
-      "lead_eligible": true,
-      "url": "https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves",
-      "source_label": "MLB.com",
-      "links": [
-        {
-          "label": "MLB.com",
-          "url": "https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves",
-          "headline": "Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves"
-        }
-      ],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "mlb.com",
-        "non_espn_links": 1,
-        "total_links": 1,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
       "key": "soccer",
       "title": "Global Soccer",
       "headline": "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
@@ -317,8 +321,8 @@
       "priority_score": 104,
       "story_type": "live",
       "content": "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'\nInter Milan win 21st Serie A title with victory over Parma",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:41 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:04 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48109229/tracking-europe-top-soccer-leagues-2025-26-title-races-champions-league-relegation-premier-league-laliga-bundesliga",
       "links": [
@@ -370,7 +374,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":13:39 PM ET"
+        ":48:03 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -385,17 +389,12 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 10:13:39 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:39 PM ET",
+      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 10:48:03 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:03 PM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/every-california-player-drafted-brooklyn-020022076.html",
-          "headline": "Every California player drafted by the Brooklyn Nets"
-        },
         {
           "label": "NFL.com News",
           "url": "https://www.nfl.com/news",
@@ -420,8 +419,8 @@
       "source_diversity": {
         "status": "active",
         "primary_domain": "nfl.com",
-        "non_espn_links": 4,
-        "total_links": 4,
+        "non_espn_links": 3,
+        "total_links": 3,
         "primary_url_policy": "section_url_locked"
       }
     },
@@ -433,10 +432,10 @@
       "key_storylines": [
         "BETTING ODDS | 2026-05-06",
         "NBA",
-        "Minnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 10.5 (-110) / San Antonio Spurs -10.5 (-120) | 206.5 (O -115 / U -115)",
+        "Minnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 21.5 (-120) / San Antonio Spurs -21.5 (-110) | 205.5 (O -115 / U -115)",
         "Cleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106) | 215.5 (O -110 / U -110)",
         "Los Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 209.5 (O -105 / U -115)",
-        "New York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 214.5 (O -106 / U -114)",
+        "New York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-110) / Philadelphia 76ers 1.5 (-110) | 214.5 (O -106 / U -114)",
         "MLB"
       ],
       "final_scores": [],
@@ -451,9 +450,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nMinnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 10.5 (-110) / San Antonio Spurs -10.5 (-120) | 206.5 (O -115 / U -115)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 209.5 (O -105 / U -115)\nNew York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 214.5 (O -106 / U -114)\nMLB\nCincinnati Reds at Chicago Cubs — 7:41 PM ET | Spread N/A | 10.5 (O 390 / U -650)\nCleveland Guardians at Kansas City Royals — 7:41 PM ET | Cleveland Guardians -2.5 (200) / Kansas City Royals 2.5 (-280) | 4.5 (O 104 / U -138)\nNew York Mets at Colorado Rockies — 9:21 PM ET | New York Mets -1.5 (-130) / Colorado Rockies 1.5 (-102) | 6.5 (O -154 / U 116)\nPittsburgh Pirates at Arizona Diamondbacks — 9:41 PM ET | Pittsburgh Pirates -1.5 (-120) / Arizona Diamondbacks 1.5 (-110) | 6.5 (O -154 / U 116)\nTexas Rangers at New York Yankees — 12:36 PM ET | Texas Rangers 1.5 (-130) / New York Yankees -1.5 (108) | 8.0 (O -110 / U -110)\nNHL\nAnaheim Ducks at Vegas Golden Knights — 9:52 PM ET | Anaheim Ducks 1.5 (-192) / Vegas Golden Knights -1.5 (146) | 5.5 (O 110 / U -144)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (152) / Philadelphia Flyers 1.5 (-188) | 5.5 (O 120 / U -148)\nMontréal Canadiens at Buffalo Sabres — 7:00 PM ET | Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (172) | 5.5 (O -124 / U 102)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 10:13:42 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:42 PM ET",
+      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nMinnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 21.5 (-120) / San Antonio Spurs -21.5 (-110) | 205.5 (O -115 / U -115)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 209.5 (O -105 / U -115)\nNew York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-110) / Philadelphia 76ers 1.5 (-110) | 214.5 (O -106 / U -114)\nMLB\nCincinnati Reds at Chicago Cubs — 7:41 PM ET | Spread N/A | Total N/A\nNew York Mets at Colorado Rockies — 9:21 PM ET | New York Mets -3.5 (-140) / Colorado Rockies 3.5 (106) | 8.5 (O -114 / U -114)\nPittsburgh Pirates at Arizona Diamondbacks — 9:41 PM ET | Pittsburgh Pirates -1.5 (114) / Arizona Diamondbacks 1.5 (-152) | 4.5 (O -128 / U -104)\nTexas Rangers at New York Yankees — 12:36 PM ET | Texas Rangers 1.5 (-182) / New York Yankees -1.5 (150) | 8.0 (O -115 / U -105)\nMinnesota Twins at Washington Nationals — 1:06 PM ET | Minnesota Twins -1.5 (152) / Washington Nationals 1.5 (-184) | 9.0 (O -105 / U -115)\nNHL\nAnaheim Ducks at Vegas Golden Knights — 9:52 PM ET | Anaheim Ducks 1.5 (-245) / Vegas Golden Knights -1.5 (182) | 4.5 (O -130 / U 100)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (152) / Philadelphia Flyers 1.5 (-188) | 5.5 (O 120 / U -148)\nMontréal Canadiens at Buffalo Sabres — 7:00 PM ET | Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (172) | 5.5 (O -124 / U 102)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 10:48:05 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:05 PM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -517,9 +516,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 10:13:43 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:43 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 10:48:05 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:05 PM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -553,9 +552,74 @@
       }
     }
   ],
-  "lead_section": "nba",
+  "lead_section": "breaking_news",
   "lead_story_type": "live",
   "sections": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs",
+      "snapshot": "San Antonio tried to avoid an early 0-2 deficit.",
+      "key_storylines": [
+        "NBA: Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs",
+        "NBA: 2026 NBA playoffs: Conference semifinals takeaways",
+        "NHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener",
+        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
+        "MLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
+        "NFL: Patriots QB Maye backs Vrabel, not worried about distraction",
+        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news",
+        "MLB: Gabe Alvarez: Firing due to 'inappropriate' text to female colleague"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 214,
+      "story_type": "live",
+      "content": "NBA: Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs\nNBA: 2026 NBA playoffs: Conference semifinals takeaways\nNHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nMLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves\nNFL: Patriots QB Maye backs Vrabel, not worried about distraction\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nMLB: Gabe Alvarez: Firing due to 'inappropriate' text to female colleague\nYahoo Sports: https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nMLB.com: https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.2,
+      "lead_eligible": true,
+      "url": "https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html",
+      "source_label": "Yahoo Sports",
+      "links": [
+        {
+          "label": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html",
+          "headline": "Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs"
+        },
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
+          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
+        }
+      ],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 2,
+        "total_links": 2,
+        "primary_url_policy": "section_url_locked"
+      }
+    },
     {
       "key": "nba",
       "title": "NBA",
@@ -563,14 +627,14 @@
       "snapshot": "2 NBA games on the board: 1 live, 1 final, 0 upcoming. Priority favors live games, marquee teams and close-score situations.",
       "key_storylines": [
         "New York Knicks beat Philadelphia 76ers, 108-102",
-        "Minnesota Timberwolves 14, San Antonio Spurs 19 — Live"
+        "Minnesota Timberwolves 34, San Antonio Spurs 57 — Live"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
         "New York Knicks beat Philadelphia 76ers, 108-102",
-        "Minnesota Timberwolves 14, San Antonio Spurs 19 — Live"
+        "Minnesota Timberwolves 34, San Antonio Spurs 57 — Live"
       ],
       "why_it_matters": [
         "The NBA board now ranks live games, major-market teams and close-score situations above generic schedule items.",
@@ -582,9 +646,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "New York Knicks beat Philadelphia 76ers, 108-102\nMinnesota Timberwolves 14, San Antonio Spurs 19 — Live",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:39 PM ET",
+      "content": "New York Knicks beat Philadelphia 76ers, 108-102\nMinnesota Timberwolves 34, San Antonio Spurs 57 — Live",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:03 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -625,29 +689,28 @@
     {
       "key": "mlb",
       "title": "MLB",
-      "headline": "Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
-      "snapshot": "11 today finals, 4 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "headline": "New York Mets 4, Colorado Rockies 0 — Middle 5th",
+      "snapshot": "13 today finals, 2 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "key_storylines": [
-        "LIVE: Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
-        "LIVE: Cleveland Guardians 3, Kansas City Royals 1 — Top 9th",
-        "LIVE: New York Mets 1, Colorado Rockies 0 — End 3rd",
-        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd",
+        "LIVE: New York Mets 4, Colorado Rockies 0 — Middle 5th",
+        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th",
         "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0",
         "FINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2",
-        "FINAL: Los Angeles Dodgers rout Houston Astros, 12-2"
+        "FINAL: Los Angeles Dodgers rout Houston Astros, 12-2",
+        "FINAL: San Diego Padres beat San Francisco Giants, 5-1",
+        "FINAL: Los Angeles Angels rout Chicago White Sox, 8-2"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "LIVE: Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
-        "LIVE: Cleveland Guardians 3, Kansas City Royals 1 — Top 9th",
-        "LIVE: New York Mets 1, Colorado Rockies 0 — End 3rd",
-        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd",
+        "LIVE: New York Mets 4, Colorado Rockies 0 — Middle 5th",
+        "LIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th",
         "FINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0",
         "FINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2",
         "FINAL: Los Angeles Dodgers rout Houston Astros, 12-2",
-        "FINAL: San Diego Padres beat San Francisco Giants, 5-1"
+        "FINAL: San Diego Padres beat San Francisco Giants, 5-1",
+        "FINAL: Los Angeles Angels rout Chicago White Sox, 8-2"
       ],
       "why_it_matters": [
         "MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items."
@@ -659,16 +722,16 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nCincinnati Reds 6, Chicago Cubs 4 — Bottom 9th\n\nSNAPSHOT\n11 today finals, 4 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th\nLIVE: Cleveland Guardians 3, Kansas City Royals 1 — Top 9th\nLIVE: New York Mets 1, Colorado Rockies 0 — End 3rd\nLIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd\nFINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0\nFINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2\nFINAL: Los Angeles Dodgers rout Houston Astros, 12-2\nFINAL: San Diego Padres beat San Francisco Giants, 5-1\nFINAL: Los Angeles Angels rout Chicago White Sox, 8-2\n\nTODAY FINAL SCORES\nTampa Bay Rays beat Toronto Blue Jays, 3-0\nMilwaukee Brewers beat St. Louis Cardinals, 6-2\nLos Angeles Dodgers rout Houston Astros, 12-2\nSan Diego Padres beat San Francisco Giants, 5-1\nLos Angeles Angels rout Chicago White Sox, 8-2\nSeattle Mariners beat Atlanta Braves, 3-1\nPhiladelphia Phillies beat Athletics, 6-3\nBaltimore Orioles beat Miami Marlins, 7-4\nBoston Red Sox beat Detroit Tigers, 4-0\nWashington Nationals rout Minnesota Twins, 15-2\nTexas Rangers beat New York Yankees, 6-1\n\nTODAY LIVE\nCincinnati Reds 6, Chicago Cubs 4 — Bottom 9th\nCleveland Guardians 3, Kansas City Royals 1 — Top 9th\nNew York Mets 1, Colorado Rockies 0 — End 3rd\nPittsburgh Pirates 1, Arizona Diamondbacks 0 — Top 3rd\n\nTODAY SCHEDULE\n- None\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 10:13:37 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:37 PM ET",
+      "content": "MLB REPORT | 2026-05-06\n\nHEADLINE\nNew York Mets 4, Colorado Rockies 0 — Middle 5th\n\nSNAPSHOT\n13 today finals, 2 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nLIVE: New York Mets 4, Colorado Rockies 0 — Middle 5th\nLIVE: Pittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th\nFINAL: Tampa Bay Rays beat Toronto Blue Jays, 3-0\nFINAL: Milwaukee Brewers beat St. Louis Cardinals, 6-2\nFINAL: Los Angeles Dodgers rout Houston Astros, 12-2\nFINAL: San Diego Padres beat San Francisco Giants, 5-1\nFINAL: Los Angeles Angels rout Chicago White Sox, 8-2\n\nTODAY FINAL SCORES\nTampa Bay Rays beat Toronto Blue Jays, 3-0\nMilwaukee Brewers beat St. Louis Cardinals, 6-2\nLos Angeles Dodgers rout Houston Astros, 12-2\nSan Diego Padres beat San Francisco Giants, 5-1\nLos Angeles Angels rout Chicago White Sox, 8-2\nSeattle Mariners beat Atlanta Braves, 3-1\nPhiladelphia Phillies beat Athletics, 6-3\nBaltimore Orioles beat Miami Marlins, 7-4\nBoston Red Sox beat Detroit Tigers, 4-0\nWashington Nationals rout Minnesota Twins, 15-2\nTexas Rangers beat New York Yankees, 6-1\nChicago Cubs beat Cincinnati Reds, 7-6\nCleveland Guardians beat Kansas City Royals, 3-1\n\nTODAY LIVE\nNew York Mets 4, Colorado Rockies 0 — Middle 5th\nPittsburgh Pirates 1, Arizona Diamondbacks 0 — Bottom 5th\n\nTODAY SCHEDULE\n- None\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-06 10:48:02 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:02 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
         {
           "label": "Espn",
           "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th"
+          "headline": "New York Mets 4, Colorado Rockies 0 — Middle 5th"
         },
         {
           "label": "MLB.com News",
@@ -725,8 +788,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Anaheim Ducks 0, Vegas Golden Knights 0 — Live\nBuffalo Sabres beat Montreal Canadiens, 4-2",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:39 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:03 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -765,66 +828,6 @@
       }
     },
     {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
-      "snapshot": "Fresh sports-news signal from MLB.com.",
-      "key_storylines": [
-        "MLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
-        "NBA: Timberwolves vs. Spurs live score, updates, highlights from 2026 NBA playoffs second-round series",
-        "NBA: 2026 NBA playoffs: Conference semifinals takeaways",
-        "NHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener",
-        "NFL: Patriots QB Maye backs Vrabel, not worried about distraction",
-        "NBA: Timberwolves vs. Spurs odds, prediction, time: 2026 NBA playoff picks, Game 2 best bets from proven model",
-        "NBA: Kristian Winfield: Karl-Anthony Towns’ foul trouble nearly cost the Knicks Game 2",
-        "NBA: Jay Z, Jimmy Fallon lead NBA playoffs celebrity sightings"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 217,
-      "story_type": "breaking",
-      "content": "MLB: Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves\nNBA: Timberwolves vs. Spurs live score, updates, highlights from 2026 NBA playoffs second-round series\nNBA: 2026 NBA playoffs: Conference semifinals takeaways\nNHL: Byram, McLeod score to revive Sabres power play in 4-2 win over Montreal in 2nd round playoff opener\nNFL: Patriots QB Maye backs Vrabel, not worried about distraction\nNBA: Timberwolves vs. Spurs odds, prediction, time: 2026 NBA playoff picks, Game 2 best bets from proven model\nNBA: Kristian Winfield: Karl-Anthony Towns’ foul trouble nearly cost the Knicks Game 2\nNBA: Jay Z, Jimmy Fallon lead NBA playoffs celebrity sightings\nMLB.com: https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves\nYahoo Sports: https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html\nCBS Sports: https://www.cbssports.com/nba/news/timberwolves-spurs-odds-spread-line-prediction-start-time-2026-nba-playoff-picks-game-2-best-bets/\nYahoo Sports: https://sports.yahoo.com/articles/kristian-winfield-karl-anthony-towns-020200484.html",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 1.48,
-      "lead_eligible": true,
-      "url": "https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves",
-      "source_label": "MLB.com",
-      "links": [
-        {
-          "label": "MLB.com",
-          "url": "https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves",
-          "headline": "Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves"
-        }
-      ],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "mlb.com",
-        "non_espn_links": 1,
-        "total_links": 1,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
       "key": "soccer",
       "title": "Global Soccer",
       "headline": "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
@@ -860,8 +863,8 @@
       "priority_score": 104,
       "story_type": "live",
       "content": "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nBayern to debut new home kit with gold fringe vs. PSG in UCL semifinal\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nPSG's Luis Enrique on managing rest ahead of Bayern return: 'Like Tetris'\nInter Milan win 21st Serie A title with victory over Parma",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:41 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:04 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48109229/tracking-europe-top-soccer-leagues-2025-26-title-races-champions-league-relegation-premier-league-laliga-bundesliga",
       "links": [
@@ -911,7 +914,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":13:39 PM ET"
+        ":48:03 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -926,17 +929,12 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 10:13:39 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:39 PM ET",
+      "content": "NFL REPORT | 2026-05-06\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-06 10:48:03 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:03 PM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/every-california-player-drafted-brooklyn-020022076.html",
-          "headline": "Every California player drafted by the Brooklyn Nets"
-        },
         {
           "label": "NFL.com News",
           "url": "https://www.nfl.com/news",
@@ -961,8 +959,8 @@
       "source_diversity": {
         "status": "active",
         "primary_domain": "nfl.com",
-        "non_espn_links": 4,
-        "total_links": 4,
+        "non_espn_links": 3,
+        "total_links": 3,
         "primary_url_policy": "section_url_locked"
       }
     },
@@ -974,10 +972,10 @@
       "key_storylines": [
         "BETTING ODDS | 2026-05-06",
         "NBA",
-        "Minnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 10.5 (-110) / San Antonio Spurs -10.5 (-120) | 206.5 (O -115 / U -115)",
+        "Minnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 21.5 (-120) / San Antonio Spurs -21.5 (-110) | 205.5 (O -115 / U -115)",
         "Cleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106) | 215.5 (O -110 / U -110)",
         "Los Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 209.5 (O -105 / U -115)",
-        "New York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 214.5 (O -106 / U -114)",
+        "New York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-110) / Philadelphia 76ers 1.5 (-110) | 214.5 (O -106 / U -114)",
         "MLB"
       ],
       "final_scores": [],
@@ -992,9 +990,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nMinnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 10.5 (-110) / San Antonio Spurs -10.5 (-120) | 206.5 (O -115 / U -115)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 209.5 (O -105 / U -115)\nNew York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 214.5 (O -106 / U -114)\nMLB\nCincinnati Reds at Chicago Cubs — 7:41 PM ET | Spread N/A | 10.5 (O 390 / U -650)\nCleveland Guardians at Kansas City Royals — 7:41 PM ET | Cleveland Guardians -2.5 (200) / Kansas City Royals 2.5 (-280) | 4.5 (O 104 / U -138)\nNew York Mets at Colorado Rockies — 9:21 PM ET | New York Mets -1.5 (-130) / Colorado Rockies 1.5 (-102) | 6.5 (O -154 / U 116)\nPittsburgh Pirates at Arizona Diamondbacks — 9:41 PM ET | Pittsburgh Pirates -1.5 (-120) / Arizona Diamondbacks 1.5 (-110) | 6.5 (O -154 / U 116)\nTexas Rangers at New York Yankees — 12:36 PM ET | Texas Rangers 1.5 (-130) / New York Yankees -1.5 (108) | 8.0 (O -110 / U -110)\nNHL\nAnaheim Ducks at Vegas Golden Knights — 9:52 PM ET | Anaheim Ducks 1.5 (-192) / Vegas Golden Knights -1.5 (146) | 5.5 (O 110 / U -144)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (152) / Philadelphia Flyers 1.5 (-188) | 5.5 (O 120 / U -148)\nMontréal Canadiens at Buffalo Sabres — 7:00 PM ET | Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (172) | 5.5 (O -124 / U 102)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 10:13:42 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:42 PM ET",
+      "content": "BETTING ODDS | 2026-05-06\n\nNBA\nMinnesota Timberwolves at San Antonio Spurs — 9:48 PM ET | Minnesota Timberwolves 21.5 (-120) / San Antonio Spurs -21.5 (-110) | 205.5 (O -115 / U -115)\nCleveland Cavaliers at Detroit Pistons — 7:10 PM ET | Cleveland Cavaliers 3.5 (-114) / Detroit Pistons -3.5 (-106) | 215.5 (O -110 / U -110)\nLos Angeles Lakers at Oklahoma City Thunder — 9:40 PM ET | Los Angeles Lakers 15.5 (-110) / Oklahoma City Thunder -15.5 (-110) | 209.5 (O -105 / U -115)\nNew York Knicks at Philadelphia 76ers — 7:10 PM ET | New York Knicks -1.5 (-110) / Philadelphia 76ers 1.5 (-110) | 214.5 (O -106 / U -114)\nMLB\nCincinnati Reds at Chicago Cubs — 7:41 PM ET | Spread N/A | Total N/A\nNew York Mets at Colorado Rockies — 9:21 PM ET | New York Mets -3.5 (-140) / Colorado Rockies 3.5 (106) | 8.5 (O -114 / U -114)\nPittsburgh Pirates at Arizona Diamondbacks — 9:41 PM ET | Pittsburgh Pirates -1.5 (114) / Arizona Diamondbacks 1.5 (-152) | 4.5 (O -128 / U -104)\nTexas Rangers at New York Yankees — 12:36 PM ET | Texas Rangers 1.5 (-182) / New York Yankees -1.5 (150) | 8.0 (O -115 / U -105)\nMinnesota Twins at Washington Nationals — 1:06 PM ET | Minnesota Twins -1.5 (152) / Washington Nationals 1.5 (-184) | 9.0 (O -105 / U -115)\nNHL\nAnaheim Ducks at Vegas Golden Knights — 9:52 PM ET | Anaheim Ducks 1.5 (-245) / Vegas Golden Knights -1.5 (182) | 4.5 (O -130 / U 100)\nCarolina Hurricanes at Philadelphia Flyers — 8:10 PM ET | Carolina Hurricanes -1.5 (152) / Philadelphia Flyers 1.5 (-188) | 5.5 (O 120 / U -148)\nMontréal Canadiens at Buffalo Sabres — 7:00 PM ET | Montréal Canadiens 1.5 (-215) / Buffalo Sabres -1.5 (172) | 5.5 (O -124 / U 102)\nColorado Avalanche at Minnesota Wild — 9:10 PM ET | Colorado Avalanche -1.5 (200) / Minnesota Wild 1.5 (-245) | 6.5 (O 110 / U -130)\nNFL\nNo NFL betting board available\n\nUPDATED\n2026-05-06 10:48:05 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:05 PM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -1058,9 +1056,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 10:13:43 PM ET",
-      "updated_at": "2026-05-06 10:13:50 PM ET",
-      "source_updated_at": "2026-05-06 10:13:43 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-06\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-06 10:48:05 PM ET",
+      "updated_at": "2026-05-06 10:48:10 PM ET",
+      "source_updated_at": "2026-05-06 10:48:05 PM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -1096,6 +1094,17 @@
   ],
   "homepage_cards": [
     {
+      "league": "Breaking Sports News",
+      "key": "breaking_news",
+      "headline": "Spurs lead Timberwolves in 2nd quarter: Live score, updates, highlights from 2026 NBA playoffs",
+      "url": "https://sports.yahoo.com/articles/timberwolves-vs-spurs-live-score-020000025.html",
+      "snapshot": "San Antonio tried to avoid an early 0-2 deficit.",
+      "story_type": "live",
+      "priority_score": 214,
+      "freshness_status": "fresh",
+      "source": "breaking_news_engine"
+    },
+    {
       "league": "NBA",
       "key": "nba",
       "headline": "New York Knicks beat Philadelphia 76ers, 108-102",
@@ -1109,9 +1118,9 @@
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Cincinnati Reds 6, Chicago Cubs 4 — Bottom 9th",
+      "headline": "New York Mets 4, Colorado Rockies 0 — Middle 5th",
       "url": "https://www.espn.com/mlb/scoreboard",
-      "snapshot": "11 today finals, 4 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.",
+      "snapshot": "13 today finals, 2 live and 0 scheduled for 2026-05-06 ET. Final/live items lead; schedule items stay lower unless news breaks.",
       "story_type": "live",
       "priority_score": 117,
       "freshness_status": "fresh",
@@ -1127,17 +1136,6 @@
       "priority_score": 117,
       "freshness_status": "fresh",
       "source": ""
-    },
-    {
-      "league": "Breaking Sports News",
-      "key": "breaking_news",
-      "headline": "Woo (9 K's), J-Rod (HR) all fired up about pinning 1st series loss on Braves",
-      "url": "https://www.mlb.com/news/bryan-woo-julio-rodriguez-lead-mariners-to-series-win-vs-braves",
-      "snapshot": "Fresh sports-news signal from MLB.com.",
-      "story_type": "breaking",
-      "priority_score": 217,
-      "freshness_status": "fresh",
-      "source": "breaking_news_engine"
     },
     {
       "league": "Global Soccer",
@@ -1224,15 +1222,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-06 10:13:44 PM ET",
-  "generated_at": "2026-05-06 10:13:44 PM ET",
-  "published_at": "2026-05-06 10:13:44 PM ET",
-  "heartbeat": "2026-05-06T22:13:44-04:00",
-  "cache_buster": "2026-05-06T22:13:44-04:00",
+  "updated_at": "2026-05-06 10:48:06 PM ET",
+  "generated_at": "2026-05-06 10:48:06 PM ET",
+  "published_at": "2026-05-06 10:48:06 PM ET",
+  "heartbeat": "2026-05-06T22:48:06-04:00",
+  "cache_buster": "2026-05-06T22:48:06-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-06 10:13:44 PM ET",
-    "last_successful_build_iso": "2026-05-06T22:13:44-04:00",
+    "last_successful_build": "2026-05-06 10:48:06 PM ET",
+    "last_successful_build_iso": "2026-05-06T22:48:06-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -1273,7 +1271,7 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 22.86,
+        "age_hours": 23.44,
         "status": "stale_or_missing",
         "max_age_hours": 6
       },
@@ -1299,8 +1297,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-06 10:13:44 PM ET",
-    "heartbeat": "2026-05-06T22:13:44-04:00"
+    "last_checked": "2026-05-06 10:48:06 PM ET",
+    "heartbeat": "2026-05-06T22:48:06-04:00"
   },
   "editorial_brain": {
     "status": "active",
