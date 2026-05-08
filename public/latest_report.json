@@ -2,81 +2,17 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2",
-  "snapshot": "Oklahoma City looks to stay up before shifting to LA.",
+  "headline": "Oklahoma City Thunder beat Los Angeles Lakers, 125-107",
+  "snapshot": "Detroit Pistons beat Cleveland Cavaliers, 107-97",
   "key_storylines": [
-    "Breaking Sports News: Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2",
     "NBA: Oklahoma City Thunder beat Los Angeles Lakers, 125-107",
     "NHL: Carolina Hurricanes beat Philadelphia Flyers, 4-1",
+    "Breaking Sports News: 2026 NBA playoffs: Schedule, scores, news and highlights",
     "MLB: MLB schedule opens with Houston Astros at Cincinnati Reds",
     "Global Soccer: Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
     "College Football: College Football Watch Tracks Schedule, Recruiting and Conference Signals"
   ],
   "live_newsroom": [
-    {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2",
-      "snapshot": "Oklahoma City looks to stay up before shifting to LA.",
-      "key_storylines": [
-        "NBA: Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2",
-        "NBA: Cavs not worried as James Harden struggles for 2nd straight game",
-        "NHL: Hurricanes beat the Flyers 4-1 in Game 3, take a 3-0 series lead",
-        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
-        "MLB: Which of these surprise contenders have the best playoff chances?",
-        "MLB: Marlins beat the Orioles 4-3 on a 9th-inning throwing error to avoid series sweep",
-        "NBA: Who has played the most NBA playoff games without a title?",
-        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 214,
-      "story_type": "live",
-      "content": "NBA: Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2\nNBA: Cavs not worried as James Harden struggles for 2nd straight game\nNHL: Hurricanes beat the Flyers 4-1 in Game 3, take a 3-0 series lead\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nMLB: Which of these surprise contenders have the best playoff chances?\nMLB: Marlins beat the Orioles 4-3 on a 9th-inning throwing error to avoid series sweep\nNBA: Who has played the most NBA playoff games without a title?\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nYahoo Sports: https://sports.yahoo.com/articles/lakers-vs-thunder-live-score-005847704.html\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nMLB.com: https://www.mlb.com/news/surprising-mlb-playoff-contenders-2026",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 0.29,
-      "lead_eligible": true,
-      "url": "https://sports.yahoo.com/articles/lakers-vs-thunder-live-score-005847704.html",
-      "source_label": "Yahoo Sports",
-      "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lakers-vs-thunder-live-score-005847704.html",
-          "headline": "Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2"
-        },
-        {
-          "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
-          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
-        }
-      ],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "sports.yahoo.com",
-        "non_espn_links": 2,
-        "total_links": 2,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
     {
       "key": "nba",
       "title": "NBA",
@@ -104,8 +40,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Oklahoma City Thunder beat Los Angeles Lakers, 125-107\nDetroit Pistons beat Cleveland Cavaliers, 107-97",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:30 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:21 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -167,8 +103,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Carolina Hurricanes beat Philadelphia Flyers, 4-1",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:30 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:21 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -236,9 +172,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-08\n\nHEADLINE\nMLB schedule opens with Houston Astros at Cincinnati Reds\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-08 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Houston Astros at Cincinnati Reds — 6:10 PM ET\nUPCOMING: Colorado Rockies at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 7:05 PM ET\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 7:07 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nHouston Astros at Cincinnati Reds — 6:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:40 PM ET\nAthletics at Baltimore Orioles — 7:05 PM ET\nLos Angeles Angels at Toronto Blue Jays — 7:07 PM ET\nTampa Bay Rays at Boston Red Sox — 7:10 PM ET\nWashington Nationals at Miami Marlins — 7:10 PM ET\nMinnesota Twins at Cleveland Guardians — 7:15 PM ET\nDetroit Tigers at Kansas City Royals — 7:40 PM ET\nNew York Yankees at Milwaukee Brewers — 7:40 PM ET\nSeattle Mariners at Chicago White Sox — 7:40 PM ET\nChicago Cubs at Texas Rangers — 8:05 PM ET\nNew York Mets at Arizona Diamondbacks — 9:40 PM ET\nSt. Louis Cardinals at San Diego Padres — 9:45 PM ET\nAtlanta Braves at Los Angeles Dodgers — 10:10 PM ET\nPittsburgh Pirates at San Francisco Giants — 10:15 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-08 12:29:29 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:29 AM ET",
+      "content": "MLB REPORT | 2026-05-08\n\nHEADLINE\nMLB schedule opens with Houston Astros at Cincinnati Reds\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-08 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Houston Astros at Cincinnati Reds — 6:10 PM ET\nUPCOMING: Colorado Rockies at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 7:05 PM ET\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 7:07 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nHouston Astros at Cincinnati Reds — 6:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:40 PM ET\nAthletics at Baltimore Orioles — 7:05 PM ET\nLos Angeles Angels at Toronto Blue Jays — 7:07 PM ET\nTampa Bay Rays at Boston Red Sox — 7:10 PM ET\nWashington Nationals at Miami Marlins — 7:10 PM ET\nMinnesota Twins at Cleveland Guardians — 7:15 PM ET\nDetroit Tigers at Kansas City Royals — 7:40 PM ET\nNew York Yankees at Milwaukee Brewers — 7:40 PM ET\nSeattle Mariners at Chicago White Sox — 7:40 PM ET\nChicago Cubs at Texas Rangers — 8:05 PM ET\nNew York Mets at Arizona Diamondbacks — 9:40 PM ET\nSt. Louis Cardinals at San Diego Padres — 9:45 PM ET\nAtlanta Braves at Los Angeles Dodgers — 10:10 PM ET\nPittsburgh Pirates at San Francisco Giants — 10:15 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-08 02:16:20 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:20 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -312,8 +248,8 @@
       "priority_score": 104,
       "story_type": "live",
       "content": "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nHansi Flick close to signing new Barcelona contract - sources\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nLuis Suárez: If the Uruguay national team need me, I will be there\nTransfer rumors, news: Chelsea's Fernández to make shock move to Arsenal?",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:32 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:24 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48109229/tracking-europe-top-soccer-leagues-2025-26-title-races-champions-league-relegation-premier-league-laliga-bundesliga",
       "links": [
@@ -350,16 +286,14 @@
         "total_links": 4,
         "primary_url_policy": "section_url_locked"
       }
-    }
-  ],
-  "editor_signals": [
+    },
     {
       "key": "ncaafb",
       "title": "College Football",
       "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
       "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
       "key_storylines": [
-        "NCAAFB REPORT | 2026-05-07",
+        "NCAAFB REPORT | 2026-05-08",
         "HEADLINE",
         "College football schedule loaded with 10 upcoming matchups across the board.",
         "SNAPSHOT",
@@ -392,9 +326,9 @@
       ],
       "priority_score": 84,
       "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-07\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-07 11:37:22 PM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-07 11:37:22 PM ET",
+      "content": "NCAAFB REPORT | 2026-05-08\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-08 02:03:33 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:03:33 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/college-football/scoreboard",
       "links": [
@@ -415,7 +349,7 @@
         }
       ],
       "freshness_status": "fresh",
-      "source_age_hours": 0.87,
+      "source_age_hours": 0.22,
       "lead_eligible": true,
       "source_label": "Espn",
       "external_headline": "",
@@ -425,6 +359,71 @@
         "non_espn_links": 3,
         "total_links": 3,
         "primary_url_policy": "game_context_locked"
+      }
+    }
+  ],
+  "editor_signals": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "2026 NBA playoffs: Schedule, scores, news and highlights",
+      "snapshot": "The 2026 NBA playoffs are underway. Keep up with every series right here.",
+      "key_storylines": [
+        "NBA: 2026 NBA playoffs: Schedule, scores, news and highlights",
+        "NHL: NHL Playoffs: Chaos on Broad Street as Hurricanes Win Game 3 Over Flyers",
+        "NBA: NBA playoffs winners and losers: Thunder beat Lakers to stay perfect, Cunningham marshals Pistons to 2-0 lead",
+        "NHL: Flyers in 3-0 hole vs. Canes as penalties, power play costly",
+        "MLB: Jordan Walker scores go-ahead run on Masyn Winn's triple in Cardinals' 2-1 win over Padres",
+        "MLB: Which of these surprise contenders have the best playoff chances?",
+        "Sports: High school boys' volleyball: City Section playoff scores",
+        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 195,
+      "story_type": "playoff",
+      "content": "NBA: 2026 NBA playoffs: Schedule, scores, news and highlights\nNHL: NHL Playoffs: Chaos on Broad Street as Hurricanes Win Game 3 Over Flyers\nNBA: NBA playoffs winners and losers: Thunder beat Lakers to stay perfect, Cunningham marshals Pistons to 2-0 lead\nNHL: Flyers in 3-0 hole vs. Canes as penalties, power play costly\nMLB: Jordan Walker scores go-ahead run on Masyn Winn's triple in Cardinals' 2-1 win over Padres\nMLB: Which of these surprise contenders have the best playoff chances?\nSports: High school boys' volleyball: City Section playoff scores\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nYahoo Sports: https://sports.yahoo.com/articles/nhl-playoffs-chaos-broad-street-055058589.html\nCBS Sports: https://www.cbssports.com/nba/news/nba-playoff-winners-and-losers-thunder-lakers-cade-cunningham-pistons-cavaliers/\nMLB.com: https://www.mlb.com/news/surprising-mlb-playoff-contenders-2026\nYahoo Sports: https://sports.yahoo.com/articles/high-school-boys-volleyball-city-053847825.html\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 1.65,
+      "lead_eligible": true,
+      "url": "",
+      "source_label": "ESPN NBA",
+      "links": [
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/nba-playoff-winners-and-losers-thunder-lakers-cade-cunningham-pistons-cavaliers/",
+          "headline": "NBA playoffs winners and losers: Thunder beat Lakers to stay perfect, Cunningham marshals Pistons to 2-0 lead"
+        },
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
+          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
+        }
+      ],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "",
+        "non_espn_links": 2,
+        "total_links": 2,
+        "primary_url_policy": "section_url_locked"
       }
     },
     {
@@ -439,7 +438,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":29:30 AM ET"
+        ":16:22 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -454,9 +453,9 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-08\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-08 12:29:30 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:30 AM ET",
+      "content": "NFL REPORT | 2026-05-08\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-08 02:16:22 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:22 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
@@ -492,16 +491,16 @@
     {
       "key": "betting_odds",
       "title": "Betting Market Watch",
-      "headline": "MLB: St. Louis Cardinals priced as market favorite vs San Diego Padres (-950)",
-      "snapshot": "St. Louis Cardinals priced as market favorite vs San Diego Padres (-950). Implied probability is approximately 90.5% based on the listed moneyline.",
+      "headline": "MLB: Cincinnati Reds priced as market favorite vs Houston Astros (-130)",
+      "snapshot": "Cincinnati Reds priced as market favorite vs Houston Astros (-130). Implied probability is approximately 56.5% based on the listed moneyline.",
       "key_storylines": [
         "BETTING ODDS | 2026-05-08",
         "MLB",
-        "St.",
-        "Louis Cardinals at San Diego Padres | St.",
-        "Louis Cardinals -950 / San Diego Padres +540 | St.",
-        "Louis Cardinals -1.5 (+178) / San Diego Padres 1.5 (-245) | 3.5 (O -114 / U -114)",
-        "Houston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)"
+        "Houston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)",
+        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +184 / Philadelphia Phillies -220 | Colorado Rockies 1.5 (-126) / Philadelphia Phillies -1.5 (+105) | 7.5 (O -112 / U -108)",
+        "Athletics at Baltimore Orioles | Athletics +124 / Baltimore Orioles -146 | Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132) | 9.5 (O +104 / U -128)",
+        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +136 / Toronto Blue Jays -162 | Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138) | 7.5 (O -110 / U -110)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 8.5 (O -115 / U -105)"
       ],
       "final_scores": [],
       "live_games": [],
@@ -515,9 +514,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-08\n\nMLB\nSt. Louis Cardinals at San Diego Padres | St. Louis Cardinals -950 / San Diego Padres +540 | St. Louis Cardinals -1.5 (+178) / San Diego Padres 1.5 (-245) | 3.5 (O -114 / U -114)\nHouston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +184 / Philadelphia Phillies -220 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+112) | 7.5 (O -118 / U -104)\nAthletics at Baltimore Orioles | Athletics +124 / Baltimore Orioles -146 | Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132) | 9.5 (O +104 / U -128)\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +136 / Toronto Blue Jays -162 | Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138) | 7.5 (O -110 / U -110)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 8.5 (O -115 / U -105)\nWashington Nationals at Miami Marlins | Washington Nationals +108 / Miami Marlins -126 | Washington Nationals 1.5 (-205) / Miami Marlins -1.5 (+168) | 8.0 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +118 / Cleveland Guardians -138 | Minnesota Twins 1.5 (-188) / Cleveland Guardians -1.5 (+155) | 7.5 (O -124 / U +102)\n\nNBA\nLos Angeles Lakers at Oklahoma City Thunder | Los Angeles Lakers N/A / Oklahoma City Thunder N/A | Los Angeles Lakers 18.5 (-166) / Oklahoma City Thunder -18.5 (+130) | Total N/A\nNew York Knicks at Philadelphia 76ers | New York Knicks +100 / Philadelphia 76ers -118 | New York Knicks 1.5 (-108) / Philadelphia 76ers -1.5 (-112) | 213.5 (O -114 / U -106)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -194 / Minnesota Timberwolves +162 | San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves 4.5 (-114) | 216.5 (O -110 / U -110)\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +148 / Cleveland Cavaliers -176 | Detroit Pistons 4.5 (-118) / Cleveland Cavaliers -4.5 (-104) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -9.5 (-108) / Los Angeles Lakers 9.5 (-112) | 211.5 (O -110 / U -110)\n\nNHL\nMontréal Canadiens at Buffalo Sabres | Montréal Canadiens +112 / Buffalo Sabres -134 | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176) | 5.5 (O -124 / U +102)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -115 / Anaheim Ducks -105 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-260) | 6.5 (O +114 / U -140)\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -182 / Philadelphia Flyers +150 | Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170) | 5.5 (O +120 / U -148)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+200) / Minnesota Wild 1.5 (-245) | 6.5 (O +110 / U -130)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +230 / Ole Miss Rebels -285 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 52.5 (O -115 / U -105)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -108 / Toronto FC +240 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -186 | Spread N/A | 3.5 (O +100 / U -130)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -150 / U +115)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 2.5 (O -177 / U +135)\nPhiladelphia Union at New England Revolution | Philadelphia Union +160 / New England Revolution +155 | Spread N/A | 2.5 (O -113 / U -114)\nReal Salt Lake at FC Dallas | Real Salt Lake +175 / FC Dallas +130 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +510 / Nashville SC -190 | Spread N/A | 2.5 (O -112 / U -115)\n\nUPDATED\n2026-05-08 12:29:34 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:34 AM ET",
+      "content": "BETTING ODDS | 2026-05-08\n\nMLB\nHouston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +184 / Philadelphia Phillies -220 | Colorado Rockies 1.5 (-126) / Philadelphia Phillies -1.5 (+105) | 7.5 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +124 / Baltimore Orioles -146 | Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132) | 9.5 (O +104 / U -128)\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +136 / Toronto Blue Jays -162 | Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138) | 7.5 (O -110 / U -110)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 8.5 (O -115 / U -105)\nWashington Nationals at Miami Marlins | Washington Nationals +108 / Miami Marlins -126 | Washington Nationals 1.5 (-205) / Miami Marlins -1.5 (+168) | 8.0 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +118 / Cleveland Guardians -138 | Minnesota Twins 1.5 (-188) / Cleveland Guardians -1.5 (+155) | 7.5 (O -124 / U +102)\nSeattle Mariners at Chicago White Sox | Seattle Mariners -142 / Chicago White Sox +120 | Seattle Mariners -1.5 (+126) / Chicago White Sox 1.5 (-152) | 7.5 (O -124 / U +102)\n\nNBA\nNew York Knicks at Philadelphia 76ers | New York Knicks +100 / Philadelphia 76ers -118 | New York Knicks 1.5 (-108) / Philadelphia 76ers -1.5 (-112) | 213.5 (O -114 / U -106)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -196 / Minnesota Timberwolves +164 | San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves 4.5 (-114) | 216.5 (O -110 / U -110)\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +148 / Cleveland Cavaliers -176 | Detroit Pistons 4.5 (-118) / Cleveland Cavaliers -4.5 (-104) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -360 / Los Angeles Lakers +290 | Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers 9.5 (-118) | 211.5 (O -110 / U -110)\n\nNHL\nMontréal Canadiens at Buffalo Sabres | Montréal Canadiens +112 / Buffalo Sabres -134 | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176) | 5.5 (O -124 / U +102)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -115 / Anaheim Ducks -105 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-260) | 6.5 (O +114 / U -140)\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -182 / Philadelphia Flyers +150 | Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170) | 5.5 (O +120 / U -148)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+200) / Minnesota Wild 1.5 (-245) | 6.5 (O +110 / U -130)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +230 / Ole Miss Rebels -285 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 52.5 (O -115 / U -105)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -108 / Toronto FC +240 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -186 | Spread N/A | 3.5 (O +100 / U -130)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -150 / U +115)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 2.5 (O -177 / U +135)\nPhiladelphia Union at New England Revolution | Philadelphia Union +160 / New England Revolution +155 | Spread N/A | 2.5 (O -113 / U -114)\nReal Salt Lake at FC Dallas | Real Salt Lake +175 / FC Dallas +130 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +510 / Nashville SC -190 | Spread N/A | 2.5 (O -112 / U -115)\n\nUPDATED\n2026-05-08 02:16:25 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:25 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -539,7 +538,7 @@
         {
           "label": "Action Network",
           "url": "https://www.actionnetwork.com/odds",
-          "headline": "MLB: St. Louis Cardinals priced as market favorite vs San Diego Padres (-950)"
+          "headline": "MLB: Cincinnati Reds priced as market favorite vs Houston Astros (-130)"
         }
       ],
       "freshness_status": "fresh",
@@ -581,9 +580,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-08\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-08 12:29:34 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:34 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-08\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-08 02:16:25 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:25 AM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -617,73 +616,9 @@
       }
     }
   ],
-  "lead_section": "breaking_news",
+  "lead_section": "nba",
   "lead_story_type": "live",
   "sections": [
-    {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2",
-      "snapshot": "Oklahoma City looks to stay up before shifting to LA.",
-      "key_storylines": [
-        "NBA: Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2",
-        "NBA: Cavs not worried as James Harden struggles for 2nd straight game",
-        "NHL: Hurricanes beat the Flyers 4-1 in Game 3, take a 3-0 series lead",
-        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway",
-        "MLB: Which of these surprise contenders have the best playoff chances?",
-        "MLB: Marlins beat the Orioles 4-3 on a 9th-inning throwing error to avoid series sweep",
-        "NBA: Who has played the most NBA playoff games without a title?",
-        "NHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
-        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 214,
-      "story_type": "live",
-      "content": "NBA: Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2\nNBA: Cavs not worried as James Harden struggles for 2nd straight game\nNHL: Hurricanes beat the Flyers 4-1 in Game 3, take a 3-0 series lead\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nMLB: Which of these surprise contenders have the best playoff chances?\nMLB: Marlins beat the Orioles 4-3 on a 9th-inning throwing error to avoid series sweep\nNBA: Who has played the most NBA playoff games without a title?\nNHL: Stanley Cup playoffs 2026: Bracket, schedule, scores, news\nYahoo Sports: https://sports.yahoo.com/articles/lakers-vs-thunder-live-score-005847704.html\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/\nMLB.com: https://www.mlb.com/news/surprising-mlb-playoff-contenders-2026",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 0.29,
-      "lead_eligible": true,
-      "url": "https://sports.yahoo.com/articles/lakers-vs-thunder-live-score-005847704.html",
-      "source_label": "Yahoo Sports",
-      "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lakers-vs-thunder-live-score-005847704.html",
-          "headline": "Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2"
-        },
-        {
-          "label": "CBS Sports",
-          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
-          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
-        }
-      ],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "sports.yahoo.com",
-        "non_espn_links": 2,
-        "total_links": 2,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
     {
       "key": "nba",
       "title": "NBA",
@@ -711,8 +646,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Oklahoma City Thunder beat Los Angeles Lakers, 125-107\nDetroit Pistons beat Cleveland Cavaliers, 107-97",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:30 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:21 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -774,8 +709,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Carolina Hurricanes beat Philadelphia Flyers, 4-1",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:30 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:21 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -814,6 +749,69 @@
       }
     },
     {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "2026 NBA playoffs: Schedule, scores, news and highlights",
+      "snapshot": "The 2026 NBA playoffs are underway. Keep up with every series right here.",
+      "key_storylines": [
+        "NBA: 2026 NBA playoffs: Schedule, scores, news and highlights",
+        "NHL: NHL Playoffs: Chaos on Broad Street as Hurricanes Win Game 3 Over Flyers",
+        "NBA: NBA playoffs winners and losers: Thunder beat Lakers to stay perfect, Cunningham marshals Pistons to 2-0 lead",
+        "NHL: Flyers in 3-0 hole vs. Canes as penalties, power play costly",
+        "MLB: Jordan Walker scores go-ahead run on Masyn Winn's triple in Cardinals' 2-1 win over Padres",
+        "MLB: Which of these surprise contenders have the best playoff chances?",
+        "Sports: High school boys' volleyball: City Section playoff scores",
+        "NBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 195,
+      "story_type": "playoff",
+      "content": "NBA: 2026 NBA playoffs: Schedule, scores, news and highlights\nNHL: NHL Playoffs: Chaos on Broad Street as Hurricanes Win Game 3 Over Flyers\nNBA: NBA playoffs winners and losers: Thunder beat Lakers to stay perfect, Cunningham marshals Pistons to 2-0 lead\nNHL: Flyers in 3-0 hole vs. Canes as penalties, power play costly\nMLB: Jordan Walker scores go-ahead run on Masyn Winn's triple in Cardinals' 2-1 win over Padres\nMLB: Which of these surprise contenders have the best playoff chances?\nSports: High school boys' volleyball: City Section playoff scores\nNBA: 2026 NBA playoff bracket: Schedule, matchups with second round underway\nYahoo Sports: https://sports.yahoo.com/articles/nhl-playoffs-chaos-broad-street-055058589.html\nCBS Sports: https://www.cbssports.com/nba/news/nba-playoff-winners-and-losers-thunder-lakers-cade-cunningham-pistons-cavaliers/\nMLB.com: https://www.mlb.com/news/surprising-mlb-playoff-contenders-2026\nYahoo Sports: https://sports.yahoo.com/articles/high-school-boys-volleyball-city-053847825.html\nCBS Sports: https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 1.65,
+      "lead_eligible": true,
+      "url": "",
+      "source_label": "ESPN NBA",
+      "links": [
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/nba-playoff-winners-and-losers-thunder-lakers-cade-cunningham-pistons-cavaliers/",
+          "headline": "NBA playoffs winners and losers: Thunder beat Lakers to stay perfect, Cunningham marshals Pistons to 2-0 lead"
+        },
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/",
+          "headline": "2026 NBA playoff bracket: Schedule, matchups with second round underway"
+        }
+      ],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "",
+        "non_espn_links": 2,
+        "total_links": 2,
+        "primary_url_policy": "section_url_locked"
+      }
+    },
+    {
       "key": "mlb",
       "title": "MLB",
       "headline": "MLB schedule opens with Houston Astros at Cincinnati Reds",
@@ -843,9 +841,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-08\n\nHEADLINE\nMLB schedule opens with Houston Astros at Cincinnati Reds\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-08 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Houston Astros at Cincinnati Reds — 6:10 PM ET\nUPCOMING: Colorado Rockies at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 7:05 PM ET\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 7:07 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nHouston Astros at Cincinnati Reds — 6:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:40 PM ET\nAthletics at Baltimore Orioles — 7:05 PM ET\nLos Angeles Angels at Toronto Blue Jays — 7:07 PM ET\nTampa Bay Rays at Boston Red Sox — 7:10 PM ET\nWashington Nationals at Miami Marlins — 7:10 PM ET\nMinnesota Twins at Cleveland Guardians — 7:15 PM ET\nDetroit Tigers at Kansas City Royals — 7:40 PM ET\nNew York Yankees at Milwaukee Brewers — 7:40 PM ET\nSeattle Mariners at Chicago White Sox — 7:40 PM ET\nChicago Cubs at Texas Rangers — 8:05 PM ET\nNew York Mets at Arizona Diamondbacks — 9:40 PM ET\nSt. Louis Cardinals at San Diego Padres — 9:45 PM ET\nAtlanta Braves at Los Angeles Dodgers — 10:10 PM ET\nPittsburgh Pirates at San Francisco Giants — 10:15 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-08 12:29:29 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:29 AM ET",
+      "content": "MLB REPORT | 2026-05-08\n\nHEADLINE\nMLB schedule opens with Houston Astros at Cincinnati Reds\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-08 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Houston Astros at Cincinnati Reds — 6:10 PM ET\nUPCOMING: Colorado Rockies at Philadelphia Phillies — 6:40 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 7:05 PM ET\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 7:07 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nHouston Astros at Cincinnati Reds — 6:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:40 PM ET\nAthletics at Baltimore Orioles — 7:05 PM ET\nLos Angeles Angels at Toronto Blue Jays — 7:07 PM ET\nTampa Bay Rays at Boston Red Sox — 7:10 PM ET\nWashington Nationals at Miami Marlins — 7:10 PM ET\nMinnesota Twins at Cleveland Guardians — 7:15 PM ET\nDetroit Tigers at Kansas City Royals — 7:40 PM ET\nNew York Yankees at Milwaukee Brewers — 7:40 PM ET\nSeattle Mariners at Chicago White Sox — 7:40 PM ET\nChicago Cubs at Texas Rangers — 8:05 PM ET\nNew York Mets at Arizona Diamondbacks — 9:40 PM ET\nSt. Louis Cardinals at San Diego Padres — 9:45 PM ET\nAtlanta Braves at Los Angeles Dodgers — 10:10 PM ET\nPittsburgh Pirates at San Francisco Giants — 10:15 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-08 02:16:20 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:20 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -919,8 +917,8 @@
       "priority_score": 104,
       "story_type": "live",
       "content": "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nHansi Flick close to signing new Barcelona contract - sources\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nLuis Suárez: If the Uruguay national team need me, I will be there\nTransfer rumors, news: Chelsea's Fernández to make shock move to Arsenal?",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:32 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:24 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48109229/tracking-europe-top-soccer-leagues-2025-26-title-races-champions-league-relegation-premier-league-laliga-bundesliga",
       "links": [
@@ -964,7 +962,7 @@
       "headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals",
       "snapshot": "['0 final games logged', '0 games currently live', '10 upcoming matchups']",
       "key_storylines": [
-        "NCAAFB REPORT | 2026-05-07",
+        "NCAAFB REPORT | 2026-05-08",
         "HEADLINE",
         "College football schedule loaded with 10 upcoming matchups across the board.",
         "SNAPSHOT",
@@ -997,9 +995,9 @@
       ],
       "priority_score": 84,
       "story_type": "live",
-      "content": "NCAAFB REPORT | 2026-05-07\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-07 11:37:22 PM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-07 11:37:22 PM ET",
+      "content": "NCAAFB REPORT | 2026-05-08\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-08 02:03:33 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:03:33 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/college-football/scoreboard",
       "links": [
@@ -1020,7 +1018,7 @@
         }
       ],
       "freshness_status": "fresh",
-      "source_age_hours": 0.87,
+      "source_age_hours": 0.22,
       "lead_eligible": true,
       "source_label": "Espn",
       "external_headline": "",
@@ -1044,7 +1042,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":29:30 AM ET"
+        ":16:22 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1059,9 +1057,9 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-08\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-08 12:29:30 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:30 AM ET",
+      "content": "NFL REPORT | 2026-05-08\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-08 02:16:22 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:22 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
@@ -1097,16 +1095,16 @@
     {
       "key": "betting_odds",
       "title": "Betting Market Watch",
-      "headline": "MLB: St. Louis Cardinals priced as market favorite vs San Diego Padres (-950)",
-      "snapshot": "St. Louis Cardinals priced as market favorite vs San Diego Padres (-950). Implied probability is approximately 90.5% based on the listed moneyline.",
+      "headline": "MLB: Cincinnati Reds priced as market favorite vs Houston Astros (-130)",
+      "snapshot": "Cincinnati Reds priced as market favorite vs Houston Astros (-130). Implied probability is approximately 56.5% based on the listed moneyline.",
       "key_storylines": [
         "BETTING ODDS | 2026-05-08",
         "MLB",
-        "St.",
-        "Louis Cardinals at San Diego Padres | St.",
-        "Louis Cardinals -950 / San Diego Padres +540 | St.",
-        "Louis Cardinals -1.5 (+178) / San Diego Padres 1.5 (-245) | 3.5 (O -114 / U -114)",
-        "Houston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)"
+        "Houston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)",
+        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +184 / Philadelphia Phillies -220 | Colorado Rockies 1.5 (-126) / Philadelphia Phillies -1.5 (+105) | 7.5 (O -112 / U -108)",
+        "Athletics at Baltimore Orioles | Athletics +124 / Baltimore Orioles -146 | Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132) | 9.5 (O +104 / U -128)",
+        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +136 / Toronto Blue Jays -162 | Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138) | 7.5 (O -110 / U -110)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 8.5 (O -115 / U -105)"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1120,9 +1118,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-08\n\nMLB\nSt. Louis Cardinals at San Diego Padres | St. Louis Cardinals -950 / San Diego Padres +540 | St. Louis Cardinals -1.5 (+178) / San Diego Padres 1.5 (-245) | 3.5 (O -114 / U -114)\nHouston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +184 / Philadelphia Phillies -220 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+112) | 7.5 (O -118 / U -104)\nAthletics at Baltimore Orioles | Athletics +124 / Baltimore Orioles -146 | Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132) | 9.5 (O +104 / U -128)\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +136 / Toronto Blue Jays -162 | Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138) | 7.5 (O -110 / U -110)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 8.5 (O -115 / U -105)\nWashington Nationals at Miami Marlins | Washington Nationals +108 / Miami Marlins -126 | Washington Nationals 1.5 (-205) / Miami Marlins -1.5 (+168) | 8.0 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +118 / Cleveland Guardians -138 | Minnesota Twins 1.5 (-188) / Cleveland Guardians -1.5 (+155) | 7.5 (O -124 / U +102)\n\nNBA\nLos Angeles Lakers at Oklahoma City Thunder | Los Angeles Lakers N/A / Oklahoma City Thunder N/A | Los Angeles Lakers 18.5 (-166) / Oklahoma City Thunder -18.5 (+130) | Total N/A\nNew York Knicks at Philadelphia 76ers | New York Knicks +100 / Philadelphia 76ers -118 | New York Knicks 1.5 (-108) / Philadelphia 76ers -1.5 (-112) | 213.5 (O -114 / U -106)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -194 / Minnesota Timberwolves +162 | San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves 4.5 (-114) | 216.5 (O -110 / U -110)\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +148 / Cleveland Cavaliers -176 | Detroit Pistons 4.5 (-118) / Cleveland Cavaliers -4.5 (-104) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -9.5 (-108) / Los Angeles Lakers 9.5 (-112) | 211.5 (O -110 / U -110)\n\nNHL\nMontréal Canadiens at Buffalo Sabres | Montréal Canadiens +112 / Buffalo Sabres -134 | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176) | 5.5 (O -124 / U +102)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -115 / Anaheim Ducks -105 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-260) | 6.5 (O +114 / U -140)\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -182 / Philadelphia Flyers +150 | Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170) | 5.5 (O +120 / U -148)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+200) / Minnesota Wild 1.5 (-245) | 6.5 (O +110 / U -130)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +230 / Ole Miss Rebels -285 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 52.5 (O -115 / U -105)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -108 / Toronto FC +240 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -186 | Spread N/A | 3.5 (O +100 / U -130)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -150 / U +115)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 2.5 (O -177 / U +135)\nPhiladelphia Union at New England Revolution | Philadelphia Union +160 / New England Revolution +155 | Spread N/A | 2.5 (O -113 / U -114)\nReal Salt Lake at FC Dallas | Real Salt Lake +175 / FC Dallas +130 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +510 / Nashville SC -190 | Spread N/A | 2.5 (O -112 / U -115)\n\nUPDATED\n2026-05-08 12:29:34 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:34 AM ET",
+      "content": "BETTING ODDS | 2026-05-08\n\nMLB\nHouston Astros at Cincinnati Reds | Houston Astros +110 / Cincinnati Reds -130 | Houston Astros 1.5 (-184) / Cincinnati Reds -1.5 (+152) | 9.5 (O -105 / U -115)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +184 / Philadelphia Phillies -220 | Colorado Rockies 1.5 (-126) / Philadelphia Phillies -1.5 (+105) | 7.5 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +124 / Baltimore Orioles -146 | Athletics 1.5 (-160) / Baltimore Orioles -1.5 (+132) | 9.5 (O +104 / U -128)\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +136 / Toronto Blue Jays -162 | Los Angeles Angels 1.5 (-166) / Toronto Blue Jays -1.5 (+138) | 7.5 (O -110 / U -110)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 8.5 (O -115 / U -105)\nWashington Nationals at Miami Marlins | Washington Nationals +108 / Miami Marlins -126 | Washington Nationals 1.5 (-205) / Miami Marlins -1.5 (+168) | 8.0 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +118 / Cleveland Guardians -138 | Minnesota Twins 1.5 (-188) / Cleveland Guardians -1.5 (+155) | 7.5 (O -124 / U +102)\nSeattle Mariners at Chicago White Sox | Seattle Mariners -142 / Chicago White Sox +120 | Seattle Mariners -1.5 (+126) / Chicago White Sox 1.5 (-152) | 7.5 (O -124 / U +102)\n\nNBA\nNew York Knicks at Philadelphia 76ers | New York Knicks +100 / Philadelphia 76ers -118 | New York Knicks 1.5 (-108) / Philadelphia 76ers -1.5 (-112) | 213.5 (O -114 / U -106)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -196 / Minnesota Timberwolves +164 | San Antonio Spurs -4.5 (-106) / Minnesota Timberwolves 4.5 (-114) | 216.5 (O -110 / U -110)\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +148 / Cleveland Cavaliers -176 | Detroit Pistons 4.5 (-118) / Cleveland Cavaliers -4.5 (-104) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -360 / Los Angeles Lakers +290 | Oklahoma City Thunder -9.5 (-104) / Los Angeles Lakers 9.5 (-118) | 211.5 (O -110 / U -110)\n\nNHL\nMontréal Canadiens at Buffalo Sabres | Montréal Canadiens +112 / Buffalo Sabres -134 | Montréal Canadiens 1.5 (-220) / Buffalo Sabres -1.5 (+176) | 5.5 (O -124 / U +102)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -115 / Anaheim Ducks -105 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-260) | 6.5 (O +114 / U -140)\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -182 / Philadelphia Flyers +150 | Carolina Hurricanes -1.5 (+138) / Philadelphia Flyers 1.5 (-170) | 5.5 (O +120 / U -148)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+200) / Minnesota Wild 1.5 (-245) | 6.5 (O +110 / U -130)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +230 / Ole Miss Rebels -285 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 52.5 (O -115 / U -105)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -108 / Toronto FC +240 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -186 | Spread N/A | 3.5 (O +100 / U -130)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -150 / U +115)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 2.5 (O -177 / U +135)\nPhiladelphia Union at New England Revolution | Philadelphia Union +160 / New England Revolution +155 | Spread N/A | 2.5 (O -113 / U -114)\nReal Salt Lake at FC Dallas | Real Salt Lake +175 / FC Dallas +130 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +510 / Nashville SC -190 | Spread N/A | 2.5 (O -112 / U -115)\n\nUPDATED\n2026-05-08 02:16:25 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:25 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -1144,7 +1142,7 @@
         {
           "label": "Action Network",
           "url": "https://www.actionnetwork.com/odds",
-          "headline": "MLB: St. Louis Cardinals priced as market favorite vs San Diego Padres (-950)"
+          "headline": "MLB: Cincinnati Reds priced as market favorite vs Houston Astros (-130)"
         }
       ],
       "freshness_status": "fresh",
@@ -1186,9 +1184,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-08\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-08 12:29:34 AM ET",
-      "updated_at": "2026-05-08 12:29:42 AM ET",
-      "source_updated_at": "2026-05-08 12:29:34 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-08\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-08 02:16:25 AM ET",
+      "updated_at": "2026-05-08 02:16:32 AM ET",
+      "source_updated_at": "2026-05-08 02:16:25 AM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -1224,17 +1222,6 @@
   ],
   "homepage_cards": [
     {
-      "league": "Breaking Sports News",
-      "key": "breaking_news",
-      "headline": "Thunder leads Lakers in fourth quarter live score, updates, highlights from 2026 NBA playoffs Game 2",
-      "url": "https://sports.yahoo.com/articles/lakers-vs-thunder-live-score-005847704.html",
-      "snapshot": "Oklahoma City looks to stay up before shifting to LA.",
-      "story_type": "live",
-      "priority_score": 214,
-      "freshness_status": "fresh",
-      "source": "breaking_news_engine"
-    },
-    {
       "league": "NBA",
       "key": "nba",
       "headline": "Oklahoma City Thunder beat Los Angeles Lakers, 125-107",
@@ -1255,6 +1242,17 @@
       "priority_score": 117,
       "freshness_status": "fresh",
       "source": ""
+    },
+    {
+      "league": "Breaking Sports News",
+      "key": "breaking_news",
+      "headline": "2026 NBA playoffs: Schedule, scores, news and highlights",
+      "url": "",
+      "snapshot": "The 2026 NBA playoffs are underway. Keep up with every series right here.",
+      "story_type": "playoff",
+      "priority_score": 195,
+      "freshness_status": "fresh",
+      "source": "breaking_news_engine"
     },
     {
       "league": "MLB",
@@ -1303,9 +1301,9 @@
     {
       "league": "Betting Market Watch",
       "key": "betting_odds",
-      "headline": "MLB: St. Louis Cardinals priced as market favorite vs San Diego Padres (-950)",
+      "headline": "MLB: Cincinnati Reds priced as market favorite vs Houston Astros (-130)",
       "url": "https://www.actionnetwork.com/odds",
-      "snapshot": "St. Louis Cardinals priced as market favorite vs San Diego Padres (-950). Implied probability is approximately 90.5% based on the listed moneyline.",
+      "snapshot": "Cincinnati Reds priced as market favorite vs Houston Astros (-130). Implied probability is approximately 56.5% based on the listed moneyline.",
       "story_type": "generic",
       "priority_score": 25,
       "freshness_status": "fresh",
@@ -1363,15 +1361,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-08 12:29:36 AM ET",
-  "generated_at": "2026-05-08 12:29:36 AM ET",
-  "published_at": "2026-05-08 12:29:36 AM ET",
-  "heartbeat": "2026-05-08T00:29:36-04:00",
-  "cache_buster": "2026-05-08T00:29:36-04:00",
+  "updated_at": "2026-05-08 02:16:26 AM ET",
+  "generated_at": "2026-05-08 02:16:26 AM ET",
+  "published_at": "2026-05-08 02:16:26 AM ET",
+  "heartbeat": "2026-05-08T02:16:26-04:00",
+  "cache_buster": "2026-05-08T02:16:26-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-08 12:29:36 AM ET",
-    "last_successful_build_iso": "2026-05-08T00:29:36-04:00",
+    "last_successful_build": "2026-05-08 02:16:26 AM ET",
+    "last_successful_build_iso": "2026-05-08T02:16:26-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -1412,7 +1410,7 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 0.87,
+        "age_hours": 0.22,
         "status": "fresh",
         "max_age_hours": 6
       },
@@ -1438,8 +1436,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-08 12:29:36 AM ET",
-    "heartbeat": "2026-05-08T00:29:36-04:00"
+    "last_checked": "2026-05-08 02:16:26 AM ET",
+    "heartbeat": "2026-05-08T02:16:26-04:00"
   },
   "editorial_brain": {
     "status": "active",
