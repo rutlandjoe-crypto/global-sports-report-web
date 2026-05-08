@@ -40,6 +40,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from editorial_intelligence import normalize_payload
+
 try:
     from zoneinfo import ZoneInfo
 except Exception:
@@ -556,7 +558,7 @@ def build_latest_report_payload(
     if any(p.exists() for p in STATCAST_FILES):
         payload["statcast_graphic"] = f"/{statcast_public_name}"
 
-    return payload
+    return normalize_payload(payload, "sports")
 
 
 # =============================================================================

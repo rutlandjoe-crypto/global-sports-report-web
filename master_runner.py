@@ -38,7 +38,7 @@ SCRIPTS = [
 ]
 
 ALWAYS_RUN = {"global_sports_report.py", "build_distribution.py"}
-CRITICAL_SCRIPTS = {"global_sports_report.py", "build_distribution.py"}
+CRITICAL_SCRIPTS = {"global_sports_report.py"}
 NON_CRITICAL_FAILURES = {
     "get_mlb_advanced_report.py",
     "get_nba_advanced_report.py",
@@ -347,6 +347,7 @@ def main() -> int:
     upstream_report_issue = False
 
     try:
+        log("SPORTS BLOCK START")
         for script_name, timeout_seconds, required_for_pipeline in SCRIPTS:
             script_path = BASE_DIR / script_name
 
@@ -398,6 +399,8 @@ def main() -> int:
                     upstream_report_issue = True
                     if required_for_pipeline:
                         required_failures.append(script_name)
+
+        log("SPORTS BLOCK FINISH")
 
         has_critical_failure = any(name in failed_scripts for name in CRITICAL_SCRIPTS)
 

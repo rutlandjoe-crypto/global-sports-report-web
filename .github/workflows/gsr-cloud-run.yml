@@ -59,7 +59,9 @@ jobs:
 
       - name: Run master runner
         run: |
+          echo "SPORTS BLOCK START"
           python master_runner.py
+          echo "SPORTS BLOCK FINISH"
 
       - name: Stage website files
         run: |
