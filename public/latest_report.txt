@@ -1,215 +1,261 @@
-GLOBAL SPORTS REPORT
-Updated: 2026-05-09 05:08:15 PM ET
-Heartbeat: 2026-05-09T17:08:15-04:00
+GLOBAL SPORTS REPORT | 2026-05-09
 
 HEADLINE
-Pistons vs Cavaliers Game 3 live score, updates, highlights from 2026 NBA playoffs second-round series
+
+MLB schedule opens with Los Angeles Angels at Toronto Blue Jays
+
+KEY STORYLINES
+
+- MLB snapshot: 0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.
+
+- Betting Odds snapshot: Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.
+
+- NBA snapshot: 2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations.
+
+- College Football snapshot: ['0 final games logged', '0 games currently live', '10 upcoming matchups']
+
+- Soccer snapshot: Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.
+
+- NFL snapshot: No active games; offseason coverage signals in focus
 
 SNAPSHOT
-Breaking Sports News data context: Breaking-news layer is active. This card is built around the measurable signal behind the story, giving readers a clearer way to understand what changed and what to watch next.
 
-KEY STORYLINES
-- Breaking Sports News: Pistons vs Cavaliers Game 3 live score, updates, highlights from 2026 NBA playoffs second-round series
-- MLB: Toronto Blue Jays 8, Los Angeles Angels 0 — Bottom 6th
-- NBA: Detroit Pistons 76, Cleveland Cavaliers 79 — Live
-- NHL: Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT
-- College Football: College Football Watch Tracks Schedule, Recruiting and Conference Signals
-- Global Soccer: Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid
-
-LIVE NEWSROOM
-- Breaking Sports News: Pistons vs Cavaliers Game 3 live score, updates, highlights from 2026 NBA playoffs second-round series
-- MLB: Toronto Blue Jays 8, Los Angeles Angels 0 — Bottom 6th
-- NBA: Detroit Pistons 76, Cleveland Cavaliers 79 — Live
-- NHL: Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT
-- College Football: College Football Watch Tracks Schedule, Recruiting and Conference Signals
+The betting board is useful because it turns matchup expectations into measurable pressure points.
 
 EDITOR SIGNALS
-- Global Soccer: Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid
-- NFL: Quarterback depth charts shaping offseason outlook
-- Betting Market Watch: MLB: Athletics priced as market favorite vs Baltimore Orioles (-850)
-- Fantasy Sports: Fantasy basketball usage and production leaders
 
-Breaking Sports News
-Pistons vs Cavaliers Game 3 live score, updates, highlights from 2026 NBA playoffs second-round series
-Breaking Sports News data context: Breaking-news layer is active. This card is built around the measurable signal behind the story, giving readers a clearer way to understand what changed and what to watch next. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.
+- Betting v3: market context is active with implied-probability, favorite/underdog and line-movement framing ready.
 
-KEY STORYLINES
-- NBA: Pistons vs Cavaliers Game 3 live score, updates, highlights from 2026 NBA playoffs second-round series
-- MLB: Bobby Cox, longtime Braves manager and World Series champ, dies
-- MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins
-- MLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84
-- NFL: Broncos' Sean Payton: Bo Nix on track for limited minicamp participation
-- MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84
-- NHL: Hurricanes vs. Flyers odds, prediction, time: 2026 NHL playoff picks, Game 4 best bets from proven model
+- WNBA window: hooks are active; section will appear automatically when wnba_report.txt or wnba_report.json is generated.
 
-ADVANCED / DATA NOTES
-- Breaking-news layer is active.
-- Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.
-- Older context can remain on the board but is demoted below fresher live, final or current schedule signals.
+- Live-board v3: MLB/NBA/NHL/WNBA-style game context is prioritized for night-desk sports coverage.
 
-KEY DATA
-- Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.
-- NBA: Pistons vs Cavaliers Game 3 live score, updates, highlights from 2026 NBA playoffs second-round series
-- MLB: Bobby Cox, longtime Braves manager and World Series champ, dies
-- MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins
-- MLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84
-- MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84
-- NHL: Hurricanes vs. Flyers odds, prediction, time: 2026 NHL playoff picks, Game 4 best bets from proven model
-
-WHY IT MATTERS
-- Breaking Sports News leadership movement matters because it changes accountability, player usage, roster direction and the next set of questions for beat reporters.
-- Breaking Sports News postseason context raises the stakes because one result can change matchups, home-field/home-court leverage, injury risk and urgency around every follow-up decision.
-
-TREND WATCH
-- Pressure trend: postseason leverage increases the value of lineup, fatigue and late-game decision data.
-- Leadership trend: staffing movement can reshape short-term accountability, player usage and the next wave of reporting questions.
-
-WATCH NEXT
-- Track the next game/series adjustment: matchup changes, usage shifts and pressure points should drive follow-up coverage.
-
-STORY ANGLES
-- What changed inside the organization, and who benefits from the new decision-making structure?
-- Which players or assistants are most affected by the leadership change?
-- What is the next credible replacement, promotion or roster-adjustment path?
-- Which matchup pressure point matters most in the next game or standings window?
-- What trend from the previous result is repeatable, and what was schedule/noise driven?
-
-EXECUTIVE TAKEAWAY
-- Executive takeaway: Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.
-
-SOURCE QUALITY
-- Source base: MLB.com and other verified sports-data/news links attached to this card.
+- Editorial Brain v3: cards now include key_data, why_it_matters and what_to_watch fields for cleaner journalist-facing structure.
 
 MLB
-Toronto Blue Jays 8, Los Angeles Angels 0 — Bottom 6th
-0 today finals, 4 live and 11 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.
 
-KEY STORYLINES
-- LIVE: Toronto Blue Jays 8, Los Angeles Angels 0 — Bottom 6th
-- LIVE: Athletics 4, Baltimore Orioles 0 — Bottom 3rd
-- LIVE: Houston Astros 0, Cincinnati Reds 0 — End 4th
-- LIVE: Washington Nationals 4, Miami Marlins 0 — Bottom 3rd
-- UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET
-- UPCOMING: Colorado Rockies at Philadelphia Phillies — 6:05 PM ET
-- UPCOMING: Minnesota Twins at Cleveland Guardians — 6:10 PM ET
+HEADLINE
 
-ADVANCED / DATA NOTES
-- LIVE: Toronto Blue Jays 8, Los Angeles Angels 0 — Bottom 6th
-- LIVE: Athletics 4, Baltimore Orioles 0 — Bottom 3rd
-- LIVE: Houston Astros 0, Cincinnati Reds 0 — End 4th
-- LIVE: Washington Nationals 4, Miami Marlins 0 — Bottom 3rd
-- UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET
-- UPCOMING: Colorado Rockies at Philadelphia Phillies — 6:05 PM ET
-- UPCOMING: Minnesota Twins at Cleveland Guardians — 6:10 PM ET
-- UPCOMING: Chicago Cubs at Texas Rangers — 7:05 PM ET
+MLB schedule opens with Los Angeles Angels at Toronto Blue Jays
+
+SNAPSHOT
+
+0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.
 
 KEY DATA
-- LIVE: Toronto Blue Jays 8, Los Angeles Angels 0 — Bottom 6th
-- LIVE: Athletics 4, Baltimore Orioles 0 — Bottom 3rd
-- LIVE: Houston Astros 0, Cincinnati Reds 0 — End 4th
-- LIVE: Washington Nationals 4, Miami Marlins 0 — Bottom 3rd
-- UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET
-- UPCOMING: Colorado Rockies at Philadelphia Phillies — 6:05 PM ET
-- UPCOMING: Minnesota Twins at Cleveland Guardians — 6:10 PM ET
+
+- MLB pressure point: postseason, standings or race context is present.
+
+- MLB live/results signal: current game flow or final-score context is driving the board.
+
+- MLB availability/roster signal: personnel movement is part of the story.
 
 WHY IT MATTERS
-- MLB context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it.
 
-TREND WATCH
-- MLB trend: read the headline through consequence, not just event — what changed, who benefits and what question comes next.
+- MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.
 
-WATCH NEXT
-- Watch next in MLB: the first verified follow-up that changes stakes, availability, market price or competitive positioning.
+WHAT TO WATCH
+
+- Availability changes can shift competitive outlook, betting context, fantasy value and newsroom priorities.
+
+- Watch for the next update cycle to confirm whether this becomes a lead story, a follow-up angle or a background signal.
+
+MLB REPORT | 2026-05-09
+
+HEADLINE
+MLB schedule opens with Los Angeles Angels at Toronto Blue Jays
+
+SNAPSHOT
+0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.
+
+KEY STORYLINES
+UPCOMING: Los Angeles Angels at Toronto Blue Jays - 3:07 PM ET
+UPCOMING: Athletics at Baltimore Orioles - 4:05 PM ET
+UPCOMING: Houston Astros at Cincinnati Reds - 4:10 PM ET
+UPCOMING: Tampa Bay Rays at Boston Red Sox - 4:10 PM ET
+
+TODAY FINAL SCORES
+- None
+
+TODAY LIVE
+- None
+
+TODAY SCHEDULE
+Los Angeles Angels at Toronto Blue Jays - 3:07 PM ET
+Athletics at Baltimore Orioles - 4:05 PM ET
+Houston Astros at Cincinnati Reds - 4:10 PM ET
+Tampa Bay Rays at Boston Red Sox - 4:10 PM ET
+Washington Nationals at Miami Marlins - 4:10 PM ET
+Colorado Rockies at Philadelphia Phillies - 6:05 PM ET
+Minnesota Twins at Cleveland Guardians - 6:10 PM ET
+Chicago Cubs at Texas Rangers - 7:05 PM ET
+Detroit Tigers at Kansas City Royals - 7:10 PM ET
+New York Yankees at Milwaukee Brewers - 7:10 PM ET
+Seattle Mariners at Chicago White Sox - 7:10 PM ET
+New York Mets at Arizona Diamondbacks - 7:15 PM ET
+St. Louis Cardinals at San Diego Padres - 7:15 PM ET
+Pittsburgh Pirates at San Francisco Giants - 9:05 PM ET
+Atlanta Braves at Los Angeles Dodgers - 9:10 PM ET
+
+WHY IT MATTERS
+MLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.
 
 STORY ANGLES
-- Which starting-pitcher/bullpen usage pattern carries the biggest leverage?
-- Which lineup or injury signal changes the run-scoring expectation?
+Which result changes the main baseball conversation?
+Which pitcher, bullpen or lineup decision deserves deeper review?
+Which matchup has enough injury, standings or Statcast context to move beyond a basic preview?
 
-EXECUTIVE TAKEAWAY
-- Executive takeaway: LIVE: Toronto Blue Jays 8, Los Angeles Angels 0 — Bottom 6th The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.
-
-SOURCE QUALITY
-- Source base: ESPN and other verified sports-data/news links attached to this card.
+UPDATED
+2026-05-09 12:01:35 PM ET
 
 NBA
-Detroit Pistons 76, Cleveland Cavaliers 79 — Live
-2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.
 
-KEY STORYLINES
-- Detroit Pistons 76, Cleveland Cavaliers 79 — Live
-- Oklahoma City Thunder at Los Angeles Lakers
+HEADLINE
 
-ADVANCED / DATA NOTES
-- Detroit Pistons 76, Cleveland Cavaliers 79 — Live
-- Oklahoma City Thunder at Los Angeles Lakers
+Oklahoma City Thunder at Los Angeles Lakers
+
+SNAPSHOT
+
+2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations.
 
 KEY DATA
-- NBA data read: this card keeps the strongest verified item from the feed and suppresses generic filler language.
+
+- NBA live/results signal: current game flow or final-score context is driving the board.
 
 WHY IT MATTERS
-- NBA context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it.
 
-TREND WATCH
-- NBA trend: read the headline through consequence, not just event — what changed, who benefits and what question comes next.
+- Live and final results should shape the next wave of reporting, follow-up questions and matchup framing.
 
-WATCH NEXT
-- Watch next in NBA: the first verified follow-up that changes stakes, availability, market price or competitive positioning.
+- Watch for the next update cycle to confirm whether this becomes a lead story, a follow-up angle or a background signal.
 
-STORY ANGLES
-- Which rotation adjustment changed the possession math?
-- Which efficiency trend — shooting, turnovers, rebounding or free throws — is worth tracking next?
+WHAT TO WATCH
 
-EXECUTIVE TAKEAWAY
-- Executive takeaway: NBA data read: this card keeps the strongest verified item from the feed and suppresses generic filler language. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.
+- Watch whether the next update cycle changes the priority level of this story.
 
-SOURCE QUALITY
-- Source base: ESPN and other verified sports-data/news links attached to this card.
+Oklahoma City Thunder at Los Angeles Lakers
 
 NHL
-Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT
-2 NHL games on board: 0 live, 0 final, 2 upcoming. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.
 
-KEY STORYLINES
-- Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT
-- Colorado Avalanche at Minnesota Wild — 5/9 - 9:00 PM EDT
+HEADLINE
 
-ADVANCED / DATA NOTES
-- Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT
-- Colorado Avalanche at Minnesota Wild — 5/9 - 9:00 PM EDT
+Carolina Hurricanes at Philadelphia Flyers - 5/9 - 6:00 PM EDT
+
+SNAPSHOT
+
+2 NHL games on board: 0 live, 0 final, 2 upcoming.
 
 KEY DATA
-- Colorado Avalanche at Minnesota Wild — 5/9 - 9:00 PM EDT
+
+- NHL live/results signal: current game flow or final-score context is driving the board.
 
 WHY IT MATTERS
-- NHL context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it.
 
-TREND WATCH
-- NHL trend: read the headline through consequence, not just event — what changed, who benefits and what question comes next.
+- Live and final results should shape the next wave of reporting, follow-up questions and matchup framing.
 
-WATCH NEXT
-- Watch next in NHL: the first verified follow-up that changes stakes, availability, market price or competitive positioning.
+- Watch for the next update cycle to confirm whether this becomes a lead story, a follow-up angle or a background signal.
 
-STORY ANGLES
-- Which goalie decision or special-teams trend could decide the next game?
-- Which line-matching or shot-quality signal is driving the result?
+WHAT TO WATCH
 
-EXECUTIVE TAKEAWAY
-- Executive takeaway: Colorado Avalanche at Minnesota Wild — 5/9 - 9:00 PM EDT The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.
+- Watch whether the next update cycle changes the priority level of this story.
 
-SOURCE QUALITY
-- Source base: ESPN and other verified sports-data/news links attached to this card.
+Carolina Hurricanes at Philadelphia Flyers - 5/9 - 6:00 PM EDT
 
-College Football
-College Football Watch Tracks Schedule, Recruiting and Conference Signals
+NFL
+
+HEADLINE
+
+NFL offseason roster signals emerging
+
+SNAPSHOT
+
+No active games; offseason coverage signals in focus
+
+KEY DATA
+
+- NFL board signal: this section remains part of the active sports monitoring window.
+
+WHY IT MATTERS
+
+- NFL context helps keep the sports desk organized across live results, schedule movement and follow-up angles.
+
+- Watch for the next update cycle to confirm whether this becomes a lead story, a follow-up angle or a background signal.
+
+WHAT TO WATCH
+
+- Watch whether the next update cycle changes the priority level of this story.
+
+NFL REPORT | 2026-05-09
+
+HEADLINE
+NFL offseason roster signals emerging
+
+SNAPSHOT
+No active games; offseason coverage signals in focus
+
+UPDATED
+2026-05-09 12:01:38 PM ET
+
+COLLEGE FOOTBALL
+
+HEADLINE
+
+College football schedule loaded with 10 upcoming matchups across the board.
+
+SNAPSHOT
+
 ['0 final games logged', '0 games currently live', '10 upcoming matchups']
 
-KEY STORYLINES
-- College football schedule loaded with 10 upcoming matchups across the board.
-- final games logged
-- games currently live
-- KEY DATA POINTS
+KEY DATA
+
+- Scoreboard is cleanly split between finals, live, and upcoming
+
+- No blending of yesterday and today data
+
+- finals available for recap framing
+
+- games available for preview angles
+
+WHY IT MATTERS
+
+- Clear scoreboard separation improves usability for journalists
+
+- Prevents stale data from appearing in active reporting windows
+
+- Supports both recap and preview workflows cleanly
+
+WHAT TO WATCH
+
+- Watch for the next update cycle to confirm whether this becomes a lead story, a follow-up angle or a background signal.
+
+NCAAFB REPORT | 2026-05-09
+
+HEADLINE
+College football schedule loaded with 10 upcoming matchups across the board.
+
+SNAPSHOT
+- 0 final games logged
+- 0 games currently live
+- 10 upcoming matchups
+
+KEY DATA POINTS
 - Scoreboard is cleanly split between finals, live, and upcoming
 - No blending of yesterday and today data
+- 0 finals available for recap framing
+- 10 games available for preview angles
+
+WHY IT MATTERS
+- Clear scoreboard separation improves usability for journalists
+- Prevents stale data from appearing in active reporting windows
+- Supports both recap and preview workflows cleanly
+
+STORY ANGLES
+- Preview-driven coverage leads current reporting
+
+FINAL SCORES
+- None
+
+LIVE
+- None
 
 UPCOMING
 - North Carolina Tar Heels at TCU Horned Frogs - TBD.
@@ -223,198 +269,135 @@ UPCOMING
 - Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.
 - Bethune-Cookman Wildcats at UCF Knights - TBD.
 
-KEY DATA
-- College football schedule loaded with 10 upcoming matchups across the board.
-- Roster read: quarterback, coaching, injury and depth-chart information carries outsized value because each game week has fewer data points.
+UPDATED
+2026-05-09 12:01:44 PM ET
 
-WHY IT MATTERS
-- College Football leadership movement matters because it changes accountability, player usage, roster direction and the next set of questions for beat reporters.
-- College Football availability changes matter because they can move betting markets, reshape rotations, alter fantasy value and change how opponents prepare.
-- College Football roster-building signals matter because they reveal how teams are planning beyond the next game and where long-term competitive pressure is forming.
+SOCCER
 
-TREND WATCH
-- College Football trend: read the headline through consequence, not just event — what changed, who benefits and what question comes next.
+HEADLINE
 
-WATCH NEXT
-- Next schedule check: North Carolina Tar Heels at TCU Horned Frogs - TBD.
+Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez
 
-STORY ANGLES
-- What changed inside the organization, and who benefits from the new decision-making structure?
-- Which players or assistants are most affected by the leadership change?
-- What is the next credible replacement, promotion or roster-adjustment path?
-- What is the replacement plan if the player remains limited or unavailable?
-- How does the injury change usage, matchup strategy, fantasy value or betting price?
+SNAPSHOT
 
-EXECUTIVE TAKEAWAY
-- Executive takeaway: College football schedule loaded with 10 upcoming matchups across the board. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.
-
-SOURCE QUALITY
-- Source base: ESPN and other verified sports-data/news links attached to this card.
-
-Global Soccer
-Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid
-Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.
-
-KEY STORYLINES
-- Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid
-- Weekend predictions: Liverpool vs. Chelsea, Clásico, more
-- Tottenham vs Leeds in Premier League: TV channel, kick-off time, live stream, referee, injury and team news
-- Transfer rumors, news: Kompany approves Bayern's Gordon pursuit
-- PSG denied late penalty as Lorient take point at Parc des Princes
-- Luis Suárez: If the Uruguay national team need me, I will be there
-
-ADVANCED / DATA NOTES
-- Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid
-- Weekend predictions: Liverpool vs. Chelsea, Clásico, more
-- Tottenham vs Leeds in Premier League: TV channel, kick-off time, live stream, referee, injury and team news
-- Transfer rumors, news: Kompany approves Bayern's Gordon pursuit
-- PSG denied late penalty as Lorient take point at Parc des Princes
-- Luis Suárez: If the Uruguay national team need me, I will be there
-- Leboeuf: Slot's Liverpool future is in doubt
-- Barcelona vs Real Madrid in LaLiga Clásico: TV channel, kick-off time, live stream, referee, injury and team news
+Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.
 
 KEY DATA
-- Tottenham vs Leeds in Premier League: TV channel, kick-off time, live stream, referee, injury and team news
-- Transfer rumors, news: Kompany approves Bayern's Gordon pursuit
-- Barcelona vs Real Madrid in LaLiga Clásico: TV channel, kick-off time, live stream, referee, injury and team news
-- Table/tournament read: the most important context is whether the result changes title pressure, European qualification, relegation risk or transfer leverage.
+
+- Soccer pressure point: postseason, standings or race context is present.
+
+- Soccer live/results signal: current game flow or final-score context is driving the board.
 
 WHY IT MATTERS
-- Global Soccer availability changes matter because they can move betting markets, reshape rotations, alter fantasy value and change how opponents prepare.
-- Global Soccer roster-building signals matter because they reveal how teams are planning beyond the next game and where long-term competitive pressure is forming.
 
-TREND WATCH
-- Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan.
+- That matters because results now carry broader consequences beyond a single game.
 
-WATCH NEXT
-- Monitor the next official availability update before drawing betting, fantasy or tactical conclusions.
+- Live and final results should shape the next wave of reporting, follow-up questions and matchup framing.
 
-STORY ANGLES
-- What is the replacement plan if the player remains limited or unavailable?
-- How does the injury change usage, matchup strategy, fantasy value or betting price?
-- Which table, transfer or tournament implication should reporters monitor?
-- Does the result change pressure on the manager, club direction or qualification path?
+WHAT TO WATCH
 
-EXECUTIVE TAKEAWAY
-- Executive takeaway: Tottenham vs Leeds in Premier League: TV channel, kick-off time, live stream, referee, injury and team news The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.
+- Watch for the next update cycle to confirm whether this becomes a lead story, a follow-up angle or a background signal.
 
-SOURCE QUALITY
-- Source base: ESPN and other verified sports-data/news links attached to this card.
+Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez
 
-NFL
-Quarterback depth charts shaping offseason outlook
-NFL context: NFL offseason roster signals emerging The editorial read focuses on consequence, trend and follow-up angles rather than a surface-level headline repeat.
+BETTING ODDS
 
-KEY STORYLINES
-- NFL offseason roster signals emerging
-- :08:11 PM ET
+HEADLINE
+
+Betting odds feed unavailable.
+
+SNAPSHOT
+
+Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.
 
 KEY DATA
-- :08:11 PM ET
-- Roster read: quarterback, coaching, injury and depth-chart information carries outsized value because each game week has fewer data points.
+
+- Market signal: sportsbook pricing is being used as context, not as a prediction.
 
 WHY IT MATTERS
-- NFL leadership movement matters because it changes accountability, player usage, roster direction and the next set of questions for beat reporters.
-- NFL availability changes matter because they can move betting markets, reshape rotations, alter fantasy value and change how opponents prepare.
 
-TREND WATCH
-- Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan.
+- The betting board is useful because it turns matchup expectations into measurable pressure points.
 
-WATCH NEXT
-- Monitor the next official availability update before drawing betting, fantasy or tactical conclusions.
+- Watch whether late news, lineup movement, injuries or starting-pitching changes alter the market read.
 
-STORY ANGLES
-- What changed inside the organization, and who benefits from the new decision-making structure?
-- Which players or assistants are most affected by the leadership change?
-- What is the next credible replacement, promotion or roster-adjustment path?
-- What is the replacement plan if the player remains limited or unavailable?
-- How does the injury change usage, matchup strategy, fantasy value or betting price?
+WHAT TO WATCH
 
-EXECUTIVE TAKEAWAY
-- Executive takeaway: :08:11 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.
+- Compare the market expectation with the actual game script once live results start moving.
 
-SOURCE QUALITY
-- Source base: NFL.com and other verified sports-data/news links attached to this card.
+GLOBAL SPORTS REPORT - BETTING ODDS WATCH
 
-Betting Market Watch
-MLB: Athletics priced as market favorite vs Baltimore Orioles (-850)
-Athletics priced as market favorite vs Baltimore Orioles (-850). Implied probability is approximately 89.5% based on the listed moneyline. The betting read is not just the number; it is the implied market expectation and how that price frames matchup risk for bettors.
+Generated: 2026-05-09 12:01:42 PM ET
 
-KEY STORYLINES
-- BETTING ODDS | 2026-05-09
-- Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels N/A / Toronto Blue Jays N/A | Los Angeles Angels 8.5 (-168) / Toronto Blue Jays -8.5 (+126) | 10.5 (O -104 / U -128)
-- Athletics at Baltimore Orioles | Athletics -850 / Baltimore Orioles +500 | Athletics -4.5 (+102) / Baltimore Orioles 4.5 (-136) | 10.5 (O -144 / U +108)
-- Houston Astros at Cincinnati Reds | Houston Astros +100 / Cincinnati Reds -128 | Houston Astros 1.5 (-290) / Cincinnati Reds -1.5 (+205) | 4.5 (O -128 / U -104)
-- Washington Nationals at Miami Marlins | Washington Nationals -560 / Miami Marlins +370 | Washington Nationals -3.5 (+102) / Miami Marlins 3.5 (-136) | 10.5 (O +100 / U -132)
-- Colorado Rockies at Philadelphia Phillies | Colorado Rockies +150 / Philadelphia Phillies -178 | Colorado Rockies 1.5 (-137) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)
-- Minnesota Twins at Cleveland Guardians | Minnesota Twins +100 / Cleveland Guardians -118 | Minnesota Twins -1.5 (+155) / Cleveland Guardians 1.5 (-188) | 8.0 (O -105 / U -115)
+HEADLINE
+Betting odds feed unavailable.
+
+SNAPSHOT
+Sportradar odds data was not available during this run. The report file was still generated so the pipeline can continue without breaking.
+
+KEY BETTING STORYLINES
+- Odds feed unavailable during this run.
+- Pipeline completed safely without exposing any API token.
+- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the .env file if odds remain unavailable.
+
+GAMES
+
+LIVE
+No live games with betting context were available during this run.
+
+UPCOMING
+No upcoming games with betting context were available during this run.
+
+FINAL
+No final games with betting context were available during this run.
+
+MARKET BOARD
+No betting markets available during this run.
+
+DATA NOTE
+This report is generated for editorial monitoring and market-context purposes. It is not gambling advice.
+
+NAME
+BETTING
+
+UPDATED AT
+2026-05-09 12:01:42 PM ET
+
+FANTASY
+
+HEADLINE
+
+NFL: Seattle Seahawks at New England Patriots
+
+SNAPSHOT
+
+Fantasy usage and performance tracking.
 
 KEY DATA
-- BETTING ODDS | 2026-05-09
-- Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels N/A / Toronto Blue Jays N/A | Los Angeles Angels 8.5 (-168) / Toronto Blue Jays -8.5 (+126) | 10.5 (O -104 / U -128)
-- Athletics at Baltimore Orioles | Athletics -850 / Baltimore Orioles +500 | Athletics -4.5 (+102) / Baltimore Orioles 4.5 (-136) | 10.5 (O -144 / U +108)
-- Houston Astros at Cincinnati Reds | Houston Astros +100 / Cincinnati Reds -128 | Houston Astros 1.5 (-290) / Cincinnati Reds -1.5 (+205) | 4.5 (O -128 / U -104)
-- Washington Nationals at Miami Marlins | Washington Nationals -560 / Miami Marlins +370 | Washington Nationals -3.5 (+102) / Miami Marlins 3.5 (-136) | 10.5 (O +100 / U -132)
-- Colorado Rockies at Philadelphia Phillies | Colorado Rockies +150 / Philadelphia Phillies -178 | Colorado Rockies 1.5 (-137) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)
-- Minnesota Twins at Cleveland Guardians | Minnesota Twins +100 / Cleveland Guardians -118 | Minnesota Twins -1.5 (+155) / Cleveland Guardians 1.5 (-188) | 8.0 (O -105 / U -115)
+
+- Fantasy board signal: this section remains part of the active sports monitoring window.
 
 WHY IT MATTERS
-- Betting context matters because odds are market signals: moneyline, spread and total movement translate public information into implied probability and risk.
 
-TREND WATCH
-- Market trend: compare opening and current numbers where available; the story is often the movement, not only the listed price.
+- Fantasy context helps keep the sports desk organized across live results, schedule movement and follow-up angles.
 
-WATCH NEXT
-- Watch for line movement after injury reports, starting-lineup news and sharper market liquidity closer to game time.
+- Watch for the next update cycle to confirm whether this becomes a lead story, a follow-up angle or a background signal.
 
-STORY ANGLES
-- What changed from the opening number to the current market?
-- Is the price reacting to injury news, matchup data, public money or sharper late movement?
+WHAT TO WATCH
 
-EXECUTIVE TAKEAWAY
-- Executive takeaway: BETTING ODDS | 2026-05-09 Treat the number as market information first, then connect it to matchup, injury and timing context.
+- Watch whether the next update cycle changes the priority level of this story.
 
-SOURCE QUALITY
-- Source base: Yahoo Sports and other verified sports-data/news links attached to this card.
+FANTASY SPORTS | 2026-05-09
 
-Fantasy Sports
-Fantasy basketball usage and production leaders
-Fantasy context: FANTASY SPORTS | 2026-05-09
+HEADLINE
+Top fantasy performers and usage trends across the board
 
 KEY STORYLINES
-- FANTASY SPORTS | 2026-05-09
-- Top fantasy performers and usage trends across the board
 - Nikola Jokic trending in usage
 - Luka Doncic high-volume scoring stretch
 - Jayson Tatum strong minutes load
 - Shai Gilgeous-Alexander elite production run
-- :08:14 PM ET
 
-KEY DATA
-- FANTASY SPORTS | 2026-05-09
-- Top fantasy performers and usage trends across the board
-- Nikola Jokic trending in usage
-- :08:14 PM ET
-- Fantasy read: role stability, availability and usage trend matter more than name value when translating this card into lineup decisions.
+UPDATED
+2026-05-09 12:39:52 PM ET
 
-WHY IT MATTERS
-- Fantasy context matters because player value is driven by role, usage, health and matchup environment more than name recognition alone.
-
-TREND WATCH
-- Usage trend: snap share, minutes, lineup slot and injury replacement paths matter most for fantasy translation.
-
-WATCH NEXT
-- Watch for usage confirmation: projected role is only useful if it survives the next lineup, injury or depth-chart update.
-
-STORY ANGLES
-- Is the player’s projected role backed by usage, lineup slot, snap share or minutes?
-- Which injury or depth-chart update could change the fantasy read before lock?
-
-EXECUTIVE TAKEAWAY
-- Executive takeaway: FANTASY SPORTS | 2026-05-09 The practical value is whether it changes usage, role confidence or lineup priority.
-
-SOURCE QUALITY
-- Source base: CBS Sports and other verified sports-data/news links attached to this card.
-
-Follow: @GlobalSportsRp
-Substack: https://globalsportsreport.substack.com
+This report is an automated summary intended to support, not replace, human sports journalism.
