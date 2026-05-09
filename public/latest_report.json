@@ -2,42 +2,143 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "Bobby Cox, longtime Braves manager and World Series champ, dies",
-  "snapshot": "Bobby Cox, longtime manager of the Atlanta Braves and a World Series champion in 1995, has died at the age of 84. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+  "headline": "Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
+  "snapshot": "Breaking Sports News data context: Breaking-news layer is active. This card is built around the measurable signal behind the story, giving readers a clearer way to understand what changed and what to watch next.",
   "key_storylines": [
-    "Breaking Sports News: Bobby Cox, longtime Braves manager and World Series champ, dies",
-    "MLB: MLB schedule opens with Los Angeles Angels at Toronto Blue Jays",
-    "NBA: Oklahoma City Thunder at Los Angeles Lakers",
+    "Breaking Sports News: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
+    "MLB: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
+    "NBA: Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
     "NHL: Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT",
     "College Football: College Football Watch Tracks Schedule, Recruiting and Conference Signals",
-    "Global Soccer: Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez"
+    "Global Soccer: Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal"
   ],
   "live_newsroom": [
     {
-      "key": "mlb",
-      "title": "MLB",
-      "headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays",
-      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
+      "snapshot": "Breaking Sports News data context: Breaking-news layer is active. This card is built around the measurable signal behind the story, giving readers a clearer way to understand what changed and what to watch next. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_storylines": [
-        "UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET",
-        "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
-        "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
-        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET"
-      ],
-      "key_data": [
-        "UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET",
-        "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
-        "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
-        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET"
+        "NBA: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
+        "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies",
+        "MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins",
+        "MLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84",
+        "NFL: Harbaugh: Odell Beckham Jr. call could wait until training camp",
+        "MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84",
+        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET",
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News leadership movement matters because it changes accountability, player usage, roster direction and the next set of questions for beat reporters.",
+        "Breaking Sports News postseason context raises the stakes because one result can change matchups, home-field/home-court leverage, injury risk and urgency around every follow-up decision.",
+        "Breaking Sports News availability changes matter because they can move betting markets, reshape rotations, alter fantasy value and change how opponents prepare."
+      ],
+      "story_angles": [
+        "What changed inside the organization, and who benefits from the new decision-making structure?",
+        "Which players or assistants are most affected by the leadership change?",
+        "What is the next credible replacement, promotion or roster-adjustment path?",
+        "Which matchup pressure point matters most in the next game or standings window?",
+        "What trend from the previous result is repeatable, and what was schedule/noise driven?"
+      ],
+      "priority_score": 214,
+      "story_type": "live",
+      "content": "NBA: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series\nMLB: Bobby Cox, longtime Braves manager and World Series champ, dies\nMLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins\nMLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84\nNFL: Harbaugh: Odell Beckham Jr. call could wait until training camp\nMLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84\nSports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’\nNBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model\nYahoo Sports: https://sports.yahoo.com/articles/pistons-vs-cavaliers-game-2-190600903.html\nCBS Sports: https://www.cbssports.com/mlb/news/bobby-cox-dies-braves-manager-hall-of-fame/\nThe Guardian Sport: https://www.theguardian.com/sport/2026/may/09/bobby-cox-dies-84-atlanta-braves\nMLB.com: https://www.mlb.com/news/bobby-cox-dies\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/09/spygate-playoff-row-championship-southampton-middlesbrough-hellberg-eckert\nCBS Sports: https://www.cbssports.com/nba/news/thunder-lakers-odds-spread-prediction-time-2026-nba-playoff-picks-game-3-best-bets/",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.19,
+      "lead_eligible": true,
+      "url": "https://sports.yahoo.com/articles/pistons-vs-cavaliers-game-2-190600903.html",
+      "source_label": "Yahoo Sports",
+      "links": [
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/mlb/news/bobby-cox-dies-braves-manager-hall-of-fame/",
+          "headline": "Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins"
+        },
+        {
+          "label": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/may/09/bobby-cox-dies-84-atlanta-braves",
+          "headline": "Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84"
+        },
+        {
+          "label": "MLB.com",
+          "url": "https://www.mlb.com/news/bobby-cox-dies",
+          "headline": "Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84"
+        }
+      ],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 3,
+        "total_links": 3,
+        "primary_url_policy": "section_url_locked"
+      },
+      "key_data": [
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "NBA: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
+        "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies",
+        "MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins",
+        "MLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84",
+        "MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84",
+        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’"
+      ],
+      "trend_watch": [
+        "Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan.",
+        "Pressure trend: postseason leverage increases the value of lineup, fatigue and late-game decision data.",
+        "Leadership trend: staffing movement can reshape short-term accountability, player usage and the next wave of reporting questions."
+      ],
+      "watch_next": [
+        "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions.",
+        "Track the next game/series adjustment: matchup changes, usage shifts and pressure points should drive follow-up coverage."
+      ],
+      "executive_takeaway": "Executive takeaway: Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "source_quality": "Source base: MLB.com and other verified sports-data/news links attached to this card.",
+      "editorial_depth": {
+        "status": "active",
+        "placeholder_language_guard": "active",
+        "data_context": "active",
+        "journalistic_interpretation": "active",
+        "source_standard": "trusted_sports_sources_only"
+      },
+      "public_headline": "Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series"
+    },
+    {
+      "key": "mlb",
+      "title": "MLB",
+      "headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
+      "snapshot": "0 today finals, 1 live and 14 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "key_storylines": [
+        "LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
         "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
         "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
-        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET"
+        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET",
+        "UPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET"
+      ],
+      "key_data": [
+        "LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
+        "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
+        "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
+        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET",
+        "UPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
+        "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
+        "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
+        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET",
+        "UPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET"
       ],
       "why_it_matters": [
         "MLB context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it."
@@ -52,19 +153,19 @@
       "watch_next": [
         "Watch next in MLB: the first verified follow-up that changes stakes, availability, market price or competitive positioning."
       ],
-      "executive_takeaway": "Executive takeaway: UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 129,
       "story_type": "live",
-      "content": "HEADLINE\nMLB schedule opens with Los Angeles Angels at Toronto Blue Jays\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\nKEY STORYLINES\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\nTODAY FINAL SCORES\nNone\nTODAY LIVE\nNone\nTODAY SCHEDULE\nLos Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\nUPDATED\n2026-05-09 02:37:01 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:01 PM ET",
+      "content": "HEADLINE\nLos Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd\nSNAPSHOT\n0 today finals, 1 live and 14 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\nKEY STORYLINES\nLIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\nUPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET\nTODAY FINAL SCORES\nNone\nTODAY LIVE\nLos Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd\nTODAY SCHEDULE\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\nUPDATED\n2026-05-09 03:44:03 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:03 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
         {
           "label": "Espn",
           "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays"
+          "headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd"
         },
         {
           "label": "MLB.com News",
@@ -102,16 +203,16 @@
         "total_links": 4,
         "primary_url_policy": "game_context_locked"
       },
-      "public_headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays"
+      "public_headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd"
     },
     {
       "key": "nba",
       "title": "NBA",
-      "headline": "Oklahoma City Thunder at Los Angeles Lakers",
-      "snapshot": "2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
+      "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_storylines": [
-        "Oklahoma City Thunder at Los Angeles Lakers",
-        "Detroit Pistons at Cleveland Cavaliers"
+        "Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
+        "Oklahoma City Thunder at Los Angeles Lakers"
       ],
       "key_data": [
         "NBA data read: this card keeps the strongest verified item from the feed and suppresses generic filler language."
@@ -120,8 +221,8 @@
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "Oklahoma City Thunder at Los Angeles Lakers",
-        "Detroit Pistons at Cleveland Cavaliers"
+        "Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
+        "Oklahoma City Thunder at Los Angeles Lakers"
       ],
       "why_it_matters": [
         "NBA context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it."
@@ -139,9 +240,9 @@
       "executive_takeaway": "Executive takeaway: NBA data read: this card keeps the strongest verified item from the feed and suppresses generic filler language. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 129,
       "story_type": "live",
-      "content": "Oklahoma City Thunder at Los Angeles Lakers\nDetroit Pistons at Cleveland Cavaliers",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:02 PM ET",
+      "content": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live\nOklahoma City Thunder at Los Angeles Lakers",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:05 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -163,7 +264,7 @@
         {
           "label": "Espn",
           "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Oklahoma City Thunder at Los Angeles Lakers"
+          "headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live"
         }
       ],
       "freshness_status": "fresh",
@@ -186,7 +287,7 @@
         "total_links": 4,
         "primary_url_policy": "game_context_locked"
       },
-      "public_headline": "Oklahoma City Thunder at Los Angeles Lakers"
+      "public_headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live"
     },
     {
       "key": "nhl",
@@ -224,8 +325,8 @@
       "priority_score": 129,
       "story_type": "live",
       "content": "Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT\nColorado Avalanche at Minnesota Wild — 5/9 - 9:00 PM EDT",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:03 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:05 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -325,9 +426,9 @@
       "executive_takeaway": "Executive takeaway: College football schedule loaded with 10 upcoming matchups across the board. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 116,
       "story_type": "live",
-      "content": "HEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\nSNAPSHOT\n0 final games logged\n0 games currently live\n10 upcoming matchups\nKEY DATA POINTS\nScoreboard is cleanly split between finals, live, and upcoming\nNo blending of yesterday and today data\n0 finals available for recap framing\n10 games available for preview angles\nWHY IT MATTERS\nClear scoreboard separation improves usability for journalists\nPrevents stale data from appearing in active reporting windows\nSupports both recap and preview workflows cleanly\nSTORY ANGLES\nPreview-driven coverage leads current reporting\nFINAL SCORES\nNone\nLIVE\nNone\nUPCOMING\nNorth Carolina Tar Heels at TCU Horned Frogs - TBD.\nHawai'i Rainbow Warriors at Stanford Cardinal - TBD.\nNC State Wolfpack at Virginia Cavaliers - TBD.\nMemphis Tigers at UNLV Rebels - TBD.\nSan José State Spartans at USC Trojans - TBD.\nNew Mexico State Aggies at Florida State Seminoles - TBD.\nJacksonville State Gamecocks at North Dakota State Bison - TBD.\nSacramento State Hornets at Eastern Michigan Eagles - TBD.\nArkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\nBethune-Cookman Wildcats at UCF Knights - TBD.\nUPDATED\n2026-05-09 01:54:27 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 01:54:27 PM ET",
+      "content": "HEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\nSNAPSHOT\n0 final games logged\n0 games currently live\n10 upcoming matchups\nKEY DATA POINTS\nScoreboard is cleanly split between finals, live, and upcoming\nNo blending of yesterday and today data\n0 finals available for recap framing\n10 games available for preview angles\nWHY IT MATTERS\nClear scoreboard separation improves usability for journalists\nPrevents stale data from appearing in active reporting windows\nSupports both recap and preview workflows cleanly\nSTORY ANGLES\nPreview-driven coverage leads current reporting\nFINAL SCORES\nNone\nLIVE\nNone\nUPCOMING\nNorth Carolina Tar Heels at TCU Horned Frogs - TBD.\nHawai'i Rainbow Warriors at Stanford Cardinal - TBD.\nNC State Wolfpack at Virginia Cavaliers - TBD.\nMemphis Tigers at UNLV Rebels - TBD.\nSan José State Spartans at USC Trojans - TBD.\nNew Mexico State Aggies at Florida State Seminoles - TBD.\nJacksonville State Gamecocks at North Dakota State Bison - TBD.\nSacramento State Hornets at Eastern Michigan Eagles - TBD.\nArkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\nBethune-Cookman Wildcats at UCF Knights - TBD.\nUPDATED\n2026-05-09 03:12:54 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:12:54 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/college-football/scoreboard",
       "links": [
@@ -348,7 +449,7 @@
         }
       ],
       "freshness_status": "fresh",
-      "source_age_hours": 0.71,
+      "source_age_hours": 0.52,
       "lead_eligible": true,
       "source_quality": "Source base: ESPN and other verified sports-data/news links attached to this card.",
       "editorial_depth": {
@@ -368,38 +469,39 @@
         "primary_url_policy": "game_context_locked"
       },
       "public_headline": "College Football Watch Tracks Schedule, Recruiting and Conference Signals"
-    },
+    }
+  ],
+  "editor_signals": [
     {
       "key": "soccer",
       "title": "Global Soccer",
-      "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-      "snapshot": "Soccer board refreshed with 17 news items, 1 live matches, 0 finals and 0 upcoming matches. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
+      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_storylines": [
-        "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-        "Premier League recap: Man City keep title hopes alive vs. Brentford",
         "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Weekend predictions: Liverpool vs. Chelsea, Clásico, more",
-        "West Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news"
+        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
+        "PSG denied late penalty as Lorient take point at Parc des Princes",
+        "Luis Suárez: If the Uruguay national team need me, I will be there"
       ],
       "key_data": [
-        "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
-        "West Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
+        "Barcelona vs Real Madrid in LaLiga Clásico: TV channel, kick-off time, live stream, referee, injury and team news",
         "Table/tournament read: the most important context is whether the result changes title pressure, European qualification, relegation risk or transfer leverage."
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-        "Premier League recap: Man City keep title hopes alive vs. Brentford",
         "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Weekend predictions: Liverpool vs. Chelsea, Clásico, more",
-        "West Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
-        "PSG denied late penalty as Lorient take point at Parc des Princes"
+        "PSG denied late penalty as Lorient take point at Parc des Princes",
+        "Luis Suárez: If the Uruguay national team need me, I will be there",
+        "Leboeuf: Slot's Liverpool future is in doubt",
+        "Barcelona vs Real Madrid in LaLiga Clásico: TV channel, kick-off time, live stream, referee, injury and team news"
       ],
       "why_it_matters": [
         "Global Soccer availability changes matter because they can move betting markets, reshape rotations, alter fantasy value and change how opponents prepare.",
@@ -415,21 +517,21 @@
         "Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan."
       ],
       "watch_next": [
-        "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions."
+        "Watch next in Global Soccer: the first verified follow-up that changes stakes, availability, market price or competitive positioning."
       ],
-      "executive_takeaway": "Executive takeaway: Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: Transfer rumors, news: Kompany approves Bayern's Gordon pursuit The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 116,
       "story_type": "live",
-      "content": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez\nPremier League recap: Man City keep title hopes alive vs. Brentford\nJeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nWeekend predictions: Liverpool vs. Chelsea, Clásico, more\nWest Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:05 PM ET",
+      "content": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nWeekend predictions: Liverpool vs. Chelsea, Clásico, more\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nLuis Suárez: If the Uruguay national team need me, I will be there",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:07 PM ET",
       "source_file": "",
-      "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
+      "url": "http://www.espn.com/soccer/report/_/gameId/740951",
       "links": [
         {
           "label": "Espn",
-          "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
-          "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez"
+          "url": "http://www.espn.com/soccer/report/_/gameId/740951",
+          "headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal"
         },
         {
           "label": "The Guardian Football",
@@ -467,107 +569,7 @@
         "total_links": 4,
         "primary_url_policy": "section_url_locked"
       },
-      "public_headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez"
-    }
-  ],
-  "editor_signals": [
-    {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "Bobby Cox, longtime Braves manager and World Series champ, dies",
-      "snapshot": "Bobby Cox, longtime manager of the Atlanta Braves and a World Series champion in 1995, has died at the age of 84. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
-      "key_storylines": [
-        "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies",
-        "MLB: Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84",
-        "MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins",
-        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’",
-        "NFL: Harbaugh: Call on Odell Beckham Jr. could wait until training camp",
-        "MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84",
-        "NBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement matters because it changes accountability, player usage, roster direction and the next set of questions for beat reporters.",
-        "Breaking Sports News postseason context raises the stakes because one result can change matchups, home-field/home-court leverage, injury risk and urgency around every follow-up decision.",
-        "Breaking Sports News availability changes matter because they can move betting markets, reshape rotations, alter fantasy value and change how opponents prepare."
-      ],
-      "story_angles": [
-        "What changed inside the organization, and who benefits from the new decision-making structure?",
-        "Which players or assistants are most affected by the leadership change?",
-        "What is the next credible replacement, promotion or roster-adjustment path?",
-        "Which matchup pressure point matters most in the next game or standings window?",
-        "What trend from the previous result is repeatable, and what was schedule/noise driven?"
-      ],
-      "priority_score": 212,
-      "story_type": "leadership",
-      "content": "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies\nMLB: Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84\nMLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins\nSports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’\nNFL: Harbaugh: Call on Odell Beckham Jr. could wait until training camp\nMLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84\nNBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model\nNBA: Pistons vs. Cavaliers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model\nYahoo Sports: https://sports.yahoo.com/articles/atlanta-announces-bobby-cox-manager-182243149.html\nCBS Sports: https://www.cbssports.com/mlb/news/bobby-cox-dies-braves-manager-hall-of-fame/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/09/spygate-playoff-row-championship-southampton-middlesbrough-hellberg-eckert\nMLB.com: https://www.mlb.com/news/bobby-cox-dies\nCBS Sports: https://www.cbssports.com/nba/news/thunder-lakers-odds-spread-prediction-time-2026-nba-playoff-picks-game-3-best-bets/\nCBS Sports: https://www.cbssports.com/nba/news/pistons-cavaliers-odds-prediction-spread-line-time-2026-nba-playoff-picks-game-3-best-bets/",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 0.14,
-      "lead_eligible": true,
-      "url": "",
-      "source_label": "ESPN MLB",
-      "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/atlanta-announces-bobby-cox-manager-182243149.html",
-          "headline": "Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84"
-        },
-        {
-          "label": "CBS Sports",
-          "url": "https://www.cbssports.com/mlb/news/bobby-cox-dies-braves-manager-hall-of-fame/",
-          "headline": "Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins"
-        },
-        {
-          "label": "MLB.com",
-          "url": "https://www.mlb.com/news/bobby-cox-dies",
-          "headline": "Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84"
-        }
-      ],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "",
-        "non_espn_links": 3,
-        "total_links": 3,
-        "primary_url_policy": "section_url_locked"
-      },
-      "key_data": [
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies",
-        "MLB: Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84",
-        "MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins",
-        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’",
-        "MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84",
-        "NBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model"
-      ],
-      "trend_watch": [
-        "Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan.",
-        "Pressure trend: postseason leverage increases the value of lineup, fatigue and late-game decision data.",
-        "Leadership trend: staffing movement can reshape short-term accountability, player usage and the next wave of reporting questions."
-      ],
-      "watch_next": [
-        "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions.",
-        "Track the next game/series adjustment: matchup changes, usage shifts and pressure points should drive follow-up coverage."
-      ],
-      "executive_takeaway": "Executive takeaway: Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
-      "source_quality": "Source base: ESPN and other verified sports-data/news links attached to this card.",
-      "editorial_depth": {
-        "status": "active",
-        "placeholder_language_guard": "active",
-        "data_context": "active",
-        "journalistic_interpretation": "active",
-        "source_standard": "trusted_sports_sources_only"
-      },
-      "public_headline": "Bobby Cox, longtime Braves manager and World Series champ, dies"
+      "public_headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal"
     },
     {
       "key": "nfl",
@@ -576,10 +578,10 @@
       "snapshot": "NFL context: NFL offseason roster signals emerging The editorial read focuses on consequence, trend and follow-up angles rather than a surface-level headline repeat.",
       "key_storylines": [
         "NFL offseason roster signals emerging",
-        ":37:03 PM ET"
+        ":44:05 PM ET"
       ],
       "key_data": [
-        ":37:03 PM ET",
+        ":44:05 PM ET",
         "Roster read: quarterback, coaching, injury and depth-chart information carries outsized value because each game week has fewer data points."
       ],
       "final_scores": [],
@@ -603,12 +605,12 @@
       "watch_next": [
         "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions."
       ],
-      "executive_takeaway": "Executive takeaway: :37:03 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: :44:05 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 156,
       "story_type": "leadership",
-      "content": "HEADLINE\nNFL offseason roster signals emerging\nSNAPSHOT\nNo active games; offseason coverage signals in focus\nUPDATED\n2026-05-09 02:37:03 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:03 PM ET",
+      "content": "HEADLINE\nNFL offseason roster signals emerging\nSNAPSHOT\nNo active games; offseason coverage signals in focus\nUPDATED\n2026-05-09 03:44:05 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:05 PM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
@@ -653,25 +655,25 @@
     {
       "key": "betting_odds",
       "title": "Betting Market Watch",
-      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)",
-      "snapshot": "Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180). Implied probability is approximately 64.3% based on the listed moneyline. The betting read is not just the number; it is the implied market expectation and how that price frames matchup risk for bettors.",
+      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)",
+      "snapshot": "Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128). Implied probability is approximately 56.1% based on the listed moneyline. The betting read is not just the number; it is the implied market expectation and how that price frames matchup risk for bettors.",
       "key_storylines": [
         "BETTING ODDS | 2026-05-09",
-        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +152 / Toronto Blue Jays -180 | Los Angeles Angels 1.5 (-138) / Toronto Blue Jays -1.5 (+116) | 8.5 (O -112 / U -108)",
-        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics 1.5 (-184) / Baltimore Orioles -1.5 (+152) | 9.5 (O -115 / U -105)",
-        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +126 / Boston Red Sox -148 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 7.5 (O -120 / U -102)",
+        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +100 / Toronto Blue Jays -128 | Los Angeles Angels 1.5 (-245) / Toronto Blue Jays -1.5 (+178) | 7.5 (O +100 / U -132)",
+        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics -1.5 (+152) / Baltimore Orioles 1.5 (-184) | 9.5 (O -115 / U -105)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -114 / U -106)",
         "Houston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)",
-        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-162) / Miami Marlins -1.5 (+134) | 8.5 (O -118 / U -104)",
-        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)"
+        "Washington Nationals at Miami Marlins | Washington Nationals +138 / Miami Marlins -164 | Washington Nationals 1.5 (-152) / Miami Marlins -1.5 (+126) | 8.5 (O -118 / U -104)",
+        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+110) | 8.5 (O -115 / U -105)"
       ],
       "key_data": [
         "BETTING ODDS | 2026-05-09",
-        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +152 / Toronto Blue Jays -180 | Los Angeles Angels 1.5 (-138) / Toronto Blue Jays -1.5 (+116) | 8.5 (O -112 / U -108)",
-        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics 1.5 (-184) / Baltimore Orioles -1.5 (+152) | 9.5 (O -115 / U -105)",
-        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +126 / Boston Red Sox -148 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 7.5 (O -120 / U -102)",
+        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +100 / Toronto Blue Jays -128 | Los Angeles Angels 1.5 (-245) / Toronto Blue Jays -1.5 (+178) | 7.5 (O +100 / U -132)",
+        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics -1.5 (+152) / Baltimore Orioles 1.5 (-184) | 9.5 (O -115 / U -105)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -114 / U -106)",
         "Houston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)",
-        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-162) / Miami Marlins -1.5 (+134) | 8.5 (O -118 / U -104)",
-        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)"
+        "Washington Nationals at Miami Marlins | Washington Nationals +138 / Miami Marlins -164 | Washington Nationals 1.5 (-152) / Miami Marlins -1.5 (+126) | 8.5 (O -118 / U -104)",
+        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+110) | 8.5 (O -115 / U -105)"
       ],
       "final_scores": [],
       "live_games": [],
@@ -693,9 +695,9 @@
       "executive_takeaway": "Executive takeaway: BETTING ODDS | 2026-05-09 Treat the number as market information first, then connect it to matchup, injury and timing context.",
       "priority_score": 37,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-09\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +152 / Toronto Blue Jays -180 | Los Angeles Angels 1.5 (-138) / Toronto Blue Jays -1.5 (+116) | 8.5 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics 1.5 (-184) / Baltimore Orioles -1.5 (+152) | 9.5 (O -115 / U -105)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +126 / Boston Red Sox -148 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 7.5 (O -120 / U -102)\nHouston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)\nWashington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-162) / Miami Marlins -1.5 (+134) | 8.5 (O -118 / U -104)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +100 / Cleveland Guardians -118 | Minnesota Twins -1.5 (+160) / Cleveland Guardians 1.5 (-194) | 8.0 (O -105 / U -115)\nChicago Cubs at Texas Rangers | Chicago Cubs -134 / Texas Rangers +114 | Chicago Cubs -1.5 (+128) / Texas Rangers 1.5 (-154) | 8.5 (O +102 / U -124)\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +152 / Cleveland Cavaliers -180 | Detroit Pistons 4.5 (-104) / Cleveland Cavaliers -4.5 (-118) | 212.5 (O -106 / U -114)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -375 / Los Angeles Lakers +300 | Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | 211.5 (O -110 / U -110)\nNew York Knicks at Philadelphia 76ers | New York Knicks -120 / Philadelphia 76ers +102 | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -186 / Minnesota Timberwolves +156 | San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | 218.5 (O -108 / U -112)\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -194 / Philadelphia Flyers +160 | Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162) | 5.5 (O +118 / U -144)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218) | 6.5 (O +102 / U -122)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +105 / Montréal Canadiens -126 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -132 / U +108)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -108 / U -112)\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -5000 / Toronto FC +5500 | Spread N/A | 3.5 (O +160 / U -250)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +475 / Chicago Fire -225 | Spread N/A | Total N/A\nOrlando City SC at CF Montreal | Orlando City SC +245 / CF Montreal -108 | Spread N/A | 3.5 (O +125 / U -162)\nLA Galaxy at Atlanta United FC | LA Galaxy +180 / Atlanta United FC +135 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +460 / Nashville SC -175 | Spread N/A | 2.5 (O -107 / U -122)\nUPDATED\n2026-05-09 02:37:06 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:06 PM ET",
+      "content": "BETTING ODDS | 2026-05-09\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +100 / Toronto Blue Jays -128 | Los Angeles Angels 1.5 (-245) / Toronto Blue Jays -1.5 (+178) | 7.5 (O +100 / U -132)\nAthletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics -1.5 (+152) / Baltimore Orioles 1.5 (-184) | 9.5 (O -115 / U -105)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -114 / U -106)\nHouston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)\nWashington Nationals at Miami Marlins | Washington Nationals +138 / Miami Marlins -164 | Washington Nationals 1.5 (-152) / Miami Marlins -1.5 (+126) | 8.5 (O -118 / U -104)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+110) | 8.5 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +100 / Cleveland Guardians -118 | Minnesota Twins -1.5 (+160) / Cleveland Guardians 1.5 (-194) | 8.0 (O -105 / U -115)\nChicago Cubs at Texas Rangers | Chicago Cubs -134 / Texas Rangers +114 | Chicago Cubs -1.5 (+128) / Texas Rangers 1.5 (-154) | 8.5 (O +102 / U -124)\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +176 / Cleveland Cavaliers -230 | Detroit Pistons 4.5 (+102) / Cleveland Cavaliers -4.5 (-136) | 217.5 (O -122 / U -108)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -8.5 (-115) / Los Angeles Lakers 8.5 (-105) | 210.5 (O -114 / U -106)\nNew York Knicks at Philadelphia 76ers | New York Knicks -120 / Philadelphia 76ers +102 | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -186 / Minnesota Timberwolves +156 | San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | 218.5 (O -108 / U -112)\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -194 / Philadelphia Flyers +160 | Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162) | 5.5 (O +118 / U -144)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218) | 6.5 (O +102 / U -122)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +106 / Montréal Canadiens -128 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -132 / U +108)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -108 / U -112)\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\nSOCCER\nNew York Red Bulls at Chicago Fire | New York Red Bulls +150 / Chicago Fire +165 | Spread N/A | Total N/A\nOrlando City SC at CF Montreal | Orlando City SC +240 / CF Montreal -108 | Spread N/A | 3.5 (O +125 / U -162)\nLA Galaxy at Atlanta United FC | LA Galaxy +180 / Atlanta United FC +135 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +460 / Nashville SC -175 | Spread N/A | 2.5 (O -107 / U -122)\nSt. Louis City SC at Colorado Rapids | St. Louis City SC +235 / Colorado Rapids -103 | Spread N/A | 2.5 (O -165 / U +125)\nUPDATED\n2026-05-09 03:44:09 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:09 PM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -717,7 +719,7 @@
         {
           "label": "Action Network",
           "url": "https://www.actionnetwork.com/odds",
-          "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)"
+          "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)"
         }
       ],
       "freshness_status": "fresh",
@@ -740,7 +742,7 @@
         "total_links": 4,
         "primary_url_policy": "section_url_locked"
       },
-      "public_headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)"
+      "public_headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)"
     },
     {
       "key": "fantasy",
@@ -754,13 +756,13 @@
         "Luka Doncic high-volume scoring stretch",
         "Jayson Tatum strong minutes load",
         "Shai Gilgeous-Alexander elite production run",
-        ":37:06 PM ET"
+        ":44:09 PM ET"
       ],
       "key_data": [
         "FANTASY SPORTS | 2026-05-09",
         "Top fantasy performers and usage trends across the board",
         "Nikola Jokic trending in usage",
-        ":37:06 PM ET",
+        ":44:09 PM ET",
         "Fantasy read: role stability, availability and usage trend matter more than name value when translating this card into lineup decisions."
       ],
       "final_scores": [],
@@ -783,9 +785,9 @@
       "executive_takeaway": "Executive takeaway: FANTASY SPORTS | 2026-05-09 The practical value is whether it changes usage, role confidence or lineup priority.",
       "priority_score": 37,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-09\nHEADLINE\nTop fantasy performers and usage trends across the board\nKEY STORYLINES\nNikola Jokic trending in usage\nLuka Doncic high-volume scoring stretch\nJayson Tatum strong minutes load\nShai Gilgeous-Alexander elite production run\nUPDATED\n2026-05-09 02:37:06 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:06 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-09\nHEADLINE\nTop fantasy performers and usage trends across the board\nKEY STORYLINES\nNikola Jokic trending in usage\nLuka Doncic high-volume scoring stretch\nJayson Tatum strong minutes load\nShai Gilgeous-Alexander elite production run\nUPDATED\n2026-05-09 03:44:09 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:09 PM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -829,21 +831,21 @@
     }
   ],
   "lead_section": "breaking_news",
-  "lead_story_type": "leadership",
+  "lead_story_type": "live",
   "sections": [
     {
       "key": "breaking_news",
       "title": "Breaking Sports News",
-      "headline": "Bobby Cox, longtime Braves manager and World Series champ, dies",
-      "snapshot": "Bobby Cox, longtime manager of the Atlanta Braves and a World Series champion in 1995, has died at the age of 84. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
+      "snapshot": "Breaking Sports News data context: Breaking-news layer is active. This card is built around the measurable signal behind the story, giving readers a clearer way to understand what changed and what to watch next. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_storylines": [
+        "NBA: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
         "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies",
-        "MLB: Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84",
         "MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins",
-        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’",
-        "NFL: Harbaugh: Call on Odell Beckham Jr. could wait until training camp",
+        "MLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84",
+        "NFL: Harbaugh: Odell Beckham Jr. call could wait until training camp",
         "MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84",
-        "NBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model"
+        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’"
       ],
       "final_scores": [],
       "live_games": [],
@@ -865,26 +867,26 @@
         "Which matchup pressure point matters most in the next game or standings window?",
         "What trend from the previous result is repeatable, and what was schedule/noise driven?"
       ],
-      "priority_score": 212,
-      "story_type": "leadership",
-      "content": "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies\nMLB: Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84\nMLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins\nSports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’\nNFL: Harbaugh: Call on Odell Beckham Jr. could wait until training camp\nMLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84\nNBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model\nNBA: Pistons vs. Cavaliers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model\nYahoo Sports: https://sports.yahoo.com/articles/atlanta-announces-bobby-cox-manager-182243149.html\nCBS Sports: https://www.cbssports.com/mlb/news/bobby-cox-dies-braves-manager-hall-of-fame/\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/09/spygate-playoff-row-championship-southampton-middlesbrough-hellberg-eckert\nMLB.com: https://www.mlb.com/news/bobby-cox-dies\nCBS Sports: https://www.cbssports.com/nba/news/thunder-lakers-odds-spread-prediction-time-2026-nba-playoff-picks-game-3-best-bets/\nCBS Sports: https://www.cbssports.com/nba/news/pistons-cavaliers-odds-prediction-spread-line-time-2026-nba-playoff-picks-game-3-best-bets/",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
+      "priority_score": 214,
+      "story_type": "live",
+      "content": "NBA: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series\nMLB: Bobby Cox, longtime Braves manager and World Series champ, dies\nMLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins\nMLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84\nNFL: Harbaugh: Odell Beckham Jr. call could wait until training camp\nMLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84\nSports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’\nNBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model\nYahoo Sports: https://sports.yahoo.com/articles/pistons-vs-cavaliers-game-2-190600903.html\nCBS Sports: https://www.cbssports.com/mlb/news/bobby-cox-dies-braves-manager-hall-of-fame/\nThe Guardian Sport: https://www.theguardian.com/sport/2026/may/09/bobby-cox-dies-84-atlanta-braves\nMLB.com: https://www.mlb.com/news/bobby-cox-dies\nThe Guardian Sport: https://www.theguardian.com/football/2026/may/09/spygate-playoff-row-championship-southampton-middlesbrough-hellberg-eckert\nCBS Sports: https://www.cbssports.com/nba/news/thunder-lakers-odds-spread-prediction-time-2026-nba-playoff-picks-game-3-best-bets/",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
       "source_file": "breaking_news_engine",
       "freshness_status": "fresh",
-      "source_age_hours": 0.14,
+      "source_age_hours": 0.19,
       "lead_eligible": true,
-      "url": "",
-      "source_label": "ESPN MLB",
+      "url": "https://sports.yahoo.com/articles/pistons-vs-cavaliers-game-2-190600903.html",
+      "source_label": "Yahoo Sports",
       "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/atlanta-announces-bobby-cox-manager-182243149.html",
-          "headline": "Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84"
-        },
         {
           "label": "CBS Sports",
           "url": "https://www.cbssports.com/mlb/news/bobby-cox-dies-braves-manager-hall-of-fame/",
           "headline": "Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins"
+        },
+        {
+          "label": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/may/09/bobby-cox-dies-84-atlanta-braves",
+          "headline": "Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84"
         },
         {
           "label": "MLB.com",
@@ -895,19 +897,19 @@
       "external_headline": "",
       "source_diversity": {
         "status": "active",
-        "primary_domain": "",
+        "primary_domain": "sports.yahoo.com",
         "non_espn_links": 3,
         "total_links": 3,
         "primary_url_policy": "section_url_locked"
       },
       "key_data": [
         "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "NBA: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
         "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies",
-        "MLB: Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84",
         "MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins",
-        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’",
+        "MLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84",
         "MLB: Bobby Cox, Hall of Fame manager and Braves icon, passes away at 84",
-        "NBA: Thunder vs. Lakers odds, prediction, time: 2026 NBA playoff picks, Game 3 best bets from proven model"
+        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’"
       ],
       "trend_watch": [
         "Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan.",
@@ -919,7 +921,7 @@
         "Track the next game/series adjustment: matchup changes, usage shifts and pressure points should drive follow-up coverage."
       ],
       "executive_takeaway": "Executive takeaway: Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
-      "source_quality": "Source base: ESPN and other verified sports-data/news links attached to this card.",
+      "source_quality": "Source base: MLB.com and other verified sports-data/news links attached to this card.",
       "editorial_depth": {
         "status": "active",
         "placeholder_language_guard": "active",
@@ -927,33 +929,36 @@
         "journalistic_interpretation": "active",
         "source_standard": "trusted_sports_sources_only"
       },
-      "public_headline": "Bobby Cox, longtime Braves manager and World Series champ, dies"
+      "public_headline": "Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series"
     },
     {
       "key": "mlb",
       "title": "MLB",
-      "headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays",
-      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
+      "snapshot": "0 today finals, 1 live and 14 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_storylines": [
-        "UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET",
+        "LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
         "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
         "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
-        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET"
+        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET",
+        "UPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET"
       ],
       "key_data": [
-        "UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET",
+        "LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
         "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
         "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
-        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET"
+        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET",
+        "UPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET"
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET",
+        "LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
         "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
         "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
-        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET"
+        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET",
+        "UPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET"
       ],
       "why_it_matters": [
         "MLB context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it."
@@ -968,19 +973,19 @@
       "watch_next": [
         "Watch next in MLB: the first verified follow-up that changes stakes, availability, market price or competitive positioning."
       ],
-      "executive_takeaway": "Executive takeaway: UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 129,
       "story_type": "live",
-      "content": "HEADLINE\nMLB schedule opens with Los Angeles Angels at Toronto Blue Jays\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\nKEY STORYLINES\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\nTODAY FINAL SCORES\nNone\nTODAY LIVE\nNone\nTODAY SCHEDULE\nLos Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\nUPDATED\n2026-05-09 02:37:01 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:01 PM ET",
+      "content": "HEADLINE\nLos Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd\nSNAPSHOT\n0 today finals, 1 live and 14 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\nKEY STORYLINES\nLIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\nUPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET\nTODAY FINAL SCORES\nNone\nTODAY LIVE\nLos Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd\nTODAY SCHEDULE\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\nUPDATED\n2026-05-09 03:44:03 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:03 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
         {
           "label": "Espn",
           "url": "https://www.espn.com/mlb/scoreboard",
-          "headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays"
+          "headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd"
         },
         {
           "label": "MLB.com News",
@@ -1018,16 +1023,16 @@
         "total_links": 4,
         "primary_url_policy": "game_context_locked"
       },
-      "public_headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays"
+      "public_headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd"
     },
     {
       "key": "nba",
       "title": "NBA",
-      "headline": "Oklahoma City Thunder at Los Angeles Lakers",
-      "snapshot": "2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
+      "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_storylines": [
-        "Oklahoma City Thunder at Los Angeles Lakers",
-        "Detroit Pistons at Cleveland Cavaliers"
+        "Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
+        "Oklahoma City Thunder at Los Angeles Lakers"
       ],
       "key_data": [
         "NBA data read: this card keeps the strongest verified item from the feed and suppresses generic filler language."
@@ -1036,8 +1041,8 @@
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "Oklahoma City Thunder at Los Angeles Lakers",
-        "Detroit Pistons at Cleveland Cavaliers"
+        "Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
+        "Oklahoma City Thunder at Los Angeles Lakers"
       ],
       "why_it_matters": [
         "NBA context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it."
@@ -1055,9 +1060,9 @@
       "executive_takeaway": "Executive takeaway: NBA data read: this card keeps the strongest verified item from the feed and suppresses generic filler language. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 129,
       "story_type": "live",
-      "content": "Oklahoma City Thunder at Los Angeles Lakers\nDetroit Pistons at Cleveland Cavaliers",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:02 PM ET",
+      "content": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live\nOklahoma City Thunder at Los Angeles Lakers",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:05 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -1079,7 +1084,7 @@
         {
           "label": "Espn",
           "url": "https://www.espn.com/nba/scoreboard",
-          "headline": "Oklahoma City Thunder at Los Angeles Lakers"
+          "headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live"
         }
       ],
       "freshness_status": "fresh",
@@ -1102,7 +1107,7 @@
         "total_links": 4,
         "primary_url_policy": "game_context_locked"
       },
-      "public_headline": "Oklahoma City Thunder at Los Angeles Lakers"
+      "public_headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live"
     },
     {
       "key": "nhl",
@@ -1140,8 +1145,8 @@
       "priority_score": 129,
       "story_type": "live",
       "content": "Carolina Hurricanes at Philadelphia Flyers — 5/9 - 6:00 PM EDT\nColorado Avalanche at Minnesota Wild — 5/9 - 9:00 PM EDT",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:03 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:05 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -1241,9 +1246,9 @@
       "executive_takeaway": "Executive takeaway: College football schedule loaded with 10 upcoming matchups across the board. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 116,
       "story_type": "live",
-      "content": "HEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\nSNAPSHOT\n0 final games logged\n0 games currently live\n10 upcoming matchups\nKEY DATA POINTS\nScoreboard is cleanly split between finals, live, and upcoming\nNo blending of yesterday and today data\n0 finals available for recap framing\n10 games available for preview angles\nWHY IT MATTERS\nClear scoreboard separation improves usability for journalists\nPrevents stale data from appearing in active reporting windows\nSupports both recap and preview workflows cleanly\nSTORY ANGLES\nPreview-driven coverage leads current reporting\nFINAL SCORES\nNone\nLIVE\nNone\nUPCOMING\nNorth Carolina Tar Heels at TCU Horned Frogs - TBD.\nHawai'i Rainbow Warriors at Stanford Cardinal - TBD.\nNC State Wolfpack at Virginia Cavaliers - TBD.\nMemphis Tigers at UNLV Rebels - TBD.\nSan José State Spartans at USC Trojans - TBD.\nNew Mexico State Aggies at Florida State Seminoles - TBD.\nJacksonville State Gamecocks at North Dakota State Bison - TBD.\nSacramento State Hornets at Eastern Michigan Eagles - TBD.\nArkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\nBethune-Cookman Wildcats at UCF Knights - TBD.\nUPDATED\n2026-05-09 01:54:27 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 01:54:27 PM ET",
+      "content": "HEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\nSNAPSHOT\n0 final games logged\n0 games currently live\n10 upcoming matchups\nKEY DATA POINTS\nScoreboard is cleanly split between finals, live, and upcoming\nNo blending of yesterday and today data\n0 finals available for recap framing\n10 games available for preview angles\nWHY IT MATTERS\nClear scoreboard separation improves usability for journalists\nPrevents stale data from appearing in active reporting windows\nSupports both recap and preview workflows cleanly\nSTORY ANGLES\nPreview-driven coverage leads current reporting\nFINAL SCORES\nNone\nLIVE\nNone\nUPCOMING\nNorth Carolina Tar Heels at TCU Horned Frogs - TBD.\nHawai'i Rainbow Warriors at Stanford Cardinal - TBD.\nNC State Wolfpack at Virginia Cavaliers - TBD.\nMemphis Tigers at UNLV Rebels - TBD.\nSan José State Spartans at USC Trojans - TBD.\nNew Mexico State Aggies at Florida State Seminoles - TBD.\nJacksonville State Gamecocks at North Dakota State Bison - TBD.\nSacramento State Hornets at Eastern Michigan Eagles - TBD.\nArkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\nBethune-Cookman Wildcats at UCF Knights - TBD.\nUPDATED\n2026-05-09 03:12:54 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:12:54 PM ET",
       "source_file": "",
       "url": "https://www.espn.com/college-football/scoreboard",
       "links": [
@@ -1264,7 +1269,7 @@
         }
       ],
       "freshness_status": "fresh",
-      "source_age_hours": 0.71,
+      "source_age_hours": 0.52,
       "lead_eligible": true,
       "source_quality": "Source base: ESPN and other verified sports-data/news links attached to this card.",
       "editorial_depth": {
@@ -1288,34 +1293,33 @@
     {
       "key": "soccer",
       "title": "Global Soccer",
-      "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-      "snapshot": "Soccer board refreshed with 17 news items, 1 live matches, 0 finals and 0 upcoming matches. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
+      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_storylines": [
-        "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-        "Premier League recap: Man City keep title hopes alive vs. Brentford",
         "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Weekend predictions: Liverpool vs. Chelsea, Clásico, more",
-        "West Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news"
+        "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
+        "PSG denied late penalty as Lorient take point at Parc des Princes",
+        "Luis Suárez: If the Uruguay national team need me, I will be there"
       ],
       "key_data": [
-        "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
-        "West Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
+        "Barcelona vs Real Madrid in LaLiga Clásico: TV channel, kick-off time, live stream, referee, injury and team news",
         "Table/tournament read: the most important context is whether the result changes title pressure, European qualification, relegation risk or transfer leverage."
       ],
       "final_scores": [],
       "live_games": [],
       "upcoming": [],
       "advanced": [
-        "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-        "Premier League recap: Man City keep title hopes alive vs. Brentford",
         "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
         "Tracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid",
         "Weekend predictions: Liverpool vs. Chelsea, Clásico, more",
-        "West Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
-        "PSG denied late penalty as Lorient take point at Parc des Princes"
+        "PSG denied late penalty as Lorient take point at Parc des Princes",
+        "Luis Suárez: If the Uruguay national team need me, I will be there",
+        "Leboeuf: Slot's Liverpool future is in doubt",
+        "Barcelona vs Real Madrid in LaLiga Clásico: TV channel, kick-off time, live stream, referee, injury and team news"
       ],
       "why_it_matters": [
         "Global Soccer availability changes matter because they can move betting markets, reshape rotations, alter fantasy value and change how opponents prepare.",
@@ -1331,21 +1335,21 @@
         "Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan."
       ],
       "watch_next": [
-        "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions."
+        "Watch next in Global Soccer: the first verified follow-up that changes stakes, availability, market price or competitive positioning."
       ],
-      "executive_takeaway": "Executive takeaway: Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: Transfer rumors, news: Kompany approves Bayern's Gordon pursuit The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 116,
       "story_type": "live",
-      "content": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez\nPremier League recap: Man City keep title hopes alive vs. Brentford\nJeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nWeekend predictions: Liverpool vs. Chelsea, Clásico, more\nWest Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:05 PM ET",
+      "content": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nWeekend predictions: Liverpool vs. Chelsea, Clásico, more\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes\nLuis Suárez: If the Uruguay national team need me, I will be there",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:07 PM ET",
       "source_file": "",
-      "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
+      "url": "http://www.espn.com/soccer/report/_/gameId/740951",
       "links": [
         {
           "label": "Espn",
-          "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
-          "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez"
+          "url": "http://www.espn.com/soccer/report/_/gameId/740951",
+          "headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal"
         },
         {
           "label": "The Guardian Football",
@@ -1383,7 +1387,7 @@
         "total_links": 4,
         "primary_url_policy": "section_url_locked"
       },
-      "public_headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez"
+      "public_headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal"
     },
     {
       "key": "nfl",
@@ -1392,10 +1396,10 @@
       "snapshot": "NFL context: NFL offseason roster signals emerging The editorial read focuses on consequence, trend and follow-up angles rather than a surface-level headline repeat.",
       "key_storylines": [
         "NFL offseason roster signals emerging",
-        ":37:03 PM ET"
+        ":44:05 PM ET"
       ],
       "key_data": [
-        ":37:03 PM ET",
+        ":44:05 PM ET",
         "Roster read: quarterback, coaching, injury and depth-chart information carries outsized value because each game week has fewer data points."
       ],
       "final_scores": [],
@@ -1419,12 +1423,12 @@
       "watch_next": [
         "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions."
       ],
-      "executive_takeaway": "Executive takeaway: :37:03 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: :44:05 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "priority_score": 156,
       "story_type": "leadership",
-      "content": "HEADLINE\nNFL offseason roster signals emerging\nSNAPSHOT\nNo active games; offseason coverage signals in focus\nUPDATED\n2026-05-09 02:37:03 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:03 PM ET",
+      "content": "HEADLINE\nNFL offseason roster signals emerging\nSNAPSHOT\nNo active games; offseason coverage signals in focus\nUPDATED\n2026-05-09 03:44:05 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:05 PM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
@@ -1469,25 +1473,25 @@
     {
       "key": "betting_odds",
       "title": "Betting Market Watch",
-      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)",
-      "snapshot": "Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180). Implied probability is approximately 64.3% based on the listed moneyline. The betting read is not just the number; it is the implied market expectation and how that price frames matchup risk for bettors.",
+      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)",
+      "snapshot": "Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128). Implied probability is approximately 56.1% based on the listed moneyline. The betting read is not just the number; it is the implied market expectation and how that price frames matchup risk for bettors.",
       "key_storylines": [
         "BETTING ODDS | 2026-05-09",
-        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +152 / Toronto Blue Jays -180 | Los Angeles Angels 1.5 (-138) / Toronto Blue Jays -1.5 (+116) | 8.5 (O -112 / U -108)",
-        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics 1.5 (-184) / Baltimore Orioles -1.5 (+152) | 9.5 (O -115 / U -105)",
-        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +126 / Boston Red Sox -148 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 7.5 (O -120 / U -102)",
+        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +100 / Toronto Blue Jays -128 | Los Angeles Angels 1.5 (-245) / Toronto Blue Jays -1.5 (+178) | 7.5 (O +100 / U -132)",
+        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics -1.5 (+152) / Baltimore Orioles 1.5 (-184) | 9.5 (O -115 / U -105)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -114 / U -106)",
         "Houston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)",
-        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-162) / Miami Marlins -1.5 (+134) | 8.5 (O -118 / U -104)",
-        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)"
+        "Washington Nationals at Miami Marlins | Washington Nationals +138 / Miami Marlins -164 | Washington Nationals 1.5 (-152) / Miami Marlins -1.5 (+126) | 8.5 (O -118 / U -104)",
+        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+110) | 8.5 (O -115 / U -105)"
       ],
       "key_data": [
         "BETTING ODDS | 2026-05-09",
-        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +152 / Toronto Blue Jays -180 | Los Angeles Angels 1.5 (-138) / Toronto Blue Jays -1.5 (+116) | 8.5 (O -112 / U -108)",
-        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics 1.5 (-184) / Baltimore Orioles -1.5 (+152) | 9.5 (O -115 / U -105)",
-        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +126 / Boston Red Sox -148 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 7.5 (O -120 / U -102)",
+        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +100 / Toronto Blue Jays -128 | Los Angeles Angels 1.5 (-245) / Toronto Blue Jays -1.5 (+178) | 7.5 (O +100 / U -132)",
+        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics -1.5 (+152) / Baltimore Orioles 1.5 (-184) | 9.5 (O -115 / U -105)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -114 / U -106)",
         "Houston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)",
-        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-162) / Miami Marlins -1.5 (+134) | 8.5 (O -118 / U -104)",
-        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)"
+        "Washington Nationals at Miami Marlins | Washington Nationals +138 / Miami Marlins -164 | Washington Nationals 1.5 (-152) / Miami Marlins -1.5 (+126) | 8.5 (O -118 / U -104)",
+        "Colorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+110) | 8.5 (O -115 / U -105)"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1509,9 +1513,9 @@
       "executive_takeaway": "Executive takeaway: BETTING ODDS | 2026-05-09 Treat the number as market information first, then connect it to matchup, injury and timing context.",
       "priority_score": 37,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-09\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +152 / Toronto Blue Jays -180 | Los Angeles Angels 1.5 (-138) / Toronto Blue Jays -1.5 (+116) | 8.5 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics 1.5 (-184) / Baltimore Orioles -1.5 (+152) | 9.5 (O -115 / U -105)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +126 / Boston Red Sox -148 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 7.5 (O -120 / U -102)\nHouston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)\nWashington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-162) / Miami Marlins -1.5 (+134) | 8.5 (O -118 / U -104)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-134) / Philadelphia Phillies -1.5 (+114) | 8.5 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +100 / Cleveland Guardians -118 | Minnesota Twins -1.5 (+160) / Cleveland Guardians 1.5 (-194) | 8.0 (O -105 / U -115)\nChicago Cubs at Texas Rangers | Chicago Cubs -134 / Texas Rangers +114 | Chicago Cubs -1.5 (+128) / Texas Rangers 1.5 (-154) | 8.5 (O +102 / U -124)\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +152 / Cleveland Cavaliers -180 | Detroit Pistons 4.5 (-104) / Cleveland Cavaliers -4.5 (-118) | 212.5 (O -106 / U -114)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -375 / Los Angeles Lakers +300 | Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | 211.5 (O -110 / U -110)\nNew York Knicks at Philadelphia 76ers | New York Knicks -120 / Philadelphia 76ers +102 | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -186 / Minnesota Timberwolves +156 | San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | 218.5 (O -108 / U -112)\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -194 / Philadelphia Flyers +160 | Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162) | 5.5 (O +118 / U -144)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218) | 6.5 (O +102 / U -122)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +105 / Montréal Canadiens -126 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -132 / U +108)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -108 / U -112)\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -5000 / Toronto FC +5500 | Spread N/A | 3.5 (O +160 / U -250)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +475 / Chicago Fire -225 | Spread N/A | Total N/A\nOrlando City SC at CF Montreal | Orlando City SC +245 / CF Montreal -108 | Spread N/A | 3.5 (O +125 / U -162)\nLA Galaxy at Atlanta United FC | LA Galaxy +180 / Atlanta United FC +135 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +460 / Nashville SC -175 | Spread N/A | 2.5 (O -107 / U -122)\nUPDATED\n2026-05-09 02:37:06 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:06 PM ET",
+      "content": "BETTING ODDS | 2026-05-09\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +100 / Toronto Blue Jays -128 | Los Angeles Angels 1.5 (-245) / Toronto Blue Jays -1.5 (+178) | 7.5 (O +100 / U -132)\nAthletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics -1.5 (+152) / Baltimore Orioles 1.5 (-184) | 9.5 (O -115 / U -105)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -114 / U -106)\nHouston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)\nWashington Nationals at Miami Marlins | Washington Nationals +138 / Miami Marlins -164 | Washington Nationals 1.5 (-152) / Miami Marlins -1.5 (+126) | 8.5 (O -118 / U -104)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +154 / Philadelphia Phillies -184 | Colorado Rockies 1.5 (-132) / Philadelphia Phillies -1.5 (+110) | 8.5 (O -115 / U -105)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins +100 / Cleveland Guardians -118 | Minnesota Twins -1.5 (+160) / Cleveland Guardians 1.5 (-194) | 8.0 (O -105 / U -115)\nChicago Cubs at Texas Rangers | Chicago Cubs -134 / Texas Rangers +114 | Chicago Cubs -1.5 (+128) / Texas Rangers 1.5 (-154) | 8.5 (O +102 / U -124)\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +176 / Cleveland Cavaliers -230 | Detroit Pistons 4.5 (+102) / Cleveland Cavaliers -4.5 (-136) | 217.5 (O -122 / U -108)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -8.5 (-115) / Los Angeles Lakers 8.5 (-105) | 210.5 (O -114 / U -106)\nNew York Knicks at Philadelphia 76ers | New York Knicks -120 / Philadelphia 76ers +102 | New York Knicks -1.5 (-114) / Philadelphia 76ers 1.5 (-106) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -186 / Minnesota Timberwolves +156 | San Antonio Spurs -4.5 (-110) / Minnesota Timberwolves 4.5 (-110) | 218.5 (O -108 / U -112)\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -194 / Philadelphia Flyers +160 | Carolina Hurricanes -1.5 (+132) / Philadelphia Flyers 1.5 (-162) | 5.5 (O +118 / U -144)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+180) / Minnesota Wild 1.5 (-218) | 6.5 (O +102 / U -122)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +106 / Montréal Canadiens -128 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -132 / U +108)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -108 / U -112)\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\nSOCCER\nNew York Red Bulls at Chicago Fire | New York Red Bulls +150 / Chicago Fire +165 | Spread N/A | Total N/A\nOrlando City SC at CF Montreal | Orlando City SC +240 / CF Montreal -108 | Spread N/A | 3.5 (O +125 / U -162)\nLA Galaxy at Atlanta United FC | LA Galaxy +180 / Atlanta United FC +135 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +460 / Nashville SC -175 | Spread N/A | 2.5 (O -107 / U -122)\nSt. Louis City SC at Colorado Rapids | St. Louis City SC +235 / Colorado Rapids -103 | Spread N/A | 2.5 (O -165 / U +125)\nUPDATED\n2026-05-09 03:44:09 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:09 PM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -1533,7 +1537,7 @@
         {
           "label": "Action Network",
           "url": "https://www.actionnetwork.com/odds",
-          "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)"
+          "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)"
         }
       ],
       "freshness_status": "fresh",
@@ -1556,7 +1560,7 @@
         "total_links": 4,
         "primary_url_policy": "section_url_locked"
       },
-      "public_headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)"
+      "public_headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)"
     },
     {
       "key": "fantasy",
@@ -1570,13 +1574,13 @@
         "Luka Doncic high-volume scoring stretch",
         "Jayson Tatum strong minutes load",
         "Shai Gilgeous-Alexander elite production run",
-        ":37:06 PM ET"
+        ":44:09 PM ET"
       ],
       "key_data": [
         "FANTASY SPORTS | 2026-05-09",
         "Top fantasy performers and usage trends across the board",
         "Nikola Jokic trending in usage",
-        ":37:06 PM ET",
+        ":44:09 PM ET",
         "Fantasy read: role stability, availability and usage trend matter more than name value when translating this card into lineup decisions."
       ],
       "final_scores": [],
@@ -1599,9 +1603,9 @@
       "executive_takeaway": "Executive takeaway: FANTASY SPORTS | 2026-05-09 The practical value is whether it changes usage, role confidence or lineup priority.",
       "priority_score": 37,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-09\nHEADLINE\nTop fantasy performers and usage trends across the board\nKEY STORYLINES\nNikola Jokic trending in usage\nLuka Doncic high-volume scoring stretch\nJayson Tatum strong minutes load\nShai Gilgeous-Alexander elite production run\nUPDATED\n2026-05-09 02:37:06 PM ET",
-      "updated_at": "2026-05-09 02:37:15 PM ET",
-      "source_updated_at": "2026-05-09 02:37:06 PM ET",
+      "content": "FANTASY SPORTS | 2026-05-09\nHEADLINE\nTop fantasy performers and usage trends across the board\nKEY STORYLINES\nNikola Jokic trending in usage\nLuka Doncic high-volume scoring stretch\nJayson Tatum strong minutes load\nShai Gilgeous-Alexander elite production run\nUPDATED\n2026-05-09 03:44:09 PM ET",
+      "updated_at": "2026-05-09 03:44:17 PM ET",
+      "source_updated_at": "2026-05-09 03:44:09 PM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -1648,15 +1652,15 @@
     {
       "league": "Breaking Sports News",
       "key": "breaking_news",
-      "headline": "Bobby Cox, longtime Braves manager and World Series champ, dies",
-      "url": "",
-      "snapshot": "Bobby Cox, longtime manager of the Atlanta Braves and a World Series champion in 1995, has died at the age of 84. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
+      "url": "https://sports.yahoo.com/articles/pistons-vs-cavaliers-game-2-190600903.html",
+      "snapshot": "Breaking Sports News data context: Breaking-news layer is active. This card is built around the measurable signal behind the story, giving readers a clearer way to understand what changed and what to watch next.",
       "key_data": [
         "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "NBA: Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series",
         "MLB: Bobby Cox, longtime Braves manager and World Series champ, dies",
-        "MLB: Atlanta announces Bobby Cox, manager of Braves 'teams that ruled NL, has died at age 84",
         "MLB: Bobby Cox dies at 84: Hall of Fame manager led Braves to 1995 World Series title, is fourth all-time in wins",
-        "Sports: Spygate playoff row deepens as Boro’s Hellberg labels Southampton ‘cheats’"
+        "MLB: Bobby Cox, Hall of Fame manager and Atlanta Braves icon, dies at 84"
       ],
       "why_it_matters": [
         "Breaking Sports News leadership movement matters because it changes accountability, player usage, roster direction and the next set of questions for beat reporters.",
@@ -1673,24 +1677,25 @@
         "Track the next game/series adjustment: matchup changes, usage shifts and pressure points should drive follow-up coverage."
       ],
       "executive_takeaway": "Executive takeaway: Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal. The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
-      "source_quality": "Source base: ESPN and other verified sports-data/news links attached to this card.",
-      "story_type": "leadership",
-      "priority_score": 212,
+      "source_quality": "Source base: MLB.com and other verified sports-data/news links attached to this card.",
+      "story_type": "live",
+      "priority_score": 214,
       "freshness_status": "fresh",
       "source": "breaking_news_engine",
-      "public_headline": "Bobby Cox, longtime Braves manager and World Series champ, dies"
+      "public_headline": "Pistons vs Cavaliers Game 2 live score, updates, highlights from 2026 NBA playoffs second-round series"
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays",
+      "headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
       "url": "https://www.espn.com/mlb/scoreboard",
-      "snapshot": "0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "snapshot": "0 today finals, 1 live and 14 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_data": [
-        "UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET",
+        "LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd",
         "UPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET",
         "UPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET",
-        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET"
+        "UPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET",
+        "UPCOMING: Washington Nationals at Miami Marlins — 4:10 PM ET"
       ],
       "why_it_matters": [
         "MLB context matters because the useful journalistic question is not only what happened, but what changed competitively, financially or strategically because of it."
@@ -1701,20 +1706,20 @@
       "watch_next": [
         "Watch next in MLB: the first verified follow-up that changes stakes, availability, market price or competitive positioning."
       ],
-      "executive_takeaway": "Executive takeaway: UPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: LIVE: Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "source_quality": "Source base: ESPN and other verified sports-data/news links attached to this card.",
       "story_type": "live",
       "priority_score": 129,
       "freshness_status": "fresh",
       "source": "",
-      "public_headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays"
+      "public_headline": "Los Angeles Angels 0, Toronto Blue Jays 0 — Top 3rd"
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Oklahoma City Thunder at Los Angeles Lakers",
+      "headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live",
       "url": "https://www.espn.com/nba/scoreboard",
-      "snapshot": "2 NBA games on the board: 0 live, 0 final, 2 upcoming. Priority favors live games, marquee teams and close-score situations. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "snapshot": "2 NBA games on the board: 1 live, 0 final, 1 upcoming. Priority favors live games, marquee teams and close-score situations. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_data": [
         "NBA data read: this card keeps the strongest verified item from the feed and suppresses generic filler language."
       ],
@@ -1733,7 +1738,7 @@
       "priority_score": 129,
       "freshness_status": "fresh",
       "source": "",
-      "public_headline": "Oklahoma City Thunder at Los Angeles Lakers"
+      "public_headline": "Detroit Pistons 30, Cleveland Cavaliers 32 — Live"
     },
     {
       "league": "NHL",
@@ -1793,13 +1798,12 @@
     {
       "league": "Global Soccer",
       "key": "soccer",
-      "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-      "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
-      "snapshot": "Soccer board refreshed with 17 news items, 1 live matches, 0 finals and 0 upcoming matches. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
+      "headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
+      "url": "http://www.espn.com/soccer/report/_/gameId/740951",
+      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches. The card adds scoreboard, availability or data context so the result can be read as a reporting signal rather than a loose update.",
       "key_data": [
-        "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal",
-        "West Ham vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
         "Transfer rumors, news: Kompany approves Bayern's Gordon pursuit",
+        "Barcelona vs Real Madrid in LaLiga Clásico: TV channel, kick-off time, live stream, referee, injury and team news",
         "Table/tournament read: the most important context is whether the result changes title pressure, European qualification, relegation risk or transfer leverage."
       ],
       "why_it_matters": [
@@ -1810,15 +1814,15 @@
         "Availability trend: watch whether replacement usage changes the rotation, market price or matchup plan."
       ],
       "watch_next": [
-        "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions."
+        "Watch next in Global Soccer: the first verified follow-up that changes stakes, availability, market price or competitive positioning."
       ],
-      "executive_takeaway": "Executive takeaway: Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: Transfer rumors, news: Kompany approves Bayern's Gordon pursuit The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "source_quality": "Source base: ESPN and other verified sports-data/news links attached to this card.",
       "story_type": "live",
       "priority_score": 116,
       "freshness_status": "fresh",
       "source": "",
-      "public_headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez"
+      "public_headline": "Jeremy Doku inspires 3-0 Man City win over Brentford to close gap on Arsenal"
     },
     {
       "league": "NFL",
@@ -1827,7 +1831,7 @@
       "url": "https://www.nfl.com/news",
       "snapshot": "NFL context: NFL offseason roster signals emerging The editorial read focuses on consequence, trend and follow-up angles rather than a surface-level headline repeat.",
       "key_data": [
-        ":37:03 PM ET",
+        ":44:05 PM ET",
         "Roster read: quarterback, coaching, injury and depth-chart information carries outsized value because each game week has fewer data points."
       ],
       "why_it_matters": [
@@ -1840,7 +1844,7 @@
       "watch_next": [
         "Monitor the next official availability update before drawing betting, fantasy or tactical conclusions."
       ],
-      "executive_takeaway": "Executive takeaway: :37:03 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
+      "executive_takeaway": "Executive takeaway: :44:05 PM ET The journalism value is the consequence behind the event — competitive stakes, people affected and what changes next.",
       "source_quality": "Source base: NFL.com and other verified sports-data/news links attached to this card.",
       "story_type": "leadership",
       "priority_score": 156,
@@ -1851,14 +1855,14 @@
     {
       "league": "Betting Market Watch",
       "key": "betting_odds",
-      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)",
+      "headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)",
       "url": "https://www.actionnetwork.com/odds",
-      "snapshot": "Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180). Implied probability is approximately 64.3% based on the listed moneyline.",
+      "snapshot": "Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128). Implied probability is approximately 56.1% based on the listed moneyline.",
       "key_data": [
         "BETTING ODDS | 2026-05-09",
-        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +152 / Toronto Blue Jays -180 | Los Angeles Angels 1.5 (-138) / Toronto Blue Jays -1.5 (+116) | 8.5 (O -112 / U -108)",
-        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics 1.5 (-184) / Baltimore Orioles -1.5 (+152) | 9.5 (O -115 / U -105)",
-        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +126 / Boston Red Sox -148 | Tampa Bay Rays 1.5 (-176) / Boston Red Sox -1.5 (+146) | 7.5 (O -120 / U -102)",
+        "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +100 / Toronto Blue Jays -128 | Los Angeles Angels 1.5 (-245) / Toronto Blue Jays -1.5 (+178) | 7.5 (O +100 / U -132)",
+        "Athletics at Baltimore Orioles | Athletics +102 / Baltimore Orioles -120 | Athletics -1.5 (+152) / Baltimore Orioles 1.5 (-184) | 9.5 (O -115 / U -105)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +122 / Boston Red Sox -144 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -114 / U -106)",
         "Houston Astros at Cincinnati Reds | Houston Astros +138 / Cincinnati Reds -164 | Houston Astros 1.5 (-140) / Cincinnati Reds -1.5 (+116) | 8.5 (O -118 / U -104)"
       ],
       "why_it_matters": [
@@ -1876,7 +1880,7 @@
       "priority_score": 37,
       "freshness_status": "fresh",
       "source": "",
-      "public_headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-180)"
+      "public_headline": "MLB: Toronto Blue Jays priced as market favorite vs Los Angeles Angels (-128)"
     },
     {
       "league": "Fantasy Sports",
@@ -1888,7 +1892,7 @@
         "FANTASY SPORTS | 2026-05-09",
         "Top fantasy performers and usage trends across the board",
         "Nikola Jokic trending in usage",
-        ":37:06 PM ET",
+        ":44:09 PM ET",
         "Fantasy read: role stability, availability and usage trend matter more than name value when translating this card into lineup decisions."
       ],
       "why_it_matters": [
@@ -1949,15 +1953,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-09 02:37:08 PM ET",
-  "generated_at": "2026-05-09 02:37:08 PM ET",
-  "published_at": "2026-05-09 02:37:08 PM ET",
-  "heartbeat": "2026-05-09T14:37:08-04:00",
-  "cache_buster": "2026-05-09T14:37:08-04:00",
+  "updated_at": "2026-05-09 03:44:10 PM ET",
+  "generated_at": "2026-05-09 03:44:10 PM ET",
+  "published_at": "2026-05-09 03:44:10 PM ET",
+  "heartbeat": "2026-05-09T15:44:10-04:00",
+  "cache_buster": "2026-05-09T15:44:10-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-09 02:37:08 PM ET",
-    "last_successful_build_iso": "2026-05-09T14:37:08-04:00",
+    "last_successful_build": "2026-05-09 03:44:10 PM ET",
+    "last_successful_build_iso": "2026-05-09T15:44:10-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -1998,7 +2002,7 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 0.71,
+        "age_hours": 0.52,
         "status": "fresh",
         "max_age_hours": 6
       },
@@ -2024,8 +2028,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-09 02:37:08 PM ET",
-    "heartbeat": "2026-05-09T14:37:08-04:00"
+    "last_checked": "2026-05-09 03:44:10 PM ET",
+    "heartbeat": "2026-05-09T15:44:10-04:00"
   },
   "editorial_brain": {
     "status": "active",
