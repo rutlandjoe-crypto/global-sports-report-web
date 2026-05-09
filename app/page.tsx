@@ -101,9 +101,30 @@ function normalizeText(value: any): string {
   return cleanText(value).toLowerCase();
 }
 
+function isInternalReportLabel(value: any): boolean {
+  const text = cleanText(value);
+  if (!text) return false;
+
+  if (
+    /^(global sports report|mlb|nba|nhl|nfl|ncaafb|ncaaf|college football|soccer|global soccer|betting(?: odds)?|fantasy)(?: (?:pro|advanced|odds|sports))? report\s*\|\s*\d{4}-\d{2}-\d{2}/i.test(
+      text
+    )
+  ) {
+    return true;
+  }
+
+  return /\breport\s*\|\s*\d{4}-\d{2}-\d{2}\b/i.test(text) && text.length <= 90;
+}
+
+function publicText(value: any): string {
+  const text = cleanText(value);
+  return isInternalReportLabel(text) ? "" : text;
+}
+
 function isBadContent(value: any): boolean {
   const text = normalizeText(value);
   if (!text) return true;
+  if (isInternalReportLabel(value)) return true;
   return BAD_CONTENT_PHRASES.some((phrase) => text.includes(phrase));
 }
 
@@ -248,9 +269,10 @@ function extractHeadline(section: AnyObj): string {
   const headlineLines = extractSectionLines(section.content || "", "HEADLINE");
 
   return (
-    cleanText(section.headline) ||
-    cleanText(headlineLines[0]) ||
-    cleanText(section.title) ||
+    publicText(section.public_headline) ||
+    publicText(section.headline) ||
+    publicText(headlineLines[0]) ||
+    publicText(section.label) ||
     "Sports newsroom update"
   );
 }
@@ -301,8 +323,8 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
   return {
     id: key,
     key,
-    league: section.title || LEAGUE_LABELS[key] || key.toUpperCase(),
-    title: section.title || LEAGUE_LABELS[key] || key.toUpperCase(),
+    league: publicText(section.title) || LEAGUE_LABELS[key] || key.toUpperCase(),
+    title: publicText(section.title) || LEAGUE_LABELS[key] || key.toUpperCase(),
     headline: extractHeadline(section),
     summary: extractSnapshot(section),
     snapshot: extractSnapshot(section),
@@ -319,7 +341,7 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
 
 function normalizeStory(story: AnyObj, index: number): AnyObj {
   const key = cleanText(story.key || story.id || story.league || `story-${index}`);
-  const title = cleanText(story.title || story.league || LEAGUE_LABELS[key] || "Sports Watch");
+  const title = publicText(story.title) || publicText(story.league) || LEAGUE_LABELS[key] || "Sports Watch";
   const url = extractBestUrl(story, key);
 
   return {
@@ -328,7 +350,11 @@ function normalizeStory(story: AnyObj, index: number): AnyObj {
     key,
     league: title,
     title,
-    headline: cleanText(story.headline || story.title || story.name),
+    headline:
+      publicText(story.public_headline) ||
+      publicText(story.headline) ||
+      publicText(story.label) ||
+      publicText(story.name),
     summary: cleanText(story.summary || story.snapshot || story.description || story.body),
     snapshot: cleanText(story.snapshot || story.summary || story.description || story.body),
     url,
@@ -407,10 +433,11 @@ function getSpotlightStories(report: AnyObj, key: "live_newsroom" | "editor_sign
 
 function storyTitle(story: AnyObj, index: number): string {
   return (
-    cleanText(story.headline) ||
-    cleanText(story.title) ||
-    cleanText(story.name) ||
-    cleanText(story.league) ||
+    publicText(story.public_headline) ||
+    publicText(story.headline) ||
+    publicText(story.label) ||
+    publicText(story.name) ||
+    publicText(story.title) ||
     `Sports Storyline ${index + 1}`
   );
 }
@@ -431,7 +458,7 @@ function storySummary(story: AnyObj): string {
 }
 
 function storyLabel(story: AnyObj): string {
-  return cleanText(story.league) || cleanText(story.title) || cleanText(story.label) || "Sports Watch";
+  return publicText(story.league) || publicText(story.label) || publicText(story.title) || "Sports Watch";
 }
 
 function isPublishableStory(story: AnyObj): boolean {
