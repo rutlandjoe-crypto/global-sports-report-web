@@ -2,17 +2,72 @@
   "title": "Global Sports Report",
   "site_name": "Global Sports Report",
   "tagline": "Built for journalists, by a journalist.",
-  "headline": "New York Knicks beat Philadelphia 76ers, 108-94",
-  "snapshot": "San Antonio Spurs beat Minnesota Timberwolves, 115-108",
+  "headline": "Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa",
+  "snapshot": "Real Madrid coach Alvaro Arbeloa said Aurelien Tchouameni will be in his team's squad to face Barcelona on Sunday in La Liga, despite his confrontation with team-mate Fede Valverde.Real Madrid fined France international Tchouameni and...",
   "key_storylines": [
+    "Breaking Sports News: Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa",
     "NBA: New York Knicks beat Philadelphia 76ers, 108-94",
     "NHL: Montreal Canadiens beat Buffalo Sabres, 5-1",
-    "Breaking Sports News: LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss",
     "MLB: MLB schedule opens with Los Angeles Angels at Toronto Blue Jays",
     "Global Soccer: Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
     "College Football: College Football Watch Tracks Schedule, Recruiting and Conference Signals"
   ],
   "live_newsroom": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa",
+      "snapshot": "Real Madrid coach Alvaro Arbeloa said Aurelien Tchouameni will be in his team's squad to face Barcelona on Sunday in La Liga, despite his confrontation with team-mate Fede Valverde.Real Madrid fined France international Tchouameni and...",
+      "key_storylines": [
+        "Sports: Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa",
+        "Sports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live",
+        "MLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series",
+        "NBA: Timberwolves coach slams NBA ref for confrontation: 'Completely unprofessional behavior'",
+        "NFL: Mike McDaniel hopes to get QB Justin Herbert to \"own the position\" in a way he never has",
+        "NFL: Which Browns’ Day 3 pick will have the best career in Cleveland?",
+        "NFL: Colts draft pick profiles: Everything to know about RB Seth McGowan",
+        "NFL: Jaguars draft pick profiles: Everything to know about WR Josh Cameron"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 159,
+      "story_type": "live",
+      "content": "Sports: Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa\nSports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live\nMLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series\nNBA: Timberwolves coach slams NBA ref for confrontation: 'Completely unprofessional behavior'\nNFL: Mike McDaniel hopes to get QB Justin Herbert to \"own the position\" in a way he never has\nNFL: Which Browns’ Day 3 pick will have the best career in Cleveland?\nNFL: Colts draft pick profiles: Everything to know about RB Seth McGowan\nNFL: Jaguars draft pick profiles: Everything to know about WR Josh Cameron\nYahoo Sports: https://sports.yahoo.com/articles/tchouameni-play-clasico-despite-valverde-113510665.html\nThe Guardian Sport: https://www.theguardian.com/sport/live/2026/may/09/nottinghamshire-v-surrey-worcs-v-durham-and-more-county-cricket-live\nYahoo Sports: https://sports.yahoo.com/articles/timberwolves-coach-slams-nba-ref-115030705.html\nYahoo Sports: https://sports.yahoo.com/articles/mike-mcdaniel-hopes-qb-justin-114256250.html\nYahoo Sports: https://sports.yahoo.com/articles/browns-day-3-pick-best-115300178.html\nYahoo Sports: https://sports.yahoo.com/articles/colts-draft-pick-profiles-everything-114342964.html\nYahoo Sports: https://sports.yahoo.com/articles/jaguars-draft-pick-profiles-everything-113324599.html",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.4,
+      "lead_eligible": true,
+      "url": "https://sports.yahoo.com/articles/tchouameni-play-clasico-despite-valverde-113510665.html",
+      "source_label": "Yahoo Sports",
+      "links": [],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 0,
+        "total_links": 0,
+        "primary_url_policy": "section_url_locked"
+      }
+    },
     {
       "key": "nba",
       "title": "NBA",
@@ -40,8 +95,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "New York Knicks beat Philadelphia 76ers, 108-94\nSan Antonio Spurs beat Minnesota Timberwolves, 115-108",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:25 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:07 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -105,8 +160,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Montreal Canadiens beat Buffalo Sabres, 5-1\nVegas Golden Knights beat Anaheim Ducks, 6-2",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:25 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:07 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -174,9 +229,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-09\n\nHEADLINE\nMLB schedule opens with Los Angeles Angels at Toronto Blue Jays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nLos Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-09 07:10:23 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:23 AM ET",
+      "content": "MLB REPORT | 2026-05-09\n\nHEADLINE\nMLB schedule opens with Los Angeles Angels at Toronto Blue Jays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nLos Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-09 07:59:06 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:06 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -218,7 +273,7 @@
       "key": "soccer",
       "title": "Global Soccer",
       "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
+      "snapshot": "Soccer board refreshed with 17 news items, 1 live matches, 0 finals and 0 upcoming matches.",
       "key_storylines": [
         "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
         "Premier League live updates: Liverpool host misfiring Chelsea at Anfield",
@@ -250,8 +305,8 @@
       "priority_score": 104,
       "story_type": "live",
       "content": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez\nPremier League live updates: Liverpool host misfiring Chelsea at Anfield\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nWeekend predictions: Liverpool vs. Chelsea, Clásico, more\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:26 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:09 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
       "links": [
@@ -288,7 +343,9 @@
         "total_links": 4,
         "primary_url_policy": "section_url_locked"
       }
-    },
+    }
+  ],
+  "editor_signals": [
     {
       "key": "ncaafb",
       "title": "College Football",
@@ -329,7 +386,7 @@
       "priority_score": 84,
       "story_type": "live",
       "content": "NCAAFB REPORT | 2026-05-09\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-09 07:02:09 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
       "source_updated_at": "2026-05-09 07:02:09 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/college-football/scoreboard",
@@ -351,7 +408,7 @@
         }
       ],
       "freshness_status": "fresh",
-      "source_age_hours": 0.14,
+      "source_age_hours": 0.95,
       "lead_eligible": true,
       "source_label": "Espn",
       "external_headline": "",
@@ -361,61 +418,6 @@
         "non_espn_links": 3,
         "total_links": 3,
         "primary_url_policy": "game_context_locked"
-      }
-    }
-  ],
-  "editor_signals": [
-    {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss",
-      "snapshot": "A Los Angeles Clippers player has floated a radical rule change in response to growing frustration around NBA officiating, and the idea is already gaining traction in light of recent playoff controversies.",
-      "key_storylines": [
-        "NBA: LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss",
-        "Sports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live",
-        "MLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series",
-        "NBA: Wembanyama matches Olajuwon, Shaq, Kareem with Game 3 stat line",
-        "NFL: See it: Giants react to 'pipe dream' of landing Arvell Reese, Francis Mauigoa",
-        "NBA: Oregon's Graves talks player retention, Ducks' offseason priorities",
-        "Sports: 'Spoken to ground authorities': RR head coach Sangakkara raises concerns over Jaipur’s new LED floodlights",
-        "Sports: Penguins send three players to World Championships"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 209,
-      "story_type": "leadership",
-      "content": "NBA: LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss\nSports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live\nMLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series\nNBA: Wembanyama matches Olajuwon, Shaq, Kareem with Game 3 stat line\nNFL: See it: Giants react to 'pipe dream' of landing Arvell Reese, Francis Mauigoa\nNBA: Oregon's Graves talks player retention, Ducks' offseason priorities\nSports: 'Spoken to ground authorities': RR head coach Sangakkara raises concerns over Jaipur’s new LED floodlights\nSports: Penguins send three players to World Championships\nYahoo Sports: https://sports.yahoo.com/articles/la-clippers-star-wants-nba-110000693.html\nThe Guardian Sport: https://www.theguardian.com/sport/live/2026/may/09/nottinghamshire-v-surrey-worcs-v-durham-and-more-county-cricket-live\nYahoo Sports: https://sports.yahoo.com/articles/see-giants-react-pipe-dream-110255120.html\nYahoo Sports: https://sports.yahoo.com/articles/oregons-graves-talks-player-retention-110055699.html\nYahoo Sports: https://sports.yahoo.com/articles/spoken-ground-authorities-rr-head-110000344.html\nYahoo Sports: https://sports.yahoo.com/articles/penguins-send-three-players-world-110000023.html",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 0.17,
-      "lead_eligible": true,
-      "url": "https://sports.yahoo.com/articles/la-clippers-star-wants-nba-110000693.html",
-      "source_label": "Yahoo Sports",
-      "links": [],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "sports.yahoo.com",
-        "non_espn_links": 0,
-        "total_links": 0,
-        "primary_url_policy": "section_url_locked"
       }
     },
     {
@@ -430,7 +432,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":10:25 AM ET"
+        ":59:07 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -445,17 +447,12 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-09\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-09 07:10:25 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:25 AM ET",
+      "content": "NFL REPORT | 2026-05-09\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-09 07:59:07 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:07 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/see-giants-react-pipe-dream-110255120.html",
-          "headline": "See it: Giants react to 'pipe dream' of landing Arvell Reese, Francis Mauigoa"
-        },
         {
           "label": "NFL.com News",
           "url": "https://www.nfl.com/news",
@@ -480,8 +477,8 @@
       "source_diversity": {
         "status": "active",
         "primary_domain": "nfl.com",
-        "non_espn_links": 4,
-        "total_links": 4,
+        "non_espn_links": 3,
+        "total_links": 3,
         "primary_url_policy": "section_url_locked"
       }
     },
@@ -495,9 +492,9 @@
         "MLB",
         "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +154 / Toronto Blue Jays -184 | Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | 8.0 (O -112 / U -108)",
         "Athletics at Baltimore Orioles | Athletics +110 / Baltimore Orioles -130 | Athletics 1.5 (-182) / Baltimore Orioles -1.5 (+150) | 9.5 (O +100 / U -122)",
-        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -110 / U -110)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150) | 7.5 (O -110 / U -110)",
         "Houston Astros at Cincinnati Reds | Houston Astros +132 / Cincinnati Reds -156 | Houston Astros 1.5 (-154) / Cincinnati Reds -1.5 (+128) | 8.5 (O -110 / U -110)",
-        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -115 / U -105)"
+        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -118 / U -104)"
       ],
       "final_scores": [],
       "live_games": [],
@@ -511,9 +508,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-09\n\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +154 / Toronto Blue Jays -184 | Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | 8.0 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +110 / Baltimore Orioles -130 | Athletics 1.5 (-182) / Baltimore Orioles -1.5 (+150) | 9.5 (O +100 / U -122)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -110 / U -110)\nHouston Astros at Cincinnati Reds | Houston Astros +132 / Cincinnati Reds -156 | Houston Astros 1.5 (-154) / Cincinnati Reds -1.5 (+128) | 8.5 (O -110 / U -110)\nWashington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -115 / U -105)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +152 / Philadelphia Phillies -180 | Colorado Rockies 1.5 (-138) / Philadelphia Phillies -1.5 (+115) | 8.5 (O -105 / U -115)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins -102 / Cleveland Guardians -116 | Minnesota Twins -1.5 (+155) / Cleveland Guardians 1.5 (-188) | 7.5 (O -122 / U +100)\nChicago Cubs at Texas Rangers | Chicago Cubs -138 / Texas Rangers +118 | Chicago Cubs -1.5 (+125) / Texas Rangers 1.5 (-150) | 8.5 (O -108 / U -112)\n\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +150 / Cleveland Cavaliers -178 | Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | 211.5 (O -112 / U -108)\nNew York Knicks at Philadelphia 76ers | New York Knicks -118 / Philadelphia 76ers +100 | New York Knicks -1.5 (-106) / Philadelphia 76ers 1.5 (-114) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -184 / Minnesota Timberwolves +154 | San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112) | 217.5 (O -110 / U -110)\n\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -194 / Philadelphia Flyers +160 | Carolina Hurricanes -1.5 (+130) / Philadelphia Flyers 1.5 (-158) | 5.5 (O +116 / U -142)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230) | 6.5 (O +110 / U -130)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +106 / Montréal Canadiens -128 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -134 / U +110)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -112 / U -108)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -120 / Toronto FC +265 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -190 | Spread N/A | 3.5 (O -114 / U -114)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +480 / Nashville SC -180 | Spread N/A | 2.5 (O -109 / U -120)\n\nUPDATED\n2026-05-09 07:10:27 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:27 AM ET",
+      "content": "BETTING ODDS | 2026-05-09\n\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +154 / Toronto Blue Jays -184 | Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | 8.0 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +110 / Baltimore Orioles -130 | Athletics 1.5 (-182) / Baltimore Orioles -1.5 (+150) | 9.5 (O +100 / U -122)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150) | 7.5 (O -110 / U -110)\nHouston Astros at Cincinnati Reds | Houston Astros +132 / Cincinnati Reds -156 | Houston Astros 1.5 (-154) / Cincinnati Reds -1.5 (+128) | 8.5 (O -110 / U -110)\nWashington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -118 / U -104)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +152 / Philadelphia Phillies -180 | Colorado Rockies 1.5 (-138) / Philadelphia Phillies -1.5 (+115) | 8.5 (O -105 / U -115)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins -102 / Cleveland Guardians -116 | Minnesota Twins -1.5 (+155) / Cleveland Guardians 1.5 (-188) | 7.5 (O -122 / U +100)\nChicago Cubs at Texas Rangers | Chicago Cubs -138 / Texas Rangers +118 | Chicago Cubs -1.5 (+125) / Texas Rangers 1.5 (-150) | 8.5 (O -108 / U -112)\n\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +150 / Cleveland Cavaliers -178 | Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | 211.5 (O -112 / U -108)\nNew York Knicks at Philadelphia 76ers | New York Knicks -118 / Philadelphia 76ers +100 | New York Knicks -1.5 (-106) / Philadelphia 76ers 1.5 (-114) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -184 / Minnesota Timberwolves +154 | San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112) | 217.5 (O -110 / U -110)\n\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -188 / Philadelphia Flyers +155 | Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164) | 5.5 (O +118 / U -144)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230) | 6.5 (O +110 / U -130)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +106 / Montréal Canadiens -128 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -134 / U +110)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -112 / U -108)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -120 / Toronto FC +265 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -190 | Spread N/A | 3.5 (O -114 / U -114)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +480 / Nashville SC -180 | Spread N/A | 2.5 (O -109 / U -120)\n\nUPDATED\n2026-05-09 07:59:09 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:09 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -577,9 +574,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-09\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-09 07:10:27 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:27 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-09\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-09 07:59:10 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:10 AM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -613,9 +610,64 @@
       }
     }
   ],
-  "lead_section": "nba",
+  "lead_section": "breaking_news",
   "lead_story_type": "live",
   "sections": [
+    {
+      "key": "breaking_news",
+      "title": "Breaking Sports News",
+      "headline": "Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa",
+      "snapshot": "Real Madrid coach Alvaro Arbeloa said Aurelien Tchouameni will be in his team's squad to face Barcelona on Sunday in La Liga, despite his confrontation with team-mate Fede Valverde.Real Madrid fined France international Tchouameni and...",
+      "key_storylines": [
+        "Sports: Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa",
+        "Sports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live",
+        "MLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series",
+        "NBA: Timberwolves coach slams NBA ref for confrontation: 'Completely unprofessional behavior'",
+        "NFL: Mike McDaniel hopes to get QB Justin Herbert to \"own the position\" in a way he never has",
+        "NFL: Which Browns’ Day 3 pick will have the best career in Cleveland?",
+        "NFL: Colts draft pick profiles: Everything to know about RB Seth McGowan",
+        "NFL: Jaguars draft pick profiles: Everything to know about WR Josh Cameron"
+      ],
+      "final_scores": [],
+      "live_games": [],
+      "upcoming": [],
+      "advanced": [
+        "Breaking-news layer is active.",
+        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
+        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
+      ],
+      "why_it_matters": [
+        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
+        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability.",
+        "Breaking Sports News availability changes can reshape betting markets, lineup decisions and story angles.",
+        "Breaking Sports News roster-building signals matter for reporters tracking long-term organizational direction."
+      ],
+      "story_angles": [
+        "What changed since the last site update?",
+        "Which newsroom follow-up should happen first?",
+        "Which team, player or league source should be checked next?",
+        "Does this change the lead story across the sports homepage?"
+      ],
+      "priority_score": 159,
+      "story_type": "live",
+      "content": "Sports: Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa\nSports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live\nMLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series\nNBA: Timberwolves coach slams NBA ref for confrontation: 'Completely unprofessional behavior'\nNFL: Mike McDaniel hopes to get QB Justin Herbert to \"own the position\" in a way he never has\nNFL: Which Browns’ Day 3 pick will have the best career in Cleveland?\nNFL: Colts draft pick profiles: Everything to know about RB Seth McGowan\nNFL: Jaguars draft pick profiles: Everything to know about WR Josh Cameron\nYahoo Sports: https://sports.yahoo.com/articles/tchouameni-play-clasico-despite-valverde-113510665.html\nThe Guardian Sport: https://www.theguardian.com/sport/live/2026/may/09/nottinghamshire-v-surrey-worcs-v-durham-and-more-county-cricket-live\nYahoo Sports: https://sports.yahoo.com/articles/timberwolves-coach-slams-nba-ref-115030705.html\nYahoo Sports: https://sports.yahoo.com/articles/mike-mcdaniel-hopes-qb-justin-114256250.html\nYahoo Sports: https://sports.yahoo.com/articles/browns-day-3-pick-best-115300178.html\nYahoo Sports: https://sports.yahoo.com/articles/colts-draft-pick-profiles-everything-114342964.html\nYahoo Sports: https://sports.yahoo.com/articles/jaguars-draft-pick-profiles-everything-113324599.html",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_file": "breaking_news_engine",
+      "freshness_status": "fresh",
+      "source_age_hours": 0.4,
+      "lead_eligible": true,
+      "url": "https://sports.yahoo.com/articles/tchouameni-play-clasico-despite-valverde-113510665.html",
+      "source_label": "Yahoo Sports",
+      "links": [],
+      "external_headline": "",
+      "source_diversity": {
+        "status": "active",
+        "primary_domain": "sports.yahoo.com",
+        "non_espn_links": 0,
+        "total_links": 0,
+        "primary_url_policy": "section_url_locked"
+      }
+    },
     {
       "key": "nba",
       "title": "NBA",
@@ -643,8 +695,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "New York Knicks beat Philadelphia 76ers, 108-94\nSan Antonio Spurs beat Minnesota Timberwolves, 115-108",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:25 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:07 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nba/scoreboard",
       "links": [
@@ -708,8 +760,8 @@
       "priority_score": 117,
       "story_type": "live",
       "content": "Montreal Canadiens beat Buffalo Sabres, 5-1\nVegas Golden Knights beat Anaheim Ducks, 6-2",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:25 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:07 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/nhl/scoreboard",
       "links": [
@@ -748,59 +800,6 @@
       }
     },
     {
-      "key": "breaking_news",
-      "title": "Breaking Sports News",
-      "headline": "LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss",
-      "snapshot": "A Los Angeles Clippers player has floated a radical rule change in response to growing frustration around NBA officiating, and the idea is already gaining traction in light of recent playoff controversies.",
-      "key_storylines": [
-        "NBA: LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss",
-        "Sports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live",
-        "MLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series",
-        "NBA: Wembanyama matches Olajuwon, Shaq, Kareem with Game 3 stat line",
-        "NFL: See it: Giants react to 'pipe dream' of landing Arvell Reese, Francis Mauigoa",
-        "NBA: Oregon's Graves talks player retention, Ducks' offseason priorities",
-        "Sports: 'Spoken to ground authorities': RR head coach Sangakkara raises concerns over Jaipur’s new LED floodlights",
-        "Sports: Penguins send three players to World Championships"
-      ],
-      "final_scores": [],
-      "live_games": [],
-      "upcoming": [],
-      "advanced": [
-        "Breaking-news layer is active.",
-        "Homepage lead requires breaking news under 3 hours old or a stronger live/final sports signal.",
-        "Older context can remain on the board but is demoted below fresher live, final or current schedule signals."
-      ],
-      "why_it_matters": [
-        "Breaking Sports News leadership movement can reset the short-term news cycle and change how teams are covered.",
-        "Breaking Sports News postseason context raises urgency because every result affects matchups, pressure and availability."
-      ],
-      "story_angles": [
-        "What changed since the last site update?",
-        "Which newsroom follow-up should happen first?",
-        "Which team, player or league source should be checked next?",
-        "Does this change the lead story across the sports homepage?"
-      ],
-      "priority_score": 209,
-      "story_type": "leadership",
-      "content": "NBA: LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss\nSports: Nottinghamshire v Surrey, Worcs v Durham, and more: county cricket – live\nMLB: San Francisco Giants and Pittsburgh Pirates play in game 2 of series\nNBA: Wembanyama matches Olajuwon, Shaq, Kareem with Game 3 stat line\nNFL: See it: Giants react to 'pipe dream' of landing Arvell Reese, Francis Mauigoa\nNBA: Oregon's Graves talks player retention, Ducks' offseason priorities\nSports: 'Spoken to ground authorities': RR head coach Sangakkara raises concerns over Jaipur’s new LED floodlights\nSports: Penguins send three players to World Championships\nYahoo Sports: https://sports.yahoo.com/articles/la-clippers-star-wants-nba-110000693.html\nThe Guardian Sport: https://www.theguardian.com/sport/live/2026/may/09/nottinghamshire-v-surrey-worcs-v-durham-and-more-county-cricket-live\nYahoo Sports: https://sports.yahoo.com/articles/see-giants-react-pipe-dream-110255120.html\nYahoo Sports: https://sports.yahoo.com/articles/oregons-graves-talks-player-retention-110055699.html\nYahoo Sports: https://sports.yahoo.com/articles/spoken-ground-authorities-rr-head-110000344.html\nYahoo Sports: https://sports.yahoo.com/articles/penguins-send-three-players-world-110000023.html",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_file": "breaking_news_engine",
-      "freshness_status": "fresh",
-      "source_age_hours": 0.17,
-      "lead_eligible": true,
-      "url": "https://sports.yahoo.com/articles/la-clippers-star-wants-nba-110000693.html",
-      "source_label": "Yahoo Sports",
-      "links": [],
-      "external_headline": "",
-      "source_diversity": {
-        "status": "active",
-        "primary_domain": "sports.yahoo.com",
-        "non_espn_links": 0,
-        "total_links": 0,
-        "primary_url_policy": "section_url_locked"
-      }
-    },
-    {
       "key": "mlb",
       "title": "MLB",
       "headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays",
@@ -830,9 +829,9 @@
       ],
       "priority_score": 117,
       "story_type": "live",
-      "content": "MLB REPORT | 2026-05-09\n\nHEADLINE\nMLB schedule opens with Los Angeles Angels at Toronto Blue Jays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nLos Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-09 07:10:23 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:23 AM ET",
+      "content": "MLB REPORT | 2026-05-09\n\nHEADLINE\nMLB schedule opens with Los Angeles Angels at Toronto Blue Jays\n\nSNAPSHOT\n0 today finals, 0 live and 15 scheduled for 2026-05-09 ET. Final/live items lead; schedule items stay lower unless news breaks.\n\nKEY STORYLINES\nUPCOMING: Los Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nUPCOMING: Athletics at Baltimore Orioles — 4:05 PM ET\nUPCOMING: Houston Astros at Cincinnati Reds — 4:10 PM ET\nUPCOMING: Tampa Bay Rays at Boston Red Sox — 4:10 PM ET\n\nTODAY FINAL SCORES\n- None\n\nTODAY LIVE\n- None\n\nTODAY SCHEDULE\nLos Angeles Angels at Toronto Blue Jays — 3:07 PM ET\nAthletics at Baltimore Orioles — 4:05 PM ET\nHouston Astros at Cincinnati Reds — 4:10 PM ET\nTampa Bay Rays at Boston Red Sox — 4:10 PM ET\nWashington Nationals at Miami Marlins — 4:10 PM ET\nColorado Rockies at Philadelphia Phillies — 6:05 PM ET\nMinnesota Twins at Cleveland Guardians — 6:10 PM ET\nChicago Cubs at Texas Rangers — 7:05 PM ET\nDetroit Tigers at Kansas City Royals — 7:10 PM ET\nNew York Yankees at Milwaukee Brewers — 7:10 PM ET\nSeattle Mariners at Chicago White Sox — 7:10 PM ET\nNew York Mets at Arizona Diamondbacks — 7:15 PM ET\nSt. Louis Cardinals at San Diego Padres — 7:15 PM ET\nPittsburgh Pirates at San Francisco Giants — 9:05 PM ET\nAtlanta Braves at Los Angeles Dodgers — 9:10 PM ET\n\nWHY IT MATTERS\nMLB coverage should separate final scores, live games and upcoming matchups so journalists can quickly identify recap leads, live monitoring needs and lower-priority planning items.\n\nSTORY ANGLES\nWhich result changes the main baseball conversation?\nWhich pitcher, bullpen or lineup decision deserves deeper review?\nWhich matchup has enough injury, standings or Statcast context to move beyond a basic preview?\n\nUPDATED\n2026-05-09 07:59:06 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:06 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/mlb/scoreboard",
       "links": [
@@ -874,7 +873,7 @@
       "key": "soccer",
       "title": "Global Soccer",
       "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
-      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
+      "snapshot": "Soccer board refreshed with 17 news items, 1 live matches, 0 finals and 0 upcoming matches.",
       "key_storylines": [
         "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
         "Premier League live updates: Liverpool host misfiring Chelsea at Anfield",
@@ -906,8 +905,8 @@
       "priority_score": 104,
       "story_type": "live",
       "content": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez\nPremier League live updates: Liverpool host misfiring Chelsea at Anfield\nTracking title races, relegation: How Barcelona can win LaLiga title vs. Real Madrid\nWeekend predictions: Liverpool vs. Chelsea, Clásico, more\nTransfer rumors, news: Kompany approves Bayern's Gordon pursuit\nPSG denied late penalty as Lorient take point at Parc des Princes",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:26 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:09 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
       "links": [
@@ -985,7 +984,7 @@
       "priority_score": 84,
       "story_type": "live",
       "content": "NCAAFB REPORT | 2026-05-09\n\nHEADLINE\nCollege football schedule loaded with 10 upcoming matchups across the board.\n\nSNAPSHOT\n- 0 final games logged\n- 0 games currently live\n- 10 upcoming matchups\n\nKEY DATA POINTS\n- Scoreboard is cleanly split between finals, live, and upcoming\n- No blending of yesterday and today data\n- 0 finals available for recap framing\n- 10 games available for preview angles\n\nWHY IT MATTERS\n- Clear scoreboard separation improves usability for journalists\n- Prevents stale data from appearing in active reporting windows\n- Supports both recap and preview workflows cleanly\n\nSTORY ANGLES\n- Preview-driven coverage leads current reporting\n\nFINAL SCORES\n- None\n\nLIVE\n- None\n\nUPCOMING\n- North Carolina Tar Heels at TCU Horned Frogs - TBD.\n- Hawai'i Rainbow Warriors at Stanford Cardinal - TBD.\n- NC State Wolfpack at Virginia Cavaliers - TBD.\n- Memphis Tigers at UNLV Rebels - TBD.\n- San José State Spartans at USC Trojans - TBD.\n- New Mexico State Aggies at Florida State Seminoles - TBD.\n- Jacksonville State Gamecocks at North Dakota State Bison - TBD.\n- Sacramento State Hornets at Eastern Michigan Eagles - TBD.\n- Arkansas-Pine Bluff Golden Lions at Missouri Tigers - TBD.\n- Bethune-Cookman Wildcats at UCF Knights - TBD.\n\nUPDATED\n2026-05-09 07:02:09 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
       "source_updated_at": "2026-05-09 07:02:09 AM ET",
       "source_file": "",
       "url": "https://www.espn.com/college-football/scoreboard",
@@ -1007,7 +1006,7 @@
         }
       ],
       "freshness_status": "fresh",
-      "source_age_hours": 0.14,
+      "source_age_hours": 0.95,
       "lead_eligible": true,
       "source_label": "Espn",
       "external_headline": "",
@@ -1031,7 +1030,7 @@
         "SNAPSHOT",
         "No active games; offseason coverage signals in focus",
         "UPDATED",
-        ":10:25 AM ET"
+        ":59:07 AM ET"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1046,17 +1045,12 @@
       ],
       "priority_score": 37,
       "story_type": "generic",
-      "content": "NFL REPORT | 2026-05-09\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-09 07:10:25 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:25 AM ET",
+      "content": "NFL REPORT | 2026-05-09\n\nHEADLINE\nNFL offseason roster signals emerging\n\nSNAPSHOT\nNo active games; offseason coverage signals in focus\n\nUPDATED\n2026-05-09 07:59:07 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:07 AM ET",
       "source_file": "",
       "url": "https://www.nfl.com/news",
       "links": [
-        {
-          "label": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/see-giants-react-pipe-dream-110255120.html",
-          "headline": "See it: Giants react to 'pipe dream' of landing Arvell Reese, Francis Mauigoa"
-        },
         {
           "label": "NFL.com News",
           "url": "https://www.nfl.com/news",
@@ -1081,8 +1075,8 @@
       "source_diversity": {
         "status": "active",
         "primary_domain": "nfl.com",
-        "non_espn_links": 4,
-        "total_links": 4,
+        "non_espn_links": 3,
+        "total_links": 3,
         "primary_url_policy": "section_url_locked"
       }
     },
@@ -1096,9 +1090,9 @@
         "MLB",
         "Los Angeles Angels at Toronto Blue Jays | Los Angeles Angels +154 / Toronto Blue Jays -184 | Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | 8.0 (O -112 / U -108)",
         "Athletics at Baltimore Orioles | Athletics +110 / Baltimore Orioles -130 | Athletics 1.5 (-182) / Baltimore Orioles -1.5 (+150) | 9.5 (O +100 / U -122)",
-        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -110 / U -110)",
+        "Tampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150) | 7.5 (O -110 / U -110)",
         "Houston Astros at Cincinnati Reds | Houston Astros +132 / Cincinnati Reds -156 | Houston Astros 1.5 (-154) / Cincinnati Reds -1.5 (+128) | 8.5 (O -110 / U -110)",
-        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -115 / U -105)"
+        "Washington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -118 / U -104)"
       ],
       "final_scores": [],
       "live_games": [],
@@ -1112,9 +1106,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "BETTING ODDS | 2026-05-09\n\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +154 / Toronto Blue Jays -184 | Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | 8.0 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +110 / Baltimore Orioles -130 | Athletics 1.5 (-182) / Baltimore Orioles -1.5 (+150) | 9.5 (O +100 / U -122)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-178) / Boston Red Sox -1.5 (+146) | 7.5 (O -110 / U -110)\nHouston Astros at Cincinnati Reds | Houston Astros +132 / Cincinnati Reds -156 | Houston Astros 1.5 (-154) / Cincinnati Reds -1.5 (+128) | 8.5 (O -110 / U -110)\nWashington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -115 / U -105)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +152 / Philadelphia Phillies -180 | Colorado Rockies 1.5 (-138) / Philadelphia Phillies -1.5 (+115) | 8.5 (O -105 / U -115)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins -102 / Cleveland Guardians -116 | Minnesota Twins -1.5 (+155) / Cleveland Guardians 1.5 (-188) | 7.5 (O -122 / U +100)\nChicago Cubs at Texas Rangers | Chicago Cubs -138 / Texas Rangers +118 | Chicago Cubs -1.5 (+125) / Texas Rangers 1.5 (-150) | 8.5 (O -108 / U -112)\n\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +150 / Cleveland Cavaliers -178 | Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | 211.5 (O -112 / U -108)\nNew York Knicks at Philadelphia 76ers | New York Knicks -118 / Philadelphia 76ers +100 | New York Knicks -1.5 (-106) / Philadelphia 76ers 1.5 (-114) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -184 / Minnesota Timberwolves +154 | San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112) | 217.5 (O -110 / U -110)\n\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -194 / Philadelphia Flyers +160 | Carolina Hurricanes -1.5 (+130) / Philadelphia Flyers 1.5 (-158) | 5.5 (O +116 / U -142)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230) | 6.5 (O +110 / U -130)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +106 / Montréal Canadiens -128 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -134 / U +110)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -112 / U -108)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -120 / Toronto FC +265 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -190 | Spread N/A | 3.5 (O -114 / U -114)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +480 / Nashville SC -180 | Spread N/A | 2.5 (O -109 / U -120)\n\nUPDATED\n2026-05-09 07:10:27 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:27 AM ET",
+      "content": "BETTING ODDS | 2026-05-09\n\nMLB\nLos Angeles Angels at Toronto Blue Jays | Los Angeles Angels +154 / Toronto Blue Jays -184 | Los Angeles Angels 1.5 (-140) / Toronto Blue Jays -1.5 (+116) | 8.0 (O -112 / U -108)\nAthletics at Baltimore Orioles | Athletics +110 / Baltimore Orioles -130 | Athletics 1.5 (-182) / Baltimore Orioles -1.5 (+150) | 9.5 (O +100 / U -122)\nTampa Bay Rays at Boston Red Sox | Tampa Bay Rays +128 / Boston Red Sox -152 | Tampa Bay Rays 1.5 (-182) / Boston Red Sox -1.5 (+150) | 7.5 (O -110 / U -110)\nHouston Astros at Cincinnati Reds | Houston Astros +132 / Cincinnati Reds -156 | Houston Astros 1.5 (-154) / Cincinnati Reds -1.5 (+128) | 8.5 (O -110 / U -110)\nWashington Nationals at Miami Marlins | Washington Nationals +132 / Miami Marlins -156 | Washington Nationals 1.5 (-156) / Miami Marlins -1.5 (+130) | 8.5 (O -118 / U -104)\nColorado Rockies at Philadelphia Phillies | Colorado Rockies +152 / Philadelphia Phillies -180 | Colorado Rockies 1.5 (-138) / Philadelphia Phillies -1.5 (+115) | 8.5 (O -105 / U -115)\nMinnesota Twins at Cleveland Guardians | Minnesota Twins -102 / Cleveland Guardians -116 | Minnesota Twins -1.5 (+155) / Cleveland Guardians 1.5 (-188) | 7.5 (O -122 / U +100)\nChicago Cubs at Texas Rangers | Chicago Cubs -138 / Texas Rangers +118 | Chicago Cubs -1.5 (+125) / Texas Rangers 1.5 (-150) | 8.5 (O -108 / U -112)\n\nNBA\nDetroit Pistons at Cleveland Cavaliers | Detroit Pistons +150 / Cleveland Cavaliers -178 | Detroit Pistons 4.5 (-114) / Cleveland Cavaliers -4.5 (-106) | 211.5 (O -110 / U -110)\nOklahoma City Thunder at Los Angeles Lakers | Oklahoma City Thunder -370 / Los Angeles Lakers +295 | Oklahoma City Thunder -8.5 (-112) / Los Angeles Lakers 8.5 (-108) | 211.5 (O -112 / U -108)\nNew York Knicks at Philadelphia 76ers | New York Knicks -118 / Philadelphia 76ers +100 | New York Knicks -1.5 (-106) / Philadelphia 76ers 1.5 (-114) | 212.5 (O -110 / U -110)\nSan Antonio Spurs at Minnesota Timberwolves | San Antonio Spurs -184 / Minnesota Timberwolves +154 | San Antonio Spurs -4.5 (-108) / Minnesota Timberwolves 4.5 (-112) | 217.5 (O -110 / U -110)\n\nNHL\nCarolina Hurricanes at Philadelphia Flyers | Carolina Hurricanes -188 / Philadelphia Flyers +155 | Carolina Hurricanes -1.5 (+134) / Philadelphia Flyers 1.5 (-164) | 5.5 (O +118 / U -144)\nColorado Avalanche at Minnesota Wild | Colorado Avalanche -130 / Minnesota Wild +110 | Colorado Avalanche -1.5 (+190) / Minnesota Wild 1.5 (-230) | 6.5 (O +110 / U -130)\nBuffalo Sabres at Montréal Canadiens | Buffalo Sabres +106 / Montréal Canadiens -128 | Buffalo Sabres 1.5 (-220) / Montréal Canadiens -1.5 (+176) | 5.5 (O -134 / U +110)\nVegas Golden Knights at Anaheim Ducks | Vegas Golden Knights -122 / Anaheim Ducks +102 | Vegas Golden Knights -1.5 (+205) / Anaheim Ducks 1.5 (-250) | 6.5 (O -112 / U -108)\n\nNFL\nSan Francisco 49ers at Los Angeles Rams | San Francisco 49ers +124 / Los Angeles Rams -148 | San Francisco 49ers 2.5 (+100) / Los Angeles Rams -2.5 (-120) | 48.5 (O -110 / U -110)\n\nNCAAF\nNC State Wolfpack at Virginia Cavaliers | NC State Wolfpack +115 / Virginia Cavaliers -138 | NC State Wolfpack 2.5 (-105) / Virginia Cavaliers -2.5 (-115) | 54.5 (O -105 / U -115)\nNorth Carolina Tar Heels at TCU Horned Frogs | North Carolina Tar Heels +210 / TCU Horned Frogs -260 | North Carolina Tar Heels 6.5 (-102) / TCU Horned Frogs -6.5 (-120) | 50.5 (O -105 / U -115)\nBaylor Bears at Auburn Tigers | Baylor Bears +250 / Auburn Tigers -315 | Baylor Bears 7.5 (-110) / Auburn Tigers -7.5 (-110) | 58.5 (O -110 / U -110)\nUCLA Bruins at California Golden Bears | UCLA Bruins +102 / California Golden Bears -122 | UCLA Bruins 1.5 (-110) / California Golden Bears -1.5 (-110) | 53.5 (O -110 / U -110)\nClemson Tigers at LSU Tigers | Clemson Tigers +365 / LSU Tigers -490 | Clemson Tigers 11.5 (-110) / LSU Tigers -11.5 (-110) | 50.5 (O -110 / U -110)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -275 | Louisville Cardinals 7.5 (-120) / Ole Miss Rebels -7.5 (-102) | 53.5 (O -110 / U -110)\nNotre Dame Fighting Irish at Wisconsin Badgers | Notre Dame Fighting Irish -1800 / Wisconsin Badgers +920 | Notre Dame Fighting Irish -19.5 (-110) / Wisconsin Badgers 19.5 (-110) | 46.5 (O -115 / U -105)\nLouisville Cardinals at Ole Miss Rebels | Louisville Cardinals +220 / Ole Miss Rebels -270 | Louisville Cardinals 7.0 (-110) / Ole Miss Rebels -7.0 (-110) | 53.5 (O -115 / U -105)\n\nSOCCER\nInter Miami CF at Toronto FC | Inter Miami CF -120 / Toronto FC +265 | Spread N/A | 3.5 (O +114 / U -148)\nNew York Red Bulls at Chicago Fire | New York Red Bulls +400 / Chicago Fire -190 | Spread N/A | 3.5 (O -114 / U -114)\nOrlando City SC at CF Montreal | Orlando City SC +275 / CF Montreal -121 | Spread N/A | 3.5 (O +120 / U -159)\nLA Galaxy at Atlanta United FC | LA Galaxy +170 / Atlanta United FC +143 | Spread N/A | 2.5 (O -143 / U +112)\nFC Cincinnati at Charlotte FC | FC Cincinnati +210 / Charlotte FC +110 | Spread N/A | 3.5 (O +140 / U -182)\nPhiladelphia Union at New England Revolution | Philadelphia Union +163 / New England Revolution +155 | Spread N/A | 2.5 (O -110 / U -117)\nReal Salt Lake at FC Dallas | Real Salt Lake +180 / FC Dallas +125 | Spread N/A | 3.5 (O +132 / U -175)\nD.C. United at Nashville SC | D.C. United +480 / Nashville SC -180 | Spread N/A | 2.5 (O -109 / U -120)\n\nUPDATED\n2026-05-09 07:59:09 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:09 AM ET",
       "source_file": "",
       "url": "https://www.actionnetwork.com/odds",
       "links": [
@@ -1178,9 +1172,9 @@
       ],
       "priority_score": 25,
       "story_type": "generic",
-      "content": "FANTASY SPORTS | 2026-05-09\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-09 07:10:27 AM ET",
-      "updated_at": "2026-05-09 07:10:32 AM ET",
-      "source_updated_at": "2026-05-09 07:10:27 AM ET",
+      "content": "FANTASY SPORTS | 2026-05-09\n\nHEADLINE\nTop fantasy performers and usage trends across the board\n\nKEY STORYLINES\n- Nikola Jokic trending in usage\n- Luka Doncic high-volume scoring stretch\n- Jayson Tatum strong minutes load\n- Shai Gilgeous-Alexander elite production run\n\nUPDATED\n2026-05-09 07:59:10 AM ET",
+      "updated_at": "2026-05-09 07:59:13 AM ET",
+      "source_updated_at": "2026-05-09 07:59:10 AM ET",
       "source_file": "",
       "url": "https://www.cbssports.com/fantasy/",
       "links": [
@@ -1216,6 +1210,17 @@
   ],
   "homepage_cards": [
     {
+      "league": "Breaking Sports News",
+      "key": "breaking_news",
+      "headline": "Tchouameni can play Clasico despite Valverde clash: Real Madrid's Arbeloa",
+      "url": "https://sports.yahoo.com/articles/tchouameni-play-clasico-despite-valverde-113510665.html",
+      "snapshot": "Real Madrid coach Alvaro Arbeloa said Aurelien Tchouameni will be in his team's squad to face Barcelona on Sunday in La Liga, despite his confrontation with team-mate Fede...",
+      "story_type": "live",
+      "priority_score": 159,
+      "freshness_status": "fresh",
+      "source": "breaking_news_engine"
+    },
+    {
       "league": "NBA",
       "key": "nba",
       "headline": "New York Knicks beat Philadelphia 76ers, 108-94",
@@ -1238,17 +1243,6 @@
       "source": ""
     },
     {
-      "league": "Breaking Sports News",
-      "key": "breaking_news",
-      "headline": "LA Clippers star wants the NBA to introduce red card in basketball after terrible officiating in Lakers’ loss",
-      "url": "https://sports.yahoo.com/articles/la-clippers-star-wants-nba-110000693.html",
-      "snapshot": "A Los Angeles Clippers player has floated a radical rule change in response to growing frustration around NBA officiating, and the idea is already gaining traction in light of...",
-      "story_type": "leadership",
-      "priority_score": 209,
-      "freshness_status": "fresh",
-      "source": "breaking_news_engine"
-    },
-    {
       "league": "MLB",
       "key": "mlb",
       "headline": "MLB schedule opens with Los Angeles Angels at Toronto Blue Jays",
@@ -1264,7 +1258,7 @@
       "key": "soccer",
       "headline": "Transfer rumors, news: Chelsea, Newcastle monitor free agent Darwin Núñez",
       "url": "https://www.espn.com/soccer/story/_/id/48719479/transfer-rumors-news-chelsea-newcastle-monitor-former-liverpool-free-agent-darwin-nunez",
-      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 0 finals and 0 upcoming matches.",
+      "snapshot": "Soccer board refreshed with 17 news items, 1 live matches, 0 finals and 0 upcoming matches.",
       "story_type": "live",
       "priority_score": 104,
       "freshness_status": "fresh",
@@ -1355,15 +1349,15 @@
   },
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com",
-  "updated_at": "2026-05-09 07:10:28 AM ET",
-  "generated_at": "2026-05-09 07:10:28 AM ET",
-  "published_at": "2026-05-09 07:10:28 AM ET",
-  "heartbeat": "2026-05-09T07:10:28-04:00",
-  "cache_buster": "2026-05-09T07:10:28-04:00",
+  "updated_at": "2026-05-09 07:59:10 AM ET",
+  "generated_at": "2026-05-09 07:59:10 AM ET",
+  "published_at": "2026-05-09 07:59:10 AM ET",
+  "heartbeat": "2026-05-09T07:59:10-04:00",
+  "cache_buster": "2026-05-09T07:59:10-04:00",
   "automation_status": {
     "status": "running",
-    "last_successful_build": "2026-05-09 07:10:28 AM ET",
-    "last_successful_build_iso": "2026-05-09T07:10:28-04:00",
+    "last_successful_build": "2026-05-09 07:59:10 AM ET",
+    "last_successful_build_iso": "2026-05-09T07:59:10-04:00",
     "purpose": "Forces a visible file change every run so GitHub, Vercel and the live site do not stay frozen when upstream sports data is quiet."
   },
   "freshness": {
@@ -1404,7 +1398,7 @@
       {
         "league": "College Football",
         "key": "ncaafb",
-        "age_hours": 0.14,
+        "age_hours": 0.95,
         "status": "fresh",
         "max_age_hours": 6
       },
@@ -1430,8 +1424,8 @@
         "max_age_hours": 6
       }
     ],
-    "last_checked": "2026-05-09 07:10:28 AM ET",
-    "heartbeat": "2026-05-09T07:10:28-04:00"
+    "last_checked": "2026-05-09 07:59:10 AM ET",
+    "heartbeat": "2026-05-09T07:59:10-04:00"
   },
   "editorial_brain": {
     "status": "active",
