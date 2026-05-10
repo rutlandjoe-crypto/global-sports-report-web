@@ -14,7 +14,7 @@ const SITE = {
   tagline: "Built for journalists, by a journalist.",
   topic: "Sports",
   descriptor:
-    "Global Sports Report tracks live scores, schedules, advanced metrics, story angles and newsroom-ready sports intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
+    "Global Sports Report tracks the story behind the sports board: live developments, injuries, roster movement, analytics, matchup context, betting/fantasy signals and newsroom-ready sports intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
 };
 
 const TOOLKIT = [
@@ -23,6 +23,14 @@ const TOOLKIT = [
   ["Sports Reference", "https://www.sports-reference.com/"],
   ["Baseball Savant", "https://baseballsavant.mlb.com/"],
   ["Spotrac", "https://www.spotrac.com/"],
+];
+
+const SCOREBOARD_SITES = [
+  ["ESPN Scoreboards", "https://www.espn.com/scoreboard"],
+  ["CBS Sports Scores", "https://www.cbssports.com/"],
+  ["FOX Sports Scores", "https://www.foxsports.com/scores"],
+  ["Yahoo Sports Scores", "https://sports.yahoo.com/scoreboard/"],
+  ["NCAA Scoreboards", "https://www.ncaa.com/scoreboard"],
 ];
 
 const GSR_NETWORK = [
@@ -587,9 +595,27 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Monitoring verified scores, injuries, playoff movement, roster changes and advanced performance signals.
+          Monitoring verified injuries, playoff movement, roster changes, advanced performance signals and live sports developments.
         </p>
       )}
+    </div>
+  );
+}
+
+function LinkList({ items }: { items: string[][] }) {
+  return (
+    <div className="space-y-2">
+      {items.map(([name, url]) => (
+        <a
+          key={name}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-bold text-red-800 hover:bg-red-50"
+        >
+          {name}
+        </a>
+      ))}
     </div>
   );
 }
@@ -621,12 +647,12 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 
       <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
         <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Key Data</p>
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Data Points</p>
           <LineList items={keyData.length ? keyData : [title]} />
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Why It Matters</p>
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Story Stakes</p>
           <LineList
             items={
               why.length
@@ -637,7 +663,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">What To Watch</p>
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Next Read</p>
           <LineList
             items={
               watch.length
@@ -648,7 +674,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Story Angles</p>
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Reporting Angles</p>
           <LineList
             items={
               angles.length
@@ -688,7 +714,7 @@ export default function Page() {
   const snapshot =
     cleanText(report.snapshot) && !isBadContent(report.snapshot)
       ? cleanText(report.snapshot)
-      : "A live sports briefing built for journalists tracking verified scores, results, analytics, playoff races, injuries and story angles.";
+      : "A live sports briefing built for journalists tracking verified news, results, analytics, injuries, market context and story angles.";
 
   const updated =
     cleanText(report.updated_at) ||
@@ -704,7 +730,7 @@ export default function Page() {
         summary: snapshot,
         url: "https://www.espn.com/",
         key_data: ["Latest sports report generated from the current verified newsroom board."],
-        why_it_matters: ["Editors need fast clarity across scores, results, analytics and live story movement."],
+        why_it_matters: ["Editors need fast clarity across sports news, results, analytics and live story movement."],
         what_to_watch: ["Next verified result, injury note, roster move, playoff angle or advanced metric signal."],
         story_angles: ["Use verified developments to identify the strongest follow-up reporting angle."],
         story_type: "analysis",
@@ -778,7 +804,7 @@ export default function Page() {
                 ? liveBriefingItems
                 : [
                     "Track the strongest verified sports development on today’s board.",
-                    "Prioritize results, injuries, playoff movement, roster news and verified links.",
+                    "Prioritize injuries, playoff movement, roster news, live results and verified links.",
                     "Watch advanced metrics, standings shifts and late-breaking league updates.",
                     "Monitor league-by-league angles for reporters and editors.",
                   ]
@@ -796,7 +822,7 @@ export default function Page() {
                   ? editorSignalItems
                   : [
                       "Track the strongest verified sports development on today’s board.",
-                      "Prioritize results, injuries, playoff movement, roster news and verified links.",
+                      "Prioritize injuries, playoff movement, roster news, live results and verified links.",
                       "Watch advanced metrics, standings shifts and late-breaking league updates.",
                     ]
               }
@@ -804,28 +830,23 @@ export default function Page() {
           </Block>
 
           <Block title="Journalist Toolkit">
-            <div className="space-y-2">
-              {TOOLKIT.map(([name, url]) => (
-                <a
-                  key={name}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm font-bold text-red-800 hover:bg-red-50"
-                >
-                  {name}
-                </a>
-              ))}
-            </div>
+            <LinkList items={TOOLKIT} />
+          </Block>
+
+          <Block title="Scoreboard Sites">
+            <p className="mb-3 text-sm leading-6 text-neutral-700">
+              Raw scores and schedules belong here as reference tools. GSR focuses on the story, context and reporting angles behind the board.
+            </p>
+            <LinkList items={SCOREBOARD_SITES} />
           </Block>
 
           <Block title="Coverage Lens">
             <LineList
               items={[
-                "Scoreboard: What result changes the day’s sports conversation?",
-                "News: What injury, roster, playoff or league development needs follow-up?",
+                "Story: What development changes the day’s sports conversation?",
+                "News: What injury, roster, playoff or league movement needs follow-up?",
                 "Performance: Which player or team metric deserves deeper reporting?",
-                "Context: What standings, playoff or roster angle matters most?",
+                "Context: What standings, market, matchup or roster angle matters most?",
                 "Newsroom: What should journalists verify next?",
               ]}
             />
