@@ -1,277 +1,192 @@
 {
-  "title": "GLOBAL SPORTS REPORT | 2026-05-08",
-  "headline": "Major League Baseball's overnight window is bridging late final scores and the next day's schedule, keeping both recap and preview value in play.",
+  "title": "GSR Network",
+  "site": "GSR Network",
+  "vertical": "Network",
+  "headline": "GSR Network Live Editorial Intelligence Dashboard",
+  "snapshot": "A unified real-time editorial intelligence layer across sports, AI, politics, entertainment and betting.",
+  "generated_at": "2026-05-09 07:45:00 PM ET",
+  "updated_at": "2026-05-09 07:45:00 PM ET",
+  "published_at": "2026-05-09 07:45:00 PM ET",
+  "source_mode": "standardized_public_schema",
+  "freshness_status": "current",
+
   "key_storylines": [
-    "MLB snapshot: The MLB slate currently shows 15 final, 16 upcoming games.",
-    "NBA snapshot: The NBA slate currently shows 4 final games.",
-    "NHL snapshot: The NHL slate currently shows 0 final, 0 live, and 4 upcoming games.",
-    "NFL snapshot: The NFL slate currently shows 0 final, 0 live, and 0 upcoming games.",
-    "College Football snapshot: No college football games were available at the time of this report.",
-    "Soccer snapshot: The soccer slate currently shows 56 final, 2 live, and 10 upcoming matches."
+    "Sports coverage is moving beyond scores into matchup context, advanced metrics and reporter angles.",
+    "AI coverage is tracking the enterprise shift from model hype to deployment, governance and infrastructure.",
+    "Politics coverage is focused on policy pressure, legislative action and institutional consequences.",
+    "Entertainment coverage is monitoring film, television, streaming, gaming, media business and audience signals.",
+    "Betting coverage is framing odds, implied probability and market movement as editorial intelligence."
   ],
-  "snapshot": "No fantasy updates were available at this time.",
-  "generated_at": "2026-05-08 06:37:23 PM ET",
-  "updated_at": "2026-05-08 06:37:23 PM ET",
-  "published_at": "2026-05-08 06:37:23 PM ET",
-  "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
-  "x_handle": "@GlobalSportsRp",
-  "substack_url": "https://globalsportsreport.substack.com/",
-  "sections": {
-    "mlb": {
-      "title": "MLB PRO REPORT | 2026-04-26",
-      "source_file": "mlb_report.txt",
-      "updated_at": "2026-04-26 01:54:59 AM ET",
-      "content": "MLB PRO REPORT | 2026-04-26 HEADLINE Major League Baseball's overnight window is bridging late final scores and the next day's schedule, keeping both recap and preview value in play. SNAPSHOT The MLB slate currently shows 15 final, 16 upcoming games. KEY DATA POINTS - The overnight MLB window includes 15 final, 0 live, and 16 upcoming games. - 16 games are still ahead on the schedule, keeping the focus on pregame matchup context. - 15 upcoming games currently list probable starters on both sides. - The slate is split across 15 afternoon starts and 1 evening starts, giving the board coverage value across multiple windows. WHY IT MATTERS - A healthy number of listed probable starters gives reporters stronger footing for preview coverage before first pitch. - With finals already posting, the board supports both quick-turn recap writing and forward-looking setup for the remaining slate. - An overnight MLB edition helps preserve late West Coast results while still setting up the next day's board. STORY ANGLES - Where probable starters are confirmed, pitching becomes the clearest pregame frame for reporters looking to separate signal from schedule noise. - A split-day board creates room for rolling coverage, with early recaps feeding directly into later preview and live-update cycles. - Across a full MLB slate, the strongest coverage shifts between pregame pitching context, live game leverage, and postgame recap value depending on timing windows. FINAL SCORES (PREVIOUS DAY) Boston Red Sox beat Baltimore Orioles, 17-1. Seattle Mariners beat St. Louis Cardinals, 11-9. Toronto Blue Jays beat Cleveland Guardians, 5-3. San Francisco Giants beat Miami Marlins, 6-2. Tampa Bay Rays beat Minnesota Twins, 6-1. Colorado Rockies at New York Mets - Final. Washington Nationals beat Chicago White Sox, 6-3. San Diego Padres beat Arizona Diamondbacks, 6-4. Texas Rangers beat Athletics, 4-3. Pittsburgh Pirates beat Milwaukee Brewers, 6-3. Kansas City Royals beat Los Angeles Angels, 12-1. New York Yankees beat Houston Astros, 8-3. Los Angeles Dodgers beat Chicago Cubs, 12-4. Cincinnati Reds beat Detroit Tigers, 9-2. Philadelphia Phillies beat Atlanta Braves, 8-5. LIVE (LATE WINDOW) No live games were available during this report window. UPCOMING (TODAY) Boston Red Sox at Baltimore Orioles - 1:35 PM ET. Probables: Connelly Early vs. Kyle Bradish. Philadelphia Phillies at Atlanta Braves - 1:35 PM ET. Probables: Aaron Nola vs. Chris Sale. Cleveland Guardians at Toronto Blue Jays - 1:37 PM ET. Probables: Slade Cecconi vs. Patrick Corbin. Minnesota Twins at Tampa Bay Rays - 1:40 PM ET. Probables: Simeon Woods Richardson vs. Jesse Scholtens. Colorado Rockies at New York Mets (Game 1) - 1:40 PM ET. Probables: Jose Quintana vs. Nolan McLean. Detroit Tigers at Cincinnati Reds - 1:40 PM ET. Probables: Keider Montero vs. Rhett Lowder. Colorado Rockies at New York Mets (Game 2) - 1:45 PM ET. Pittsburgh Pirates at Milwaukee Brewers - 2:10 PM ET. Probables: Carmen Mlodzinski vs. Kyle Harrison. New York Yankees at Houston Astros - 2:10 PM ET. Probables: Luis Gil vs. Spencer Arrighetti. Washington Nationals at Chicago White Sox - 2:10 PM ET. Probables: Foster Griffin vs. Bryan Hudson. Seattle Mariners at St. Louis Cardinals - 2:15 PM ET. Probables: Emerson Hancock vs. Michael McGreevy. Athletics at Texas Rangers - 2:35 PM ET. Probables: J.T. Ginn vs. Kumar Rocker. Miami Marlins at San Francisco Giants - 4:05 PM ET. Probables: Max Meyer vs. Landen Roupp. San Diego Padres at Arizona Diamondbacks - 4:05 PM ET. Probables: Michael King vs. Ryne Nelson. Chicago Cubs at Los Angeles Dodgers - 4:10 PM ET. Probables: Shota Imanaga vs. Justin Wrobleski. Los Angeles Angels at Kansas City Royals - 7:20 PM ET. Probables: Reid Detmers vs. Seth Lugo. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-04-26 01:54:59 AM ET",
-      "advanced": {
-        "title": "MLB ADVANCED REPORT | 2026-04-24",
-        "source_file": "mlb_advanced_report.txt",
-        "updated_at": "2026-05-08 06:37:23 PM ET",
-        "sections": {
-          "statcast_watch": [
-            "- Framber Valdez is set to start for Detroit Tigers versus Cincinnati Reds at 6:40 PM ET, and his recent Statcast sample covers 446 pitches, giving this matchup a measurable pitching signal to watch.",
-            "- Andrew Abbott is set to start for Cincinnati Reds versus Detroit Tigers at 6:40 PM ET, and his recent Statcast sample covers 430 pitches, giving this matchup a measurable pitching signal to watch.",
-            "- Brayan Bello gets the ball for Boston Red Sox against Baltimore Orioles at 7:05 PM ET and has produced a 31.7% whiff rate on swings, making him one of the stronger Statcast pitching signals on tonight's board."
-          ],
-          "matchup_flags": [
-            "- Detroit Tigers at Cincinnati Reds (6:40 PM ET) features a listed starters matchup of Framber Valdez vs. Andrew Abbott, giving the game a strong pregame pitching frame.",
-            "- Boston Red Sox at Baltimore Orioles (7:05 PM ET) draws attention with Brayan Bello lined up against Brandon Young, making starting pitching the clearest early storyline.",
-            "- Cleveland Guardians at Toronto Blue Jays (7:07 PM ET) stands out behind a probable starters matchup of Gavin Williams and Max Scherzer."
-          ],
-          "board_context": [
-            "- A full MLB board remains in play, putting extra emphasis on probable pitchers and pregame matchup edges.",
-            "This report is an automated summary intended to support, not replace, human sports journalism."
-          ]
-        }
-      },
-      "key": "mlb",
+
+  "homepage_cards": [
+    {
+      "id": "sports-lead",
+      "key": "sports-lead",
+      "category": "Sports",
+      "label": "Sports Editorial Signal",
+      "headline": "Sports Board Shows Strong Value in Matchup Context and Advanced Reporting Layers",
+      "summary": "The sports layer is now positioned to move beyond schedule and score updates by surfacing probable starters, efficiency indicators, live-game leverage and reporter-ready angles.",
+      "url": "https://globalsportsreport.com",
+      "source_name": "Global Sports Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "League: MLB",
-        "Teams: Blue Jays, Padres, Mets, Orioles",
-        "Score / status: Boston Red Sox beat Baltimore Orioles, 17-1",
-        "Game time / date: 2026-04-26",
-        "Players / people: Major League Baseball, Boston Red Sox, Baltimore Orioles, Seattle Mariners",
-        "Injury / status note: availability or probable-starter context is part of the coverage"
+        "MLB coverage can surface probable starters, Statcast signals and late-window leverage.",
+        "NBA coverage can use pace, net rating, shot efficiency and rotation pressure.",
+        "NFL coverage can use EPA/play, draft context and team-building signals.",
+        "WNBA should be added as a priority sports expansion."
       ],
       "why_it_matters": [
-        "Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."
+        "Sports readers, reporters, fantasy players and betting audiences need context, not just final scores.",
+        "Advanced framing helps separate real editorial signal from schedule noise."
       ],
       "what_to_watch": [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications."
+        "Track WNBA integration.",
+        "Monitor whether cards display key data, why-it-matters and what-to-watch fields.",
+        "Prioritize matchup flags and advanced metrics where reliable data exists."
+      ],
+      "story_angles": [
+        "How late-night sports windows create newsroom value.",
+        "Where advanced metrics improve game previews and recap framing."
       ]
     },
-    "nba": {
-      "title": "NBA PRO REPORT | 2026-04-26",
-      "source_file": "nba_report.txt",
-      "updated_at": "2026-04-26 01:55:12 AM ET",
-      "content": "NBA PRO REPORT | 2026-04-26 HEADLINE The NBA board is shaping the day through matchup positioning, team context, and the shifting value of live, final, and upcoming game windows. SNAPSHOT The NBA slate currently shows 4 final games. KEY DATA POINTS - The NBA board features 4 total games in this report window. - 4 games have gone final, adding recap value alongside any remaining live or upcoming matchups. - ESPN's base NBA scoreboard feed was used for this report window after the dated endpoint rejected the requested date. WHY IT MATTERS - Completed games add quick-turn recap value, allowing writers to balance immediate reaction coverage with the remaining slate. STORY ANGLES - Where the board mixes finals, live action, and upcoming games, the strongest NBA coverage can shift quickly from recap writing to real-time reaction and then back to pregame framing. FINAL SCORES Orlando Magic beat Detroit Pistons, 113-105. Oklahoma City Thunder beat Phoenix Suns, 121-109. New York Knicks beat Atlanta Hawks, 114-98. Minnesota Timberwolves beat Denver Nuggets, 112-96. LIVE No live games were available during this report window. UPCOMING No upcoming games were available during this report window. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-04-26 01:55:12 AM ET",
-      "advanced": {
-        "title": "NBA ADVANCED REPORT | 2026-04-21",
-        "source_file": "nba_advanced_report.txt",
-        "updated_at": "2026-05-08 06:37:23 PM ET",
-        "sections": {
-          "headline": [
-            "The NBA board is best framed through net rating, pace, shot efficiency, and turnover control as matchup signals sharpen."
-          ],
-          "snapshot": [
-            "The NBA analytics board currently shows 3 game(s) with matchup-level efficiency context."
-          ],
-          "key_data_points": [
-            "- The NBA advanced layer reviewed 3 game(s) against current season team-level efficiency data.",
-            "- The board opens with Trail Blazers at Spurs, giving the slate an immediate efficiency matchup to frame."
-          ],
-          "matchup_flags": [
-            "- Trail Blazers at Spurs (Q1 4:21) remains on the board, with limited advanced inputs confirmed, so the matchup leans on baseline team context and scoreboard flow.",
-            "- 76ers at Celtics (Half) remains on the board, with limited advanced inputs confirmed, so the matchup leans on baseline team context and scoreboard flow.",
-            "- Rockets at Lakers (10:30 pm ET) remains on the board, with limited advanced inputs confirmed, so the matchup leans on baseline team context and scoreboard flow."
-          ],
-          "league_efficiency_watch": [
-            "- League-wide advanced metrics were not fully available in this report window, but net rating, pace, and shooting efficiency remain the primary evaluation anchors."
-          ],
-          "why_it_matters": [
-            "- Net rating helps separate sustainable team strength from surface-level record noise.",
-            "- Pace matters because it shapes possession volume, transition pressure, and live scoring environment.",
-            "- True shooting percentage offers a cleaner read on shot-quality conversion than raw field goal percentage alone.",
-            "- Turnover rate and defensive rating help identify which teams are more likely to survive tighter postseason-style possessions."
-          ],
-          "story_angles": [
-            "- Playoff-context framing: pace, shot efficiency, and turnover control become more useful editorial signals as the postseason environment tightens.",
-            "- Matchup framing: use net rating gaps to separate true team-strength edges from simple win-loss record noise.",
-            "This report is an automated summary intended to support, not replace, human sports journalism."
-          ]
-        }
-      },
-      "key": "nba",
+    {
+      "id": "ai-lead",
+      "key": "ai-lead",
+      "category": "AI",
+      "label": "AI Enterprise Signal",
+      "headline": "Enterprise AI Coverage Moves From Demo Mode to Deployment Mode",
+      "summary": "The AI layer is strongest when it explains how companies, developers, regulators and enterprise customers are turning AI systems into daily infrastructure.",
+      "url": "https://globalaireport.news",
+      "source_name": "Global AI Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "League: NBA",
-        "Teams: Suns, Knicks, Timberwolves, Hawks",
-        "Score / status: FINAL SCORES Orlando Magic beat Detroit Pistons, 113-105",
-        "Game time / date: 2026-04-26",
-        "Players / people: Orlando Magic, Detroit Pistons, Oklahoma City Thunder, Phoenix Suns",
-        "Source: nba_report.txt"
+        "Enterprise AI adoption is moving from pilots into workflow deployment.",
+        "AI competition is increasingly tied to productivity ecosystems.",
+        "Regulation, safety and governance are becoming core business factors."
       ],
       "why_it_matters": [
-        "Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."
+        "The AI market is now being judged by deployment, trust, measurable value and enterprise integration.",
+        "Reporters need help tracking the business impact behind product announcements."
       ],
       "what_to_watch": [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications."
+        "Watch Microsoft, Google, OpenAI, Nvidia and major enterprise software providers.",
+        "Track customer adoption, pricing, security concerns and regulatory action."
+      ],
+      "story_angles": [
+        "Enterprise AI as infrastructure.",
+        "The shift from model capability to business utility."
       ]
     },
-    "nhl": {
-      "title": "NHL REPORT | 2026-04-26",
-      "source_file": "nhl_report.txt",
-      "updated_at": "2026-04-26 01:55:22 AM ET",
-      "content": "NHL REPORT | 2026-04-26 SNAPSHOT The NHL slate currently shows 0 final, 0 live, and 4 upcoming games. FINAL SCORES No final scores were available during this report window. LIVE No live games were available during this report window. UPCOMING - Buffalo Sabres at Boston Bruins - 4/26 - 2:00 PM EDT. Buffalo Sabres enters at 50-23-9, while Boston Bruins comes in at 45-27-10. - Colorado Avalanche at Los Angeles Kings - 4/26 - 4:30 PM EDT. Colorado Avalanche enters at 55-16-11, while Los Angeles Kings comes in at 35-27-20. - Tampa Bay Lightning at Montreal Canadiens - 4/26 - 7:00 PM EDT. Tampa Bay Lightning enters at 50-26-6, while Montreal Canadiens comes in at 48-24-10. - Edmonton Oilers at Anaheim Ducks - 4/26 - 9:30 PM EDT. Edmonton Oilers enters at 41-30-11, while Anaheim Ducks comes in at 43-33-6. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-04-26 01:55:22 AM ET",
-      "key": "nhl",
+    {
+      "id": "politics-lead",
+      "key": "politics-lead",
+      "category": "Politics",
+      "label": "Politics Policy Signal",
+      "headline": "Washington Coverage Centers on Budget Pressure, Policy Stakes and Institutional Response",
+      "summary": "The politics layer should frame public-sector developments through lawmakers, agencies, courts, campaigns, deadlines and consequences for affected communities.",
+      "url": "https://globalpoliticsreport.com",
+      "source_name": "Global Politics Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "League: NHL",
-        "Teams: Buffalo Sabres, Boston Bruins",
-        "Score / status: Final",
-        "Game time / date: 2026-04-26",
-        "Players / people: Buffalo Sabres, Boston Bruins, Colorado Avalanche, Los Angeles Kings",
-        "Source: nhl_report.txt"
+        "Budget negotiations remain a central Washington storyline.",
+        "Policy fights can shift agency action, public spending and legislative leverage.",
+        "Coverage should identify the next vote, filing, hearing, ruling or official statement."
       ],
       "why_it_matters": [
-        "Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."
+        "Political stories matter most when readers understand the policy consequence, not just the partisan conflict.",
+        "Structured politics cards can help reporters track what changed, who is affected and what happens next."
       ],
       "what_to_watch": [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications."
+        "Track official statements, committee action, court filings and agency decisions.",
+        "Watch responses from lawmakers, campaigns, courts and affected voters."
+      ],
+      "story_angles": [
+        "Budget pressure as governing test.",
+        "Policy consequences beyond the headline fight."
       ]
     },
-    "nfl": {
-      "title": "NFL REPORT | 2026-04-26",
-      "source_file": "nfl_report.txt",
-      "updated_at": "2026-04-26 01:55:32 AM ET",
-      "content": "NFL REPORT | 2026-04-26 SNAPSHOT The NFL slate currently shows 0 final, 0 live, and 0 upcoming games. FINAL SCORES No final scores were available during this report window. LIVE No live games were available during this report window. UPCOMING No upcoming games were available during this report window. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-04-26 01:55:32 AM ET",
-      "advanced": {
-        "title": "NFL ADVANCED REPORT | 2026-04-21",
-        "source_file": "nfl_advanced_report.txt",
-        "updated_at": "2026-05-08 06:37:23 PM ET",
-        "sections": {
-          "headline": [
-            "The NFL board is best framed through EPA, passing efficiency, rushing efficiency, and draft-position leverage as team-building signals sharpen."
-          ],
-          "snapshot": [
-            "The NFL advanced layer is leaning on 2025 team efficiency context, 2026 draft signals, and 3 upcoming line(s) from the standard NFL report."
-          ],
-          "key_data_points": [
-            "- The NFL advanced layer is anchored to 2025 regular-season team efficiency data and 2026 draft-pick structure.",
-            "- New England Patriots led the available EPA/play board at 0.149.",
-            "- New England Patriots set the strongest pass-efficiency signal in the available data at 0.324 pass EPA per play."
-          ],
-          "matchup_flags": [
-            "- Upcoming NFL matchups are on the board, with prior-season EPA and pass-game efficiency serving as the best early framing tools until fresher game-window data arrives.",
-            "TEAM EFFICIENCY WATCH",
-            "- New England Patriots checked in at 0.149 EPA per play.",
-            "- Los Angeles Rams checked in at 0.138 EPA per play.",
-            "- Buffalo Bills checked in at 0.133 EPA per play.",
-            "- New England Patriots generated 0.324 pass EPA per play.",
-            "- Los Angeles Rams generated 0.252 pass EPA per play.",
-            "- Green Bay Packers generated 0.243 pass EPA per play.",
-            "- Baltimore Ravens turned in 0.083 rush EPA per play.",
-            "- Indianapolis Colts turned in 0.077 rush EPA per play.",
-            "- Buffalo Bills turned in 0.075 rush EPA per play."
-          ],
-          "why_it_matters": [
-            "- EPA/play gives a stronger snapshot of down-to-down offensive value than raw yardage alone.",
-            "- Passing EPA and rushing EPA help separate where teams are creating value instead of relying on surface-level totals.",
-            "- Draft-pick concentration matters because multiple early selections can shift roster construction, trade flexibility, and positional strategy.",
-            "- In non-game windows, draft structure and the previous season's efficiency profile are often the clearest editorial anchors for NFL analysis."
-          ],
-          "story_angles": [
-            "- Rushing-structure angle: the Baltimore Ravens bring one of the strongest available run-game efficiency profiles at 0.083 rush EPA per play.",
-            "- Quarterback and offensive-line stories usually gain the most traction near the draft, but EPA-based efficiency helps separate true team-building need from surface-level narrative.",
-            "- During the season, this file can shift from draft framing into matchup framing by using the prior efficiency profile as a baseline.",
-            "This report is an automated summary intended to support, not replace, human sports journalism."
-          ]
-        }
-      },
-      "key": "nfl",
+    {
+      "id": "entertainment-lead",
+      "key": "entertainment-lead",
+      "category": "Entertainment",
+      "label": "Entertainment Industry Signal",
+      "headline": "Entertainment Coverage Tracks Film, TV, Streaming, Gaming and Media Business Signals",
+      "summary": "The entertainment layer should convert live industry headlines into cleaner context around audience attention, studio movement, platform strategy, talent leverage and media business impact.",
+      "url": "https://globalentertainmentreport.com",
+      "source_name": "Global Entertainment Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "League: NFL",
-        "Score / status: Final",
-        "Game time / date: 2026-04-26",
-        "Source: nfl_report.txt"
+        "Entertainment coverage spans film, television, streaming, gaming, awards, media and celebrity business.",
+        "Public cards should never expose RSS counts, feed audits or internal pipeline diagnostics.",
+        "The strongest stories should explain why a headline matters to studios, platforms, creators or audiences."
       ],
       "why_it_matters": [
-        "Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."
+        "Entertainment readers need more than headline aggregation; they need industry meaning.",
+        "Cleaner public-facing language makes the site feel like a publication, not a backend monitor."
       ],
       "what_to_watch": [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications."
+        "Replace internal pipeline language with editorial summaries.",
+        "Improve generic why-it-matters copy with story-specific business and audience context.",
+        "Track studio movement, platform response, box office trends and audience reaction."
+      ],
+      "story_angles": [
+        "Streaming competition as media-business signal.",
+        "Box office and audience behavior as industry indicators."
       ]
     },
-    "ncaafb": {
-      "title": "NCAAFB REPORT | 2026-04-04",
-      "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-04-04 08:32:33 PM ET",
-      "content": "NCAAFB REPORT | 2026-04-04 Across college football, no games were available during this report window. SNAPSHOT No college football games were available at the time of this report. FINAL SCORES No final scores were available at the time of this report. LIVE GAMES No games are currently in progress. UPCOMING No upcoming games were scheduled. This report is an automated summary of game data and is intended to support, not replace, human sports journalism. Generated: 2026-04-04 08:32:33 PM ET",
-      "key": "ncaafb",
+    {
+      "id": "betting-lead",
+      "key": "betting-lead",
+      "category": "Betting",
+      "label": "Betting Market Signal",
+      "headline": "Betting Coverage Should Explain What Odds Mean, Not Just Display Lines",
+      "summary": "The betting layer is strongest when it translates odds, implied probability, market movement and matchup context into clear editorial intelligence for betting-focused readers.",
+      "url": "https://globalbettingreport.com",
+      "source_name": "Global Betting Report",
+      "published_at": "2026-05-09 07:45:00 PM ET",
       "key_data": [
-        "League: College Football",
-        "Score / status: Final",
-        "Game time / date: 2026-04-04",
-        "Source: ncaafb_report.txt"
+        "Moneylines should be paired with implied probability.",
+        "Spread and total movement should be explained in plain language.",
+        "Cards should identify the market, the favorite, the risk and the context."
       ],
       "why_it_matters": [
-        "Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."
+        "Betting readers need interpretation, not raw odds alone.",
+        "Market context creates stronger value for sportsbook, fantasy and sports-media audiences."
       ],
       "what_to_watch": [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications."
-      ]
-    },
-    "soccer": {
-      "title": "SOCCER REPORT | 2026-04-21",
-      "source_file": "soccer_report.txt",
-      "updated_at": "2026-04-21 08:25:18 PM ET",
-      "content": "SOCCER REPORT | 2026-04-21 SNAPSHOT The soccer slate currently shows 56 final, 2 live, and 10 upcoming matches. FINAL SCORES - Brighton & Hove Albion 3, Chelsea 0. - Athletic Club 1, Osasuna 0. - Mallorca 1, Valencia 1. - Girona 2, Real Betis 3. - Real Madrid 2, Alavés 1. - Internazionale 3, Como 2. - Coventry City 5, Portsmouth 1. - Leicester City 2, Hull City 2. - Norwich City 2, Derby County 1. - Oxford United 0, Wrexham 1. LIVE - Sacramento Republic FC 0, Brooklyn FC 1 - 59'. - Confiança 0, Grêmio 2 - 90'. UPCOMING - FC Juarez at Pumas UNAM - Scheduled. FC Juarez enters at 4-4-7, while Pumas UNAM comes in at 8-6-1. - Cruz Azul at Querétaro - Scheduled. Cruz Azul enters at 8-5-2, while Querétaro comes in at 3-7-5. - Puebla at Monterrey - Scheduled. Puebla enters at 3-4-8, while Monterrey comes in at 4-3-8. - América at León - Scheduled. América enters at 6-4-5, while León comes in at 7-1-7. - Corinthians at Barra FC - Scheduled. - Vasco da Gama at Paysandu - Scheduled. - Emelec at Técnico Universitario - Scheduled. Emelec enters at 2-2-5, while Técnico Universitario comes in at 3-2-4. - Independiente Petrolero at Bolívar - Scheduled. Independiente Petrolero enters at 0-1-1, while Bolívar comes in at 2-0-0. - Municipal Liberia at Sporting San José - Scheduled. Municipal Liberia enters at 8-3-5, while Sporting San José comes in at 6-3-7. - San Carlos at Cartagines - Scheduled. San Carlos enters at 6-2-8, while Cartagines comes in at 8-2-6. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-04-21 08:25:18 PM ET",
-      "key": "soccer",
-      "key_data": [
-        "League: Soccer",
-        "Teams: FC Juarez, Pumas UNAM",
-        "Score / status: Final",
-        "Game time / date: 2026-04-21",
-        "Players / people: Hove Albion, Athletic Club, Real Betis, Real Madrid",
-        "Source: soccer_report.txt"
+        "Track line movement, injury news, starting lineups and late market shifts.",
+        "Separate useful betting signal from shallow pick-style content.",
+        "Keep card structure clean: game, market, implied probability, why it matters and what to watch."
       ],
-      "why_it_matters": [
-        "Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."
-      ],
-      "what_to_watch": [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications."
-      ]
-    },
-    "betting_odds": {
-      "title": "BETTING ODDS REPORT | 2026-04-21",
-      "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-04-21 08:25:22 PM ET",
-      "content": "BETTING ODDS REPORT | 2026-04-21\n\nAcross the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.\n\nGLOBAL SNAPSHOT\nLimited betting data was available during this report window.\n\nNBA\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nMLB\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nNHL\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nNFL\nCould not load odds: HTTP 401: {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#out-of-usage-credits\"}\n\nBETTING MARKET NOTE\nThis report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.\nGenerated: 2026-04-21 08:25:22 PM ET"
-    },
-    "fantasy": {
-      "title": "FANTASY REPORT | 2026-04-15",
-      "source_file": "fantasy_report.txt",
-      "updated_at": "2026-05-08 06:37:23 PM ET",
-      "content": "FANTASY REPORT | 2026-04-15 Across the fantasy landscape, usable data was unavailable during this report window. SNAPSHOT No fantasy updates were available at this time. FALLBACK NOTE Fantasy automation used a fallback report because: source script timed out after 60 seconds This report is an automated summary intended to support, not replace, human sports journalism.",
-      "key": "fantasy",
-      "key_data": [
-        "League: Fantasy",
-        "Score / status: Out",
-        "Game time / date: 2026-04-15",
-        "Injury / status note: availability or probable-starter context is part of the coverage",
-        "Betting / fantasy signal: market or fantasy language appears in the source context",
-        "Source: fantasy_report.txt"
-      ],
-      "why_it_matters": [
-        "Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."
-      ],
-      "what_to_watch": [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications."
+      "story_angles": [
+        "How market movement reflects changing game expectations.",
+        "Where betting context overlaps with fantasy and injury reporting."
       ]
     }
+  ],
+
+  "live_newsroom": [],
+  "editor_signals": [],
+  "stories": [],
+
+  "metadata": {
+    "schema_version": "gsr_universal_v1",
+    "public_render_fields": [
+      "headline",
+      "summary",
+      "key_data",
+      "why_it_matters",
+      "what_to_watch",
+      "story_angles",
+      "source_name",
+      "published_at"
+    ],
+    "hide_from_public_cards": [
+      "feed_audit",
+      "internal_notes",
+      "raw_content",
+      "pipeline_logs",
+      "fallback_note"
+    ]
   }
 }
