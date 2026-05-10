@@ -281,6 +281,7 @@ function extractSnapshot(section: AnyObj): string {
   const snapshotLines = extractSectionLines(section.content || "", "SNAPSHOT");
 
   return (
+    cleanText(section.summary) ||
     cleanText(section.snapshot) ||
     cleanText(snapshotLines[0]) ||
     cleanText(section.content).slice(0, 260) ||
@@ -292,6 +293,7 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
   const content = section.content || "";
 
   const keyData = [
+    ...asList(section.key_data),
     ...extractSectionLines(content, "KEY DATA POINTS"),
     ...asList(section.key_storylines),
     ...asList(section.final_scores),
@@ -303,12 +305,14 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
   ];
 
   const why = [
+    ...asList(section.why_it_matters),
     ...extractSectionLines(content, "WHY IT MATTERS"),
     ...asList(section.advanced?.sections?.why_it_matters),
-    ...asList(section.why_it_matters),
   ];
 
   const watch = [
+    ...asList(section.what_to_watch),
+    ...asList(section.story_angles),
     ...extractSectionLines(content, "STORY ANGLES"),
     ...extractSectionLines(content, "LIVE"),
     ...extractSectionLines(content, "UPCOMING"),
@@ -316,14 +320,12 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     ...asList(section.advanced?.sections?.story_angles),
     ...asList(section.advanced?.sections?.statcast_watch),
     ...asList(section.advanced?.sections?.league_efficiency_watch),
-    ...asList(section.story_angles),
-    ...asList(section.what_to_watch),
   ];
 
   return {
     id: key,
     key,
-    league: publicText(section.title) || LEAGUE_LABELS[key] || key.toUpperCase(),
+    league: publicText(section.label) || publicText(section.title) || LEAGUE_LABELS[key] || key.toUpperCase(),
     title: publicText(section.title) || LEAGUE_LABELS[key] || key.toUpperCase(),
     headline: extractHeadline(section),
     summary: extractSnapshot(section),
@@ -331,37 +333,115 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     updated_at: section.updated_at,
     source_file: section.source_file,
     url: extractBestUrl(section, key),
-    key_data: unique(keyData).slice(0, 5),
-    why_it_matters: unique(why).slice(0, 5),
-    what_to_watch: unique(watch).slice(0, 6),
+    key_data: unique(keyData).slice(0, 8),
+    why_it_matters: unique(why).slice(0, 6),
+    what_to_watch: unique(watch).slice(0, 8),
+    story_angles: unique(asList(section.story_angles)).slice(0, 6),
     story_type: section.story_type || "analysis",
     priority_score: section.priority_score || 0,
   };
 }
 
 function normalizeStory(story: AnyObj, index: number): AnyObj {
-  const key = cleanText(story.key || story.id || story.league || `story-${index}`);
-  const title = publicText(story.title) || publicText(story.league) || LEAGUE_LABELS[key] || "Sports Watch";
+  const key = cleanText(story.key || story.id || story.league || story.category || `story-${index}`);
+  const label =
+    publicText(story.label) ||
+    publicText(story.category) ||
+    publicText(story.league) ||
+    LEAGUE_LABELS[key] ||
+    "Sports Watch";
+
+  const title = publicText(story.title) || publicText(story.league) || label;
   const url = extractBestUrl(story, key);
 
   return {
     ...story,
     id: key || `story-${index}`,
     key,
-    league: title,
+    league: label,
+    label,
     title,
     headline:
       publicText(story.public_headline) ||
       publicText(story.headline) ||
       publicText(story.label) ||
-      publicText(story.name),
+      publicText(story.name) ||
+      publicText(story.title),
     summary: cleanText(story.summary || story.snapshot || story.description || story.body),
     snapshot: cleanText(story.snapshot || story.summary || story.description || story.body),
     url,
+    key_data: asList(story.key_data || story.keyData || story.data || story.metrics).slice(0, 8),
+    why_it_matters: asList(story.why_it_matters || story.whyItMatters || story.why).slice(0, 6),
+    what_to_watch: asList(story.what_to_watch || story.whatToWatch || story.watch).slice(0, 8),
+    story_angles: asList(story.story_angles || story.storyAngles || story.angles).slice(0, 6),
   };
 }
 
+function normalizeArrayStories(candidates: AnyObj[], sourceName: string): AnyObj[] {
+  return candidates
+    .filter((story) => story && typeof story === "object")
+    .map((story, index) =>
+      normalizeStory(
+        {
+          ...story,
+          source_collection: sourceName,
+        },
+        index
+      )
+    );
+}
+
 function getStories(report: AnyObj): AnyObj[] {
+  const publicCollections = [
+    ["homepage_cards", report.homepage_cards],
+    ["live_newsroom", report.live_newsroom],
+    ["stories", report.stories],
+    ["cards", report.cards],
+    ["news", report.news],
+    ["headlines", report.headlines],
+    ["items", report.items],
+    ["articles", report.articles],
+  ];
+
+  for (const [sourceName, candidates] of publicCollections) {
+    if (Array.isArray(candidates) && candidates.length) {
+      const normalized = normalizeArrayStories(candidates, sourceName as string).filter(isPublishableStory);
+      if (normalized.length) return normalized;
+    }
+
+    if (candidates && typeof candidates === "object" && !Array.isArray(candidates)) {
+      const normalized = Object.entries(candidates)
+        .map(([key, value]: [string, any], index) => {
+          if (value && typeof value === "object") {
+            return normalizeStory(
+              {
+                id: key,
+                key,
+                league: value.league || value.label || LEAGUE_LABELS[key] || key.toUpperCase(),
+                source_collection: sourceName,
+                ...value,
+              },
+              index
+            );
+          }
+
+          return normalizeStory(
+            {
+              id: key,
+              key,
+              league: LEAGUE_LABELS[key] || key.toUpperCase(),
+              headline: cleanText(value),
+              source_collection: sourceName,
+            },
+            index
+          );
+        })
+        .filter(isPublishableStory);
+
+      if (normalized.length) return normalized;
+    }
+  }
+
   if (Array.isArray(report.sections) && report.sections.length) {
     return report.sections.map((section: AnyObj, index: number) =>
       sectionToStory(section.key || section.id || `section-${index}`, section || {})
@@ -372,49 +452,6 @@ function getStories(report: AnyObj): AnyObj[] {
     return Object.entries(report.sections).map(([key, value]: [string, any]) =>
       sectionToStory(key, value || {})
     );
-  }
-
-  const candidates =
-    report.live_newsroom ||
-    report.homepage_cards ||
-    report.cards ||
-    report.stories ||
-    report.news ||
-    report.headlines ||
-    report.items ||
-    report.articles ||
-    null;
-
-  if (Array.isArray(candidates) && candidates.length) {
-    return candidates
-      .filter((story) => story && typeof story === "object")
-      .map((story, index) => normalizeStory(story, index));
-  }
-
-  if (candidates && typeof candidates === "object") {
-    return Object.entries(candidates).map(([key, value]: [string, any], index) => {
-      if (value && typeof value === "object") {
-        return normalizeStory(
-          {
-            id: key,
-            key,
-            league: value.league || LEAGUE_LABELS[key] || key.toUpperCase(),
-            ...value,
-          },
-          index
-        );
-      }
-
-      return normalizeStory(
-        {
-          id: key,
-          key,
-          league: LEAGUE_LABELS[key] || key.toUpperCase(),
-          headline: cleanText(value),
-        },
-        index
-      );
-    });
   }
 
   return [];
@@ -458,7 +495,7 @@ function storySummary(story: AnyObj): string {
 }
 
 function storyLabel(story: AnyObj): string {
-  return publicText(story.league) || publicText(story.label) || publicText(story.title) || "Sports Watch";
+  return publicText(story.label) || publicText(story.category) || publicText(story.league) || publicText(story.title) || "Sports Watch";
 }
 
 function isPublishableStory(story: AnyObj): boolean {
@@ -565,7 +602,8 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 
   const keyData = asList(story.key_data || story.keyData || story.data || story.metrics);
   const why = asList(story.why_it_matters || story.whyItMatters || story.why);
-  const watch = asList(story.what_to_watch || story.whatToWatch || story.watch || story.story_angles);
+  const watch = asList(story.what_to_watch || story.whatToWatch || story.watch);
+  const angles = asList(story.story_angles || story.storyAngles || story.angles);
 
   return (
     <article className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
@@ -581,7 +619,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 
       <p className="mt-3 text-sm leading-6 text-neutral-700">{summary}</p>
 
-      <div className="mt-4 grid gap-3 md:grid-cols-3">
+      <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
         <div className="rounded-xl bg-neutral-50 p-3">
           <p className="mb-2 text-xs font-black uppercase text-neutral-600">Key Data</p>
           <LineList items={keyData.length ? keyData : [title]} />
@@ -605,6 +643,17 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
               watch.length
                 ? watch
                 : ["Monitor confirmed reporting, next-game context, injury updates, standings movement or metric shifts."]
+            }
+          />
+        </div>
+
+        <div className="rounded-xl bg-neutral-50 p-3">
+          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Story Angles</p>
+          <LineList
+            items={
+              angles.length
+                ? angles
+                : ["Look for the strongest reporter angle behind the score, market, matchup or roster signal."]
             }
           />
         </div>
@@ -657,6 +706,7 @@ export default function Page() {
         key_data: ["Latest sports report generated from the current verified newsroom board."],
         why_it_matters: ["Editors need fast clarity across scores, results, analytics and live story movement."],
         what_to_watch: ["Next verified result, injury note, roster move, playoff angle or advanced metric signal."],
+        story_angles: ["Use verified developments to identify the strongest follow-up reporting angle."],
         story_type: "analysis",
       },
     ];

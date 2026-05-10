@@ -22,6 +22,13 @@ What this script does:
 - Never crashes because a section contains lists/dicts instead of strings
 - Never calls undefined upload helpers
 
+Sports Editorial Brain v3:
+- Preserves the existing site structure and JSON flow
+- Adds careful, additive editorial context inside report content
+- Improves WHY IT MATTERS / WATCH LIST framing
+- Reduces shallow summary feel without changing frontend architecture
+- Treats the existing system gently: no redesign, no schema disruption
+
 This file is designed as a full replacement.
 """
 
@@ -77,6 +84,7 @@ DEFAULT_X_HANDLE = "@GlobalSportsRp"
 DEFAULT_SUBSTACK_URL = "https://globalsportsreport.substack.com/"
 
 SITE_TZ = "America/New_York"
+EDITORIAL_BRAIN_VERSION = "sports-editorial-brain-v3"
 
 REPORT_FILES: dict[str, Path] = {
     "mlb": BASE_DIR / "mlb_report.txt",
@@ -454,6 +462,374 @@ def load_advanced_reports() -> dict[str, dict[str, Any]]:
 
 
 # =============================================================================
+# SPORTS EDITORIAL BRAIN V3
+# =============================================================================
+
+SPORT_EDITORIAL_PROFILES: dict[str, dict[str, list[str]]] = {
+    "mlb": {
+        "stakes": [
+            "rotation stability",
+            "bullpen usage",
+            "late-inning leverage",
+            "division pressure",
+            "offensive consistency",
+            "series momentum",
+        ],
+        "watch": [
+            "whether the bullpen can protect close leads",
+            "whether the lineup turns traffic on base into crooked innings",
+            "how the rotation sets up for the next series",
+            "whether recent run production is sustainable",
+        ],
+    },
+    "nba": {
+        "stakes": [
+            "playoff positioning",
+            "star usage",
+            "bench depth",
+            "pace control",
+            "late-game execution",
+            "defensive matchups",
+        ],
+        "watch": [
+            "whether the stars are carrying too heavy a load",
+            "how the second unit holds up in non-star minutes",
+            "whether the defense can keep the game out of transition",
+            "how the result affects seeding pressure",
+        ],
+    },
+    "nhl": {
+        "stakes": [
+            "goaltending form",
+            "special-teams pressure",
+            "forecheck control",
+            "playoff positioning",
+            "third-period execution",
+            "defensive-zone exits",
+        ],
+        "watch": [
+            "whether the goaltending trend holds",
+            "how special teams tilt the next matchup",
+            "whether the forecheck keeps creating pressure",
+            "how late-game structure holds under playoff-style pressure",
+        ],
+    },
+    "nfl": {
+        "stakes": [
+            "quarterback stability",
+            "roster construction",
+            "schedule pressure",
+            "injury depth",
+            "draft positioning",
+            "division leverage",
+        ],
+        "watch": [
+            "whether quarterback play changes the weekly ceiling",
+            "how injuries affect roster flexibility",
+            "whether the schedule creates a hidden pressure point",
+            "how personnel decisions reshape the next phase",
+        ],
+    },
+    "ncaafb": {
+        "stakes": [
+            "ranking pressure",
+            "conference positioning",
+            "quarterback development",
+            "transfer impact",
+            "recruiting momentum",
+            "schedule leverage",
+        ],
+        "watch": [
+            "whether the result shifts conference perception",
+            "how quarterback play changes the team's ceiling",
+            "whether roster depth holds up across the schedule",
+            "how the matchup affects ranking or postseason arguments",
+        ],
+    },
+    "soccer": {
+        "stakes": [
+            "table pressure",
+            "goal differential",
+            "chance creation",
+            "squad rotation",
+            "transition defense",
+            "late-match control",
+        ],
+        "watch": [
+            "whether chance creation translates into goals",
+            "how the result affects table pressure",
+            "whether squad rotation changes the match rhythm",
+            "how late-match control holds under pressure",
+        ],
+    },
+    "betting_odds": {
+        "stakes": [
+            "market movement",
+            "implied probability",
+            "public perception",
+            "injury uncertainty",
+            "line value",
+            "pricing pressure",
+        ],
+        "watch": [
+            "whether the market is reacting to confirmed information or perception",
+            "how implied probability compares with recent form",
+            "whether injuries or rest factors move the number",
+            "whether the price is telling a different story than the headline matchup",
+        ],
+    },
+    "fantasy": {
+        "stakes": [
+            "usage trends",
+            "role stability",
+            "injury replacements",
+            "matchup volume",
+            "waiver value",
+            "lineup pressure",
+        ],
+        "watch": [
+            "whether the usage trend is stable enough to trust",
+            "how injuries open or close fantasy opportunity",
+            "whether the matchup creates volume or efficiency risk",
+            "which player role appears to be changing fastest",
+        ],
+    },
+}
+
+
+GENERIC_LOW_VALUE_PATTERNS = [
+    r"\bno updates were available\b",
+    r"\bno .* available at this time\b",
+    r"\bplaceholder\b",
+    r"\bfallback\b",
+    r"\brss\b",
+    r"\bpipeline\b",
+    r"\bfeed\b",
+]
+
+
+def is_low_value_content(text: str) -> bool:
+    cleaned = clean_text(text).lower()
+    if len(cleaned) < 45:
+        return True
+    return any(re.search(pattern, cleaned, flags=re.IGNORECASE) for pattern in GENERIC_LOW_VALUE_PATTERNS)
+
+
+def extract_best_lines_for_context(text: str, limit: int = 4) -> list[str]:
+    cleaned = clean_text(text)
+    if not cleaned:
+        return []
+
+    lines: list[str] = []
+    for raw in cleaned.splitlines():
+        line = raw.strip(" -\t")
+        if not line:
+            continue
+        if SECTION_HEADER_RE.match(line):
+            continue
+        if len(line) < 28:
+            continue
+        if is_low_value_content(line):
+            continue
+        if line not in lines:
+            lines.append(line)
+        if len(lines) >= limit:
+            break
+
+    if lines:
+        return lines
+
+    sentences = re.split(r"(?<=[.!?])\s+", cleaned)
+    for sentence in sentences:
+        sentence = sentence.strip(" -\t")
+        if len(sentence) >= 45 and not is_low_value_content(sentence):
+            lines.append(sentence)
+        if len(lines) >= limit:
+            break
+
+    return lines
+
+
+def detect_result_language(text: str) -> dict[str, bool]:
+    lowered = clean_text(text).lower()
+
+    return {
+        "has_score": bool(re.search(r"\b\d{1,3}\s*[-–]\s*\d{1,3}\b", lowered)),
+        "has_win_loss": bool(re.search(r"\b(win|won|loss|lost|defeat|defeated|beat|beats|rout|edge|hold off)\b", lowered)),
+        "has_schedule": bool(re.search(r"\b(vs\.?|at|hosts?|visits?|upcoming|tonight|tomorrow|schedule)\b", lowered)),
+        "has_market": bool(re.search(r"\b(odds|favorite|underdog|moneyline|spread|total|implied probability|priced)\b", lowered)),
+        "has_injury": bool(re.search(r"\b(injury|injured|questionable|out|day-to-day|return|availability)\b", lowered)),
+        "has_standings": bool(re.search(r"\b(standings|division|playoff|postseason|wild card|seed|race|table)\b", lowered)),
+        "has_player": bool(re.search(r"\b(points|rebounds|assists|home run|rbi|strikeouts|goals|saves|yards|touchdown)\b", lowered)),
+    }
+
+
+def choose_profile_item(section_key: str, bucket: str, seed_text: str) -> str:
+    profile = SPORT_EDITORIAL_PROFILES.get(section_key, SPORT_EDITORIAL_PROFILES["mlb"])
+    options = profile.get(bucket, [])
+    if not options:
+        return ""
+    seed = sum(ord(ch) for ch in clean_text(seed_text))
+    return options[seed % len(options)]
+
+
+def build_v3_why_it_matters(section_key: str, content: str) -> str:
+    best_lines = extract_best_lines_for_context(content, limit=3)
+    if not best_lines:
+        return ""
+
+    combined = " ".join(best_lines)
+    signals = detect_result_language(combined)
+    label = format_label(section_key)
+    stake = choose_profile_item(section_key, "stakes", combined)
+
+    if section_key == "betting_odds":
+        if signals["has_market"]:
+            return (
+                f"The market note matters because it gives reporters a cleaner read on {stake}, "
+                f"not just the listed price. The useful angle is whether the number reflects real team context, "
+                f"injury information, rest, matchup pressure, or public perception."
+            )
+        return (
+            "The betting board matters because it can reveal where expectation and reality are starting to separate. "
+            "For journalists, the value is not the pick itself but the context behind why a number is moving."
+        )
+
+    if section_key == "fantasy":
+        return (
+            f"The fantasy angle matters because role clarity often arrives before the box score fully explains it. "
+            f"Usage, matchup volume, and injury replacements can point to changing value before it becomes obvious."
+        )
+
+    if signals["has_standings"]:
+        return (
+            f"This {label} item matters because it connects the result to {stake}, not just the final line. "
+            f"The bigger editorial question is whether this changes the pressure around the next matchup, series, or stretch of the schedule."
+        )
+
+    if signals["has_win_loss"] or signals["has_score"]:
+        return (
+            f"This {label} result matters beyond the score because it offers a read on {stake}. "
+            f"The next layer for reporters is whether the performance reflects a sustainable trend or a one-game correction."
+        )
+
+    if signals["has_injury"]:
+        return (
+            f"This {label} development matters because availability can reshape roles, rotations, and expectations quickly. "
+            f"The next question is whether the team can absorb the change without losing its larger competitive shape."
+        )
+
+    if signals["has_schedule"]:
+        return (
+            f"This {label} matchup matters because the schedule can create pressure before the first whistle or first pitch. "
+            f"The key is whether recent form, rest, and matchup style point in the same direction."
+        )
+
+    if signals["has_player"]:
+        return (
+            f"This {label} note matters because individual production often hints at a larger team trend. "
+            f"The useful reporting angle is whether the performance changes usage, trust, or matchup planning going forward."
+        )
+
+    return (
+        f"This {label} item matters because it adds context to {stake}. "
+        f"The stronger story is not simply what happened, but what it suggests about the next decision point."
+    )
+
+
+def build_v3_watch_list(section_key: str, content: str) -> str:
+    best_lines = extract_best_lines_for_context(content, limit=3)
+    seed_text = " ".join(best_lines) if best_lines else content
+    watch = choose_profile_item(section_key, "watch", seed_text)
+    label = format_label(section_key)
+
+    if not watch:
+        return ""
+
+    if section_key == "betting_odds":
+        return f"Watch {watch}; that is where the betting board can become a reporting signal instead of just a price list."
+
+    if section_key == "fantasy":
+        return f"Watch {watch}; that is where fantasy value can move before the broader audience catches up."
+
+    return f"Watch {watch}; that detail may become the next meaningful {label} storyline if the trend continues."
+
+
+def content_has_header(content: str, header: str) -> bool:
+    pattern = rf"^{re.escape(header)}$"
+    return bool(re.search(pattern, content, flags=re.IGNORECASE | re.MULTILINE))
+
+
+def append_editorial_context_to_content(section_key: str, content: str) -> str:
+    content = clean_text(content)
+    if not content or is_low_value_content(content):
+        return content
+
+    additions: list[str] = []
+
+    if not content_has_header(content, "WHY IT MATTERS"):
+        why = build_v3_why_it_matters(section_key, content)
+        if why:
+            additions.extend(["", "WHY IT MATTERS", why])
+
+    if not content_has_header(content, "WATCH LIST"):
+        watch = build_v3_watch_list(section_key, content)
+        if watch:
+            additions.extend(["", "WATCH LIST", watch])
+
+    if not additions:
+        return content
+
+    return clean_text(content + "\n" + "\n".join(additions))
+
+
+def strengthen_storyline(section_key: str, line: str) -> str:
+    line = clean_text(line)
+    if not line:
+        return ""
+
+    label = format_label(section_key)
+    signals = detect_result_language(line)
+
+    if line.lower().startswith(f"{label.lower()} snapshot:"):
+        return line
+
+    if signals["has_market"] and section_key == "betting_odds":
+        return f"{label}: {line} The key is whether the price reflects confirmed context or market perception."
+
+    if signals["has_score"] or signals["has_win_loss"]:
+        return f"{label}: {line} The larger read is momentum, response, and what carries into the next matchup."
+
+    if signals["has_injury"]:
+        return f"{label}: {line} Availability is the pressure point because one absence can reshape role clarity fast."
+
+    if signals["has_standings"]:
+        return f"{label}: {line} The standings context gives this more weight than an isolated result."
+
+    return f"{label}: {line}"
+
+
+def apply_sports_editorial_brain_v3(reports: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """
+    Additive editorial layer.
+
+    This does not alter the site architecture, copy destinations, publishing flow,
+    section order, or frontend contract. It only enriches the content already moving
+    through the existing distribution system.
+    """
+    for section_key, report in reports.items():
+        content = report.get("content", "")
+        if not isinstance(content, str):
+            continue
+
+        enriched = append_editorial_context_to_content(section_key, content)
+        report["content"] = enriched
+        report["editorial_brain_version"] = EDITORIAL_BRAIN_VERSION
+
+    return reports
+
+
+# =============================================================================
 # GLOBAL JSON PAYLOAD
 # =============================================================================
 
@@ -467,49 +843,74 @@ def infer_global_headline(reports: dict[str, dict[str, Any]]) -> str:
         sections = split_named_sections(block)
         headline = sections.get("headline", [])
         if headline:
-            return headline[0]
+            headline_text = clean_text(headline[0])
+            if headline_text:
+                return headline_text
 
     available = [format_label(k) for k in SECTION_ORDER if k in reports]
     if available:
         return f"{', '.join(available[:2])} lead the current sports calendar while the broader board stays in view."
     return "The sports calendar remains active across multiple leagues."
 
+
 def extract_storylines(reports: dict[str, dict[str, Any]]) -> list[str]:
     lines: list[str] = []
 
-    for key in ["mlb", "nba", "nhl", "nfl", "ncaafb", "soccer", "fantasy"]:
+    for key in ["mlb", "nba", "nhl", "nfl", "ncaafb", "soccer", "betting_odds", "fantasy"]:
         report = reports.get(key)
         if not report:
             continue
+
         content = report.get("content", "")
         sections = split_named_sections(content)
+
+        why = sections.get("why_it_matters", [])
         snapshot = sections.get("snapshot", [])
-        if snapshot:
-            lines.append(f"{format_label(key)} snapshot: {snapshot[0]}")
+        headline = sections.get("headline", [])
+
+        if why:
+            lines.append(f"{format_label(key)} context: {why[0]}")
+        elif snapshot:
+            lines.append(strengthen_storyline(key, snapshot[0]))
+        elif headline:
+            lines.append(strengthen_storyline(key, headline[0]))
         elif content:
             first_line = first_meaningful_line(content)
             if first_line:
-                lines.append(f"{format_label(key)}: {first_line}")
+                lines.append(strengthen_storyline(key, first_line))
 
-    return lines[:6]
+    clean_lines: list[str] = []
+    seen: set[str] = set()
+
+    for line in lines:
+        cleaned = clean_text(line)
+        key = re.sub(r"\W+", " ", cleaned.lower()).strip()
+        if not cleaned or key in seen:
+            continue
+        seen.add(key)
+        clean_lines.append(cleaned)
+
+    return clean_lines[:6]
 
 
 def infer_global_snapshot(reports: dict[str, dict[str, Any]]) -> str:
-    fantasy = reports.get("fantasy", {}).get("content", "")
-    if fantasy:
-        sections = split_named_sections(fantasy)
+    priority_keys = ["mlb", "nba", "nhl", "soccer", "betting_odds", "fantasy"]
+
+    for key in priority_keys:
+        content = reports.get(key, {}).get("content", "")
+        if not content:
+            continue
+
+        sections = split_named_sections(content)
+        why = sections.get("why_it_matters", [])
         snapshot = sections.get("snapshot", [])
+
+        if why:
+            return why[0]
         if snapshot:
             return snapshot[0]
 
-    soccer = reports.get("soccer", {}).get("content", "")
-    if soccer:
-        sections = split_named_sections(soccer)
-        snapshot = sections.get("snapshot", [])
-        if snapshot:
-            return snapshot[0]
-
-    return "No fantasy updates were available at this time."
+    return "The sports board is active across multiple leagues, with the strongest stories coming from results, matchups, market signals, and role changes."
 
 
 def attach_advanced_reports(
@@ -531,6 +932,7 @@ def build_latest_report_payload(
     reports: dict[str, dict[str, Any]],
     advanced: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
+    reports = apply_sports_editorial_brain_v3(reports)
     attach_advanced_reports(reports, advanced)
 
     now_string = now_et().strftime("%Y-%m-%d %I:%M:%S %p ET")
