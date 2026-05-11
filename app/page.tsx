@@ -14,7 +14,7 @@ const SITE = {
   tagline: "Built for journalists, by a journalist.",
   topic: "Sports",
   descriptor:
-    "Global Sports Report tracks the story behind the sports board: live developments, injuries, roster movement, analytics, matchup context, betting/fantasy signals and newsroom-ready sports intelligence across MLB, NBA, NFL, NHL, soccer and the broader sports calendar.",
+    "Global Sports Report follows the stories shaping the sports world in real time: playoff races, injuries, roster pressure, coaching decisions, analytics, betting movement and the developments driving the next news cycle across MLB, NBA, NFL, NHL, soccer and the wider sports landscape.",
 };
 
 const TOOLKIT = [
@@ -49,6 +49,7 @@ const LEAGUE_LABELS: AnyObj = {
   nfl: "NFL",
   ncaafb: "College Football",
   soccer: "Soccer",
+  wnba: "WNBA",
   betting_odds: "Betting Odds",
   fantasy: "Fantasy",
 };
@@ -61,6 +62,7 @@ const LEAGUE_DEFAULT_URLS: AnyObj = {
   nfl: "https://www.espn.com/nfl/",
   ncaafb: "https://www.espn.com/college-football/",
   soccer: "https://www.espn.com/soccer/",
+  wnba: "https://www.espn.com/wnba/",
   betting_odds: "https://globalbettingreport.com",
   fantasy: "https://www.espn.com/fantasy/",
 };
@@ -498,7 +500,7 @@ function storySummary(story: AnyObj): string {
     cleanText(story.summary) ||
     cleanText(story.description) ||
     cleanText(story.body) ||
-    "Sports development flagged for newsroom monitoring."
+    "A sports storyline is moving through the board as results, injuries and roster pressure develop."
   );
 }
 
@@ -560,7 +562,7 @@ function LineList({ items }: { items: string[] }) {
   if (!safe.length) {
     return (
       <p className="text-sm leading-6 text-neutral-700">
-        Monitoring verified developments for the next clean newsroom update.
+        Additional verified reporting, injury developments and league updates are still moving across the newsroom board.
       </p>
     );
   }
@@ -595,7 +597,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Monitoring verified injuries, playoff movement, roster changes, advanced performance signals and live sports developments.
+          Tracking the developments driving today’s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
         </p>
       )}
     </div>
@@ -657,7 +659,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
             items={
               why.length
                 ? why
-                : ["This development can affect coverage priorities, follow-up angles or newsroom planning."]
+                : ["The latest development can reshape momentum, pressure, playoff positioning or the broader sports conversation."]
             }
           />
         </div>
@@ -668,7 +670,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
             items={
               watch.length
                 ? watch
-                : ["Monitor confirmed reporting, next-game context, injury updates, standings movement or metric shifts."]
+                : ["Watch for injury clarity, lineup changes, coaching decisions, playoff implications and shifts in team trajectory."]
             }
           />
         </div>
@@ -679,7 +681,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
             items={
               angles.length
                 ? angles
-                : ["Look for the strongest reporter angle behind the score, market, matchup or roster signal."]
+                : ["The strongest stories usually sit beneath the scoreboard: pressure, momentum, roster tension, accountability and what changes next."]
             }
           />
         </div>
@@ -704,7 +706,7 @@ export default function Page() {
       report.takeaways
   );
 
-  const fallbackHeadline = "Global Sports Report: Live Sports Newsroom Board";
+  const fallbackHeadline = "Global Sports Report: The Stories Behind The Board";
 
   const headline =
     cleanText(report.headline) && !isBadContent(report.headline)
@@ -714,7 +716,7 @@ export default function Page() {
   const snapshot =
     cleanText(report.snapshot) && !isBadContent(report.snapshot)
       ? cleanText(report.snapshot)
-      : "A live sports briefing built for journalists tracking verified news, results, analytics, injuries, market context and story angles.";
+      : "A live sports newsroom briefing focused on the stories, pressure points, injuries, analytics and league developments shaping the next cycle of coverage.";
 
   const updated =
     cleanText(report.updated_at) ||
@@ -729,10 +731,10 @@ export default function Page() {
         headline,
         summary: snapshot,
         url: "https://www.espn.com/",
-        key_data: ["Latest sports report generated from the current verified newsroom board."],
-        why_it_matters: ["Editors need fast clarity across sports news, results, analytics and live story movement."],
-        what_to_watch: ["Next verified result, injury note, roster move, playoff angle or advanced metric signal."],
-        story_angles: ["Use verified developments to identify the strongest follow-up reporting angle."],
+        key_data: ["The current sports cycle centers on playoff races, roster pressure, injuries and league-wide momentum shifts."],
+        why_it_matters: ["Every major result, injury or roster decision can quickly reshape standings, expectations and the next wave of coverage."],
+        what_to_watch: ["Watch for late-breaking injuries, coaching decisions, lineup changes, postseason pressure and statistical movement."],
+        story_angles: ["The biggest stories often emerge from tension, expectations, accountability and what happens after the final score."],
         story_type: "analysis",
       },
     ];
@@ -803,10 +805,10 @@ export default function Page() {
               liveBriefingItems.length
                 ? liveBriefingItems
                 : [
-                    "Track the strongest verified sports development on today’s board.",
-                    "Prioritize injuries, playoff movement, roster news, live results and verified links.",
-                    "Watch advanced metrics, standings shifts and late-breaking league updates.",
-                    "Monitor league-by-league angles for reporters and editors.",
+                    "The day’s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
+                    "Coaching decisions, lineup movement and late-game execution are driving several major storylines.",
+                    "Standings swings and performance trends are beginning to reshape postseason expectations.",
+                    "League-wide momentum continues to shift as teams respond to injuries, pressure and schedule demands.",
                   ]
             }
           />
@@ -821,9 +823,9 @@ export default function Page() {
                 editorSignalItems.length
                   ? editorSignalItems
                   : [
-                      "Track the strongest verified sports development on today’s board.",
-                      "Prioritize injuries, playoff movement, roster news, live results and verified links.",
-                      "Watch advanced metrics, standings shifts and late-breaking league updates.",
+                      "Playoff positioning, injuries and coaching pressure are driving today’s strongest sports storylines.",
+                      "Several teams are entering critical stretches where lineup decisions and late-game execution matter more.",
+                      "Performance trends, roster questions and postseason implications continue shaping coverage priorities.",
                     ]
               }
             />
@@ -835,7 +837,7 @@ export default function Page() {
 
           <Block title="Scoreboard Sites">
             <p className="mb-3 text-sm leading-6 text-neutral-700">
-              Raw scores and schedules belong here as reference tools. GSR focuses on the story, context and reporting angles behind the board.
+              Scoreboards provide the raw information. GSR focuses on the pressure points, consequences, performance trends and storylines developing behind the results.
             </p>
             <LinkList items={SCOREBOARD_SITES} />
           </Block>
@@ -843,11 +845,11 @@ export default function Page() {
           <Block title="Coverage Lens">
             <LineList
               items={[
-                "Story: What development changes the day’s sports conversation?",
-                "News: What injury, roster, playoff or league movement needs follow-up?",
-                "Performance: Which player or team metric deserves deeper reporting?",
-                "Context: What standings, market, matchup or roster angle matters most?",
-                "Newsroom: What should journalists verify next?",
+                "Pressure often reveals the real story behind the final score.",
+                "Playoff races, injuries and roster decisions can quickly shift league momentum.",
+                "Coaching choices, late-game execution and performance trends deserve deeper scrutiny.",
+                "The strongest sports stories usually involve accountability, expectations and what changes next.",
+                "Every major result creates a ripple effect across standings, betting markets and future coverage.",
               ]}
             />
           </Block>
