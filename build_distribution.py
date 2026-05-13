@@ -47,7 +47,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from editorial_intelligence import normalize_payload
+from editorial_intelligence import normalize_payload, sports_desk_headline
 
 try:
     from zoneinfo import ZoneInfo
@@ -394,6 +394,51 @@ def split_named_sections(text: str) -> dict[str, list[str]]:
     return sections
 
 
+def rewrite_content_headline(section_key: str, content: str) -> str:
+    content = clean_text(content)
+    if not content:
+        return content
+
+    sections = split_named_sections(content)
+    old_headline = clean_text(sections.get("headline", [""])[0] if sections.get("headline") else "")
+    new_headline = sports_desk_headline(
+        {
+            "key": section_key,
+            "league": section_key,
+            "headline": old_headline,
+            "title": old_headline,
+            "content": content,
+        },
+        "sports",
+    )
+
+    if not new_headline:
+        return content
+
+    lines = content.splitlines()
+    rewritten: list[str] = []
+    replaced = False
+    i = 0
+    while i < len(lines):
+        rewritten.append(lines[i])
+        if not replaced and lines[i].strip().upper() == "HEADLINE":
+            rewritten.append(new_headline)
+            i += 1
+            while i < len(lines) and lines[i].strip() == "":
+                rewritten.append(lines[i])
+                i += 1
+            if i < len(lines) and not SECTION_HEADER_RE.match(lines[i].strip()):
+                i += 1
+            replaced = True
+            continue
+        i += 1
+
+    if replaced:
+        return clean_text("\n".join(rewritten))
+
+    return clean_text(f"{content}\n\nHEADLINE\n{new_headline}")
+
+
 def parse_advanced_report(path: Path) -> dict[str, Any] | None:
     text = read_text_file(path)
     if not text:
@@ -421,6 +466,7 @@ def parse_standard_report(section_key: str, path: Path) -> dict[str, Any] | None
     text = read_text_file(path)
     if not text:
         return None
+    text = rewrite_content_headline(section_key, text)
 
     lines = text.splitlines()
     title = lines[0].strip() if lines else f"{format_label(section_key)} REPORT"

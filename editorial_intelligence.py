@@ -20,7 +20,42 @@ TEAM_WORDS = {
     "Rangers", "Athletics", "Pirates", "Brewers", "Royals", "Angels", "Yankees", "Astros",
     "Dodgers", "Cubs", "Reds", "Tigers", "Phillies", "Braves", "Magic", "Pistons", "Thunder",
     "Suns", "Knicks", "Hawks", "Timberwolves", "Nuggets", "Lakers", "Celtics", "Warriors",
+    "Sabres", "Bruins", "Avalanche", "Kings", "Lightning", "Canadiens", "Oilers", "Ducks",
+    "Wild", "Golden Knights", "Panthers", "Maple Leafs", "Hurricanes", "Rangers", "Stars",
+    "Jets", "Canucks", "Kraken", "Predators", "Penguins", "Flyers", "Capitals", "Islanders",
+    "Bears", "Lions", "Packers", "Vikings", "Cowboys", "Eagles", "Giants", "Commanders",
+    "Chiefs", "Chargers", "Raiders", "Broncos", "Bills", "Dolphins", "Jets", "Patriots",
+    "Bengals", "Browns", "Ravens", "Steelers", "Colts", "Texans", "Jaguars", "Titans",
+    "Falcons", "Panthers", "Saints", "Buccaneers", "Seahawks", "Rams", "49ers", "Cardinals",
 }
+
+BANNED_HEADLINE_PATTERNS = [
+    r"\bwhat to watch\b",
+    r"\bmarket read\b",
+    r"\buseful read\b",
+    r"\bwhy it matters\b",
+    r"\bstoryline centers on\b",
+    r"\breporting path\b",
+    r"\bthe matchup carries\b",
+    r"\beditorial signal\b",
+    r"\bnewsroom signal\b",
+    r"\bdata point\b",
+    r"\bcontext around\b",
+    r"\bthis story reflects\b",
+    r"\bsports desk sees\b",
+    r"\bpressure builds around\b",
+    r"\bboard is shaping\b",
+    r"\bslate currently shows\b",
+    r"\bwindow is bridging\b",
+    r"\bthe lead belongs to\b",
+    r"\bcurrent sports calendar\b",
+    r"\bbroader board\b",
+    r"\bno games were available\b",
+    r"\bno .* updates were available\b",
+    r"\busable data was unavailable\b",
+    r"\bavailable during this report window\b",
+    r"\breport\s*\|",
+]
 
 MOJIBAKE = {
     "\ufeff": "",
@@ -115,6 +150,159 @@ def _extract_people(text: str) -> list[str]:
     return [name for name in _dedupe(names) if name not in blocked and name not in TEAM_WORDS][:4]
 
 
+def _title_case_headline(text: str) -> str:
+    text = clean_text(text).rstrip(".")
+    if not text:
+        return ""
+    small = {"a", "an", "and", "as", "at", "but", "by", "for", "from", "in", "of", "on", "or", "the", "to", "vs"}
+    words = re.split(r"(\s+)", text)
+    out: list[str] = []
+    real_index = 0
+    real_total = len([w for w in words if w.strip()])
+    for word in words:
+        if not word.strip():
+            out.append(word)
+            continue
+        bare = word.strip()
+        lower = bare.lower()
+        real_index += 1
+        if bare.isupper() or re.search(r"\d", bare) or "-" in bare or "'" in bare:
+            out.append(bare)
+        elif 1 < real_index < real_total and lower in small:
+            out.append(lower)
+        else:
+            out.append(lower[:1].upper() + lower[1:])
+    return "".join(out)
+
+
+def _has_banned_headline_language(text: str) -> bool:
+    lowered = clean_text(text).lower()
+    return any(re.search(pattern, lowered, flags=re.I) for pattern in BANNED_HEADLINE_PATTERNS)
+
+
+def _score_verb(score_a: str, score_b: str) -> str:
+    try:
+        margin = abs(int(score_a) - int(score_b))
+    except Exception:
+        margin = 0
+    if margin <= 2:
+        return "Edge"
+    if margin >= 10:
+        return "Rout"
+    return "Beat"
+
+
+def _team_from_fragment(fragment: str) -> str:
+    fragment = clean_text(fragment)
+    for marker in ["FINAL SCORES", "TODAY FINAL SCORES", "UPCOMING", "LIVE", "SNAPSHOT", "STORY ANGLES"]:
+        if marker.lower() in fragment.lower():
+            fragment = re.split(re.escape(marker), fragment, flags=re.I)[-1]
+    fragment = re.split(r"[.;:]", fragment)[-1]
+    teams = [team for team in TEAM_WORDS if re.search(rf"\b{re.escape(team)}\b", fragment, re.I)]
+    if teams:
+        return sorted(teams, key=len, reverse=True)[0]
+    words = fragment.split()
+    return " ".join(words[-3:])
+
+
+def _desk_headline_from_scores(text: str) -> str:
+    score = re.search(
+        r"\b([A-Z][A-Za-z .]+?)\s+(?:beat|defeated|top(?:ped)?|edge(?:d)?|rout(?:ed)?)\s+"
+        r"([A-Z][A-Za-z .]+?),\s+([0-9]{1,3})-([0-9]{1,3})",
+        text,
+        flags=re.I,
+    )
+    if not score:
+        return ""
+    winner = _team_from_fragment(score.group(1))
+    loser = _team_from_fragment(score.group(2))
+    if not winner or not loser or winner.lower() == loser.lower():
+        return ""
+    verb = _score_verb(score.group(3), score.group(4))
+    return _title_case_headline(f"{winner} {verb} {loser}")
+
+
+def _desk_headline_from_matchup(text: str, league: str) -> str:
+    matchup = re.search(
+        r"\b([A-Z][A-Za-z .]+?)\s+(?:at|vs\.?|versus)\s+([A-Z][A-Za-z .]+?)\s*(?:-|,|\.|\n|$)",
+        text,
+        flags=re.I,
+    )
+    if not matchup:
+        return ""
+    away = _team_from_fragment(matchup.group(1))
+    home = _team_from_fragment(matchup.group(2))
+    if not away or not home:
+        return ""
+    bad_entity_words = r"\b(available|report|window|updates|games|data|time|during|this|were)\b"
+    if re.search(bad_entity_words, away, re.I) or re.search(bad_entity_words, home, re.I):
+        return ""
+    label = LEAGUES.get(league.lower(), clean_text(league, "Sports"))
+    if re.search(r"\b(final|beat|defeated|won|lost)\b", text, re.I):
+        return _title_case_headline(f"{away}-{home} Sets Up Next {label} Read")
+    if re.search(r"\b(probables?|starter|pitcher|rotation|lineup)\b", text, re.I):
+        return _title_case_headline(f"{away}-{home} Turns on Pitching Plans")
+    return _title_case_headline(f"{away}-{home} Leads {label} Slate")
+
+
+def _desk_headline_from_news(text: str, league: str) -> str:
+    teams = _extract_teams(text)
+    people = _extract_people(text)
+    label = LEAGUES.get(league.lower(), clean_text(league, "Sports"))
+
+    if re.search(r"\b(no final scores|no live games|no upcoming games|no games|no .* updates|unavailable)\b", text, re.I):
+        if league == "nfl":
+            return "NFL Schedule Quiet After Draft Weekend"
+        if league == "ncaafb":
+            return "College Football Waits on Schedule News"
+        if league == "fantasy":
+            return "Fantasy Board Waits on Injury News"
+        return _title_case_headline(f"{label} Schedule Stays Quiet")
+    if re.search(r"\b(injury|injured|questionable|doubtful|out|return|status)\b", text, re.I):
+        subject = people[0] if people else (teams[0] if teams else label)
+        return _title_case_headline(f"{subject} Injury Status Shapes {label} Board")
+    if re.search(r"\b(contract|trade|sign(?:ed|ing)?|deal|waiver|transfer|portal|draft|roster)\b", text, re.I):
+        subject = teams[0] if teams else (people[0] if people else label)
+        return _title_case_headline(f"{subject} Roster Move Reshapes {label} Picture")
+    if re.search(r"\b(schedule|dates?|release|announc(?:ed|es)|camp|training camp)\b", text, re.I):
+        return _title_case_headline(f"{label} Schedule Dates Start to Land")
+    if re.search(r"\b(playoff|postseason|wild card|seed|standings|race|table)\b", text, re.I):
+        subject = teams[0] if teams else label
+        return _title_case_headline(f"{subject} Faces Bigger {label} Playoff Test")
+    if people and teams:
+        return _title_case_headline(f"{people[0]} Leads {teams[0]} Story")
+    if teams:
+        return _title_case_headline(f"{teams[0]} Draws Top {label} Focus")
+    return ""
+
+
+def sports_desk_headline(item: dict[str, Any], vertical: str = "sports") -> str:
+    if vertical != "sports":
+        return clean_text(item.get("headline") or item.get("title"))
+
+    key = clean_text(item.get("key") or item.get("league") or item.get("title")).lower()
+    current = clean_text(item.get("headline") or item.get("title"))
+    text = clean_text(
+        f"{current}. {item.get('summary', '')}. {item.get('snapshot', '')}. {item.get('content', '')}"
+    )
+
+    result_or_matchup = _desk_headline_from_scores(text) or _desk_headline_from_matchup(text, key)
+
+    if result_or_matchup:
+        return result_or_matchup[:90].rstrip(" ,;:-")
+
+    if current and not _has_banned_headline_language(current) and len(current.split()) <= 11:
+        return _title_case_headline(current)[:90].rstrip(" ,;:-")
+
+    generated = _desk_headline_from_news(text, key)
+
+    if generated:
+        return generated[:90].rstrip(" ,;:-")
+
+    label = LEAGUES.get(key, clean_text(item.get("league") or item.get("label") or "Sports"))
+    return _title_case_headline(f"{label} Board Turns on Results and Matchups")
+
+
 def build_key_data(item: dict[str, Any], vertical: str = "sports") -> list[str]:
     key = clean_text(item.get("key") or item.get("league") or item.get("title")).lower()
     league = LEAGUES.get(key, clean_text(item.get("league") or item.get("title")))
@@ -187,7 +375,11 @@ def normalize_card(item: dict[str, Any], vertical: str = "sports") -> dict[str, 
     for field in ["headline", "title", "snapshot", "summary", "content", "source_label", "source_name", "source_file", "url", "published_at"]:
         if field in card:
             card[field] = clean_text(card.get(field))
-    headline = clean_text(card.get("headline") or card.get("title"))
+    headline = sports_desk_headline(card, vertical)
+    if headline:
+        card["headline"] = headline
+        if "title" in card:
+            card["title"] = headline
     key_data = build_key_data(card, vertical)
     if not key_data:
         source = _source(card)
@@ -208,6 +400,10 @@ def normalize_payload(payload: dict[str, Any], vertical: str = "sports") -> dict
     for field in ["title", "headline", "snapshot", "updated_at", "generated_at", "published_at"]:
         if field in payload:
             payload[field] = clean_text(payload.get(field))
+    if vertical == "sports":
+        headline = sports_desk_headline(payload, vertical)
+        if headline:
+            payload["headline"] = headline
     for key in ["live_newsroom", "editor_signals", "homepage_cards"]:
         if isinstance(payload.get(key), list):
             payload[key] = [normalize_card(x, vertical) if isinstance(x, dict) else x for x in payload[key]]
