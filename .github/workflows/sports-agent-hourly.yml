@@ -1,0 +1,179 @@
+﻿name: Global Sports Agent Hourly Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "07 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: global-sports-agent-hourly
+  cancel-in-progress: true
+
+jobs:
+  sports-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Sports site
+        uses: actions/checkout@v4
+        with:
+          path: sports-site
+
+      - name: Checkout GSR content engine
+        uses: actions/checkout@v4
+        with:
+          repository: rutlandjoe-crypto/sports_bot-ai
+          token: ${{ secrets.GSR_PUSH_TOKEN }}
+          path: engine
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests python-dotenv feedparser beautifulsoup4 tweepy
+
+      - name: Generate fresh Sports report
+        working-directory: engine
+        shell: pwsh
+        env:
+          GSR_DISABLE_SOCIAL_POSTS: "1"
+          DISTRIBUTION_DISABLE_POSTS: "1"
+          PYTHONUNBUFFERED: "1"
+        run: |
+          if (Test-Path "build_distribution.py") {
+            python build_distribution.py
+          } elseif (Test-Path "master_runner.py") {
+            python master_runner.py
+          } else {
+            throw "No Sports report generator found."
+          }
+
+      - name: Copy Sports report into site
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force sports-site/public | Out-Null
+
+          $candidates = @(
+            "engine/latest_report.json",
+            "engine/latest_sports_report.json",
+            "engine/public/latest_report.json"
+          )
+
+          $source = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+
+          if (-not $source) {
+            throw "No generated Sports JSON found."
+          }
+
+          Copy-Item $source sports-site/public/latest_report.json -Force
+          Copy-Item $source sports-site/latest_report.json -Force
+
+          Write-Host "Copied Sports report from $source"
+
+      - name: Validate Sports Agent output
+        shell: pwsh
+        run: |
+          $script = @'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          path = "sports-site/public/latest_report.json"
+
+          with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          site_text = " ".join(str(data.get(k, "")) for k in ["site", "site_name", "vertical", "title"])
+          if "Sports" not in site_text:
+              raise SystemExit(f"Report does not identify as Sports: {site_text}")
+
+          raw = json.dumps(data, ensure_ascii=False)
+
+          banned = [
+              "MLB: MLB",
+              "NBA: NBA",
+              "NHL: NHL",
+              "NFL: NFL",
+              "MLB REPORT",
+              "NBA REPORT",
+              "NHL REPORT",
+              "NFL REPORT",
+          ]
+
+          found = [term for term in banned if term in raw]
+          if found:
+              raise SystemExit(f"Sports Agent blocked bad public copy: {found}")
+
+          updated = str(data.get("updated_at") or data.get("generated_at") or "").strip()
+          if not updated:
+              raise SystemExit("Missing updated_at/generated_at timestamp.")
+
+          formats = [
+              "%Y-%m-%d %I:%M:%S %p ET",
+              "%Y-%m-%d %I:%M %p ET",
+              "%Y-%m-%d %H:%M:%S",
+              "%Y-%m-%d %H:%M",
+          ]
+
+          parsed = None
+          for fmt in formats:
+              try:
+                  parsed = datetime.strptime(updated, fmt)
+                  break
+              except ValueError:
+                  pass
+
+          if parsed is None:
+              raise SystemExit(f"Could not parse Sports timestamp: {updated}")
+
+          eastern = ZoneInfo("America/New_York")
+          parsed = parsed.replace(tzinfo=eastern)
+
+          now = datetime.now(eastern)
+          age_hours = (now - parsed).total_seconds() / 3600
+
+          if age_hours > 3:
+              raise SystemExit(f"Sports report is stale: {age_hours:.2f} hours old.")
+
+          cards = data.get("homepage_cards") or data.get("cards") or []
+          newsroom = data.get("live_newsroom") or data.get("briefing") or []
+          signals = data.get("editor_signals") or []
+
+          if len(cards) < 5:
+              raise SystemExit(f"Too few Sports homepage cards: {len(cards)}")
+
+          if len(newsroom) < 5:
+              raise SystemExit(f"Too few Sports newsroom items: {len(newsroom)}")
+
+          print(f"Sports Agent OK: timestamp={updated}, age_hours={age_hours:.2f}, cards={len(cards)}, newsroom={len(newsroom)}, signals={len(signals)}")
+          '@
+
+          Set-Content -Path validate_sports_agent.py -Value $script -Encoding utf8
+          python validate_sports_agent.py
+
+      - name: Commit fresh Sports data
+        shell: pwsh
+        working-directory: sports-site
+        run: |
+          git config user.name "GSR Sports Agent"
+          git config user.email "actions@github.com"
+
+          git add public/latest_report.json latest_report.json
+
+          $changes = git diff --cached --name-only
+
+          if (-not $changes) {
+            Write-Host "No Sports data changes to commit."
+            exit 0
+          }
+
+          git commit -m "Sports Agent hourly data refresh"
+          git push
