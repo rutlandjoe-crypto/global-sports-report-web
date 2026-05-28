@@ -7,13 +7,13 @@
     "NHL: Canadiens-Hurricanes Hinges on Goalies, Special Teams",
     "NFL: NFL Contract Questions Start Shaping Camp Pressure",
     "NBA: Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
-    "NFL: NFL Quarterback Questions Raise Camp Pressure",
-    "MLB: MLB Pitching Matchups Set the First Read"
+    "MLB: Chicago White Sox beat Minnesota Twins 6-2",
+    "NFL: NFL Quarterback Questions Raise Camp Pressure"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus; records: Canadiens 48-24-10; Hurricanes 53-22-7 (0.040 win-pct gap); line: CAR -225; total 5.5; time/status: 5/29 - 8:00 PM EDT; venue: Lenovo Center. Confirmed goalies,. .",
-  "generated_at": "2026-05-28 03:30:43 PM ET",
-  "updated_at": "2026-05-28 03:30:43 PM ET",
-  "published_at": "2026-05-28 03:30:43 PM ET",
+  "generated_at": "2026-05-28 05:48:08 PM ET",
+  "updated_at": "2026-05-28 05:48:08 PM ET",
+  "published_at": "2026-05-28 05:48:08 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -23,24 +23,27 @@
     "mlb": {
       "title": "MLB Pitching Matchups Set the First Read",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-05-28 03:30:15 PM ET",
-      "content": "MLB REPORT | 2026-05-28 HEADLINE Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage SNAPSHOT MLB board for 2026-05-28 ET: 0 finals, 2 live games and 4 scheduled games. KEY STORYLINES Live update: Late-inning leverage puts Los. .",
+      "updated_at": "2026-05-28 05:47:38 PM ET",
+      "content": "MLB REPORT | 2026-05-28 HEADLINE Atlanta Braves-Boston Red Sox is live, but the story depends on leverage and decision points SNAPSHOT MLB board for 2026-05-28 ET: 2 finals, 1 live games and 3 scheduled games. KEY STORYLINES Live update: Atlanta...",
       "key": "mlb",
       "label": "MLB",
       "headline": "MLB Pitching Matchups Set the First Read",
-      "snapshot": "MLB has current game context: time/status: Top 9th; venue: Comerica Park. Availability, lineup decisions and standings or market consequence set the next update.",
+      "snapshot": "The listed starters and bullpen availability carry the first read; records: Twins 27-30; White Sox 29-27 (0.044 win-pct gap); venue: Rate Field. Lineup scratches, bullpen workload and late price movement are the next verification points.",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: live or final score context is available."
+        "MLB: live or final score context is available.",
+        "Record context: Twins 27-30; White Sox 29-27 (0.044 win-pct gap)."
       ],
       "key_data_points": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: live or final score context is available."
+        "MLB: live or final score context is available.",
+        "Record context: Twins 27-30; White Sox 29-27 (0.044 win-pct gap)."
       ],
       "why_it_matters": [
         "MLB depends on availability, form and standings impact.",
         "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "The score matters most when it changes the standings, rotation choices or next matchup."
+        "The score matters most when it changes the standings, rotation choices or next matchup.",
+        "Twins-White Sox has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Late availability, momentum, market movement or a lineup decision can change the update."
@@ -71,45 +74,98 @@
       "cards": [
         {
           "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
-          "title": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
-          "summary": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
+          "label": "Postgame read",
+          "headline": "Chicago White Sox beat Minnesota Twins 6-2",
+          "title": "Chicago White Sox beat Minnesota Twins 6-2",
+          "summary": "Twins-White Sox has live score movement, putting bullpen usage and late-inning leverage next. Final: Chicago White Sox 6, Minnesota Twins 2; records: Twins 27-30; White Sox 29-27. Pitcher confirmation, lineup shape and bullpen availability shape the next.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "key_data": [
+            "Final: Chicago White Sox 6, Minnesota Twins 2",
+            "Margin: Chicago White Sox by 4",
+            "Final score for context: Chicago White Sox 6, Minnesota Twins 2",
+            "Run margin: 4",
+            "Records: Twins 27-30; White Sox 29-27"
+          ],
+          "why_it_matters": [
+            "Twins-White Sox matters because the records show where the result can change the race or team direction.",
+            "Chicago White Sox's result over Minnesota Twins is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
+          ],
+          "what_to_watch": [
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "game_date": "2026-05-28",
+          "game_time": "2:10 PM ET",
+          "status": "Final",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Chicago White Sox 6, Minnesota Twins 2",
+            "Margin: Chicago White Sox by 4",
+            "Final score for context: Chicago White Sox 6, Minnesota Twins 2",
+            "Run margin: 4",
+            "Records: Twins 27-30; White Sox 29-27"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "snapshot": "Twins-White Sox has live score movement, putting bullpen usage and late-inning leverage next. Final: Chicago White Sox 6, Minnesota Twins 2; records: Twins 27-30; White Sox 29-27. Pitcher confirmation, lineup shape and bullpen availability shape the next.",
+          "story_angles": [
+            "Twins-White Sox starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "MLB",
+          "label": "Postgame read",
+          "headline": "Los Angeles Angels turns Los Angeles Angels-Detroit Tigers into a statement result",
+          "title": "Los Angeles Angels turns Los Angeles Angels-Detroit Tigers into a statement result",
+          "summary": "Final: Los Angeles Angels 7, Detroit Tigers 1. Records: Angels 22-35; Tigers 22-35",
           "url": "https://www.espn.com/mlb/game/_/gameId/401815529",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815529",
           "key_data": [
-            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
-            "Status: Top 9th",
-            "Venue: Comerica Park",
-            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
-            "Time/status: Top 9th"
+            "Final: Los Angeles Angels 7, Detroit Tigers 1",
+            "Margin: Los Angeles Angels by 6",
+            "Final score for context: Los Angeles Angels 7, Detroit Tigers 1",
+            "Run margin: 6",
+            "Records: Angels 22-35; Tigers 22-35"
           ],
           "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+            "Angels-Tigers matters because the records show where the result can change the race or team direction.",
+            "Los Angeles Angels did more than win; the margin pushes the coverage toward pitching quality, lineup production and whether Detroit Tigers has a larger issue to answer.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
           ],
           "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
           ],
           "story_type": "lineup_rotation",
-          "game_status": "live",
+          "game_status": "final",
           "game_date": "2026-05-28",
           "game_time": "1:10 PM ET",
-          "status": "Top 9th",
+          "status": "Final",
           "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Los Angeles Angels 7, Detroit Tigers 1",
+            "Margin: Los Angeles Angels by 6",
+            "Final score for context: Los Angeles Angels 7, Detroit Tigers 1",
+            "Run margin: 6",
+            "Records: Angels 22-35; Tigers 22-35"
+          ],
           "url_quality": "exact",
           "source_domain": "espn.com",
-          "snapshot": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
-          "key_data_points": [
-            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
-            "Status: Top 9th",
-            "Venue: Comerica Park",
-            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
-            "Time/status: Top 9th"
-          ],
+          "snapshot": "Final: Los Angeles Angels 7, Detroit Tigers 1. Records: Angels 22-35; Tigers 22-35",
           "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+            "Angels-Tigers starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability",
           "editorial_depth": {
@@ -121,17 +177,17 @@
         {
           "league": "MLB",
           "label": "Live update",
-          "headline": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-          "title": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-          "summary": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815534",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "headline": "Atlanta Braves and Boston Red Sox are tied 2-2",
+          "title": "Atlanta Braves and Boston Red Sox are tied 2-2",
+          "summary": "Braves-Sox is tied 2-2 in the of the fifth at Fenway Park, putting bullpen usage and late-inning leverage next. Score: Atlanta Braves 2, Boston Red Sox 2; venue: Fenway Park; status: Middle 5th. Pitcher confirmation, lineup shape and bullpen availability.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815530",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815530",
           "key_data": [
-            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
-            "Status: End 4th",
-            "Venue: Rate Field",
-            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-            "Time/status: End 4th"
+            "Current score for context: Atlanta Braves 2, Boston Red Sox 2",
+            "Status: Middle 5th",
+            "Venue: Fenway Park",
+            "Atlanta Braves and Boston Red Sox are tied 2-2",
+            "Time/status: Middle 5th"
           ],
           "why_it_matters": [
             "MLB depends on availability, form and standings impact.",
@@ -144,18 +200,18 @@
           "story_type": "lineup_rotation",
           "game_status": "live",
           "game_date": "2026-05-28",
-          "game_time": "2:10 PM ET",
-          "status": "End 4th",
+          "game_time": "4:10 PM ET",
+          "status": "Middle 5th",
           "scoreboard_note": "The card lead should remain a story angle, not a score line.",
           "url_quality": "exact",
           "source_domain": "espn.com",
-          "snapshot": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
+          "snapshot": "Score: Atlanta Braves 2, Boston Red Sox 2. Status: Middle 5th. Venue: Fenway Park",
           "key_data_points": [
-            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
-            "Status: End 4th",
-            "Venue: Rate Field",
-            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-            "Time/status: End 4th"
+            "Current score for context: Atlanta Braves 2, Boston Red Sox 2",
+            "Status: Middle 5th",
+            "Venue: Fenway Park",
+            "Atlanta Braves and Boston Red Sox are tied 2-2",
+            "Time/status: Middle 5th"
           ],
           "story_angles": [
             "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
@@ -171,45 +227,47 @@
       "stories": [
         {
           "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
-          "title": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
-          "summary": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
+          "label": "Postgame read",
+          "headline": "Chicago White Sox beat Minnesota Twins 6-2",
+          "title": "Chicago White Sox beat Minnesota Twins 6-2",
+          "summary": "Twins-White Sox has live score movement, putting bullpen usage and late-inning leverage next. Final: Chicago White Sox 6, Minnesota Twins 2; records: Twins 27-30; White Sox 29-27. Pitcher confirmation, lineup shape and bullpen availability shape the next.",
           "url": "https://www.reuters.com/sports/baseball/",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815529",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
           "key_data": [
-            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
-            "Status: Top 9th",
-            "Venue: Comerica Park",
-            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
-            "Time/status: Top 9th"
+            "Final: Chicago White Sox 6, Minnesota Twins 2",
+            "Margin: Chicago White Sox by 4",
+            "Final score for context: Chicago White Sox 6, Minnesota Twins 2",
+            "Run margin: 4",
+            "Records: Twins 27-30; White Sox 29-27"
           ],
           "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+            "Twins-White Sox matters because the records show where the result can change the race or team direction.",
+            "Chicago White Sox's result over Minnesota Twins is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
           ],
           "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
           ],
           "story_type": "lineup_rotation",
-          "game_status": "live",
+          "game_status": "final",
           "game_date": "2026-05-28",
-          "game_time": "1:10 PM ET",
-          "status": "Top 9th",
+          "game_time": "2:10 PM ET",
+          "status": "Final",
           "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Chicago White Sox 6, Minnesota Twins 2",
+            "Margin: Chicago White Sox by 4",
+            "Final score for context: Chicago White Sox 6, Minnesota Twins 2",
+            "Run margin: 4",
+            "Records: Twins 27-30; White Sox 29-27"
+          ],
           "url_quality": "exact",
           "source_domain": "reuters.com",
-          "snapshot": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
-          "key_data_points": [
-            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
-            "Status: Top 9th",
-            "Venue: Comerica Park",
-            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
-            "Time/status: Top 9th"
-          ],
+          "snapshot": "Twins-White Sox has live score movement, putting bullpen usage and late-inning leverage next. Final: Chicago White Sox 6, Minnesota Twins 2; records: Twins 27-30; White Sox 29-27. Pitcher confirmation, lineup shape and bullpen availability shape the next.",
           "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+            "Twins-White Sox starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability",
           "editorial_depth": {
@@ -220,18 +278,69 @@
         },
         {
           "league": "MLB",
-          "label": "Live update",
-          "headline": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-          "title": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-          "summary": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
+          "label": "Postgame read",
+          "headline": "Los Angeles Angels turns Los Angeles Angels-Detroit Tigers into a statement result",
+          "title": "Los Angeles Angels turns Los Angeles Angels-Detroit Tigers into a statement result",
+          "summary": "Final: Los Angeles Angels 7, Detroit Tigers 1. Records: Angels 22-35; Tigers 22-35",
           "url": "https://www.cbssports.com/mlb/scores/",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815529",
           "key_data": [
-            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
-            "Status: End 4th",
-            "Venue: Rate Field",
-            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-            "Time/status: End 4th"
+            "Final: Los Angeles Angels 7, Detroit Tigers 1",
+            "Margin: Los Angeles Angels by 6",
+            "Final score for context: Los Angeles Angels 7, Detroit Tigers 1",
+            "Run margin: 6",
+            "Records: Angels 22-35; Tigers 22-35"
+          ],
+          "why_it_matters": [
+            "Angels-Tigers matters because the records show where the result can change the race or team direction.",
+            "Los Angeles Angels did more than win; the margin pushes the coverage toward pitching quality, lineup production and whether Detroit Tigers has a larger issue to answer.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
+          ],
+          "what_to_watch": [
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "game_date": "2026-05-28",
+          "game_time": "1:10 PM ET",
+          "status": "Final",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Los Angeles Angels 7, Detroit Tigers 1",
+            "Margin: Los Angeles Angels by 6",
+            "Final score for context: Los Angeles Angels 7, Detroit Tigers 1",
+            "Run margin: 6",
+            "Records: Angels 22-35; Tigers 22-35"
+          ],
+          "url_quality": "exact",
+          "source_domain": "cbssports.com",
+          "snapshot": "Final: Los Angeles Angels 7, Detroit Tigers 1. Records: Angels 22-35; Tigers 22-35",
+          "story_angles": [
+            "Angels-Tigers starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Atlanta Braves and Boston Red Sox are tied 2-2",
+          "title": "Atlanta Braves and Boston Red Sox are tied 2-2",
+          "summary": "Braves-Sox is tied 2-2 in the of the fifth at Fenway Park, putting bullpen usage and late-inning leverage next. Score: Atlanta Braves 2, Boston Red Sox 2; venue: Fenway Park; status: Middle 5th. Pitcher confirmation, lineup shape and bullpen availability.",
+          "url": "https://www.cbssports.com/mlb/standings/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815530",
+          "key_data": [
+            "Current score for context: Atlanta Braves 2, Boston Red Sox 2",
+            "Status: Middle 5th",
+            "Venue: Fenway Park",
+            "Atlanta Braves and Boston Red Sox are tied 2-2",
+            "Time/status: Middle 5th"
           ],
           "why_it_matters": [
             "MLB depends on availability, form and standings impact.",
@@ -244,18 +353,18 @@
           "story_type": "lineup_rotation",
           "game_status": "live",
           "game_date": "2026-05-28",
-          "game_time": "2:10 PM ET",
-          "status": "End 4th",
+          "game_time": "4:10 PM ET",
+          "status": "Middle 5th",
           "scoreboard_note": "The card lead should remain a story angle, not a score line.",
           "url_quality": "exact",
           "source_domain": "cbssports.com",
-          "snapshot": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
+          "snapshot": "Score: Atlanta Braves 2, Boston Red Sox 2. Status: Middle 5th. Venue: Fenway Park",
           "key_data_points": [
-            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
-            "Status: End 4th",
-            "Venue: Rate Field",
-            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
-            "Time/status: End 4th"
+            "Current score for context: Atlanta Braves 2, Boston Red Sox 2",
+            "Status: Middle 5th",
+            "Venue: Fenway Park",
+            "Atlanta Braves and Boston Red Sox are tied 2-2",
+            "Time/status: Middle 5th"
           ],
           "story_angles": [
             "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
@@ -272,12 +381,12 @@
     "nba": {
       "title": "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-05-28 03:30:15 PM ET",
+      "updated_at": "2026-05-28 05:47:39 PM ET",
       "content": "NBA REPORT | 2026-05-28 HEADLINE Oklahoma City Thunder-San Antonio Spurs brings named-player and market context into the pregame read SNAPSHOT 1 NBA games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing story stakes over score. .",
       "key": "nba",
       "label": "NBA",
       "headline": "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
-      "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs its lead matchup; records: Thunder 64-18; Spurs 62-20 (0.024 win-pct gap); line: SA -3.5; total 218.5; time/status: 5/28 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late....",
+      "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs its lead matchup; records: Thunder 64-18; Spurs 62-20 (0.024 win-pct gap); line: SA -3.5; total 219.5; time/status: 5/28 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late....",
       "key_data": [
         "NBA: availability or roster movement is attached to the story.",
         "NBA: betting context can show expectation when paired with team news.",
@@ -328,7 +437,7 @@
     "nhl": {
       "title": "Canadiens-Hurricanes Hinges on Goalies, Special Teams",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-05-28 03:30:16 PM ET",
+      "updated_at": "2026-05-28 05:47:40 PM ET",
       "content": "NHL REPORT | 2026-05-28 HEADLINE Montreal Canadiens-Carolina Hurricanes carries a meaningful NHL matchup. 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. KEY STORYLINES Montreal Canadiens-Carolina Hurricanes carries a meaningful NHL matchup. .",
       "key": "nhl",
       "label": "NHL",
@@ -383,7 +492,7 @@
     "nfl": {
       "title": "NFL Quarterback Questions Raise Camp Pressure",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-05-28 03:30:17 PM ET",
+      "updated_at": "2026-05-28 05:47:41 PM ET",
       "content": "NFL REPORT | 2026-05-28 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
@@ -921,7 +1030,7 @@
     "ncaafb": {
       "title": "NCAAFB REPORT | 2026-05-28",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-05-28 03:30:18 PM ET",
+      "updated_at": "2026-05-28 05:47:42 PM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
@@ -959,12 +1068,12 @@
     "soccer": {
       "title": "Transfer rumors, news: Milan failure puts Pulisic future in doubt",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-05-28 03:30:17 PM ET",
-      "content": "SOCCER REPORT | 2026-05-28 HEADLINE Transfer rumors, news: Milan failure puts Pulisic future in doubt SNAPSHOT Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation...",
+      "updated_at": "2026-05-28 05:47:40 PM ET",
+      "content": "SOCCER REPORT | 2026-05-28 HEADLINE Transfer rumors, news: Milan failure puts Pulisic future in doubt SNAPSHOT Soccer board refreshed with 17 news items, 0 live matches, 5 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation...",
       "key": "soccer",
       "label": "Soccer",
       "headline": "Transfer rumors, news: Milan failure puts Pulisic future in doubt",
-      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over match-result listings, with attention on transfer or contract market, title table or european pressure,.",
+      "snapshot": "Soccer board refreshed with 17 news items, 0 live matches, 5 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over match-result listings, with attention on transfer or contract market, title table or european pressure,.",
       "key_data": [
         "Soccer: availability or roster movement is attached to the story.",
         "Soccer: leadership or front-office context is in play.",
@@ -1013,13 +1122,60 @@
       "cards": [
         {
           "league": "Soccer",
+          "label": "Bundesliga News Read",
+          "headline": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
+          "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
+          "url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: Bundesliga",
+            "Key people: Transfer, Bayern."
+          ],
+          "why_it_matters": [
+            "Transfer gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "world_cup_2026_runway",
+            "transfer_or_contract_market",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 225,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "key_data_points": [
+            "Competition/source: Bundesliga",
+            "Key people: Transfer, Bayern."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Soccer",
           "label": "Premier League News Read",
           "headline": "Soccer Clubs Chase Table Points",
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48899831/how-kroenkes-ended-arsenal-banter-era-win-premier-league-title",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899831/how-kroenkes-ended-arsenal-banter-era-win-premier-league-title",
-          "summary": "The Kroenke family have withstood setbacks and criticism as owners of Arsenal. Josh Kroenke opens up on how they turned the Gunners into title winners. The table context matters here: title pressure, European qualification, relegation risk and fixture. Late.",
-          "snapshot": "The Kroenke family have withstood setbacks and criticism as owners of Arsenal. Josh Kroenke opens up on how they turned the Gunners into title winners. The table context matters here: title pressure, European qualification, relegation risk and fixture. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1068,8 +1224,8 @@
           "title": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
           "url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
           "source_url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
-          "summary": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
-          "snapshot": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
+          "summary": "beaten-four hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "beaten-four hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "title table or european pressure",
@@ -1107,56 +1263,6 @@
           "editorial_depth": {
             "source_domain": "espn.com",
             "source_role": "lineup_rotation_exact",
-            "story_type_detected": "lineup_rotation"
-          }
-        },
-        {
-          "league": "Soccer",
-          "label": "Serie A News Read",
-          "headline": "Transfer rumors, news: Éderson prioritizing move to Man United",
-          "title": "Transfer rumors, news: Éderson prioritizing move to Man United",
-          "url": "https://www.espn.com/soccer/story/_/id/48860017/transfer-rumors-news-ederson-prioritising-move-man-united",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48860017/transfer-rumors-news-ederson-prioritising-move-man-united",
-          "summary": "Could Atalanta's Éderson be one of the two midfielders Manchester United are looking to sign this summer? Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape.",
-          "snapshot": "Could Atalanta's Éderson be one of the two midfielders Manchester United are looking to sign this summer? Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape.",
-          "key_data": [
-            "Competition/source: Serie A",
-            "transfer or contract market",
-            "Key people: Transfer, Manchester United, Transfer Talk."
-          ],
-          "why_it_matters": [
-            "Transfer gives Soccer clear player stakes.",
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
-          ],
-          "what_to_watch": [
-            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-          ],
-          "story_angles": [
-            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection"
-          ],
-          "editorial_signals": [
-            "transfer_or_contract_market",
-            "tactical_or_performance_read",
-            "star_player_signal",
-            "major_club_signal"
-          ],
-          "story_type": "lineup_rotation",
-          "priority_score": 197,
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "key_data_points": [
-            "Competition/source: Serie A",
-            "transfer or contract market",
-            "Key people: Transfer, Manchester United, Transfer Talk."
-          ],
-          "source_label": "Availability",
-          "editorial_depth": {
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
             "story_type_detected": "lineup_rotation"
           }
         },
@@ -1217,8 +1323,8 @@
           "title": "Arsenal keeping Mikel Arteta is 'utmost priority,' Josh Kroenke says",
           "url": "https://www.espn.com/soccer/story/_/id/48901784/arsenal-mikel-arteta-manager-josh-kroenke-contract",
           "source_url": "https://www.espn.com/soccer/story/_/id/48901784/arsenal-mikel-arteta-manager-josh-kroenke-contract",
-          "summary": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
-          "snapshot": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1251,6 +1357,55 @@
             "Competition/source: Premier League",
             "transfer or contract market",
             "Key people: Arsenal, Mikel Arteta, Josh Kroenke."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "coaching_pressure_exact",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Soccer",
+          "label": "La Liga News Read",
+          "headline": "Michel Sánchez out as Girona coach amid Ajax links",
+          "title": "Michel Sánchez out as Girona coach amid Ajax links",
+          "url": "https://www.espn.com/soccer/story/_/id/48903349/michel-sanchez-girona-coach-ajax-laliga-relegation",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48903349/michel-sanchez-girona-coach-ajax-laliga-relegation",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: La Liga",
+            "manager or coaching pressure",
+            "Key people: Michel, Girona, Ajax."
+          ],
+          "why_it_matters": [
+            "Michel gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "manager_or_coaching_pressure",
+            "title_table_or_european_pressure",
+            "availability_or_suspension_watch"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 179,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "key_data_points": [
+            "Competition/source: La Liga",
+            "manager or coaching pressure",
+            "Key people: Michel, Girona, Ajax."
           ],
           "source_label": "Availability",
           "editorial_depth": {
@@ -1364,8 +1519,8 @@
           "title": "Ousmane Dembélé taken off with early injury as PSG fall late to local rivals Paris FC",
           "url": "http://www.espn.com/soccer/report/_/gameId/746713",
           "source_url": "http://www.espn.com/soccer/report/_/gameId/746713",
-          "summary": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
-          "snapshot": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -1408,62 +1563,13 @@
         },
         {
           "league": "Soccer",
-          "label": "Premier League News Read",
-          "headline": "Transfer rumors, news: Man United tracking Botafogo's Danilo",
-          "title": "Transfer rumors, news: Man United tracking Botafogo's Danilo",
-          "url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Man United could land another Brazilian midfielder as they are tracking Botafogo's Danilo alongside AC Milan. Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions.",
-          "snapshot": "Man United could land another Brazilian midfielder as they are tracking Botafogo's Danilo alongside AC Milan. Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions.",
-          "key_data": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Transfer, Man United, Brazilian."
-          ],
-          "why_it_matters": [
-            "Transfer gives Soccer clear player stakes.",
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
-          ],
-          "what_to_watch": [
-            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-          ],
-          "story_angles": [
-            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection"
-          ],
-          "editorial_signals": [
-            "transfer_or_contract_market",
-            "tactical_or_performance_read",
-            "major_club_signal"
-          ],
-          "story_type": "lineup_rotation",
-          "priority_score": 167,
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "key_data_points": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Transfer, Man United, Brazilian."
-          ],
-          "source_label": "Availability",
-          "editorial_depth": {
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
-            "story_type_detected": "lineup_rotation"
-          }
-        },
-        {
-          "league": "Soccer",
           "label": "Ligue 1 News Read",
           "headline": "Want to hire the next Jürgen Klopp? This is how data can help clubs pick a manager",
           "title": "Want to hire the next Jürgen Klopp? This is how data can help clubs pick a manager",
           "url": "https://www.espn.com/soccer/story/_/id/48758776/want-hire-next-jurgen-klopp-how-data-help-clubs-pick-manager",
           "source_url": "https://www.espn.com/soccer/story/_/id/48758776/want-hire-next-jurgen-klopp-how-data-help-clubs-pick-manager",
-          "summary": "All clubs now use analytics to sign players in the transfer window, but now some are embracing it in their managerial searches too. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the.",
-          "snapshot": "All clubs now use analytics to sign players in the transfer window, but now some are embracing it in their managerial searches too. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -1510,8 +1616,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -1606,8 +1712,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "Crystal Palace's Conference League win saw them become the ninth Premier League team to qualify for Europe. The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how this story is read.",
-          "snapshot": "Crystal Palace's Conference League win saw them become the ninth Premier League team to qualify for Europe. The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how this story is read.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1649,15 +1755,15 @@
         },
         {
           "league": "Soccer",
-          "label": "La Liga News Read",
+          "label": "Serie A News Read",
           "headline": "The final week of the season - What's still on the line for African players in Europe?",
           "title": "The final week of the season - What's still on the line for African players in Europe?",
           "url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
           "source_url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
-          "summary": "As we enter the final week of the 2025-26 season, there's still much at stake for African stars across Europe's biggest competitions. Here's everything that's still up for grabs for the continent's stars in Europe's major leagues. The table context matters.",
-          "snapshot": "As we enter the final week of the 2025-26 season, there's still much at stake for African stars across Europe's biggest competitions. Here's everything that's still up for grabs for the continent's stars in Europe's major leagues. The table context matters.",
+          "summary": "much-competitions hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "much-competitions hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
-            "Competition/source: La Liga",
+            "Competition/source: Serie A",
             "title table or european pressure",
             "Key people: What's, African, Europe."
           ],
@@ -1683,7 +1789,7 @@
           "url_quality": "exact",
           "source_domain": "espn.com",
           "key_data_points": [
-            "Competition/source: La Liga",
+            "Competition/source: Serie A",
             "title table or european pressure",
             "Key people: What's, African, Europe."
           ],
@@ -1905,18 +2011,118 @@
             "source_role": "live_or_result_exact",
             "story_type_detected": "coaching_pressure"
           }
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League Post-Match Read",
+          "headline": "Sunderland beat Chelsea 2-1",
+          "title": "Sunderland beat Chelsea 2-1",
+          "url": "https://www.espn.com/soccer/match/_/gameId/740973",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/740973",
+          "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
+          "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
+          "key_data": [
+            "Final: Chelsea 1, Sunderland 2",
+            "Margin: Sunderland by 1",
+            "Score: Chelsea 1, Sunderland 2",
+            "Competition: Premier League",
+            "Status: Final"
+          ],
+          "why_it_matters": [
+            "The clearest global football stories start with table pressure, tactical changes, star-player form, transfer context, manager pressure and the World Cup 2026 runway."
+          ],
+          "what_to_watch": [
+            "Quarterback status, injury designations, depth-chart changes and coach availability notes set the next update.",
+            "goals, cards, substitutions, injuries, manager reaction, table movement and player-form signals.",
+            "Next check: World Cup 2026 implications as national-team selection, fitness and tournament readiness become more central."
+          ],
+          "story_angles": [
+            "NFL hinges on quarterback clarity, injury status and the next depth-chart decision.",
+            "Table, title or relegation pressure",
+            "Tactical shape and substitution decisions",
+            "Transfer and squad-building context"
+          ],
+          "editorial_signals": [
+            "major_club_signal",
+            "tight_result"
+          ],
+          "story_type": "coaching_pressure",
+          "game_status": "final",
+          "priority_score": 140,
+          "key_data_points": [
+            "Final: Chelsea 1, Sunderland 2",
+            "Margin: Sunderland by 1",
+            "Score: Chelsea 1, Sunderland 2",
+            "Competition: Premier League",
+            "Status: Final"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "source_label": "Leadership pressure",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "coaching_pressure"
+          }
         }
       ],
       "stories": [
         {
           "league": "Soccer",
+          "label": "Bundesliga News Read",
+          "headline": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
+          "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
+          "url": "https://www.fifa.com/en",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: Bundesliga",
+            "Key people: Transfer, Bayern."
+          ],
+          "why_it_matters": [
+            "Transfer gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "world_cup_2026_runway",
+            "transfer_or_contract_market",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 225,
+          "url_quality": "exact",
+          "source_domain": "fifa.com",
+          "key_data_points": [
+            "Competition/source: Bundesliga",
+            "Key people: Transfer, Bayern."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "fifa.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Soccer",
           "label": "Premier League News Read",
           "headline": "Soccer Clubs Chase Table Points",
           "title": "Soccer Clubs Chase Table Points",
-          "url": "https://www.fifa.com/en",
+          "url": "https://apnews.com/hub/soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899831/how-kroenkes-ended-arsenal-banter-era-win-premier-league-title",
-          "summary": "The Kroenke family have withstood setbacks and criticism as owners of Arsenal. Josh Kroenke opens up on how they turned the Gunners into title winners. The table context matters here: title pressure, European qualification, relegation risk and fixture. Late.",
-          "snapshot": "The Kroenke family have withstood setbacks and criticism as owners of Arsenal. Josh Kroenke opens up on how they turned the Gunners into title winners. The table context matters here: title pressure, European qualification, relegation risk and fixture. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1945,7 +2151,7 @@
           "story_type": "lineup_rotation",
           "priority_score": 203,
           "url_quality": "exact",
-          "source_domain": "fifa.com",
+          "source_domain": "apnews.com",
           "key_data_points": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1953,7 +2159,7 @@
           ],
           "source_label": "Availability",
           "editorial_depth": {
-            "source_domain": "fifa.com",
+            "source_domain": "apnews.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           }
@@ -1963,10 +2169,10 @@
           "label": "Serie A News Read",
           "headline": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
           "title": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
-          "url": "https://apnews.com/hub/soccer",
+          "url": "https://sports.yahoo.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
-          "summary": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
-          "snapshot": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
+          "summary": "beaten-four hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "beaten-four hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "title table or european pressure",
@@ -1994,61 +2200,11 @@
           "story_type": "lineup_rotation",
           "priority_score": 199,
           "url_quality": "exact",
-          "source_domain": "apnews.com",
+          "source_domain": "yahoo.com",
           "key_data_points": [
             "Competition/source: Serie A",
             "title table or european pressure",
             "Key people: Fabregas, Como, Milan."
-          ],
-          "source_label": "Availability",
-          "editorial_depth": {
-            "source_domain": "apnews.com",
-            "source_role": "lineup_rotation_link_health_source",
-            "story_type_detected": "lineup_rotation"
-          }
-        },
-        {
-          "league": "Soccer",
-          "label": "Serie A News Read",
-          "headline": "Transfer rumors, news: Éderson prioritizing move to Man United",
-          "title": "Transfer rumors, news: Éderson prioritizing move to Man United",
-          "url": "https://sports.yahoo.com/soccer/news/",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48860017/transfer-rumors-news-ederson-prioritising-move-man-united",
-          "summary": "Could Atalanta's Éderson be one of the two midfielders Manchester United are looking to sign this summer? Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape.",
-          "snapshot": "Could Atalanta's Éderson be one of the two midfielders Manchester United are looking to sign this summer? Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape.",
-          "key_data": [
-            "Competition/source: Serie A",
-            "transfer or contract market",
-            "Key people: Transfer, Manchester United, Transfer Talk."
-          ],
-          "why_it_matters": [
-            "Transfer gives Soccer clear player stakes.",
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
-          ],
-          "what_to_watch": [
-            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-          ],
-          "story_angles": [
-            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection"
-          ],
-          "editorial_signals": [
-            "transfer_or_contract_market",
-            "tactical_or_performance_read",
-            "star_player_signal",
-            "major_club_signal"
-          ],
-          "story_type": "lineup_rotation",
-          "priority_score": 197,
-          "url_quality": "exact",
-          "source_domain": "yahoo.com",
-          "key_data_points": [
-            "Competition/source: Serie A",
-            "transfer or contract market",
-            "Key people: Transfer, Manchester United, Transfer Talk."
           ],
           "source_label": "Availability",
           "editorial_depth": {
@@ -2114,8 +2270,8 @@
           "title": "Arsenal keeping Mikel Arteta is 'utmost priority,' Josh Kroenke says",
           "url": "https://www.foxsports.com/soccer/stories",
           "source_url": "https://www.espn.com/soccer/story/_/id/48901784/arsenal-mikel-arteta-manager-josh-kroenke-contract",
-          "summary": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
-          "snapshot": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -2158,10 +2314,59 @@
         },
         {
           "league": "Soccer",
+          "label": "La Liga News Read",
+          "headline": "Michel Sánchez out as Girona coach amid Ajax links",
+          "title": "Michel Sánchez out as Girona coach amid Ajax links",
+          "url": "https://www.reuters.com/sports/soccer/",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48903349/michel-sanchez-girona-coach-ajax-laliga-relegation",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: La Liga",
+            "manager or coaching pressure",
+            "Key people: Michel, Girona, Ajax."
+          ],
+          "why_it_matters": [
+            "Michel gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "manager_or_coaching_pressure",
+            "title_table_or_european_pressure",
+            "availability_or_suspension_watch"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 179,
+          "url_quality": "exact",
+          "source_domain": "reuters.com",
+          "key_data_points": [
+            "Competition/source: La Liga",
+            "manager or coaching pressure",
+            "Key people: Michel, Girona, Ajax."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "reuters.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Soccer",
           "label": "Premier League News Read",
           "headline": "Arsenal had the right 'type of player' for Premier League glory - Mikel Arteta",
           "title": "Arsenal had the right 'type of player' for Premier League glory - Mikel Arteta",
-          "url": "https://www.reuters.com/sports/soccer/",
+          "url": "https://www.cbssports.com/soccer/scores/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898768/arsenal-had-right-type-player-premier-league-glory-mikel-arteta",
           "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
@@ -2192,7 +2397,7 @@
           "story_type": "lineup_rotation",
           "priority_score": 171,
           "url_quality": "exact",
-          "source_domain": "reuters.com",
+          "source_domain": "cbssports.com",
           "key_data_points": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -2200,7 +2405,7 @@
           ],
           "source_label": "Availability",
           "editorial_depth": {
-            "source_domain": "reuters.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           }
@@ -2210,7 +2415,7 @@
           "label": "Serie A News Read",
           "headline": "Allegri part of AC Milan housecleaning; Ibrahimovic spared",
           "title": "Allegri part of AC Milan housecleaning; Ibrahimovic spared",
-          "url": "https://www.cbssports.com/soccer/scores/",
+          "url": "https://www.cbssports.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48874195/allegri-ac-milan-housecleaning-ibrahimovic-spared",
           "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
@@ -2259,10 +2464,10 @@
           "label": "Ligue 1 News Read",
           "headline": "Ousmane Dembélé taken off with early injury as PSG fall late to local rivals Paris FC",
           "title": "Ousmane Dembélé taken off with early injury as PSG fall late to local rivals Paris FC",
-          "url": "https://www.cbssports.com/soccer/standings/",
+          "url": "https://www.foxsports.com/soccer/scores",
           "source_url": "http://www.espn.com/soccer/report/_/gameId/746713",
-          "summary": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
-          "snapshot": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -2290,60 +2495,11 @@
           "story_type": "lineup_rotation",
           "priority_score": 169,
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "foxsports.com",
           "key_data_points": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
             "Key people: Ousmane, Paris FC France, Ousmane Dembele."
-          ],
-          "source_label": "Availability",
-          "editorial_depth": {
-            "source_domain": "cbssports.com",
-            "source_role": "lineup_rotation_link_health_source",
-            "story_type_detected": "lineup_rotation"
-          }
-        },
-        {
-          "league": "Soccer",
-          "label": "Premier League News Read",
-          "headline": "Transfer rumors, news: Man United tracking Botafogo's Danilo",
-          "title": "Transfer rumors, news: Man United tracking Botafogo's Danilo",
-          "url": "https://www.foxsports.com/soccer/scores",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Man United could land another Brazilian midfielder as they are tracking Botafogo's Danilo alongside AC Milan. Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions.",
-          "snapshot": "Man United could land another Brazilian midfielder as they are tracking Botafogo's Danilo alongside AC Milan. Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions.",
-          "key_data": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Transfer, Man United, Brazilian."
-          ],
-          "why_it_matters": [
-            "Transfer gives Soccer clear player stakes.",
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
-          ],
-          "what_to_watch": [
-            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-          ],
-          "story_angles": [
-            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection"
-          ],
-          "editorial_signals": [
-            "transfer_or_contract_market",
-            "tactical_or_performance_read",
-            "major_club_signal"
-          ],
-          "story_type": "lineup_rotation",
-          "priority_score": 167,
-          "url_quality": "exact",
-          "source_domain": "foxsports.com",
-          "key_data_points": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Transfer, Man United, Brazilian."
           ],
           "source_label": "Availability",
           "editorial_depth": {
@@ -2359,8 +2515,8 @@
           "title": "Want to hire the next Jürgen Klopp? This is how data can help clubs pick a manager",
           "url": "https://www.foxsports.com/soccer/standings",
           "source_url": "https://www.espn.com/soccer/story/_/id/48758776/want-hire-next-jurgen-klopp-how-data-help-clubs-pick-manager",
-          "summary": "All clubs now use analytics to sign players in the transfer window, but now some are embracing it in their managerial searches too. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the.",
-          "snapshot": "All clubs now use analytics to sign players in the transfer window, but now some are embracing it in their managerial searches too. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -2407,8 +2563,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://sports.yahoo.com/soccer/scoreboard/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -2503,8 +2659,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "Crystal Palace's Conference League win saw them become the ninth Premier League team to qualify for Europe. The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how this story is read.",
-          "snapshot": "Crystal Palace's Conference League win saw them become the ninth Premier League team to qualify for Europe. The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how this story is read.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -2546,15 +2702,15 @@
         },
         {
           "league": "Soccer",
-          "label": "La Liga News Read",
+          "label": "Serie A News Read",
           "headline": "The final week of the season - What's still on the line for African players in Europe?",
           "title": "The final week of the season - What's still on the line for African players in Europe?",
           "url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
           "source_url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
-          "summary": "As we enter the final week of the 2025-26 season, there's still much at stake for African stars across Europe's biggest competitions. Here's everything that's still up for grabs for the continent's stars in Europe's major leagues. The table context matters.",
-          "snapshot": "As we enter the final week of the 2025-26 season, there's still much at stake for African stars across Europe's biggest competitions. Here's everything that's still up for grabs for the continent's stars in Europe's major leagues. The table context matters.",
+          "summary": "much-competitions hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "much-competitions hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
-            "Competition/source: La Liga",
+            "Competition/source: Serie A",
             "title table or european pressure",
             "Key people: What's, African, Europe."
           ],
@@ -2580,7 +2736,7 @@
           "url_quality": "exact",
           "source_domain": "espn.com",
           "key_data_points": [
-            "Competition/source: La Liga",
+            "Competition/source: Serie A",
             "title table or european pressure",
             "Key people: What's, African, Europe."
           ],
@@ -2802,14 +2958,67 @@
             "source_role": "live_or_result_exact",
             "story_type_detected": "coaching_pressure"
           }
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League Post-Match Read",
+          "headline": "Sunderland beat Chelsea 2-1",
+          "title": "Sunderland beat Chelsea 2-1",
+          "url": "https://www.espn.com/soccer/match/_/gameId/740973",
+          "source_url": "https://www.espn.com/soccer/match/_/gameId/740973",
+          "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
+          "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
+          "key_data": [
+            "Final: Chelsea 1, Sunderland 2",
+            "Margin: Sunderland by 1",
+            "Score: Chelsea 1, Sunderland 2",
+            "Competition: Premier League",
+            "Status: Final"
+          ],
+          "why_it_matters": [
+            "The clearest global football stories start with table pressure, tactical changes, star-player form, transfer context, manager pressure and the World Cup 2026 runway."
+          ],
+          "what_to_watch": [
+            "Quarterback status, injury designations, depth-chart changes and coach availability notes set the next update.",
+            "goals, cards, substitutions, injuries, manager reaction, table movement and player-form signals.",
+            "Next check: World Cup 2026 implications as national-team selection, fitness and tournament readiness become more central."
+          ],
+          "story_angles": [
+            "NFL hinges on quarterback clarity, injury status and the next depth-chart decision.",
+            "Table, title or relegation pressure",
+            "Tactical shape and substitution decisions",
+            "Transfer and squad-building context"
+          ],
+          "editorial_signals": [
+            "major_club_signal",
+            "tight_result"
+          ],
+          "story_type": "coaching_pressure",
+          "game_status": "final",
+          "priority_score": 140,
+          "key_data_points": [
+            "Final: Chelsea 1, Sunderland 2",
+            "Margin: Sunderland by 1",
+            "Score: Chelsea 1, Sunderland 2",
+            "Competition: Premier League",
+            "Status: Final"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "source_label": "Leadership pressure",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "coaching_pressure"
+          }
         }
       ]
     },
     "betting_odds": {
       "title": "Betting odds feed unavailable.",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-05-28 03:30:17 PM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-28 03:30:17 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-28 03:30:17 PM ET",
+      "updated_at": "2026-05-28 05:47:41 PM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-28 05:47:41 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-28 05:47:41 PM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
       "headline": "Betting odds feed unavailable.",
@@ -2931,31 +3140,31 @@
       ]
     },
     "fantasy": {
-      "title": "Angels-Tigers Starts With Snaps, Minutes and Opportunity",
+      "title": "Braves-Red Sox Becomes a Role-Change Story if Usage Breaks From Expectation",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-05-28 03:30:18 PM ET",
-      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Los Angeles Angels at Detroit Tigers SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
+      "updated_at": "2026-05-28 05:47:42 PM ET",
+      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Atlanta Braves at Boston Red Sox SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current...",
       "key": "fantasy",
       "label": "Fantasy",
-      "headline": "Angels-Tigers Starts With Snaps, Minutes and Opportunity",
-      "snapshot": "Angels-Tigers has current game context: records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); venue: Comerica Park. Availability, lineup decisions and standings or market consequence set the next update.",
+      "headline": "Braves-Red Sox Becomes a Role-Change Story if Usage Breaks From Expectation",
+      "snapshot": "Braves-Red Sox has current game context: records: Braves 37-19; Red Sox 23-31 (0.235 win-pct gap); venue: Fenway Park. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
+        "Record context: Braves 37-19; Red Sox 23-31 (0.235 win-pct gap)."
       ],
       "key_data_points": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
+        "Record context: Braves 37-19; Red Sox 23-31 (0.235 win-pct gap)."
       ],
       "why_it_matters": [
-        "Angels-Starts depends on availability, form and standings impact.",
+        "games-spikes depends on availability, form and standings impact.",
         "Fantasy coverage should turn game data into lineup, waiver and role context rather than market schedule summaries.",
         "The highest-value signals are repeatable opportunity, injury fallout, role movement, rotation changes and matchup-driven usage.",
-        "Angels-Tigers has current game context: named players, records and price all shape the matchup."
+        "Braves-Red Sox has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Role changes, usage, injury designations, waiver availability and lineup deadlines decide the fantasy value.",
@@ -2964,7 +3173,7 @@
         "Waiver relevance created by injuries, bench promotions or depth-chart movement."
       ],
       "story_angles": [
-        "Angels-Starts hinges on role security, usage and injury-driven lineup decisions."
+        "games-spikes hinges on role security, usage and injury-driven lineup decisions."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
@@ -2977,7 +3186,7 @@
         "reader_label": "Availability"
       },
       "story_type": "fantasy_implication",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815529",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815530",
       "source_label": "Fantasy impact",
       "source_domain": "espn.com",
       "editorial_depth": {
@@ -2986,8 +3195,226 @@
         "story_type_detected": "fantasy_implication"
       },
       "json_source_file": "fantasy_report.json",
-      "cards": [],
-      "stories": []
+      "cards": [
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "Angels Rolls Past Tigers",
+          "title": "Angels Rolls Past Tigers",
+          "url": "https://www.foxsports.com/mlb/teams",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815529",
+          "summary": "Final: Angels 7, Tigers 1. Records: Angels 22-35; Tigers 22-35",
+          "key_data": [
+            "Final: Angels 7, Tigers 1",
+            "Margin: Angels by 6",
+            "Game state: Final - Final",
+            "Current score context: Angels 7, Tigers 1",
+            "Records: Angels 22-35; Tigers 22-35"
+          ],
+          "why_it_matters": [
+            "Angels-Tigers matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-28",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only."
+          },
+          "key_data_points": [
+            "Final: Angels 7, Tigers 1",
+            "Margin: Angels by 6",
+            "Game state: Final - Final",
+            "Current score context: Angels 7, Tigers 1",
+            "Records: Angels 22-35; Tigers 22-35"
+          ],
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "snapshot": "Final: Angels 7, Tigers 1. Records: Angels 22-35; Tigers 22-35",
+          "story_angles": [
+            "Angels-Tigers starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "Twins-White Sox Opens With Pitching, Lineups",
+          "title": "Twins-White Sox Opens With Pitching, Lineups",
+          "url": "https://www.foxsports.com/mlb/standings",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "summary": "Final: Twins 2, White Sox 6. Records: Twins 27-30; White Sox 29-27",
+          "key_data": [
+            "Final: Twins 2, White Sox 6",
+            "Margin: White Sox by 4",
+            "Game state: Final - Final",
+            "Current score context: Twins 2, White Sox 6",
+            "Records: Twins 27-30; White Sox 29-27"
+          ],
+          "why_it_matters": [
+            "Twins-White Sox matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-28",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only."
+          },
+          "key_data_points": [
+            "Final: Twins 2, White Sox 6",
+            "Margin: White Sox by 4",
+            "Game state: Final - Final",
+            "Current score context: Twins 2, White Sox 6",
+            "Records: Twins 27-30; White Sox 29-27"
+          ],
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "snapshot": "Final: Twins 2, White Sox 6. Records: Twins 27-30; White Sox 29-27",
+          "story_angles": [
+            "Twins-White Sox starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        }
+      ],
+      "stories": [
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "Angels Rolls Past Tigers",
+          "title": "Angels Rolls Past Tigers",
+          "url": "https://sports.yahoo.com/mlb/scoreboard/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815529",
+          "summary": "Final: Angels 7, Tigers 1. Records: Angels 22-35; Tigers 22-35",
+          "key_data": [
+            "Final: Angels 7, Tigers 1",
+            "Margin: Angels by 6",
+            "Game state: Final - Final",
+            "Current score context: Angels 7, Tigers 1",
+            "Records: Angels 22-35; Tigers 22-35"
+          ],
+          "why_it_matters": [
+            "Angels-Tigers matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-28",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only."
+          },
+          "key_data_points": [
+            "Final: Angels 7, Tigers 1",
+            "Margin: Angels by 6",
+            "Game state: Final - Final",
+            "Current score context: Angels 7, Tigers 1",
+            "Records: Angels 22-35; Tigers 22-35"
+          ],
+          "url_quality": "exact",
+          "source_domain": "yahoo.com",
+          "snapshot": "Final: Angels 7, Tigers 1. Records: Angels 22-35; Tigers 22-35",
+          "story_angles": [
+            "Angels-Tigers starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "yahoo.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "Twins-White Sox Opens With Pitching, Lineups",
+          "title": "Twins-White Sox Opens With Pitching, Lineups",
+          "url": "https://sports.yahoo.com/mlb/standings/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "summary": "Final: Twins 2, White Sox 6. Records: Twins 27-30; White Sox 29-27",
+          "key_data": [
+            "Final: Twins 2, White Sox 6",
+            "Margin: White Sox by 4",
+            "Game state: Final - Final",
+            "Current score context: Twins 2, White Sox 6",
+            "Records: Twins 27-30; White Sox 29-27"
+          ],
+          "why_it_matters": [
+            "Twins-White Sox matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-28",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only."
+          },
+          "key_data_points": [
+            "Final: Twins 2, White Sox 6",
+            "Margin: White Sox by 4",
+            "Game state: Final - Final",
+            "Current score context: Twins 2, White Sox 6",
+            "Records: Twins 27-30; White Sox 29-27"
+          ],
+          "url_quality": "exact",
+          "source_domain": "yahoo.com",
+          "snapshot": "Final: Twins 2, White Sox 6. Records: Twins 27-30; White Sox 29-27",
+          "story_angles": [
+            "Twins-White Sox starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "yahoo.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        }
+      ]
     }
   },
   "homepage_cards": [
@@ -3163,6 +3590,62 @@
       "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next...."
     },
     {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Chicago White Sox beat Minnesota Twins 6-2",
+      "snapshot": "Twins-White Sox starts with pitcher confirmation, lineup shape and bullpen availability. records: Twins 27-30; White Sox 29-27. Venue: Rate Field; venue: Rate Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "url": "https://apnews.com/hub/mlb-baseball",
+      "source_label": "Availability",
+      "story_type": "lineup_rotation",
+      "key_data": [
+        "Run margin: 4",
+        "Records: Twins 27-30; White Sox 29-27",
+        "Venue: Rate Field",
+        "Record context: Twins 27-30; White Sox 29-27 (0.044 win-pct gap)."
+      ],
+      "why_it_matters": [
+        "Twins-White Sox matters because the records show where the result can change the race or team direction.",
+        "Chicago White Sox's result over Minnesota Twins is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position.",
+        "Twins-White Sox has current game context: named players, records and price all shape the matchup."
+      ],
+      "what_to_watch": [
+        "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+        "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
+      ],
+      "story_angles": [
+        "Twins-White Sox starts with pitcher confirmation, lineup shape and bullpen availability."
+      ],
+      "editorial_brain": {
+        "version": "v8-network-editorial-brain-source-balanced",
+        "status": "active",
+        "signal": "betting_market",
+        "story_type_detected": "lineup_rotation",
+        "section": "mlb",
+        "label": "MLB",
+        "reader_label": "Availability"
+      },
+      "priority_score": 578,
+      "source_index": 0,
+      "key_data_points": [
+        "Run margin: 4",
+        "Records: Twins 27-30; White Sox 29-27",
+        "Venue: Rate Field",
+        "Record context: Twins 27-30; White Sox 29-27 (0.044 win-pct gap)."
+      ],
+      "source_domain": "apnews.com",
+      "editorial_depth": {
+        "news_value": "Availability",
+        "data_context": "present",
+        "source_domain": "apnews.com",
+        "standard": "Select, balance and frame stories by consequence, not by feed order.",
+        "source_role": "lineup_rotation_link_health_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "url_quality": "hub",
+      "title": "Chicago White Sox beat Minnesota Twins 6-2",
+      "summary": "Twins-White Sox starts with pitcher confirmation, lineup shape and bullpen availability. records: Twins 27-30; White Sox 29-27. Venue: Rate Field; venue: Rate Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+    },
+    {
       "league": "NFL",
       "key": "nfl",
       "headline": "NFL Quarterback Questions Raise Camp Pressure",
@@ -3222,59 +3705,6 @@
       "url_quality": "other",
       "title": "NFL Quarterback Questions Raise Camp Pressure",
       "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update."
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "MLB Pitching Matchups Set the First Read",
-      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. venue: Comerica Park; status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
-      "url": "https://www.foxsports.com/mlb/stories",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "Status: Top 9th",
-        "Venue: Comerica Park",
-        "Time/status: Top 9th"
-      ],
-      "why_it_matters": [
-        "MLB depends on availability, form and standings impact.",
-        "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
-      ],
-      "what_to_watch": [
-        "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-        "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
-      ],
-      "story_angles": [
-        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "live_or_result",
-        "story_type_detected": "live_or_result",
-        "section": "mlb",
-        "label": "MLB",
-        "reader_label": "Game angle"
-      },
-      "priority_score": 417,
-      "source_index": 0,
-      "key_data_points": [
-        "Status: Top 9th",
-        "Venue: Comerica Park",
-        "Time/status: Top 9th"
-      ],
-      "source_domain": "foxsports.com",
-      "editorial_depth": {
-        "news_value": "Game angle",
-        "data_context": "present",
-        "source_domain": "foxsports.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "source_role": "matchup_preview_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "url_quality": "other",
-      "title": "MLB Pitching Matchups Set the First Read",
-      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. venue: Comerica Park; status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "live_newsroom": [
@@ -3284,7 +3714,7 @@
       "headline": "Canadiens-Hurricanes Hinges on Goalies, Special Teams",
       "snapshot": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form and late injury confirmation shape the next update.",
       "signal": "Availability",
-      "updated_at": "2026-05-28 03:30:53 PM ET",
+      "updated_at": "2026-05-28 05:48:19 PM ET",
       "url": "https://www.foxsports.com/nhl/stories",
       "url_quality": "hub",
       "source_domain": "foxsports.com",
@@ -3312,7 +3742,7 @@
       "headline": "NFL Contract Questions Start Shaping Camp Pressure",
       "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
       "signal": "Leadership pressure",
-      "updated_at": "2026-05-28 03:30:53 PM ET",
+      "updated_at": "2026-05-28 05:48:19 PM ET",
       "url": "https://www.reuters.com/sports/nfl/",
       "url_quality": "hub",
       "source_domain": "reuters.com",
@@ -3342,7 +3772,7 @@
       "headline": "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
       "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next....",
       "signal": "Availability",
-      "updated_at": "2026-05-28 03:30:53 PM ET",
+      "updated_at": "2026-05-28 05:48:19 PM ET",
       "url": "https://www.espn.com/nba/game/_/gameId/401873202",
       "url_quality": "exact",
       "source_domain": "espn.com",
@@ -3369,12 +3799,40 @@
       "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next...."
     },
     {
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Chicago White Sox beat Minnesota Twins 6-2",
+      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Twins 27-30; White Sox 29-27. Venue: Rate Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "signal": "Availability",
+      "updated_at": "2026-05-28 05:48:19 PM ET",
+      "url": "https://www.foxsports.com/mlb/stories",
+      "url_quality": "hub",
+      "source_domain": "foxsports.com",
+      "key_data": [],
+      "key_data_points": [],
+      "why_it_matters": [
+        "MLB depends on availability, form and standings impact."
+      ],
+      "what_to_watch": [],
+      "story_angles": [
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+      ],
+      "story_type": "lineup_rotation",
+      "source_label": "Availability",
+      "editorial_depth": {
+        "source_domain": "foxsports.com",
+        "source_role": "lineup_rotation_link_health_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Twins 27-30; White Sox 29-27. Venue: Rate Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+    },
+    {
       "section": "nfl",
       "label": "NFL",
       "headline": "NFL Quarterback Questions Raise Camp Pressure",
       "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
       "signal": "Availability",
-      "updated_at": "2026-05-28 03:30:53 PM ET",
+      "updated_at": "2026-05-28 05:48:19 PM ET",
       "url": "https://www.foxsports.com/nfl/stories",
       "url_quality": "other",
       "source_domain": "foxsports.com",
@@ -3397,41 +3855,13 @@
         "story_type_detected": "coaching_pressure"
       },
       "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update."
-    },
-    {
-      "section": "mlb",
-      "label": "MLB",
-      "headline": "MLB Pitching Matchups Set the First Read",
-      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
-      "signal": "Availability",
-      "updated_at": "2026-05-28 03:30:53 PM ET",
-      "url": "https://apnews.com/hub/mlb-baseball",
-      "url_quality": "other",
-      "source_domain": "apnews.com",
-      "key_data": [],
-      "key_data_points": [],
-      "why_it_matters": [
-        "MLB depends on availability, form and standings impact."
-      ],
-      "what_to_watch": [],
-      "story_angles": [
-        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "editorial_depth": {
-        "source_domain": "apnews.com",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "editor_signals": [
     "Canadiens-Hurricanes Hinges on Goalies, Special Teams: Carolina and Montreal bring goaltending, top lines and special teams into focus; records: Canadiens 48-24-10; Hurricanes 53-22-7 (0.040 win-pct gap); line: CAR -225; total 5.5; time/status: 5/29 - 8:00.",
     "NFL Contract Questions Start Shaping Camp Pressure: Holdouts, extensions, cap decisions and roster-bubble battles can become the real NFL story before games return. the business movement as football context, not a side note.",
-    "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs: Shai Gilgeous-Alexander gives Thunder-Spurs its lead matchup; records: Thunder 64-18; Spurs 62-20 (0.024 win-pct gap); line: SA -3.5; total 218.5; time/status: 5/28 - 8:30 PM EDT; venue: Frost Bank.",
-    "NFL Quarterback Questions Raise Camp Pressure: Fantasy/betting value: trench weakness affects quarterback efficiency, rushing volume and win-total confidence",
-    "MLB Pitching Matchups Set the First Read: Status: Top 9th. Venue: Comerica Park"
+    "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs: Shai Gilgeous-Alexander gives Thunder-Spurs its lead matchup; records: Thunder 64-18; Spurs 62-20 (0.024 win-pct gap); line: SA -3.5; total 219.5; time/status: 5/28 - 8:30 PM EDT; venue: Frost Bank.",
+    "Chicago White Sox beat Minnesota Twins 6-2: Records: Twins 27-30; White Sox 29-27. Venue: Rate Field",
+    "NFL Quarterback Questions Raise Camp Pressure: Fantasy/betting value: trench weakness affects quarterback efficiency, rushing volume and win-total confidence"
   ]
 }
