@@ -5,15 +5,15 @@
   "headline": "Canadiens-Hurricanes Hinges on Goalies, Special Teams",
   "key_storylines": [
     "NHL: Canadiens-Hurricanes Hinges on Goalies, Special Teams",
-    "MLB: Angels-Tigers Opens With Grayson Rodriguez-Jack Flaherty Pitching Read",
-    "Soccer: Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
     "NFL: NFL Contract Questions Start Shaping Camp Pressure",
-    "NBA: Thunder Need Gilgeous-Alexander to Set Tone Against Spurs"
+    "NBA: Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
+    "NFL: NFL Quarterback Questions Raise Camp Pressure",
+    "MLB: MLB Pitching Matchups Set the First Read"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus; records: Canadiens 48-24-10; Hurricanes 53-22-7 (0.040 win-pct gap); line: CAR -225; total 5.5; time/status: 5/29 - 8:00 PM EDT; venue: Lenovo Center. Confirmed goalies,. .",
-  "generated_at": "2026-05-28 12:49:29 PM ET",
-  "updated_at": "2026-05-28 12:49:29 PM ET",
-  "published_at": "2026-05-28 12:49:29 PM ET",
+  "generated_at": "2026-05-28 03:30:43 PM ET",
+  "updated_at": "2026-05-28 03:30:43 PM ET",
+  "published_at": "2026-05-28 03:30:43 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -21,52 +21,42 @@
   "editorial_standard": "Data supports the reporting process; GSR cards should read with human newsroom judgment, source balance, context, analytics and restraint.",
   "sections": {
     "mlb": {
-      "title": "Angels-Tigers Opens With Grayson Rodriguez-Jack Flaherty Pitching Read",
+      "title": "MLB Pitching Matchups Set the First Read",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-05-28 12:49:06 PM ET",
-      "content": "MLB REPORT | 2026-05-28 HEADLINE Pitching plans frame Los Angeles Angels-Detroit Tigers before first pitch SNAPSHOT MLB board for 2026-05-28 ET: 0 finals, 0 live games and 6 scheduled games. KEY STORYLINES Pitching plans frame Los Angeles Angels-Detroit. .",
+      "updated_at": "2026-05-28 03:30:15 PM ET",
+      "content": "MLB REPORT | 2026-05-28 HEADLINE Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage SNAPSHOT MLB board for 2026-05-28 ET: 0 finals, 2 live games and 4 scheduled games. KEY STORYLINES Live update: Late-inning leverage puts Los. .",
       "key": "mlb",
       "label": "MLB",
-      "headline": "Angels-Tigers Opens With Grayson Rodriguez-Jack Flaherty Pitching Read",
-      "snapshot": "Grayson Rodriguez and Jack Flaherty are the listed probables; records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); line: DET -136; total 8.5; time/status: 1:10 PM ET; venue: Comerica Park. Lineup scratches, bullpen workload and late price movement are.",
+      "headline": "MLB Pitching Matchups Set the First Read",
+      "snapshot": "MLB has current game context: time/status: Top 9th; venue: Comerica Park. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Grayson Rodriguez, Jack Flaherty.",
-        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
+        "MLB: live or final score context is available."
       ],
       "key_data_points": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Grayson Rodriguez, Jack Flaherty.",
-        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
+        "MLB: live or final score context is available."
       ],
       "why_it_matters": [
-        "Angels-Opens depends on availability, form and standings impact.",
+        "MLB depends on availability, form and standings impact.",
         "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance.",
-        "Angels-Tigers has current game context: named players, records and price all shape the matchup."
+        "The score matters most when it changes the standings, rotation choices or next matchup."
       ],
       "what_to_watch": [
-        "The score matters most when it changes the standings, rotation choices or next matchup.",
-        "Late availability, momentum, market movement or a lineup decision can change the update.",
-        "Grayson Rodriguez status or form, lineup confirmation and late betting movement need confirmation before the game."
+        "Late availability, momentum, market movement or a lineup decision can change the update."
       ],
       "story_angles": [
-        "Angels-Opens starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Grayson Rodriguez performance or availability as the player lead."
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
+        "signal": "pressure_watch",
         "story_type_detected": "lineup_rotation",
         "section": "mlb",
         "label": "MLB",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context"
+        "reader_label": "Pressure point"
       },
       "story_type": "lineup_rotation",
       "url": "https://www.mlb.com/scores",
@@ -78,13 +68,211 @@
         "story_type_detected": "lineup_rotation"
       },
       "json_source_file": "mlb_report.json",
-      "cards": [],
-      "stories": []
+      "cards": [
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
+          "title": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
+          "summary": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815529",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815529",
+          "key_data": [
+            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
+            "Status: Top 9th",
+            "Venue: Comerica Park",
+            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-28",
+          "game_time": "1:10 PM ET",
+          "status": "Top 9th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "snapshot": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
+          "key_data_points": [
+            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
+            "Status: Top 9th",
+            "Venue: Comerica Park",
+            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+          "title": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+          "summary": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "key_data": [
+            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
+            "Status: End 4th",
+            "Venue: Rate Field",
+            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+            "Time/status: End 4th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-28",
+          "game_time": "2:10 PM ET",
+          "status": "End 4th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "snapshot": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
+          "key_data_points": [
+            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
+            "Status: End 4th",
+            "Venue: Rate Field",
+            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+            "Time/status: End 4th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "lineup_rotation_exact",
+            "story_type_detected": "lineup_rotation"
+          }
+        }
+      ],
+      "stories": [
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
+          "title": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage",
+          "summary": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
+          "url": "https://www.reuters.com/sports/baseball/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815529",
+          "key_data": [
+            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
+            "Status: Top 9th",
+            "Venue: Comerica Park",
+            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-28",
+          "game_time": "1:10 PM ET",
+          "status": "Top 9th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "reuters.com",
+          "snapshot": "Late-inning leverage puts Los Angeles Angels-Detroit Tigers on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Los Angeles Angels 5, Detroit Tigers 1; venue: Comerica Park; status: Top 9th. Pitcher.",
+          "key_data_points": [
+            "Current score for context: Los Angeles Angels 5, Detroit Tigers 1",
+            "Status: Top 9th",
+            "Venue: Comerica Park",
+            "Los Angeles Angels lead Detroit Tigers 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "reuters.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+          "title": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+          "summary": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
+          "url": "https://www.cbssports.com/mlb/scores/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815534",
+          "key_data": [
+            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
+            "Status: End 4th",
+            "Venue: Rate Field",
+            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+            "Time/status: End 4th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-28",
+          "game_time": "2:10 PM ET",
+          "status": "End 4th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "cbssports.com",
+          "snapshot": "Chicago White Sox lead Minnesota Twins 6-0 in End 4th has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago White Sox 6, Minnesota Twins 0; venue: Rate Field; status: End 4th. Pitcher confirmation, lineup shape and.",
+          "key_data_points": [
+            "Current score for context: Chicago White Sox 6, Minnesota Twins 0",
+            "Status: End 4th",
+            "Venue: Rate Field",
+            "Chicago White Sox lead Minnesota Twins 6-0 in End 4th",
+            "Time/status: End 4th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        }
+      ]
     },
     "nba": {
       "title": "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-05-28 12:49:07 PM ET",
+      "updated_at": "2026-05-28 03:30:15 PM ET",
       "content": "NBA REPORT | 2026-05-28 HEADLINE Oklahoma City Thunder-San Antonio Spurs brings named-player and market context into the pregame read SNAPSHOT 1 NBA games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing story stakes over score. .",
       "key": "nba",
       "label": "NBA",
@@ -140,7 +328,7 @@
     "nhl": {
       "title": "Canadiens-Hurricanes Hinges on Goalies, Special Teams",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-05-28 12:49:07 PM ET",
+      "updated_at": "2026-05-28 03:30:16 PM ET",
       "content": "NHL REPORT | 2026-05-28 HEADLINE Montreal Canadiens-Carolina Hurricanes carries a meaningful NHL matchup. 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. KEY STORYLINES Montreal Canadiens-Carolina Hurricanes carries a meaningful NHL matchup. .",
       "key": "nhl",
       "label": "NHL",
@@ -195,7 +383,7 @@
     "nfl": {
       "title": "NFL Quarterback Questions Raise Camp Pressure",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-05-28 12:49:09 PM ET",
+      "updated_at": "2026-05-28 03:30:17 PM ET",
       "content": "NFL REPORT | 2026-05-28 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
@@ -733,7 +921,7 @@
     "ncaafb": {
       "title": "NCAAFB REPORT | 2026-05-28",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-05-28 12:49:10 PM ET",
+      "updated_at": "2026-05-28 03:30:18 PM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
@@ -771,12 +959,12 @@
     "soccer": {
       "title": "Transfer rumors, news: Milan failure puts Pulisic future in doubt",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-05-28 12:49:08 PM ET",
-      "content": "SOCCER REPORT | 2026-05-28 HEADLINE Transfer rumors, news: Milan failure puts Pulisic future in doubt SNAPSHOT Soccer board refreshed with 17 news items, 0 live matches, 5 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation...",
+      "updated_at": "2026-05-28 03:30:17 PM ET",
+      "content": "SOCCER REPORT | 2026-05-28 HEADLINE Transfer rumors, news: Milan failure puts Pulisic future in doubt SNAPSHOT Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation...",
       "key": "soccer",
       "label": "Soccer",
       "headline": "Transfer rumors, news: Milan failure puts Pulisic future in doubt",
-      "snapshot": "Soccer board refreshed with 17 news items, 0 live matches, 5 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over match-result listings, with attention on transfer or contract market, title table or european pressure,.",
+      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over match-result listings, with attention on transfer or contract market, title table or european pressure,.",
       "key_data": [
         "Soccer: availability or roster movement is attached to the story.",
         "Soccer: leadership or front-office context is in play.",
@@ -878,7 +1066,7 @@
           "label": "Serie A News Read",
           "headline": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
           "title": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
-          "url": "https://www.fifa.com/en",
+          "url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
           "source_url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
           "summary": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
           "snapshot": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
@@ -909,7 +1097,7 @@
           "story_type": "lineup_rotation",
           "priority_score": 199,
           "url_quality": "exact",
-          "source_domain": "fifa.com",
+          "source_domain": "espn.com",
           "key_data_points": [
             "Competition/source: Serie A",
             "title table or european pressure",
@@ -917,8 +1105,8 @@
           ],
           "source_label": "Availability",
           "editorial_depth": {
-            "source_domain": "fifa.com",
-            "source_role": "lineup_rotation_link_health_source",
+            "source_domain": "espn.com",
+            "source_role": "lineup_rotation_exact",
             "story_type_detected": "lineup_rotation"
           }
         },
@@ -979,8 +1167,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1025,12 +1213,61 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
+          "headline": "Arsenal keeping Mikel Arteta is 'utmost priority,' Josh Kroenke says",
+          "title": "Arsenal keeping Mikel Arteta is 'utmost priority,' Josh Kroenke says",
+          "url": "https://www.espn.com/soccer/story/_/id/48901784/arsenal-mikel-arteta-manager-josh-kroenke-contract",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48901784/arsenal-mikel-arteta-manager-josh-kroenke-contract",
+          "summary": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
+          "snapshot": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
+          "key_data": [
+            "Competition/source: Premier League",
+            "transfer or contract market",
+            "Key people: Arsenal, Mikel Arteta, Josh Kroenke."
+          ],
+          "why_it_matters": [
+            "Arsenal gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "transfer_or_contract_market",
+            "title_table_or_european_pressure",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 181,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "key_data_points": [
+            "Competition/source: Premier League",
+            "transfer or contract market",
+            "Key people: Arsenal, Mikel Arteta, Josh Kroenke."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "coaching_pressure_exact",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League News Read",
           "headline": "Arsenal had the right 'type of player' for Premier League glory - Mikel Arteta",
           "title": "Arsenal had the right 'type of player' for Premier League glory - Mikel Arteta",
           "url": "https://www.espn.com/soccer/story/_/id/48898768/arsenal-had-right-type-player-premier-league-glory-mikel-arteta",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898768/arsenal-had-right-type-player-premier-league-glory-mikel-arteta",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -1078,8 +1315,8 @@
           "title": "Allegri part of AC Milan housecleaning; Ibrahimovic spared",
           "url": "https://www.espn.com/soccer/story/_/id/48874195/allegri-ac-milan-housecleaning-ibrahimovic-spared",
           "source_url": "https://www.espn.com/soccer/story/_/id/48874195/allegri-ac-milan-housecleaning-ibrahimovic-spared",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "manager or coaching pressure",
@@ -1273,8 +1510,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update....",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update....",
+          "summary": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -1321,8 +1558,8 @@
           "title": "Barcelona agree €70M transfer for Newcastle's Anthony Gordon - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48891558/barcelona-submit-offer-newcastle-anthony-gordon",
           "source_url": "https://www.espn.com/soccer/story/_/id/48891558/barcelona-submit-offer-newcastle-anthony-gordon",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1668,59 +1905,6 @@
             "source_role": "live_or_result_exact",
             "story_type_detected": "coaching_pressure"
           }
-        },
-        {
-          "league": "Soccer",
-          "label": "Premier League Post-Match Read",
-          "headline": "Sunderland beat Chelsea 2-1",
-          "title": "Sunderland beat Chelsea 2-1",
-          "url": "https://www.espn.com/soccer/match/_/gameId/740973",
-          "source_url": "https://www.espn.com/soccer/match/_/gameId/740973",
-          "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "key_data": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "why_it_matters": [
-            "The clearest global football stories start with table pressure, tactical changes, star-player form, transfer context, manager pressure and the World Cup 2026 runway."
-          ],
-          "what_to_watch": [
-            "Quarterback status, injury designations, depth-chart changes and coach availability notes set the next update.",
-            "goals, cards, substitutions, injuries, manager reaction, table movement and player-form signals.",
-            "Next check: World Cup 2026 implications as national-team selection, fitness and tournament readiness become more central."
-          ],
-          "story_angles": [
-            "NFL hinges on quarterback clarity, injury status and the next depth-chart decision.",
-            "Table, title or relegation pressure",
-            "Tactical shape and substitution decisions",
-            "Transfer and squad-building context"
-          ],
-          "editorial_signals": [
-            "major_club_signal",
-            "tight_result"
-          ],
-          "story_type": "coaching_pressure",
-          "game_status": "final",
-          "priority_score": 140,
-          "key_data_points": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "source_label": "Leadership pressure",
-          "editorial_depth": {
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
-            "story_type_detected": "coaching_pressure"
-          }
         }
       ],
       "stories": [
@@ -1729,7 +1913,7 @@
           "label": "Premier League News Read",
           "headline": "Soccer Clubs Chase Table Points",
           "title": "Soccer Clubs Chase Table Points",
-          "url": "https://apnews.com/hub/soccer",
+          "url": "https://www.fifa.com/en",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899831/how-kroenkes-ended-arsenal-banter-era-win-premier-league-title",
           "summary": "The Kroenke family have withstood setbacks and criticism as owners of Arsenal. Josh Kroenke opens up on how they turned the Gunners into title winners. The table context matters here: title pressure, European qualification, relegation risk and fixture. Late.",
           "snapshot": "The Kroenke family have withstood setbacks and criticism as owners of Arsenal. Josh Kroenke opens up on how they turned the Gunners into title winners. The table context matters here: title pressure, European qualification, relegation risk and fixture. Late.",
@@ -1761,7 +1945,7 @@
           "story_type": "lineup_rotation",
           "priority_score": 203,
           "url_quality": "exact",
-          "source_domain": "apnews.com",
+          "source_domain": "fifa.com",
           "key_data_points": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1769,7 +1953,7 @@
           ],
           "source_label": "Availability",
           "editorial_depth": {
-            "source_domain": "apnews.com",
+            "source_domain": "fifa.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           }
@@ -1779,7 +1963,7 @@
           "label": "Serie A News Read",
           "headline": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
           "title": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
-          "url": "https://sports.yahoo.com/soccer/news/",
+          "url": "https://apnews.com/hub/soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
           "summary": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
           "snapshot": "An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top four. The table context matters here: title pressure,. Late....",
@@ -1810,7 +1994,7 @@
           "story_type": "lineup_rotation",
           "priority_score": 199,
           "url_quality": "exact",
-          "source_domain": "yahoo.com",
+          "source_domain": "apnews.com",
           "key_data_points": [
             "Competition/source: Serie A",
             "title table or european pressure",
@@ -1818,7 +2002,7 @@
           ],
           "source_label": "Availability",
           "editorial_depth": {
-            "source_domain": "yahoo.com",
+            "source_domain": "apnews.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           }
@@ -1828,7 +2012,7 @@
           "label": "Serie A News Read",
           "headline": "Transfer rumors, news: Éderson prioritizing move to Man United",
           "title": "Transfer rumors, news: Éderson prioritizing move to Man United",
-          "url": "https://www.cbssports.com/soccer/news/",
+          "url": "https://sports.yahoo.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48860017/transfer-rumors-news-ederson-prioritising-move-man-united",
           "summary": "Could Atalanta's Éderson be one of the two midfielders Manchester United are looking to sign this summer? Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape.",
           "snapshot": "Could Atalanta's Éderson be one of the two midfielders Manchester United are looking to sign this summer? Transfer Talk has the latest. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape.",
@@ -1860,7 +2044,7 @@
           "story_type": "lineup_rotation",
           "priority_score": 197,
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "yahoo.com",
           "key_data_points": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -1868,7 +2052,7 @@
           ],
           "source_label": "Availability",
           "editorial_depth": {
-            "source_domain": "cbssports.com",
+            "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           }
@@ -1878,10 +2062,10 @@
           "label": "MLS News Read",
           "headline": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
-          "url": "https://www.foxsports.com/soccer/stories",
+          "url": "https://www.cbssports.com/soccer/news/",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1910,11 +2094,60 @@
           "story_type": "lineup_rotation",
           "priority_score": 185,
           "url_quality": "exact",
-          "source_domain": "foxsports.com",
+          "source_domain": "cbssports.com",
           "key_data_points": [
             "Competition/source: MLS",
             "world cup 2026 runway",
             "Key people: Bafana, Mbekezeli Mbokazi, Ulwethu Makyanya."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          }
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League News Read",
+          "headline": "Arsenal keeping Mikel Arteta is 'utmost priority,' Josh Kroenke says",
+          "title": "Arsenal keeping Mikel Arteta is 'utmost priority,' Josh Kroenke says",
+          "url": "https://www.foxsports.com/soccer/stories",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48901784/arsenal-mikel-arteta-manager-josh-kroenke-contract",
+          "summary": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
+          "snapshot": "Arsenal co-owner Josh Kroenke has said tying Mikel Arteta down to a new contract is an \"utmost priority\" ahead of the club's Champions League final against Paris Saint-Germain. Late lineup, availability and schedule context remain the next checks. Starting.",
+          "key_data": [
+            "Competition/source: Premier League",
+            "transfer or contract market",
+            "Key people: Arsenal, Mikel Arteta, Josh Kroenke."
+          ],
+          "why_it_matters": [
+            "Arsenal gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "transfer_or_contract_market",
+            "title_table_or_european_pressure",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 181,
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "key_data_points": [
+            "Competition/source: Premier League",
+            "transfer or contract market",
+            "Key people: Arsenal, Mikel Arteta, Josh Kroenke."
           ],
           "source_label": "Availability",
           "editorial_depth": {
@@ -1930,8 +2163,8 @@
           "title": "Arsenal had the right 'type of player' for Premier League glory - Mikel Arteta",
           "url": "https://www.reuters.com/sports/soccer/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898768/arsenal-had-right-type-player-premier-league-glory-mikel-arteta",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -1979,8 +2212,8 @@
           "title": "Allegri part of AC Milan housecleaning; Ibrahimovic spared",
           "url": "https://www.cbssports.com/soccer/scores/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48874195/allegri-ac-milan-housecleaning-ibrahimovic-spared",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "manager or coaching pressure",
@@ -2174,8 +2407,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://sports.yahoo.com/soccer/scoreboard/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update....",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update....",
+          "summary": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -2222,8 +2455,8 @@
           "title": "Barcelona agree €70M transfer for Newcastle's Anthony Gordon - sources",
           "url": "https://sports.yahoo.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48891558/barcelona-submit-offer-newcastle-anthony-gordon",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2569,67 +2802,14 @@
             "source_role": "live_or_result_exact",
             "story_type_detected": "coaching_pressure"
           }
-        },
-        {
-          "league": "Soccer",
-          "label": "Premier League Post-Match Read",
-          "headline": "Sunderland beat Chelsea 2-1",
-          "title": "Sunderland beat Chelsea 2-1",
-          "url": "https://www.espn.com/soccer/match/_/gameId/740973",
-          "source_url": "https://www.espn.com/soccer/match/_/gameId/740973",
-          "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "key_data": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "why_it_matters": [
-            "The clearest global football stories start with table pressure, tactical changes, star-player form, transfer context, manager pressure and the World Cup 2026 runway."
-          ],
-          "what_to_watch": [
-            "Quarterback status, injury designations, depth-chart changes and coach availability notes set the next update.",
-            "goals, cards, substitutions, injuries, manager reaction, table movement and player-form signals.",
-            "Next check: World Cup 2026 implications as national-team selection, fitness and tournament readiness become more central."
-          ],
-          "story_angles": [
-            "NFL hinges on quarterback clarity, injury status and the next depth-chart decision.",
-            "Table, title or relegation pressure",
-            "Tactical shape and substitution decisions",
-            "Transfer and squad-building context"
-          ],
-          "editorial_signals": [
-            "major_club_signal",
-            "tight_result"
-          ],
-          "story_type": "coaching_pressure",
-          "game_status": "final",
-          "priority_score": 140,
-          "key_data_points": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "source_label": "Leadership pressure",
-          "editorial_depth": {
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
-            "story_type_detected": "coaching_pressure"
-          }
         }
       ]
     },
     "betting_odds": {
       "title": "Betting odds feed unavailable.",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-05-28 12:49:09 PM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-28 12:49:09 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-28 12:49:09 PM ET",
+      "updated_at": "2026-05-28 03:30:17 PM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-28 03:30:17 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-28 03:30:17 PM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
       "headline": "Betting odds feed unavailable.",
@@ -2751,31 +2931,31 @@
       ]
     },
     "fantasy": {
-      "title": "games-spikes Becomes a Role-Change Story if Usage Breaks From Expectation",
+      "title": "Angels-Tigers Starts With Snaps, Minutes and Opportunity",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-05-28 12:49:10 PM ET",
-      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver. .",
+      "updated_at": "2026-05-28 03:30:18 PM ET",
+      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Los Angeles Angels at Detroit Tigers SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
       "key": "fantasy",
       "label": "Fantasy",
-      "headline": "games-spikes Becomes a Role-Change Story if Usage Breaks From Expectation",
-      "snapshot": "games-spikes has current game context: line: SEA -3.5; total 44.5; venue: Lumen Field. Availability, lineup decisions and standings or market consequence set the next update.",
+      "headline": "Angels-Tigers Starts With Snaps, Minutes and Opportunity",
+      "snapshot": "Angels-Tigers has current game context: records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); venue: Comerica Park. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Line: SEA -3.5; total 44.5."
+        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
       ],
       "key_data_points": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Line: SEA -3.5; total 44.5."
+        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
       ],
       "why_it_matters": [
-        "games-spikes matters because the price shows how strongly the market leans before lineup news closes.",
+        "Angels-Starts depends on availability, form and standings impact.",
         "Fantasy coverage should turn game data into lineup, waiver and role context rather than market schedule summaries.",
         "The highest-value signals are repeatable opportunity, injury fallout, role movement, rotation changes and matchup-driven usage.",
-        "games-spikes has current game context: named players, records and price all shape the matchup."
+        "Angels-Tigers has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Role changes, usage, injury designations, waiver availability and lineup deadlines decide the fantasy value.",
@@ -2784,20 +2964,20 @@
         "Waiver relevance created by injuries, bench promotions or depth-chart movement."
       ],
       "story_angles": [
-        "games-spikes hinges on role security, usage and injury-driven lineup decisions."
+        "Angels-Starts hinges on role security, usage and injury-driven lineup decisions."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
+        "signal": "availability_or_roster",
         "story_type_detected": "fantasy_implication",
         "section": "fantasy",
         "label": "Fantasy",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context"
+        "reader_label": "Availability"
       },
       "story_type": "fantasy_implication",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401872656",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815529",
       "source_label": "Fantasy impact",
       "source_domain": "espn.com",
       "editorial_depth": {
@@ -2868,123 +3048,6 @@
       "summary": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form and late injury confirmation shape the next update."
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Angels-Tigers Opens With Grayson Rodriguez-Jack Flaherty Pitching Read",
-      "snapshot": "Late availability, momentum, market movement or a lineup decision can change the update. line: Grayson Rodriguez and Jack Flaherty are the listed probables; records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); line: DET -136; total 8.5; time/status: 1:10....",
-      "url": "https://apnews.com/hub/mlb-baseball",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Grayson Rodriguez, Jack Flaherty.",
-        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
-      ],
-      "why_it_matters": [
-        "Angels-Opens depends on availability, form and standings impact.",
-        "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance.",
-        "Angels-Tigers has current game context: named players, records and price all shape the matchup."
-      ],
-      "what_to_watch": [
-        "The score matters most when it changes the standings, rotation choices or next matchup.",
-        "Late availability, momentum, market movement or a lineup decision can change the update.",
-        "Grayson Rodriguez status or form, lineup confirmation and late betting movement need confirmation before the game."
-      ],
-      "story_angles": [
-        "Angels-Opens starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Grayson Rodriguez performance or availability as the player lead."
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "betting_market",
-        "story_type_detected": "lineup_rotation",
-        "section": "mlb",
-        "label": "MLB",
-        "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context"
-      },
-      "priority_score": 676,
-      "key_data_points": [
-        "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Grayson Rodriguez, Jack Flaherty.",
-        "Record context: Angels 21-35; Tigers 22-34 (0.018 win-pct gap)."
-      ],
-      "source_domain": "apnews.com",
-      "editorial_depth": {
-        "news_value": "Availability",
-        "data_context": "present",
-        "source_domain": "apnews.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "url_quality": "hub",
-      "title": "Angels-Tigers Opens With Grayson Rodriguez-Jack Flaherty Pitching Read",
-      "summary": "Late availability, momentum, market movement or a lineup decision can change the update. line: Grayson Rodriguez and Jack Flaherty are the listed probables; records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); line: DET -136; total 8.5; time/status: 1:10...."
-    },
-    {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
-      "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-      "url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "Competition/source: Serie A",
-        "title table or european pressure",
-        "Key people: Fabregas, Como, Milan."
-      ],
-      "why_it_matters": [
-        "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture.",
-        "beaten-four has current game context: named players, records and price all shape the matchup."
-      ],
-      "what_to_watch": [
-        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-        "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-      ],
-      "story_angles": [
-        "beaten-four hinges on selection, table consequence, cards, substitutions and manager reaction.",
-        "Transfer and contract market",
-        "Manager pressure or tactical direction",
-        "Availability and squad selection"
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "availability_or_roster",
-        "story_type_detected": "lineup_rotation",
-        "section": "soccer",
-        "label": "Soccer",
-        "reader_label": "Availability"
-      },
-      "priority_score": 671,
-      "source_index": 1,
-      "key_data_points": [
-        "Competition/source: Serie A",
-        "title table or european pressure",
-        "Key people: Fabregas, Como, Milan."
-      ],
-      "source_domain": "espn.com",
-      "editorial_depth": {
-        "news_value": "Availability",
-        "data_context": "present",
-        "source_domain": "espn.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "source_role": "lineup_rotation_exact",
-        "story_type_detected": "lineup_rotation"
-      },
-      "url_quality": "exact",
-      "title": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
-      "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late."
-    },
-    {
       "league": "NFL",
       "key": "nfl",
       "headline": "NFL Contract Questions Start Shaping Camp Pressure",
@@ -3049,7 +3112,7 @@
       "key": "nba",
       "headline": "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
       "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next....",
-      "url": "https://apnews.com/hub/nba",
+      "url": "https://www.espn.com/nba/game/_/gameId/401873202",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
       "key_data": [
@@ -3086,16 +3149,16 @@
         "NBA: live or final score context is available.",
         "Record context: Thunder 64-18; Spurs 62-20 (0.024 win-pct gap)."
       ],
-      "source_domain": "apnews.com",
+      "source_domain": "espn.com",
       "editorial_depth": {
         "news_value": "Availability",
         "data_context": "present",
-        "source_domain": "apnews.com",
+        "source_domain": "espn.com",
         "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "source_role": "lineup_rotation_source",
+        "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
-      "url_quality": "other",
+      "url_quality": "exact",
       "title": "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
       "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next...."
     },
@@ -3159,6 +3222,59 @@
       "url_quality": "other",
       "title": "NFL Quarterback Questions Raise Camp Pressure",
       "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update."
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "MLB Pitching Matchups Set the First Read",
+      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. venue: Comerica Park; status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "url": "https://www.foxsports.com/mlb/stories",
+      "source_label": "Availability",
+      "story_type": "lineup_rotation",
+      "key_data": [
+        "Status: Top 9th",
+        "Venue: Comerica Park",
+        "Time/status: Top 9th"
+      ],
+      "why_it_matters": [
+        "MLB depends on availability, form and standings impact.",
+        "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+      ],
+      "what_to_watch": [
+        "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+        "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+      ],
+      "story_angles": [
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+      ],
+      "editorial_brain": {
+        "version": "v8-network-editorial-brain-source-balanced",
+        "status": "active",
+        "signal": "live_or_result",
+        "story_type_detected": "live_or_result",
+        "section": "mlb",
+        "label": "MLB",
+        "reader_label": "Game angle"
+      },
+      "priority_score": 417,
+      "source_index": 0,
+      "key_data_points": [
+        "Status: Top 9th",
+        "Venue: Comerica Park",
+        "Time/status: Top 9th"
+      ],
+      "source_domain": "foxsports.com",
+      "editorial_depth": {
+        "news_value": "Game angle",
+        "data_context": "present",
+        "source_domain": "foxsports.com",
+        "standard": "Select, balance and frame stories by consequence, not by feed order.",
+        "source_role": "matchup_preview_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "url_quality": "other",
+      "title": "MLB Pitching Matchups Set the First Read",
+      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. venue: Comerica Park; status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "live_newsroom": [
@@ -3168,7 +3284,7 @@
       "headline": "Canadiens-Hurricanes Hinges on Goalies, Special Teams",
       "snapshot": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form and late injury confirmation shape the next update.",
       "signal": "Availability",
-      "updated_at": "2026-05-28 12:49:37 PM ET",
+      "updated_at": "2026-05-28 03:30:53 PM ET",
       "url": "https://www.foxsports.com/nhl/stories",
       "url_quality": "hub",
       "source_domain": "foxsports.com",
@@ -3191,74 +3307,12 @@
       "summary": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form and late injury confirmation shape the next update."
     },
     {
-      "section": "mlb",
-      "label": "MLB",
-      "headline": "Angels-Tigers Opens With Grayson Rodriguez-Jack Flaherty Pitching Read",
-      "snapshot": "Grayson Rodriguez and Jack Flaherty are the listed probables; records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); line: DET -136; total 8.5; time/status: 1:10 PM ET; venue: Comerica Park. Lineup scratches, bullpen workload and late price movement are.",
-      "signal": "Availability",
-      "updated_at": "2026-05-28 12:49:37 PM ET",
-      "url": "https://www.foxsports.com/mlb/stories",
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
-      "key_data": [],
-      "key_data_points": [],
-      "why_it_matters": [
-        "Angels-Opens depends on availability, form and standings impact."
-      ],
-      "what_to_watch": [],
-      "story_angles": [
-        "Angels-Opens starts with pitcher confirmation, lineup shape and bullpen availability."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "editorial_depth": {
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "summary": "Grayson Rodriguez and Jack Flaherty are the listed probables; records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); line: DET -136; total 8.5; time/status: 1:10 PM ET; venue: Comerica Park. Lineup scratches, bullpen workload and late price movement are."
-    },
-    {
-      "section": "soccer",
-      "label": "Soccer",
-      "headline": "Fabregas guides Como to first-ever UCL; Milan, Pulisic out",
-      "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-      "signal": "Availability",
-      "updated_at": "2026-05-28 12:49:37 PM ET",
-      "url": "https://www.espn.com/soccer/story/_/id/48864945/fabregas-guides-como-first-ucl-milan-pulisic-out",
-      "url_quality": "exact",
-      "source_domain": "espn.com",
-      "key_data": [
-        "Key people: Fabregas, Como, Milan."
-      ],
-      "key_data_points": [
-        "Key people: Fabregas, Como, Milan."
-      ],
-      "why_it_matters": [
-        "Starting XIs, absences and manager decisions shape the next update."
-      ],
-      "what_to_watch": [
-        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update."
-      ],
-      "story_angles": [
-        "beaten-four hinges on selection, table consequence, cards, substitutions and manager reaction."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "editorial_depth": {
-        "source_domain": "espn.com",
-        "source_role": "lineup_rotation_exact",
-        "story_type_detected": "lineup_rotation"
-      },
-      "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late."
-    },
-    {
       "section": "nfl",
       "label": "NFL",
       "headline": "NFL Contract Questions Start Shaping Camp Pressure",
       "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
       "signal": "Leadership pressure",
-      "updated_at": "2026-05-28 12:49:37 PM ET",
+      "updated_at": "2026-05-28 03:30:53 PM ET",
       "url": "https://www.reuters.com/sports/nfl/",
       "url_quality": "hub",
       "source_domain": "reuters.com",
@@ -3288,10 +3342,10 @@
       "headline": "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs",
       "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next....",
       "signal": "Availability",
-      "updated_at": "2026-05-28 12:49:37 PM ET",
-      "url": "https://www.foxsports.com/nba/stories",
-      "url_quality": "other",
-      "source_domain": "foxsports.com",
+      "updated_at": "2026-05-28 03:30:53 PM ET",
+      "url": "https://www.espn.com/nba/game/_/gameId/401873202",
+      "url_quality": "exact",
+      "source_domain": "espn.com",
       "key_data": [
         "Key people: Thunder."
       ],
@@ -3308,8 +3362,8 @@
       "story_type": "lineup_rotation",
       "source_label": "Availability",
       "editorial_depth": {
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
+        "source_domain": "espn.com",
+        "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
       "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next...."
@@ -3320,7 +3374,7 @@
       "headline": "NFL Quarterback Questions Raise Camp Pressure",
       "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
       "signal": "Availability",
-      "updated_at": "2026-05-28 12:49:37 PM ET",
+      "updated_at": "2026-05-28 03:30:53 PM ET",
       "url": "https://www.foxsports.com/nfl/stories",
       "url_quality": "other",
       "source_domain": "foxsports.com",
@@ -3343,14 +3397,41 @@
         "story_type_detected": "coaching_pressure"
       },
       "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update."
+    },
+    {
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "MLB Pitching Matchups Set the First Read",
+      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "signal": "Availability",
+      "updated_at": "2026-05-28 03:30:53 PM ET",
+      "url": "https://apnews.com/hub/mlb-baseball",
+      "url_quality": "other",
+      "source_domain": "apnews.com",
+      "key_data": [],
+      "key_data_points": [],
+      "why_it_matters": [
+        "MLB depends on availability, form and standings impact."
+      ],
+      "what_to_watch": [],
+      "story_angles": [
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+      ],
+      "story_type": "lineup_rotation",
+      "source_label": "Availability",
+      "editorial_depth": {
+        "source_domain": "apnews.com",
+        "source_role": "lineup_rotation_link_health_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. status: Top 9th. Venue: Comerica Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "editor_signals": [
     "Canadiens-Hurricanes Hinges on Goalies, Special Teams: Carolina and Montreal bring goaltending, top lines and special teams into focus; records: Canadiens 48-24-10; Hurricanes 53-22-7 (0.040 win-pct gap); line: CAR -225; total 5.5; time/status: 5/29 - 8:00.",
-    "Angels-Tigers Opens With Grayson Rodriguez-Jack Flaherty Pitching Read: Grayson Rodriguez and Jack Flaherty are the listed probables; records: Angels 21-35; Tigers 22-34 (0.018 win-pct gap); line: DET -136; total 8.5; time/status: 1:10 PM ET; venue: Comerica....",
-    "Fabregas guides Como to first-ever UCL; Milan, Pulisic out: An improbable end to the Serie A season unfolded on Sunday as Cesc Fabregas and Como won to book a spot in the Champions League next season, while AC Milan were beaten at home to fall out of the top....",
     "NFL Contract Questions Start Shaping Camp Pressure: Holdouts, extensions, cap decisions and roster-bubble battles can become the real NFL story before games return. the business movement as football context, not a side note.",
     "Thunder Need Gilgeous-Alexander to Set Tone Against Spurs: Shai Gilgeous-Alexander gives Thunder-Spurs its lead matchup; records: Thunder 64-18; Spurs 62-20 (0.024 win-pct gap); line: SA -3.5; total 218.5; time/status: 5/28 - 8:30 PM EDT; venue: Frost Bank.",
-    "NFL Quarterback Questions Raise Camp Pressure: Fantasy/betting value: trench weakness affects quarterback efficiency, rushing volume and win-total confidence"
+    "NFL Quarterback Questions Raise Camp Pressure: Fantasy/betting value: trench weakness affects quarterback efficiency, rushing volume and win-total confidence",
+    "MLB Pitching Matchups Set the First Read: Status: Top 9th. Venue: Comerica Park"
   ]
 }
