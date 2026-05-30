@@ -545,6 +545,22 @@ function spotlightItemsFromStories(stories: AnyObj[]): string[] {
   );
 }
 
+
+function AdvertiseWithGsrBlock() {
+  return (
+    <section className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+      <p className="text-sm font-black uppercase tracking-wide text-red-700">
+        Advertise With GSR Network
+      </p>
+      <p className="mt-2 text-lg font-black text-neutral-950">
+        Sponsorship, partnership, affiliate and custom campaign opportunities are open.
+      </p>
+      <p className="mt-2 max-w-3xl text-sm leading-6 text-neutral-700">
+        GSR Network offers clearly labeled placements for brands, events, data companies, media partners and vertical-specific advertisers across all five platforms.
+      </p>
+    </section>
+  );
+}
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
@@ -860,6 +876,8 @@ export default function Page() {
             <StoryCard key={story.id || index} story={story} index={index} />
           ))}
         </section>
+        <AdvertiseWithGsrBlock />
+
       </section>
 
       <footer className="border-t border-neutral-300 bg-white">
