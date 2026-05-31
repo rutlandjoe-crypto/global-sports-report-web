@@ -6,12 +6,12 @@
   "key_storylines": [
     "NHL: Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
     "MLB: New York Mets gains ground in a tight matchup with Miami Marlins",
-    "NBA: San Antonio Spurs at Oklahoma City Thunder"
+    "NBA: San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
-  "generated_at": "2026-05-30 07:48:20 PM ET",
-  "updated_at": "2026-05-30 07:48:20 PM ET",
-  "published_at": "2026-05-30 07:48:20 PM ET",
+  "generated_at": "2026-05-30 09:58:01 PM ET",
+  "updated_at": "2026-05-30 09:58:01 PM ET",
+  "published_at": "2026-05-30 09:58:01 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -19,13 +19,13 @@
   "editorial_standard": "Data supports the reporting process; GSR cards should read with human newsroom judgment, source balance, context, analytics and restraint.",
   "sections": {
     "mlb": {
-      "title": "New York Mets gains ground in a tight matchup with Miami Marlins",
+      "title": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB desk",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-05-30 07:47:48 PM ET",
-      "content": "MLB REPORT | 2026-05-30 HEADLINE Atlanta Braves-Cincinnati Reds is live, but the story depends on leverage and decision points SNAPSHOT MLB board for 2026-05-30 ET: 9 finals, 2 live games and 4 scheduled games. KEY STORYLINES Live update: Atlanta. .",
+      "updated_at": "2026-05-30 09:57:27 PM ET",
+      "content": "MLB REPORT | 2026-05-30 HEADLINE Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage SNAPSHOT MLB board for 2026-05-30 ET: 10 finals, 2 live games and 3 scheduled games. KEY STORYLINES Live update: Late-inning leverage puts Chicago....",
       "key": "mlb",
       "label": "MLB",
-      "headline": "New York Mets gains ground in a tight matchup with Miami Marlins",
+      "headline": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB desk",
       "snapshot": "The listed starters and bullpen availability carry the first read; records: Padres 32-25; Nationals 30-29 (0.053 win-pct gap); venue: Nationals Park. Lineup scratches, bullpen workload and late price movement are the next verification points.",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
@@ -58,12 +58,12 @@
         "label": "MLB",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
         "reader_label": "Pressure point",
-        "original_source_headline": "New York Mets gains ground in a tight matchup with Miami Marlins"
+        "original_source_headline": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB desk"
       },
       "story_type": "lineup_rotation",
       "url": "https://www.mlb.com/scores",
       "editorial_depth": {
-        "original_source_headline": "New York Mets gains ground in a tight matchup with Miami Marlins",
+        "original_source_headline": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB desk",
         "source_domain": "mlb.com",
         "source_role": "lineup_rotation_source",
         "story_type_detected": "lineup_rotation"
@@ -279,6 +279,56 @@
             "Angels-Rays starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
+        },
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage",
+          "title": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage",
+          "summary": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago Cubs 5, St. Louis Cardinals 1; venue: Busch Stadium; status: Top 9th. Pitcher.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815557",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815557",
+          "key_data": [
+            "Current score for context: Chicago Cubs 5, St. Louis Cardinals 1",
+            "Status: Top 9th",
+            "Venue: Busch Stadium",
+            "Chicago Cubs lead St. Louis Cardinals 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-30",
+          "game_time": "7:15 PM ET",
+          "status": "Top 9th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago Cubs 5, St. Louis Cardinals 1; venue: Busch Stadium; status: Top 9th. Pitcher.",
+          "key_data_points": [
+            "Current score for context: Chicago Cubs 5, St. Louis Cardinals 1",
+            "Status: Top 9th",
+            "Venue: Busch Stadium",
+            "Chicago Cubs lead St. Louis Cardinals 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability"
         }
       ],
       "stories": [
@@ -489,41 +539,87 @@
             "Angels-Rays starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
+        },
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage",
+          "title": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage",
+          "summary": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago Cubs 5, St. Louis Cardinals 1; venue: Busch Stadium; status: Top 9th. Pitcher.",
+          "url": "https://www.foxsports.com/mlb/teams",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815557",
+          "key_data": [
+            "Current score for context: Chicago Cubs 5, St. Louis Cardinals 1",
+            "Status: Top 9th",
+            "Venue: Busch Stadium",
+            "Chicago Cubs lead St. Louis Cardinals 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-30",
+          "game_time": "7:15 PM ET",
+          "status": "Top 9th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "editorial_depth": {
+            "original_source_headline": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage",
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Late-inning leverage puts Chicago Cubs-St. Louis Cardinals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Chicago Cubs 5, St. Louis Cardinals 1; venue: Busch Stadium; status: Top 9th. Pitcher.",
+          "key_data_points": [
+            "Current score for context: Chicago Cubs 5, St. Louis Cardinals 1",
+            "Status: Top 9th",
+            "Venue: Busch Stadium",
+            "Chicago Cubs lead St. Louis Cardinals 5-1 in Top 9th",
+            "Time/status: Top 9th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability"
         }
       ]
     },
     "nba": {
-      "title": "San Antonio Spurs at Oklahoma City Thunder",
+      "title": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-05-30 07:47:49 PM ET",
-      "content": "NBA REPORT | 2026-05-30 HEADLINE San Antonio Spurs-Oklahoma City Thunder brings named-player and market context into the pregame read SNAPSHOT 1 NBA games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing story stakes over score. .",
+      "updated_at": "2026-05-30 09:57:29 PM ET",
+      "content": "NBA REPORT | 2026-05-30 HEADLINE San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd SNAPSHOT 1 NBA games are on the slate: 1 live, 0 final and 0 upcoming. the coverage is prioritizing story stakes over score lines, with. .",
       "key": "nba",
       "label": "NBA",
-      "headline": "San Antonio Spurs at Oklahoma City Thunder",
-      "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs its lead matchup; records: Spurs 62-20; Thunder 64-18 (0.024 win-pct gap); line: OKC -3.5; total 212.5; time/status: 5/30 - 8:00 PM EDT; venue: Paycom Center. Injury-report confirmation, starting groups and late.",
+      "headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+      "snapshot": "NBA has current game context: time/status: 4:45 - 3rd; venue: Paycom Center. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "NBA: availability or roster movement is attached to the story.",
         "NBA: betting context can show expectation when paired with team news.",
         "NBA: live or final score context is available.",
-        "Record context: Spurs 62-20; Thunder 64-18 (0.024 win-pct gap)."
+        "Key people: Thunder, Paycom Center. Availability."
       ],
       "key_data_points": [
         "NBA: availability or roster movement is attached to the story.",
         "NBA: betting context can show expectation when paired with team news.",
         "NBA: live or final score context is available.",
-        "Record context: Spurs 62-20; Thunder 64-18 (0.024 win-pct gap)."
+        "Key people: Thunder, Paycom Center. Availability."
       ],
       "why_it_matters": [
-        "Availability, star usage and closing-lineup choices shape the NBA read.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance.",
-        "Spurs-Thunder has current game context: named players, records and price all shape the matchup."
+        "Thunder and Paycom Center. Availability give NBA a star-driven consequence, with records and price showing the expectation.",
+        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance."
       ],
-      "what_to_watch": [
-        "Shai Gilgeous-Alexander status or form, lineup confirmation and late betting movement need confirmation before the game."
-      ],
+      "what_to_watch": [],
       "story_angles": [
-        "NBA hinges on star usage, availability and bench scoring.",
-        "Shai Gilgeous-Alexander performance or availability as the player lead."
+        "Thunder versus Paycom Center. Availability frames the star-usage question, bench scoring and the closing-group matchup."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
@@ -534,12 +630,12 @@
         "label": "NBA",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
         "reader_label": "Market context",
-        "original_source_headline": "San Antonio Spurs at Oklahoma City Thunder"
+        "original_source_headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd"
       },
       "story_type": "lineup_rotation",
       "url": "https://www.espn.com/nba/game/_/gameId/401873203",
       "editorial_depth": {
-        "original_source_headline": "San Antonio Spurs at Oklahoma City Thunder",
+        "original_source_headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
         "source_domain": "espn.com",
         "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
@@ -547,13 +643,123 @@
       "source_label": "Availability",
       "source_domain": "espn.com",
       "json_source_file": "nba_report.json",
-      "cards": [],
-      "stories": []
+      "cards": [
+        {
+          "league": "NBA",
+          "label": "NBA Live Watch",
+          "headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+          "title": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+          "url": "https://www.espn.com/nba/game/_/gameId/401873203",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401873203",
+          "summary": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Next and Spurs. Score: Spurs 76, Thunder 67; venue: Paycom Center; status: 4:45 - 3rd. Star usage, injury status and closing-group decisions shape the next update.",
+          "snapshot": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Next and Spurs. Score: Spurs 76, Thunder 67; venue: Paycom Center; status: 4:45 - 3rd. Star usage, injury status and closing-group decisions shape the next update.",
+          "key_data": [
+            "Score: Spurs 76, Thunder 67",
+            "Status: 4:45 - 3rd",
+            "Venue: Paycom Center",
+            "Spurs lead Thunder 76-67 in 4:45 - 3rd",
+            "Time/status: 4:45 - 3rd"
+          ],
+          "why_it_matters": [
+            "Live NBA coverage should the leverage inside the game, not simply repeat the score line.",
+            "Runs, foul trouble, injuries, timeout usage and closing-lineup decisions can turn a live game into the night's strongest story."
+          ],
+          "what_to_watch": [
+            "lead changes, foul pressure, late-clock offense, lineup combinations and injury updates.",
+            "Next check: official box-score leaders and postgame availability once the game moves final."
+          ],
+          "story_angles": [
+            "NBA hinges on star usage, availability and bench scoring.",
+            "Live leverage and closing possessions",
+            "Rotation choices and foul trouble",
+            "Star usage and scoring runs"
+          ],
+          "editorial_signals": [
+            "marquee_team_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-30",
+          "priority_score": 140,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "key_data_points": [
+            "Score: Spurs 76, Thunder 67",
+            "Status: 4:45 - 3rd",
+            "Venue: Paycom Center",
+            "Spurs lead Thunder 76-67 in 4:45 - 3rd",
+            "Time/status: 4:45 - 3rd"
+          ],
+          "source_label": "Availability"
+        }
+      ],
+      "stories": [
+        {
+          "league": "NBA",
+          "label": "NBA Live Watch",
+          "headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+          "title": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+          "url": "https://www.foxsports.com/nba/stories",
+          "source_url": "https://www.espn.com/nba/game/_/gameId/401873203",
+          "summary": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Next and Spurs. Score: Spurs 76, Thunder 67; venue: Paycom Center; status: 4:45 - 3rd. Star usage, injury status and closing-group decisions shape the next update.",
+          "snapshot": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Next and Spurs. Score: Spurs 76, Thunder 67; venue: Paycom Center; status: 4:45 - 3rd. Star usage, injury status and closing-group decisions shape the next update.",
+          "key_data": [
+            "Score: Spurs 76, Thunder 67",
+            "Status: 4:45 - 3rd",
+            "Venue: Paycom Center",
+            "Spurs lead Thunder 76-67 in 4:45 - 3rd",
+            "Time/status: 4:45 - 3rd"
+          ],
+          "why_it_matters": [
+            "Live NBA coverage should the leverage inside the game, not simply repeat the score line.",
+            "Runs, foul trouble, injuries, timeout usage and closing-lineup decisions can turn a live game into the night's strongest story."
+          ],
+          "what_to_watch": [
+            "lead changes, foul pressure, late-clock offense, lineup combinations and injury updates.",
+            "Next check: official box-score leaders and postgame availability once the game moves final."
+          ],
+          "story_angles": [
+            "NBA hinges on star usage, availability and bench scoring.",
+            "Live leverage and closing possessions",
+            "Rotation choices and foul trouble",
+            "Star usage and scoring runs"
+          ],
+          "editorial_signals": [
+            "marquee_team_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-05-30",
+          "priority_score": 140,
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "editorial_depth": {
+            "original_source_headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "key_data_points": [
+            "Score: Spurs 76, Thunder 67",
+            "Status: 4:45 - 3rd",
+            "Venue: Paycom Center",
+            "Spurs lead Thunder 76-67 in 4:45 - 3rd",
+            "Time/status: 4:45 - 3rd"
+          ],
+          "source_label": "Availability"
+        }
+      ]
     },
     "nhl": {
       "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-05-30 07:47:49 PM ET",
+      "updated_at": "2026-05-30 09:57:29 PM ET",
       "content": "NHL REPORT | 2026-05-30 HEADLINE Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60 SNAPSHOT 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing hockey stakes over score lines, with attention on major death,. .",
       "key": "nhl",
       "label": "NHL",
@@ -639,7 +845,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-05-30",
-          "updated_at": "2026-05-30 07:47:49 PM ET",
+          "updated_at": "2026-05-30 09:57:29 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "foxsports.com",
@@ -691,7 +897,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-05-30",
-          "updated_at": "2026-05-30 07:47:49 PM ET",
+          "updated_at": "2026-05-30 09:57:29 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "apnews.com",
@@ -708,7 +914,7 @@
     "nfl": {
       "title": "NFL offseason board turns toward quarterbacks, rookie roles and roster pressure",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-05-30 07:47:51 PM ET",
+      "updated_at": "2026-05-30 09:57:30 PM ET",
       "content": "NFL REPORT | 2026-05-30 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
@@ -764,7 +970,7 @@
     "ncaafb": {
       "title": "Tarleton State Texans at Bowling Green Falcons",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-05-30 07:47:52 PM ET",
+      "updated_at": "2026-05-30 09:57:31 PM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
@@ -804,7 +1010,7 @@
     "soccer": {
       "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-05-30 07:47:50 PM ET",
+      "updated_at": "2026-05-30 09:57:29 PM ET",
       "content": "SOCCER REPORT | 2026-05-30 HEADLINE Transfer rumors, news: Bayern eye move for Juve's Vlahovic SNAPSHOT Soccer board refreshed with 21 news items, 0 live matches, 1 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over. .",
       "key": "soccer",
       "label": "Soccer",
@@ -865,8 +1071,8 @@
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -913,8 +1119,8 @@
           "title": "Slot leaves Liverpool after tough season, but with legacy safe",
           "url": "https://www.espn.com/soccer/story/_/id/48919598/liverpool-arne-slot-dismissed-manager-jurgen-klopp-andoni-iraola-analysis-beth-lindop",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919598/liverpool-arne-slot-dismissed-manager-jurgen-klopp-andoni-iraola-analysis-beth-lindop",
-          "summary": "Arne Slot's tenure at Liverpool felt untenable until, on Saturday, he was finally dismissed as manager. While it didn't end well, he should be remembered warmly for his work succeeding a club legend in Jurgen Klopp. The managerial angle matters because. Late....",
-          "snapshot": "Arne Slot's tenure at Liverpool felt untenable until, on Saturday, he was finally dismissed as manager. While it didn't end well, he should be remembered warmly for his work succeeding a club legend in Jurgen Klopp. The managerial angle matters because. Late....",
+          "summary": "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the....",
+          "snapshot": "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the....",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure"
@@ -956,8 +1162,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1007,8 +1213,8 @@
           "title": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
           "url": "https://www.espn.com/soccer/story/_/id/48919660/steven-gerrard-andoni-iraola-style-suit-liverpool",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919660/steven-gerrard-andoni-iraola-style-suit-liverpool",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Steven Gerrard has said Andoni Iraola's management style would be an ideal fit for Liverpool but that other managers will also be in contention after the club sacked Arne Slot.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1057,8 +1263,8 @@
           "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
           "url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
           "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1107,8 +1313,8 @@
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "Anthony Gordon praises Hansi Flick's success after joining his Barcelona side, saying \"we can win lots of titles together.\" The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how. .",
-          "snapshot": "Anthony Gordon praises Hansi Flick's success after joining his Barcelona side, saying \"we can win lots of titles together.\" The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how. .",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -1157,8 +1363,8 @@
           "title": "Ousmane Dembélé taken off with early injury as PSG fall late to local rivals Paris FC",
           "url": "http://www.espn.com/soccer/report/_/gameId/746713",
           "source_url": "http://www.espn.com/soccer/report/_/gameId/746713",
-          "summary": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
-          "snapshot": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -1207,8 +1413,8 @@
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1257,8 +1463,8 @@
           "title": "Éderson close to joining Man United in £35m move from Atalanta - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48898380/ederson-close-joining-man-united-35m-move-atalanta-sources",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898380/ederson-close-joining-man-united-35m-move-atalanta-sources",
-          "summary": "Manchester United are close to an agreement with Atalanta for midfielder Éderson, sources have told ESPN. The newsroom value is in connecting the item to club direction, player availability, table pressure, tactical identity or the World Cup 2026 runway. .",
-          "snapshot": "Manchester United are close to an agreement with Atalanta for midfielder Éderson, sources have told ESPN. The newsroom value is in connecting the item to club direction, player availability, table pressure, tactical identity or the World Cup 2026 runway. .",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "tactical or performance read",
@@ -1307,8 +1513,8 @@
           "title": "Brentford bid £40 million for Said El Mala - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -1356,8 +1562,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -1405,8 +1611,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1454,8 +1660,8 @@
           "title": "Barcelona sign Anthony Gordon from Newcastle in €70m transfer",
           "url": "https://www.espn.com/soccer/story/_/id/48904926/barcelona-anthony-gordon-newcastle-united-transfer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48904926/barcelona-anthony-gordon-newcastle-united-transfer",
-          "summary": "Barcelona sign Anthony Gordon from Newcastle in €70m transfer. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Barcelona sign Anthony Gordon from Newcastle in €70m transfer. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1503,8 +1709,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -1552,8 +1758,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1600,8 +1806,8 @@
           "title": "Andoni Iraola the frontrunner to succeed Slot as Liverpool boss - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48918737/andoni-iraola-frontrunner-succeed-slot-liverpool-boss",
           "source_url": "https://www.espn.com/soccer/story/_/id/48918737/andoni-iraola-frontrunner-succeed-slot-liverpool-boss",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -1649,8 +1855,8 @@
           "title": "The final week of the season - What's still on the line for African players in Europe?",
           "url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
           "source_url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
-          "summary": "The final week of the season - What's still on the line for African players in Europe?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "The final week of the season - What's still on the line for African players in Europe?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "title table or european pressure",
@@ -1753,8 +1959,8 @@
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "url": "https://www.fifa.com/en",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -1801,8 +2007,8 @@
           "title": "Slot leaves Liverpool after tough season, but with legacy safe",
           "url": "https://sports.yahoo.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919598/liverpool-arne-slot-dismissed-manager-jurgen-klopp-andoni-iraola-analysis-beth-lindop",
-          "summary": "Arne Slot's tenure at Liverpool felt untenable until, on Saturday, he was finally dismissed as manager. While it didn't end well, he should be remembered warmly for his work succeeding a club legend in Jurgen Klopp. The managerial angle matters because. Late....",
-          "snapshot": "Arne Slot's tenure at Liverpool felt untenable until, on Saturday, he was finally dismissed as manager. While it didn't end well, he should be remembered warmly for his work succeeding a club legend in Jurgen Klopp. The managerial angle matters because. Late....",
+          "summary": "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the....",
+          "snapshot": "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the....",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure"
@@ -1844,8 +2050,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://apnews.com/hub/soccer",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1895,8 +2101,8 @@
           "title": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
           "url": "https://www.reuters.com/sports/soccer/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919660/steven-gerrard-andoni-iraola-style-suit-liverpool",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Steven Gerrard has said Andoni Iraola's management style would be an ideal fit for Liverpool but that other managers will also be in contention after the club sacked Arne Slot.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1945,8 +2151,8 @@
           "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
           "url": "https://www.cbssports.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1995,8 +2201,8 @@
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "url": "https://www.foxsports.com/soccer/stories",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "Anthony Gordon praises Hansi Flick's success after joining his Barcelona side, saying \"we can win lots of titles together.\" The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how. .",
-          "snapshot": "Anthony Gordon praises Hansi Flick's success after joining his Barcelona side, saying \"we can win lots of titles together.\" The table context matters here: title pressure, European qualification, relegation risk and fixture congestion can all change how. .",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -2045,8 +2251,8 @@
           "title": "Ousmane Dembélé taken off with early injury as PSG fall late to local rivals Paris FC",
           "url": "https://www.cbssports.com/soccer/scores/",
           "source_url": "http://www.espn.com/soccer/report/_/gameId/746713",
-          "summary": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
-          "snapshot": "France star Ousmane Dembele limped off injured less than two weeks before the Champions League final as Paris Saint-Germain suffered a last-gasp 2-1 loss to neighbours Paris FC. The table context matters here: title pressure, European qualification,. Late.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -2095,8 +2301,8 @@
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "url": "https://www.cbssports.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2145,8 +2351,8 @@
           "title": "Éderson close to joining Man United in £35m move from Atalanta - sources",
           "url": "https://www.foxsports.com/soccer/scores",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898380/ederson-close-joining-man-united-35m-move-atalanta-sources",
-          "summary": "Manchester United are close to an agreement with Atalanta for midfielder Éderson, sources have told ESPN. The newsroom value is in connecting the item to club direction, player availability, table pressure, tactical identity or the World Cup 2026 runway. .",
-          "snapshot": "Manchester United are close to an agreement with Atalanta for midfielder Éderson, sources have told ESPN. The newsroom value is in connecting the item to club direction, player availability, table pressure, tactical identity or the World Cup 2026 runway. .",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "tactical or performance read",
@@ -2195,8 +2401,8 @@
           "title": "Brentford bid £40 million for Said El Mala - sources",
           "url": "https://www.foxsports.com/soccer/standings",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -2244,8 +2450,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://sports.yahoo.com/soccer/scoreboard/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -2293,8 +2499,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://sports.yahoo.com/soccer/standings/",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2342,8 +2548,8 @@
           "title": "Barcelona sign Anthony Gordon from Newcastle in €70m transfer",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
           "source_url": "https://www.espn.com/soccer/story/_/id/48904926/barcelona-anthony-gordon-newcastle-united-transfer",
-          "summary": "Barcelona sign Anthony Gordon from Newcastle in €70m transfer. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Barcelona sign Anthony Gordon from Newcastle in €70m transfer. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2391,8 +2597,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -2440,8 +2646,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -2488,8 +2694,8 @@
           "title": "Andoni Iraola the frontrunner to succeed Slot as Liverpool boss - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48918737/andoni-iraola-frontrunner-succeed-slot-liverpool-boss",
           "source_url": "https://www.espn.com/soccer/story/_/id/48918737/andoni-iraola-frontrunner-succeed-slot-liverpool-boss",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -2537,8 +2743,8 @@
           "title": "The final week of the season - What's still on the line for African players in Europe?",
           "url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
           "source_url": "https://www.espn.com/espn/story/_/id/48842702/the-final-week-season-line-african-players-europe",
-          "summary": "The final week of the season - What's still on the line for African players in Europe?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "The final week of the season - What's still on the line for African players in Europe?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "title table or european pressure",
@@ -2637,8 +2843,8 @@
     "betting_odds": {
       "title": "starting-expectation Market Hinges on Injury News",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-05-30 07:47:51 PM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-30 07:47:51 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-30 07:47:51 PM ET",
+      "updated_at": "2026-05-30 09:57:30 PM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-30 09:57:30 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-30 09:57:30 PM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
       "headline": "starting-expectation Market Hinges on Injury News",
@@ -2760,31 +2966,31 @@
       ]
     },
     "fantasy": {
-      "title": "MLB fantasy Verify starts with live usage in Atlanta Braves at Cincinnati Reds",
+      "title": "MLB fantasy Verify starts with live usage in Chicago Cubs at St. Louis Cardinals",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-05-30 07:47:52 PM ET",
-      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Atlanta Braves at Cincinnati Reds SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
+      "updated_at": "2026-05-30 09:57:31 PM ET",
+      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Chicago Cubs at St. Louis Cardinals SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
       "key": "fantasy",
       "label": "Fantasy",
-      "headline": "MLB fantasy Verify starts with live usage in Atlanta Braves at Cincinnati Reds",
-      "snapshot": "Braves-Reds has current game context: records: Braves 39-19; Reds 29-27 (0.155 win-pct gap); venue: Great American Ball Park. Availability, lineup decisions and standings or market consequence set the next update.",
+      "headline": "MLB fantasy Verify starts with live usage in Chicago Cubs at St. Louis Cardinals",
+      "snapshot": "Cubs-Cardinals has current game context: records: Cubs 31-27; Cardinals 30-25 (0.011 win-pct gap); venue: Busch Stadium. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Braves 39-19; Reds 29-27 (0.155 win-pct gap)."
+        "Record context: Cubs 31-27; Cardinals 30-25 (0.011 win-pct gap)."
       ],
       "key_data_points": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Braves 39-19; Reds 29-27 (0.155 win-pct gap)."
+        "Record context: Cubs 31-27; Cardinals 30-25 (0.011 win-pct gap)."
       ],
       "why_it_matters": [
-        "games-spikes depends on availability, form and standings impact.",
+        "Cubs-Cardinals depends on availability, form and standings impact.",
         "Fantasy coverage should turn game data into lineup, waiver and role context rather than market schedule summaries.",
         "The highest-value signals are repeatable opportunity, injury fallout, role movement, rotation changes and matchup-driven usage.",
-        "Braves-Reds has current game context: named players, records and price all shape the matchup."
+        "Cubs-Cardinals has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Role changes, usage, injury designations, waiver availability and lineup deadlines decide the fantasy value.",
@@ -2793,7 +2999,7 @@
         "Waiver relevance created by injuries, bench promotions or depth-chart movement."
       ],
       "story_angles": [
-        "games-spikes hinges on role security, usage and injury-driven lineup decisions."
+        "Cubs-Cardinals hinges on role security, usage and injury-driven lineup decisions."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
@@ -2804,12 +3010,12 @@
         "label": "Fantasy",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
         "reader_label": "Availability",
-        "original_source_headline": "MLB fantasy Verify starts with live usage in Atlanta Braves at Cincinnati Reds"
+        "original_source_headline": "MLB fantasy Verify starts with live usage in Chicago Cubs at St. Louis Cardinals"
       },
       "story_type": "fantasy_implication",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815551",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815557",
       "editorial_depth": {
-        "original_source_headline": "MLB fantasy Verify starts with live usage in Atlanta Braves at Cincinnati Reds",
+        "original_source_headline": "MLB fantasy Verify starts with live usage in Chicago Cubs at St. Louis Cardinals",
         "source_domain": "espn.com",
         "source_role": "fantasy_implication_exact",
         "story_type_detected": "fantasy_implication"
@@ -2823,7 +3029,7 @@
           "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
           "title": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
-          "url": "https://www.foxsports.com/mlb/teams",
+          "url": "https://www.foxsports.com/mlb/standings",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815558",
           "summary": "Final: Tigers 1, White Sox 7. Records: Tigers 22-37; White Sox 31-27",
           "key_data": [
@@ -3104,7 +3310,7 @@
           "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
           "title": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
-          "url": "https://www.foxsports.com/mlb/standings",
+          "url": "https://sports.yahoo.com/mlb/scoreboard/",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815553",
           "summary": "Final: Marlins 1, Mets 6. Records: Marlins 26-33; Mets 25-33",
           "key_data": [
@@ -3142,10 +3348,10 @@
             "Records: Marlins 26-33; Mets 25-33"
           ],
           "url_quality": "exact",
-          "source_domain": "foxsports.com",
+          "source_domain": "yahoo.com",
           "editorial_depth": {
             "original_source_headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
-            "source_domain": "foxsports.com",
+            "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -3214,9 +3420,65 @@
         {
           "league": "Fantasy",
           "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "title": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815551",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815551",
+          "summary": "Final: Braves 5, Reds 2. Records: Braves 40-19; Reds 29-28",
+          "key_data": [
+            "Final: Braves 5, Reds 2",
+            "Margin: Braves by 3",
+            "Game state: Final - Final",
+            "Current score context: Braves 5, Reds 2",
+            "Records: Braves 40-19; Reds 29-28"
+          ],
+          "why_it_matters": [
+            "Braves-Reds matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-30",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds"
+          },
+          "key_data_points": [
+            "Final: Braves 5, Reds 2",
+            "Margin: Braves by 3",
+            "Game state: Final - Final",
+            "Current score context: Braves 5, Reds 2",
+            "Records: Braves 40-19; Reds 29-28"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Braves 5, Reds 2. Records: Braves 40-19; Reds 29-28",
+          "story_angles": [
+            "Braves-Reds starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
           "title": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
-          "url": "https://sports.yahoo.com/mlb/scoreboard/",
+          "url": "https://sports.yahoo.com/mlb/standings/",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815550",
           "summary": "Final: Angels 14, Rays 3. Records: Angels 23-36; Rays 35-20",
           "key_data": [
@@ -3272,7 +3534,7 @@
           "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
           "title": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
-          "url": "https://sports.yahoo.com/mlb/standings/",
+          "url": "https://www.mlb.com/probable-pitchers",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815552",
           "summary": "Final: Red Sox 9, Guardians 1. Records: Red Sox 24-33; Guardians 34-26",
           "key_data": [
@@ -3310,10 +3572,10 @@
             "Records: Red Sox 24-33; Guardians 34-26"
           ],
           "url_quality": "exact",
-          "source_domain": "yahoo.com",
+          "source_domain": "mlb.com",
           "editorial_depth": {
             "original_source_headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
-            "source_domain": "yahoo.com",
+            "source_domain": "mlb.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -3330,7 +3592,7 @@
           "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
           "title": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
-          "url": "https://www.mlb.com/probable-pitchers",
+          "url": "https://sports.yahoo.com/mlb/news/",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815558",
           "summary": "Final: Tigers 1, White Sox 7. Records: Tigers 22-37; White Sox 31-27",
           "key_data": [
@@ -3368,10 +3630,10 @@
             "Records: Tigers 22-37; White Sox 31-27"
           ],
           "url_quality": "exact",
-          "source_domain": "mlb.com",
+          "source_domain": "yahoo.com",
           "editorial_depth": {
             "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
-            "source_domain": "mlb.com",
+            "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -3386,7 +3648,7 @@
           "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
           "title": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
-          "url": "https://sports.yahoo.com/mlb/news/",
+          "url": "https://www.cbssports.com/mlb/news/",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815554",
           "summary": "Final: Twins 9, Pirates 10. Records: Twins 27-32; Pirates 31-28",
           "key_data": [
@@ -3424,10 +3686,10 @@
             "Records: Twins 27-32; Pirates 31-28"
           ],
           "url_quality": "exact",
-          "source_domain": "yahoo.com",
+          "source_domain": "cbssports.com",
           "editorial_depth": {
             "original_source_headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
-            "source_domain": "yahoo.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -3442,7 +3704,7 @@
           "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
           "title": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
-          "url": "https://www.cbssports.com/mlb/news/",
+          "url": "https://www.mlb.com/transactions",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815555",
           "summary": "Final: Padres 4, Nationals 9. Records: Padres 32-25; Nationals 30-29",
           "key_data": [
@@ -3480,10 +3742,10 @@
             "Records: Padres 32-25; Nationals 30-29"
           ],
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "mlb.com",
           "editorial_depth": {
             "original_source_headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
-            "source_domain": "cbssports.com",
+            "source_domain": "mlb.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -3498,7 +3760,7 @@
           "label": "Fantasy watch",
           "headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
           "title": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
-          "url": "https://www.mlb.com/transactions",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815556",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815556",
           "summary": "Final: Blue Jays 5, Orioles 6. Records: Blue Jays 29-30; Orioles 27-32",
           "key_data": [
@@ -3537,11 +3799,11 @@
             "Records: Blue Jays 29-30; Orioles 27-32"
           ],
           "url_quality": "exact",
-          "source_domain": "mlb.com",
+          "source_domain": "espn.com",
           "editorial_depth": {
             "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
-            "source_domain": "mlb.com",
-            "source_role": "lineup_rotation_link_health_source",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
             "story_type_detected": "lineup_rotation"
           },
           "snapshot": "Final: Blue Jays 5, Orioles 6. Records: Blue Jays 29-30; Orioles 27-32",
@@ -3715,6 +3977,62 @@
           "snapshot": "Final: Brewers 2, Astros 9. Records: Brewers 34-21; Astros 27-33",
           "story_angles": [
             "Brewers-Astros starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "title": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815551",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815551",
+          "summary": "Final: Braves 5, Reds 2. Records: Braves 40-19; Reds 29-28",
+          "key_data": [
+            "Final: Braves 5, Reds 2",
+            "Margin: Braves by 3",
+            "Game state: Final - Final",
+            "Current score context: Braves 5, Reds 2",
+            "Records: Braves 40-19; Reds 29-28"
+          ],
+          "why_it_matters": [
+            "Braves-Reds matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-30",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds"
+          },
+          "key_data_points": [
+            "Final: Braves 5, Reds 2",
+            "Margin: Braves by 3",
+            "Game state: Final - Final",
+            "Current score context: Braves 5, Reds 2",
+            "Records: Braves 40-19; Reds 29-28"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Braves 5, Reds 2. Records: Braves 40-19; Reds 29-28",
+          "story_angles": [
+            "Braves-Reds starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
         },
@@ -3899,7 +4217,7 @@
       "league": "MLB",
       "key": "mlb",
       "headline": "New York Mets gains ground in a tight matchup with Miami Marlins",
-      "snapshot": "New York Mets's result over Miami Marlins is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position. records: Marlins 26-33; Mets 25-33. Venue: Citi Field; venue: Citi Field. Pitcher.",
+      "snapshot": "Juan Soto status or form, lineup confirmation and late betting movement need confirmation before the game. records: Marlins 26-33; Mets 25-33; venue: Citi Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
       "url": "https://www.espn.com/mlb/game/_/gameId/401815553",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
@@ -3953,67 +4271,69 @@
       "source_domain": "espn.com",
       "title": "New York Mets gains ground in a tight matchup with Miami Marlins",
       "url_quality": "exact",
-      "summary": "New York Mets's result over Miami Marlins is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position. records: Marlins 26-33; Mets 25-33. Venue: Citi Field; venue: Citi Field. Pitcher."
+      "summary": "Juan Soto status or form, lineup confirmation and late betting movement need confirmation before the game. records: Marlins 26-33; Mets 25-33; venue: Citi Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "San Antonio Spurs at Oklahoma City Thunder",
-      "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next....",
-      "url": "https://apnews.com/hub/nba",
+      "headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+      "snapshot": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Next and Status. venue: Paycom Center; status: 4:45 - 3rd. Star usage, injury status and closing-group decisions shape the next update.",
+      "url": "https://www.reuters.com/sports/basketball/",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
       "key_data": [
-        "NBA: availability or roster movement is attached to the story.",
-        "NBA: betting context can show expectation when paired with team news.",
-        "NBA: live or final score context is available.",
-        "Record context: Spurs 62-20; Thunder 64-18 (0.024 win-pct gap)."
+        "Status: 4:45 - 3rd",
+        "Venue: Paycom Center",
+        "Time/status: 4:45 - 3rd",
+        "Key people: Thunder.",
+        "Key people: Thunder, Status, Paycom Center."
       ],
       "why_it_matters": [
-        "San Antonio Spurs and Spurs give Spurs-lead a star-driven consequence, with records and price showing the expectation.",
-        "Rotations and Injuries give NBA a star-driven consequence, with records and price showing the expectation.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance."
+        "Thunder and Status give NBA a star-driven consequence, with records and price showing the expectation.",
+        "Runs, foul trouble, injuries, timeout usage and closing-lineup decisions can turn a live game into the night's strongest story."
       ],
       "what_to_watch": [
-        "Shai Gilgeous-Alexander status or form, lineup confirmation and late betting movement need confirmation before the game."
+        "lead changes, foul pressure, late-clock offense, lineup combinations and injury updates.",
+        "Next check: official box-score leaders and postgame availability once the game moves final."
       ],
       "story_angles": [
-        "San Antonio Spurs versus Spurs frames the star-usage question, bench scoring and the closing-group matchup.",
-        "Rotations versus Injuries frames the star-usage question, bench scoring and the closing-group matchup.",
+        "Thunder versus Status frames the star-usage question, bench scoring and the closing-group matchup.",
         "NBA hinges on star usage, availability and bench scoring.",
-        "Shai Gilgeous-Alexander performance or availability as the player lead."
+        "Live leverage and closing possessions",
+        "Rotation choices and foul trouble"
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
-        "story_type_detected": "lineup_rotation",
+        "signal": "availability_or_roster",
+        "story_type_detected": "performance_trend",
         "section": "nba",
         "label": "NBA",
-        "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context",
-        "original_source_headline": "San Antonio Spurs at Oklahoma City Thunder"
+        "reader_label": "Analysis context",
+        "original_source_headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd"
       },
-      "priority_score": 581,
-      "key_data_points": [
-        "NBA: availability or roster movement is attached to the story.",
-        "NBA: betting context can show expectation when paired with team news.",
-        "NBA: live or final score context is available.",
-        "Record context: Spurs 62-20; Thunder 64-18 (0.024 win-pct gap)."
-      ],
-      "source_domain": "apnews.com",
+      "priority_score": 569,
+      "source_index": 0,
       "editorial_depth": {
-        "news_value": "Availability",
+        "news_value": "Analysis context",
         "data_context": "present",
-        "source_domain": "apnews.com",
+        "source_domain": "reuters.com",
         "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "San Antonio Spurs at Oklahoma City Thunder",
-        "source_role": "lineup_rotation_link_health_source",
+        "original_source_headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+        "source_role": "live_or_result_source",
         "story_type_detected": "lineup_rotation"
       },
-      "title": "San Antonio Spurs at Oklahoma City Thunder",
-      "url_quality": "hub",
-      "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next...."
+      "key_data_points": [
+        "Status: 4:45 - 3rd",
+        "Venue: Paycom Center",
+        "Time/status: 4:45 - 3rd",
+        "Key people: Thunder.",
+        "Key people: Thunder, Status, Paycom Center."
+      ],
+      "source_domain": "reuters.com",
+      "title": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+      "url_quality": "other",
+      "summary": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Next and Status. venue: Paycom Center; status: 4:45 - 3rd. Star usage, injury status and closing-group decisions shape the next update."
     }
   ],
   "live_newsroom": [
@@ -4023,7 +4343,7 @@
       "headline": "four-champion Hinges on Goalies, Special Teams",
       "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
       "signal": "Digest lead",
-      "updated_at": "2026-05-30 07:48:30 PM ET",
+      "updated_at": "2026-05-30 09:58:11 PM ET",
       "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
       "url_quality": "exact",
       "source_domain": "apnews.com",
@@ -4055,7 +4375,7 @@
       "headline": "New York Mets gains ground in a tight matchup with Miami Marlins",
       "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Marlins 26-33; Mets 25-33. Venue: Citi Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
       "signal": "Availability",
-      "updated_at": "2026-05-30 07:48:30 PM ET",
+      "updated_at": "2026-05-30 09:58:11 PM ET",
       "url": "https://www.espn.com/mlb/game/_/gameId/401815553",
       "url_quality": "exact",
       "source_domain": "espn.com",
@@ -4082,43 +4402,41 @@
     {
       "section": "nba",
       "label": "NBA",
-      "headline": "San Antonio Spurs at Oklahoma City Thunder",
-      "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next....",
+      "headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+      "snapshot": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Thunder and Status. Late lineup, availability and schedule context remain the next checks. Star usage, injury status and closing-group decisions shape the next.",
       "signal": "Availability",
-      "updated_at": "2026-05-30 07:48:30 PM ET",
-      "url": "https://www.foxsports.com/nba/stories",
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
+      "updated_at": "2026-05-30 09:58:11 PM ET",
+      "url": "https://apnews.com/hub/nba",
+      "url_quality": "other",
+      "source_domain": "apnews.com",
       "editorial_depth": {
-        "original_source_headline": "San Antonio Spurs at Oklahoma City Thunder",
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
+        "original_source_headline": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+        "source_domain": "apnews.com",
+        "source_role": "live_or_result_link_health_source",
+        "story_type_detected": "live_or_result"
       },
       "key_data": [
-        "Key people: San Antonio Spurs.",
-        "Key people: San Antonio Spurs, Spurs."
+        "Key people: Thunder, Status, Paycom Center."
       ],
       "key_data_points": [
-        "Key people: San Antonio Spurs.",
-        "Key people: San Antonio Spurs, Spurs."
+        "Key people: Thunder, Status, Paycom Center."
       ],
       "why_it_matters": [
-        "San Antonio Spurs and Spurs give Spurs-lead a star-driven consequence, with records and price showing the expectation."
+        "Thunder and Status give NBA a star-driven consequence, with records and price showing the expectation."
       ],
       "what_to_watch": [],
       "story_angles": [
-        "San Antonio Spurs versus Spurs frames the star-usage question, bench scoring and the closing-group matchup."
+        "Thunder versus Status frames the star-usage question, bench scoring and the closing-group matchup."
       ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "title": "San Antonio Spurs at Oklahoma City Thunder",
-      "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star usage and closing-group decisions shape the next...."
+      "story_type": "live_or_result",
+      "source_label": "Game angle",
+      "title": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd",
+      "summary": "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Thunder and Status. Late lineup, availability and schedule context remain the next checks. Star usage, injury status and closing-group decisions shape the next."
     }
   ],
   "editor_signals": [
     "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60: Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form. .",
-    "New York Mets gains ground in a tight matchup with Miami Marlins: New York Mets's result over Miami Marlins is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position. records: Marlins.",
-    "San Antonio Spurs at Oklahoma City Thunder: Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Late injury reports and lineup confirmation remain the next checks. Availability, star. ."
+    "New York Mets gains ground in a tight matchup with Miami Marlins: Juan Soto status or form, lineup confirmation and late betting movement need confirmation before the game. records: Marlins 26-33; Mets 25-33; venue: Citi Field. Pitcher confirmation, lineup.",
+    "San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd: San Antonio Spurs-Oklahoma City Thunder moves through live NBA window: 4:45 - 3rd starts with Next and Status. venue: Paycom Center; status: 4:45 - 3rd. Star usage, injury."
   ]
 }
