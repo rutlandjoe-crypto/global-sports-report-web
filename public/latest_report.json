@@ -5,14 +5,13 @@
   "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
   "key_storylines": [
     "NHL: Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-    "MLB: Minnesota Twins at Pittsburgh Pirates",
-    "Soccer: Gordon 'more excited' about Barca move after talking to Hansi Flick",
-    "NBA: New York Knicks at San Antonio Spurs"
+    "NBA: New York Knicks at San Antonio Spurs",
+    "MLB: Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
-  "generated_at": "2026-05-31 01:51:19 PM ET",
-  "updated_at": "2026-05-31 01:51:19 PM ET",
-  "published_at": "2026-05-31 01:51:19 PM ET",
+  "generated_at": "2026-05-31 02:57:49 PM ET",
+  "updated_at": "2026-05-31 02:57:49 PM ET",
+  "published_at": "2026-05-31 02:57:49 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -20,33 +19,39 @@
   "editorial_standard": "Data supports the reporting process; GSR cards should read with human newsroom judgment, source balance, context, analytics and restraint.",
   "sections": {
     "mlb": {
-      "title": "Minnesota Twins at Pittsburgh Pirates",
+      "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-05-31 01:50:50 PM ET",
-      "content": "MLB REPORT | 2026-05-31 HEADLINE Middle-to-late innings begin shaping the story in Toronto Blue Jays-Baltimore Orioles SNAPSHOT MLB board for 2026-05-31 ET: 0 finals, 7 live games and 8 scheduled games. KEY STORYLINES Live update: Middle-to-late innings...",
+      "updated_at": "2026-05-31 02:57:23 PM ET",
+      "content": "MLB REPORT | 2026-05-31 HEADLINE Minnesota Twins-Pittsburgh Pirates is live, but the story depends on leverage and decision points SNAPSHOT MLB board for 2026-05-31 ET: 1 finals, 9 live games and 5 scheduled games. KEY STORYLINES Live update: Minnesota. .",
       "key": "mlb",
       "label": "MLB",
-      "headline": "Minnesota Twins at Pittsburgh Pirates",
-      "snapshot": "The listed starters and bullpen availability carry the first read; time/status: Bottom 6th; venue: Oriole Park at Camden Yards. Lineup scratches, bullpen workload and late price movement are the next verification points.",
+      "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+      "snapshot": "The listed starters and bullpen availability carry the first read; records: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap); venue: Oriole Park at Camden Yards. Lineup scratches, bullpen workload and late price movement are the next verification points.",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: live or final score context is available."
+        "MLB: live or final score context is available.",
+        "Key people: Vladimir Guerrero Jr, Adley Rutschman, Gunnar Henderson.",
+        "Record context: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap)."
       ],
       "key_data_points": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: live or final score context is available."
+        "MLB: live or final score context is available.",
+        "Key people: Vladimir Guerrero Jr, Adley Rutschman, Gunnar Henderson.",
+        "Record context: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap)."
       ],
       "why_it_matters": [
-        "Park-Opens depends on availability, form and standings impact.",
+        "Park-Yards depends on availability, form and standings impact.",
         "The result matters most if it changes pressure, positioning or the next question around the club.",
         "The score matters most when it changes the standings, rotation choices or next matchup.",
-        "Park-Yards has current game context: named players, records and price all shape the matchup."
+        "Blue Jays-Orioles has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
-        "Late availability, momentum, market movement or a lineup decision can change the update."
+        "Late availability, momentum, market movement or a lineup decision can change the update.",
+        "Vladimir Guerrero Jr. status or form, lineup confirmation and late betting movement need confirmation before the game."
       ],
       "story_angles": [
-        "Park-Opens starts with pitcher confirmation, lineup shape and bullpen availability."
+        "Park-Yards starts with pitcher confirmation, lineup shape and bullpen availability.",
+        "Vladimir Guerrero Jr. performance or availability as the player lead."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
@@ -57,12 +62,12 @@
         "label": "MLB",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
         "reader_label": "Pressure point",
-        "original_source_headline": "Minnesota Twins at Pittsburgh Pirates"
+        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays"
       },
       "story_type": "lineup_rotation",
       "url": "https://www.mlb.com/scores",
       "editorial_depth": {
-        "original_source_headline": "Minnesota Twins at Pittsburgh Pirates",
+        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
         "source_domain": "mlb.com",
         "source_role": "lineup_rotation_source",
         "story_type_detected": "lineup_rotation"
@@ -70,18 +75,126 @@
       "source_label": "Availability",
       "source_domain": "mlb.com",
       "json_source_file": "mlb_report.json",
-      "cards": [],
-      "stories": []
+      "cards": [
+        {
+          "league": "MLB",
+          "label": "Postgame read",
+          "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+          "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+          "summary": "Blue Jays-Orioles has live score movement, putting bullpen usage and late-inning leverage next. Final: Baltimore Orioles 9, Toronto Blue Jays 5; records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815571",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815571",
+          "key_data": [
+            "Final: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Margin: Baltimore Orioles by 4",
+            "Final score for context: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Run margin: 4",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "why_it_matters": [
+            "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
+            "Baltimore Orioles's result over Toronto Blue Jays is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
+          ],
+          "what_to_watch": [
+            "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "game_date": "2026-05-31",
+          "game_time": "12:15 PM ET",
+          "status": "Final",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Margin: Baltimore Orioles by 4",
+            "Final score for context: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Run margin: 4",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Blue Jays-Orioles has live score movement, putting bullpen usage and late-inning leverage next. Final: Baltimore Orioles 9, Toronto Blue Jays 5; records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the.",
+          "story_angles": [
+            "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        }
+      ],
+      "stories": [
+        {
+          "league": "MLB",
+          "label": "Postgame read",
+          "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+          "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+          "summary": "Blue Jays-Orioles has live score movement, putting bullpen usage and late-inning leverage next. Final: Baltimore Orioles 9, Toronto Blue Jays 5; records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the.",
+          "url": "https://www.reuters.com/sports/baseball/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815571",
+          "key_data": [
+            "Final: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Margin: Baltimore Orioles by 4",
+            "Final score for context: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Run margin: 4",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "why_it_matters": [
+            "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
+            "Baltimore Orioles's result over Toronto Blue Jays is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
+          ],
+          "what_to_watch": [
+            "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "game_date": "2026-05-31",
+          "game_time": "12:15 PM ET",
+          "status": "Final",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Margin: Baltimore Orioles by 4",
+            "Final score for context: Baltimore Orioles 9, Toronto Blue Jays 5",
+            "Run margin: 4",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "url_quality": "exact",
+          "source_domain": "reuters.com",
+          "editorial_depth": {
+            "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+            "source_domain": "reuters.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Blue Jays-Orioles has live score movement, putting bullpen usage and late-inning leverage next. Final: Baltimore Orioles 9, Toronto Blue Jays 5; records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the.",
+          "story_angles": [
+            "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        }
+      ]
     },
     "nba": {
       "title": "New York Knicks at San Antonio Spurs",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-05-31 01:50:52 PM ET",
+      "updated_at": "2026-05-31 02:57:25 PM ET",
       "content": "NBA REPORT | 2026-05-31 HEADLINE New York Knicks-San Antonio Spurs brings named-player and market context into the pregame read SNAPSHOT 1 NBA games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing story stakes over score lines,....",
       "key": "nba",
       "label": "NBA",
       "headline": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late spread movement.",
+      "snapshot": "Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late spread movement.",
       "key_data": [
         "NBA: availability or roster movement is attached to the story.",
         "NBA: betting context can show expectation when paired with team news.",
@@ -136,7 +249,7 @@
     "nhl": {
       "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-05-31 01:50:53 PM ET",
+      "updated_at": "2026-05-31 02:57:25 PM ET",
       "content": "NHL REPORT | 2026-05-31 HEADLINE Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60 SNAPSHOT 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing hockey stakes over score lines, with attention on major death,. .",
       "key": "nhl",
       "label": "NHL",
@@ -189,10 +302,10 @@
           "label": "NHL Legacy",
           "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
           "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-          "url": "https://www.foxsports.com/nhl/stories",
+          "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
           "source_url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
-          "summary": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Status: news. Goalie news, power-play form and late injury confirmation shape the next update.",
-          "snapshot": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Status: news. Goalie news, power-play form and late injury confirmation shape the next update.",
+          "summary": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy.",
+          "snapshot": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy.",
           "key_data": [
             "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
             "Conn Smythe Trophy winner with New Jersey.",
@@ -222,59 +335,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-05-31",
-          "updated_at": "2026-05-31 01:50:53 PM ET",
-          "priority_score": 320,
-          "url_quality": "exact",
-          "source_domain": "foxsports.com",
-          "key_data_points": [
-            "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
-            "Conn Smythe Trophy winner with New Jersey.",
-            "Known as one of hockey's defining postseason competitors.",
-            "NHL.com and club statements remembered his career and legacy."
-          ],
-          "source_label": "Digest lead"
-        }
-      ],
-      "stories": [
-        {
-          "league": "NHL",
-          "label": "NHL Legacy",
-          "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-          "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-          "url": "https://apnews.com/hub/nhl",
-          "source_url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
-          "summary": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Status: news. Goalie news, power-play form and late injury confirmation shape the next update.",
-          "snapshot": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Status: news. Goalie news, power-play form and late injury confirmation shape the next update.",
-          "key_data": [
-            "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
-            "Conn Smythe Trophy winner with New Jersey.",
-            "Known as one of hockey's defining postseason competitors.",
-            "NHL.com and club statements remembered his career and legacy."
-          ],
-          "why_it_matters": [
-            "Lemieux's death is a major NHL legacy story, not a routine game-preview item.",
-            "His postseason record and role with Montreal, New Jersey and Colorado give the story league-wide significance."
-          ],
-          "what_to_watch": [
-            "Use AP or official NHL/team updates for any additional details.",
-            "Keep cause-of-death language tied directly to sourced reporting and avoid speculation."
-          ],
-          "story_angles": [
-            "Four Stanley Cups",
-            "Conn Smythe legacy",
-            "Canadiens, Devils and Avalanche history",
-            "Postseason reputation"
-          ],
-          "editorial_signals": [
-            "major_death",
-            "obituary",
-            "legacy",
-            "stanley_cup"
-          ],
-          "story_type": "obituary",
-          "game_status": "news",
-          "game_date": "2026-05-31",
-          "updated_at": "2026-05-31 01:50:53 PM ET",
+          "updated_at": "2026-05-31 02:57:25 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "apnews.com",
@@ -284,18 +345,76 @@
             "Known as one of hockey's defining postseason competitors.",
             "NHL.com and club statements remembered his career and legacy."
           ],
-          "source_label": "Digest lead"
+          "source_label": "NHL Legacy",
+          "editorial_depth": {
+            "original_source_headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60"
+          }
+        }
+      ],
+      "stories": [
+        {
+          "league": "NHL",
+          "label": "NHL Legacy",
+          "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
+          "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
+          "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
+          "source_url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
+          "summary": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy.",
+          "snapshot": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy.",
+          "key_data": [
+            "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
+            "Conn Smythe Trophy winner with New Jersey.",
+            "Known as one of hockey's defining postseason competitors.",
+            "NHL.com and club statements remembered his career and legacy."
+          ],
+          "why_it_matters": [
+            "Lemieux's death is a major NHL legacy story, not a routine game-preview item.",
+            "His postseason record and role with Montreal, New Jersey and Colorado give the story league-wide significance."
+          ],
+          "what_to_watch": [
+            "Use AP or official NHL/team updates for any additional details.",
+            "Keep cause-of-death language tied directly to sourced reporting and avoid speculation."
+          ],
+          "story_angles": [
+            "Four Stanley Cups",
+            "Conn Smythe legacy",
+            "Canadiens, Devils and Avalanche history",
+            "Postseason reputation"
+          ],
+          "editorial_signals": [
+            "major_death",
+            "obituary",
+            "legacy",
+            "stanley_cup"
+          ],
+          "story_type": "obituary",
+          "game_status": "news",
+          "game_date": "2026-05-31",
+          "updated_at": "2026-05-31 02:57:25 PM ET",
+          "priority_score": 320,
+          "url_quality": "exact",
+          "source_domain": "apnews.com",
+          "key_data_points": [
+            "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
+            "Conn Smythe Trophy winner with New Jersey.",
+            "Known as one of hockey's defining postseason competitors.",
+            "NHL.com and club statements remembered his career and legacy."
+          ],
+          "source_label": "NHL Legacy",
+          "editorial_depth": {
+            "original_source_headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60"
+          }
         }
       ]
     },
     "nfl": {
-      "title": "NFL offseason board turns toward quarterbacks, rookie roles and roster pressure",
+      "title": "NFL News",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-05-31 01:50:55 PM ET",
+      "updated_at": "2026-05-31 02:57:27 PM ET",
       "content": "NFL REPORT | 2026-05-31 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
-      "headline": "NFL offseason board turns toward quarterbacks, rookie roles and roster pressure",
+      "headline": "NFL News",
       "snapshot": "6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity, coaching installs, rookie roles and injury timelines.",
       "key_data": [
         "NFL: availability or roster movement is attached to the story.",
@@ -329,7 +448,8 @@
         "section": "nfl",
         "label": "NFL",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Leadership pressure"
+        "reader_label": "Leadership pressure",
+        "original_source_headline": "NFL News"
       },
       "story_type": "coaching_pressure",
       "url": "https://www.reuters.com/sports/nfl/",
@@ -338,7 +458,8 @@
       "editorial_depth": {
         "source_domain": "reuters.com",
         "source_role": "coaching_pressure_source",
-        "story_type_detected": "coaching_pressure"
+        "story_type_detected": "coaching_pressure",
+        "original_source_headline": "NFL News"
       },
       "json_source_file": "nfl_report.json",
       "cards": [],
@@ -347,12 +468,12 @@
     "ncaafb": {
       "title": "Tarleton State Texans at Bowling Green Falcons",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-05-31 01:50:57 PM ET",
+      "updated_at": "2026-05-31 02:57:28 PM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
       "headline": "Tarleton State Texans at Bowling Green Falcons",
-      "snapshot": "",
+      "snapshot": "The feed includes upcoming games, but this refresh does not show confirmed rankings, rivalry, quarterback, injury, playoff, transfer, conference, betting or national-relevance context strong enough for a lead module.",
       "key_data": [],
       "key_data_points": [],
       "why_it_matters": [],
@@ -382,12 +503,13 @@
       "json_source_file": "ncaafb_report.json",
       "cards": [],
       "stories": [],
-      "upcoming": []
+      "upcoming": [],
+      "summary": "The feed includes upcoming games, but this refresh does not show confirmed rankings, rivalry, quarterback, injury, playoff, transfer, conference, betting or national-relevance context strong enough for a lead module."
     },
     "soccer": {
       "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-05-31 01:50:55 PM ET",
+      "updated_at": "2026-05-31 02:57:26 PM ET",
       "content": "SOCCER REPORT | 2026-05-31 HEADLINE Transfer rumors, news: Bayern eye move for Juve's Vlahovic SNAPSHOT Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over. .",
       "key": "soccer",
       "label": "Soccer",
@@ -448,8 +570,8 @@
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Key people: Transfer, Bayern. Late lineup.",
-          "snapshot": "Key people: Transfer, Bayern. Late lineup.",
+          "summary": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -496,8 +618,8 @@
           "title": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
           "url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
-          "summary": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
-          "snapshot": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -547,8 +669,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -598,8 +720,8 @@
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "manager or coaching pressure",
@@ -648,8 +770,8 @@
           "title": "Declan Rice promises Arsenal will be 'coming back for more' after UCL loss",
           "url": "https://www.espn.com/soccer/story/_/id/48930407/declan-rice-arsenal-parade-london-coming-back-more",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930407/declan-rice-arsenal-parade-london-coming-back-more",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -698,8 +820,8 @@
           "title": "Arsenal host parade to celebrate Premier League title triumph",
           "url": "https://www.espn.com/soccer/story/_/id/48928616/arsenal-host-parade-celebrate-premier-league-title-triumph",
           "source_url": "https://www.espn.com/soccer/story/_/id/48928616/arsenal-host-parade-celebrate-premier-league-title-triumph",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -746,10 +868,10 @@
           "label": "La Liga News Read",
           "headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-          "url": "https://www.fifa.com/en",
+          "url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -777,11 +899,11 @@
           "story_type": "lineup_rotation",
           "priority_score": 169,
           "url_quality": "exact",
-          "source_domain": "fifa.com",
+          "source_domain": "espn.com",
           "editorial_depth": {
             "original_source_headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-            "source_domain": "fifa.com",
-            "source_role": "lineup_rotation_link_health_source",
+            "source_domain": "espn.com",
+            "source_role": "lineup_rotation_exact",
             "story_type_detected": "lineup_rotation"
           },
           "key_data_points": [
@@ -798,8 +920,8 @@
           "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
           "url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
           "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -848,8 +970,8 @@
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Real Madrid will look to reinforce their midfield this summer by signing Paris Saint-Germain midfielder João Neves. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -898,8 +1020,8 @@
           "title": "Brentford bid £40 million for Said El Mala - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -947,8 +1069,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1.",
+          "summary": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -992,19 +1114,19 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
-          "headline": "Liverpool confirm Ibrahima Konaté is leaving the club this summer",
-          "title": "Liverpool confirm Ibrahima Konaté is leaving the club this summer",
+          "headline": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
+          "title": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
           "url": "https://www.espn.com/soccer/story/_/id/48930579/liverpool-confirm-ibrahima-konate-leaving-club-summer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930579/liverpool-confirm-ibrahima-konate-leaving-club-summer",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Liverpool have confirmed Ibrahima Konaté will be leaving the club when his contract expires this summer.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
-            "Key people: Liverpool, Ibrahima."
+            "Key people: Ibrahima, Liverpool."
           ],
           "why_it_matters": [
-            "Liverpool gives Soccer clear player stakes.",
+            "Ibrahima gives Soccer clear player stakes.",
             "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
           ],
           "what_to_watch": [
@@ -1026,7 +1148,7 @@
           "url_quality": "exact",
           "source_domain": "espn.com",
           "editorial_depth": {
-            "original_source_headline": "Liverpool confirm Ibrahima Konaté is leaving the club this summer",
+            "original_source_headline": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
             "source_domain": "espn.com",
             "source_role": "live_or_result_exact",
             "story_type_detected": "lineup_rotation"
@@ -1034,7 +1156,7 @@
           "key_data_points": [
             "Competition/source: Premier League",
             "transfer or contract market",
-            "Key people: Liverpool, Ibrahima."
+            "Key people: Ibrahima, Liverpool."
           ],
           "source_label": "Availability"
         },
@@ -1045,8 +1167,8 @@
           "title": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
           "url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
           "source_url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Atlético Madrid's Julián Álvarez still has his heart set on joining Barcelona. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1094,8 +1216,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Gabriele Marcotti discusses the ongoing speculation linking Julián Alvarez with Barcelona but suggests that Atletico Madrid remain in a stronger position.",
+          "summary": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1143,8 +1265,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Liverpool's Curtis Jones could be another player leaving Anfield this summer, with Inter Milan trying to sign him. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -1192,8 +1314,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1230,7 +1352,8 @@
           "editorial_depth": {
             "source_domain": "espn.com",
             "source_role": "lineup_rotation_exact",
-            "story_type_detected": "lineup_rotation"
+            "story_type_detected": "lineup_rotation",
+            "original_source_headline": "Soccer Clubs Chase Table Points"
           }
         },
         {
@@ -1456,10 +1579,10 @@
           "label": "Bundesliga News Read",
           "headline": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
-          "url": "https://apnews.com/hub/soccer",
+          "url": "https://www.fifa.com/en",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Key people: Transfer, Bayern. Late lineup.",
-          "snapshot": "Key people: Transfer, Bayern. Late lineup.",
+          "summary": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -1486,10 +1609,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 225,
           "url_quality": "exact",
-          "source_domain": "apnews.com",
+          "source_domain": "fifa.com",
           "editorial_depth": {
             "original_source_headline": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
-            "source_domain": "apnews.com",
+            "source_domain": "fifa.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1504,10 +1627,10 @@
           "label": "La Liga News Read",
           "headline": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
           "title": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
-          "url": "https://sports.yahoo.com/soccer/news/",
+          "url": "https://apnews.com/hub/soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
-          "summary": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
-          "snapshot": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -1536,10 +1659,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 191,
           "url_quality": "exact",
-          "source_domain": "yahoo.com",
+          "source_domain": "apnews.com",
           "editorial_depth": {
             "original_source_headline": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
-            "source_domain": "yahoo.com",
+            "source_domain": "apnews.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1555,10 +1678,10 @@
           "label": "MLS News Read",
           "headline": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
-          "url": "https://www.cbssports.com/soccer/news/",
+          "url": "https://sports.yahoo.com/soccer/news/",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1587,10 +1710,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 185,
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "yahoo.com",
           "editorial_depth": {
             "original_source_headline": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
-            "source_domain": "cbssports.com",
+            "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1606,10 +1729,10 @@
           "label": "La Liga News Read",
           "headline": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
-          "url": "https://www.foxsports.com/soccer/stories",
+          "url": "https://www.cbssports.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "manager or coaching pressure",
@@ -1637,10 +1760,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 177,
           "url_quality": "exact",
-          "source_domain": "foxsports.com",
+          "source_domain": "cbssports.com",
           "editorial_depth": {
             "original_source_headline": "Liverpool fired Slot after winning the title. It happens more often than you think",
-            "source_domain": "foxsports.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1656,10 +1779,10 @@
           "label": "Premier League News Read",
           "headline": "Declan Rice promises Arsenal will be 'coming back for more' after UCL loss",
           "title": "Declan Rice promises Arsenal will be 'coming back for more' after UCL loss",
-          "url": "https://www.reuters.com/sports/soccer/",
+          "url": "https://www.foxsports.com/soccer/stories",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930407/declan-rice-arsenal-parade-london-coming-back-more",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1687,10 +1810,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 169,
           "url_quality": "exact",
-          "source_domain": "reuters.com",
+          "source_domain": "foxsports.com",
           "editorial_depth": {
             "original_source_headline": "Declan Rice promises Arsenal will be 'coming back for more' after UCL loss",
-            "source_domain": "reuters.com",
+            "source_domain": "foxsports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1706,10 +1829,10 @@
           "label": "Premier League News Read",
           "headline": "Arsenal host parade to celebrate Premier League title triumph",
           "title": "Arsenal host parade to celebrate Premier League title triumph",
-          "url": "https://www.cbssports.com/soccer/scores/",
+          "url": "https://www.reuters.com/sports/soccer/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48928616/arsenal-host-parade-celebrate-premier-league-title-triumph",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1737,10 +1860,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 169,
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "reuters.com",
           "editorial_depth": {
             "original_source_headline": "Arsenal host parade to celebrate Premier League title triumph",
-            "source_domain": "cbssports.com",
+            "source_domain": "reuters.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1756,10 +1879,10 @@
           "label": "La Liga News Read",
           "headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-          "url": "https://www.cbssports.com/soccer/standings/",
+          "url": "https://www.cbssports.com/soccer/scores/",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -1806,10 +1929,10 @@
           "label": "Ligue 1 News Read",
           "headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
           "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
-          "url": "https://www.foxsports.com/soccer/scores",
+          "url": "https://www.cbssports.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -1837,10 +1960,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 169,
           "url_quality": "exact",
-          "source_domain": "foxsports.com",
+          "source_domain": "cbssports.com",
           "editorial_depth": {
             "original_source_headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
-            "source_domain": "foxsports.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1856,10 +1979,10 @@
           "label": "La Liga News Read",
           "headline": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
-          "url": "https://www.foxsports.com/soccer/standings",
+          "url": "https://www.foxsports.com/soccer/scores",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Real Madrid will look to reinforce their midfield this summer by signing Paris Saint-Germain midfielder João Neves. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1906,10 +2029,10 @@
           "label": "Bundesliga News Read",
           "headline": "Brentford bid £40 million for Said El Mala - sources",
           "title": "Brentford bid £40 million for Said El Mala - sources",
-          "url": "https://sports.yahoo.com/soccer/scoreboard/",
+          "url": "https://www.foxsports.com/soccer/standings",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -1936,10 +2059,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 153,
           "url_quality": "exact",
-          "source_domain": "yahoo.com",
+          "source_domain": "foxsports.com",
           "editorial_depth": {
             "original_source_headline": "Brentford bid £40 million for Said El Mala - sources",
-            "source_domain": "yahoo.com",
+            "source_domain": "foxsports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1955,10 +2078,10 @@
           "label": "Ligue 1 News Read",
           "headline": "When does the 2026 summer transfer window open and close?",
           "title": "When does the 2026 summer transfer window open and close?",
-          "url": "https://sports.yahoo.com/soccer/standings/",
+          "url": "https://sports.yahoo.com/soccer/scoreboard/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1.",
+          "summary": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -2002,19 +2125,19 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
-          "headline": "Liverpool confirm Ibrahima Konaté is leaving the club this summer",
-          "title": "Liverpool confirm Ibrahima Konaté is leaving the club this summer",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+          "headline": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
+          "title": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
+          "url": "https://sports.yahoo.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930579/liverpool-confirm-ibrahima-konate-leaving-club-summer",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Liverpool have confirmed Ibrahima Konaté will be leaving the club when his contract expires this summer.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
-            "Key people: Liverpool, Ibrahima."
+            "Key people: Ibrahima, Liverpool."
           ],
           "why_it_matters": [
-            "Liverpool gives Soccer clear player stakes.",
+            "Ibrahima gives Soccer clear player stakes.",
             "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
           ],
           "what_to_watch": [
@@ -2034,17 +2157,17 @@
           "story_type": "lineup_rotation",
           "priority_score": 145,
           "url_quality": "exact",
-          "source_domain": "fifa.com",
+          "source_domain": "yahoo.com",
           "editorial_depth": {
-            "original_source_headline": "Liverpool confirm Ibrahima Konaté is leaving the club this summer",
-            "source_domain": "fifa.com",
+            "original_source_headline": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
+            "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
           "key_data_points": [
             "Competition/source: Premier League",
             "transfer or contract market",
-            "Key people: Liverpool, Ibrahima."
+            "Key people: Ibrahima, Liverpool."
           ],
           "source_label": "Availability"
         },
@@ -2053,10 +2176,10 @@
           "label": "La Liga News Read",
           "headline": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
           "title": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
-          "url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
           "source_url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Atlético Madrid's Julián Álvarez still has his heart set on joining Barcelona. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2083,11 +2206,11 @@
           "story_type": "lineup_rotation",
           "priority_score": 145,
           "url_quality": "exact",
-          "source_domain": "espn.com",
+          "source_domain": "fifa.com",
           "editorial_depth": {
             "original_source_headline": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
+            "source_domain": "fifa.com",
+            "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
           "key_data_points": [
@@ -2104,8 +2227,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Gabriele Marcotti discusses the ongoing speculation linking Julián Alvarez with Barcelona but suggests that Atletico Madrid remain in a stronger position.",
+          "summary": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2153,8 +2276,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Liverpool's Curtis Jones could be another player leaving Anfield this summer, with Inter Milan trying to sign him. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -2202,8 +2325,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -2240,7 +2363,8 @@
           "editorial_depth": {
             "source_domain": "espn.com",
             "source_role": "lineup_rotation_exact",
-            "story_type_detected": "lineup_rotation"
+            "story_type_detected": "lineup_rotation",
+            "original_source_headline": "Soccer Clubs Chase Table Points"
           }
         },
         {
@@ -2462,13 +2586,13 @@
       ]
     },
     "betting_odds": {
-      "title": "starting-expectation Market Hinges on Injury News",
+      "title": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-05-31 01:50:55 PM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-31 01:50:55 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-31 01:50:55 PM ET",
+      "updated_at": "2026-05-31 02:57:27 PM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-31 02:57:27 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-31 02:57:27 PM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
-      "headline": "starting-expectation Market Hinges on Injury News",
+      "headline": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
       "snapshot": "Sportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.",
       "key_data": [
         "MARKET: odds context belongs in the card as price and probability, not as a pick."
@@ -2497,7 +2621,8 @@
         "section": "betting_odds",
         "label": "Betting Odds",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Odds context"
+        "reader_label": "Odds context",
+        "original_source_headline": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH"
       },
       "story_type": "betting_movement",
       "url": "https://www.covers.com/sport",
@@ -2506,53 +2631,17 @@
       "editorial_depth": {
         "source_domain": "covers.com",
         "source_role": "betting_movement_source",
-        "story_type_detected": "betting_movement"
+        "story_type_detected": "betting_movement",
+        "headline_integrity": "backup source_no_source_headline",
+        "original_source_headline": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH"
       },
       "json_source_file": "betting_odds_report.json",
       "cards": [
         {
           "league": "Betting Odds",
           "label": "Betting Watch",
-          "headline": "Late Lineup News Puts Betting Markets on Watch",
-          "title": "Late Lineup News Puts Betting Markets on Watch",
-          "url": "https://www.actionnetwork.com/odds",
-          "source_url": "https://www.espn.com/",
-          "summary": "No live spread, total or moneyline move is available yet.",
-          "key_data": [
-            "No betting markets were available during this run."
-          ],
-          "why_it_matters": [
-            "Betting Odds needs confirmed availability, form or standings impact to become more than a routine item.",
-            "Market context helps editors Next check: expected game flow and public attention."
-          ],
-          "what_to_watch": [
-            "Injury news, lineup changes, weather, starting-pitching status and late price movement decide how useful the number is.",
-            "Next check: the next odds refresh, injury report or market movement."
-          ],
-          "url_quality": "hub",
-          "source_domain": "actionnetwork.com",
-          "snapshot": "No live spread, total or moneyline move is available yet.",
-          "key_data_points": [
-            "No betting markets were available during this run."
-          ],
-          "story_angles": [
-            "Betting Odds hinges on the gap between the posted number and confirmed team news."
-          ],
-          "story_type": "betting_movement",
-          "source_label": "Odds context",
-          "editorial_depth": {
-            "source_domain": "actionnetwork.com",
-            "source_role": "betting_movement_link_health_source",
-            "story_type_detected": "betting_movement"
-          }
-        }
-      ],
-      "stories": [
-        {
-          "league": "Betting Odds",
-          "label": "Betting Watch",
-          "headline": "Late Lineup News Puts Betting Markets on Watch",
-          "title": "Late Lineup News Puts Betting Markets on Watch",
+          "headline": "Betting markets need real team news and a named matchup",
+          "title": "Betting markets need real team news and a named matchup",
           "url": "https://www.covers.com/sport",
           "source_url": "https://www.espn.com/",
           "summary": "No live spread, total or moneyline move is available yet.",
@@ -2569,6 +2658,12 @@
           ],
           "url_quality": "hub",
           "source_domain": "covers.com",
+          "editorial_depth": {
+            "original_source_headline": "Betting markets need real team news and a named matchup",
+            "source_domain": "covers.com",
+            "source_role": "betting_movement_source_rebalanced",
+            "story_type_detected": "betting_movement"
+          },
           "snapshot": "No live spread, total or moneyline move is available yet.",
           "key_data_points": [
             "No betting markets were available during this run."
@@ -2577,41 +2672,75 @@
             "Betting Odds hinges on the gap between the posted number and confirmed team news."
           ],
           "story_type": "betting_movement",
-          "source_label": "Odds context",
+          "source_label": "Odds context"
+        }
+      ],
+      "stories": [
+        {
+          "league": "Betting Odds",
+          "label": "Betting Watch",
+          "headline": "Betting markets need real team news and a named matchup",
+          "title": "Betting markets need real team news and a named matchup",
+          "url": "https://www.actionnetwork.com/odds",
+          "source_url": "https://www.espn.com/",
+          "summary": "No live spread, total or moneyline move is available yet.",
+          "key_data": [
+            "No betting markets were available during this run."
+          ],
+          "why_it_matters": [
+            "Betting Odds needs confirmed availability, form or standings impact to become more than a routine item.",
+            "Market context helps editors Next check: expected game flow and public attention."
+          ],
+          "what_to_watch": [
+            "Injury news, lineup changes, weather, starting-pitching status and late price movement decide how useful the number is.",
+            "Next check: the next odds refresh, injury report or market movement."
+          ],
+          "url_quality": "hub",
+          "source_domain": "actionnetwork.com",
           "editorial_depth": {
-            "source_domain": "covers.com",
+            "original_source_headline": "Betting markets need real team news and a named matchup",
+            "source_domain": "actionnetwork.com",
             "source_role": "betting_movement_link_health_source",
             "story_type_detected": "betting_movement"
-          }
+          },
+          "snapshot": "No live spread, total or moneyline move is available yet.",
+          "key_data_points": [
+            "No betting markets were available during this run."
+          ],
+          "story_angles": [
+            "Betting Odds hinges on the gap between the posted number and confirmed team news."
+          ],
+          "story_type": "betting_movement",
+          "source_label": "Odds context"
         }
       ]
     },
     "fantasy": {
-      "title": "MLB fantasy Verify starts with live usage in Toronto Blue Jays at Baltimore Orioles",
+      "title": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-05-31 01:50:56 PM ET",
-      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Toronto Blue Jays at Baltimore Orioles SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current....",
+      "updated_at": "2026-05-31 02:57:28 PM ET",
+      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
       "key": "fantasy",
       "label": "Fantasy",
-      "headline": "MLB fantasy Verify starts with live usage in Toronto Blue Jays at Baltimore Orioles",
-      "snapshot": "Blue Jays-Orioles has current game context: records: Blue Jays 29-30; Orioles 27-32 (0.034 win-pct gap); venue: Oriole Park at Camden Yards. Availability, lineup decisions and standings or market consequence set the next update.",
+      "headline": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates",
+      "snapshot": "Twins-Pirates has current game context: records: Twins 27-32; Pirates 31-28 (0.068 win-pct gap); venue: PNC Park. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Blue Jays 29-30; Orioles 27-32 (0.034 win-pct gap)."
+        "Record context: Twins 27-32; Pirates 31-28 (0.068 win-pct gap)."
       ],
       "key_data_points": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Blue Jays 29-30; Orioles 27-32 (0.034 win-pct gap)."
+        "Record context: Twins 27-32; Pirates 31-28 (0.068 win-pct gap)."
       ],
       "why_it_matters": [
-        "Park-Yards depends on availability, form and standings impact.",
+        "games-spikes depends on availability, form and standings impact.",
         "Fantasy coverage should turn game data into lineup, waiver and role context rather than market schedule summaries.",
         "The highest-value signals are repeatable opportunity, injury fallout, role movement, rotation changes and matchup-driven usage.",
-        "Blue Jays-Orioles has current game context: named players, records and price all shape the matchup."
+        "Twins-Pirates has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Role changes, usage, injury designations, waiver availability and lineup deadlines decide the fantasy value.",
@@ -2620,7 +2749,7 @@
         "Waiver relevance created by injuries, bench promotions or depth-chart movement."
       ],
       "story_angles": [
-        "Park-Yards hinges on role security, usage and injury-driven lineup decisions."
+        "games-spikes hinges on role security, usage and injury-driven lineup decisions."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
@@ -2631,12 +2760,12 @@
         "label": "Fantasy",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
         "reader_label": "Availability",
-        "original_source_headline": "MLB fantasy Verify starts with live usage in Toronto Blue Jays at Baltimore Orioles"
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates"
       },
       "story_type": "fantasy_implication",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815571",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815569",
       "editorial_depth": {
-        "original_source_headline": "MLB fantasy Verify starts with live usage in Toronto Blue Jays at Baltimore Orioles",
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates",
         "source_domain": "espn.com",
         "source_role": "fantasy_implication_exact",
         "story_type_detected": "fantasy_implication"
@@ -2644,8 +2773,124 @@
       "source_label": "Fantasy impact",
       "source_domain": "espn.com",
       "json_source_file": "fantasy_report.json",
-      "cards": [],
-      "stories": []
+      "cards": [
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+          "title": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+          "url": "https://www.cbssports.com/mlb/scores/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815571",
+          "summary": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "key_data": [
+            "Final: Blue Jays 5, Orioles 9",
+            "Margin: Orioles by 4",
+            "Game state: Final - Final",
+            "Current score context: Blue Jays 5, Orioles 9",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "why_it_matters": [
+            "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles"
+          },
+          "key_data_points": [
+            "Final: Blue Jays 5, Orioles 9",
+            "Margin: Orioles by 4",
+            "Game state: Final - Final",
+            "Current score context: Blue Jays 5, Orioles 9",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "url_quality": "exact",
+          "source_domain": "cbssports.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "story_angles": [
+            "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        }
+      ],
+      "stories": [
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+          "title": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+          "url": "https://www.cbssports.com/mlb/standings/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815571",
+          "summary": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "key_data": [
+            "Final: Blue Jays 5, Orioles 9",
+            "Margin: Orioles by 4",
+            "Game state: Final - Final",
+            "Current score context: Blue Jays 5, Orioles 9",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "why_it_matters": [
+            "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles"
+          },
+          "key_data_points": [
+            "Final: Blue Jays 5, Orioles 9",
+            "Margin: Orioles by 4",
+            "Game state: Final - Final",
+            "Current score context: Blue Jays 5, Orioles 9",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "url_quality": "exact",
+          "source_domain": "cbssports.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "story_angles": [
+            "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        }
+      ]
     }
   },
   "homepage_cards": [
@@ -2653,9 +2898,9 @@
       "league": "NHL",
       "key": "nhl",
       "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-      "snapshot": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form and late injury confirmation shape the next update.",
+      "snapshot": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy.",
       "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
-      "source_label": "Digest lead",
+      "source_label": "NHL Legacy",
       "story_type": "obituary",
       "key_data": [
         "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
@@ -2665,8 +2910,7 @@
       ],
       "why_it_matters": [
         "Lemieux's death is a major NHL legacy story, not a routine game-preview item.",
-        "His postseason record and role with Montreal, New Jersey and Colorado give the story league-wide significance.",
-        "four-champion has current game context: named players, records and price all shape the matchup."
+        "His postseason record and role with Montreal, New Jersey and Colorado give the story league-wide significance."
       ],
       "what_to_watch": [
         "Use AP or official NHL/team updates for any additional details.",
@@ -2707,128 +2951,15 @@
       ],
       "source_domain": "apnews.com",
       "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-      "summary": "Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form and late injury confirmation shape the next update.",
+      "summary": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy.",
       "url_quality": "exact"
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Minnesota Twins at Pittsburgh Pirates",
-      "snapshot": "Late availability, momentum, market movement or a lineup decision can change the update. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
-      "url": "https://apnews.com/hub/mlb-baseball",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "MLB: standings or postseason-race context is in play.",
-        "MLB: live or final score context is available."
-      ],
-      "why_it_matters": [
-        "Park-starts depends on availability, form and standings impact.",
-        "Park-Opens depends on availability, form and standings impact.",
-        "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "The score matters most when it changes the standings, rotation choices or next matchup."
-      ],
-      "what_to_watch": [
-        "Late availability, momentum, market movement or a lineup decision can change the update."
-      ],
-      "story_angles": [
-        "Park-starts starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Park-Opens starts with pitcher confirmation, lineup shape and bullpen availability."
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "pressure_watch",
-        "story_type_detected": "lineup_rotation",
-        "section": "mlb",
-        "label": "MLB",
-        "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Pressure point",
-        "original_source_headline": "Minnesota Twins at Pittsburgh Pirates"
-      },
-      "priority_score": 624,
-      "key_data_points": [
-        "MLB: standings or postseason-race context is in play.",
-        "MLB: live or final score context is available."
-      ],
-      "source_domain": "apnews.com",
-      "editorial_depth": {
-        "news_value": "Availability",
-        "data_context": "present",
-        "source_domain": "apnews.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "Minnesota Twins at Pittsburgh Pirates",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "title": "Minnesota Twins at Pittsburgh Pirates",
-      "url_quality": "hub",
-      "summary": "Late availability, momentum, market movement or a lineup decision can change the update. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
-    },
-    {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-      "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-      "url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "Competition/source: La Liga",
-        "title table or european pressure",
-        "Key people: Gordon, Barca, Hansi Flick's."
-      ],
-      "why_it_matters": [
-        "Gordon gives Soccer clear player stakes.",
-        "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
-      ],
-      "what_to_watch": [
-        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-        "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-      ],
-      "story_angles": [
-        "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-        "Transfer and contract market",
-        "Manager pressure or tactical direction",
-        "Availability and squad selection"
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "availability_or_roster",
-        "story_type_detected": "news",
-        "section": "soccer",
-        "label": "Soccer",
-        "reader_label": "Digest lead",
-        "original_source_headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick"
-      },
-      "priority_score": 615,
-      "source_index": 6,
-      "editorial_depth": {
-        "news_value": "Digest lead",
-        "data_context": "present",
-        "source_domain": "espn.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-        "source_role": "lineup_rotation_exact",
-        "story_type_detected": "lineup_rotation"
-      },
-      "key_data_points": [
-        "Competition/source: La Liga",
-        "title table or european pressure",
-        "Key people: Gordon, Barca, Hansi Flick's."
-      ],
-      "source_domain": "espn.com",
-      "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-      "url_quality": "exact",
-      "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update."
     },
     {
       "league": "NBA",
       "key": "nba",
       "headline": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center.",
-      "url": "https://apnews.com/hub/nba",
+      "snapshot": "Knicks-lead starts with Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation,.",
+      "url": "https://www.espn.com/nba/game/_/gameId/401859963",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
       "key_data": [
@@ -2871,138 +3002,144 @@
         "Key people: Jalen Brunson.",
         "Record context: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap)."
       ],
-      "source_domain": "apnews.com",
+      "source_domain": "espn.com",
+      "editorial_depth": {
+        "news_value": "Availability",
+        "data_context": "present",
+        "source_domain": "espn.com",
+        "standard": "Select, balance and frame stories by consequence, not by feed order.",
+        "original_source_headline": "New York Knicks at San Antonio Spurs",
+        "source_role": "lineup_rotation_exact",
+        "story_type_detected": "lineup_rotation"
+      },
+      "title": "New York Knicks at San Antonio Spurs",
+      "url_quality": "exact",
+      "summary": "Knicks-lead starts with Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation,."
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+      "snapshot": "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "url": "https://apnews.com/hub/mlb-baseball",
+      "source_label": "Availability",
+      "story_type": "lineup_rotation",
+      "key_data": [
+        "Run margin: 4",
+        "Records: Blue Jays 29-31; Orioles 28-32",
+        "Key people: Vladimir Guerrero Jr, Adley Rutschman, Gunnar Henderson.",
+        "Record context: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap)."
+      ],
+      "why_it_matters": [
+        "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
+        "Baltimore Orioles's result over Toronto Blue Jays is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position.",
+        "Blue Jays-Orioles has current game context: named players, records and price all shape the matchup."
+      ],
+      "what_to_watch": [
+        "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
+        "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+        "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story.",
+        "Vladimir Guerrero Jr. status or form, lineup confirmation and late betting movement need confirmation before the game."
+      ],
+      "story_angles": [
+        "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability.",
+        "Vladimir Guerrero Jr. performance or availability as the player lead."
+      ],
+      "editorial_brain": {
+        "version": "v8-network-editorial-brain-source-balanced",
+        "status": "active",
+        "signal": "betting_market",
+        "story_type_detected": "lineup_rotation",
+        "section": "mlb",
+        "label": "MLB",
+        "reader_label": "Availability",
+        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays"
+      },
+      "priority_score": 578,
+      "source_index": 0,
       "editorial_depth": {
         "news_value": "Availability",
         "data_context": "present",
         "source_domain": "apnews.com",
         "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "New York Knicks at San Antonio Spurs",
+        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
         "source_role": "lineup_rotation_link_health_source",
         "story_type_detected": "lineup_rotation"
       },
-      "title": "New York Knicks at San Antonio Spurs",
+      "key_data_points": [
+        "Run margin: 4",
+        "Records: Blue Jays 29-31; Orioles 28-32",
+        "Key people: Vladimir Guerrero Jr, Adley Rutschman, Gunnar Henderson.",
+        "Record context: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap)."
+      ],
+      "source_domain": "apnews.com",
+      "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
       "url_quality": "hub",
-      "summary": "Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center."
+      "summary": "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "live_newsroom": [
     {
       "section": "nhl",
       "label": "NHL",
-      "headline": "four-champion Hinges on Goalies, Special Teams",
-      "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
+      "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
+      "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
+      "snapshot": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy.",
       "signal": "Digest lead",
-      "updated_at": "2026-05-31 01:51:28 PM ET",
+      "updated_at": "2026-05-31 02:57:56 PM ET",
       "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
-      "url_quality": "exact",
-      "source_domain": "apnews.com",
-      "key_data": [
-        "Key people: Hinges, Goalies, Special Teams The."
-      ],
-      "key_data_points": [
-        "Key people: Hinges, Goalies, Special Teams The."
-      ],
-      "why_it_matters": [
-        "Hinges and Goalies give NHL star power, while goalie confirmation and special teams decide how the game is explained."
-      ],
-      "what_to_watch": [],
-      "story_angles": [
-        "Hinges and Goalies drive the top-line story, while goalie confirmation and power-play looks decide the swing points."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
       "editorial_depth": {
+        "original_source_headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
         "source_domain": "apnews.com",
         "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
-      "summary": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup."
-    },
-    {
-      "section": "mlb",
-      "label": "MLB",
-      "headline": "Minnesota Twins at Pittsburgh Pirates",
-      "snapshot": "Twins-starts starts with pitcher confirmation, lineup shape and bullpen availability. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
-      "signal": "Availability",
-      "updated_at": "2026-05-31 01:51:28 PM ET",
-      "url": "https://www.foxsports.com/mlb/stories",
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
-      "editorial_depth": {
-        "original_source_headline": "Minnesota Twins at Pittsburgh Pirates",
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "key_data": [],
-      "key_data_points": [],
-      "why_it_matters": [
-        "Twins-starts depends on availability, form and standings impact.",
-        "Twins-read depends on availability, form and standings impact."
-      ],
-      "what_to_watch": [],
-      "story_angles": [
-        "Twins-starts starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Twins-read starts with pitcher confirmation, lineup shape and bullpen availability."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "title": "Minnesota Twins at Pittsburgh Pirates",
-      "summary": "Twins-starts starts with pitcher confirmation, lineup shape and bullpen availability. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
-    },
-    {
-      "section": "soccer",
-      "label": "Soccer",
-      "headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-      "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-      "signal": "Availability",
-      "updated_at": "2026-05-31 01:51:28 PM ET",
-      "url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
       "url_quality": "exact",
-      "source_domain": "espn.com",
-      "editorial_depth": {
-        "original_source_headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-        "source_domain": "espn.com",
-        "source_role": "lineup_rotation_exact",
-        "story_type_detected": "lineup_rotation"
-      },
+      "source_domain": "apnews.com",
       "key_data": [
-        "Key people: Gordon, Barca, Hansi Flick's."
+        "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
+        "Conn Smythe Trophy winner with New Jersey.",
+        "Known as one of hockey's defining postseason competitors.",
+        "NHL.com and club statements remembered his career and legacy."
       ],
       "key_data_points": [
-        "Key people: Gordon, Barca, Hansi Flick's."
+        "Four-time Stanley Cup champion: Canadiens, Devils and Avalanche.",
+        "Conn Smythe Trophy winner with New Jersey.",
+        "Known as one of hockey's defining postseason competitors.",
+        "NHL.com and club statements remembered his career and legacy."
       ],
       "why_it_matters": [
-        "Gordon gives Soccer clear player stakes."
+        "Lemieux's death is a major NHL legacy story, not a routine game-preview item.",
+        "His postseason record and role with Montreal, New Jersey and Colorado give the story league-wide significance."
       ],
       "what_to_watch": [
-        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update."
+        "Use AP or official NHL/team updates for any additional details.",
+        "Keep cause-of-death language tied directly to sourced reporting and avoid speculation."
       ],
       "story_angles": [
-        "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction."
+        "Hinges and Goalies drive the top-line story, while goalie confirmation and power-play looks decide the swing points."
       ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-      "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late."
+      "story_type": "obituary",
+      "source_label": "NHL Legacy",
+      "summary": "Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and hockey legacy."
     },
     {
       "section": "nba",
       "label": "NBA",
       "headline": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report.",
+      "title": "New York Knicks at San Antonio Spurs",
+      "snapshot": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report.",
       "signal": "Availability",
-      "updated_at": "2026-05-31 01:51:28 PM ET",
-      "url": "https://www.foxsports.com/nba/stories",
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
+      "updated_at": "2026-05-31 02:57:56 PM ET",
+      "url": "https://www.espn.com/nba/game/_/gameId/401859963",
       "editorial_depth": {
         "original_source_headline": "New York Knicks at San Antonio Spurs",
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
+        "source_domain": "espn.com",
+        "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
+      "url_quality": "exact",
+      "source_domain": "espn.com",
       "key_data": [
         "Key people: Jalen Brunson."
       ],
@@ -3018,14 +3155,42 @@
       ],
       "story_type": "lineup_rotation",
       "source_label": "Availability",
-      "title": "New York Knicks at San Antonio Spurs",
-      "summary": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report."
+      "summary": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report."
+    },
+    {
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+      "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "signal": "Availability",
+      "updated_at": "2026-05-31 02:57:56 PM ET",
+      "url": "https://www.foxsports.com/mlb/stories",
+      "editorial_depth": {
+        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+        "source_domain": "foxsports.com",
+        "source_role": "lineup_rotation_link_health_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "url_quality": "hub",
+      "source_domain": "foxsports.com",
+      "key_data": [],
+      "key_data_points": [],
+      "why_it_matters": [
+        "MLB depends on availability, form and standings impact."
+      ],
+      "what_to_watch": [],
+      "story_angles": [
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+      ],
+      "story_type": "lineup_rotation",
+      "source_label": "Availability",
+      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "editor_signals": [
-    "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60: Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form. .",
-    "Minnesota Twins at Pittsburgh Pirates: Late availability, momentum, market movement or a lineup decision can change the update. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability....",
-    "Gordon 'more excited' about Barca move after talking to Hansi Flick: title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-    "New York Knicks at San Antonio Spurs: Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM."
+    "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60: Claude Lemieux, a four-time Stanley Cup champion with Montreal, New Jersey and Colorado, has died at 60. AP reported his death as a suicide, while NHL and team statements focused on his death and.",
+    "New York Knicks at San Antonio Spurs: Knicks-lead starts with Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank.",
+    "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays: Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen."
   ]
 }
