@@ -858,6 +858,11 @@ export default function Page() {
             <LinkList items={SCOREBOARD_SITES} />
           </Block>
 
+          <AdvertiseWithGsrBlock />
+
+
+
+
           <Block title="Coverage Lens">
             <LineList
               items={[
@@ -876,9 +881,7 @@ export default function Page() {
             <StoryCard key={story.id || index} story={story} index={index} />
           ))}
         </section>
-        <AdvertiseWithGsrBlock />
-
-      </section>
+</section>
 
       <footer className="border-t border-neutral-300 bg-white">
         <div className="mx-auto max-w-7xl px-5 py-6">
@@ -894,3 +897,5 @@ export default function Page() {
     </main>
   );
 }
+
+
