@@ -5,14 +5,14 @@
   "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
   "key_storylines": [
     "NHL: Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-    "Soccer: Slot leaves Liverpool after tough season, but with legacy safe",
     "NBA: San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-    "MLB: Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch"
+    "MLB: Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch",
+    "Soccer: Arsenal parade: Where is it and what time does it start?"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
-  "generated_at": "2026-05-31 07:23:26 AM ET",
-  "updated_at": "2026-05-31 07:23:26 AM ET",
-  "published_at": "2026-05-31 07:23:26 AM ET",
+  "generated_at": "2026-05-31 09:04:43 AM ET",
+  "updated_at": "2026-05-31 09:04:43 AM ET",
+  "published_at": "2026-05-31 09:04:43 AM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -22,7 +22,7 @@
     "mlb": {
       "title": "Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-05-31 07:22:57 AM ET",
+      "updated_at": "2026-05-31 09:04:10 AM ET",
       "content": "MLB REPORT | 2026-05-31 HEADLINE Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch SNAPSHOT MLB board for 2026-05-31 ET: 0 finals, 0 live games and 15 scheduled games. KEY STORYLINES Pitching plans frame Toronto Blue Jays-Baltimore. .",
       "key": "mlb",
       "label": "MLB",
@@ -85,7 +85,7 @@
     "nba": {
       "title": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-05-31 07:22:58 AM ET",
+      "updated_at": "2026-05-31 09:04:11 AM ET",
       "content": "NBA REPORT | 2026-05-31 HEADLINE San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder SNAPSHOT 1 NBA games are on the slate: 0 live, 1 final and 0 upcoming. the coverage is prioritizing story stakes over score lines, with....",
       "key": "nba",
       "label": "NBA",
@@ -143,7 +143,7 @@
           "label": "NBA Postgame Read",
           "headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
           "title": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-          "url": "https://www.espn.com/nba/game/_/gameId/401873203",
+          "url": "https://apnews.com/hub/nba",
           "source_url": "https://www.espn.com/nba/game/_/gameId/401873203",
           "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Records: Spurs 62-20; Thunder 64-18; Status: final. Availability, star usage and closing-group decisions shape the next update.",
           "snapshot": "Final: Spurs 111, Thunder 103. Records: Spurs 62-20; Thunder 64-18",
@@ -183,11 +183,11 @@
             "Records: Spurs 62-20; Thunder 64-18"
           ],
           "url_quality": "exact",
-          "source_domain": "espn.com",
+          "source_domain": "apnews.com",
           "editorial_depth": {
             "original_source_headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
+            "source_domain": "apnews.com",
+            "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
           "source_label": "Availability"
@@ -199,7 +199,7 @@
           "label": "NBA Postgame Read",
           "headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
           "title": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-          "url": "https://www.reuters.com/sports/basketball/",
+          "url": "https://www.foxsports.com/nba/stories",
           "source_url": "https://www.espn.com/nba/game/_/gameId/401873203",
           "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Records: Spurs 62-20; Thunder 64-18; Status: final. Availability, star usage and closing-group decisions shape the next update.",
           "snapshot": "Final: Spurs 111, Thunder 103. Records: Spurs 62-20; Thunder 64-18",
@@ -239,10 +239,10 @@
             "Records: Spurs 62-20; Thunder 64-18"
           ],
           "url_quality": "exact",
-          "source_domain": "reuters.com",
+          "source_domain": "foxsports.com",
           "editorial_depth": {
             "original_source_headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-            "source_domain": "reuters.com",
+            "source_domain": "foxsports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -253,7 +253,7 @@
     "nhl": {
       "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-05-31 07:22:58 AM ET",
+      "updated_at": "2026-05-31 09:04:11 AM ET",
       "content": "NHL REPORT | 2026-05-31 HEADLINE Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60 SNAPSHOT 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing hockey stakes over score lines, with attention on major death,. .",
       "key": "nhl",
       "label": "NHL",
@@ -339,7 +339,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-05-31",
-          "updated_at": "2026-05-31 07:22:58 AM ET",
+          "updated_at": "2026-05-31 09:04:11 AM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "foxsports.com",
@@ -391,7 +391,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-05-31",
-          "updated_at": "2026-05-31 07:22:58 AM ET",
+          "updated_at": "2026-05-31 09:04:11 AM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "apnews.com",
@@ -408,7 +408,7 @@
     "nfl": {
       "title": "NFL offseason board turns toward quarterbacks, rookie roles and roster pressure",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-05-31 07:23:01 AM ET",
+      "updated_at": "2026-05-31 09:04:12 AM ET",
       "content": "NFL REPORT | 2026-05-31 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
@@ -464,7 +464,7 @@
     "ncaafb": {
       "title": "Tarleton State Texans at Bowling Green Falcons",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-05-31 07:23:02 AM ET",
+      "updated_at": "2026-05-31 09:04:14 AM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
@@ -504,12 +504,12 @@
     "soccer": {
       "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-05-31 07:23:00 AM ET",
-      "content": "SOCCER REPORT | 2026-05-31 HEADLINE Transfer rumors, news: Bayern eye move for Juve's Vlahovic SNAPSHOT Soccer board refreshed with 17 news items, 0 live matches, 5 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over. .",
+      "updated_at": "2026-05-31 09:04:12 AM ET",
+      "content": "SOCCER REPORT | 2026-05-31 HEADLINE Transfer rumors, news: Bayern eye move for Juve's Vlahovic SNAPSHOT Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over. .",
       "key": "soccer",
       "label": "Soccer",
       "headline": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
-      "snapshot": "Soccer board refreshed with 17 news items, 0 live matches, 5 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over match-result listings, with attention on Club form, manager comments and table consequence set the next.",
+      "snapshot": "Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over match-result listings, with attention on Club form, manager comments and table consequence set the next.",
       "key_data": [
         "Soccer: availability or roster movement is attached to the story.",
         "Soccer: leadership or front-office context is in play.",
@@ -539,7 +539,7 @@
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
         "signal": "betting_market",
-        "story_type_detected": "coaching_pressure",
+        "story_type_detected": "live_or_result",
         "section": "soccer",
         "label": "Soccer",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
@@ -565,8 +565,8 @@
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Key people: Transfer, Bayern. Late lineup.",
-          "snapshot": "Key people: Transfer, Bayern. Late lineup.",
+          "summary": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -608,56 +608,13 @@
         },
         {
           "league": "Soccer",
-          "label": "Premier League News Read",
-          "headline": "Slot leaves Liverpool after tough season, but with legacy safe",
-          "title": "Slot leaves Liverpool after tough season, but with legacy safe",
-          "url": "https://sports.yahoo.com/soccer/news/",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48919598/liverpool-arne-slot-dismissed-manager-jurgen-klopp-andoni-iraola-analysis-beth-lindop",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "key_data": [
-            "Competition/source: Premier League",
-            "manager or coaching pressure"
-          ],
-          "why_it_matters": [
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture.",
-            "World Cup 2026 is now part of the long-range editorial runway, especially when player form, national teams, fitness or federation decisions enter the news cycle."
-          ],
-          "what_to_watch": [
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications.",
-            "how World Cup 2026 begins to shape player usage, injury caution, roster decisions and global attention."
-          ],
-          "story_angles": [
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection",
-            "Title, table or European pressure"
-          ],
-          "editorial_signals": [
-            "manager_or_coaching_pressure",
-            "title_table_or_european_pressure",
-            "star_player_signal",
-            "major_club_signal"
-          ],
-          "story_type": "obituary",
-          "priority_score": 207,
-          "url_quality": "exact",
-          "source_domain": "yahoo.com",
-          "key_data_points": [
-            "Competition/source: Premier League",
-            "manager or coaching pressure"
-          ],
-          "source_label": "Digest lead"
-        },
-        {
-          "league": "Soccer",
           "label": "La Liga News Read",
           "headline": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
           "title": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
           "url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
-          "summary": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
-          "snapshot": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -707,8 +664,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -754,62 +711,12 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
-          "headline": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
-          "title": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
-          "url": "https://www.espn.com/soccer/story/_/id/48919660/steven-gerrard-andoni-iraola-style-suit-liverpool",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48919660/steven-gerrard-andoni-iraola-style-suit-liverpool",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Steven Gerrard has said Andoni Iraola's management style would be an ideal fit for Liverpool but that other managers will also be in contention after the club sacked Arne Slot.",
-          "key_data": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Steven Gerrard, Andoni Iraola, Liverpool' Steven Gerrard."
-          ],
-          "why_it_matters": [
-            "Steven Gerrard gives Soccer clear player stakes.",
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
-          ],
-          "what_to_watch": [
-            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-          ],
-          "story_angles": [
-            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection"
-          ],
-          "editorial_signals": [
-            "transfer_or_contract_market",
-            "manager_or_coaching_pressure",
-            "major_club_signal"
-          ],
-          "story_type": "trade_story",
-          "priority_score": 183,
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "editorial_depth": {
-            "original_source_headline": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
-            "source_domain": "espn.com",
-            "source_role": "trade_story_exact",
-            "story_type_detected": "trade_story"
-          },
-          "key_data_points": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Steven Gerrard, Andoni Iraola, Liverpool' Steven Gerrard."
-          ],
-          "source_label": "Availability"
-        },
-        {
-          "league": "Soccer",
-          "label": "Premier League News Read",
           "headline": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -854,19 +761,19 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
-          "headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
-          "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
-          "url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "headline": "Arsenal parade: Where is it and what time does it start?",
+          "title": "Arsenal parade: Where is it and what time does it start?",
+          "url": "https://www.espn.com/soccer/story/_/id/48871136/arsenal-parade-what",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48871136/arsenal-parade-what",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
-            "Key people: UEFA Champions League, Arsenal."
+            "Key people: Arsenal, Where, Everything."
           ],
           "why_it_matters": [
-            "UEFA Champions League gives Soccer clear player stakes.",
+            "Arsenal gives Soccer clear player stakes.",
             "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
           ],
           "what_to_watch": [
@@ -881,7 +788,7 @@
           ],
           "editorial_signals": [
             "title_table_or_european_pressure",
-            "star_player_signal",
+            "availability_or_suspension_watch",
             "major_club_signal"
           ],
           "story_type": "lineup_rotation",
@@ -889,15 +796,15 @@
           "url_quality": "exact",
           "source_domain": "espn.com",
           "editorial_depth": {
-            "original_source_headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+            "original_source_headline": "Arsenal parade: Where is it and what time does it start?",
             "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
+            "source_role": "lineup_rotation_exact",
             "story_type_detected": "lineup_rotation"
           },
           "key_data_points": [
             "Competition/source: Premier League",
             "title table or european pressure",
-            "Key people: UEFA Champions League, Arsenal."
+            "Key people: Arsenal, Where, Everything."
           ],
           "source_label": "Availability"
         },
@@ -908,8 +815,8 @@
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -953,13 +860,63 @@
         },
         {
           "league": "Soccer",
+          "label": "Ligue 1 News Read",
+          "headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+          "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+          "url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
+          "summary": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: Ligue 1",
+            "title table or european pressure",
+            "Key people: UEFA Champions League, Arsenal."
+          ],
+          "why_it_matters": [
+            "UEFA Champions League gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "title_table_or_european_pressure",
+            "star_player_signal",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 169,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "key_data_points": [
+            "Competition/source: Ligue 1",
+            "title table or european pressure",
+            "Key people: UEFA Champions League, Arsenal."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Soccer",
           "label": "La Liga News Read",
           "headline": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Real Madrid will look to reinforce their midfield this summer by signing Paris Saint-Germain midfielder João Neves. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1008,8 +965,8 @@
           "title": "Brentford bid £40 million for Said El Mala - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -1057,8 +1014,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1.",
+          "summary": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -1106,8 +1063,8 @@
           "title": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
           "url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
           "source_url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Atlético Madrid's Julián Álvarez still has his heart set on joining Barcelona. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1155,8 +1112,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Gabriele Marcotti discusses the ongoing speculation linking Julián Alvarez with Barcelona but suggests that Atletico Madrid remain in a stronger position.",
+          "summary": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1204,8 +1161,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Liverpool's Curtis Jones could be another player leaving Anfield this summer, with Inter Milan trying to sign him. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -1245,6 +1202,54 @@
             "Key people: Transfer, Liverpool's Jones, Inter Milan."
           ],
           "source_label": "Availability"
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League News Read",
+          "headline": "Soccer Clubs Chase Table Points",
+          "title": "Soccer Clubs Chase Table Points",
+          "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
+          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: Premier League",
+            "title table or european pressure",
+            "Key people: Premier League, Europe, Europe. The."
+          ],
+          "why_it_matters": [
+            "Premier League gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "title_table_or_european_pressure",
+            "star_player_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 141,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "key_data_points": [
+            "Competition/source: Premier League",
+            "title table or european pressure",
+            "Key people: Premier League, Europe, Europe. The."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "lineup_rotation_exact",
+            "story_type_detected": "lineup_rotation"
+          }
         },
         {
           "league": "Soccer",
@@ -1461,60 +1466,6 @@
             "story_type_detected": "coaching_pressure"
           },
           "source_label": "Leadership pressure"
-        },
-        {
-          "league": "Soccer",
-          "label": "Premier League Post-Match Read",
-          "headline": "Sunderland make one-goal execution the post-match story against Chelsea",
-          "title": "Sunderland make one-goal execution the post-match story against Chelsea",
-          "url": "https://www.espn.com/soccer/match/_/gameId/740973",
-          "source_url": "https://www.espn.com/soccer/match/_/gameId/740973",
-          "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "key_data": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "why_it_matters": [
-            "The clearest global football stories start with table pressure, tactical changes, star-player form, transfer context, manager pressure and the World Cup 2026 runway."
-          ],
-          "what_to_watch": [
-            "Quarterback status, injury designations, depth-chart changes and coach availability notes set the next update.",
-            "goals, cards, substitutions, injuries, manager reaction, table movement and player-form signals.",
-            "Next check: World Cup 2026 implications as national-team selection, fitness and tournament readiness become more central."
-          ],
-          "story_angles": [
-            "NFL hinges on quarterback clarity, injury status and the next depth-chart decision.",
-            "Table, title or relegation pressure",
-            "Tactical shape and substitution decisions",
-            "Transfer and squad-building context"
-          ],
-          "editorial_signals": [
-            "major_club_signal",
-            "tight_result"
-          ],
-          "story_type": "coaching_pressure",
-          "game_status": "final",
-          "priority_score": 140,
-          "key_data_points": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "editorial_depth": {
-            "original_source_headline": "Sunderland make one-goal execution the post-match story against Chelsea",
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
-            "story_type_detected": "coaching_pressure"
-          },
-          "source_label": "Leadership pressure"
         }
       ],
       "stories": [
@@ -1523,10 +1474,10 @@
           "label": "Bundesliga News Read",
           "headline": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
-          "url": "https://www.fifa.com/en",
+          "url": "https://sports.yahoo.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Key people: Transfer, Bayern. Late lineup.",
-          "snapshot": "Key people: Transfer, Bayern. Late lineup.",
+          "summary": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -1553,10 +1504,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 225,
           "url_quality": "exact",
-          "source_domain": "fifa.com",
+          "source_domain": "yahoo.com",
           "editorial_depth": {
             "original_source_headline": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
-            "source_domain": "fifa.com",
+            "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1568,56 +1519,13 @@
         },
         {
           "league": "Soccer",
-          "label": "Premier League News Read",
-          "headline": "Slot leaves Liverpool after tough season, but with legacy safe",
-          "title": "Slot leaves Liverpool after tough season, but with legacy safe",
-          "url": "https://www.cbssports.com/soccer/news/",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48919598/liverpool-arne-slot-dismissed-manager-jurgen-klopp-andoni-iraola-analysis-beth-lindop",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "key_data": [
-            "Competition/source: Premier League",
-            "manager or coaching pressure"
-          ],
-          "why_it_matters": [
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture.",
-            "World Cup 2026 is now part of the long-range editorial runway, especially when player form, national teams, fitness or federation decisions enter the news cycle."
-          ],
-          "what_to_watch": [
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications.",
-            "how World Cup 2026 begins to shape player usage, injury caution, roster decisions and global attention."
-          ],
-          "story_angles": [
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection",
-            "Title, table or European pressure"
-          ],
-          "editorial_signals": [
-            "manager_or_coaching_pressure",
-            "title_table_or_european_pressure",
-            "star_player_signal",
-            "major_club_signal"
-          ],
-          "story_type": "obituary",
-          "priority_score": 207,
-          "url_quality": "exact",
-          "source_domain": "cbssports.com",
-          "key_data_points": [
-            "Competition/source: Premier League",
-            "manager or coaching pressure"
-          ],
-          "source_label": "Digest lead"
-        },
-        {
-          "league": "Soccer",
           "label": "La Liga News Read",
           "headline": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
           "title": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
-          "url": "https://apnews.com/hub/soccer",
+          "url": "https://www.cbssports.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
-          "summary": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
-          "snapshot": "The gap between the end of the Champions League final and the start of the World Cup can feel like a gaping void. But the beautiful game never sleeps. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -1646,10 +1554,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 191,
           "url_quality": "exact",
-          "source_domain": "apnews.com",
+          "source_domain": "cbssports.com",
           "editorial_depth": {
             "original_source_headline": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
-            "source_domain": "apnews.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1667,8 +1575,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.foxsports.com/soccer/stories",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1714,62 +1622,12 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
-          "headline": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
-          "title": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
-          "url": "https://www.reuters.com/sports/soccer/",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48919660/steven-gerrard-andoni-iraola-style-suit-liverpool",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Steven Gerrard has said Andoni Iraola's management style would be an ideal fit for Liverpool but that other managers will also be in contention after the club sacked Arne Slot.",
-          "key_data": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Steven Gerrard, Andoni Iraola, Liverpool' Steven Gerrard."
-          ],
-          "why_it_matters": [
-            "Steven Gerrard gives Soccer clear player stakes.",
-            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
-          ],
-          "what_to_watch": [
-            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
-          ],
-          "story_angles": [
-            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-            "Transfer and contract market",
-            "Manager pressure or tactical direction",
-            "Availability and squad selection"
-          ],
-          "editorial_signals": [
-            "transfer_or_contract_market",
-            "manager_or_coaching_pressure",
-            "major_club_signal"
-          ],
-          "story_type": "trade_story",
-          "priority_score": 183,
-          "url_quality": "exact",
-          "source_domain": "reuters.com",
-          "editorial_depth": {
-            "original_source_headline": "Steven Gerrard on Andoni Iraola: 'His style would suit Liverpool'",
-            "source_domain": "reuters.com",
-            "source_role": "trade_story_link_health_source",
-            "story_type_detected": "trade_story"
-          },
-          "key_data_points": [
-            "Competition/source: Premier League",
-            "transfer or contract market",
-            "Key people: Steven Gerrard, Andoni Iraola, Liverpool' Steven Gerrard."
-          ],
-          "source_label": "Availability"
-        },
-        {
-          "league": "Soccer",
-          "label": "Premier League News Read",
           "headline": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
-          "url": "https://www.cbssports.com/soccer/scores/",
+          "url": "https://www.reuters.com/sports/soccer/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -1797,10 +1655,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 177,
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "reuters.com",
           "editorial_depth": {
             "original_source_headline": "Liverpool fired Slot after winning the title. It happens more often than you think",
-            "source_domain": "cbssports.com",
+            "source_domain": "reuters.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1814,19 +1672,19 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
-          "headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
-          "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
-          "url": "https://www.cbssports.com/soccer/standings/",
-          "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "headline": "Arsenal parade: Where is it and what time does it start?",
+          "title": "Arsenal parade: Where is it and what time does it start?",
+          "url": "https://www.cbssports.com/soccer/scores/",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48871136/arsenal-parade-what",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
-            "Key people: UEFA Champions League, Arsenal."
+            "Key people: Arsenal, Where, Everything."
           ],
           "why_it_matters": [
-            "UEFA Champions League gives Soccer clear player stakes.",
+            "Arsenal gives Soccer clear player stakes.",
             "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
           ],
           "what_to_watch": [
@@ -1841,7 +1699,7 @@
           ],
           "editorial_signals": [
             "title_table_or_european_pressure",
-            "star_player_signal",
+            "availability_or_suspension_watch",
             "major_club_signal"
           ],
           "story_type": "lineup_rotation",
@@ -1849,7 +1707,7 @@
           "url_quality": "exact",
           "source_domain": "cbssports.com",
           "editorial_depth": {
-            "original_source_headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+            "original_source_headline": "Arsenal parade: Where is it and what time does it start?",
             "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
@@ -1857,7 +1715,7 @@
           "key_data_points": [
             "Competition/source: Premier League",
             "title table or european pressure",
-            "Key people: UEFA Champions League, Arsenal."
+            "Key people: Arsenal, Where, Everything."
           ],
           "source_label": "Availability"
         },
@@ -1866,10 +1724,10 @@
           "label": "La Liga News Read",
           "headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-          "url": "https://www.foxsports.com/soccer/scores",
+          "url": "https://www.cbssports.com/soccer/standings/",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -1897,10 +1755,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 169,
           "url_quality": "exact",
-          "source_domain": "foxsports.com",
+          "source_domain": "cbssports.com",
           "editorial_depth": {
             "original_source_headline": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
-            "source_domain": "foxsports.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1913,13 +1771,63 @@
         },
         {
           "league": "Soccer",
+          "label": "Ligue 1 News Read",
+          "headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+          "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+          "url": "https://www.foxsports.com/soccer/scores",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
+          "summary": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: Ligue 1",
+            "title table or european pressure",
+            "Key people: UEFA Champions League, Arsenal."
+          ],
+          "why_it_matters": [
+            "UEFA Champions League gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "title_table_or_european_pressure",
+            "star_player_signal",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 169,
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "editorial_depth": {
+            "original_source_headline": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "key_data_points": [
+            "Competition/source: Ligue 1",
+            "title table or european pressure",
+            "Key people: UEFA Champions League, Arsenal."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Soccer",
           "label": "La Liga News Read",
           "headline": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "url": "https://www.foxsports.com/soccer/standings",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Real Madrid will look to reinforce their midfield this summer by signing Paris Saint-Germain midfielder João Neves. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Real Madrid to sign PSG's Neves?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1968,8 +1876,8 @@
           "title": "Brentford bid £40 million for Said El Mala - sources",
           "url": "https://sports.yahoo.com/soccer/scoreboard/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -2017,8 +1925,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://sports.yahoo.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1.",
+          "summary": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "When does the 2026 summer transfer window open and close?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -2066,8 +1974,8 @@
           "title": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
           "source_url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Atlético Madrid's Julián Álvarez still has his heart set on joining Barcelona. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Álvarez still pushing for Barcelona move. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -2115,8 +2023,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Gabriele Marcotti discusses the ongoing speculation linking Julián Alvarez with Barcelona but suggests that Atletico Madrid remain in a stronger position.",
+          "summary": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2164,8 +2072,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Liverpool's Curtis Jones could be another player leaving Anfield this summer, with Inter Milan trying to sign him. Transfer Talk has the latest.",
+          "summary": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Transfer rumors, news: Liverpool's Jones an Inter Milan target. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -2205,6 +2113,54 @@
             "Key people: Transfer, Liverpool's Jones, Inter Milan."
           ],
           "source_label": "Availability"
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League News Read",
+          "headline": "Soccer Clubs Chase Table Points",
+          "title": "Soccer Clubs Chase Table Points",
+          "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
+          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "key_data": [
+            "Competition/source: Premier League",
+            "title table or european pressure",
+            "Key people: Premier League, Europe, Europe. The."
+          ],
+          "why_it_matters": [
+            "Premier League gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "title_table_or_european_pressure",
+            "star_player_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 141,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "key_data_points": [
+            "Competition/source: Premier League",
+            "title table or european pressure",
+            "Key people: Premier League, Europe, Europe. The."
+          ],
+          "source_label": "Availability",
+          "editorial_depth": {
+            "source_domain": "espn.com",
+            "source_role": "lineup_rotation_exact",
+            "story_type_detected": "lineup_rotation"
+          }
         },
         {
           "league": "Soccer",
@@ -2421,68 +2377,14 @@
             "story_type_detected": "coaching_pressure"
           },
           "source_label": "Leadership pressure"
-        },
-        {
-          "league": "Soccer",
-          "label": "Premier League Post-Match Read",
-          "headline": "Sunderland make one-goal execution the post-match story against Chelsea",
-          "title": "Sunderland make one-goal execution the post-match story against Chelsea",
-          "url": "https://www.cbssports.com/nfl/scores/",
-          "source_url": "https://www.espn.com/soccer/match/_/gameId/740973",
-          "summary": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "snapshot": "NFL quarterback decisions are raising camp pressure as teams sort protection, depth charts and early reps. Offseason depth-chart movement and coach availability notes set the context. Quarterback status and offensive-line stability shape the next update.",
-          "key_data": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "why_it_matters": [
-            "The clearest global football stories start with table pressure, tactical changes, star-player form, transfer context, manager pressure and the World Cup 2026 runway."
-          ],
-          "what_to_watch": [
-            "Quarterback status, injury designations, depth-chart changes and coach availability notes set the next update.",
-            "goals, cards, substitutions, injuries, manager reaction, table movement and player-form signals.",
-            "Next check: World Cup 2026 implications as national-team selection, fitness and tournament readiness become more central."
-          ],
-          "story_angles": [
-            "NFL hinges on quarterback clarity, injury status and the next depth-chart decision.",
-            "Table, title or relegation pressure",
-            "Tactical shape and substitution decisions",
-            "Transfer and squad-building context"
-          ],
-          "editorial_signals": [
-            "major_club_signal",
-            "tight_result"
-          ],
-          "story_type": "coaching_pressure",
-          "game_status": "final",
-          "priority_score": 140,
-          "key_data_points": [
-            "Final: Chelsea 1, Sunderland 2",
-            "Margin: Sunderland by 1",
-            "Score: Chelsea 1, Sunderland 2",
-            "Competition: Premier League",
-            "Status: Final"
-          ],
-          "url_quality": "exact",
-          "source_domain": "cbssports.com",
-          "editorial_depth": {
-            "original_source_headline": "Sunderland make one-goal execution the post-match story against Chelsea",
-            "source_domain": "cbssports.com",
-            "source_role": "coaching_pressure_link_health_source",
-            "story_type_detected": "coaching_pressure"
-          },
-          "source_label": "Leadership pressure"
         }
       ]
     },
     "betting_odds": {
       "title": "starting-expectation Market Hinges on Injury News",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-05-31 07:23:01 AM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-31 07:23:01 AM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-31 07:23:01 AM ET",
+      "updated_at": "2026-05-31 09:04:12 AM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-31 09:04:12 AM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-31 09:04:12 AM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
       "headline": "starting-expectation Market Hinges on Injury News",
@@ -2606,7 +2508,7 @@
     "fantasy": {
       "title": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-05-31 07:23:02 AM ET",
+      "updated_at": "2026-05-31 09:04:13 AM ET",
       "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current...",
       "key": "fantasy",
       "label": "Fantasy",
@@ -3396,7 +3298,7 @@
           "label": "Fantasy watch",
           "headline": "NBA fantasy review turns to role changes after San Antonio Spurs at Oklahoma City Thunder",
           "title": "NBA fantasy review turns to role changes after San Antonio Spurs at Oklahoma City Thunder",
-          "url": "https://www.cbssports.com/nba/scores/",
+          "url": "https://www.reuters.com/sports/basketball/",
           "source_url": "https://www.espn.com/nba/game/_/gameId/401873203",
           "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Records: Spurs 62-20; Thunder 64-18; Status: final. Availability, star usage and closing-group decisions shape the next update.",
           "key_data": [
@@ -3434,10 +3336,10 @@
             "Records: Spurs 62-20; Thunder 64-18"
           ],
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "reuters.com",
           "editorial_depth": {
             "original_source_headline": "NBA fantasy review turns to role changes after San Antonio Spurs at Oklahoma City Thunder",
-            "source_domain": "cbssports.com",
+            "source_domain": "reuters.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -4295,7 +4197,7 @@
           "label": "Fantasy watch",
           "headline": "NBA fantasy review turns to role changes after San Antonio Spurs at Oklahoma City Thunder",
           "title": "NBA fantasy review turns to role changes after San Antonio Spurs at Oklahoma City Thunder",
-          "url": "https://www.cbssports.com/nba/standings/",
+          "url": "https://www.cbssports.com/nba/scores/",
           "source_url": "https://www.espn.com/nba/game/_/gameId/401873203",
           "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Records: Spurs 62-20; Thunder 64-18; Status: final. Availability, star usage and closing-group decisions shape the next update.",
           "key_data": [
@@ -4524,67 +4426,11 @@
       "url_quality": "exact"
     },
     {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Slot leaves Liverpool after tough season, but with legacy safe",
-      "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-      "url": "https://www.espn.com/soccer/story/_/id/48919598/liverpool-arne-slot-dismissed-manager-jurgen-klopp-andoni-iraola-analysis-beth-lindop",
-      "source_label": "Digest lead",
-      "story_type": "obituary",
-      "key_data": [
-        "Competition/source: Premier League",
-        "manager or coaching pressure"
-      ],
-      "why_it_matters": [
-        "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture.",
-        "World Cup 2026 is now part of the long-range editorial runway, especially when player form, national teams, fitness or federation decisions enter the news cycle."
-      ],
-      "what_to_watch": [
-        "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications.",
-        "how World Cup 2026 begins to shape player usage, injury caution, roster decisions and global attention."
-      ],
-      "story_angles": [
-        "Transfer and contract market",
-        "Manager pressure or tactical direction",
-        "Availability and squad selection",
-        "Title, table or European pressure"
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "leadership_news",
-        "story_type_detected": "obituary",
-        "section": "soccer",
-        "label": "Soccer",
-        "reader_label": "Digest lead",
-        "original_source_headline": "Slot leaves Liverpool after tough season, but with legacy safe"
-      },
-      "priority_score": 749,
-      "source_index": 1,
-      "editorial_depth": {
-        "news_value": "Digest lead",
-        "data_context": "present",
-        "source_domain": "espn.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "source_role": "obituary_exact",
-        "story_type_detected": "obituary",
-        "original_source_headline": "Slot leaves Liverpool after tough season, but with legacy safe"
-      },
-      "key_data_points": [
-        "Competition/source: Premier League",
-        "manager or coaching pressure"
-      ],
-      "source_domain": "espn.com",
-      "title": "Slot leaves Liverpool after tough season, but with legacy safe",
-      "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-      "url_quality": "exact"
-    },
-    {
       "league": "NBA",
       "key": "nba",
       "headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
       "snapshot": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Records: Spurs 62-20; Thunder 64-18. Availability, star usage and closing-group decisions shape the next update.",
-      "url": "https://apnews.com/hub/nba",
+      "url": "https://www.espn.com/nba/game/_/gameId/401873203",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
       "key_data": [
@@ -4623,10 +4469,10 @@
       "editorial_depth": {
         "news_value": "Availability",
         "data_context": "present",
-        "source_domain": "apnews.com",
+        "source_domain": "espn.com",
         "standard": "Select, balance and frame stories by consequence, not by feed order.",
         "original_source_headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-        "source_role": "lineup_rotation_link_health_source",
+        "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
       "key_data_points": [
@@ -4634,16 +4480,16 @@
         "Result side: San Antonio Spurs",
         "Records: Spurs 62-20; Thunder 64-18"
       ],
-      "source_domain": "apnews.com",
+      "source_domain": "espn.com",
       "title": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-      "url_quality": "hub",
+      "url_quality": "exact",
       "summary": "Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Records: Spurs 62-20; Thunder 64-18. Availability, star usage and closing-group decisions shape the next update."
     },
     {
       "league": "MLB",
       "key": "mlb",
       "headline": "Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch",
-      "snapshot": "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "snapshot": "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
       "url": "https://apnews.com/hub/mlb-baseball",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
@@ -4700,7 +4546,65 @@
       },
       "title": "Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch",
       "url_quality": "hub",
-      "summary": "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+      "summary": "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+    },
+    {
+      "league": "Soccer",
+      "key": "soccer",
+      "headline": "Arsenal parade: Where is it and what time does it start?",
+      "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+      "url": "https://www.fifa.com/en",
+      "source_label": "Availability",
+      "story_type": "lineup_rotation",
+      "key_data": [
+        "Competition/source: Premier League",
+        "title table or european pressure",
+        "Key people: Arsenal, Where, Everything."
+      ],
+      "why_it_matters": [
+        "Arsenal gives Soccer clear player stakes.",
+        "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+      ],
+      "what_to_watch": [
+        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+        "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+      ],
+      "story_angles": [
+        "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+        "Transfer and contract market",
+        "Manager pressure or tactical direction",
+        "Availability and squad selection"
+      ],
+      "editorial_brain": {
+        "version": "v8-network-editorial-brain-source-balanced",
+        "status": "active",
+        "signal": "availability_or_roster",
+        "story_type_detected": "news",
+        "section": "soccer",
+        "label": "Soccer",
+        "reader_label": "Digest lead",
+        "original_source_headline": "Arsenal parade: Where is it and what time does it start?"
+      },
+      "priority_score": 615,
+      "source_index": 4,
+      "editorial_depth": {
+        "news_value": "Digest lead",
+        "data_context": "present",
+        "source_domain": "fifa.com",
+        "standard": "Select, balance and frame stories by consequence, not by feed order.",
+        "original_source_headline": "Arsenal parade: Where is it and what time does it start?",
+        "source_role": "lineup_rotation_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "key_data_points": [
+        "Competition/source: Premier League",
+        "title table or european pressure",
+        "Key people: Arsenal, Where, Everything."
+      ],
+      "source_domain": "fifa.com",
+      "title": "Arsenal parade: Where is it and what time does it start?",
+      "url_quality": "other",
+      "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update."
     }
   ],
   "live_newsroom": [
@@ -4710,7 +4614,7 @@
       "headline": "four-champion Hinges on Goalies, Special Teams",
       "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
       "signal": "Digest lead",
-      "updated_at": "2026-05-31 07:23:33 AM ET",
+      "updated_at": "2026-05-31 09:04:52 AM ET",
       "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
       "url_quality": "exact",
       "source_domain": "apnews.com",
@@ -4737,39 +4641,19 @@
       "summary": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup."
     },
     {
-      "section": "soccer",
-      "label": "Soccer",
-      "headline": "Slot leaves Liverpool after tough season, but with legacy safe",
-      "snapshot": "Arne Slot's tenure at Liverpool felt untenable until, on Saturday, he was finally dismissed as manager. While it didn't end well, he should be remembered warmly for his work succeeding a club legend in Jurgen Klopp. The managerial angle matters because. Late....",
-      "signal": "Digest lead",
-      "updated_at": "2026-05-31 07:23:33 AM ET",
-      "url": "https://www.espn.com/soccer/story/_/id/48919598/liverpool-arne-slot-dismissed-manager-jurgen-klopp-andoni-iraola-analysis-beth-lindop",
-      "url_quality": "exact",
-      "source_domain": "espn.com",
-      "title": "Slot leaves Liverpool after tough season, but with legacy safe",
-      "summary": "Arne Slot's tenure at Liverpool felt untenable until, on Saturday, he was finally dismissed as manager. While it didn't end well, he should be remembered warmly for his work succeeding a club legend in Jurgen Klopp. The managerial angle matters because. Late....",
-      "key_data": [],
-      "why_it_matters": [],
-      "what_to_watch": [],
-      "story_angles": [],
-      "key_data_points": [],
-      "story_type": "obituary",
-      "source_label": "Digest lead"
-    },
-    {
       "section": "nba",
       "label": "NBA",
       "headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
       "snapshot": "Records: Spurs 62-20; Thunder 64-18. Margin: 8 points",
       "signal": "Availability",
-      "updated_at": "2026-05-31 07:23:33 AM ET",
-      "url": "https://www.foxsports.com/nba/stories",
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
+      "updated_at": "2026-05-31 09:04:52 AM ET",
+      "url": "https://www.espn.com/nba/game/_/gameId/401873203",
+      "url_quality": "exact",
+      "source_domain": "espn.com",
       "editorial_depth": {
         "original_source_headline": "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder",
-        "source_domain": "foxsports.com",
-        "source_role": "matchup_preview_link_health_source",
+        "source_domain": "espn.com",
+        "source_role": "matchup_preview_exact",
         "story_type_detected": "matchup_preview"
       },
       "key_data": [
@@ -4796,9 +4680,9 @@
       "section": "mlb",
       "label": "MLB",
       "headline": "Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch",
-      "snapshot": "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "snapshot": "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
       "signal": "Availability",
-      "updated_at": "2026-05-31 07:23:33 AM ET",
+      "updated_at": "2026-05-31 09:04:52 AM ET",
       "url": "https://www.foxsports.com/mlb/stories",
       "url_quality": "hub",
       "source_domain": "foxsports.com",
@@ -4824,13 +4708,49 @@
       "story_type": "lineup_rotation",
       "source_label": "Availability",
       "title": "Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch",
-      "summary": "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+      "summary": "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. Late lineup, availability and schedule context remain the next checks. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+    },
+    {
+      "section": "soccer",
+      "label": "Soccer",
+      "headline": "Arsenal parade: Where is it and what time does it start?",
+      "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+      "signal": "Availability",
+      "updated_at": "2026-05-31 09:04:52 AM ET",
+      "url": "https://apnews.com/hub/soccer",
+      "url_quality": "other",
+      "source_domain": "apnews.com",
+      "editorial_depth": {
+        "original_source_headline": "Arsenal parade: Where is it and what time does it start?",
+        "source_domain": "apnews.com",
+        "source_role": "lineup_rotation_link_health_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "key_data": [
+        "Key people: Arsenal, Where, Everything."
+      ],
+      "key_data_points": [
+        "Key people: Arsenal, Where, Everything."
+      ],
+      "why_it_matters": [
+        "Arsenal gives Soccer clear player stakes."
+      ],
+      "what_to_watch": [
+        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update."
+      ],
+      "story_angles": [
+        "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction."
+      ],
+      "story_type": "lineup_rotation",
+      "source_label": "Availability",
+      "title": "Arsenal parade: Where is it and what time does it start?",
+      "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update."
     }
   ],
   "editor_signals": [
     "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60: Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form. .",
-    "Slot leaves Liverpool after tough season, but with legacy safe: manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
     "San Antonio Spurs keep the NBA conversation moving with result over Oklahoma City Thunder: Shai Gilgeous-Alexander gives Thunder-Spurs the lead matchup, with availability and closing-lineup usage shaping the read. Records: Spurs 62-20; Thunder 64-18.",
-    "Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch: Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. Late lineup, availability and schedule context remain the next checks. Pitcher."
+    "Pitching plans frame Toronto Blue Jays-Baltimore Orioles before first pitch: Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability. Late lineup, availability and schedule context remain the next checks. Pitcher.",
+    "Arsenal parade: Where is it and what time does it start?: Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager."
   ]
 }
