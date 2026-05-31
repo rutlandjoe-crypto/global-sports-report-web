@@ -5,13 +5,13 @@
   "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
   "key_storylines": [
     "NHL: Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-    "NBA: New York Knicks at San Antonio Spurs",
-    "MLB: Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays"
+    "MLB: New York Mets turns Miami Marlins-New York Mets into a statement result",
+    "NBA: New York Knicks at San Antonio Spurs"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
-  "generated_at": "2026-05-31 04:01:48 PM ET",
-  "updated_at": "2026-05-31 04:01:48 PM ET",
-  "published_at": "2026-05-31 04:01:48 PM ET",
+  "generated_at": "2026-05-31 05:45:04 PM ET",
+  "updated_at": "2026-05-31 05:45:04 PM ET",
+  "published_at": "2026-05-31 05:45:04 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -19,13 +19,13 @@
   "editorial_standard": "Data supports the reporting process; GSR cards should read with human newsroom judgment, source balance, context, analytics and restraint.",
   "sections": {
     "mlb": {
-      "title": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
+      "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-05-31 04:01:21 PM ET",
-      "content": "MLB REPORT | 2026-05-31 HEADLINE Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage SNAPSHOT MLB board for 2026-05-31 ET: 1 finals, 10 live games and 4 scheduled games. KEY STORYLINES Live update: Late-inning leverage puts. .",
+      "updated_at": "2026-05-31 05:44:30 PM ET",
+      "content": "MLB REPORT | 2026-05-31 HEADLINE Middle-to-late innings begin shaping the story in San Francisco Giants-Colorado Rockies SNAPSHOT MLB board for 2026-05-31 ET: 10 finals, 4 live games and 1 scheduled games. KEY STORYLINES Live update: Middle-to-late innings. .",
       "key": "mlb",
       "label": "MLB",
-      "headline": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
+      "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
       "snapshot": "The listed starters and bullpen availability carry the first read; records: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap); venue: Oriole Park at Camden Yards. Lineup scratches, bullpen workload and late price movement are the next verification points.",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
@@ -62,12 +62,12 @@
         "label": "MLB",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
         "reader_label": "Pressure point",
-        "original_source_headline": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage"
+        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays"
       },
       "story_type": "lineup_rotation",
       "url": "https://www.mlb.com/scores",
       "editorial_depth": {
-        "original_source_headline": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
+        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
         "source_domain": "mlb.com",
         "source_role": "lineup_rotation_source",
         "story_type_detected": "lineup_rotation"
@@ -131,201 +131,105 @@
         },
         {
           "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
-          "title": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
-          "summary": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Pittsburgh Pirates 9, Minnesota Twins 2; venue: PNC Park; status: Bottom 8th. Pitcher.",
+          "label": "Postgame read",
+          "headline": "Pittsburgh Pirates turns Minnesota Twins-Pittsburgh Pirates into a statement result",
+          "title": "Pittsburgh Pirates turns Minnesota Twins-Pittsburgh Pirates into a statement result",
+          "summary": "Final: Pittsburgh Pirates 9, Minnesota Twins 3. Records: Twins 27-33; Pirates 32-28",
           "url": "https://www.espn.com/mlb/game/_/gameId/401815569",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815569",
           "key_data": [
-            "Current score for context: Pittsburgh Pirates 9, Minnesota Twins 2",
-            "Status: Bottom 8th",
-            "Venue: PNC Park",
-            "Pittsburgh Pirates lead Minnesota Twins 9-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
+            "Final: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Margin: Pittsburgh Pirates by 6",
+            "Final score for context: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Run margin: 6",
+            "Records: Twins 27-33; Pirates 32-28"
           ],
           "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+            "Twins-Pirates matters because the records show where the result can change the race or team direction.",
+            "Pittsburgh Pirates did more than win; the margin pushes the coverage toward pitching quality, lineup production and whether Minnesota Twins has a larger issue to answer.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
           ],
           "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
           ],
           "story_type": "lineup_rotation",
-          "game_status": "live",
+          "game_status": "final",
           "game_date": "2026-05-31",
           "game_time": "1:35 PM ET",
-          "status": "Bottom 8th",
+          "status": "Final",
           "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Margin: Pittsburgh Pirates by 6",
+            "Final score for context: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Run margin: 6",
+            "Records: Twins 27-33; Pirates 32-28"
+          ],
           "url_quality": "exact",
           "source_domain": "espn.com",
           "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
+            "original_source_headline": "Pittsburgh Pirates turns Minnesota Twins-Pittsburgh Pirates into a statement result",
             "source_domain": "espn.com",
             "source_role": "live_or_result_exact",
             "story_type_detected": "lineup_rotation"
           },
-          "snapshot": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Pittsburgh Pirates 9, Minnesota Twins 2; venue: PNC Park; status: Bottom 8th. Pitcher.",
-          "key_data_points": [
-            "Current score for context: Pittsburgh Pirates 9, Minnesota Twins 2",
-            "Status: Bottom 8th",
-            "Venue: PNC Park",
-            "Pittsburgh Pirates lead Minnesota Twins 9-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
+          "snapshot": "Final: Pittsburgh Pirates 9, Minnesota Twins 3. Records: Twins 27-33; Pirates 32-28",
           "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+            "Twins-Pirates starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
         },
         {
           "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage",
-          "title": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage",
-          "summary": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Washington Nationals 4, San Diego Padres 2; venue: Nationals Park; status: Bottom 8th.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815570",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815570",
+          "label": "Postgame read",
+          "headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+          "title": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+          "summary": "Marlins-Mets has live score movement, putting bullpen usage and late-inning leverage next. Final: New York Mets 10, Miami Marlins 1; records: Marlins 26-34; Mets 26-33. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+          "url": "https://apnews.com/hub/mlb-baseball",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815568",
           "key_data": [
-            "Current score for context: Washington Nationals 4, San Diego Padres 2",
-            "Status: Bottom 8th",
-            "Venue: Nationals Park",
-            "Washington Nationals lead San Diego Padres 4-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
+            "Final: New York Mets 10, Miami Marlins 1",
+            "Margin: New York Mets by 9",
+            "Final score for context: New York Mets 10, Miami Marlins 1",
+            "Run margin: 9",
+            "Records: Marlins 26-34; Mets 26-33"
           ],
           "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+            "Marlins-Mets matters because the records show where the result can change the race or team direction.",
+            "New York Mets did more than win; the margin pushes the coverage toward pitching quality, lineup production and whether Miami Marlins has a larger issue to answer.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
           ],
           "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
           ],
           "story_type": "lineup_rotation",
-          "game_status": "live",
-          "game_date": "2026-05-31",
-          "game_time": "1:35 PM ET",
-          "status": "Bottom 8th",
-          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage",
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
-            "story_type_detected": "lineup_rotation"
-          },
-          "snapshot": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Washington Nationals 4, San Diego Padres 2; venue: Nationals Park; status: Bottom 8th.",
-          "key_data_points": [
-            "Current score for context: Washington Nationals 4, San Diego Padres 2",
-            "Status: Bottom 8th",
-            "Venue: Nationals Park",
-            "Washington Nationals lead San Diego Padres 4-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
-          "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-          ],
-          "source_label": "Availability"
-        },
-        {
-          "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage",
-          "title": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage",
-          "summary": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Cincinnati Reds 6, Atlanta Braves 3; venue: Great American Ball Park; status: Bottom 8th. .",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815566",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815566",
-          "key_data": [
-            "Current score for context: Cincinnati Reds 6, Atlanta Braves 3",
-            "Status: Bottom 8th",
-            "Venue: Great American Ball Park",
-            "Cincinnati Reds lead Atlanta Braves 6-3 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
-          "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
-          ],
-          "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
-          ],
-          "story_type": "lineup_rotation",
-          "game_status": "live",
+          "game_status": "final",
           "game_date": "2026-05-31",
           "game_time": "1:40 PM ET",
-          "status": "Bottom 8th",
+          "status": "Final",
           "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: New York Mets 10, Miami Marlins 1",
+            "Margin: New York Mets by 9",
+            "Final score for context: New York Mets 10, Miami Marlins 1",
+            "Run margin: 9",
+            "Records: Marlins 26-34; Mets 26-33"
+          ],
           "url_quality": "exact",
-          "source_domain": "espn.com",
+          "source_domain": "apnews.com",
           "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage",
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
+            "original_source_headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+            "source_domain": "apnews.com",
+            "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
-          "snapshot": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Cincinnati Reds 6, Atlanta Braves 3; venue: Great American Ball Park; status: Bottom 8th. .",
-          "key_data_points": [
-            "Current score for context: Cincinnati Reds 6, Atlanta Braves 3",
-            "Status: Bottom 8th",
-            "Venue: Great American Ball Park",
-            "Cincinnati Reds lead Atlanta Braves 6-3 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
+          "snapshot": "Marlins-Mets has live score movement, putting bullpen usage and late-inning leverage next. Final: New York Mets 10, Miami Marlins 1; records: Marlins 26-34; Mets 26-33. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
           "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-          ],
-          "source_label": "Availability"
-        },
-        {
-          "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage",
-          "title": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage",
-          "summary": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Tampa Bay Rays 5, Los Angeles Angels 2; venue: Tropicana Field; status: Top 8th. Pitcher.",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815565",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815565",
-          "key_data": [
-            "Current score for context: Tampa Bay Rays 5, Los Angeles Angels 2",
-            "Status: Top 8th",
-            "Venue: Tropicana Field",
-            "Tampa Bay Rays lead Los Angeles Angels 5-2 in Top 8th",
-            "Time/status: Top 8th"
-          ],
-          "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
-          ],
-          "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
-          ],
-          "story_type": "lineup_rotation",
-          "game_status": "live",
-          "game_date": "2026-05-31",
-          "game_time": "1:40 PM ET",
-          "status": "Top 8th",
-          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
-          "url_quality": "exact",
-          "source_domain": "espn.com",
-          "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage",
-            "source_domain": "espn.com",
-            "source_role": "live_or_result_exact",
-            "story_type_detected": "lineup_rotation"
-          },
-          "snapshot": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Tampa Bay Rays 5, Los Angeles Angels 2; venue: Tropicana Field; status: Top 8th. Pitcher.",
-          "key_data_points": [
-            "Current score for context: Tampa Bay Rays 5, Los Angeles Angels 2",
-            "Status: Top 8th",
-            "Venue: Tropicana Field",
-            "Tampa Bay Rays lead Los Angeles Angels 5-2 in Top 8th",
-            "Time/status: Top 8th"
-          ],
-          "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+            "Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
         }
@@ -337,7 +241,7 @@
           "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
           "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
           "summary": "Blue Jays-Orioles has live score movement, putting bullpen usage and late-inning leverage next. Final: Baltimore Orioles 9, Toronto Blue Jays 5; records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the.",
-          "url": "https://www.reuters.com/sports/baseball/",
+          "url": "https://www.foxsports.com/mlb/stories",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815571",
           "key_data": [
             "Final: Baltimore Orioles 9, Toronto Blue Jays 5",
@@ -371,10 +275,10 @@
             "Records: Blue Jays 29-31; Orioles 28-32"
           ],
           "url_quality": "exact",
-          "source_domain": "reuters.com",
+          "source_domain": "foxsports.com",
           "editorial_depth": {
             "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
-            "source_domain": "reuters.com",
+            "source_domain": "foxsports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -386,201 +290,105 @@
         },
         {
           "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
-          "title": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
-          "summary": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Pittsburgh Pirates 9, Minnesota Twins 2; venue: PNC Park; status: Bottom 8th. Pitcher.",
-          "url": "https://www.cbssports.com/mlb/scores/",
+          "label": "Postgame read",
+          "headline": "Pittsburgh Pirates turns Minnesota Twins-Pittsburgh Pirates into a statement result",
+          "title": "Pittsburgh Pirates turns Minnesota Twins-Pittsburgh Pirates into a statement result",
+          "summary": "Final: Pittsburgh Pirates 9, Minnesota Twins 3. Records: Twins 27-33; Pirates 32-28",
+          "url": "https://www.reuters.com/sports/baseball/",
           "source_url": "https://www.espn.com/mlb/game/_/gameId/401815569",
           "key_data": [
-            "Current score for context: Pittsburgh Pirates 9, Minnesota Twins 2",
-            "Status: Bottom 8th",
-            "Venue: PNC Park",
-            "Pittsburgh Pirates lead Minnesota Twins 9-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
+            "Final: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Margin: Pittsburgh Pirates by 6",
+            "Final score for context: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Run margin: 6",
+            "Records: Twins 27-33; Pirates 32-28"
           ],
           "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+            "Twins-Pirates matters because the records show where the result can change the race or team direction.",
+            "Pittsburgh Pirates did more than win; the margin pushes the coverage toward pitching quality, lineup production and whether Minnesota Twins has a larger issue to answer.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
           ],
           "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
           ],
           "story_type": "lineup_rotation",
-          "game_status": "live",
+          "game_status": "final",
           "game_date": "2026-05-31",
           "game_time": "1:35 PM ET",
-          "status": "Bottom 8th",
+          "status": "Final",
           "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Margin: Pittsburgh Pirates by 6",
+            "Final score for context: Pittsburgh Pirates 9, Minnesota Twins 3",
+            "Run margin: 6",
+            "Records: Twins 27-33; Pirates 32-28"
+          ],
+          "url_quality": "exact",
+          "source_domain": "reuters.com",
+          "editorial_depth": {
+            "original_source_headline": "Pittsburgh Pirates turns Minnesota Twins-Pittsburgh Pirates into a statement result",
+            "source_domain": "reuters.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Pittsburgh Pirates 9, Minnesota Twins 3. Records: Twins 27-33; Pirates 32-28",
+          "story_angles": [
+            "Twins-Pirates starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "MLB",
+          "label": "Postgame read",
+          "headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+          "title": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+          "summary": "Marlins-Mets has live score movement, putting bullpen usage and late-inning leverage next. Final: New York Mets 10, Miami Marlins 1; records: Marlins 26-34; Mets 26-33. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+          "url": "https://www.cbssports.com/mlb/scores/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815568",
+          "key_data": [
+            "Final: New York Mets 10, Miami Marlins 1",
+            "Margin: New York Mets by 9",
+            "Final score for context: New York Mets 10, Miami Marlins 1",
+            "Run margin: 9",
+            "Records: Marlins 26-34; Mets 26-33"
+          ],
+          "why_it_matters": [
+            "Marlins-Mets matters because the records show where the result can change the race or team direction.",
+            "New York Mets did more than win; the margin pushes the coverage toward pitching quality, lineup production and whether Miami Marlins has a larger issue to answer.",
+            "The scoreboard is only the starting point; the editorial value comes from what changed after the result."
+          ],
+          "what_to_watch": [
+            "Check official box score leaders, bullpen usage, injuries, lineup changes and postgame comments.",
+            "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+            "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "game_date": "2026-05-31",
+          "game_time": "1:40 PM ET",
+          "status": "Final",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "key_data_points": [
+            "Final: New York Mets 10, Miami Marlins 1",
+            "Margin: New York Mets by 9",
+            "Final score for context: New York Mets 10, Miami Marlins 1",
+            "Run margin: 9",
+            "Records: Marlins 26-34; Mets 26-33"
+          ],
           "url_quality": "exact",
           "source_domain": "cbssports.com",
           "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage",
+            "original_source_headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
             "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
-          "snapshot": "Late-inning leverage puts Minnesota Twins-Pittsburgh Pirates on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Pittsburgh Pirates 9, Minnesota Twins 2; venue: PNC Park; status: Bottom 8th. Pitcher.",
-          "key_data_points": [
-            "Current score for context: Pittsburgh Pirates 9, Minnesota Twins 2",
-            "Status: Bottom 8th",
-            "Venue: PNC Park",
-            "Pittsburgh Pirates lead Minnesota Twins 9-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
+          "snapshot": "Marlins-Mets has live score movement, putting bullpen usage and late-inning leverage next. Final: New York Mets 10, Miami Marlins 1; records: Marlins 26-34; Mets 26-33. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
           "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-          ],
-          "source_label": "Availability"
-        },
-        {
-          "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage",
-          "title": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage",
-          "summary": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Washington Nationals 4, San Diego Padres 2; venue: Nationals Park; status: Bottom 8th.",
-          "url": "https://www.cbssports.com/mlb/standings/",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815570",
-          "key_data": [
-            "Current score for context: Washington Nationals 4, San Diego Padres 2",
-            "Status: Bottom 8th",
-            "Venue: Nationals Park",
-            "Washington Nationals lead San Diego Padres 4-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
-          "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
-          ],
-          "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
-          ],
-          "story_type": "lineup_rotation",
-          "game_status": "live",
-          "game_date": "2026-05-31",
-          "game_time": "1:35 PM ET",
-          "status": "Bottom 8th",
-          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
-          "url_quality": "exact",
-          "source_domain": "cbssports.com",
-          "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage",
-            "source_domain": "cbssports.com",
-            "source_role": "lineup_rotation_link_health_source",
-            "story_type_detected": "lineup_rotation"
-          },
-          "snapshot": "Late-inning leverage puts San Diego Padres-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Washington Nationals 4, San Diego Padres 2; venue: Nationals Park; status: Bottom 8th.",
-          "key_data_points": [
-            "Current score for context: Washington Nationals 4, San Diego Padres 2",
-            "Status: Bottom 8th",
-            "Venue: Nationals Park",
-            "Washington Nationals lead San Diego Padres 4-2 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
-          "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-          ],
-          "source_label": "Availability"
-        },
-        {
-          "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage",
-          "title": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage",
-          "summary": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Cincinnati Reds 6, Atlanta Braves 3; venue: Great American Ball Park; status: Bottom 8th. .",
-          "url": "https://www.foxsports.com/mlb/teams",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815566",
-          "key_data": [
-            "Current score for context: Cincinnati Reds 6, Atlanta Braves 3",
-            "Status: Bottom 8th",
-            "Venue: Great American Ball Park",
-            "Cincinnati Reds lead Atlanta Braves 6-3 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
-          "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
-          ],
-          "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
-          ],
-          "story_type": "lineup_rotation",
-          "game_status": "live",
-          "game_date": "2026-05-31",
-          "game_time": "1:40 PM ET",
-          "status": "Bottom 8th",
-          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
-          "url_quality": "exact",
-          "source_domain": "foxsports.com",
-          "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage",
-            "source_domain": "foxsports.com",
-            "source_role": "lineup_rotation_link_health_source",
-            "story_type_detected": "lineup_rotation"
-          },
-          "snapshot": "Late-inning leverage puts Atlanta Braves-Cincinnati Reds on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Cincinnati Reds 6, Atlanta Braves 3; venue: Great American Ball Park; status: Bottom 8th. .",
-          "key_data_points": [
-            "Current score for context: Cincinnati Reds 6, Atlanta Braves 3",
-            "Status: Bottom 8th",
-            "Venue: Great American Ball Park",
-            "Cincinnati Reds lead Atlanta Braves 6-3 in Bottom 8th",
-            "Time/status: Bottom 8th"
-          ],
-          "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-          ],
-          "source_label": "Availability"
-        },
-        {
-          "league": "MLB",
-          "label": "Live update",
-          "headline": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage",
-          "title": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage",
-          "summary": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Tampa Bay Rays 5, Los Angeles Angels 2; venue: Tropicana Field; status: Top 8th. Pitcher.",
-          "url": "https://www.foxsports.com/mlb/standings",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815565",
-          "key_data": [
-            "Current score for context: Tampa Bay Rays 5, Los Angeles Angels 2",
-            "Status: Top 8th",
-            "Venue: Tropicana Field",
-            "Tampa Bay Rays lead Los Angeles Angels 5-2 in Top 8th",
-            "Time/status: Top 8th"
-          ],
-          "why_it_matters": [
-            "MLB depends on availability, form and standings impact.",
-            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
-          ],
-          "what_to_watch": [
-            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
-            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
-          ],
-          "story_type": "lineup_rotation",
-          "game_status": "live",
-          "game_date": "2026-05-31",
-          "game_time": "1:40 PM ET",
-          "status": "Top 8th",
-          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
-          "url_quality": "exact",
-          "source_domain": "foxsports.com",
-          "editorial_depth": {
-            "original_source_headline": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage",
-            "source_domain": "foxsports.com",
-            "source_role": "lineup_rotation_link_health_source",
-            "story_type_detected": "lineup_rotation"
-          },
-          "snapshot": "Late-inning leverage puts Los Angeles Angels-Tampa Bay Rays on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Tampa Bay Rays 5, Los Angeles Angels 2; venue: Tropicana Field; status: Top 8th. Pitcher.",
-          "key_data_points": [
-            "Current score for context: Tampa Bay Rays 5, Los Angeles Angels 2",
-            "Status: Top 8th",
-            "Venue: Tropicana Field",
-            "Tampa Bay Rays lead Los Angeles Angels 5-2 in Top 8th",
-            "Time/status: Top 8th"
-          ],
-          "story_angles": [
-            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+            "Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
         }
@@ -589,12 +397,12 @@
     "nba": {
       "title": "New York Knicks at San Antonio Spurs",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-05-31 04:01:22 PM ET",
+      "updated_at": "2026-05-31 05:44:31 PM ET",
       "content": "NBA REPORT | 2026-05-31 HEADLINE New York Knicks-San Antonio Spurs brings named-player and market context into the pregame read SNAPSHOT 1 NBA games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing story stakes over score lines,....",
       "key": "nba",
       "label": "NBA",
       "headline": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late spread movement.",
+      "snapshot": "Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late spread movement.",
       "key_data": [
         "NBA: availability or roster movement is attached to the story.",
         "NBA: betting context can show expectation when paired with team news.",
@@ -649,7 +457,7 @@
     "nhl": {
       "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-05-31 04:01:23 PM ET",
+      "updated_at": "2026-05-31 05:44:31 PM ET",
       "content": "NHL REPORT | 2026-05-31 HEADLINE Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60 SNAPSHOT 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing hockey stakes over score lines, with attention on major death,. .",
       "key": "nhl",
       "label": "NHL",
@@ -735,7 +543,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-05-31",
-          "updated_at": "2026-05-31 04:01:23 PM ET",
+          "updated_at": "2026-05-31 05:44:31 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "foxsports.com",
@@ -790,7 +598,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-05-31",
-          "updated_at": "2026-05-31 04:01:23 PM ET",
+          "updated_at": "2026-05-31 05:44:31 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "apnews.com",
@@ -810,7 +618,7 @@
     "nfl": {
       "title": "NFL News",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-05-31 04:01:25 PM ET",
+      "updated_at": "2026-05-31 05:44:32 PM ET",
       "content": "NFL REPORT | 2026-05-31 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
@@ -868,7 +676,7 @@
     "ncaafb": {
       "title": "Tarleton State Texans at Bowling Green Falcons",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-05-31 04:01:27 PM ET",
+      "updated_at": "2026-05-31 05:44:34 PM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
@@ -909,7 +717,7 @@
     "soccer": {
       "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-05-31 04:01:25 PM ET",
+      "updated_at": "2026-05-31 05:44:32 PM ET",
       "content": "SOCCER REPORT | 2026-05-31 HEADLINE Transfer rumors, news: Bayern eye move for Juve's Vlahovic SNAPSHOT Soccer board refreshed with 18 news items, 0 live matches, 4 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over. .",
       "key": "soccer",
       "label": "Soccer",
@@ -970,8 +778,8 @@
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Key people: Transfer, Bayern. Late lineup.",
+          "snapshot": "Key people: Transfer, Bayern. Late lineup.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -1018,8 +826,8 @@
           "title": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
           "url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -1069,8 +877,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1120,8 +928,8 @@
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "manager or coaching pressure",
@@ -1170,8 +978,8 @@
           "title": "Declan Rice promises Arsenal will be 'coming back for more' after UCL loss",
           "url": "https://www.espn.com/soccer/story/_/id/48930407/declan-rice-arsenal-parade-london-coming-back-more",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930407/declan-rice-arsenal-parade-london-coming-back-more",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1220,8 +1028,8 @@
           "title": "Arsenal host parade to celebrate Premier League title triumph",
           "url": "https://www.espn.com/soccer/story/_/id/48928616/arsenal-host-parade-celebrate-premier-league-title-triumph",
           "source_url": "https://www.espn.com/soccer/story/_/id/48928616/arsenal-host-parade-celebrate-premier-league-title-triumph",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1270,8 +1078,8 @@
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -1320,8 +1128,8 @@
           "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
           "url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
           "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -1370,8 +1178,8 @@
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Real Madrid will look to reinforce their midfield this summer by signing Paris Saint-Germain midfielder João Neves. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1420,8 +1228,8 @@
           "title": "Brentford bid £40 million for Said El Mala - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -1469,8 +1277,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -1518,8 +1326,8 @@
           "title": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
           "url": "https://www.espn.com/soccer/story/_/id/48930579/liverpool-confirm-ibrahima-konate-leaving-club-summer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930579/liverpool-confirm-ibrahima-konate-leaving-club-summer",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Liverpool have confirmed Ibrahima Konaté will be leaving the club when his contract expires this summer.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1567,8 +1375,8 @@
           "title": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
           "url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
           "source_url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Atlético Madrid's Julián Álvarez still has his heart set on joining Barcelona. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1616,8 +1424,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Gabriele Marcotti discusses the ongoing speculation linking Julián Alvarez with Barcelona but suggests that Atletico Madrid remain in a stronger position.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1665,8 +1473,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Liverpool's Curtis Jones could be another player leaving Anfield this summer, with Inter Milan trying to sign him. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -1714,8 +1522,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -1981,8 +1789,8 @@
           "title": "Transfer rumors, news: Bayern eye move for Juve's Vlahovic",
           "url": "https://www.fifa.com/en",
           "source_url": "https://www.espn.com/soccer/story/_/id/48897775/transfer-rumors-news-man-united-tracking-botafogo-danilo",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Key people: Transfer, Bayern. Late lineup.",
+          "snapshot": "Key people: Transfer, Bayern. Late lineup.",
           "key_data": [
             "Competition/source: Bundesliga",
             "Key people: Transfer, Bayern."
@@ -2029,8 +1837,8 @@
           "title": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
           "url": "https://apnews.com/hub/soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -2080,8 +1888,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://sports.yahoo.com/soccer/news/",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -2131,8 +1939,8 @@
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "url": "https://www.cbssports.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "manager or coaching pressure",
@@ -2181,8 +1989,8 @@
           "title": "Declan Rice promises Arsenal will be 'coming back for more' after UCL loss",
           "url": "https://www.foxsports.com/soccer/stories",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930407/declan-rice-arsenal-parade-london-coming-back-more",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -2231,8 +2039,8 @@
           "title": "Arsenal host parade to celebrate Premier League title triumph",
           "url": "https://www.reuters.com/sports/soccer/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48928616/arsenal-host-parade-celebrate-premier-league-title-triumph",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -2281,8 +2089,8 @@
           "title": "Gordon 'more excited' about Barca move after talking to Hansi Flick",
           "url": "https://www.cbssports.com/soccer/scores/",
           "source_url": "https://www.espn.com/video/clip/_/id/48913231/gordon-more-excited-barca-move-talking-hansi-flick",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -2331,8 +2139,8 @@
           "title": "UEFA Champions League final live updates: Paris Saint-Germain vs. Arsenal",
           "url": "https://www.cbssports.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48903823/uefa-champions-league-final-live-updates-paris-saint-germain-vs-arsenal",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "title table or european pressure",
@@ -2381,8 +2189,8 @@
           "title": "Transfer rumors, news: Real Madrid to sign PSG's Neves?",
           "url": "https://www.foxsports.com/soccer/scores",
           "source_url": "https://www.espn.com/soccer/story/_/id/48907583/transfer-rumors-news-barcelona-beat-arsenal-hincapie",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Real Madrid will look to reinforce their midfield this summer by signing Paris Saint-Germain midfielder João Neves. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2431,8 +2239,8 @@
           "title": "Brentford bid £40 million for Said El Mala - sources",
           "url": "https://www.foxsports.com/soccer/standings",
           "source_url": "https://www.espn.com/soccer/story/_/id/48899190/brentford-bid-said-el-mala-fc-cologne",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Brentford are looking to add a second summer signing having tabled a bid for FC Cologne star winger Said El Mala, sources have told ESPN.",
           "key_data": [
             "Competition/source: Bundesliga",
             "transfer or contract market",
@@ -2480,8 +2288,8 @@
           "title": "When does the 2026 summer transfer window open and close?",
           "url": "https://sports.yahoo.com/soccer/scoreboard/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48833505/when-does-summer-transfer-window-close-premier-league-serie-laliga-bundesliga-ligue-1",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Find out when the 2026 summer transfer window will close in the Premier League, LaLiga, Serie A, Bundesliga and Ligue 1.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -2529,8 +2337,8 @@
           "title": "Ibrahima Konaté 'deeply saddened' over Liverpool exit",
           "url": "https://sports.yahoo.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930579/liverpool-confirm-ibrahima-konate-leaving-club-summer",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Liverpool have confirmed Ibrahima Konaté will be leaving the club when his contract expires this summer.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -2578,8 +2386,8 @@
           "title": "Transfer rumors, news: Álvarez still pushing for Barcelona move",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
           "source_url": "https://www.espn.com/soccer/story/_/id/48927451/transfer-rumors-news-julian-alvarez-pushing-barcelona-move",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Atlético Madrid's Julián Álvarez still has his heart set on joining Barcelona. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2627,8 +2435,8 @@
           "title": "Marcotti: Atletico Madrid are in control of the Julián Alvarez transfer speculation",
           "url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
           "source_url": "https://www.espn.com/video/clip/_/id/48913962/atletico-madrid-control-julian-alvarez-transfer-speculation",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Gabriele Marcotti discusses the ongoing speculation linking Julián Alvarez with Barcelona but suggests that Atletico Madrid remain in a stronger position.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -2676,8 +2484,8 @@
           "title": "Transfer rumors, news: Liverpool's Jones an Inter Milan target",
           "url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
           "source_url": "https://www.espn.com/soccer/story/_/id/48917673/transfer-rumors-news-liverpool-curtis-jones-inter-milan-target",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Liverpool's Curtis Jones could be another player leaving Anfield this summer, with Inter Milan trying to sign him. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -2725,8 +2533,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
           "source_url": "https://www.espn.com/soccer/story/_/id/48898521/premier-league-joint-record-nine-teams-europe-next-season",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "title table or european pressure",
@@ -2988,8 +2796,8 @@
     "betting_odds": {
       "title": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-05-31 04:01:25 PM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-31 04:01:25 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-31 04:01:25 PM ET",
+      "updated_at": "2026-05-31 05:44:32 PM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-05-31 05:44:32 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-05-31 05:44:32 PM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
       "headline": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
@@ -3116,31 +2924,31 @@
       ]
     },
     "fantasy": {
-      "title": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates",
+      "title": "MLB fantasy Next check: starts with live usage in San Francisco Giants at Colorado Rockies",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-05-31 04:01:27 PM ET",
-      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
+      "updated_at": "2026-05-31 05:44:33 PM ET",
+      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in San Francisco Giants at Colorado Rockies SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. .",
       "key": "fantasy",
       "label": "Fantasy",
-      "headline": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates",
-      "snapshot": "Twins-Pirates has current game context: records: Twins 27-32; Pirates 31-28 (0.068 win-pct gap); venue: PNC Park. Availability, lineup decisions and standings or market consequence set the next update.",
+      "headline": "MLB fantasy Next check: starts with live usage in San Francisco Giants at Colorado Rockies",
+      "snapshot": "Giants-Rockies has current game context: records: Giants 22-36; Rockies 22-37 (0.006 win-pct gap); venue: Coors Field. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Twins 27-32; Pirates 31-28 (0.068 win-pct gap)."
+        "Record context: Giants 22-36; Rockies 22-37 (0.006 win-pct gap)."
       ],
       "key_data_points": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Record context: Twins 27-32; Pirates 31-28 (0.068 win-pct gap)."
+        "Record context: Giants 22-36; Rockies 22-37 (0.006 win-pct gap)."
       ],
       "why_it_matters": [
-        "games-spikes depends on availability, form and standings impact.",
+        "Giants-Rockies depends on availability, form and standings impact.",
         "Fantasy coverage should turn game data into lineup, waiver and role context rather than market schedule summaries.",
         "The highest-value signals are repeatable opportunity, injury fallout, role movement, rotation changes and matchup-driven usage.",
-        "Twins-Pirates has current game context: named players, records and price all shape the matchup."
+        "Giants-Rockies has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Role changes, usage, injury designations, waiver availability and lineup deadlines decide the fantasy value.",
@@ -3149,7 +2957,7 @@
         "Waiver relevance created by injuries, bench promotions or depth-chart movement."
       ],
       "story_angles": [
-        "games-spikes hinges on role security, usage and injury-driven lineup decisions."
+        "Giants-Rockies hinges on role security, usage and injury-driven lineup decisions."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
@@ -3160,12 +2968,12 @@
         "label": "Fantasy",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
         "reader_label": "Availability",
-        "original_source_headline": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates"
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in San Francisco Giants at Colorado Rockies"
       },
       "story_type": "fantasy_implication",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401815569",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815576",
       "editorial_depth": {
-        "original_source_headline": "MLB fantasy Next check: starts with live usage in Minnesota Twins at Pittsburgh Pirates",
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in San Francisco Giants at Colorado Rockies",
         "source_domain": "espn.com",
         "source_role": "fantasy_implication_exact",
         "story_type_detected": "fantasy_implication"
@@ -3174,6 +2982,569 @@
       "source_domain": "espn.com",
       "json_source_file": "fantasy_report.json",
       "cards": [
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+          "title": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+          "url": "https://www.cbssports.com/mlb/standings/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815571",
+          "summary": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "key_data": [
+            "Final: Blue Jays 5, Orioles 9",
+            "Margin: Orioles by 4",
+            "Game state: Final - Final",
+            "Current score context: Blue Jays 5, Orioles 9",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "why_it_matters": [
+            "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles"
+          },
+          "key_data_points": [
+            "Final: Blue Jays 5, Orioles 9",
+            "Margin: Orioles by 4",
+            "Game state: Final - Final",
+            "Current score context: Blue Jays 5, Orioles 9",
+            "Records: Blue Jays 29-31; Orioles 28-32"
+          ],
+          "url_quality": "exact",
+          "source_domain": "cbssports.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "story_angles": [
+            "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
+          "title": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
+          "url": "https://www.foxsports.com/mlb/teams",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815569",
+          "summary": "Final: Twins 3, Pirates 9. Records: Twins 27-33; Pirates 32-28",
+          "key_data": [
+            "Final: Twins 3, Pirates 9",
+            "Margin: Pirates by 6",
+            "Game state: Final - Final",
+            "Current score context: Twins 3, Pirates 9",
+            "Records: Twins 27-33; Pirates 32-28"
+          ],
+          "why_it_matters": [
+            "Twins-Pirates matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates"
+          },
+          "key_data_points": [
+            "Final: Twins 3, Pirates 9",
+            "Margin: Pirates by 6",
+            "Game state: Final - Final",
+            "Current score context: Twins 3, Pirates 9",
+            "Records: Twins 27-33; Pirates 32-28"
+          ],
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Twins 3, Pirates 9. Records: Twins 27-33; Pirates 32-28",
+          "story_angles": [
+            "Twins-Pirates starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
+          "title": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815570",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815570",
+          "summary": "Final: Padres 2, Nationals 4. Records: Padres 32-26; Nationals 31-29",
+          "key_data": [
+            "Final: Padres 2, Nationals 4",
+            "Margin: Nationals by 2",
+            "Game state: Final - Final",
+            "Current score context: Padres 2, Nationals 4",
+            "Records: Padres 32-26; Nationals 31-29"
+          ],
+          "why_it_matters": [
+            "Padres-Nationals matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals"
+          },
+          "key_data_points": [
+            "Final: Padres 2, Nationals 4",
+            "Margin: Nationals by 2",
+            "Game state: Final - Final",
+            "Current score context: Padres 2, Nationals 4",
+            "Records: Padres 32-26; Nationals 31-29"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Padres 2, Nationals 4. Records: Padres 32-26; Nationals 31-29",
+          "story_angles": [
+            "Padres-Nationals starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
+          "title": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815565",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815565",
+          "summary": "Final: Angels 2, Rays 5. Records: Angels 23-37; Rays 36-20",
+          "key_data": [
+            "Final: Angels 2, Rays 5",
+            "Margin: Rays by 3",
+            "Game state: Final - Final",
+            "Current score context: Angels 2, Rays 5",
+            "Records: Angels 23-37; Rays 36-20"
+          ],
+          "why_it_matters": [
+            "Angels-Rays matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays"
+          },
+          "key_data_points": [
+            "Final: Angels 2, Rays 5",
+            "Margin: Rays by 3",
+            "Game state: Final - Final",
+            "Current score context: Angels 2, Rays 5",
+            "Records: Angels 23-37; Rays 36-20"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Angels 2, Rays 5. Records: Angels 23-37; Rays 36-20",
+          "story_angles": [
+            "Angels-Rays starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "title": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815566",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815566",
+          "summary": "Final: Braves 4, Reds 6. Records: Braves 40-20; Reds 30-28",
+          "key_data": [
+            "Final: Braves 4, Reds 6",
+            "Margin: Reds by 2",
+            "Game state: Final - Final",
+            "Current score context: Braves 4, Reds 6",
+            "Records: Braves 40-20; Reds 30-28"
+          ],
+          "why_it_matters": [
+            "Braves-Reds matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds"
+          },
+          "key_data_points": [
+            "Final: Braves 4, Reds 6",
+            "Margin: Reds by 2",
+            "Game state: Final - Final",
+            "Current score context: Braves 4, Reds 6",
+            "Records: Braves 40-20; Reds 30-28"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Braves 4, Reds 6. Records: Braves 40-20; Reds 30-28",
+          "story_angles": [
+            "Braves-Reds starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
+          "title": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815567",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815567",
+          "summary": "Final: Red Sox 9, Guardians 4. Records: Red Sox 25-33; Guardians 34-27",
+          "key_data": [
+            "Final: Red Sox 9, Guardians 4",
+            "Margin: Red Sox by 5",
+            "Game state: Final - Final",
+            "Current score context: Red Sox 9, Guardians 4",
+            "Records: Red Sox 25-33; Guardians 34-27"
+          ],
+          "why_it_matters": [
+            "Red Sox-Guardians matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians"
+          },
+          "key_data_points": [
+            "Final: Red Sox 9, Guardians 4",
+            "Margin: Red Sox by 5",
+            "Game state: Final - Final",
+            "Current score context: Red Sox 9, Guardians 4",
+            "Records: Red Sox 25-33; Guardians 34-27"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Red Sox 9, Guardians 4. Records: Red Sox 25-33; Guardians 34-27",
+          "story_angles": [
+            "Red Sox-Guardians starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
+          "title": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815573",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815573",
+          "summary": "Final: Tigers 1, White Sox 2. Records: Tigers 22-38; White Sox 32-27",
+          "key_data": [
+            "Final: Tigers 1, White Sox 2",
+            "Margin: White Sox by 1",
+            "Game state: Final - Final",
+            "Current score context: Tigers 1, White Sox 2",
+            "Records: Tigers 22-38; White Sox 32-27"
+          ],
+          "why_it_matters": [
+            "Tigers-White Sox matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox"
+          },
+          "key_data_points": [
+            "Final: Tigers 1, White Sox 2",
+            "Margin: White Sox by 1",
+            "Game state: Final - Final",
+            "Current score context: Tigers 1, White Sox 2",
+            "Records: Tigers 22-38; White Sox 32-27"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Tigers 1, White Sox 2. Records: Tigers 22-38; White Sox 32-27",
+          "story_angles": [
+            "Tigers-White Sox starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros",
+          "title": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815575",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815575",
+          "summary": "Final: Brewers 2, Astros 0. Records: Brewers 35-21; Astros 27-34",
+          "key_data": [
+            "Final: Brewers 2, Astros 0",
+            "Margin: Brewers by 2",
+            "Game state: Final - Final",
+            "Current score context: Brewers 2, Astros 0",
+            "Records: Brewers 35-21; Astros 27-34"
+          ],
+          "why_it_matters": [
+            "Brewers-Astros matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros"
+          },
+          "key_data_points": [
+            "Final: Brewers 2, Astros 0",
+            "Margin: Brewers by 2",
+            "Game state: Final - Final",
+            "Current score context: Brewers 2, Astros 0",
+            "Records: Brewers 35-21; Astros 27-34"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Brewers 2, Astros 0. Records: Brewers 35-21; Astros 27-34",
+          "story_angles": [
+            "Brewers-Astros starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers",
+          "title": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815574",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815574",
+          "summary": "Final: Royals 3, Rangers 6. Records: Royals 22-37; Rangers 28-31",
+          "key_data": [
+            "Final: Royals 3, Rangers 6",
+            "Margin: Rangers by 3",
+            "Game state: Final - Final",
+            "Current score context: Royals 3, Rangers 6",
+            "Records: Royals 22-37; Rangers 28-31"
+          ],
+          "why_it_matters": [
+            "Royals-Rangers matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers"
+          },
+          "key_data_points": [
+            "Final: Royals 3, Rangers 6",
+            "Margin: Rangers by 3",
+            "Game state: Final - Final",
+            "Current score context: Royals 3, Rangers 6",
+            "Records: Royals 22-37; Rangers 28-31"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Royals 3, Rangers 6. Records: Royals 22-37; Rangers 28-31",
+          "story_angles": [
+            "Royals-Rangers starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
+          "title": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
+          "url": "https://www.foxsports.com/mlb/standings",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815568",
+          "summary": "Final: Marlins 1, Mets 10. Records: Marlins 26-34; Mets 26-33",
+          "key_data": [
+            "Final: Marlins 1, Mets 10",
+            "Margin: Mets by 9",
+            "Game state: Final - Final",
+            "Current score context: Marlins 1, Mets 10",
+            "Records: Marlins 26-34; Mets 26-33"
+          ],
+          "why_it_matters": [
+            "Marlins-Mets matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 85,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets"
+          },
+          "key_data_points": [
+            "Final: Marlins 1, Mets 10",
+            "Margin: Mets by 9",
+            "Game state: Final - Final",
+            "Current score context: Marlins 1, Mets 10",
+            "Records: Marlins 26-34; Mets 26-33"
+          ],
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Marlins 1, Mets 10. Records: Marlins 26-34; Mets 26-33",
+          "story_angles": [
+            "Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        }
+      ],
+      "stories": [
         {
           "league": "Fantasy",
           "label": "Fantasy watch",
@@ -3230,31 +3601,28 @@
             "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
-        }
-      ],
-      "stories": [
+        },
         {
           "league": "Fantasy",
           "label": "Fantasy watch",
-          "headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
-          "title": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+          "headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
+          "title": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
           "url": "https://sports.yahoo.com/mlb/standings/",
-          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815571",
-          "summary": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815569",
+          "summary": "Final: Twins 3, Pirates 9. Records: Twins 27-33; Pirates 32-28",
           "key_data": [
-            "Final: Blue Jays 5, Orioles 9",
-            "Margin: Orioles by 4",
+            "Final: Twins 3, Pirates 9",
+            "Margin: Pirates by 6",
             "Game state: Final - Final",
-            "Current score context: Blue Jays 5, Orioles 9",
-            "Records: Blue Jays 29-31; Orioles 28-32"
+            "Current score context: Twins 3, Pirates 9",
+            "Records: Twins 27-33; Pirates 32-28"
           ],
           "why_it_matters": [
-            "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
+            "Twins-Pirates matters because the records show where the result can change the race or team direction.",
             "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
             "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
           ],
           "what_to_watch": [
-            "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
             "Next check: weather, late scratches, pitch counts and bullpen availability.",
             "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
             "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
@@ -3267,26 +3635,474 @@
             "version": "v3-fantasy-editorial-intelligence",
             "signal": "fantasy_role_watch",
             "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
-            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles"
+            "original_source_headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates"
           },
           "key_data_points": [
-            "Final: Blue Jays 5, Orioles 9",
-            "Margin: Orioles by 4",
+            "Final: Twins 3, Pirates 9",
+            "Margin: Pirates by 6",
             "Game state: Final - Final",
-            "Current score context: Blue Jays 5, Orioles 9",
-            "Records: Blue Jays 29-31; Orioles 28-32"
+            "Current score context: Twins 3, Pirates 9",
+            "Records: Twins 27-33; Pirates 32-28"
           ],
           "url_quality": "exact",
           "source_domain": "yahoo.com",
           "editorial_depth": {
-            "original_source_headline": "MLB fantasy review turns to role changes after Toronto Blue Jays at Baltimore Orioles",
+            "original_source_headline": "MLB fantasy review turns to role changes after Minnesota Twins at Pittsburgh Pirates",
             "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
-          "snapshot": "Final: Blue Jays 5, Orioles 9. Records: Blue Jays 29-31; Orioles 28-32",
+          "snapshot": "Final: Twins 3, Pirates 9. Records: Twins 27-33; Pirates 32-28",
           "story_angles": [
-            "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability."
+            "Twins-Pirates starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
+          "title": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
+          "url": "https://www.mlb.com/probable-pitchers",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815570",
+          "summary": "Final: Padres 2, Nationals 4. Records: Padres 32-26; Nationals 31-29",
+          "key_data": [
+            "Final: Padres 2, Nationals 4",
+            "Margin: Nationals by 2",
+            "Game state: Final - Final",
+            "Current score context: Padres 2, Nationals 4",
+            "Records: Padres 32-26; Nationals 31-29"
+          ],
+          "why_it_matters": [
+            "Padres-Nationals matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals"
+          },
+          "key_data_points": [
+            "Final: Padres 2, Nationals 4",
+            "Margin: Nationals by 2",
+            "Game state: Final - Final",
+            "Current score context: Padres 2, Nationals 4",
+            "Records: Padres 32-26; Nationals 31-29"
+          ],
+          "url_quality": "exact",
+          "source_domain": "mlb.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after San Diego Padres at Washington Nationals",
+            "source_domain": "mlb.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Padres 2, Nationals 4. Records: Padres 32-26; Nationals 31-29",
+          "story_angles": [
+            "Padres-Nationals starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
+          "title": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
+          "url": "https://sports.yahoo.com/mlb/news/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815565",
+          "summary": "Final: Angels 2, Rays 5. Records: Angels 23-37; Rays 36-20",
+          "key_data": [
+            "Final: Angels 2, Rays 5",
+            "Margin: Rays by 3",
+            "Game state: Final - Final",
+            "Current score context: Angels 2, Rays 5",
+            "Records: Angels 23-37; Rays 36-20"
+          ],
+          "why_it_matters": [
+            "Angels-Rays matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays"
+          },
+          "key_data_points": [
+            "Final: Angels 2, Rays 5",
+            "Margin: Rays by 3",
+            "Game state: Final - Final",
+            "Current score context: Angels 2, Rays 5",
+            "Records: Angels 23-37; Rays 36-20"
+          ],
+          "url_quality": "exact",
+          "source_domain": "yahoo.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Los Angeles Angels at Tampa Bay Rays",
+            "source_domain": "yahoo.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Angels 2, Rays 5. Records: Angels 23-37; Rays 36-20",
+          "story_angles": [
+            "Angels-Rays starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "title": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+          "url": "https://www.cbssports.com/mlb/news/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815566",
+          "summary": "Final: Braves 4, Reds 6. Records: Braves 40-20; Reds 30-28",
+          "key_data": [
+            "Final: Braves 4, Reds 6",
+            "Margin: Reds by 2",
+            "Game state: Final - Final",
+            "Current score context: Braves 4, Reds 6",
+            "Records: Braves 40-20; Reds 30-28"
+          ],
+          "why_it_matters": [
+            "Braves-Reds matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds"
+          },
+          "key_data_points": [
+            "Final: Braves 4, Reds 6",
+            "Margin: Reds by 2",
+            "Game state: Final - Final",
+            "Current score context: Braves 4, Reds 6",
+            "Records: Braves 40-20; Reds 30-28"
+          ],
+          "url_quality": "exact",
+          "source_domain": "cbssports.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Atlanta Braves at Cincinnati Reds",
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Braves 4, Reds 6. Records: Braves 40-20; Reds 30-28",
+          "story_angles": [
+            "Braves-Reds starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
+          "title": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
+          "url": "https://www.mlb.com/transactions",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815567",
+          "summary": "Final: Red Sox 9, Guardians 4. Records: Red Sox 25-33; Guardians 34-27",
+          "key_data": [
+            "Final: Red Sox 9, Guardians 4",
+            "Margin: Red Sox by 5",
+            "Game state: Final - Final",
+            "Current score context: Red Sox 9, Guardians 4",
+            "Records: Red Sox 25-33; Guardians 34-27"
+          ],
+          "why_it_matters": [
+            "Red Sox-Guardians matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians"
+          },
+          "key_data_points": [
+            "Final: Red Sox 9, Guardians 4",
+            "Margin: Red Sox by 5",
+            "Game state: Final - Final",
+            "Current score context: Red Sox 9, Guardians 4",
+            "Records: Red Sox 25-33; Guardians 34-27"
+          ],
+          "url_quality": "exact",
+          "source_domain": "mlb.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Boston Red Sox at Cleveland Guardians",
+            "source_domain": "mlb.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Red Sox 9, Guardians 4. Records: Red Sox 25-33; Guardians 34-27",
+          "story_angles": [
+            "Red Sox-Guardians starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
+          "title": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815573",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815573",
+          "summary": "Final: Tigers 1, White Sox 2. Records: Tigers 22-38; White Sox 32-27",
+          "key_data": [
+            "Final: Tigers 1, White Sox 2",
+            "Margin: White Sox by 1",
+            "Game state: Final - Final",
+            "Current score context: Tigers 1, White Sox 2",
+            "Records: Tigers 22-38; White Sox 32-27"
+          ],
+          "why_it_matters": [
+            "Tigers-White Sox matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox"
+          },
+          "key_data_points": [
+            "Final: Tigers 1, White Sox 2",
+            "Margin: White Sox by 1",
+            "Game state: Final - Final",
+            "Current score context: Tigers 1, White Sox 2",
+            "Records: Tigers 22-38; White Sox 32-27"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Chicago White Sox",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Tigers 1, White Sox 2. Records: Tigers 22-38; White Sox 32-27",
+          "story_angles": [
+            "Tigers-White Sox starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros",
+          "title": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815575",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815575",
+          "summary": "Final: Brewers 2, Astros 0. Records: Brewers 35-21; Astros 27-34",
+          "key_data": [
+            "Final: Brewers 2, Astros 0",
+            "Margin: Brewers by 2",
+            "Game state: Final - Final",
+            "Current score context: Brewers 2, Astros 0",
+            "Records: Brewers 35-21; Astros 27-34"
+          ],
+          "why_it_matters": [
+            "Brewers-Astros matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros"
+          },
+          "key_data_points": [
+            "Final: Brewers 2, Astros 0",
+            "Margin: Brewers by 2",
+            "Game state: Final - Final",
+            "Current score context: Brewers 2, Astros 0",
+            "Records: Brewers 35-21; Astros 27-34"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Milwaukee Brewers at Houston Astros",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Brewers 2, Astros 0. Records: Brewers 35-21; Astros 27-34",
+          "story_angles": [
+            "Brewers-Astros starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers",
+          "title": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815574",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815574",
+          "summary": "Final: Royals 3, Rangers 6. Records: Royals 22-37; Rangers 28-31",
+          "key_data": [
+            "Final: Royals 3, Rangers 6",
+            "Margin: Rangers by 3",
+            "Game state: Final - Final",
+            "Current score context: Royals 3, Rangers 6",
+            "Records: Royals 22-37; Rangers 28-31"
+          ],
+          "why_it_matters": [
+            "Royals-Rangers matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers"
+          },
+          "key_data_points": [
+            "Final: Royals 3, Rangers 6",
+            "Margin: Rangers by 3",
+            "Game state: Final - Final",
+            "Current score context: Royals 3, Rangers 6",
+            "Records: Royals 22-37; Rangers 28-31"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Kansas City Royals at Texas Rangers",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Royals 3, Rangers 6. Records: Royals 22-37; Rangers 28-31",
+          "story_angles": [
+            "Royals-Rangers starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
+          "title": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815568",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815568",
+          "summary": "Final: Marlins 1, Mets 10. Records: Marlins 26-34; Mets 26-33",
+          "key_data": [
+            "Final: Marlins 1, Mets 10",
+            "Margin: Mets by 9",
+            "Game state: Final - Final",
+            "Current score context: Marlins 1, Mets 10",
+            "Records: Marlins 26-34; Mets 26-33"
+          ],
+          "why_it_matters": [
+            "Marlins-Mets matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 85,
+          "game_date": "2026-05-31",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets"
+          },
+          "key_data_points": [
+            "Final: Marlins 1, Mets 10",
+            "Margin: Mets by 9",
+            "Game state: Final - Final",
+            "Current score context: Marlins 1, Mets 10",
+            "Records: Marlins 26-34; Mets 26-33"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Miami Marlins at New York Mets",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Marlins 1, Mets 10. Records: Marlins 26-34; Mets 26-33",
+          "story_angles": [
+            "Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability."
           ],
           "source_label": "Availability"
         }
@@ -3356,11 +4172,71 @@
       "url_quality": "exact"
     },
     {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+      "snapshot": "Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability. records: Marlins 26-34; Mets 26-33; venue: Citi Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815568",
+      "source_label": "Availability",
+      "story_type": "lineup_rotation",
+      "key_data": [
+        "Run margin: 9",
+        "Records: Marlins 26-34; Mets 26-33",
+        "Venue: Citi Field",
+        "Key people: Juan Soto, Francisco Lindor."
+      ],
+      "why_it_matters": [
+        "Marlins-Mets matters because the records show where the result can change the race or team direction.",
+        "New York Mets did more than win; the margin pushes the coverage toward pitching quality, lineup production and whether Miami Marlins has a larger issue to answer.",
+        "Marlins-Mets has current game context: named players, records and price all shape the matchup."
+      ],
+      "what_to_watch": [
+        "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
+        "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story.",
+        "Juan Soto status or form, lineup confirmation and late betting movement need confirmation before the game."
+      ],
+      "story_angles": [
+        "Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability.",
+        "Juan Soto performance or availability as the player lead."
+      ],
+      "editorial_brain": {
+        "version": "v8-network-editorial-brain-source-balanced",
+        "status": "active",
+        "signal": "daily_board",
+        "story_type_detected": "lineup_rotation",
+        "section": "mlb",
+        "label": "MLB",
+        "reader_label": "Availability",
+        "original_source_headline": "New York Mets turns Miami Marlins-New York Mets into a statement result"
+      },
+      "priority_score": 620,
+      "source_index": 2,
+      "editorial_depth": {
+        "news_value": "Availability",
+        "data_context": "present",
+        "source_domain": "espn.com",
+        "standard": "Select, balance and frame stories by consequence, not by feed order.",
+        "original_source_headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+        "source_role": "lineup_rotation_exact",
+        "story_type_detected": "lineup_rotation"
+      },
+      "key_data_points": [
+        "Run margin: 9",
+        "Records: Marlins 26-34; Mets 26-33",
+        "Venue: Citi Field",
+        "Key people: Juan Soto, Francisco Lindor."
+      ],
+      "source_domain": "espn.com",
+      "title": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+      "url_quality": "exact",
+      "summary": "Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability. records: Marlins 26-34; Mets 26-33; venue: Citi Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+    },
+    {
       "league": "NBA",
       "key": "nba",
       "headline": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Knicks-lead starts with Jalen Brunson and Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report....",
-      "url": "https://www.espn.com/nba/game/_/gameId/401859963",
+      "snapshot": "Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center.",
+      "url": "https://apnews.com/hub/nba",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
       "key_data": [
@@ -3403,80 +4279,19 @@
         "Key people: Jalen Brunson.",
         "Record context: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap)."
       ],
-      "source_domain": "espn.com",
-      "editorial_depth": {
-        "news_value": "Availability",
-        "data_context": "present",
-        "source_domain": "espn.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "New York Knicks at San Antonio Spurs",
-        "source_role": "lineup_rotation_exact",
-        "story_type_detected": "lineup_rotation"
-      },
-      "title": "New York Knicks at San Antonio Spurs",
-      "url_quality": "exact",
-      "summary": "Knicks-lead starts with Jalen Brunson and Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report...."
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
-      "snapshot": "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
-      "url": "https://apnews.com/hub/mlb-baseball",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "Run margin: 4",
-        "Records: Blue Jays 29-31; Orioles 28-32",
-        "Key people: Vladimir Guerrero Jr, Adley Rutschman, Gunnar Henderson.",
-        "Record context: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap)."
-      ],
-      "why_it_matters": [
-        "Blue Jays-Orioles matters because the records show where the result can change the race or team direction.",
-        "Baltimore Orioles's result over Toronto Blue Jays is useful only after the coverage checks what drove it: pitching, lineup choices, injuries, bullpen usage or postseason position.",
-        "Blue Jays-Orioles has current game context: named players, records and price all shape the matchup."
-      ],
-      "what_to_watch": [
-        "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr.",
-        "Next check: postseason position, series context and whether either club created a pitching-availability problem for the next game.",
-        "Use Statcast, pitch mix or batted-ball quality only when those data points support the human story.",
-        "Vladimir Guerrero Jr. status or form, lineup confirmation and late betting movement need confirmation before the game."
-      ],
-      "story_angles": [
-        "Blue Jays-Orioles starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Vladimir Guerrero Jr. performance or availability as the player lead."
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "betting_market",
-        "story_type_detected": "lineup_rotation",
-        "section": "mlb",
-        "label": "MLB",
-        "reader_label": "Availability",
-        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays"
-      },
-      "priority_score": 578,
-      "source_index": 0,
+      "source_domain": "apnews.com",
       "editorial_depth": {
         "news_value": "Availability",
         "data_context": "present",
         "source_domain": "apnews.com",
         "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+        "original_source_headline": "New York Knicks at San Antonio Spurs",
         "source_role": "lineup_rotation_link_health_source",
         "story_type_detected": "lineup_rotation"
       },
-      "key_data_points": [
-        "Run margin: 4",
-        "Records: Blue Jays 29-31; Orioles 28-32",
-        "Key people: Vladimir Guerrero Jr, Adley Rutschman, Gunnar Henderson.",
-        "Record context: Blue Jays 29-31; Orioles 28-32 (0.017 win-pct gap)."
-      ],
-      "source_domain": "apnews.com",
-      "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
+      "title": "New York Knicks at San Antonio Spurs",
       "url_quality": "hub",
-      "summary": "Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+      "summary": "Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center."
     }
   ],
   "live_newsroom": [
@@ -3487,7 +4302,7 @@
       "title": "four-champion Hinges on Goalies, Special Teams",
       "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
       "signal": "Digest lead",
-      "updated_at": "2026-05-31 04:01:56 PM ET",
+      "updated_at": "2026-05-31 05:45:15 PM ET",
       "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
       "editorial_depth": {
         "original_source_headline": "four-champion Hinges on Goalies, Special Teams",
@@ -3515,22 +4330,52 @@
       "summary": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup."
     },
     {
-      "section": "nba",
-      "label": "NBA",
-      "headline": "New York Knicks at San Antonio Spurs",
-      "title": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Knicks-lead starts with York Knicks. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation,....",
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+      "title": "New York Mets turns Miami Marlins-New York Mets into a statement result",
+      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Marlins 26-34; Mets 26-33. Venue: Citi Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
       "signal": "Availability",
-      "updated_at": "2026-05-31 04:01:56 PM ET",
-      "url": "https://www.espn.com/nba/game/_/gameId/401859963",
+      "updated_at": "2026-05-31 05:45:15 PM ET",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815568",
       "editorial_depth": {
-        "original_source_headline": "New York Knicks at San Antonio Spurs",
+        "original_source_headline": "New York Mets turns Miami Marlins-New York Mets into a statement result",
         "source_domain": "espn.com",
         "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
       "url_quality": "exact",
       "source_domain": "espn.com",
+      "key_data": [],
+      "key_data_points": [],
+      "why_it_matters": [
+        "MLB depends on availability, form and standings impact."
+      ],
+      "what_to_watch": [],
+      "story_angles": [
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+      ],
+      "story_type": "lineup_rotation",
+      "source_label": "Availability",
+      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Marlins 26-34; Mets 26-33. Venue: Citi Field. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+    },
+    {
+      "section": "nba",
+      "label": "NBA",
+      "headline": "New York Knicks at San Antonio Spurs",
+      "title": "New York Knicks at San Antonio Spurs",
+      "snapshot": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report.",
+      "signal": "Availability",
+      "updated_at": "2026-05-31 05:45:15 PM ET",
+      "url": "https://www.foxsports.com/nba/stories",
+      "editorial_depth": {
+        "original_source_headline": "New York Knicks at San Antonio Spurs",
+        "source_domain": "foxsports.com",
+        "source_role": "lineup_rotation_link_health_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "url_quality": "hub",
+      "source_domain": "foxsports.com",
       "key_data": [
         "Key people: Jalen Brunson."
       ],
@@ -3546,42 +4391,12 @@
       ],
       "story_type": "lineup_rotation",
       "source_label": "Availability",
-      "summary": "Knicks-lead starts with York Knicks. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation,...."
-    },
-    {
-      "section": "mlb",
-      "label": "MLB",
-      "headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
-      "title": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
-      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
-      "signal": "Availability",
-      "updated_at": "2026-05-31 04:01:56 PM ET",
-      "url": "https://www.foxsports.com/mlb/stories",
-      "editorial_depth": {
-        "original_source_headline": "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays",
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
-      "key_data": [],
-      "key_data_points": [],
-      "why_it_matters": [
-        "MLB depends on availability, form and standings impact."
-      ],
-      "what_to_watch": [],
-      "story_angles": [
-        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
+      "summary": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report."
     }
   ],
   "editor_signals": [
     "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60: Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form. .",
-    "New York Knicks at San Antonio Spurs: Knicks-lead starts with Jalen Brunson and Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT.",
-    "Baltimore Orioles gains ground in a tight matchup with Toronto Blue Jays: Probable Pitchers, posted lineups, weather and bullpen availability, plus Vladimir Guerrero Jr. records: Blue Jays 29-31; Orioles 28-32. Pitcher confirmation, lineup shape and bullpen."
+    "New York Mets turns Miami Marlins-New York Mets into a statement result: Marlins-Mets starts with pitcher confirmation, lineup shape and bullpen availability. records: Marlins 26-34; Mets 26-33; venue: Citi Field. Pitcher confirmation, lineup shape and.",
+    "New York Knicks at San Antonio Spurs: Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 218.5; time/status: 6/3 - 8:30 PM."
   ]
 }
