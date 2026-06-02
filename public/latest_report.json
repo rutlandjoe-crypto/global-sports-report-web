@@ -6,13 +6,13 @@
   "key_storylines": [
     "NHL: Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
     "Soccer: Villarreal to sign Rayo Vallecano's Iñigo Pérez as coach",
-    "MLB: Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
+    "MLB: Detroit Tigers at Tampa Bay Rays",
     "NBA: New York Knicks at San Antonio Spurs"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
-  "generated_at": "2026-06-01 06:27:17 PM ET",
-  "updated_at": "2026-06-01 06:27:17 PM ET",
-  "published_at": "2026-06-01 06:27:17 PM ET",
+  "generated_at": "2026-06-01 08:03:10 PM ET",
+  "updated_at": "2026-06-01 08:03:10 PM ET",
+  "published_at": "2026-06-01 08:03:10 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -20,58 +20,48 @@
   "editorial_standard": "Data supports the reporting process; GSR cards should read with human newsroom judgment, source balance, context, analytics and restraint.",
   "sections": {
     "mlb": {
-      "title": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
+      "title": "Detroit Tigers at Tampa Bay Rays",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-06-01 06:26:51 PM ET",
-      "content": "MLB REPORT | 2026-06-01 HEADLINE Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch SNAPSHOT MLB board for 2026-06-01 ET: 0 finals, 0 live games and 9 scheduled games. KEY STORYLINES Pitching plans frame Detroit Tigers-Tampa Bay Rays...",
+      "updated_at": "2026-06-01 08:02:45 PM ET",
+      "content": "MLB REPORT | 2026-06-01 HEADLINE Detroit Tigers-Tampa Bay Rays is live, but the story depends on leverage and decision points SNAPSHOT MLB board for 2026-06-01 ET: 0 finals, 6 live games and 3 scheduled games. KEY STORYLINES Live update: Detroit Tigers-Tampa....",
       "key": "mlb",
       "label": "MLB",
-      "headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
-      "snapshot": "Ty Madden and Griffin Jax are the listed probables; records: Tigers 22-38; Rays 36-20 (0.276 win-pct gap); line: TB -162; total 8.0; time/status: 6:40 PM ET; venue: Tropicana Field. Lineup scratches, bullpen workload and late price movement are the next.",
+      "headline": "Detroit Tigers at Tampa Bay Rays",
+      "snapshot": "MLB has current game context: time/status: Middle 5th; venue: Tropicana Field. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Ty Madden, Griffin Jax.",
-        "Record context: Tigers 22-38; Rays 36-20 (0.276 win-pct gap)."
+        "MLB: live or final score context is available."
       ],
       "key_data_points": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Ty Madden, Griffin Jax.",
-        "Record context: Tigers 22-38; Rays 36-20 (0.276 win-pct gap)."
+        "MLB: live or final score context is available."
       ],
       "why_it_matters": [
-        "Tigers-Opens depends on availability, form and standings impact.",
+        "MLB depends on availability, form and standings impact.",
         "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance.",
-        "Tigers-Rays has current game context: named players, records and price all shape the matchup."
+        "The score matters most when it changes the standings, rotation choices or next matchup."
       ],
       "what_to_watch": [
-        "The score matters most when it changes the standings, rotation choices or next matchup.",
-        "Late availability, momentum, market movement or a lineup decision can change the update.",
-        "Ty Madden status or form, lineup confirmation and late betting movement need confirmation before the game."
+        "Late availability, momentum, market movement or a lineup decision can change the update."
       ],
       "story_angles": [
-        "Tigers-Opens starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Ty Madden performance or availability as the player lead."
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
+        "signal": "pressure_watch",
         "story_type_detected": "lineup_rotation",
         "section": "mlb",
         "label": "MLB",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context",
-        "original_source_headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch"
+        "reader_label": "Pressure point",
+        "original_source_headline": "Detroit Tigers at Tampa Bay Rays"
       },
       "story_type": "lineup_rotation",
       "url": "https://www.mlb.com/scores",
       "editorial_depth": {
-        "original_source_headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
+        "original_source_headline": "Detroit Tigers at Tampa Bay Rays",
         "source_domain": "mlb.com",
         "source_role": "lineup_rotation_source",
         "story_type_detected": "lineup_rotation"
@@ -85,7 +75,7 @@
     "nba": {
       "title": "New York Knicks at San Antonio Spurs",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-06-01 06:26:52 PM ET",
+      "updated_at": "2026-06-01 08:02:47 PM ET",
       "content": "NBA REPORT | 2026-06-01 HEADLINE New York Knicks-San Antonio Spurs brings named-player and market context into the pregame read SNAPSHOT 1 NBA games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing story stakes over score lines,....",
       "key": "nba",
       "label": "NBA",
@@ -145,7 +135,7 @@
     "nhl": {
       "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-06-01 06:26:52 PM ET",
+      "updated_at": "2026-06-01 08:02:47 PM ET",
       "content": "NHL REPORT | 2026-06-01 HEADLINE Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60 SNAPSHOT 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing hockey stakes over score lines, with attention on major death,. .",
       "key": "nhl",
       "label": "NHL",
@@ -231,7 +221,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-06-01",
-          "updated_at": "2026-06-01 06:26:52 PM ET",
+          "updated_at": "2026-06-01 08:02:47 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "foxsports.com",
@@ -286,7 +276,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-06-01",
-          "updated_at": "2026-06-01 06:26:52 PM ET",
+          "updated_at": "2026-06-01 08:02:47 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "apnews.com",
@@ -306,7 +296,7 @@
     "nfl": {
       "title": "NFL News",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-06-01 06:26:54 PM ET",
+      "updated_at": "2026-06-01 08:02:50 PM ET",
       "content": "NFL REPORT | 2026-06-01 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
@@ -364,7 +354,7 @@
     "ncaafb": {
       "title": "Tarleton State Texans at Bowling Green Falcons",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-06-01 06:26:55 PM ET",
+      "updated_at": "2026-06-01 08:02:51 PM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
@@ -405,7 +395,7 @@
     "soccer": {
       "title": "Hamstring injury left Spain's Lamine Yamal fearful of missing World Cup",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-06-01 06:26:53 PM ET",
+      "updated_at": "2026-06-01 08:02:49 PM ET",
       "content": "SOCCER REPORT | 2026-06-01 HEADLINE Hamstring injury left Spain's Lamine Yamal fearful of missing World Cup SNAPSHOT Soccer board refreshed with 16 news items, 0 live matches, 6 post-match reads and 0 upcoming items. the coverage is prioritizing. .",
       "key": "soccer",
       "label": "Soccer",
@@ -467,8 +457,8 @@
           "title": "Hamstring injury left Spain's Lamine Yamal fearful of missing World Cup",
           "url": "https://www.espn.com/soccer/story/_/id/48930567/lamine-yamal-spain-fifa-world-cup-barcelona",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930567/lamine-yamal-spain-fifa-world-cup-barcelona",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -619,8 +609,8 @@
           "title": "France's William Saliba very doubtful for World Cup - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48938049/france-william-saliba-doubtful-world-cup-sources",
           "source_url": "https://www.espn.com/soccer/story/_/id/48938049/france-william-saliba-doubtful-world-cup-sources",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: Premier League",
             "world cup 2026 runway",
@@ -722,8 +712,8 @@
           "title": "Rodri will wait until World Cup is over to discuss future amid Real Madrid links",
           "url": "https://www.espn.com/soccer/story/_/id/48938327/rodri-wait-world-cup-discuss-future",
           "source_url": "https://www.espn.com/soccer/story/_/id/48938327/rodri-wait-world-cup-discuss-future",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: Premier League",
             "world cup 2026 runway",
@@ -774,8 +764,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1444,8 +1434,8 @@
           "title": "Hamstring injury left Spain's Lamine Yamal fearful of missing World Cup",
           "url": "https://www.fifa.com/en",
           "source_url": "https://www.espn.com/soccer/story/_/id/48930567/lamine-yamal-spain-fifa-world-cup-barcelona",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: La Liga",
             "world cup 2026 runway",
@@ -1596,8 +1586,8 @@
           "title": "France's William Saliba very doubtful for World Cup - sources",
           "url": "https://www.cbssports.com/soccer/news/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48938049/france-william-saliba-doubtful-world-cup-sources",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: Premier League",
             "world cup 2026 runway",
@@ -1699,8 +1689,8 @@
           "title": "Rodri will wait until World Cup is over to discuss future amid Real Madrid links",
           "url": "https://www.cbssports.com/soccer/scores/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48938327/rodri-wait-world-cup-discuss-future",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: Premier League",
             "world cup 2026 runway",
@@ -1751,8 +1741,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.cbssports.com/soccer/standings/",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
+          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late lineup, availability and....",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -2417,8 +2407,8 @@
     "betting_odds": {
       "title": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-06-01 06:26:54 PM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-06-01 06:26:54 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-06-01 06:26:54 PM ET",
+      "updated_at": "2026-06-01 08:02:50 PM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-06-01 08:02:50 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-06-01 08:02:50 PM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
       "headline": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
@@ -2545,31 +2535,31 @@
       ]
     },
     "fantasy": {
-      "title": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks",
+      "title": "MLB fantasy Next check: starts with live usage in Kansas City Royals at Cincinnati Reds",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-06-01 06:26:55 PM ET",
-      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver. .",
+      "updated_at": "2026-06-01 08:02:51 PM ET",
+      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Kansas City Royals at Cincinnati Reds SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
       "key": "fantasy",
       "label": "Fantasy",
-      "headline": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks",
-      "snapshot": "games-spikes has current game context: line: SEA -3.5; total 44.5; venue: Lumen Field. Availability, lineup decisions and standings or market consequence set the next update.",
+      "headline": "MLB fantasy Next check: starts with live usage in Kansas City Royals at Cincinnati Reds",
+      "snapshot": "Royals-Reds has current game context: records: Royals 22-37; Reds 30-28 (0.144 win-pct gap); venue: Great American Ball Park. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Line: SEA -3.5; total 44.5."
+        "Record context: Royals 22-37; Reds 30-28 (0.144 win-pct gap)."
       ],
       "key_data_points": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Line: SEA -3.5; total 44.5."
+        "Record context: Royals 22-37; Reds 30-28 (0.144 win-pct gap)."
       ],
       "why_it_matters": [
-        "games-spikes matters because the price shows how strongly the market leans before lineup news closes.",
+        "Royals-Starts depends on availability, form and standings impact.",
         "Fantasy coverage should turn game data into lineup, waiver and role context rather than market schedule summaries.",
         "The highest-value signals are repeatable opportunity, injury fallout, role movement, rotation changes and matchup-driven usage.",
-        "games-spikes has current game context: named players, records and price all shape the matchup."
+        "Royals-Reds has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Role changes, usage, injury designations, waiver availability and lineup deadlines decide the fantasy value.",
@@ -2578,23 +2568,23 @@
         "Waiver relevance created by injuries, bench promotions or depth-chart movement."
       ],
       "story_angles": [
-        "games-spikes hinges on role security, usage and injury-driven lineup decisions."
+        "Royals-Starts hinges on role security, usage and injury-driven lineup decisions."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
+        "signal": "availability_or_roster",
         "story_type_detected": "fantasy_implication",
         "section": "fantasy",
         "label": "Fantasy",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context",
-        "original_source_headline": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks"
+        "reader_label": "Availability",
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in Kansas City Royals at Cincinnati Reds"
       },
       "story_type": "fantasy_implication",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401872656",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815581",
       "editorial_depth": {
-        "original_source_headline": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks",
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in Kansas City Royals at Cincinnati Reds",
         "source_domain": "espn.com",
         "source_role": "fantasy_implication_exact",
         "story_type_detected": "fantasy_implication"
@@ -2729,52 +2719,41 @@
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
-      "snapshot": "Late availability, momentum, market movement or a lineup decision can change the update. line: Ty Madden and Griffin Jax are the listed probables; records: Tigers 22-38; Rays 36-20 (0.276 win-pct gap); line: TB -162; total 8.0; time/status: 6:40 PM ET.",
+      "headline": "Detroit Tigers at Tampa Bay Rays",
+      "snapshot": "MLB has current game context: time/status: Middle 5th; venue: Tropicana Field. Availability, lineup decisions and standings or market consequence set the next update. Late lineup, availability and schedule context remain the next checks. Pitcher.",
       "url": "https://apnews.com/hub/mlb-baseball",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Ty Madden, Griffin Jax.",
-        "Record context: Tigers 22-38; Rays 36-20 (0.276 win-pct gap)."
+        "MLB: live or final score context is available."
       ],
       "why_it_matters": [
-        "Tigers-Rays depends on availability, form and standings impact.",
-        "Tigers-Opens depends on availability, form and standings impact.",
+        "MLB depends on availability, form and standings impact.",
         "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance."
+        "The score matters most when it changes the standings, rotation choices or next matchup."
       ],
       "what_to_watch": [
-        "The score matters most when it changes the standings, rotation choices or next matchup.",
-        "Late availability, momentum, market movement or a lineup decision can change the update.",
-        "Ty Madden status or form, lineup confirmation and late betting movement need confirmation before the game."
+        "Late availability, momentum, market movement or a lineup decision can change the update."
       ],
       "story_angles": [
-        "Tigers-Rays starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Tigers-Opens starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Ty Madden performance or availability as the player lead."
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
+        "signal": "pressure_watch",
         "story_type_detected": "lineup_rotation",
         "section": "mlb",
         "label": "MLB",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context",
-        "original_source_headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch"
+        "reader_label": "Pressure point",
+        "original_source_headline": "Detroit Tigers at Tampa Bay Rays"
       },
-      "priority_score": 676,
+      "priority_score": 708,
       "key_data_points": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Ty Madden, Griffin Jax.",
-        "Record context: Tigers 22-38; Rays 36-20 (0.276 win-pct gap)."
+        "MLB: live or final score context is available."
       ],
       "source_domain": "apnews.com",
       "editorial_depth": {
@@ -2782,13 +2761,13 @@
         "data_context": "present",
         "source_domain": "apnews.com",
         "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
+        "original_source_headline": "Detroit Tigers at Tampa Bay Rays",
         "source_role": "lineup_rotation_link_health_source",
         "story_type_detected": "lineup_rotation"
       },
-      "title": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
+      "title": "Detroit Tigers at Tampa Bay Rays",
       "url_quality": "hub",
-      "summary": "Late availability, momentum, market movement or a lineup decision can change the update. line: Ty Madden and Griffin Jax are the listed probables; records: Tigers 22-38; Rays 36-20 (0.276 win-pct gap); line: TB -162; total 8.0; time/status: 6:40 PM ET."
+      "summary": "MLB has current game context: time/status: Middle 5th; venue: Tropicana Field. Availability, lineup decisions and standings or market consequence set the next update. Late lineup, availability and schedule context remain the next checks. Pitcher."
     },
     {
       "league": "NBA",
@@ -2861,7 +2840,7 @@
       "title": "four-champion Hinges on Goalies, Special Teams",
       "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
       "signal": "Digest lead",
-      "updated_at": "2026-06-01 06:27:27 PM ET",
+      "updated_at": "2026-06-01 08:03:17 PM ET",
       "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
       "editorial_depth": {
         "original_source_headline": "four-champion Hinges on Goalies, Special Teams",
@@ -2893,9 +2872,9 @@
       "label": "Soccer",
       "headline": "Villarreal to sign Rayo Vallecano's Iñigo Pérez as coach",
       "title": "Villarreal to sign Rayo Vallecano's Iñigo Pérez as coach",
-      "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+      "snapshot": "Villarreal said Monday they reached a deal to hire coach Iñigo Pérez, who led fellow Spanish club Rayo Vallecano to the final of the UEFA Conference League this season. Late lineup, availability and schedule context remain the next checks. Starting XIs,. .",
       "signal": "Availability",
-      "updated_at": "2026-06-01 06:27:27 PM ET",
+      "updated_at": "2026-06-01 08:03:17 PM ET",
       "url": "https://www.espn.com/soccer/story/_/id/48938308/villarreal-sign-rayo-vallecano-inigo-perez-coach",
       "editorial_depth": {
         "original_source_headline": "Villarreal to sign Rayo Vallecano's Iñigo Pérez as coach",
@@ -2922,19 +2901,19 @@
       ],
       "story_type": "trade_story",
       "source_label": "Availability",
-      "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update."
+      "summary": "Villarreal said Monday they reached a deal to hire coach Iñigo Pérez, who led fellow Spanish club Rayo Vallecano to the final of the UEFA Conference League this season. Late lineup, availability and schedule context remain the next checks. Starting XIs,. ."
     },
     {
       "section": "mlb",
       "label": "MLB",
-      "headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
-      "title": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
-      "snapshot": "Tigers-Rays starts with pitcher confirmation, lineup shape and bullpen availability. line: Ty Madden and Griffin Jax are the listed probables; records: Tigers 22-38; Rays 36-20 (0.276 win-pct gap); line: TB -162; total 8.0; time/status: 6:40 PM ET; venue:.",
+      "headline": "Detroit Tigers at Tampa Bay Rays",
+      "title": "Detroit Tigers at Tampa Bay Rays",
+      "snapshot": "MLB has current game context: time/status: Middle 5th; venue: Tropicana Field. Availability, lineup decisions and standings or market consequence set the next update. Late lineup, availability and schedule context remain the next checks. Pitcher.",
       "signal": "Availability",
-      "updated_at": "2026-06-01 06:27:27 PM ET",
+      "updated_at": "2026-06-01 08:03:17 PM ET",
       "url": "https://www.foxsports.com/mlb/stories",
       "editorial_depth": {
-        "original_source_headline": "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch",
+        "original_source_headline": "Detroit Tigers at Tampa Bay Rays",
         "source_domain": "foxsports.com",
         "source_role": "lineup_rotation_link_health_source",
         "story_type_detected": "lineup_rotation"
@@ -2944,24 +2923,24 @@
       "key_data": [],
       "key_data_points": [],
       "why_it_matters": [
-        "Tigers-Rays depends on availability, form and standings impact."
+        "MLB depends on availability, form and standings impact."
       ],
       "what_to_watch": [],
       "story_angles": [
-        "Tigers-Rays starts with pitcher confirmation, lineup shape and bullpen availability."
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
       ],
       "story_type": "lineup_rotation",
       "source_label": "Availability",
-      "summary": "Tigers-Rays starts with pitcher confirmation, lineup shape and bullpen availability. line: Ty Madden and Griffin Jax are the listed probables; records: Tigers 22-38; Rays 36-20 (0.276 win-pct gap); line: TB -162; total 8.0; time/status: 6:40 PM ET; venue:."
+      "summary": "MLB has current game context: time/status: Middle 5th; venue: Tropicana Field. Availability, lineup decisions and standings or market consequence set the next update. Late lineup, availability and schedule context remain the next checks. Pitcher."
     },
     {
       "section": "nba",
       "label": "NBA",
       "headline": "New York Knicks at San Antonio Spurs",
       "title": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report.",
+      "snapshot": "Knicks-lead starts with Jalen Brunson. Key and Jalen Brunson Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center....",
       "signal": "Availability",
-      "updated_at": "2026-06-01 06:27:27 PM ET",
+      "updated_at": "2026-06-01 08:03:17 PM ET",
       "url": "https://www.foxsports.com/nba/stories",
       "editorial_depth": {
         "original_source_headline": "New York Knicks at San Antonio Spurs",
@@ -2986,13 +2965,13 @@
       ],
       "story_type": "lineup_rotation",
       "source_label": "Availability",
-      "summary": "Knicks-lead starts with Jalen Brunson. Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report."
+      "summary": "Knicks-lead starts with Jalen Brunson. Key and Jalen Brunson Key. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center...."
     }
   ],
   "editor_signals": [
     "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60: Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form. .",
     "Villarreal to sign Rayo Vallecano's Iñigo Pérez as coach: transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-    "Pitching plans frame Detroit Tigers-Tampa Bay Rays before first pitch: Late availability, momentum, market movement or a lineup decision can change the update. line: Ty Madden and Griffin Jax are the listed probables; records: Tigers 22-38; Rays 36-20 (0.276....",
+    "Detroit Tigers at Tampa Bay Rays: MLB has current game context: time/status: Middle 5th; venue: Tropicana Field. Availability, lineup decisions and standings or market consequence set the next update. Late lineup, availability and schedule context remain the....",
     "New York Knicks at San Antonio Spurs: Knicks-lead starts with San Antonio Spurs and Jalen Brunson. Record. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -5.5; total 218.5; time/status:. ."
   ]
 }
