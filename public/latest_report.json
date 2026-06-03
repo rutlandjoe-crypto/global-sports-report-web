@@ -5,14 +5,13 @@
   "headline": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
   "key_storylines": [
     "NHL: Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
-    "MLB: Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-    "Soccer: Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-    "NBA: New York Knicks at San Antonio Spurs"
+    "NBA: New York Knicks at San Antonio Spurs",
+    "MLB: Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk"
   ],
   "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
-  "generated_at": "2026-06-03 11:23:36 AM ET",
-  "updated_at": "2026-06-03 11:23:36 AM ET",
-  "published_at": "2026-06-03 11:23:36 AM ET",
+  "generated_at": "2026-06-03 03:39:24 PM ET",
+  "updated_at": "2026-06-03 03:39:24 PM ET",
+  "published_at": "2026-06-03 03:39:24 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -20,58 +19,51 @@
   "editorial_standard": "Data supports the reporting process; GSR cards should read with human newsroom judgment, source balance, context, analytics and restraint.",
   "sections": {
     "mlb": {
-      "title": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
+      "title": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-06-03 11:23:11 AM ET",
-      "content": "MLB REPORT | 2026-06-03 HEADLINE Pitching plans frame Miami Marlins-Washington Nationals before first pitch SNAPSHOT MLB board for 2026-06-03 ET: 0 finals, 0 live games and 15 scheduled games. KEY STORYLINES Pitching plans frame Miami Marlins-Washington. .",
+      "updated_at": "2026-06-03 03:38:57 PM ET",
+      "content": "MLB REPORT | 2026-06-03 HEADLINE Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage SNAPSHOT MLB board for 2026-06-03 ET: 1 finals, 2 live games and 12 scheduled games. KEY STORYLINES Live update: Late-inning leverage puts Miami....",
       "key": "mlb",
       "label": "MLB",
-      "headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-      "snapshot": "Max Meyer and Andrew Alvarez are the listed probables; records: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap); line: MIA -112; total 8.5; time/status: 1:05 PM ET; venue: Nationals Park. Lineup scratches, bullpen workload and late price movement are the.",
+      "headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
+      "snapshot": "The listed starters and bullpen availability carry the first read; records: Tigers 25-38; Rays 36-23 (0.213 win-pct gap); venue: Tropicana Field. Lineup scratches, bullpen workload and late price movement are the next verification points.",
       "key_data": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
         "MLB: live or final score context is available.",
-        "Listed probables: Max Meyer, Andrew Alvarez.",
-        "Record context: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap)."
+        "Record context: Tigers 25-38; Rays 36-23 (0.213 win-pct gap)."
       ],
       "key_data_points": [
         "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
         "MLB: live or final score context is available.",
-        "Listed probables: Max Meyer, Andrew Alvarez.",
-        "Record context: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap)."
+        "Record context: Tigers 25-38; Rays 36-23 (0.213 win-pct gap)."
       ],
       "why_it_matters": [
-        "Marlins-Opens depends on availability, form and standings impact.",
+        "MLB depends on availability, form and standings impact.",
         "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance.",
-        "Marlins-Nationals has current game context: named players, records and price all shape the matchup."
+        "The score matters most when it changes the standings, rotation choices or next matchup.",
+        "Tigers-Rays has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
-        "The score matters most when it changes the standings, rotation choices or next matchup.",
-        "Late availability, momentum, market movement or a lineup decision can change the update.",
-        "Max Meyer status or form, lineup confirmation and late betting movement need confirmation before the game."
+        "Late availability, momentum, market movement or a lineup decision can change the update."
       ],
       "story_angles": [
-        "Marlins-Opens starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Max Meyer performance or availability as the player lead."
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
       ],
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
+        "signal": "pressure_watch",
         "story_type_detected": "lineup_rotation",
         "section": "mlb",
         "label": "MLB",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context",
-        "original_source_headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch"
+        "reader_label": "Pressure point",
+        "original_source_headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage"
       },
       "story_type": "lineup_rotation",
       "url": "https://www.mlb.com/scores",
       "editorial_depth": {
-        "original_source_headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
+        "original_source_headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
         "source_domain": "mlb.com",
         "source_role": "lineup_rotation_source",
         "story_type_detected": "lineup_rotation"
@@ -79,18 +71,120 @@
       "source_label": "Availability",
       "source_domain": "mlb.com",
       "json_source_file": "mlb_report.json",
-      "cards": [],
-      "stories": []
+      "cards": [
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
+          "title": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
+          "summary": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Miami Marlins 3, Washington Nationals 1; venue: Nationals Park; status: Bottom 8th. Pitcher.",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815608",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815608",
+          "key_data": [
+            "Current score for context: Miami Marlins 3, Washington Nationals 1",
+            "Status: Bottom 8th",
+            "Venue: Nationals Park",
+            "Miami Marlins lead Washington Nationals 3-1 in Bottom 8th",
+            "Time/status: Bottom 8th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-06-03",
+          "game_time": "1:05 PM ET",
+          "status": "Bottom 8th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Miami Marlins 3, Washington Nationals 1; venue: Nationals Park; status: Bottom 8th. Pitcher.",
+          "key_data_points": [
+            "Current score for context: Miami Marlins 3, Washington Nationals 1",
+            "Status: Bottom 8th",
+            "Venue: Nationals Park",
+            "Miami Marlins lead Washington Nationals 3-1 in Bottom 8th",
+            "Time/status: Bottom 8th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability"
+        }
+      ],
+      "stories": [
+        {
+          "league": "MLB",
+          "label": "Live update",
+          "headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
+          "title": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
+          "summary": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Miami Marlins 3, Washington Nationals 1; venue: Nationals Park; status: Bottom 8th. Pitcher.",
+          "url": "https://www.foxsports.com/mlb/stories",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815608",
+          "key_data": [
+            "Current score for context: Miami Marlins 3, Washington Nationals 1",
+            "Status: Bottom 8th",
+            "Venue: Nationals Park",
+            "Miami Marlins lead Washington Nationals 3-1 in Bottom 8th",
+            "Time/status: Bottom 8th"
+          ],
+          "why_it_matters": [
+            "MLB depends on availability, form and standings impact.",
+            "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+          ],
+          "what_to_watch": [
+            "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+            "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "live",
+          "game_date": "2026-06-03",
+          "game_time": "1:05 PM ET",
+          "status": "Bottom 8th",
+          "scoreboard_note": "The card lead should remain a story angle, not a score line.",
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "editorial_depth": {
+            "original_source_headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage",
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB coverage has live score movement, putting bullpen usage and late-inning leverage next. Score: Miami Marlins 3, Washington Nationals 1; venue: Nationals Park; status: Bottom 8th. Pitcher.",
+          "key_data_points": [
+            "Current score for context: Miami Marlins 3, Washington Nationals 1",
+            "Status: Bottom 8th",
+            "Venue: Nationals Park",
+            "Miami Marlins lead Washington Nationals 3-1 in Bottom 8th",
+            "Time/status: Bottom 8th"
+          ],
+          "story_angles": [
+            "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+          ],
+          "source_label": "Availability"
+        }
+      ]
     },
     "nba": {
       "title": "New York Knicks at San Antonio Spurs",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-06-03 11:23:12 AM ET",
+      "updated_at": "2026-06-03 03:38:57 PM ET",
       "content": "NBA REPORT | 2026-06-03 HEADLINE New York Knicks-San Antonio Spurs brings named-player and market context into the pregame read SNAPSHOT 1 NBA games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing story stakes over score lines,....",
       "key": "nba",
       "label": "NBA",
       "headline": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 219.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late spread movement.",
+      "snapshot": "Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 217.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation, starting groups and late spread movement.",
       "key_data": [
         "NBA: availability or roster movement is attached to the story.",
         "NBA: betting context can show expectation when paired with team news.",
@@ -145,7 +239,7 @@
     "nhl": {
       "title": "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-06-03 11:23:12 AM ET",
+      "updated_at": "2026-06-03 03:38:57 PM ET",
       "content": "NHL REPORT | 2026-06-03 HEADLINE Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60 SNAPSHOT 1 NHL games are on the slate: 0 live, 0 final and 1 upcoming. the coverage is prioritizing hockey stakes over score lines, with attention on major death,. .",
       "key": "nhl",
       "label": "NHL",
@@ -231,7 +325,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-06-03",
-          "updated_at": "2026-06-03 11:23:12 AM ET",
+          "updated_at": "2026-06-03 03:38:57 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "foxsports.com",
@@ -286,7 +380,7 @@
           "story_type": "obituary",
           "game_status": "news",
           "game_date": "2026-06-03",
-          "updated_at": "2026-06-03 11:23:12 AM ET",
+          "updated_at": "2026-06-03 03:38:57 PM ET",
           "priority_score": 320,
           "url_quality": "exact",
           "source_domain": "apnews.com",
@@ -306,7 +400,7 @@
     "nfl": {
       "title": "NFL News",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-06-03 11:23:13 AM ET",
+      "updated_at": "2026-06-03 03:38:58 PM ET",
       "content": "NFL REPORT | 2026-06-03 HEADLINE NFL offseason board turns toward quarterbacks, rookie roles and roster pressure SNAPSHOT 6 NFL analysis cards are active. With the season not yet underway, the slate is focused on roster construction, quarterback clarity,. .",
       "key": "nfl",
       "label": "NFL",
@@ -364,7 +458,7 @@
     "ncaafb": {
       "title": "Tarleton State Texans at Bowling Green Falcons",
       "source_file": "ncaafb_report.txt",
-      "updated_at": "2026-06-03 11:23:14 AM ET",
+      "updated_at": "2026-06-03 03:39:00 PM ET",
       "content": "",
       "key": "ncaafb",
       "label": "College Football",
@@ -405,7 +499,7 @@
     "soccer": {
       "title": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-06-03 11:23:13 AM ET",
+      "updated_at": "2026-06-03 03:38:58 PM ET",
       "content": "SOCCER REPORT | 2026-06-03 HEADLINE Sources: Hoyos to stay as Inter Miami coach post-World Cup SNAPSHOT Soccer board refreshed with 19 news items, 0 live matches, 3 post-match reads and 0 upcoming items. the coverage is prioritizing interpretation over. .",
       "key": "soccer",
       "label": "Soccer",
@@ -465,10 +559,10 @@
           "label": "MLS News Read",
           "headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
           "title": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-          "url": "https://www.fifa.com/en",
+          "url": "https://www.espn.com/soccer/story/_/id/48948694/inter-miami-coach-guillermo-hoyos-world-cup-mls",
           "source_url": "https://www.espn.com/soccer/story/_/id/48948694/inter-miami-coach-guillermo-hoyos-world-cup-mls",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -498,11 +592,11 @@
           "story_type": "lineup_rotation",
           "priority_score": 221,
           "url_quality": "exact",
-          "source_domain": "fifa.com",
+          "source_domain": "espn.com",
           "editorial_depth": {
             "original_source_headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-            "source_domain": "fifa.com",
-            "source_role": "lineup_rotation_link_health_source",
+            "source_domain": "espn.com",
+            "source_role": "coaching_pressure_exact",
             "story_type_detected": "lineup_rotation"
           },
           "key_data_points": [
@@ -519,8 +613,8 @@
           "title": "Davide Ancelotti hired to lead Lille in Champions League return",
           "url": "https://www.espn.com/soccer/story/_/id/48938104/davide-ancelotti-signs-deal-lille-champions-league-return",
           "source_url": "https://www.espn.com/soccer/story/_/id/48938104/davide-ancelotti-signs-deal-lille-champions-league-return",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "manager or coaching pressure",
@@ -570,8 +664,8 @@
           "title": "Man United agree deal with Atalanta for Éderson - sources",
           "url": "https://www.espn.com/soccer/story/_/id/48953983/man-united-agree-deal-atalanta-ederson-sources",
           "source_url": "https://www.espn.com/soccer/story/_/id/48953983/man-united-agree-deal-atalanta-ederson-sources",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Manchester United have agreed a deal with Atalanta for midfielder Éderson, sources have told ESPN.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -621,8 +715,8 @@
           "title": "Ivory Coast's Yan Diomande on his own journey as FIFA World Cup approaches",
           "url": "https://www.espn.com/espn/story/_/id/48944627/ivory-coast-yan-diomande-own-journey-fifa-world-cup-approaches",
           "source_url": "https://www.espn.com/espn/story/_/id/48944627/ivory-coast-yan-diomande-own-journey-fifa-world-cup-approaches",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
           "key_data": [
             "Competition/source: Bundesliga",
             "world cup 2026 runway",
@@ -672,8 +766,8 @@
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -723,8 +817,8 @@
           "title": "U.S. goalkeeper Diego Kochen leaving Barcelona on loan",
           "url": "https://www.espn.com/soccer/story/_/id/48955038/us-goalkeeper-diego-kochen-leaving-barcelona-loan",
           "source_url": "https://www.espn.com/soccer/story/_/id/48955038/us-goalkeeper-diego-kochen-leaving-barcelona-loan",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Barcelona goalkeeper Diego Kochen will leave the club on loan this summer, with sources telling ESPN Danish side Lyngby Boldklub are leading the race to sign the American.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -773,8 +867,8 @@
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "manager or coaching pressure",
@@ -823,8 +917,8 @@
           "title": "Soccer Clubs Chase Table Points",
           "url": "https://www.espn.com/soccer/story/_/id/48948006/why-liverpool-sacked-slot-how-iraola-klopp-comparisons-set-successor",
           "source_url": "https://www.espn.com/soccer/story/_/id/48948006/why-liverpool-sacked-slot-how-iraola-klopp-comparisons-set-successor",
-          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -873,8 +967,8 @@
           "title": "Real Madrid's Florentino Pérez: I'll announce 'first big signing' on Thursday",
           "url": "https://www.espn.com/soccer/story/_/id/48954899/florentino-perez-ill-announce-first-big-signing-thursday",
           "source_url": "https://www.espn.com/soccer/story/_/id/48954899/florentino-perez-ill-announce-first-big-signing-thursday",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -919,12 +1013,62 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
+          "headline": "Former Liverpool defender Ibrahima Konaté opens up on struggles amid personal tragedies",
+          "title": "Former Liverpool defender Ibrahima Konaté opens up on struggles amid personal tragedies",
+          "url": "https://www.espn.com/soccer/story/_/id/48958407/former-liverpool-defender-ibrahima-konate-struggles-amid-personal-tragedies",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48958407/former-liverpool-defender-ibrahima-konate-struggles-amid-personal-tragedies",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "key_data": [
+            "Competition/source: Premier League",
+            "availability or suspension watch",
+            "Key people: Former Liverpool, Ibrahima, Ibrahima Konate."
+          ],
+          "why_it_matters": [
+            "Former Liverpool gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "availability_or_suspension_watch",
+            "star_player_signal",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 163,
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "Former Liverpool defender Ibrahima Konaté opens up on struggles amid personal tragedies",
+            "source_domain": "espn.com",
+            "source_role": "performance_trend_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "key_data_points": [
+            "Competition/source: Premier League",
+            "availability or suspension watch",
+            "Key people: Former Liverpool, Ibrahima, Ibrahima Konate."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League News Read",
           "headline": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?",
           "title": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?",
           "url": "https://www.espn.com/soccer/story/_/id/48944912/premier-league-efl-summer-transfer-window-2026-dates-does-open-deadline-day",
           "source_url": "https://www.espn.com/soccer/story/_/id/48944912/premier-league-efl-summer-transfer-window-2026-dates-does-open-deadline-day",
-          "summary": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Everything that Premier League and EFL supporters need to know about the 2026 summer transfer window, and key dates around it.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -972,8 +1116,8 @@
           "title": "Transfer rumors, news: Arsenal, Bayern battle for Germany defender",
           "url": "https://www.espn.com/soccer/story/_/id/48954336/transfer-rumors-news-arsenal-bayern-munich-battle-germany-defender-nathaniel-brown",
           "source_url": "https://www.espn.com/soccer/story/_/id/48954336/transfer-rumors-news-arsenal-bayern-munich-battle-germany-defender-nathaniel-brown",
-          "summary": "Transfer rumors, news: Arsenal, Bayern battle for Germany defender. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Arsenal, Bayern battle for Germany defender. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Eintracht Frankfurt full back Nathaniel Brown is of interest to Bayern Munich and Arsenal. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1021,8 +1165,8 @@
           "title": "Nicol: Real Madrid only want Konaté because he's a free agent",
           "url": "https://www.espn.com/video/clip/_/id/48951284/real-madrid-only-want-konate-free-agent",
           "source_url": "https://www.espn.com/video/clip/_/id/48951284/real-madrid-only-want-konate-free-agent",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Sid Lowe and Steve Nicol react to Ibrahima Konaté's potential move to Real Madrid.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1070,8 +1214,8 @@
           "title": "Transfer rumors, news: PSG made offer for Barça target Álvarez",
           "url": "https://www.espn.com/soccer/story/_/id/48936654/transfer-rumors-news-real-madrid-show-interest-arsenal-declan-rice",
           "source_url": "https://www.espn.com/soccer/story/_/id/48936654/transfer-rumors-news-real-madrid-show-interest-arsenal-declan-rice",
-          "summary": "Transfer rumors, news: PSG made offer for Barça target Álvarez. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: PSG made offer for Barça target Álvarez. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Paris Saint-Germain have made an offer for Atlético Madrid striker Julián Álvarez. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -1118,8 +1262,8 @@
           "title": "Sources: Crystal Palace readying offer for Lens coach Sage",
           "url": "https://www.espn.com/soccer/story/_/id/48950331/crystal-palace-offer-lens-coach-sage",
           "source_url": "https://www.espn.com/soccer/story/_/id/48950331/crystal-palace-offer-lens-coach-sage",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "manager or coaching pressure"
@@ -1327,10 +1471,10 @@
           "label": "MLS News Read",
           "headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
           "title": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-          "url": "https://apnews.com/hub/soccer",
+          "url": "https://www.fifa.com/en",
           "source_url": "https://www.espn.com/soccer/story/_/id/48948694/inter-miami-coach-guillermo-hoyos-world-cup-mls",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1360,10 +1504,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 221,
           "url_quality": "exact",
-          "source_domain": "apnews.com",
+          "source_domain": "fifa.com",
           "editorial_depth": {
             "original_source_headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-            "source_domain": "apnews.com",
+            "source_domain": "fifa.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1379,10 +1523,10 @@
           "label": "Ligue 1 News Read",
           "headline": "Davide Ancelotti hired to lead Lille in Champions League return",
           "title": "Davide Ancelotti hired to lead Lille in Champions League return",
-          "url": "https://sports.yahoo.com/soccer/news/",
+          "url": "https://apnews.com/hub/soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/48938104/davide-ancelotti-signs-deal-lille-champions-league-return",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "manager or coaching pressure",
@@ -1411,10 +1555,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 209,
           "url_quality": "exact",
-          "source_domain": "yahoo.com",
+          "source_domain": "apnews.com",
           "editorial_depth": {
             "original_source_headline": "Davide Ancelotti hired to lead Lille in Champions League return",
-            "source_domain": "yahoo.com",
+            "source_domain": "apnews.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1432,8 +1576,8 @@
           "title": "Man United agree deal with Atalanta for Éderson - sources",
           "url": "https://www.reuters.com/sports/soccer/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48953983/man-united-agree-deal-atalanta-ederson-sources",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Manchester United have agreed a deal with Atalanta for midfielder Éderson, sources have told ESPN.",
           "key_data": [
             "Competition/source: Serie A",
             "transfer or contract market",
@@ -1481,10 +1625,10 @@
           "label": "Bundesliga News Read",
           "headline": "Ivory Coast's Yan Diomande on his own journey as FIFA World Cup approaches",
           "title": "Ivory Coast's Yan Diomande on his own journey as FIFA World Cup approaches",
-          "url": "https://www.cbssports.com/soccer/news/",
+          "url": "https://sports.yahoo.com/soccer/news/",
           "source_url": "https://www.espn.com/espn/story/_/id/48944627/ivory-coast-yan-diomande-own-journey-fifa-world-cup-approaches",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
           "key_data": [
             "Competition/source: Bundesliga",
             "world cup 2026 runway",
@@ -1513,10 +1657,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 185,
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "yahoo.com",
           "editorial_depth": {
             "original_source_headline": "Ivory Coast's Yan Diomande on his own journey as FIFA World Cup approaches",
-            "source_domain": "cbssports.com",
+            "source_domain": "yahoo.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1532,10 +1676,10 @@
           "label": "MLS News Read",
           "headline": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
           "title": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
-          "url": "https://www.foxsports.com/soccer/stories",
+          "url": "https://www.cbssports.com/soccer/news/",
           "source_url": "https://www.espn.com/espn/story/_/id/48897863/mls-goes-gaga-bafana-duo-mbekezeli-mbokazi-ulwethu-makyanya-picked-fifa-world-cup",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
           "key_data": [
             "Competition/source: MLS",
             "world cup 2026 runway",
@@ -1564,10 +1708,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 185,
           "url_quality": "exact",
-          "source_domain": "foxsports.com",
+          "source_domain": "cbssports.com",
           "editorial_depth": {
             "original_source_headline": "MLS goes gaga for Bafana duo, Mbekezeli Mbokazi and Ulwethu Makyanya, picked for the FIFA World Cup",
-            "source_domain": "foxsports.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1583,10 +1727,10 @@
           "label": "La Liga News Read",
           "headline": "U.S. goalkeeper Diego Kochen leaving Barcelona on loan",
           "title": "U.S. goalkeeper Diego Kochen leaving Barcelona on loan",
-          "url": "https://www.cbssports.com/soccer/scores/",
+          "url": "https://www.foxsports.com/soccer/stories",
           "source_url": "https://www.espn.com/soccer/story/_/id/48955038/us-goalkeeper-diego-kochen-leaving-barcelona-loan",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Barcelona goalkeeper Diego Kochen will leave the club on loan this summer, with sources telling ESPN Danish side Lyngby Boldklub are leading the race to sign the American.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1614,10 +1758,10 @@
           "story_type": "lineup_rotation",
           "priority_score": 181,
           "url_quality": "exact",
-          "source_domain": "cbssports.com",
+          "source_domain": "foxsports.com",
           "editorial_depth": {
             "original_source_headline": "U.S. goalkeeper Diego Kochen leaving Barcelona on loan",
-            "source_domain": "cbssports.com",
+            "source_domain": "foxsports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation"
           },
@@ -1633,10 +1777,10 @@
           "label": "Bundesliga News Read",
           "headline": "Liverpool fired Slot after winning the title. It happens more often than you think",
           "title": "Liverpool fired Slot after winning the title. It happens more often than you think",
-          "url": "https://www.cbssports.com/soccer/standings/",
+          "url": "https://www.cbssports.com/soccer/scores/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48926339/liverpool-fired-arne-slot-winning-premier-league-title-happens-more-often-think",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Bundesliga",
             "manager or coaching pressure",
@@ -1683,10 +1827,10 @@
           "label": "Premier League News Read",
           "headline": "Soccer Clubs Chase Table Points",
           "title": "Soccer Clubs Chase Table Points",
-          "url": "https://www.foxsports.com/soccer/scores",
+          "url": "https://www.cbssports.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48948006/why-liverpool-sacked-slot-how-iraola-klopp-comparisons-set-successor",
-          "summary": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer Clubs Chase Table Points. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -1714,7 +1858,7 @@
           "story_type": "lineup_rotation",
           "priority_score": 171,
           "url_quality": "exact",
-          "source_domain": "foxsports.com",
+          "source_domain": "cbssports.com",
           "key_data_points": [
             "Competition/source: Premier League",
             "manager or coaching pressure",
@@ -1722,7 +1866,7 @@
           ],
           "source_label": "Availability",
           "editorial_depth": {
-            "source_domain": "foxsports.com",
+            "source_domain": "cbssports.com",
             "source_role": "lineup_rotation_link_health_source",
             "story_type_detected": "lineup_rotation",
             "original_source_headline": "Soccer Clubs Chase Table Points"
@@ -1733,10 +1877,10 @@
           "label": "La Liga News Read",
           "headline": "Real Madrid's Florentino Pérez: I'll announce 'first big signing' on Thursday",
           "title": "Real Madrid's Florentino Pérez: I'll announce 'first big signing' on Thursday",
-          "url": "https://www.foxsports.com/soccer/standings",
+          "url": "https://www.foxsports.com/soccer/scores",
           "source_url": "https://www.espn.com/soccer/story/_/id/48954899/florentino-perez-ill-announce-first-big-signing-thursday",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "title table or european pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: La Liga",
             "title table or european pressure",
@@ -1781,12 +1925,62 @@
         {
           "league": "Soccer",
           "label": "Premier League News Read",
+          "headline": "Former Liverpool defender Ibrahima Konaté opens up on struggles amid personal tragedies",
+          "title": "Former Liverpool defender Ibrahima Konaté opens up on struggles amid personal tragedies",
+          "url": "https://www.foxsports.com/soccer/standings",
+          "source_url": "https://www.espn.com/soccer/story/_/id/48958407/former-liverpool-defender-ibrahima-konate-struggles-amid-personal-tragedies",
+          "summary": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "snapshot": "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update. Late.",
+          "key_data": [
+            "Competition/source: Premier League",
+            "availability or suspension watch",
+            "Key people: Former Liverpool, Ibrahima, Ibrahima Konate."
+          ],
+          "why_it_matters": [
+            "Former Liverpool gives Soccer clear player stakes.",
+            "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture."
+          ],
+          "what_to_watch": [
+            "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
+            "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications."
+          ],
+          "story_angles": [
+            "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
+            "Transfer and contract market",
+            "Manager pressure or tactical direction",
+            "Availability and squad selection"
+          ],
+          "editorial_signals": [
+            "availability_or_suspension_watch",
+            "star_player_signal",
+            "major_club_signal"
+          ],
+          "story_type": "lineup_rotation",
+          "priority_score": 163,
+          "url_quality": "exact",
+          "source_domain": "foxsports.com",
+          "editorial_depth": {
+            "original_source_headline": "Former Liverpool defender Ibrahima Konaté opens up on struggles amid personal tragedies",
+            "source_domain": "foxsports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "key_data_points": [
+            "Competition/source: Premier League",
+            "availability or suspension watch",
+            "Key people: Former Liverpool, Ibrahima, Ibrahima Konate."
+          ],
+          "source_label": "Availability"
+        },
+        {
+          "league": "Soccer",
+          "label": "Premier League News Read",
           "headline": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?",
           "title": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?",
           "url": "https://sports.yahoo.com/soccer/scoreboard/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48944912/premier-league-efl-summer-transfer-window-2026-dates-does-open-deadline-day",
-          "summary": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Premier League, EFL summer transfer window 2026 dates: When does it open, when is Deadline Day?. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Everything that Premier League and EFL supporters need to know about the 2026 summer transfer window, and key dates around it.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1834,8 +2028,8 @@
           "title": "Transfer rumors, news: Arsenal, Bayern battle for Germany defender",
           "url": "https://sports.yahoo.com/soccer/standings/",
           "source_url": "https://www.espn.com/soccer/story/_/id/48954336/transfer-rumors-news-arsenal-bayern-munich-battle-germany-defender-nathaniel-brown",
-          "summary": "Transfer rumors, news: Arsenal, Bayern battle for Germany defender. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: Arsenal, Bayern battle for Germany defender. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Eintracht Frankfurt full back Nathaniel Brown is of interest to Bayern Munich and Arsenal. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: Premier League",
             "transfer or contract market",
@@ -1883,8 +2077,8 @@
           "title": "Nicol: Real Madrid only want Konaté because he's a free agent",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
           "source_url": "https://www.espn.com/video/clip/_/id/48951284/real-madrid-only-want-konate-free-agent",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Sid Lowe and Steve Nicol react to Ibrahima Konaté's potential move to Real Madrid.",
           "key_data": [
             "Competition/source: La Liga",
             "transfer or contract market",
@@ -1932,8 +2126,8 @@
           "title": "Transfer rumors, news: PSG made offer for Barça target Álvarez",
           "url": "https://www.espn.com/soccer/story/_/id/48936654/transfer-rumors-news-real-madrid-show-interest-arsenal-declan-rice",
           "source_url": "https://www.espn.com/soccer/story/_/id/48936654/transfer-rumors-news-real-madrid-show-interest-arsenal-declan-rice",
-          "summary": "Transfer rumors, news: PSG made offer for Barça target Álvarez. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Transfer rumors, news: PSG made offer for Barça target Álvarez. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "transfer or contract market. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "Paris Saint-Germain have made an offer for Atlético Madrid striker Julián Álvarez. Transfer Talk has the latest.",
           "key_data": [
             "Competition/source: Ligue 1",
             "transfer or contract market",
@@ -1980,8 +2174,8 @@
           "title": "Sources: Crystal Palace readying offer for Lens coach Sage",
           "url": "https://www.espn.com/soccer/story/_/id/48950331/crystal-palace-offer-lens-coach-sage",
           "source_url": "https://www.espn.com/soccer/story/_/id/48950331/crystal-palace-offer-lens-coach-sage",
-          "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-          "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "summary": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
+          "snapshot": "manager or coaching pressure. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
           "key_data": [
             "Competition/source: Ligue 1",
             "manager or coaching pressure"
@@ -2187,8 +2381,8 @@
     "betting_odds": {
       "title": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-06-03 11:23:13 AM ET",
-      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-06-03 11:23:13 AM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-06-03 11:23:13 AM ET",
+      "updated_at": "2026-06-03 03:38:59 PM ET",
+      "content": "GLOBAL SPORTS REPORT - BETTING ODDS Next check: Generated: 2026-06-03 03:38:59 PM ET\n\nHEADLINE\nBetting odds feed unavailable.\n\nSNAPSHOT\nSportradar odds data was not available during this run. The report file was still generated so the publishing process can continue without breaking.\n\nKEY BETTING STORYLINES\n- Odds feed unavailable during this run.\n- publishing process completed safely without exposing any API token.\n- Check SPORTRADAR_API_KEY or SPORTRADAR_ODDS_TOKEN in the.env file if odds remain unavailable.\n\nGAMES\n\nLIVE\nNo live games with betting context were available during this run.\n\nUPCOMING\nNo upcoming games with betting context were available during this run.\n\nFINAL\nNo final games with betting context were available during this run.\n\nMARKET BOARD\nNo betting markets available during this run.\n\nDATA NOTE\nThis report is generated for editorial monitoring and market-context purposes. It is not gambling advice.\n\nNAME\nBETTING\n\nUPDATED AT\n2026-06-03 03:38:59 PM ET",
       "key": "betting_odds",
       "label": "Betting Odds",
       "headline": "GLOBAL SPORTS REPORT - BETTING ODDS WATCH",
@@ -2315,31 +2509,31 @@
       ]
     },
     "fantasy": {
-      "title": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks",
+      "title": "MLB fantasy Next check: starts with live usage in Miami Marlins at Washington Nationals",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-06-03 11:23:14 AM ET",
-      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver. .",
+      "updated_at": "2026-06-03 03:39:00 PM ET",
+      "content": "GLOBAL SPORTS REPORT - Fantasy Next check: HEADLINE MLB fantasy Next check: starts with live usage in Miami Marlins at Washington Nationals SNAPSHOT Fantasy Next check: checked NFL, NBA, MLB and NHL boards for role, injury, usage and waiver signals. Current. .",
       "key": "fantasy",
       "label": "Fantasy",
-      "headline": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks",
-      "snapshot": "games-spikes has current game context: line: SEA -3.5; total 44.5; venue: Lumen Field. Availability, lineup decisions and standings or market consequence set the next update.",
+      "headline": "MLB fantasy Next check: starts with live usage in Miami Marlins at Washington Nationals",
+      "snapshot": "Marlins-Nationals has current game context: records: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap); venue: Nationals Park. Availability, lineup decisions and standings or market consequence set the next update.",
       "key_data": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Line: SEA -3.5; total 44.5."
+        "Record context: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap)."
       ],
       "key_data_points": [
         "Fantasy: availability or roster movement is attached to the story.",
         "Fantasy: betting context can show expectation when paired with team news.",
         "Fantasy: live or final score context is available.",
-        "Line: SEA -3.5; total 44.5."
+        "Record context: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap)."
       ],
       "why_it_matters": [
-        "games-spikes matters because the price shows how strongly the market leans before lineup news closes.",
+        "games-spikes depends on availability, form and standings impact.",
         "Fantasy coverage should turn game data into lineup, waiver and role context rather than market schedule summaries.",
         "The highest-value signals are repeatable opportunity, injury fallout, role movement, rotation changes and matchup-driven usage.",
-        "games-spikes has current game context: named players, records and price all shape the matchup."
+        "Marlins-Nationals has current game context: named players, records and price all shape the matchup."
       ],
       "what_to_watch": [
         "Role changes, usage, injury designations, waiver availability and lineup deadlines decide the fantasy value.",
@@ -2353,18 +2547,18 @@
       "editorial_brain": {
         "version": "v8-network-editorial-brain-source-balanced",
         "status": "active",
-        "signal": "betting_market",
+        "signal": "availability_or_roster",
         "story_type_detected": "fantasy_implication",
         "section": "fantasy",
         "label": "Fantasy",
         "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context",
-        "original_source_headline": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks"
+        "reader_label": "Availability",
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in Miami Marlins at Washington Nationals"
       },
       "story_type": "fantasy_implication",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401872656",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401815608",
       "editorial_depth": {
-        "original_source_headline": "NFL fantasy board flags availability and role questions for New England Patriots at Seattle Seahawks",
+        "original_source_headline": "MLB fantasy Next check: starts with live usage in Miami Marlins at Washington Nationals",
         "source_domain": "espn.com",
         "source_role": "fantasy_implication_exact",
         "story_type_detected": "fantasy_implication"
@@ -2372,8 +2566,122 @@
       "source_label": "Fantasy impact",
       "source_domain": "espn.com",
       "json_source_file": "fantasy_report.json",
-      "cards": [],
-      "stories": []
+      "cards": [
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays",
+          "title": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815606",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815606",
+          "summary": "Final: Tigers 7, Rays 2. Records: Tigers 25-38; Rays 36-23",
+          "key_data": [
+            "Final: Tigers 7, Rays 2",
+            "Margin: Tigers by 5",
+            "Game state: Final - Final",
+            "Current score context: Tigers 7, Rays 2",
+            "Records: Tigers 25-38; Rays 36-23"
+          ],
+          "why_it_matters": [
+            "Tigers-Rays matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-06-03",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays"
+          },
+          "key_data_points": [
+            "Final: Tigers 7, Rays 2",
+            "Margin: Tigers by 5",
+            "Game state: Final - Final",
+            "Current score context: Tigers 7, Rays 2",
+            "Records: Tigers 25-38; Rays 36-23"
+          ],
+          "url_quality": "exact",
+          "source_domain": "espn.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays",
+            "source_domain": "espn.com",
+            "source_role": "live_or_result_exact",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Tigers 7, Rays 2. Records: Tigers 25-38; Rays 36-23",
+          "story_angles": [
+            "Tigers-Rays starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        }
+      ],
+      "stories": [
+        {
+          "league": "Fantasy",
+          "label": "Fantasy watch",
+          "headline": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays",
+          "title": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays",
+          "url": "https://www.cbssports.com/mlb/scores/",
+          "source_url": "https://www.espn.com/mlb/game/_/gameId/401815606",
+          "summary": "Final: Tigers 7, Rays 2. Records: Tigers 25-38; Rays 36-23",
+          "key_data": [
+            "Final: Tigers 7, Rays 2",
+            "Margin: Tigers by 5",
+            "Game state: Final - Final",
+            "Current score context: Tigers 7, Rays 2",
+            "Records: Tigers 25-38; Rays 36-23"
+          ],
+          "why_it_matters": [
+            "Tigers-Rays matters because the records show where the result can change the race or team direction.",
+            "is whether whether lineup position, platoon status, bullpen role and starting-pitcher matchup created a repeatable fantasy signal or only a one-game result.",
+            "Fantasy coverage is strongest when it explains opportunity, role stability and lineup risk instead of chasing raw box-score totals."
+          ],
+          "what_to_watch": [
+            "Next check: weather, late scratches, pitch counts and bullpen availability.",
+            "Separate repeatable usage from one-game production spikes before elevating a player or matchup.",
+            "Next check: injury fallout, rotation shifts, depth-chart movement and late lineup news before the next update cycle."
+          ],
+          "story_type": "lineup_rotation",
+          "game_status": "final",
+          "priority_score": 103,
+          "game_date": "2026-06-03",
+          "editorial_brain": {
+            "version": "v3-fantasy-editorial-intelligence",
+            "signal": "fantasy_role_watch",
+            "standard": "Fantasy framing should explain role, opportunity and decision impact; scores are supporting context only.",
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays"
+          },
+          "key_data_points": [
+            "Final: Tigers 7, Rays 2",
+            "Margin: Tigers by 5",
+            "Game state: Final - Final",
+            "Current score context: Tigers 7, Rays 2",
+            "Records: Tigers 25-38; Rays 36-23"
+          ],
+          "url_quality": "exact",
+          "source_domain": "cbssports.com",
+          "editorial_depth": {
+            "original_source_headline": "MLB fantasy review turns to role changes after Detroit Tigers at Tampa Bay Rays",
+            "source_domain": "cbssports.com",
+            "source_role": "lineup_rotation_link_health_source",
+            "story_type_detected": "lineup_rotation"
+          },
+          "snapshot": "Final: Tigers 7, Rays 2. Records: Tigers 25-38; Rays 36-23",
+          "story_angles": [
+            "Tigers-Rays starts with pitcher confirmation, lineup shape and bullpen availability."
+          ],
+          "source_label": "Availability"
+        }
+      ]
     }
   },
   "homepage_cards": [
@@ -2439,135 +2747,11 @@
       "url_quality": "exact"
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-      "snapshot": "Marlins-Nationals starts with pitcher confirmation, lineup shape and bullpen availability. line: Max Meyer and Andrew Alvarez are the listed probables; records: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap); line: MIA -112; total 8.5; time/status: 1:05.",
-      "url": "https://apnews.com/hub/mlb-baseball",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Max Meyer, Andrew Alvarez.",
-        "Record context: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap)."
-      ],
-      "why_it_matters": [
-        "Marlins-Nationals depends on availability, form and standings impact.",
-        "Marlins-Opens depends on availability, form and standings impact.",
-        "The result matters most if it changes pressure, positioning or the next question around the club.",
-        "Market data becomes useful when it reveals expectation, late movement or a gap between price and performance."
-      ],
-      "what_to_watch": [
-        "The score matters most when it changes the standings, rotation choices or next matchup.",
-        "Late availability, momentum, market movement or a lineup decision can change the update.",
-        "Max Meyer status or form, lineup confirmation and late betting movement need confirmation before the game."
-      ],
-      "story_angles": [
-        "Marlins-Nationals starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Marlins-Opens starts with pitcher confirmation, lineup shape and bullpen availability.",
-        "Max Meyer performance or availability as the player lead."
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "betting_market",
-        "story_type_detected": "lineup_rotation",
-        "section": "mlb",
-        "label": "MLB",
-        "human_editorial_standard": "Data supports the reporting process; the story must still read like it came from a human newsroom.",
-        "reader_label": "Market context",
-        "original_source_headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch"
-      },
-      "priority_score": 676,
-      "key_data_points": [
-        "MLB: standings or postseason-race context is in play.",
-        "MLB: betting context can show expectation when paired with team news.",
-        "MLB: live or final score context is available.",
-        "Listed probables: Max Meyer, Andrew Alvarez.",
-        "Record context: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap)."
-      ],
-      "source_domain": "apnews.com",
-      "editorial_depth": {
-        "news_value": "Availability",
-        "data_context": "present",
-        "source_domain": "apnews.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "title": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-      "url_quality": "hub",
-      "summary": "Marlins-Nationals starts with pitcher confirmation, lineup shape and bullpen availability. line: Max Meyer and Andrew Alvarez are the listed probables; records: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap); line: MIA -112; total 8.5; time/status: 1:05."
-    },
-    {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-      "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-      "url": "https://www.espn.com/soccer/story/_/id/48948694/inter-miami-coach-guillermo-hoyos-world-cup-mls",
-      "source_label": "Availability",
-      "story_type": "lineup_rotation",
-      "key_data": [
-        "Competition/source: MLS",
-        "world cup 2026 runway",
-        "Key people: Sources, Hoyos, Inter Miami."
-      ],
-      "why_it_matters": [
-        "Sources gives Soccer clear player stakes.",
-        "Soccer news often matters more than routine fixtures because transfers, injuries, managers and club decisions reshape the competitive picture.",
-        "World Cup 2026 is now part of the long-range editorial runway, especially when player form, national teams, fitness or federation decisions enter the news cycle."
-      ],
-      "what_to_watch": [
-        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update.",
-        "Next check: club statements, manager reaction, lineup impact, transfer follow-up, table consequences and national-team implications.",
-        "how World Cup 2026 begins to shape player usage, injury caution, roster decisions and global attention."
-      ],
-      "story_angles": [
-        "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction.",
-        "Transfer and contract market",
-        "Manager pressure or tactical direction",
-        "Availability and squad selection"
-      ],
-      "editorial_brain": {
-        "version": "v8-network-editorial-brain-source-balanced",
-        "status": "active",
-        "signal": "leadership_news",
-        "story_type_detected": "coaching_pressure",
-        "section": "soccer",
-        "label": "Soccer",
-        "reader_label": "Leadership pressure",
-        "original_source_headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup"
-      },
-      "priority_score": 659,
-      "source_index": 0,
-      "editorial_depth": {
-        "news_value": "Leadership pressure",
-        "data_context": "present",
-        "source_domain": "espn.com",
-        "standard": "Select, balance and frame stories by consequence, not by feed order.",
-        "original_source_headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-        "source_role": "coaching_pressure_exact",
-        "story_type_detected": "lineup_rotation"
-      },
-      "key_data_points": [
-        "Competition/source: MLS",
-        "world cup 2026 runway",
-        "Key people: Sources, Hoyos, Inter Miami."
-      ],
-      "source_domain": "espn.com",
-      "title": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-      "url_quality": "exact",
-      "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update."
-    },
-    {
       "league": "NBA",
       "key": "nba",
       "headline": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Knicks-lead starts with Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 219.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation,.",
-      "url": "https://apnews.com/hub/nba",
+      "snapshot": "Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 217.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center.",
+      "url": "https://www.espn.com/nba/game/_/gameId/401859963",
       "source_label": "Availability",
       "story_type": "lineup_rotation",
       "key_data": [
@@ -2610,19 +2794,74 @@
         "Key people: Jalen Brunson.",
         "Record context: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap)."
       ],
-      "source_domain": "apnews.com",
+      "source_domain": "espn.com",
       "editorial_depth": {
         "news_value": "Availability",
         "data_context": "present",
-        "source_domain": "apnews.com",
+        "source_domain": "espn.com",
         "standard": "Select, balance and frame stories by consequence, not by feed order.",
         "original_source_headline": "New York Knicks at San Antonio Spurs",
-        "source_role": "lineup_rotation_link_health_source",
+        "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
       "title": "New York Knicks at San Antonio Spurs",
-      "url_quality": "hub",
-      "summary": "Knicks-lead starts with Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 219.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report confirmation,."
+      "url_quality": "exact",
+      "summary": "Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 217.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center."
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk",
+      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. venue: Nationals Park; status: Bottom 8th. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "url": "https://www.reuters.com/sports/baseball/",
+      "source_label": "Availability",
+      "story_type": "lineup_rotation",
+      "key_data": [
+        "Status: Bottom 8th",
+        "Venue: Nationals Park",
+        "Time/status: Bottom 8th"
+      ],
+      "why_it_matters": [
+        "MLB depends on availability, form and standings impact.",
+        "A live game earns attention when leverage, injuries, bullpen decisions or late-game swings create a story beyond the score."
+      ],
+      "what_to_watch": [
+        "Next check: late-inning leverage, bullpen decisions, injury notes and scoring swings.",
+        "Next check: official scoring changes, pitching changes and availability notes before publishing deeper analysis."
+      ],
+      "story_angles": [
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+      ],
+      "editorial_brain": {
+        "version": "v8-network-editorial-brain-source-balanced",
+        "status": "active",
+        "signal": "live_or_result",
+        "story_type_detected": "live_or_result",
+        "section": "mlb",
+        "label": "MLB",
+        "reader_label": "Game angle",
+        "original_source_headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk"
+      },
+      "priority_score": 417,
+      "source_index": 0,
+      "editorial_depth": {
+        "news_value": "Game angle",
+        "data_context": "present",
+        "source_domain": "reuters.com",
+        "standard": "Select, balance and frame stories by consequence, not by feed order.",
+        "original_source_headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk",
+        "source_role": "live_or_result_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "key_data_points": [
+        "Status: Bottom 8th",
+        "Venue: Nationals Park",
+        "Time/status: Bottom 8th"
+      ],
+      "source_domain": "reuters.com",
+      "title": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk",
+      "url_quality": "other",
+      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. venue: Nationals Park; status: Bottom 8th. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "live_newsroom": [
@@ -2633,7 +2872,7 @@
       "title": "four-champion Hinges on Goalies, Special Teams",
       "snapshot": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup.",
       "signal": "Digest lead",
-      "updated_at": "2026-06-03 11:23:45 AM ET",
+      "updated_at": "2026-06-03 03:39:33 PM ET",
       "url": "https://apnews.com/article/8a00667a54fc8f09839d19da2f90c891",
       "editorial_depth": {
         "original_source_headline": "four-champion Hinges on Goalies, Special Teams",
@@ -2661,88 +2900,22 @@
       "summary": "Carolina and Montreal bring goaltending, top lines and special teams into focus. Confirmed goalies, power-play chances, penalty trouble and late market movement shape the matchup."
     },
     {
-      "section": "mlb",
-      "label": "MLB",
-      "headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-      "title": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-      "snapshot": "Marlins-Nationals starts with pitcher confirmation, lineup shape and bullpen availability. line: Max Meyer and Andrew Alvarez are the listed probables; records: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap); line: MIA -112; total 8.5; time/status: 1:05.",
-      "signal": "Availability",
-      "updated_at": "2026-06-03 11:23:45 AM ET",
-      "url": "https://www.foxsports.com/mlb/stories",
-      "editorial_depth": {
-        "original_source_headline": "Pitching plans frame Miami Marlins-Washington Nationals before first pitch",
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
-        "story_type_detected": "lineup_rotation"
-      },
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
-      "key_data": [],
-      "key_data_points": [],
-      "why_it_matters": [
-        "Marlins-Nationals depends on availability, form and standings impact."
-      ],
-      "what_to_watch": [],
-      "story_angles": [
-        "Marlins-Nationals starts with pitcher confirmation, lineup shape and bullpen availability."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "summary": "Marlins-Nationals starts with pitcher confirmation, lineup shape and bullpen availability. line: Max Meyer and Andrew Alvarez are the listed probables; records: Marlins 28-34; Nationals 31-31 (0.048 win-pct gap); line: MIA -112; total 8.5; time/status: 1:05."
-    },
-    {
-      "section": "soccer",
-      "label": "Soccer",
-      "headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-      "title": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-      "snapshot": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update.",
-      "signal": "Availability",
-      "updated_at": "2026-06-03 11:23:45 AM ET",
-      "url": "https://www.espn.com/soccer/story/_/id/48948694/inter-miami-coach-guillermo-hoyos-world-cup-mls",
-      "editorial_depth": {
-        "original_source_headline": "Sources: Hoyos to stay as Inter Miami coach post-World Cup",
-        "source_domain": "espn.com",
-        "source_role": "coaching_pressure_exact",
-        "story_type_detected": "lineup_rotation"
-      },
-      "url_quality": "exact",
-      "source_domain": "espn.com",
-      "key_data": [
-        "Key people: Sources, Hoyos, Inter Miami."
-      ],
-      "key_data_points": [
-        "Key people: Sources, Hoyos, Inter Miami."
-      ],
-      "why_it_matters": [
-        "Sources gives Soccer clear player stakes."
-      ],
-      "what_to_watch": [
-        "Starting XIs, injury absences, cards or suspensions, table consequence and manager comments set the next update."
-      ],
-      "story_angles": [
-        "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction."
-      ],
-      "story_type": "lineup_rotation",
-      "source_label": "Availability",
-      "summary": "Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager decisions shape the next update."
-    },
-    {
       "section": "nba",
       "label": "NBA",
       "headline": "New York Knicks at San Antonio Spurs",
       "title": "New York Knicks at San Antonio Spurs",
-      "snapshot": "Knicks-lead starts with Jalen Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 219.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report.",
+      "snapshot": "Knicks-lead starts with Jalen Brunson. Key and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 217.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center.",
       "signal": "Availability",
-      "updated_at": "2026-06-03 11:23:45 AM ET",
-      "url": "https://www.foxsports.com/nba/stories",
+      "updated_at": "2026-06-03 03:39:33 PM ET",
+      "url": "https://www.espn.com/nba/game/_/gameId/401859963",
       "editorial_depth": {
         "original_source_headline": "New York Knicks at San Antonio Spurs",
-        "source_domain": "foxsports.com",
-        "source_role": "lineup_rotation_link_health_source",
+        "source_domain": "espn.com",
+        "source_role": "lineup_rotation_exact",
         "story_type_detected": "lineup_rotation"
       },
-      "url_quality": "hub",
-      "source_domain": "foxsports.com",
+      "url_quality": "exact",
+      "source_domain": "espn.com",
       "key_data": [
         "Key people: Jalen Brunson."
       ],
@@ -2758,13 +2931,42 @@
       ],
       "story_type": "lineup_rotation",
       "source_label": "Availability",
-      "summary": "Knicks-lead starts with Jalen Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 219.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center. Injury-report."
+      "summary": "Knicks-lead starts with Jalen Brunson. Key and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 217.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank Center."
+    },
+    {
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk",
+      "title": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk",
+      "snapshot": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. status: Bottom 8th. Venue: Nationals Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update.",
+      "signal": "Availability",
+      "updated_at": "2026-06-03 03:39:33 PM ET",
+      "url": "https://apnews.com/hub/mlb-baseball",
+      "editorial_depth": {
+        "original_source_headline": "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk",
+        "source_domain": "apnews.com",
+        "source_role": "lineup_rotation_link_health_source",
+        "story_type_detected": "lineup_rotation"
+      },
+      "url_quality": "other",
+      "source_domain": "apnews.com",
+      "key_data": [],
+      "key_data_points": [],
+      "why_it_matters": [
+        "MLB depends on availability, form and standings impact."
+      ],
+      "what_to_watch": [],
+      "story_angles": [
+        "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read."
+      ],
+      "story_type": "lineup_rotation",
+      "source_label": "Availability",
+      "summary": "A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. status: Bottom 8th. Venue: Nationals Park. Pitcher confirmation, lineup shape and bullpen availability shape the next update."
     }
   ],
   "editor_signals": [
     "Claude Lemieux, Four-Time Stanley Cup Champion, Dies at 60: Carolina and Montreal put goaltending, special teams and late lineup confirmation at the center of the matchup. Goalie and lineup confirmation remain the next checks. Goalie news, power-play form. .",
-    "Pitching plans frame Miami Marlins-Washington Nationals before first pitch: Marlins-Nationals starts with pitcher confirmation, lineup shape and bullpen availability. line: Max Meyer and Andrew Alvarez are the listed probables; records: Marlins 28-34.",
-    "Sources: Hoyos to stay as Inter Miami coach post-World Cup: Soccer hinges on selection, table consequence, cards, substitutions and manager reaction. Late lineup, availability and schedule context remain the next checks. Starting XIs, absences and manager.",
-    "New York Knicks at San Antonio Spurs: Knicks-lead starts with Brunson. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 219.5; time/status: 6/3 - 8:30 PM EDT; venue: Frost Bank."
+    "New York Knicks at San Antonio Spurs: Knicks-lead starts with Jalen Brunson. Record and Spurs. line: Jalen Brunson give the matchup a player lead; records: Knicks 53-29; Spurs 62-20 (0.110 win-pct gap); line: SA -4.5; total 217.5; time/status: 6/3 - 8:30 PM.",
+    "Late-inning leverage puts Miami Marlins-Washington Nationals on the MLB desk: A live MLB game earns attention when bullpen decisions, scoring swings or injury notes change the read. venue: Nationals Park; status: Bottom 8th. Pitcher confirmation, lineup shape..."
   ]
 }
