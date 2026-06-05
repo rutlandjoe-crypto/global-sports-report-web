@@ -4,8 +4,8 @@
   "title": "GLOBAL SPORTS REPORT | 2026-06-05",
   "headline": "Canes even Stanley Cup Final on Jarvis' OT goal",
   "snapshot": "Fresh sports board built from source headlines with old fallback headline machinery removed.",
-  "updated_at": "2026-06-05 12:41:42 AM ET",
-  "generated_at": "2026-06-05 12:41:42 AM ET",
+  "updated_at": "2026-06-05 04:50:27 AM ET",
+  "generated_at": "2026-06-05 04:50:27 AM ET",
   "builder": "clean_build_distribution_rewrite",
   "homepage_cards": [
     {
@@ -34,7 +34,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Vegas undaunted but objects to disallowed goal",
+      "title": "Vegas undaunted but objects to disallowed goal",
+      "source_headline": "Vegas undaunted but objects to disallowed goal",
+      "original_headline": "Vegas undaunted but objects to disallowed goal",
+      "snapshot": "The Golden Knights said they remain confident despite the Hurricanes' stunning rally to win Game 2 of the Stanley Cup Final, which was fueled by a critical failed coach's challenge in the third period.",
+      "url": "https://www.espn.com/nhl/story/_/id/48972230/golden-knights-object-disallowed-goal-vow-bounce-back",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Vegas undaunted but objects to disallowed goal",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -64,7 +94,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -94,23 +124,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Stanley Cup Final 2026 scores, schedule, where to watch, stream: Golden Knights face Hurricanes for title",
-      "title": "Stanley Cup Final 2026 scores, schedule, where to watch, stream: Golden Knights face Hurricanes for title",
-      "source_headline": "Stanley Cup Final 2026 scores, schedule, where to watch, stream: Golden Knights face Hurricanes for title",
-      "original_headline": "Stanley Cup Final 2026 scores, schedule, where to watch, stream: Golden Knights face Hurricanes for title",
-      "snapshot": "The Hurricanes and Golden Knights will play for hockey's ultimate prize",
-      "url": "https://www.cbssports.com/nhl/news/stanley-cup-final-2026-vegas-golden-knights-carolina-hurricanes-scores-schedule-where-to-watch-stream/",
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Jalen Brunson closes strong as Knicks steal Game 1 of NBA Finals; looking ahead to MLB trade deadline",
+      "title": "Jalen Brunson closes strong as Knicks steal Game 1 of NBA Finals; looking ahead to MLB trade deadline",
+      "source_headline": "Jalen Brunson closes strong as Knicks steal Game 1 of NBA Finals; looking ahead to MLB trade deadline",
+      "original_headline": "Jalen Brunson closes strong as Knicks steal Game 1 of NBA Finals; looking ahead to MLB trade deadline",
+      "snapshot": "Plus we project the best- and worst-case outcomes for the NFL's rookie quarterbacks",
+      "url": "https://www.cbssports.com/nba/news/jalen-brunson-knicks-spurs-game-1-nba-finals-mlb-trade-deadline/",
       "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Stanley Cup Final 2026 scores, schedule, where to watch, stream: Golden Knights face Hurricanes for title",
+        "Source headline: Jalen Brunson closes strong as Knicks steal Game 1 of NBA Finals; looking ahead to MLB trade deadline",
         "Source: cbssports.com"
       ],
       "why_it_matters": [
@@ -124,9 +154,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 365
+      "priority_score": 360
     },
     {
       "league": "NBA",
@@ -154,37 +184,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Sources: NBA investigating Brunson-fan incident",
-      "title": "Sources: NBA investigating Brunson-fan incident",
-      "source_headline": "Sources: NBA investigating Brunson-fan incident",
-      "original_headline": "Sources: NBA investigating Brunson-fan incident",
-      "snapshot": "The NBA is investigating an interaction between Knicks star Jalen Brunson and courtside fans late in the fourth quarter of Game 1 of the NBA Finals, sources confirmed to ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/48967648/sources-nba-eyes-interaction-jalen-brunson-fans-game-1",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sources: NBA investigating Brunson-fan incident",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     }
@@ -196,8 +196,17 @@
       "headline": "Canes even Stanley Cup Final on Jarvis' OT goal",
       "snapshot": "Seth Jarvis scored on the power play in overtime after Carolina erased a deficit in regulation only to give up a late tying goal, and the Hurricanes beat Vegas 4-3 in Game 2 of the Stanley Cup Final on Thursday night to even the series.",
       "signal": "espn.com",
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "url": "https://www.espn.com/nhl/story/_/id/48971472/seth-jarvis-scores-ot-carolina-ties-stanley-cup-final"
+    },
+    {
+      "section": "nhl",
+      "label": "NHL",
+      "headline": "Vegas undaunted but objects to disallowed goal",
+      "snapshot": "The Golden Knights said they remain confident despite the Hurricanes' stunning rally to win Game 2 of the Stanley Cup Final, which was fueled by a critical failed coach's challenge in the third period.",
+      "signal": "espn.com",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
+      "url": "https://www.espn.com/nhl/story/_/id/48972230/golden-knights-object-disallowed-goal-vow-bounce-back"
     },
     {
       "section": "nhl",
@@ -205,7 +214,7 @@
       "headline": "Biggest NBA Finals storylines; Vegas wins Game 1 thriller in Stanley Cup Final; big deals for young NFL stars",
       "snapshot": "Plus the biggest winners and losers from college baseball regionals",
       "signal": "cbssports.com",
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "url": "https://www.cbssports.com/nba/news/biggest-nba-finals-storylines-vegas-wins-game-1-thriller-in-stanley-cup-final-big-deals-for-young-nfl-stars/"
     },
     {
@@ -214,17 +223,17 @@
       "headline": "Jalen Brunson closes strong as Knicks steal Game 1 of NBA Finals; looking ahead to MLB trade deadline",
       "snapshot": "Plus we project the best- and worst-case outcomes for the NFL's rookie quarterbacks",
       "signal": "cbssports.com",
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "url": "https://www.cbssports.com/nba/news/jalen-brunson-knicks-spurs-game-1-nba-finals-mlb-trade-deadline/"
     },
     {
-      "section": "nhl",
-      "label": "NHL",
-      "headline": "Stanley Cup Final 2026 scores, schedule, where to watch, stream: Golden Knights face Hurricanes for title",
-      "snapshot": "The Hurricanes and Golden Knights will play for hockey's ultimate prize",
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Jalen Brunson closes strong as Knicks steal Game 1 of NBA Finals; looking ahead to MLB trade deadline",
+      "snapshot": "Plus we project the best- and worst-case outcomes for the NFL's rookie quarterbacks",
       "signal": "cbssports.com",
-      "updated_at": "2026-06-05 12:41:42 AM ET",
-      "url": "https://www.cbssports.com/nhl/news/stanley-cup-final-2026-vegas-golden-knights-carolina-hurricanes-scores-schedule-where-to-watch-stream/"
+      "updated_at": "2026-06-05 04:50:27 AM ET",
+      "url": "https://www.cbssports.com/nba/news/jalen-brunson-knicks-spurs-game-1-nba-finals-mlb-trade-deadline/"
     },
     {
       "section": "nba",
@@ -232,17 +241,8 @@
       "headline": "Knicks stay hot, steal Game 1 behind Brunson's 30",
       "snapshot": "Jalen Brunson shook off an early injury and scored 13 of his 30 points in the fourth quarter, helping the Knicks erase a 14-point deficit and steal Game 1 105-95 over the Spurs for their 12th straight playoff win.",
       "signal": "espn.com",
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "url": "https://www.espn.com/nba/story/_/id/48962034/brunson-keys-late-surge-knicks-steal-game-1-san-antonio"
-    },
-    {
-      "section": "nba",
-      "label": "NBA",
-      "headline": "Sources: NBA investigating Brunson-fan incident",
-      "snapshot": "The NBA is investigating an interaction between Knicks star Jalen Brunson and courtside fans late in the fourth quarter of Game 1 of the NBA Finals, sources confirmed to ESPN.",
-      "signal": "espn.com",
-      "updated_at": "2026-06-05 12:41:42 AM ET",
-      "url": "https://www.espn.com/nba/story/_/id/48967648/sources-nba-eyes-interaction-jalen-brunson-fans-game-1"
     }
   ],
   "editor_signals": [
@@ -278,7 +278,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -308,7 +308,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -338,7 +338,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -368,7 +368,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -398,7 +398,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -428,7 +428,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -458,7 +458,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -488,7 +488,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -518,7 +518,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -548,7 +548,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -578,7 +578,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -608,7 +608,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -638,7 +638,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -668,7 +668,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -698,7 +698,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -728,7 +728,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -758,7 +758,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -788,7 +788,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -818,7 +818,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -848,7 +848,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -878,7 +878,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -908,7 +908,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -938,7 +938,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -968,7 +968,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -998,7 +998,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1028,7 +1028,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1058,7 +1058,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Vegas undaunted but objects to disallowed goal",
+      "title": "Vegas undaunted but objects to disallowed goal",
+      "source_headline": "Vegas undaunted but objects to disallowed goal",
+      "original_headline": "Vegas undaunted but objects to disallowed goal",
+      "snapshot": "The Golden Knights said they remain confident despite the Hurricanes' stunning rally to win Game 2 of the Stanley Cup Final, which was fueled by a critical failed coach's challenge in the third period.",
+      "url": "https://www.espn.com/nhl/story/_/id/48972230/golden-knights-object-disallowed-goal-vow-bounce-back",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Vegas undaunted but objects to disallowed goal",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1088,7 +1118,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1118,7 +1148,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1148,7 +1178,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1178,7 +1208,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1208,7 +1238,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1238,7 +1268,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1268,7 +1298,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1298,7 +1328,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1328,7 +1358,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1358,7 +1388,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1388,7 +1418,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1418,7 +1448,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1448,7 +1478,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1478,7 +1508,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1508,7 +1538,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1538,7 +1568,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -1568,7 +1598,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1598,7 +1628,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1628,7 +1658,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1658,7 +1688,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1688,7 +1718,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1718,7 +1748,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -1748,7 +1778,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1778,7 +1808,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1808,7 +1838,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1838,7 +1868,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1868,7 +1898,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1898,7 +1928,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1928,7 +1958,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1958,7 +1988,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1988,7 +2018,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2018,7 +2048,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2048,37 +2078,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Knight, Muller among unprotected PWHL stars",
-      "title": "Knight, Muller among unprotected PWHL stars",
-      "source_headline": "Knight, Muller among unprotected PWHL stars",
-      "original_headline": "Knight, Muller among unprotected PWHL stars",
-      "snapshot": "Seattle's Hilary Knight, Minnesota's Kendall Coyne Schofield, Boston's Alina Muller, and Ottawa's Brianne Jenner headline a group of stars eligible to be signed by the PWHL's four expansion teams, after the league released its protected player list on...",
-      "url": "https://www.espn.com/nhl/story/_/id/48960402/knight-coyne-schofield-muller-unprotected-pwhl-stars",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Knight, Muller among unprotected PWHL stars",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2108,7 +2108,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2138,7 +2138,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2168,7 +2168,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2198,7 +2198,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2228,7 +2228,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2258,7 +2258,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2288,7 +2288,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2318,7 +2318,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2348,7 +2348,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2378,7 +2378,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2408,7 +2408,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -2438,7 +2438,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -2468,7 +2468,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -2498,7 +2498,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -2528,7 +2528,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -2558,7 +2558,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -2588,9 +2588,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
+    },
+    {
+      "league": "Soccer",
+      "key": "soccer",
+      "headline": "Mexico rout Serbia in festive final WCup warmup",
+      "title": "Mexico rout Serbia in festive final WCup warmup",
+      "source_headline": "Mexico rout Serbia in festive final WCup warmup",
+      "original_headline": "Mexico rout Serbia in festive final WCup warmup",
+      "snapshot": "In front of a roaring home crowd, Mexico wrapped up their World Cup warmups on Thursday with a dominant 5-1 victory over Serbia, exactly one week before their tournament opener against South Africa.",
+      "url": "https://www.espn.com/soccer/story/_/id/48971934/mexico-earn-dominant-5-1-victory-world-cup-sendoff-match",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Mexico rout Serbia in festive final WCup warmup",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-05 04:50:27 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 320
     },
     {
       "league": "Soccer",
@@ -2618,39 +2648,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 320
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Sources: Pack, WR Watson reach $110.5M deal",
-      "title": "Sources: Pack, WR Watson reach $110.5M deal",
-      "source_headline": "Sources: Pack, WR Watson reach $110.5M deal",
-      "original_headline": "Sources: Pack, WR Watson reach $110.5M deal",
-      "snapshot": "Wide receiver Christian Watson and the Packers reached agreement Thursday on a four-year, $110.5 million contract extension that includes a $31 million signing bonus, sources told ESPN's Adam Schefter.",
-      "url": "https://www.espn.com/nfl/story/_/id/48966432/sources-packers-wr-christian-watson-reach-1105m-extension",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sources: Pack, WR Watson reach $110.5M deal",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 330
     }
   ],
   "stories": [
@@ -2680,7 +2680,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2710,7 +2710,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -2740,7 +2740,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -2770,7 +2770,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2800,7 +2800,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2830,7 +2830,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2860,7 +2860,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2890,7 +2890,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2920,7 +2920,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -2950,7 +2950,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -2980,7 +2980,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3010,7 +3010,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3040,7 +3040,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3070,7 +3070,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3100,7 +3100,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3130,7 +3130,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3160,7 +3160,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3190,7 +3190,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3220,7 +3220,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3250,7 +3250,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3280,7 +3280,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3310,7 +3310,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3340,7 +3340,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3370,7 +3370,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3400,7 +3400,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3430,7 +3430,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3460,7 +3460,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Vegas undaunted but objects to disallowed goal",
+      "title": "Vegas undaunted but objects to disallowed goal",
+      "source_headline": "Vegas undaunted but objects to disallowed goal",
+      "original_headline": "Vegas undaunted but objects to disallowed goal",
+      "snapshot": "The Golden Knights said they remain confident despite the Hurricanes' stunning rally to win Game 2 of the Stanley Cup Final, which was fueled by a critical failed coach's challenge in the third period.",
+      "url": "https://www.espn.com/nhl/story/_/id/48972230/golden-knights-object-disallowed-goal-vow-bounce-back",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Vegas undaunted but objects to disallowed goal",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3490,7 +3520,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3520,7 +3550,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3550,7 +3580,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3580,7 +3610,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3610,7 +3640,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3640,7 +3670,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3670,7 +3700,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3700,7 +3730,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3730,7 +3760,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3760,7 +3790,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3790,7 +3820,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -3820,7 +3850,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -3850,7 +3880,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -3880,7 +3910,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3910,7 +3940,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3940,7 +3970,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -3970,7 +4000,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4000,7 +4030,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4030,7 +4060,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4060,7 +4090,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4090,7 +4120,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4120,7 +4150,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -4150,7 +4180,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4180,7 +4210,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4210,7 +4240,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4240,7 +4270,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4270,7 +4300,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4300,7 +4330,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4330,7 +4360,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4360,7 +4390,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4390,7 +4420,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4420,7 +4450,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4450,37 +4480,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Knight, Muller among unprotected PWHL stars",
-      "title": "Knight, Muller among unprotected PWHL stars",
-      "source_headline": "Knight, Muller among unprotected PWHL stars",
-      "original_headline": "Knight, Muller among unprotected PWHL stars",
-      "snapshot": "Seattle's Hilary Knight, Minnesota's Kendall Coyne Schofield, Boston's Alina Muller, and Ottawa's Brianne Jenner headline a group of stars eligible to be signed by the PWHL's four expansion teams, after the league released its protected player list on...",
-      "url": "https://www.espn.com/nhl/story/_/id/48960402/knight-coyne-schofield-muller-unprotected-pwhl-stars",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Knight, Muller among unprotected PWHL stars",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4510,7 +4510,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4540,7 +4540,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4570,7 +4570,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4600,7 +4600,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4630,7 +4630,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4660,7 +4660,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4690,7 +4690,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4720,7 +4720,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4750,7 +4750,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4780,7 +4780,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:41 AM ET",
+      "updated_at": "2026-06-05 04:50:26 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4810,7 +4810,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -4840,7 +4840,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -4870,7 +4870,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -4900,7 +4900,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -4930,7 +4930,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -4960,7 +4960,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
     },
@@ -4990,9 +4990,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 330
+    },
+    {
+      "league": "Soccer",
+      "key": "soccer",
+      "headline": "Mexico rout Serbia in festive final WCup warmup",
+      "title": "Mexico rout Serbia in festive final WCup warmup",
+      "source_headline": "Mexico rout Serbia in festive final WCup warmup",
+      "original_headline": "Mexico rout Serbia in festive final WCup warmup",
+      "snapshot": "In front of a roaring home crowd, Mexico wrapped up their World Cup warmups on Thursday with a dominant 5-1 victory over Serbia, exactly one week before their tournament opener against South Africa.",
+      "url": "https://www.espn.com/soccer/story/_/id/48971934/mexico-earn-dominant-5-1-victory-world-cup-sendoff-match",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Mexico rout Serbia in festive final WCup warmup",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-05 04:50:27 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 320
     },
     {
       "league": "Soccer",
@@ -5020,39 +5050,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
+      "updated_at": "2026-06-05 04:50:27 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 320
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Sources: Pack, WR Watson reach $110.5M deal",
-      "title": "Sources: Pack, WR Watson reach $110.5M deal",
-      "source_headline": "Sources: Pack, WR Watson reach $110.5M deal",
-      "original_headline": "Sources: Pack, WR Watson reach $110.5M deal",
-      "snapshot": "Wide receiver Christian Watson and the Packers reached agreement Thursday on a four-year, $110.5 million contract extension that includes a $31 million signing bonus, sources told ESPN's Adam Schefter.",
-      "url": "https://www.espn.com/nfl/story/_/id/48966432/sources-packers-wr-christian-watson-reach-1105m-extension",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sources: Pack, WR Watson reach $110.5M deal",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-05 12:41:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 330
     }
   ],
   "reports_loaded": [
