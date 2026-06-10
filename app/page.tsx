@@ -864,6 +864,29 @@ export default function Page() {
               Global Sports Report is tracking World Cup 2026 through match coverage, player trends, team movement, host-city context and the broader soccer storylines building toward the tournament.
             </p>
           </Block>
+          <Block title="World Cup 2026 Data Desk">
+            <div className="grid grid-cols-2 gap-3 text-sm">
+              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
+                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Opening Match</p>
+                <p className="mt-1 font-black text-neutral-950">June 11, 2026</p>
+              </div>
+              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
+                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Final</p>
+                <p className="mt-1 font-black text-neutral-950">July 19, 2026</p>
+              </div>
+              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
+                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Teams</p>
+                <p className="mt-1 font-black text-neutral-950">48</p>
+              </div>
+              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
+                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Matches</p>
+                <p className="mt-1 font-black text-neutral-950">104</p>
+              </div>
+            </div>
+            <p className="mt-3 text-sm leading-6 text-neutral-700">
+              GSR will track the tournament through match results, player form, group movement, host-city pressure, travel demands and the soccer storylines that matter beyond the scoreboard.
+            </p>
+          </Block>
           <Block title="Editor Signals">
             <LineList
               items={
