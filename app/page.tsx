@@ -854,6 +854,16 @@ export default function Page() {
 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">
+          <Block title="World Cup 2026 Coverage">
+            <img
+              src="/world-cup-2026-soccer.svg"
+              alt="World Cup 2026 soccer coverage"
+              className="w-full rounded-xl border border-neutral-200 bg-neutral-950"
+            />
+            <p className="mt-3 text-sm leading-6 text-neutral-700">
+              Global Sports Report is tracking World Cup 2026 through match coverage, player trends, team movement, host-city context and the broader soccer storylines building toward the tournament.
+            </p>
+          </Block>
           <Block title="Editor Signals">
             <LineList
               items={
