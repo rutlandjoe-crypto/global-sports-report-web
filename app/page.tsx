@@ -729,10 +729,17 @@ export default function Page() {
       ? cleanText(report.headline)
       : fallbackHeadline;
 
+  const defaultSnapshot =
+    "A live sports newsroom briefing focused on the stories, injuries, results and league developments shaping the next cycle of coverage.";
+
+  const rawSnapshot = cleanText(report.snapshot);
+
   const snapshot =
-    cleanText(report.snapshot) && !isBadContent(report.snapshot)
-      ? cleanText(report.snapshot)
-      : "A live sports newsroom briefing focused on the stories, pressure points, injuries, analytics and league developments shaping the next cycle of coverage.";
+    rawSnapshot &&
+    !isBadContent(rawSnapshot) &&
+    !/board|signals|signal|coverage priorities|reporting path|verify|organized|market read|takes shape|pressure points/i.test(rawSnapshot)
+      ? rawSnapshot
+      : defaultSnapshot;
 
   const updated =
     cleanText(report.updated_at) ||
