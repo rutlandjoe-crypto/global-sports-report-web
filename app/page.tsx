@@ -791,6 +791,27 @@ export default function Page() {
         </div>
       </div>
 
+      <div className="border-b border-neutral-800 bg-neutral-950 text-white">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-3 px-5 py-2 text-xs font-bold uppercase tracking-wide">
+          <span className="text-neutral-400">Follow GSR:</span>
+          <a href="https://www.youtube.com/@TheGSRNetwork" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-300">
+            YouTube
+          </a>
+          <span className="text-neutral-600">•</span>
+          <a href="https://open.spotify.com/show/033twUpbE3ukspgx0T3XNq?si=CilT1aEXRJ2OEFTMdtvF2A" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-300">
+            Spotify
+          </a>
+          <span className="text-neutral-600">•</span>
+          <a href="https://www.tiktok.com/@thegsrnetwork" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-300">
+            TikTok
+          </a>
+          <span className="text-neutral-600">•</span>
+          <a href="https://gsr-network-news.beehiiv.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-300">
+            Beehiiv
+          </a>
+        </div>
+      </div>
+
       <header className="border-b border-neutral-300 bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-5 py-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
@@ -886,7 +907,7 @@ export default function Page() {
       <footer className="border-t border-neutral-300 bg-white">
         <div className="mx-auto max-w-7xl px-5 py-6">
           <p className="text-sm font-medium text-neutral-700">
-            © {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+            Â© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-neutral-500">
             {SITE.descriptor}
@@ -897,5 +918,6 @@ export default function Page() {
     </main>
   );
 }
+
 
 
