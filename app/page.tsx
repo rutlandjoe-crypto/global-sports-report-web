@@ -1,4 +1,4 @@
-import fs from "fs";
+﻿import fs from "fs";
 import path from "path";
 
 export const dynamic = "force-dynamic";
@@ -98,11 +98,11 @@ function cleanText(value: any): string {
   if (value === null || value === undefined) return "";
 
   if (Array.isArray(value)) {
-    return value.map(cleanText).filter(Boolean).join(" • ");
+    return value.map(cleanText).filter(Boolean).join(" â€¢ ");
   }
 
   if (typeof value === "object") {
-    return Object.values(value).map(cleanText).filter(Boolean).join(" • ");
+    return Object.values(value).map(cleanText).filter(Boolean).join(" â€¢ ");
   }
 
   return String(value).replace(/\s+/g, " ").trim();
@@ -160,7 +160,7 @@ function asList(value: any): string[] {
     return unique(
       value.flatMap((item) =>
         cleanText(item)
-          .split(/\n|•|\|/)
+          .split(/\n|â€¢|\|/)
           .map((x) => x.trim())
           .filter(Boolean)
       )
@@ -171,7 +171,7 @@ function asList(value: any): string[] {
     return unique(
       Object.values(value).flatMap((item) =>
         cleanText(item)
-          .split(/\n|•|\|/)
+          .split(/\n|â€¢|\|/)
           .map((x) => x.trim())
           .filter(Boolean)
       )
@@ -180,7 +180,7 @@ function asList(value: any): string[] {
 
   return unique(
     cleanText(value)
-      .split(/\n|•|\|/)
+      .split(/\n|â€¢|\|/)
       .map((x) => x.trim())
       .filter(Boolean)
   );
@@ -614,7 +614,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Tracking the developments driving today’s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
+          Tracking the developments driving todayâ€™s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
         </p>
       )}
     </div>
@@ -766,6 +766,20 @@ export default function Page() {
 
   const leadStories = stories.slice(0, 10);
 
+  const worldCupStories = stories
+    .filter((story) => {
+      const blob = `${story.headline || ""} ${story.title || ""} ${story.snapshot || ""} ${story.summary || ""} ${story.content || ""}`.toLowerCase();
+      return (
+        blob.includes("world cup") ||
+        blob.includes("fifa") ||
+        blob.includes("usmnt") ||
+        blob.includes("soccer") ||
+        blob.includes("qualifying") ||
+        blob.includes("national team")
+      );
+    })
+    .slice(0, 5);
+
   const liveBriefingItems = liveNewsroomStories.length
     ? spotlightItemsFromStories(liveNewsroomStories)
     : buildBriefingItems(stories, rawSignals);
@@ -793,7 +807,7 @@ export default function Page() {
               >
                 {name}
               </a>
-              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">•</span> : null}
+              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">â€¢</span> : null}
             </span>
           ))}
         </div>
@@ -836,7 +850,7 @@ export default function Page() {
               liveBriefingItems.length
                 ? liveBriefingItems
                 : [
-                    "The day’s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
+                    "The dayâ€™s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
                     "Coaching decisions, lineup movement and late-game execution are driving several major storylines.",
                     "Standings swings and performance trends are beginning to reshape postseason expectations.",
                     "League-wide momentum continues to shift as teams respond to injuries, pressure and schedule demands.",
@@ -887,7 +901,7 @@ export default function Page() {
                 editorSignalItems.length
                   ? editorSignalItems
                   : [
-                      "Playoff positioning, injuries and coaching pressure are driving today’s strongest sports storylines.",
+                      "Playoff positioning, injuries and coaching pressure are driving todayâ€™s strongest sports storylines.",
                       "Several teams are entering critical stretches where lineup decisions and late-game execution matter more.",
                       "Performance trends, roster questions and postseason implications continue shaping coverage priorities.",
                     ]
@@ -934,7 +948,7 @@ export default function Page() {
       <footer className="border-t border-neutral-300 bg-white">
         <div className="mx-auto max-w-7xl px-5 py-6">
           <p className="text-sm font-medium text-neutral-700">
-            Â© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+            Ã‚Â© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-neutral-500">
             {SITE.descriptor}
@@ -945,6 +959,8 @@ export default function Page() {
     </main>
   );
 }
+
+
 
 
 
