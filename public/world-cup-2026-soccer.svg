@@ -1,15 +1,15 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
-  <rect width="1200" height="675" fill="#07111f"/>
-  <circle cx="600" cy="330" r="185" fill="#f7f7f7"/>
-  <polygon points="600,210 665,260 640,340 560,340 535,260" fill="#111"/>
-  <polygon points="475,315 535,260 560,340 510,395 445,375" fill="#111"/>
-  <polygon points="725,315 665,260 640,340 690,395 755,375" fill="#111"/>
-  <polygon points="545,455 560,340 640,340 655,455 600,505" fill="#111"/>
-  <circle cx="600" cy="330" r="185" fill="none" stroke="#ffffff" stroke-width="10"/>
-  <text x="600" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#ffffff">
-    WORLD CUP 2026 COVERAGE
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="World Cup 2026 soccer coverage">
+  <rect width="1200" height="675" fill="#0a0a0a"/>
+  <circle cx="600" cy="315" r="170" fill="#ffffff"/>
+  <path d="M600 190 L675 245 L645 335 L555 335 L525 245 Z" fill="#111111"/>
+  <path d="M525 245 L435 255 L405 345 L475 405 L555 335 Z" fill="#111111"/>
+  <path d="M675 245 L765 255 L795 345 L725 405 L645 335 Z" fill="#111111"/>
+  <path d="M555 335 L475 405 L505 500 L600 535 L695 500 L725 405 L645 335 Z" fill="#111111"/>
+  <circle cx="600" cy="315" r="170" fill="none" stroke="#e5e5e5" stroke-width="10"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#ffffff">
+    WORLD CUP 2026
   </text>
-  <text x="600" y="625" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#b8c7d9">
-    Global Sports Report
+  <text x="600" y="615" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#d4d4d4">
+    GLOBAL SPORTS REPORT COVERAGE
   </text>
 </svg>
