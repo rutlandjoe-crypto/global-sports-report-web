@@ -98,14 +98,27 @@ function cleanText(value: any): string {
   if (value === null || value === undefined) return "";
 
   if (Array.isArray(value)) {
-    return value.map(cleanText).filter(Boolean).join(" â€¢ ");
+    return value.map(cleanText).filter(Boolean).join(" • ");
   }
 
   if (typeof value === "object") {
-    return Object.values(value).map(cleanText).filter(Boolean).join(" â€¢ ");
+    return Object.values(value).map(cleanText).filter(Boolean).join(" • ");
   }
 
-  return String(value).replace(/\s+/g, " ").trim();
+  return String(value)
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&rsquo;/g, "'")
+    .replace(/&lsquo;/g, "'")
+    .replace(/&rdquo;/g, '"')
+    .replace(/&ldquo;/g, '"')
+    .replace(/&ndash;/g, "–")
+    .replace(/&mdash;/g, "—")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function normalizeText(value: any): string {
@@ -160,7 +173,7 @@ function asList(value: any): string[] {
     return unique(
       value.flatMap((item) =>
         cleanText(item)
-          .split(/\n|â€¢|\|/)
+          .split(/\n|•|\|/)
           .map((x) => x.trim())
           .filter(Boolean)
       )
@@ -171,7 +184,7 @@ function asList(value: any): string[] {
     return unique(
       Object.values(value).flatMap((item) =>
         cleanText(item)
-          .split(/\n|â€¢|\|/)
+          .split(/\n|•|\|/)
           .map((x) => x.trim())
           .filter(Boolean)
       )
@@ -180,7 +193,7 @@ function asList(value: any): string[] {
 
   return unique(
     cleanText(value)
-      .split(/\n|â€¢|\|/)
+      .split(/\n|•|\|/)
       .map((x) => x.trim())
       .filter(Boolean)
   );
@@ -614,7 +627,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Tracking the developments driving todayâ€™s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
+          Tracking the developments driving today’s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
         </p>
       )}
     </div>
@@ -807,7 +820,7 @@ export default function Page() {
               >
                 {name}
               </a>
-              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">â€¢</span> : null}
+              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">•</span> : null}
             </span>
           ))}
         </div>
@@ -850,7 +863,7 @@ export default function Page() {
               liveBriefingItems.length
                 ? liveBriefingItems
                 : [
-                    "The dayâ€™s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
+                    "The day’s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
                     "Coaching decisions, lineup movement and late-game execution are driving several major storylines.",
                     "Standings swings and performance trends are beginning to reshape postseason expectations.",
                     "League-wide momentum continues to shift as teams respond to injuries, pressure and schedule demands.",
@@ -928,7 +941,7 @@ export default function Page() {
                 editorSignalItems.length
                   ? editorSignalItems
                   : [
-                      "Playoff positioning, injuries and coaching pressure are driving todayâ€™s strongest sports storylines.",
+                      "Playoff positioning, injuries and coaching pressure are driving today’s strongest sports storylines.",
                       "Several teams are entering critical stretches where lineup decisions and late-game execution matter more.",
                       "Performance trends, roster questions and postseason implications continue shaping coverage priorities.",
                     ]
@@ -975,7 +988,7 @@ export default function Page() {
       <footer className="border-t border-neutral-300 bg-white">
         <div className="mx-auto max-w-7xl px-5 py-6">
           <p className="text-sm font-medium text-neutral-700">
-            Ã‚Â© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+            © {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-neutral-500">
             {SITE.descriptor}
