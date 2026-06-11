@@ -869,8 +869,35 @@ export default function Page() {
               className="w-full rounded-xl border border-neutral-200 bg-neutral-950"
             />
             <p className="mt-3 text-sm leading-6 text-neutral-700">
-              Global Sports Report is tracking World Cup 2026 through match coverage, player trends, team movement, host-city context and the broader soccer storylines building toward the tournament.
+              Global Sports Report is tracking World Cup 2026 through match coverage, player trends, team movement, host-city context and the broader soccer storylines building through the tournament.
             </p>
+
+            <div className="mt-4 space-y-3">
+              <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Latest World Cup Signals</p>
+              {worldCupStories.length ? (
+                worldCupStories.map((story, index) => {
+                  const title = cleanText(story.headline || story.title || `World Cup update ${index + 1}`);
+                  const url = cleanText(story.url || story.source_url || "");
+                  const source = cleanText(story.source_label || story.source || "");
+                  return (
+                    <a
+                      key={`${title}-${index}`}
+                      href={url || "#"}
+                      target={url ? "_blank" : undefined}
+                      rel={url ? "noopener noreferrer" : undefined}
+                      className="block rounded-lg border border-neutral-200 bg-neutral-50 p-3 hover:bg-white"
+                    >
+                      <p className="text-sm font-black leading-5 text-neutral-950">{title}</p>
+                      {source ? <p className="mt-1 text-xs font-bold uppercase tracking-wide text-neutral-500">{source}</p> : null}
+                    </a>
+                  );
+                })
+              ) : (
+                <p className="rounded-lg border border-neutral-200 bg-neutral-50 p-3 text-sm leading-6 text-neutral-700">
+                  World Cup story tracking will update here as soccer headlines enter the Sports report.
+                </p>
+              )}
+            </div>
           </Block>
           <Block title="World Cup 2026 Data Desk">
             <div className="grid grid-cols-2 gap-3 text-sm">
