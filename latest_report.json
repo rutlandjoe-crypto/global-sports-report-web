@@ -2,26 +2,26 @@
   "site": "Global Sports Report",
   "vertical": "Sports",
   "title": "GLOBAL SPORTS REPORT | 2026-06-20",
-  "headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
+  "headline": "Toews, Stanley Cup and Olympic champ, retires",
   "snapshot": "Fresh sports board built from source headlines with old fallback headline machinery removed.",
-  "updated_at": "2026-06-20 12:26:23 AM ET",
-  "generated_at": "2026-06-20 12:26:23 AM ET",
+  "updated_at": "2026-06-20 04:27:05 AM ET",
+  "generated_at": "2026-06-20 04:27:05 AM ET",
   "builder": "clean_build_distribution_rewrite",
   "homepage_cards": [
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "title": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "source_headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "original_headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "snapshot": "Fresh off helping the New York Knicks win their first NBA title since 1973, Jalen Brunson has been interviewed by everyone. Including the youth.",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-hilariously-calls-luka-201322185.html",
-      "source_label": "sports.yahoo.com",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "title": "Toews, Stanley Cup and Olympic champ, retires",
+      "source_headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "original_headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "snapshot": "Jonathan Toews, a three-time Stanley Cup champion with the Blackhawks and two-time Olympic gold medalist with Canada, has announced his retirement.",
+      "url": "https://www.espn.com/nhl/story/_/id/49117735/jonathan-toews-3-stanley-cup-champion-announces-retirement",
+      "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-        "Source: sports.yahoo.com"
+        "Source headline: Toews, Stanley Cup and Olympic champ, retires",
+        "Source: espn.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -34,7 +34,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Brunson slams skeptics as Knicks revel in parade",
+      "title": "Brunson slams skeptics as Knicks revel in parade",
+      "source_headline": "Brunson slams skeptics as Knicks revel in parade",
+      "original_headline": "Brunson slams skeptics as Knicks revel in parade",
+      "snapshot": "Jalen Brunson finally hit back at his skeptics as the Knicks and millions of fans celebrated the franchise's first NBA championship in 53 years with a parade Thursday.",
+      "url": "https://www.espn.com/nba/story/_/id/49108942/jalen-brunson-slams-skeptics-knicks-revel-nba-championship-parade",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Brunson slams skeptics as Knicks revel in parade",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -64,23 +94,53 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Jonathan Toews Officially Retires After Historic 17-Year NHL Career",
-      "title": "Jonathan Toews Officially Retires After Historic 17-Year NHL Career",
-      "source_headline": "Jonathan Toews Officially Retires After Historic 17-Year NHL Career",
-      "original_headline": "Jonathan Toews Officially Retires After Historic 17-Year NHL Career",
-      "snapshot": "The legendary Blackhawks captain returned to Winnipeg to bid an emotional farewell, reflecting on three Stanley Cups, a golden dynasty, and his storied partnership with Patrick Kane.",
-      "url": "https://sports.yahoo.com/articles/jonathan-toews-officially-retires-historic-175200423.html",
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Schlittler fans 13, earns praise from Knicks' Hart...",
+      "title": "Schlittler fans 13, earns praise from Knicks' Hart...",
+      "source_headline": "Schlittler fans 13, earns praise from Knicks' Hart...",
+      "original_headline": "Schlittler fans 13, earns praise from Knicks' Hart...",
+      "snapshot": "Cam Schlittler was so dominant Friday night that even a member of the NBA champion Knicks thinks the tall right-hander is the top pitcher in the American League.",
+      "url": "https://www.espn.com/mlb/story/_/id/49123098/yankees-cam-schlittler-praised-knicks-josh-hart-dominant-start",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Schlittler fans 13, earns praise from Knicks' Hart...",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:02 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Cleveland Browns: Nick Chubb reflects on his 2023 injury in panel discussion",
+      "title": "Cleveland Browns: Nick Chubb reflects on his 2023 injury in panel discussion",
+      "source_headline": "Cleveland Browns: Nick Chubb reflects on his 2023 injury in panel discussion",
+      "original_headline": "Cleveland Browns: Nick Chubb reflects on his 2023 injury in panel discussion",
+      "snapshot": "Former Cleveland RB returned to town as part of University Hospital’s SportsLand event.",
+      "url": "https://sports.yahoo.com/articles/cleveland-browns-nick-chubb-reflects-222119473.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Jonathan Toews Officially Retires After Historic 17-Year NHL Career",
+        "Source headline: Cleveland Browns: Nick Chubb reflects on his 2023 injury in panel discussion",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -94,23 +154,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:05 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 365
+      "priority_score": 330
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Former LSU pitcher Gage Jump off to hot start in Majors",
-      "title": "Former LSU pitcher Gage Jump off to hot start in Majors",
-      "source_headline": "Former LSU pitcher Gage Jump off to hot start in Majors",
-      "original_headline": "Former LSU pitcher Gage Jump off to hot start in Majors",
-      "snapshot": "Former Tiger has burst on to the scene",
-      "url": "https://sports.yahoo.com/articles/former-lsu-pitcher-gage-jump-035823733.html",
+      "headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "title": "Carroll shines and bullpen grinds to victory over Twins",
+      "source_headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "original_headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "snapshot": "Carroll finished a homer short of the cycle and the bullpen was just good enough to cover Soroka’s injury shortened start",
+      "url": "https://sports.yahoo.com/articles/carroll-shines-bullpen-grinds-victory-045142868.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Former LSU pitcher Gage Jump off to hot start in Majors",
+        "Source headline: Carroll shines and bullpen grinds to victory over Twins",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -124,23 +184,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "title": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "source_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "original_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "title": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "source_headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "original_headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/nolan-ryan-jacob-misiorowski-brewers-braves",
+      "url": "https://www.mlb.com/news/shohei-ohtani-away-from-dodgers-ahead-of-birth-of-second-child",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Miz unleashes more gas after catching the eye of the Ryan Express",
+        "Source headline: Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -154,50 +214,29 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 360
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "title": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "source_headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "original_headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/cam-schlittler-strikes-out-13-reds-over-6-scoreless-innings",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     }
   ],
   "live_newsroom": [
     {
+      "section": "nhl",
+      "label": "NHL",
+      "headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "snapshot": "Jonathan Toews, a three-time Stanley Cup champion with the Blackhawks and two-time Olympic gold medalist with Canada, has announced his retirement.",
+      "signal": "espn.com",
+      "updated_at": "2026-06-20 04:27:05 AM ET",
+      "url": "https://www.espn.com/nhl/story/_/id/49117735/jonathan-toews-3-stanley-cup-champion-announces-retirement"
+    },
+    {
       "section": "nba",
       "label": "NBA",
-      "headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "snapshot": "Fresh off helping the New York Knicks win their first NBA title since 1973, Jalen Brunson has been interviewed by everyone. Including the youth.",
-      "signal": "sports.yahoo.com",
-      "updated_at": "2026-06-20 12:26:23 AM ET",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-hilariously-calls-luka-201322185.html"
+      "headline": "Brunson slams skeptics as Knicks revel in parade",
+      "snapshot": "Jalen Brunson finally hit back at his skeptics as the Knicks and millions of fans celebrated the franchise's first NBA championship in 53 years with a parade Thursday.",
+      "signal": "espn.com",
+      "updated_at": "2026-06-20 04:27:05 AM ET",
+      "url": "https://www.espn.com/nba/story/_/id/49108942/jalen-brunson-slams-skeptics-knicks-revel-nba-championship-parade"
     },
     {
       "section": "nba",
@@ -205,44 +244,44 @@
       "headline": "Knicks parade details: Date, time, route as New York celebrates NBA championship",
       "snapshot": "The Knicks and their fans will be celebrating a title in the 'Canyon of Heroes' on Thursday",
       "signal": "cbssports.com",
-      "updated_at": "2026-06-20 12:26:23 AM ET",
+      "updated_at": "2026-06-20 04:27:05 AM ET",
       "url": "https://www.cbssports.com/nba/news/knicks-championship-parade-details-date-route/"
     },
     {
-      "section": "nhl",
-      "label": "NHL",
-      "headline": "Jonathan Toews Officially Retires After Historic 17-Year NHL Career",
-      "snapshot": "The legendary Blackhawks captain returned to Winnipeg to bid an emotional farewell, reflecting on three Stanley Cups, a golden dynasty, and his storied partnership with Patrick Kane.",
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Schlittler fans 13, earns praise from Knicks' Hart...",
+      "snapshot": "Cam Schlittler was so dominant Friday night that even a member of the NBA champion Knicks thinks the tall right-hander is the top pitcher in the American League.",
+      "signal": "espn.com",
+      "updated_at": "2026-06-20 04:27:05 AM ET",
+      "url": "https://www.espn.com/mlb/story/_/id/49123098/yankees-cam-schlittler-praised-knicks-josh-hart-dominant-start"
+    },
+    {
+      "section": "nfl",
+      "label": "NFL",
+      "headline": "Cleveland Browns: Nick Chubb reflects on his 2023 injury in panel discussion",
+      "snapshot": "Former Cleveland RB returned to town as part of University Hospital’s SportsLand event.",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-06-20 12:26:23 AM ET",
-      "url": "https://sports.yahoo.com/articles/jonathan-toews-officially-retires-historic-175200423.html"
+      "updated_at": "2026-06-20 04:27:05 AM ET",
+      "url": "https://sports.yahoo.com/articles/cleveland-browns-nick-chubb-reflects-222119473.html"
     },
     {
       "section": "mlb",
       "label": "MLB",
-      "headline": "Former LSU pitcher Gage Jump off to hot start in Majors",
-      "snapshot": "Former Tiger has burst on to the scene",
+      "headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "snapshot": "Carroll finished a homer short of the cycle and the bullpen was just good enough to cover Soroka’s injury shortened start",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-06-20 12:26:23 AM ET",
-      "url": "https://sports.yahoo.com/articles/former-lsu-pitcher-gage-jump-035823733.html"
+      "updated_at": "2026-06-20 04:27:05 AM ET",
+      "url": "https://sports.yahoo.com/articles/carroll-shines-bullpen-grinds-victory-045142868.html"
     },
     {
       "section": "mlb",
       "label": "MLB",
-      "headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-06-20 12:26:23 AM ET",
-      "url": "https://www.mlb.com/news/nolan-ryan-jacob-misiorowski-brewers-braves"
-    },
-    {
-      "section": "mlb",
-      "label": "MLB",
-      "headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "snapshot": "MLB article selected from a media source.",
-      "signal": "mlb.com",
-      "updated_at": "2026-06-20 12:26:23 AM ET",
-      "url": "https://www.mlb.com/news/cam-schlittler-strikes-out-13-reds-over-6-scoreless-innings"
+      "updated_at": "2026-06-20 04:27:05 AM ET",
+      "url": "https://www.mlb.com/news/shohei-ohtani-away-from-dodgers-ahead-of-birth-of-second-child"
     }
   ],
   "sections": {
@@ -1845,7 +1884,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1875,7 +1914,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -1905,7 +1944,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "title": "Carroll shines and bullpen grinds to victory over Twins",
+      "source_headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "original_headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "snapshot": "Carroll finished a homer short of the cycle and the bullpen was just good enough to cover Soroka’s injury shortened start",
+      "url": "https://sports.yahoo.com/articles/carroll-shines-bullpen-grinds-victory-045142868.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Carroll shines and bullpen grinds to victory over Twins",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -1935,7 +2004,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1965,7 +2034,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -1995,7 +2064,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2025,7 +2094,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2055,7 +2124,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2085,24 +2154,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "title": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "source_headline": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "original_headline": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "snapshot": "Egor Shilov is a Russian center who&#39;s highly skilled with the puck on his stick. Could the Flyers grab him in the first round of the 2026 NHL draft?",
-      "url": "https://sports.yahoo.com/articles/center-fantastic-hockey-sense-could-171830179.html",
-      "source_label": "sports.yahoo.com",
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Ranking the 100 best prospects in the NBA draft: W...",
+      "title": "Ranking the 100 best prospects in the NBA draft: W...",
+      "source_headline": "Ranking the 100 best prospects in the NBA draft: W...",
+      "original_headline": "Ranking the 100 best prospects in the NBA draft: W...",
+      "snapshot": "Who made big jumps in the top 25? Where do Dybantsa and Peterson land? Here's our final big board of 2026.",
+      "url": "https://www.espn.com/nba/story/_/id/46886245/2026-nba-draft-big-board-rankings-top-100-prospects-players",
+      "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-        "Source: sports.yahoo.com"
+        "Source headline: Ranking the 100 best prospects in the NBA draft: W...",
+        "Source: espn.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -2115,9 +2184,99 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 365
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Brunson slams skeptics as Knicks revel in parade",
+      "title": "Brunson slams skeptics as Knicks revel in parade",
+      "source_headline": "Brunson slams skeptics as Knicks revel in parade",
+      "original_headline": "Brunson slams skeptics as Knicks revel in parade",
+      "snapshot": "Jalen Brunson finally hit back at his skeptics as the Knicks and millions of fans celebrated the franchise's first NBA championship in 53 years with a parade Thursday.",
+      "url": "https://www.espn.com/nba/story/_/id/49108942/jalen-brunson-slams-skeptics-knicks-revel-nba-championship-parade",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Brunson slams skeptics as Knicks revel in parade",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "title": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "source_headline": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "original_headline": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "snapshot": "A gulf remains between restricted free agent center Walker Kessler and the Jazz after Utah put an offer worth roughly $140 million over five years on the table, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/49094075/sources-jazz-walker-kessler-not-close-deal-140m-offer",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Jazz-Kessler stalled despite $140M offer",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Spurs are ahead of schedule, but they still ha...",
+      "title": "The Spurs are ahead of schedule, but they still ha...",
+      "source_headline": "The Spurs are ahead of schedule, but they still ha...",
+      "original_headline": "The Spurs are ahead of schedule, but they still ha...",
+      "snapshot": "The New York Knicks won the Finals, exposing several areas of weaknesses for this young San Antonio Spurs team.",
+      "url": "https://www.espn.com/nba/story/_/id/49108219/san-antonio-spurs-offseason-priorities-nba-finals-loss",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Spurs are ahead of schedule, but they still ha...",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
     },
     {
       "league": "MLB",
@@ -2145,7 +2304,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2175,7 +2334,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2205,24 +2364,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Report: D’Angelo Russell opts in to $6M player option",
-      "title": "Report: D’Angelo Russell opts in to $6M player option",
-      "source_headline": "Report: D’Angelo Russell opts in to $6M player option",
-      "original_headline": "Report: D’Angelo Russell opts in to $6M player option",
-      "snapshot": "Veteran guard D’Angelo Russell has opted in to his $6 million player option for the 2026-27 season, Jake Fischer reported Friday. Russell, 30, was acquired by the Wizards on Feb. 5 as part of a trade that sent Anthony Davis, Dante Exum and Jaden Hardy to Washington. He averaged 1",
-      "url": "https://sports.yahoo.com/articles/report-d-angelo-russell-opts-194349235.html",
-      "source_label": "sports.yahoo.com",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Let's make a deal: Projecting six NHL summer trade...",
+      "title": "Let's make a deal: Projecting six NHL summer trade...",
+      "source_headline": "Let's make a deal: Projecting six NHL summer trade...",
+      "original_headline": "Let's make a deal: Projecting six NHL summer trade...",
+      "snapshot": "The draft (June 26-27) and free agency (July 1) are quickly approaching. Here are a handful of logical swaps that should be made.",
+      "url": "https://www.espn.com/nhl/story/_/id/49110952/nhl-2026-trades-draft-picks-prospects-top-players-contracts",
+      "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Report: D’Angelo Russell opts in to $6M player option",
-        "Source: sports.yahoo.com"
+        "Source headline: Let's make a deal: Projecting six NHL summer trade...",
+        "Source: espn.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -2235,9 +2394,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 370
+      "priority_score": 365
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Source: Leafs to acquire Raddysh from Lightning",
+      "title": "Source: Leafs to acquire Raddysh from Lightning",
+      "source_headline": "Source: Leafs to acquire Raddysh from Lightning",
+      "original_headline": "Source: Leafs to acquire Raddysh from Lightning",
+      "snapshot": "The Maple Leafs have acquired Darren Raddysh in a sign-and-trade deal with the Lightning, taking one of the top offensive defensemen off the upcoming NHL free agent market.",
+      "url": "https://www.espn.com/nhl/story/_/id/49116063/source-leafs-acquire-lightning-raddysh-sign-trade",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Source: Leafs to acquire Raddysh from Lightning",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
     },
     {
       "league": "NBA",
@@ -2265,7 +2454,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -2295,7 +2484,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -2325,7 +2514,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -2355,23 +2544,83 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "title": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "source_headline": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "original_headline": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "snapshot": "Rounding up all Warriors and NBA related news for Friday, June 19th.",
-      "url": "https://sports.yahoo.com/articles/warriors-complete-pre-draft-workout-193338468.html",
+      "headline": "Sources: Caldwell-Pope picks up option with Griz",
+      "title": "Sources: Caldwell-Pope picks up option with Griz",
+      "source_headline": "Sources: Caldwell-Pope picks up option with Griz",
+      "original_headline": "Sources: Caldwell-Pope picks up option with Griz",
+      "snapshot": "Veteran guard Kentavious Caldwell-Pope is exercising his $21.6 million player option with the Grizzlies for the 2026-27 season, sources tell ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/49120723/sources-caldwell-pope-opts-216-million-deal-grizzlies",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Caldwell-Pope picks up option with Griz",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Sources: Wizards' Young to decline option, be FA",
+      "title": "Sources: Wizards' Young to decline option, be FA",
+      "source_headline": "Sources: Wizards' Young to decline option, be FA",
+      "original_headline": "Sources: Wizards' Young to decline option, be FA",
+      "snapshot": "Wizards star Trae Young plans to decline his $48.97 million player option for the 2026-27 season, although Washington remains the front-runner, sources said.",
+      "url": "https://www.espn.com/nba/story/_/id/49103130/sources-wizards-trae-young-decline-option-free-agent",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Wizards' Young to decline option, be FA",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "title": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "source_headline": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "original_headline": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "snapshot": "Shaky defense and shaky pitcher management doom the Twins in Phoenix.",
+      "url": "https://sports.yahoo.com/articles/diamondbacks-top-twins-9-5-045405528.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Warriors complete pre-draft workout featuring trio of top prospects",
+        "Source headline: Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2385,9 +2634,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 370
+      "priority_score": 360
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "title": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "source_headline": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "original_headline": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "snapshot": "Boasting a pro-ready frame and elite mobility, this Prince Albert standout offers the smooth-skating defensive presence and power-play utility Nashville needs to bolster its blue line.",
+      "url": "https://sports.yahoo.com/articles/predators-2026-nhl-draft-targets-035435329.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Predators 2026 NHL Draft Targets: Daxon Rudolph",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:04 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
     },
     {
       "league": "NHL",
@@ -2415,7 +2694,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2445,7 +2724,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2475,7 +2754,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -2505,23 +2784,143 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
     {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "☀️ Like father, like son: Booker picks new number",
+      "title": "☀️ Like father, like son: Booker picks new number",
+      "source_headline": "☀️ Like father, like son: Booker picks new number",
+      "original_headline": "☀️ Like father, like son: Booker picks new number",
+      "snapshot": "The Phoenix Suns star wore No. 1 since being drafted in 2015 and during his lone college season at Kentucky.",
+      "url": "https://www.espn.com/nba/story/_/id/49099949/devin-booker-phoenix-suns-nba-jersey-number-no-1-change-no-15",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: ☀️ Like father, like son: Booker picks new number",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
       "league": "NHL",
       "key": "nhl",
-      "headline": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "title": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "source_headline": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "original_headline": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "snapshot": "The 38-year-old is ending a decorated career that included three Stanley Cups and two Olympic gold medals.",
-      "url": "https://sports.yahoo.com/articles/3-time-stanley-cup-winner-171525377.html",
+      "headline": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "title": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "source_headline": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "original_headline": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "snapshot": "The summer trade season is heating up! Find grades for each GM involved in all the big swaps here.",
+      "url": "https://www.espn.com/nhl/story/_/id/49116941/nhl-2026-offseason-trade-grades-deals-report-cards-top-players-prospects-biggest-deals",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NHL trade grades: Is Raddysh worth the risk for th...",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Dodgers delay Smith's return from neck injury",
+      "title": "Dodgers delay Smith's return from neck injury",
+      "source_headline": "Dodgers delay Smith's return from neck injury",
+      "original_headline": "Dodgers delay Smith's return from neck injury",
+      "snapshot": "Dodgers catcher Will Smith, who was due to return Friday, will not be activated this weekend and might not travel with the team on its road trip that begins Monday.",
+      "url": "https://www.espn.com/mlb/story/_/id/49122961/dodgers-smith-not-ready-return-not-travel-team",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Dodgers delay Smith's return from neck injury",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:02 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "⚾ Tom Glavine fears another ugly work stoppage",
+      "title": "⚾ Tom Glavine fears another ugly work stoppage",
+      "source_headline": "⚾ Tom Glavine fears another ugly work stoppage",
+      "original_headline": "⚾ Tom Glavine fears another ugly work stoppage",
+      "snapshot": "The union's primary spokesperson the last time baseball lost games to a labor fight sees similar signs of trouble ahead.",
+      "url": "https://www.espn.com/mlb/story/_/id/49073595/mlb-2026-labor-negotiations-salary-cap-cba-tom-glavine-union-rep-fear",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: ⚾ Tom Glavine fears another ugly work stoppage",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:02 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "title": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "source_headline": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "original_headline": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "snapshot": "Send in your questions now for this week’s episode of The Pindown: A Detroit Pistons Podcast to discuss everything Pistons. Submit your question to the comments section here or on X/Twitter to @TheRealWesD3 and/or @blakesilverman. Join us live on Saturday morning for the show whe",
+      "url": "https://sports.yahoo.com/articles/submit-questions-pindown-detroit-pistons-052800810.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 3-time Stanley Cup winner Jonathan Toews announces his retirement",
+        "Source headline: Submit your questions for The Pindown: A Detroit Pistons Podcast",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2535,23 +2934,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 365
+      "priority_score": 370
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "title": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "source_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "original_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "headline": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
+      "title": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
+      "source_headline": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
+      "original_headline": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/nolan-ryan-jacob-misiorowski-brewers-braves",
+      "url": "https://www.mlb.com/news/cam-schlittler-strikes-out-13-reds-over-6-scoreless-innings",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Miz unleashes more gas after catching the eye of the Ryan Express",
+        "Source headline: Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -2565,23 +2964,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "title": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "source_headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "original_headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
+      "headline": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
+      "title": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
+      "source_headline": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
+      "original_headline": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/cam-schlittler-strikes-out-13-reds-over-6-scoreless-innings",
+      "url": "https://www.mlb.com/news/mike-vasil-tarik-skubal-exchange-words-during-white-sox-loss",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
+        "Source headline: Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -2595,7 +2994,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "title": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "source_headline": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "original_headline": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/trade-deadline-2026-sellers-with-controllable-pitchers-to-trade",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: So many teams need starting pitching ... which potential sellers will capitalize?",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2625,23 +3054,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "deGrom buckles down after early trouble to secure rare birthday win",
-      "title": "deGrom buckles down after early trouble to secure rare birthday win",
-      "source_headline": "deGrom buckles down after early trouble to secure rare birthday win",
-      "original_headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "headline": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
+      "title": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
+      "source_headline": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
+      "original_headline": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jacob-degrom-wins-birthday-rangers-padres",
+      "url": "https://www.mlb.com/news/dalton-rushing-hits-first-career-walk-off",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: deGrom buckles down after early trouble to secure rare birthday win",
+        "Source headline: 0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -2655,23 +3084,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
-      "title": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
-      "source_headline": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
-      "original_headline": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
+      "headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "title": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "source_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "original_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/friday-night-baseball-on-apple-tv-for-2026-mlb-season",
+      "url": "https://www.mlb.com/news/nolan-ryan-jacob-misiorowski-brewers-braves",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
+        "Source headline: Miz unleashes more gas after catching the eye of the Ryan Express",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -2685,7 +3114,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2715,23 +3144,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "title": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "source_headline": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "original_headline": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/mauricio-dubon-go-ahead-single-off-jacob-misiorowski",
+      "headline": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "title": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "source_headline": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "original_headline": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "snapshot": "Athletics notch first comeback victory after trailing by 7+ runs since July 24, 2018",
+      "url": "https://www.mlb.com/news/jonah-heim-hits-pinch-hit-game-tying-home-run-before-a-s-walk-off-angels",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
+        "Source headline: Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -2745,23 +3174,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "title": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "source_headline": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "original_headline": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/elly-de-la-cruz-homers-in-first-rehab-game",
+      "headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "title": "deGrom buckles down after early trouble to secure rare birthday win",
+      "source_headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "original_headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "snapshot": "Rangers' bats overcome 5-run 1st-inning hole to mount largest comeback victory of '26",
+      "url": "https://www.mlb.com/news/jacob-degrom-wins-birthday-rangers-padres",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
+        "Source headline: deGrom buckles down after early trouble to secure rare birthday win",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -2775,7 +3204,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "title": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "source_headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "original_headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/shohei-ohtani-away-from-dodgers-ahead-of-birth-of-second-child",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2805,67 +3264,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 360
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "title": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "source_headline": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "original_headline": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/kyle-freeland-reaches-1-000-career-strikeouts-in-rockies-win",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 360
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Kotsay ejected in second inning for arguing balls and strikes",
-      "title": "Kotsay ejected in second inning for arguing balls and strikes",
-      "source_headline": "Kotsay ejected in second inning for arguing balls and strikes",
-      "original_headline": "Kotsay ejected in second inning for arguing balls and strikes",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/mark-kotsay-ejected-for-arguing-balls-and-strikes",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Kotsay ejected in second inning for arguing balls and strikes",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -2893,7 +3292,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -2922,7 +3321,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2952,7 +3351,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -2982,7 +3381,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -3012,7 +3411,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -3040,7 +3439,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -3069,7 +3468,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -3098,7 +3497,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -3127,7 +3526,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -3146,7 +3545,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -3175,7 +3574,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -3205,7 +3604,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -3234,7 +3633,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -3264,7 +3663,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -3294,7 +3693,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -3323,7 +3722,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -3355,7 +3754,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3385,7 +3784,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3415,7 +3814,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3445,7 +3844,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3475,7 +3874,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3505,7 +3904,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3535,7 +3934,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3565,7 +3964,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3595,7 +3994,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3625,7 +4024,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -3655,7 +4054,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3685,7 +4084,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3715,7 +4114,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -3745,7 +4144,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -3775,7 +4174,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -3805,234 +4204,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "title": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "source_headline": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "original_headline": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "snapshot": "Young, in turning down his $49 million option, clearly thinks there are better options out there, but it's unclear where",
-      "url": "https://www.cbssports.com/nba/news/trae-young-free-agency-wizards-player-option/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "title": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "source_headline": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "original_headline": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "snapshot": "KCP had a $21.6 million player option, D&#39;Angelo Russell a $6 million one.",
-      "url": "https://sports.yahoo.com/articles/grizzlies-kentavious-caldwell-pope-wizards-004000779.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "title": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "source_headline": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "original_headline": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "snapshot": "Harper knew his value from the start but sacrificed to help the Spurs contend. The quesion is, will he do the same next year?",
-      "url": "https://sports.yahoo.com/articles/report-spurs-dylan-harper-voiced-001500541.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "title": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "source_headline": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "original_headline": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "snapshot": "San Antonio will almost certainly have to move Fox at some point, but this summer doesn’t seem like the best time to do it.",
-      "url": "https://sports.yahoo.com/articles/why-trading-aaron-fox-offseason-213555658.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Why trading De’Aaron Fox this offseason would be a mistake",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Zach Lowe Has The Boozer Epiphany",
-      "title": "Zach Lowe Has The Boozer Epiphany",
-      "source_headline": "Zach Lowe Has The Boozer Epiphany",
-      "original_headline": "Zach Lowe Has The Boozer Epiphany",
-      "snapshot": "The NBA will find out who Cameron Boozer is soon enough.",
-      "url": "https://sports.yahoo.com/articles/zach-lowe-boozer-epiphany-203525130.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Zach Lowe Has The Boozer Epiphany",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "title": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "source_headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "original_headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "snapshot": "Fresh off helping the New York Knicks win their first NBA title since 1973, Jalen Brunson has been interviewed by everyone. Including the youth.",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-hilariously-calls-luka-201322185.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "title": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "source_headline": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "original_headline": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "snapshot": "Team-by-team takeaways from the final week of minicamp as we head into the summer break",
-      "url": "https://www.cbssports.com/nfl/news/2026-nfl-minicamp-takeaways-joe-burrow-bo-nix/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:23 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 330
-    },
-    {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "title": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "source_headline": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "original_headline": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "snapshot": "Former Detroit Red Wings goaltender Jimmy Howard has been tabbed as the goaltending coach for PWHL Detroit, one of the newest expansion clubs set to begin play this fall.",
-      "url": "https://sports.yahoo.com/articles/former-red-wings-goaltender-jimmy-024300565.html",
-      "source_label": "sports.yahoo.com",
+      "headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "title": "Toews, Stanley Cup and Olympic champ, retires",
+      "source_headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "original_headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "snapshot": "Jonathan Toews, a three-time Stanley Cup champion with the Blackhawks and two-time Olympic gold medalist with Canada, has announced his retirement.",
+      "url": "https://www.espn.com/nhl/story/_/id/49117735/jonathan-toews-3-stanley-cup-champion-announces-retirement",
+      "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-        "Source: sports.yahoo.com"
+        "Source headline: Toews, Stanley Cup and Olympic champ, retires",
+        "Source: espn.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -4045,157 +4234,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Avalanche Bests and Blursts: 2000-2005",
-      "title": "Avalanche Bests and Blursts: 2000-2005",
-      "source_headline": "Avalanche Bests and Blursts: 2000-2005",
-      "original_headline": "Avalanche Bests and Blursts: 2000-2005",
-      "snapshot": "This is the second in an ongoing series covering thirty years of bests (and blursts) of Colorado Avalanche hockey!",
-      "url": "https://sports.yahoo.com/articles/avalanche-bests-blursts-2000-2005-231013459.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Avalanche Bests and Blursts: 2000-2005",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Should The Canadiens Enquire About Shane Wright?",
-      "title": "Should The Canadiens Enquire About Shane Wright?",
-      "source_headline": "Should The Canadiens Enquire About Shane Wright?",
-      "original_headline": "Should The Canadiens Enquire About Shane Wright?",
-      "snapshot": "While the Canadiens are looking for a second-line center, they&#39;re not looking for a project anymore, and they need to find a player who has already proven he can perform at a high level in the league.",
-      "url": "https://sports.yahoo.com/articles/canadiens-enquire-shane-wright-193031365.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Should The Canadiens Enquire About Shane Wright?",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "title": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "source_headline": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "original_headline": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "snapshot": "Colorado has every reason to explore moving Valeri Nichushkin, but giving up on one of the NHL&#39;s most dominant playoff performers could be a mistake.",
-      "url": "https://sports.yahoo.com/articles/avalanches-toughest-offseason-decision-isnt-183925273.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "title": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "source_headline": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "original_headline": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "snapshot": "Recapping the 2025-26 season for Mason McTavish, Jansen Harkins, Ryan Poehling and Jeff Viel.",
-      "url": "https://sports.yahoo.com/articles/2025-26-anaheim-ducks-numbers-173903263.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 2025-26 Anaheim Ducks: By the Numbers, Part 3",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "title": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "source_headline": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "original_headline": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "snapshot": "The Canadiens are not one of the clubs currently in the mix for Rangers forward Vincent Trocheck.",
-      "url": "https://sports.yahoo.com/articles/report-canadiens-not-among-teams-173024421.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     }
@@ -4227,7 +4266,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4257,7 +4296,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4287,7 +4326,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "title": "Carroll shines and bullpen grinds to victory over Twins",
+      "source_headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "original_headline": "Carroll shines and bullpen grinds to victory over Twins",
+      "snapshot": "Carroll finished a homer short of the cycle and the bullpen was just good enough to cover Soroka’s injury shortened start",
+      "url": "https://sports.yahoo.com/articles/carroll-shines-bullpen-grinds-victory-045142868.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Carroll shines and bullpen grinds to victory over Twins",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4317,7 +4386,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4347,7 +4416,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4377,7 +4446,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4407,7 +4476,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4437,7 +4506,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4467,24 +4536,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "title": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "source_headline": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "original_headline": "A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-      "snapshot": "Egor Shilov is a Russian center who&#39;s highly skilled with the puck on his stick. Could the Flyers grab him in the first round of the 2026 NHL draft?",
-      "url": "https://sports.yahoo.com/articles/center-fantastic-hockey-sense-could-171830179.html",
-      "source_label": "sports.yahoo.com",
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Ranking the 100 best prospects in the NBA draft: W...",
+      "title": "Ranking the 100 best prospects in the NBA draft: W...",
+      "source_headline": "Ranking the 100 best prospects in the NBA draft: W...",
+      "original_headline": "Ranking the 100 best prospects in the NBA draft: W...",
+      "snapshot": "Who made big jumps in the top 25? Where do Dybantsa and Peterson land? Here's our final big board of 2026.",
+      "url": "https://www.espn.com/nba/story/_/id/46886245/2026-nba-draft-big-board-rankings-top-100-prospects-players",
+      "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: A center with ‘fantastic&#39; hockey sense could give Flyers option to trade down",
-        "Source: sports.yahoo.com"
+        "Source headline: Ranking the 100 best prospects in the NBA draft: W...",
+        "Source: espn.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -4497,9 +4566,99 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 365
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Brunson slams skeptics as Knicks revel in parade",
+      "title": "Brunson slams skeptics as Knicks revel in parade",
+      "source_headline": "Brunson slams skeptics as Knicks revel in parade",
+      "original_headline": "Brunson slams skeptics as Knicks revel in parade",
+      "snapshot": "Jalen Brunson finally hit back at his skeptics as the Knicks and millions of fans celebrated the franchise's first NBA championship in 53 years with a parade Thursday.",
+      "url": "https://www.espn.com/nba/story/_/id/49108942/jalen-brunson-slams-skeptics-knicks-revel-nba-championship-parade",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Brunson slams skeptics as Knicks revel in parade",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "title": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "source_headline": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "original_headline": "Sources: Jazz-Kessler stalled despite $140M offer",
+      "snapshot": "A gulf remains between restricted free agent center Walker Kessler and the Jazz after Utah put an offer worth roughly $140 million over five years on the table, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/49094075/sources-jazz-walker-kessler-not-close-deal-140m-offer",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Jazz-Kessler stalled despite $140M offer",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Spurs are ahead of schedule, but they still ha...",
+      "title": "The Spurs are ahead of schedule, but they still ha...",
+      "source_headline": "The Spurs are ahead of schedule, but they still ha...",
+      "original_headline": "The Spurs are ahead of schedule, but they still ha...",
+      "snapshot": "The New York Knicks won the Finals, exposing several areas of weaknesses for this young San Antonio Spurs team.",
+      "url": "https://www.espn.com/nba/story/_/id/49108219/san-antonio-spurs-offseason-priorities-nba-finals-loss",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Spurs are ahead of schedule, but they still ha...",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
     },
     {
       "league": "MLB",
@@ -4527,7 +4686,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -4557,7 +4716,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4587,24 +4746,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Report: D’Angelo Russell opts in to $6M player option",
-      "title": "Report: D’Angelo Russell opts in to $6M player option",
-      "source_headline": "Report: D’Angelo Russell opts in to $6M player option",
-      "original_headline": "Report: D’Angelo Russell opts in to $6M player option",
-      "snapshot": "Veteran guard D’Angelo Russell has opted in to his $6 million player option for the 2026-27 season, Jake Fischer reported Friday. Russell, 30, was acquired by the Wizards on Feb. 5 as part of a trade that sent Anthony Davis, Dante Exum and Jaden Hardy to Washington. He averaged 1",
-      "url": "https://sports.yahoo.com/articles/report-d-angelo-russell-opts-194349235.html",
-      "source_label": "sports.yahoo.com",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Let's make a deal: Projecting six NHL summer trade...",
+      "title": "Let's make a deal: Projecting six NHL summer trade...",
+      "source_headline": "Let's make a deal: Projecting six NHL summer trade...",
+      "original_headline": "Let's make a deal: Projecting six NHL summer trade...",
+      "snapshot": "The draft (June 26-27) and free agency (July 1) are quickly approaching. Here are a handful of logical swaps that should be made.",
+      "url": "https://www.espn.com/nhl/story/_/id/49110952/nhl-2026-trades-draft-picks-prospects-top-players-contracts",
+      "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Report: D’Angelo Russell opts in to $6M player option",
-        "Source: sports.yahoo.com"
+        "Source headline: Let's make a deal: Projecting six NHL summer trade...",
+        "Source: espn.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -4617,9 +4776,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 370
+      "priority_score": 365
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Source: Leafs to acquire Raddysh from Lightning",
+      "title": "Source: Leafs to acquire Raddysh from Lightning",
+      "source_headline": "Source: Leafs to acquire Raddysh from Lightning",
+      "original_headline": "Source: Leafs to acquire Raddysh from Lightning",
+      "snapshot": "The Maple Leafs have acquired Darren Raddysh in a sign-and-trade deal with the Lightning, taking one of the top offensive defensemen off the upcoming NHL free agent market.",
+      "url": "https://www.espn.com/nhl/story/_/id/49116063/source-leafs-acquire-lightning-raddysh-sign-trade",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Source: Leafs to acquire Raddysh from Lightning",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
     },
     {
       "league": "NBA",
@@ -4647,7 +4836,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4677,7 +4866,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4707,7 +4896,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -4737,23 +4926,83 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "title": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "source_headline": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "original_headline": "Warriors complete pre-draft workout featuring trio of top prospects",
-      "snapshot": "Rounding up all Warriors and NBA related news for Friday, June 19th.",
-      "url": "https://sports.yahoo.com/articles/warriors-complete-pre-draft-workout-193338468.html",
+      "headline": "Sources: Caldwell-Pope picks up option with Griz",
+      "title": "Sources: Caldwell-Pope picks up option with Griz",
+      "source_headline": "Sources: Caldwell-Pope picks up option with Griz",
+      "original_headline": "Sources: Caldwell-Pope picks up option with Griz",
+      "snapshot": "Veteran guard Kentavious Caldwell-Pope is exercising his $21.6 million player option with the Grizzlies for the 2026-27 season, sources tell ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/49120723/sources-caldwell-pope-opts-216-million-deal-grizzlies",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Caldwell-Pope picks up option with Griz",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Sources: Wizards' Young to decline option, be FA",
+      "title": "Sources: Wizards' Young to decline option, be FA",
+      "source_headline": "Sources: Wizards' Young to decline option, be FA",
+      "original_headline": "Sources: Wizards' Young to decline option, be FA",
+      "snapshot": "Wizards star Trae Young plans to decline his $48.97 million player option for the 2026-27 season, although Washington remains the front-runner, sources said.",
+      "url": "https://www.espn.com/nba/story/_/id/49103130/sources-wizards-trae-young-decline-option-free-agent",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Wizards' Young to decline option, be FA",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "title": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "source_headline": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "original_headline": "Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
+      "snapshot": "Shaky defense and shaky pitcher management doom the Twins in Phoenix.",
+      "url": "https://sports.yahoo.com/articles/diamondbacks-top-twins-9-5-045405528.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Warriors complete pre-draft workout featuring trio of top prospects",
+        "Source headline: Diamondbacks top Twins 9 to 5: It’s a way to stop the winnin’",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4767,9 +5016,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 370
+      "priority_score": 360
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "title": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "source_headline": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "original_headline": "Predators 2026 NHL Draft Targets: Daxon Rudolph",
+      "snapshot": "Boasting a pro-ready frame and elite mobility, this Prince Albert standout offers the smooth-skating defensive presence and power-play utility Nashville needs to bolster its blue line.",
+      "url": "https://sports.yahoo.com/articles/predators-2026-nhl-draft-targets-035435329.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Predators 2026 NHL Draft Targets: Daxon Rudolph",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:04 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
     },
     {
       "league": "NHL",
@@ -4797,7 +5076,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4827,7 +5106,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4857,7 +5136,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -4887,23 +5166,143 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:04 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
     {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "☀️ Like father, like son: Booker picks new number",
+      "title": "☀️ Like father, like son: Booker picks new number",
+      "source_headline": "☀️ Like father, like son: Booker picks new number",
+      "original_headline": "☀️ Like father, like son: Booker picks new number",
+      "snapshot": "The Phoenix Suns star wore No. 1 since being drafted in 2015 and during his lone college season at Kentucky.",
+      "url": "https://www.espn.com/nba/story/_/id/49099949/devin-booker-phoenix-suns-nba-jersey-number-no-1-change-no-15",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: ☀️ Like father, like son: Booker picks new number",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:00 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 370
+    },
+    {
       "league": "NHL",
       "key": "nhl",
-      "headline": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "title": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "source_headline": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "original_headline": "3-time Stanley Cup winner Jonathan Toews announces his retirement",
-      "snapshot": "The 38-year-old is ending a decorated career that included three Stanley Cups and two Olympic gold medals.",
-      "url": "https://sports.yahoo.com/articles/3-time-stanley-cup-winner-171525377.html",
+      "headline": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "title": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "source_headline": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "original_headline": "NHL trade grades: Is Raddysh worth the risk for th...",
+      "snapshot": "The summer trade season is heating up! Find grades for each GM involved in all the big swaps here.",
+      "url": "https://www.espn.com/nhl/story/_/id/49116941/nhl-2026-offseason-trade-grades-deals-report-cards-top-players-prospects-biggest-deals",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NHL trade grades: Is Raddysh worth the risk for th...",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 365
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Dodgers delay Smith's return from neck injury",
+      "title": "Dodgers delay Smith's return from neck injury",
+      "source_headline": "Dodgers delay Smith's return from neck injury",
+      "original_headline": "Dodgers delay Smith's return from neck injury",
+      "snapshot": "Dodgers catcher Will Smith, who was due to return Friday, will not be activated this weekend and might not travel with the team on its road trip that begins Monday.",
+      "url": "https://www.espn.com/mlb/story/_/id/49122961/dodgers-smith-not-ready-return-not-travel-team",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Dodgers delay Smith's return from neck injury",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:02 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "⚾ Tom Glavine fears another ugly work stoppage",
+      "title": "⚾ Tom Glavine fears another ugly work stoppage",
+      "source_headline": "⚾ Tom Glavine fears another ugly work stoppage",
+      "original_headline": "⚾ Tom Glavine fears another ugly work stoppage",
+      "snapshot": "The union's primary spokesperson the last time baseball lost games to a labor fight sees similar signs of trouble ahead.",
+      "url": "https://www.espn.com/mlb/story/_/id/49073595/mlb-2026-labor-negotiations-salary-cap-cba-tom-glavine-union-rep-fear",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: ⚾ Tom Glavine fears another ugly work stoppage",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:02 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "title": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "source_headline": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "original_headline": "Submit your questions for The Pindown: A Detroit Pistons Podcast",
+      "snapshot": "Send in your questions now for this week’s episode of The Pindown: A Detroit Pistons Podcast to discuss everything Pistons. Submit your question to the comments section here or on X/Twitter to @TheRealWesD3 and/or @blakesilverman. Join us live on Saturday morning for the show whe",
+      "url": "https://sports.yahoo.com/articles/submit-questions-pindown-detroit-pistons-052800810.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 3-time Stanley Cup winner Jonathan Toews announces his retirement",
+        "Source headline: Submit your questions for The Pindown: A Detroit Pistons Podcast",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4917,23 +5316,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 365
+      "priority_score": 370
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "title": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "source_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
-      "original_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "headline": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
+      "title": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
+      "source_headline": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
+      "original_headline": "Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/nolan-ryan-jacob-misiorowski-brewers-braves",
+      "url": "https://www.mlb.com/news/cam-schlittler-strikes-out-13-reds-over-6-scoreless-innings",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Miz unleashes more gas after catching the eye of the Ryan Express",
+        "Source headline: Schlittler wowing everyone after 13 K's -- teammates and NBA champs alike",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -4947,23 +5346,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "title": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "source_headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
-      "original_headline": "Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
+      "headline": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
+      "title": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
+      "source_headline": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
+      "original_headline": "Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/cam-schlittler-strikes-out-13-reds-over-6-scoreless-innings",
+      "url": "https://www.mlb.com/news/mike-vasil-tarik-skubal-exchange-words-during-white-sox-loss",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Schlittler K's career-high 13, dropping AL-best ERA to 1.71",
+        "Source headline: Heated exchange rises between Vasil, Skubal after 5th-inning strikeout",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -4977,7 +5376,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "title": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "source_headline": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "original_headline": "So many teams need starting pitching ... which potential sellers will capitalize?",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/trade-deadline-2026-sellers-with-controllable-pitchers-to-trade",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: So many teams need starting pitching ... which potential sellers will capitalize?",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -5007,23 +5436,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "deGrom buckles down after early trouble to secure rare birthday win",
-      "title": "deGrom buckles down after early trouble to secure rare birthday win",
-      "source_headline": "deGrom buckles down after early trouble to secure rare birthday win",
-      "original_headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "headline": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
+      "title": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
+      "source_headline": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
+      "original_headline": "0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jacob-degrom-wins-birthday-rangers-padres",
+      "url": "https://www.mlb.com/news/dalton-rushing-hits-first-career-walk-off",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: deGrom buckles down after early trouble to secure rare birthday win",
+        "Source headline: 0-for-4 with 3 K's? 'None of it matters' after Rushing knocks 1st career walk-off hit",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5037,23 +5466,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
-      "title": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
-      "source_headline": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
-      "original_headline": "Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
+      "headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "title": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "source_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
+      "original_headline": "Miz unleashes more gas after catching the eye of the Ryan Express",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/friday-night-baseball-on-apple-tv-for-2026-mlb-season",
+      "url": "https://www.mlb.com/news/nolan-ryan-jacob-misiorowski-brewers-braves",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Dynamic outfielders conclude 'Friday Night Baseball' on Apple TV",
+        "Source headline: Miz unleashes more gas after catching the eye of the Ryan Express",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5067,7 +5496,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -5097,23 +5526,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "title": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "source_headline": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "original_headline": "Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/mauricio-dubon-go-ahead-single-off-jacob-misiorowski",
+      "headline": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "title": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "source_headline": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "original_headline": "Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
+      "snapshot": "Athletics notch first comeback victory after trailing by 7+ runs since July 24, 2018",
+      "url": "https://www.mlb.com/news/jonah-heim-hits-pinch-hit-game-tying-home-run-before-a-s-walk-off-angels",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Dubón continues 2-out success, lifts Braves to comeback win against the Miz",
+        "Source headline: Heim, A's prove 'no deficit is safe' with AL-best 21st comeback win",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5127,23 +5556,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "title": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "source_headline": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "original_headline": "De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/elly-de-la-cruz-homers-in-first-rehab-game",
+      "headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "title": "deGrom buckles down after early trouble to secure rare birthday win",
+      "source_headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "original_headline": "deGrom buckles down after early trouble to secure rare birthday win",
+      "snapshot": "Rangers' bats overcome 5-run 1st-inning hole to mount largest comeback victory of '26",
+      "url": "https://www.mlb.com/news/jacob-degrom-wins-birthday-rangers-padres",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: De La Cruz crushes HR, reaches base 3 times in 1st rehab game",
+        "Source headline: deGrom buckles down after early trouble to secure rare birthday win",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5157,7 +5586,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 360
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "title": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "source_headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "original_headline": "Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/shohei-ohtani-away-from-dodgers-ahead-of-birth-of-second-child",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Ohtani could return Saturday after missing Friday in anticipation of birth of 2nd child",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -5187,67 +5646,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 360
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "title": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "source_headline": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "original_headline": "Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/kyle-freeland-reaches-1-000-career-strikeouts-in-rockies-win",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Freeland celebrates 1,000 K milestone in gutsy Rockies victory",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 360
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Kotsay ejected in second inning for arguing balls and strikes",
-      "title": "Kotsay ejected in second inning for arguing balls and strikes",
-      "source_headline": "Kotsay ejected in second inning for arguing balls and strikes",
-      "original_headline": "Kotsay ejected in second inning for arguing balls and strikes",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/mark-kotsay-ejected-for-arguing-balls-and-strikes",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Kotsay ejected in second inning for arguing balls and strikes",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -5275,7 +5674,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -5304,7 +5703,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -5334,7 +5733,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -5364,7 +5763,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -5394,7 +5793,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -5422,7 +5821,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -5451,7 +5850,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -5480,7 +5879,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -5509,7 +5908,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -5528,7 +5927,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -5557,7 +5956,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -5587,7 +5986,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -5616,7 +6015,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -5646,7 +6045,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -5676,7 +6075,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -5705,7 +6104,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-20 12:26:20 AM ET",
+      "updated_at": "2026-06-20 04:27:00 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -5737,7 +6136,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -5767,7 +6166,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -5797,7 +6196,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -5827,7 +6226,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -5857,7 +6256,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -5887,7 +6286,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -5917,7 +6316,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -5947,7 +6346,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -5977,7 +6376,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -6007,7 +6406,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:01 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 370
     },
@@ -6037,7 +6436,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -6067,7 +6466,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -6097,7 +6496,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -6127,7 +6526,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     },
@@ -6157,7 +6556,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
@@ -6187,234 +6586,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
+      "updated_at": "2026-06-20 04:27:02 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 360
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "title": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "source_headline": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "original_headline": "Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-      "snapshot": "Young, in turning down his $49 million option, clearly thinks there are better options out there, but it's unclear where",
-      "url": "https://www.cbssports.com/nba/news/trae-young-free-agency-wizards-player-option/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Trae Young is reportedly declining his player option, so what does that mean for his free agency?",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "title": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "source_headline": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "original_headline": "Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-      "snapshot": "KCP had a $21.6 million player option, D&#39;Angelo Russell a $6 million one.",
-      "url": "https://sports.yahoo.com/articles/grizzlies-kentavious-caldwell-pope-wizards-004000779.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Grizzlies&#39; Kentavious Caldwell-Pope, Wizards&#39; Russell pick up player options for next season",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "title": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "source_headline": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "original_headline": "Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-      "snapshot": "Harper knew his value from the start but sacrificed to help the Spurs contend. The quesion is, will he do the same next year?",
-      "url": "https://sports.yahoo.com/articles/report-spurs-dylan-harper-voiced-001500541.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Report: Spurs’ Dylan Harper ‘voiced displeasure’ with role, minutes early in rookie season",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "title": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "source_headline": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "original_headline": "Why trading De’Aaron Fox this offseason would be a mistake",
-      "snapshot": "San Antonio will almost certainly have to move Fox at some point, but this summer doesn’t seem like the best time to do it.",
-      "url": "https://sports.yahoo.com/articles/why-trading-aaron-fox-offseason-213555658.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Why trading De’Aaron Fox this offseason would be a mistake",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Zach Lowe Has The Boozer Epiphany",
-      "title": "Zach Lowe Has The Boozer Epiphany",
-      "source_headline": "Zach Lowe Has The Boozer Epiphany",
-      "original_headline": "Zach Lowe Has The Boozer Epiphany",
-      "snapshot": "The NBA will find out who Cameron Boozer is soon enough.",
-      "url": "https://sports.yahoo.com/articles/zach-lowe-boozer-epiphany-203525130.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Zach Lowe Has The Boozer Epiphany",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "title": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "source_headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "original_headline": "Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-      "snapshot": "Fresh off helping the New York Knicks win their first NBA title since 1973, Jalen Brunson has been interviewed by everyone. Including the youth.",
-      "url": "https://sports.yahoo.com/articles/jalen-brunson-hilariously-calls-luka-201322185.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Jalen Brunson hilariously calls Luka Dončić the worst teammate he’s ever had",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:21 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 370
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "title": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "source_headline": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "original_headline": "2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-      "snapshot": "Team-by-team takeaways from the final week of minicamp as we head into the summer break",
-      "url": "https://www.cbssports.com/nfl/news/2026-nfl-minicamp-takeaways-joe-burrow-bo-nix/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 2026 NFL minicamp takeaways: Joe Burrow makes crazy Bengals comparison, Bo Nix downplays ankle injury, more",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:23 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 330
-    },
-    {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "title": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "source_headline": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "original_headline": "Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-      "snapshot": "Former Detroit Red Wings goaltender Jimmy Howard has been tabbed as the goaltending coach for PWHL Detroit, one of the newest expansion clubs set to begin play this fall.",
-      "url": "https://sports.yahoo.com/articles/former-red-wings-goaltender-jimmy-024300565.html",
-      "source_label": "sports.yahoo.com",
+      "headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "title": "Toews, Stanley Cup and Olympic champ, retires",
+      "source_headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "original_headline": "Toews, Stanley Cup and Olympic champ, retires",
+      "snapshot": "Jonathan Toews, a three-time Stanley Cup champion with the Blackhawks and two-time Olympic gold medalist with Canada, has announced his retirement.",
+      "url": "https://www.espn.com/nhl/story/_/id/49117735/jonathan-toews-3-stanley-cup-champion-announces-retirement",
+      "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Former Red Wings Goaltender Jimmy Howard Steps Into New Local Coaching Role",
-        "Source: sports.yahoo.com"
+        "Source headline: Toews, Stanley Cup and Olympic champ, retires",
+        "Source: espn.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -6427,157 +6616,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Avalanche Bests and Blursts: 2000-2005",
-      "title": "Avalanche Bests and Blursts: 2000-2005",
-      "source_headline": "Avalanche Bests and Blursts: 2000-2005",
-      "original_headline": "Avalanche Bests and Blursts: 2000-2005",
-      "snapshot": "This is the second in an ongoing series covering thirty years of bests (and blursts) of Colorado Avalanche hockey!",
-      "url": "https://sports.yahoo.com/articles/avalanche-bests-blursts-2000-2005-231013459.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Avalanche Bests and Blursts: 2000-2005",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Should The Canadiens Enquire About Shane Wright?",
-      "title": "Should The Canadiens Enquire About Shane Wright?",
-      "source_headline": "Should The Canadiens Enquire About Shane Wright?",
-      "original_headline": "Should The Canadiens Enquire About Shane Wright?",
-      "snapshot": "While the Canadiens are looking for a second-line center, they&#39;re not looking for a project anymore, and they need to find a player who has already proven he can perform at a high level in the league.",
-      "url": "https://sports.yahoo.com/articles/canadiens-enquire-shane-wright-193031365.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Should The Canadiens Enquire About Shane Wright?",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "title": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "source_headline": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "original_headline": "The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-      "snapshot": "Colorado has every reason to explore moving Valeri Nichushkin, but giving up on one of the NHL&#39;s most dominant playoff performers could be a mistake.",
-      "url": "https://sports.yahoo.com/articles/avalanches-toughest-offseason-decision-isnt-183925273.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: The Avalanche&#39;s Toughest Offseason Decision Isn&#39;t as Simple as Trading Valeri Nichushkin",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "title": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "source_headline": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "original_headline": "2025-26 Anaheim Ducks: By the Numbers, Part 3",
-      "snapshot": "Recapping the 2025-26 season for Mason McTavish, Jansen Harkins, Ryan Poehling and Jeff Viel.",
-      "url": "https://sports.yahoo.com/articles/2025-26-anaheim-ducks-numbers-173903263.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 2025-26 Anaheim Ducks: By the Numbers, Part 3",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 365
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "title": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "source_headline": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "original_headline": "Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-      "snapshot": "The Canadiens are not one of the clubs currently in the mix for Rangers forward Vincent Trocheck.",
-      "url": "https://sports.yahoo.com/articles/report-canadiens-not-among-teams-173024421.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Report: Canadiens Not Among Teams Pursuing Rangers Star Center",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-20 12:26:22 AM ET",
+      "updated_at": "2026-06-20 04:27:03 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 365
     }
