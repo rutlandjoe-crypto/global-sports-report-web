@@ -2,25 +2,55 @@
   "site": "Global Sports Report",
   "vertical": "Sports",
   "title": "GLOBAL SPORTS REPORT | 2026-06-24",
-  "headline": "Knicks Bulletin: ‘Let’s go MO’",
+  "headline": "Grades for every NBA Draft pick; why Brendan Sorsby cannot play in NFL this season",
   "snapshot": "Fresh sports board built from source headlines with old fallback headline machinery removed.",
-  "updated_at": "2026-06-24 10:50:21 AM ET",
-  "generated_at": "2026-06-24 10:50:21 AM ET",
+  "updated_at": "2026-06-24 01:12:06 PM ET",
+  "generated_at": "2026-06-24 01:12:06 PM ET",
   "builder": "clean_build_distribution_rewrite",
   "homepage_cards": [
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "title": "Knicks Bulletin: ‘Let’s go MO’",
-      "source_headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "original_headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "snapshot": "Day one of the NBA Draft is in the books… …and oh, shocker, there was a trade down completed by the Knickerbockers! Here’s the latest batch of quotes in what is likely going to become a dying Bulletin, at least throughout the dry summer. Josh Hart On the meaning of New York to th",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-let-mo-121500698.html",
+      "headline": "Grades for every NBA Draft pick; why Brendan Sorsby cannot play in NFL this season",
+      "title": "Grades for every NBA Draft pick; why Brendan Sorsby cannot play in NFL this season",
+      "source_headline": "Grades for every NBA Draft pick; why Brendan Sorsby cannot play in NFL this season",
+      "original_headline": "Grades for every NBA Draft pick; why Brendan Sorsby cannot play in NFL this season",
+      "snapshot": "Plus all the fallout from the Giannis Antetokounmpo trade",
+      "url": "https://www.cbssports.com/nba/news/grades-for-every-nba-draft-pick-why-brendan-sorsby-cannot-play-in-nfl-this-season/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Grades for every NBA Draft pick; why Brendan Sorsby cannot play in NFL this season",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 5820
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "title": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "source_headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "original_headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "snapshot": "The Senators traded the ninth overall pick on Friday to acquire winger William Eklund and two prospects.",
+      "url": "https://sports.yahoo.com/articles/shark-bait-did-senators-enough-154310075.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Knicks Bulletin: ‘Let’s go MO’",
+        "Source headline: Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -34,53 +64,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:04 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 4665
+      "priority_score": 3345
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Giants open to moving big names before Trade Deadline",
-      "title": "Giants open to moving big names before Trade Deadline",
-      "source_headline": "Giants open to moving big names before Trade Deadline",
-      "original_headline": "Giants open to moving big names before Trade Deadline",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/rafael-devers-matt-chapman-willy-adames-among-giants-trade-candidates",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Giants open to moving big names before Trade Deadline",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4420
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Patriots links 6/24/26: Under-the-radar breakout prospects",
-      "title": "Patriots links 6/24/26: Under-the-radar breakout prospects",
-      "source_headline": "Patriots links 6/24/26: Under-the-radar breakout prospects",
-      "original_headline": "Patriots links 6/24/26: Under-the-radar breakout prospects",
-      "snapshot": "Daily news and links for Wednesday",
-      "url": "https://sports.yahoo.com/articles/patriots-links-6-24-26-143100371.html",
+      "headline": "Cubs roster move: Ben Brown to injured list",
+      "title": "Cubs roster move: Ben Brown to injured list",
+      "source_headline": "Cubs roster move: Ben Brown to injured list",
+      "original_headline": "Cubs roster move: Ben Brown to injured list",
+      "snapshot": "This, obviously, is not good news.",
+      "url": "https://sports.yahoo.com/articles/cubs-roster-move-ben-brown-165000450.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Patriots links 6/24/26: Under-the-radar breakout prospects",
+        "Source headline: Cubs roster move: Ben Brown to injured list",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -94,23 +94,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 1510
+      "priority_score": 3265
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "title": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "source_headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "original_headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
+      "headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "title": "Watch LIVE: Day 2 of the Draft Combine",
+      "source_headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "original_headline": "Watch LIVE: Day 2 of the Draft Combine",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/justin-wrobleski-pitches-dodgers-to-win-over-twins",
+      "url": "https://www.mlb.com/news/2026-mlb-draft-combine-coverage",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
+        "Source headline: Watch LIVE: Day 2 of the Draft Combine",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -124,9 +124,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 1320
+      "priority_score": 2875
     },
     {
       "league": "MLB",
@@ -154,7 +154,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     }
@@ -163,38 +163,38 @@
     {
       "section": "nba",
       "label": "NBA",
-      "headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "snapshot": "Day one of the NBA Draft is in the books… …and oh, shocker, there was a trade down completed by the Knickerbockers! Here’s the latest batch of quotes in what is likely going to become a dying Bulletin, at least throughout the dry summer. Josh Hart On the meaning of New York to th",
+      "headline": "Grades for every NBA Draft pick; why Brendan Sorsby cannot play in NFL this season",
+      "snapshot": "Plus all the fallout from the Giannis Antetokounmpo trade",
+      "signal": "cbssports.com",
+      "updated_at": "2026-06-24 01:12:06 PM ET",
+      "url": "https://www.cbssports.com/nba/news/grades-for-every-nba-draft-pick-why-brendan-sorsby-cannot-play-in-nfl-this-season/"
+    },
+    {
+      "section": "nhl",
+      "label": "NHL",
+      "headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "snapshot": "The Senators traded the ninth overall pick on Friday to acquire winger William Eklund and two prospects.",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-06-24 10:50:21 AM ET",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-let-mo-121500698.html"
+      "updated_at": "2026-06-24 01:12:06 PM ET",
+      "url": "https://sports.yahoo.com/articles/shark-bait-did-senators-enough-154310075.html"
     },
     {
       "section": "mlb",
       "label": "MLB",
-      "headline": "Giants open to moving big names before Trade Deadline",
-      "snapshot": "MLB article selected from a media source.",
-      "signal": "mlb.com",
-      "updated_at": "2026-06-24 10:50:21 AM ET",
-      "url": "https://www.mlb.com/news/rafael-devers-matt-chapman-willy-adames-among-giants-trade-candidates"
-    },
-    {
-      "section": "nfl",
-      "label": "NFL",
-      "headline": "Patriots links 6/24/26: Under-the-radar breakout prospects",
-      "snapshot": "Daily news and links for Wednesday",
+      "headline": "Cubs roster move: Ben Brown to injured list",
+      "snapshot": "This, obviously, is not good news.",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-06-24 10:50:21 AM ET",
-      "url": "https://sports.yahoo.com/articles/patriots-links-6-24-26-143100371.html"
+      "updated_at": "2026-06-24 01:12:06 PM ET",
+      "url": "https://sports.yahoo.com/articles/cubs-roster-move-ben-brown-165000450.html"
     },
     {
       "section": "mlb",
       "label": "MLB",
-      "headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
+      "headline": "Watch LIVE: Day 2 of the Draft Combine",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-06-24 10:50:21 AM ET",
-      "url": "https://www.mlb.com/news/justin-wrobleski-pitches-dodgers-to-win-over-twins"
+      "updated_at": "2026-06-24 01:12:06 PM ET",
+      "url": "https://www.mlb.com/news/2026-mlb-draft-combine-coverage"
     },
     {
       "section": "mlb",
@@ -202,7 +202,7 @@
       "headline": "Baseball's hottest team gets fireballer Pérez back from IL",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-06-24 10:50:21 AM ET",
+      "updated_at": "2026-06-24 01:12:06 PM ET",
       "url": "https://www.mlb.com/news/eury-perez-reinstated-from-injured-list-to-start-vs-rangers"
     }
   ],
@@ -1804,7 +1804,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -1833,7 +1833,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -1865,37 +1865,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 5820
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "title": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "source_headline": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "original_headline": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "snapshot": "Jaylen Brown and the Celtics are working through things after the four-time All-Star was reportedly included in trade talks this offseason.",
-      "url": "https://sports.yahoo.com/nba/article/nba-draft-brad-stevens-calls-jaylen-brown-a-big-part-of-us-after-trade-for-giannis-antetokounmpo-fails-124241893.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5820
     },
@@ -1925,7 +1895,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -1955,37 +1925,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4685
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "title": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "source_headline": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "original_headline": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "snapshot": "The former Indiana big man is on the move after just two season with his draft team, the Miami Heat.",
-      "url": "https://sports.yahoo.com/articles/hoosiers-daily-news-kel-el-130200426.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4685
     },
@@ -2015,7 +1955,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4665
     },
@@ -2045,37 +1985,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4665
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "title": "Knicks Bulletin: ‘Let’s go MO’",
-      "source_headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "original_headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "snapshot": "Day one of the NBA Draft is in the books… …and oh, shocker, there was a trade down completed by the Knickerbockers! Here’s the latest batch of quotes in what is likely going to become a dying Bulletin, at least throughout the dry summer. Josh Hart On the meaning of New York to th",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-let-mo-121500698.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Knicks Bulletin: ‘Let’s go MO’",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4665
     },
@@ -2105,9 +2015,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4490
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "title": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "source_headline": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "original_headline": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "snapshot": "The trade deadline is barely six weeks away",
+      "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-rumors-twins-byron-buxton-giants-logan-webb-cubs-pitching/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4440
     },
     {
       "league": "MLB",
@@ -2135,24 +2075,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Giants open to moving big names before Trade Deadline",
-      "title": "Giants open to moving big names before Trade Deadline",
-      "source_headline": "Giants open to moving big names before Trade Deadline",
-      "original_headline": "Giants open to moving big names before Trade Deadline",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/rafael-devers-matt-chapman-willy-adames-among-giants-trade-candidates",
-      "source_label": "mlb.com",
+      "headline": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "title": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "source_headline": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "original_headline": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "snapshot": "With the MLB deadline nearing, Sonny Gray could join a fluid market as contenders and pretenders still struggle to define their plans.",
+      "url": "https://sports.yahoo.com/articles/mlb-trade-deadline-rumors-start-161358574.html",
+      "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Giants open to moving big names before Trade Deadline",
-        "Source: mlb.com"
+        "Source headline: MLB trade deadline rumors start with Tarik Skubal intrigue",
+        "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -2165,7 +2105,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
@@ -2192,7 +2132,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2221,41 +2161,11 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 4400
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "title": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "source_headline": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "original_headline": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "snapshot": "Boston dangled Brown in an attempt to land Antetokounmpo, signaling his potential availability to the rest of the NBA",
-      "url": "https://www.cbssports.com/nba/news/jaylen-brown-trade-rumors-destinations-landing-sports-celtics-giannis/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4265
     },
     {
       "league": "NFL",
@@ -2283,9 +2193,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4225
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "title": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "source_headline": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "original_headline": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "snapshot": "Bryson Graham took over the Chicago Bulls when he was hired as executive vice president of basketball operations in May. Chicago selected Caleb Wilson and Dailyn Swain in the first round of Graham's first draft with his new team on Tuesday night. It was part of a busy stretch for",
+      "url": "https://sports.yahoo.com/articles/nba-draft-provides-another-look-161621400.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4115
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "title": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "source_headline": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "original_headline": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "snapshot": "The Los Angeles Lakers and Austin Reaves have reportedly come to terms on a new contract that would set a record for an undrafted free agent.",
+      "url": "https://sports.yahoo.com/articles/austin-reaves-stay-lakers-record-163611477.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Austin Reaves to stay with Lakers on record-setting $185M contract",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4110
     },
     {
       "league": "NBA",
@@ -2313,7 +2283,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4095
     },
@@ -2340,7 +2310,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
@@ -2368,7 +2338,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2396,7 +2366,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2405,16 +2375,16 @@
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "title": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "source_headline": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "original_headline": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "snapshot": "The Chicago Blackhawks traded for Bowen Byram. This is an initial grade for their performance.",
-      "url": "https://sports.yahoo.com/articles/grading-blackhawks-trade-sabres-involving-123327625.html",
+      "headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "title": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "source_headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "original_headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "snapshot": "The Senators traded the ninth overall pick on Friday to acquire winger William Eklund and two prospects.",
+      "url": "https://sports.yahoo.com/articles/shark-bait-did-senators-enough-154310075.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
+        "Source headline: Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2428,7 +2398,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:04 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3345
     },
@@ -2458,23 +2428,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "title": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "source_headline": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "original_headline": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "snapshot": "On Tuesday, Calgary Flames General Manager Craig Conroy made a blockbuster trade with the New Jersey Devils, acquiring 21-year-old defenseman Simon Nemec and forward Maxim Tsyplakov.",
-      "url": "https://sports.yahoo.com/articles/5-fascinating-stats-newest-flame-140004262.html",
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Cubs roster move: Ben Brown to injured list",
+      "title": "Cubs roster move: Ben Brown to injured list",
+      "source_headline": "Cubs roster move: Ben Brown to injured list",
+      "original_headline": "Cubs roster move: Ben Brown to injured list",
+      "snapshot": "This, obviously, is not good news.",
+      "url": "https://sports.yahoo.com/articles/cubs-roster-move-ben-brown-165000450.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 5 Fascinating Stats About Newest Flame Simon Nemec",
+        "Source headline: Cubs roster move: Ben Brown to injured list",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2488,23 +2458,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3325
+      "priority_score": 3265
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "title": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "source_headline": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "original_headline": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "snapshot": "David Bearman has locked in his best picks for the College World Series 2026 finals Game 3 between Oklahoma and UNC on Monday",
-      "url": "https://www.cbssports.com/mlb/news/north-carolina-oklahoma-odds-game-3-prediction-line-time-2026-college-world-series-finals-picks/",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "title": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for UFC Freedom 250, 2026 World Cup betting on Sunday",
+      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-ufc-white-house-2026-world-cup-on-sunday/",
       "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
+        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
         "Source: cbssports.com"
       ],
       "why_it_matters": [
@@ -2518,23 +2488,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3225
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Is The Boozer Criticism Valid?",
-      "title": "Is The Boozer Criticism Valid?",
-      "source_headline": "Is The Boozer Criticism Valid?",
-      "original_headline": "Is The Boozer Criticism Valid?",
-      "snapshot": "Before the NBA Draft, and after being taken by Memphis with the #3 pick, Cameron Boozer made it clear that he didn’t understand why he wasn’t seen by many as a likely #1 pick. He has a point, but let’s look at the other side of the argument. Boozer is seen, somewhat unfairly, as ",
-      "url": "https://sports.yahoo.com/articles/boozer-criticism-valid-130100851.html",
+      "headline": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "title": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "source_headline": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "original_headline": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "snapshot": "Some of New York's biggest basketball heroes were second-round draft picks. The Knicks hold the No. 31 pick that was acquired via trades when teams and some players return to Barclays Center in Brooklyn.",
+      "url": "https://sports.yahoo.com/articles/nba-draft-resumes-wednesday-night-150942611.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Is The Boozer Criticism Valid?",
+        "Source headline: NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2548,23 +2518,83 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3125
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "PTR Mailbag: Offseason Trade Scenarios",
+      "title": "PTR Mailbag: Offseason Trade Scenarios",
+      "source_headline": "PTR Mailbag: Offseason Trade Scenarios",
+      "original_headline": "PTR Mailbag: Offseason Trade Scenarios",
+      "snapshot": "Ranking realistic Reynard rearrangements",
+      "url": "https://sports.yahoo.com/articles/ptr-mailbag-offseason-trade-scenarios-141853971.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: PTR Mailbag: Offseason Trade Scenarios",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3110
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "title": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "source_headline": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "original_headline": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "snapshot": "The Bulls, Lakers, and Warriors are among this year’s winners and losers from the NBA Draft.",
+      "url": "https://sports.yahoo.com/articles/nba-draft-5-biggest-winners-153408646.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "2026 NBA Draft: First Round Review",
-      "title": "2026 NBA Draft: First Round Review",
-      "source_headline": "2026 NBA Draft: First Round Review",
-      "original_headline": "2026 NBA Draft: First Round Review",
-      "snapshot": "San Antonio had an active first round and came away with two potential frontcourt pieces to replace its aging bench bigs",
-      "url": "https://sports.yahoo.com/articles/2026-nba-draft-first-round-123217465.html",
+      "headline": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "title": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "source_headline": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "original_headline": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "snapshot": "Austin Reaves is re-signing with the Los Angeles Lakers on a four-year contract extension worth $185 million, a person with knowledge of the deal told The Associated Press on Wednesday. The person spoke on condition of anonymity because the deal is not yet official for Reaves, wh",
+      "url": "https://sports.yahoo.com/articles/lakers-sign-austin-reaves-4-164946482.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2026 NBA Draft: First Round Review",
+        "Source headline: Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2578,23 +2608,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3105
+      "priority_score": 3090
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "title": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "source_headline": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "original_headline": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "snapshot": "AJ Dybantsa went No 1 in a draft that proved to be low on drama, but loaded with generational talent",
-      "url": "https://sports.yahoo.com/articles/nba-draft-2026-first-round-122623483.html",
+      "headline": "Wednesday Posted & Toasted Notes",
+      "title": "Wednesday Posted & Toasted Notes",
+      "source_headline": "Wednesday Posted & Toasted Notes",
+      "original_headline": "Wednesday Posted & Toasted Notes",
+      "snapshot": "The Knicks entered Tuesday night with the No. 24 pick. They left with no first-round picks… but five additional second-rounders, a bag full of cash, and what feels like another Leon Rose-Brock Aller masterclass. A few notes and links… “Oh, it would be a cluster. He’s the kind of ",
+      "url": "https://sports.yahoo.com/articles/wednesday-posted-toasted-notes-141000767.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
+        "Source headline: Wednesday Posted & Toasted Notes",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2608,23 +2638,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3105
+      "priority_score": 3090
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "title": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "source_headline": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "original_headline": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "snapshot": "Considering team needs, here are five players the Golden State Warriors should consider taking in the second round of the 2026 NBA Draft.",
-      "url": "https://sports.yahoo.com/articles/nba-draft-day-2-golden-120342910.html",
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Chargers have one of the most intriguing undrafted free agents",
+      "title": "Chargers have one of the most intriguing undrafted free agents",
+      "source_headline": "Chargers have one of the most intriguing undrafted free agents",
+      "original_headline": "Chargers have one of the most intriguing undrafted free agents",
+      "snapshot": "Nadame Tucker has a unique story to the NFL, where he’ll get a shot with the Los Angeles Chargers.",
+      "url": "https://sports.yahoo.com/articles/chargers-one-most-intriguing-undrafted-160000221.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
+        "Source headline: Chargers have one of the most intriguing undrafted free agents",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2638,39 +2668,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3105
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "title": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "source_headline": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "original_headline": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "snapshot": "Here&#39;s a list of players the Sacramento Kings should consider taking in the second round of the 2026 NBA Draft.",
-      "url": "https://sports.yahoo.com/articles/sacramento-kings-no-45-day-114819897.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
+      "priority_score": 3080
     },
     {
       "league": "NFL",
@@ -2696,7 +2696,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -2726,41 +2726,11 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
       "priority_score": 3030
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "title": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "source_headline": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "original_headline": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "snapshot": "While New York remained idle during a chaotic pre-draft flurry, former assets and picks changed hands as blockbuster deals reshaped the league landscape ahead of free agency.",
-      "url": "https://sports.yahoo.com/articles/islanders-not-involved-tuesdays-nhl-134712721.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3010
     },
     {
       "league": "NFL",
@@ -2786,7 +2756,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -2816,11 +2786,41 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "priority_score": 3010
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "title": "Watch LIVE: Day 2 of the Draft Combine",
+      "source_headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "original_headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/2026-mlb-draft-combine-coverage",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Watch LIVE: Day 2 of the Draft Combine",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
     },
     {
       "league": "MLB",
@@ -2848,7 +2848,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -2878,7 +2878,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -2908,7 +2908,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -2936,7 +2936,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -2966,7 +2966,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -2998,7 +2998,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -3025,7 +3025,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -3054,7 +3054,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -3083,11 +3083,41 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "priority_score": 2220
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "title": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "source_headline": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "original_headline": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/francisco-lindor-s-return-to-mets-is-imminent",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2200
     },
     {
       "league": "Betting",
@@ -3102,7 +3132,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -3134,9 +3164,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1340
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "title": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "source_headline": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "original_headline": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_mlb_digital_2026",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: VOTE NOW: One day left in Phase 1 of All-Star voting!",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1320
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "First grand slam in AUSL team's history was done the hard way",
+      "title": "First grand slam in AUSL team's history was done the hard way",
+      "source_headline": "First grand slam in AUSL team's history was done the hard way",
+      "original_headline": "First grand slam in AUSL team's history was done the hard way",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/utah-talons-jadelyn-allchin-hits-inside-the-park-grand-slam",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: First grand slam in AUSL team's history was done the hard way",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1320
     },
     {
       "league": "MLB",
@@ -3164,7 +3254,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3194,97 +3284,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "title": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "source_headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "original_headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/justin-wrobleski-pitches-dodgers-to-win-over-twins",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "title": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "source_headline": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "original_headline": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/miguel-vargas-homer-white-sox-first-place-al-central",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "title": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "source_headline": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "original_headline": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/brandon-sproat-throws-career-high-10-strikeouts-in-scoreless-start",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3314,39 +3314,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "title": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for UFC Freedom 250, 2026 World Cup betting on Sunday",
-      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-ufc-white-house-2026-world-cup-on-sunday/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3225
     },
     {
       "league": "MLB",
@@ -3374,7 +3344,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3205
     },
@@ -3404,7 +3374,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -3434,7 +3404,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -3464,7 +3434,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -3494,9 +3464,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3160
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "title": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "source_headline": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "original_headline": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "snapshot": "The five-star freshman would've been one of college basketball's highest-paid player next season",
+      "url": "https://www.cbssports.com/college-basketball/news/2026-nba-draft-koa-peat-falls-to-no-30/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3105
     },
     {
       "league": "NBA",
@@ -3524,7 +3524,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -3554,7 +3554,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -3584,7 +3584,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -3614,7 +3614,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -3644,7 +3644,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -3674,7 +3674,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -3704,9 +3704,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "title": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "source_headline": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "original_headline": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "snapshot": "Rumors surrounding the Cleveland Browns trading Shedeur Sanders may make some sense, but is it trade calls or talks?",
+      "url": "https://sports.yahoo.com/articles/something-nothing-trade-rumors-surrounding-150545116.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:05 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3070
     },
     {
       "league": "NFL",
@@ -3734,7 +3764,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -3764,7 +3794,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -3794,9 +3824,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "title": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "source_headline": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "original_headline": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "snapshot": "Philadelphia Eagles news and links for 6/24/26.",
+      "url": "https://sports.yahoo.com/articles/eagles-news-jalen-hurts-among-153848151.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:05 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "title": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "source_headline": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "original_headline": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "snapshot": "5th round pick was getting some practice with 1st team defense",
+      "url": "https://sports.yahoo.com/articles/raiders-cornerbacks-2026-hezekiah-masses-150600419.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:05 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -3821,11 +3911,41 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
       "priority_score": 3010
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "3 Forwards Winnipeg Should Target in Free Agency",
+      "title": "3 Forwards Winnipeg Should Target in Free Agency",
+      "source_headline": "3 Forwards Winnipeg Should Target in Free Agency",
+      "original_headline": "3 Forwards Winnipeg Should Target in Free Agency",
+      "snapshot": "To spark a stagnant offense, Winnipeg must prioritize proven finishers and physical presence. These three versatile targets could provide the scoring depth and grit necessary for a deep postseason run.",
+      "url": "https://sports.yahoo.com/articles/3-forwards-winnipeg-target-free-152643563.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 3 Forwards Winnipeg Should Target in Free Agency",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:04 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2975
     },
     {
       "league": "NHL",
@@ -3853,7 +3973,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -3883,7 +4003,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -3913,7 +4033,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -3943,23 +4063,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2935
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Astros Prospect Report: June 23rd",
-      "title": "Astros Prospect Report: June 23rd",
-      "source_headline": "Astros Prospect Report: June 23rd",
-      "original_headline": "Astros Prospect Report: June 23rd",
-      "snapshot": "See how the prospects performed last night.",
-      "url": "https://sports.yahoo.com/articles/astros-prospect-report-june-23rd-143000312.html",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "title": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "source_headline": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "original_headline": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "snapshot": "Relive the heart-pounding tension of June 24, 2024, when Florida survived a historic comeback attempt to secure a gritty 2-1 victory and claim hockey’s ultimate prize.",
+      "url": "https://sports.yahoo.com/articles/date-panthers-defeat-edmonton-game-143001608.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Astros Prospect Report: June 23rd",
+        "Source headline: On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -3973,9 +4093,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:04 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2860
+      "priority_score": 2935
     },
     {
       "league": "NFL",
@@ -4003,7 +4123,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2665
     },
@@ -4033,129 +4153,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2500
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "title": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "source_headline": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "original_headline": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "snapshot": "SportsLine's Jacob Fetner reveals his best MLB home run props picks for Tuesday, June 23",
-      "url": "https://www.cbssports.com/betting/news/free-mlb-home-run-picks-odds-for-june-23-juan-soto-in-experts-best-bets-for-tuesday-hr-player-props/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2420
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "title": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "source_headline": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "original_headline": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "snapshot": "Toronto is betting that Raddysh's late breakout season wasn't a fluke",
-      "url": "https://www.cbssports.com/nhl/news/darren-raddysh-trade-grades-maple-leafs-defenseman/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "title": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "source_headline": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "original_headline": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "snapshot": "The 27-year-old goaltender took to social media to express his gratitude to Toronto and his excitement for a fresh start in Philadelphia.",
-      "url": "https://sports.yahoo.com/articles/former-maple-leafs-goalie-joseph-130043902.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "title": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "source_headline": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "original_headline": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "snapshot": "The Flyers dodged a massive bullet steering clear of the Sabres&#39; exorbitant asking price for Byram.",
-      "url": "https://sports.yahoo.com/articles/flyers-were-pass-horrible-bowen-110043727.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
     }
   ],
   "stories": [
@@ -4183,7 +4183,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -4212,7 +4212,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4244,37 +4244,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 5820
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "title": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "source_headline": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "original_headline": "NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-      "snapshot": "Jaylen Brown and the Celtics are working through things after the four-time All-Star was reportedly included in trade talks this offseason.",
-      "url": "https://sports.yahoo.com/nba/article/nba-draft-brad-stevens-calls-jaylen-brown-a-big-part-of-us-after-trade-for-giannis-antetokounmpo-fails-124241893.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: NBA Draft: Brad Stevens calls Jaylen Brown &#39;a big part of us&#39; after trade for Giannis Antetokounmpo fails",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5820
     },
@@ -4304,7 +4274,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -4334,37 +4304,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4685
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "title": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "source_headline": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "original_headline": "Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-      "snapshot": "The former Indiana big man is on the move after just two season with his draft team, the Miami Heat.",
-      "url": "https://sports.yahoo.com/articles/hoosiers-daily-news-kel-el-130200426.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Hoosiers Daily News: Kel’el Ware traded to Milwaukee Bucks",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4685
     },
@@ -4394,7 +4334,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4665
     },
@@ -4424,37 +4364,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4665
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "title": "Knicks Bulletin: ‘Let’s go MO’",
-      "source_headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "original_headline": "Knicks Bulletin: ‘Let’s go MO’",
-      "snapshot": "Day one of the NBA Draft is in the books… …and oh, shocker, there was a trade down completed by the Knickerbockers! Here’s the latest batch of quotes in what is likely going to become a dying Bulletin, at least throughout the dry summer. Josh Hart On the meaning of New York to th",
-      "url": "https://sports.yahoo.com/articles/knicks-bulletin-let-mo-121500698.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Knicks Bulletin: ‘Let’s go MO’",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4665
     },
@@ -4484,9 +4394,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4490
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "title": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "source_headline": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "original_headline": "MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+      "snapshot": "The trade deadline is barely six weeks away",
+      "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-rumors-twins-byron-buxton-giants-logan-webb-cubs-pitching/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: MLB rumors: Twins' plan for Byron Buxton, the one Giant staying put and the Cubs' deadline targets",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4440
     },
     {
       "league": "MLB",
@@ -4514,24 +4454,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Giants open to moving big names before Trade Deadline",
-      "title": "Giants open to moving big names before Trade Deadline",
-      "source_headline": "Giants open to moving big names before Trade Deadline",
-      "original_headline": "Giants open to moving big names before Trade Deadline",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/rafael-devers-matt-chapman-willy-adames-among-giants-trade-candidates",
-      "source_label": "mlb.com",
+      "headline": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "title": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "source_headline": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "original_headline": "MLB trade deadline rumors start with Tarik Skubal intrigue",
+      "snapshot": "With the MLB deadline nearing, Sonny Gray could join a fluid market as contenders and pretenders still struggle to define their plans.",
+      "url": "https://sports.yahoo.com/articles/mlb-trade-deadline-rumors-start-161358574.html",
+      "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Giants open to moving big names before Trade Deadline",
-        "Source: mlb.com"
+        "Source headline: MLB trade deadline rumors start with Tarik Skubal intrigue",
+        "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -4544,7 +4484,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
@@ -4571,7 +4511,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4600,41 +4540,11 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 4400
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "title": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "source_headline": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "original_headline": "Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-      "snapshot": "Boston dangled Brown in an attempt to land Antetokounmpo, signaling his potential availability to the rest of the NBA",
-      "url": "https://www.cbssports.com/nba/news/jaylen-brown-trade-rumors-destinations-landing-sports-celtics-giannis/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Jaylen Brown trade destinations: Six possible landing spots for Celtics star after failed Giannis pursuit",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4265
     },
     {
       "league": "NFL",
@@ -4662,9 +4572,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4225
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "title": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "source_headline": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "original_headline": "NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+      "snapshot": "Bryson Graham took over the Chicago Bulls when he was hired as executive vice president of basketball operations in May. Chicago selected Caleb Wilson and Dailyn Swain in the first round of Graham's first draft with his new team on Tuesday night. It was part of a busy stretch for",
+      "url": "https://sports.yahoo.com/articles/nba-draft-provides-another-look-161621400.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBA draft provides another look at Bryson Graham&#39;s vision for the rebuilding Chicago Bulls",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4115
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "title": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "source_headline": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "original_headline": "Austin Reaves to stay with Lakers on record-setting $185M contract",
+      "snapshot": "The Los Angeles Lakers and Austin Reaves have reportedly come to terms on a new contract that would set a record for an undrafted free agent.",
+      "url": "https://sports.yahoo.com/articles/austin-reaves-stay-lakers-record-163611477.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Austin Reaves to stay with Lakers on record-setting $185M contract",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4110
     },
     {
       "league": "NBA",
@@ -4692,7 +4662,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4095
     },
@@ -4719,7 +4689,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
@@ -4747,7 +4717,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4775,7 +4745,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4784,16 +4754,16 @@
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "title": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "source_headline": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "original_headline": "Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
-      "snapshot": "The Chicago Blackhawks traded for Bowen Byram. This is an initial grade for their performance.",
-      "url": "https://sports.yahoo.com/articles/grading-blackhawks-trade-sabres-involving-123327625.html",
+      "headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "title": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "source_headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "original_headline": "Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
+      "snapshot": "The Senators traded the ninth overall pick on Friday to acquire winger William Eklund and two prospects.",
+      "url": "https://sports.yahoo.com/articles/shark-bait-did-senators-enough-154310075.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Grading Blackhawks Trade With Sabres Involving 4th Overall Pick & Bowen Byram",
+        "Source headline: Shark Bait: Did The Senators Get Enough For Their Ninth Overall Pick?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4807,7 +4777,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:04 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3345
     },
@@ -4837,23 +4807,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "title": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "source_headline": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "original_headline": "5 Fascinating Stats About Newest Flame Simon Nemec",
-      "snapshot": "On Tuesday, Calgary Flames General Manager Craig Conroy made a blockbuster trade with the New Jersey Devils, acquiring 21-year-old defenseman Simon Nemec and forward Maxim Tsyplakov.",
-      "url": "https://sports.yahoo.com/articles/5-fascinating-stats-newest-flame-140004262.html",
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Cubs roster move: Ben Brown to injured list",
+      "title": "Cubs roster move: Ben Brown to injured list",
+      "source_headline": "Cubs roster move: Ben Brown to injured list",
+      "original_headline": "Cubs roster move: Ben Brown to injured list",
+      "snapshot": "This, obviously, is not good news.",
+      "url": "https://sports.yahoo.com/articles/cubs-roster-move-ben-brown-165000450.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 5 Fascinating Stats About Newest Flame Simon Nemec",
+        "Source headline: Cubs roster move: Ben Brown to injured list",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4867,23 +4837,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3325
+      "priority_score": 3265
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "title": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "source_headline": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "original_headline": "UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
-      "snapshot": "David Bearman has locked in his best picks for the College World Series 2026 finals Game 3 between Oklahoma and UNC on Monday",
-      "url": "https://www.cbssports.com/mlb/news/north-carolina-oklahoma-odds-game-3-prediction-line-time-2026-college-world-series-finals-picks/",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "title": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
+      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for UFC Freedom 250, 2026 World Cup betting on Sunday",
+      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-ufc-white-house-2026-world-cup-on-sunday/",
       "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: UNC vs. Oklahoma odds, Game 3 prediction: 2026 College World Series finals picks by expert who's 82-59",
+        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
         "Source: cbssports.com"
       ],
       "why_it_matters": [
@@ -4897,23 +4867,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3225
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Is The Boozer Criticism Valid?",
-      "title": "Is The Boozer Criticism Valid?",
-      "source_headline": "Is The Boozer Criticism Valid?",
-      "original_headline": "Is The Boozer Criticism Valid?",
-      "snapshot": "Before the NBA Draft, and after being taken by Memphis with the #3 pick, Cameron Boozer made it clear that he didn’t understand why he wasn’t seen by many as a likely #1 pick. He has a point, but let’s look at the other side of the argument. Boozer is seen, somewhat unfairly, as ",
-      "url": "https://sports.yahoo.com/articles/boozer-criticism-valid-130100851.html",
+      "headline": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "title": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "source_headline": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "original_headline": "NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
+      "snapshot": "Some of New York's biggest basketball heroes were second-round draft picks. The Knicks hold the No. 31 pick that was acquired via trades when teams and some players return to Barclays Center in Brooklyn.",
+      "url": "https://sports.yahoo.com/articles/nba-draft-resumes-wednesday-night-150942611.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Is The Boozer Criticism Valid?",
+        "Source headline: NBA draft resumes Wednesday night in New York, where some second-round picks are revered",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4927,23 +4897,83 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3125
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "PTR Mailbag: Offseason Trade Scenarios",
+      "title": "PTR Mailbag: Offseason Trade Scenarios",
+      "source_headline": "PTR Mailbag: Offseason Trade Scenarios",
+      "original_headline": "PTR Mailbag: Offseason Trade Scenarios",
+      "snapshot": "Ranking realistic Reynard rearrangements",
+      "url": "https://sports.yahoo.com/articles/ptr-mailbag-offseason-trade-scenarios-141853971.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: PTR Mailbag: Offseason Trade Scenarios",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3110
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "title": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "source_headline": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "original_headline": "NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+      "snapshot": "The Bulls, Lakers, and Warriors are among this year’s winners and losers from the NBA Draft.",
+      "url": "https://sports.yahoo.com/articles/nba-draft-5-biggest-winners-153408646.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBA Draft’s 5 biggest winners and 3 losers from 2026 picks",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "2026 NBA Draft: First Round Review",
-      "title": "2026 NBA Draft: First Round Review",
-      "source_headline": "2026 NBA Draft: First Round Review",
-      "original_headline": "2026 NBA Draft: First Round Review",
-      "snapshot": "San Antonio had an active first round and came away with two potential frontcourt pieces to replace its aging bench bigs",
-      "url": "https://sports.yahoo.com/articles/2026-nba-draft-first-round-123217465.html",
+      "headline": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "title": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "source_headline": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "original_headline": "Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
+      "snapshot": "Austin Reaves is re-signing with the Los Angeles Lakers on a four-year contract extension worth $185 million, a person with knowledge of the deal told The Associated Press on Wednesday. The person spoke on condition of anonymity because the deal is not yet official for Reaves, wh",
+      "url": "https://sports.yahoo.com/articles/lakers-sign-austin-reaves-4-164946482.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2026 NBA Draft: First Round Review",
+        "Source headline: Lakers will re-sign Austin Reaves to a 4-year, $185 million deal, AP source says",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4957,23 +4987,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3105
+      "priority_score": 3090
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "title": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "source_headline": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "original_headline": "NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
-      "snapshot": "AJ Dybantsa went No 1 in a draft that proved to be low on drama, but loaded with generational talent",
-      "url": "https://sports.yahoo.com/articles/nba-draft-2026-first-round-122623483.html",
+      "headline": "Wednesday Posted & Toasted Notes",
+      "title": "Wednesday Posted & Toasted Notes",
+      "source_headline": "Wednesday Posted & Toasted Notes",
+      "original_headline": "Wednesday Posted & Toasted Notes",
+      "snapshot": "The Knicks entered Tuesday night with the No. 24 pick. They left with no first-round picks… but five additional second-rounders, a bag full of cash, and what feels like another Leon Rose-Brock Aller masterclass. A few notes and links… “Oh, it would be a cluster. He’s the kind of ",
+      "url": "https://sports.yahoo.com/articles/wednesday-posted-toasted-notes-141000767.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: NBA draft 2026 first-round winners and losers: triumph of the tankers and the Jalen Brunson Effect",
+        "Source headline: Wednesday Posted & Toasted Notes",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4987,23 +5017,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3105
+      "priority_score": 3090
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "title": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "source_headline": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "original_headline": "NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
-      "snapshot": "Considering team needs, here are five players the Golden State Warriors should consider taking in the second round of the 2026 NBA Draft.",
-      "url": "https://sports.yahoo.com/articles/nba-draft-day-2-golden-120342910.html",
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Chargers have one of the most intriguing undrafted free agents",
+      "title": "Chargers have one of the most intriguing undrafted free agents",
+      "source_headline": "Chargers have one of the most intriguing undrafted free agents",
+      "original_headline": "Chargers have one of the most intriguing undrafted free agents",
+      "snapshot": "Nadame Tucker has a unique story to the NFL, where he’ll get a shot with the Los Angeles Chargers.",
+      "url": "https://sports.yahoo.com/articles/chargers-one-most-intriguing-undrafted-160000221.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: NBA Draft Day 2: Who should the Golden State Warriors pick at No. 54?",
+        "Source headline: Chargers have one of the most intriguing undrafted free agents",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5017,39 +5047,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3105
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "title": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "source_headline": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "original_headline": "Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-      "snapshot": "Here&#39;s a list of players the Sacramento Kings should consider taking in the second round of the 2026 NBA Draft.",
-      "url": "https://sports.yahoo.com/articles/sacramento-kings-no-45-day-114819897.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Who should the Sacramento Kings take at No. 45 on Day 2 of NBA Draft?",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
+      "priority_score": 3080
     },
     {
       "league": "NFL",
@@ -5075,7 +5075,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -5105,41 +5105,11 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
       "priority_score": 3030
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "title": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "source_headline": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "original_headline": "Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-      "snapshot": "While New York remained idle during a chaotic pre-draft flurry, former assets and picks changed hands as blockbuster deals reshaped the league landscape ahead of free agency.",
-      "url": "https://sports.yahoo.com/articles/islanders-not-involved-tuesdays-nhl-134712721.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Islanders Not Involved In Tuesday&#39;s NHL Trade Frenzy But A Few Of Their Former Pieces Were",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3010
     },
     {
       "league": "NFL",
@@ -5165,7 +5135,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -5195,11 +5165,41 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "priority_score": 3010
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "title": "Watch LIVE: Day 2 of the Draft Combine",
+      "source_headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "original_headline": "Watch LIVE: Day 2 of the Draft Combine",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/2026-mlb-draft-combine-coverage",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Watch LIVE: Day 2 of the Draft Combine",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
     },
     {
       "league": "MLB",
@@ -5227,7 +5227,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -5257,7 +5257,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -5287,7 +5287,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -5315,7 +5315,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -5345,7 +5345,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -5377,7 +5377,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -5404,7 +5404,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -5433,7 +5433,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -5462,11 +5462,41 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "priority_score": 2220
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "title": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "source_headline": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "original_headline": "Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/francisco-lindor-s-return-to-mets-is-imminent",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Lindor to return in Game 2 of doubleheader; Soto out of Game 1 lineup",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2200
     },
     {
       "league": "Betting",
@@ -5481,7 +5511,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -5513,9 +5543,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1340
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "title": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "source_headline": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "original_headline": "VOTE NOW: One day left in Phase 1 of All-Star voting!",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/all-star/ballot?affiliateID=asballot_mlb_digital_2026",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: VOTE NOW: One day left in Phase 1 of All-Star voting!",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1320
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "First grand slam in AUSL team's history was done the hard way",
+      "title": "First grand slam in AUSL team's history was done the hard way",
+      "source_headline": "First grand slam in AUSL team's history was done the hard way",
+      "original_headline": "First grand slam in AUSL team's history was done the hard way",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/utah-talons-jadelyn-allchin-hits-inside-the-park-grand-slam",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: First grand slam in AUSL team's history was done the hard way",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:03 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1320
     },
     {
       "league": "MLB",
@@ -5543,7 +5633,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5573,97 +5663,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "title": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "source_headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "original_headline": "Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/justin-wrobleski-pitches-dodgers-to-win-over-twins",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Wrobleski bolsters All-Star case with 7 strong innings in Dodgers rout",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "title": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "source_headline": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "original_headline": "Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/miguel-vargas-homer-white-sox-first-place-al-central",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Newcomb's 2 2/3 hitless frames lock down White Sox spot atop AL Central",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "title": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "source_headline": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "original_headline": "Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/brandon-sproat-throws-career-high-10-strikeouts-in-scoreless-start",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sproat's career-high 10 K's give Brewers double-digit déjà vu",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5693,39 +5693,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "title": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for UFC Freedom 250, 2026 World Cup betting on Sunday",
-      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-ufc-white-house-2026-world-cup-on-sunday/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting UFC White House, 2026 World Cup on Sunday",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3225
     },
     {
       "league": "MLB",
@@ -5753,7 +5723,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3205
     },
@@ -5783,7 +5753,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -5813,7 +5783,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -5843,7 +5813,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -5873,9 +5843,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3160
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "title": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "source_headline": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "original_headline": "Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+      "snapshot": "The five-star freshman would've been one of college basketball's highest-paid player next season",
+      "url": "https://www.cbssports.com/college-basketball/news/2026-nba-draft-koa-peat-falls-to-no-30/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Koa Peat's NBA Draft slide sparks debate: Should Arizona star have stayed another season?",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:02 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3105
     },
     {
       "league": "NBA",
@@ -5903,7 +5903,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -5933,7 +5933,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -5963,7 +5963,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -5993,7 +5993,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -6023,7 +6023,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -6053,7 +6053,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -6083,9 +6083,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:02 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "title": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "source_headline": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "original_headline": "Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+      "snapshot": "Rumors surrounding the Cleveland Browns trading Shedeur Sanders may make some sense, but is it trade calls or talks?",
+      "url": "https://sports.yahoo.com/articles/something-nothing-trade-rumors-surrounding-150545116.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Something or nothing? The trade “rumors” surrounding Browns Shedeur Sanders",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:05 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3070
     },
     {
       "league": "NFL",
@@ -6113,7 +6143,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -6143,7 +6173,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -6173,9 +6203,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "title": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "source_headline": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "original_headline": "Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+      "snapshot": "Philadelphia Eagles news and links for 6/24/26.",
+      "url": "https://sports.yahoo.com/articles/eagles-news-jalen-hurts-among-153848151.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Eagles News: Jalen Hurts among NFL MVP dark horse candidates",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:05 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "title": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "source_headline": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "original_headline": "Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+      "snapshot": "5th round pick was getting some practice with 1st team defense",
+      "url": "https://sports.yahoo.com/articles/raiders-cornerbacks-2026-hezekiah-masses-150600419.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Raiders cornerbacks 2026: What if Hezekiah Masses is good as a rookie",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:05 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -6200,11 +6290,41 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
+      "updated_at": "2026-06-24 01:12:01 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
       "priority_score": 3010
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "3 Forwards Winnipeg Should Target in Free Agency",
+      "title": "3 Forwards Winnipeg Should Target in Free Agency",
+      "source_headline": "3 Forwards Winnipeg Should Target in Free Agency",
+      "original_headline": "3 Forwards Winnipeg Should Target in Free Agency",
+      "snapshot": "To spark a stagnant offense, Winnipeg must prioritize proven finishers and physical presence. These three versatile targets could provide the scoring depth and grit necessary for a deep postseason run.",
+      "url": "https://sports.yahoo.com/articles/3-forwards-winnipeg-target-free-152643563.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 3 Forwards Winnipeg Should Target in Free Agency",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-24 01:12:04 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2975
     },
     {
       "league": "NHL",
@@ -6232,7 +6352,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -6262,7 +6382,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -6292,7 +6412,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -6322,23 +6442,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:03 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2935
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Astros Prospect Report: June 23rd",
-      "title": "Astros Prospect Report: June 23rd",
-      "source_headline": "Astros Prospect Report: June 23rd",
-      "original_headline": "Astros Prospect Report: June 23rd",
-      "snapshot": "See how the prospects performed last night.",
-      "url": "https://sports.yahoo.com/articles/astros-prospect-report-june-23rd-143000312.html",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "title": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "source_headline": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "original_headline": "On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
+      "snapshot": "Relive the heart-pounding tension of June 24, 2024, when Florida survived a historic comeback attempt to secure a gritty 2-1 victory and claim hockey’s ultimate prize.",
+      "url": "https://sports.yahoo.com/articles/date-panthers-defeat-edmonton-game-143001608.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Astros Prospect Report: June 23rd",
+        "Source headline: On This Date: Panthers Defeat Edmonton In Game 7, Win Franchise&#39;s First Stanley Cup",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -6352,9 +6472,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
+      "updated_at": "2026-06-24 01:12:04 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2860
+      "priority_score": 2935
     },
     {
       "league": "NFL",
@@ -6382,7 +6502,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2665
     },
@@ -6412,129 +6532,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-24 10:50:20 AM ET",
+      "updated_at": "2026-06-24 01:12:05 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2500
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "title": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "source_headline": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "original_headline": "Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-      "snapshot": "SportsLine's Jacob Fetner reveals his best MLB home run props picks for Tuesday, June 23",
-      "url": "https://www.cbssports.com/betting/news/free-mlb-home-run-picks-odds-for-june-23-juan-soto-in-experts-best-bets-for-tuesday-hr-player-props/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Free MLB home run picks, odds for June 23: Juan Soto in expert's best bets for Tuesday HR player props",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:18 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2420
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "title": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "source_headline": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "original_headline": "Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-      "snapshot": "Toronto is betting that Raddysh's late breakout season wasn't a fluke",
-      "url": "https://www.cbssports.com/nhl/news/darren-raddysh-trade-grades-maple-leafs-defenseman/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Darren Raddysh trade grades: Have the Maple Leafs acquired their new No. 1 defenseman?",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "title": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "source_headline": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "original_headline": "Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-      "snapshot": "The 27-year-old goaltender took to social media to express his gratitude to Toronto and his excitement for a fresh start in Philadelphia.",
-      "url": "https://sports.yahoo.com/articles/former-maple-leafs-goalie-joseph-130043902.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Former Maple Leafs Goalie Joseph Woll Posts Emotional Message Following Trade To Flyers",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "title": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "source_headline": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "original_headline": "Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-      "snapshot": "The Flyers dodged a massive bullet steering clear of the Sabres&#39; exorbitant asking price for Byram.",
-      "url": "https://sports.yahoo.com/articles/flyers-were-pass-horrible-bowen-110043727.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Flyers Were Right to Pass On Horrible Bowen Byram Trade",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-24 10:50:19 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
     }
   ],
   "reports_loaded": [
