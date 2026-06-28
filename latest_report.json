@@ -4,8 +4,8 @@
   "title": "GLOBAL SPORTS REPORT | 2026-06-28",
   "headline": "'That sucks': Why the Seahawks' Super Bowl win actually left Sam Darnold 'kind of bummed'",
   "snapshot": "Fresh sports board built from source headlines with old fallback headline machinery removed.",
-  "updated_at": "2026-06-28 05:26:42 AM ET",
-  "generated_at": "2026-06-28 05:26:42 AM ET",
+  "updated_at": "2026-06-28 07:54:55 AM ET",
+  "generated_at": "2026-06-28 07:54:55 AM ET",
   "builder": "clean_build_distribution_rewrite",
   "homepage_cards": [
     {
@@ -34,7 +34,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Stability has Broncos poised for another Super Bowl push",
+      "title": "Stability has Broncos poised for another Super Bowl push",
+      "source_headline": "Stability has Broncos poised for another Super Bowl push",
+      "original_headline": "Stability has Broncos poised for another Super Bowl push",
+      "snapshot": "With continuity in place from top to bottom, the Broncos stability is a key ingredient to building on last season.",
+      "url": "https://sports.yahoo.com/articles/stability-broncos-poised-another-super-100000741.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Stability has Broncos poised for another Super Bowl push",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3050
     },
@@ -64,7 +94,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3360
     },
@@ -94,23 +124,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Magic waive Jonathan Isaac, their No. 6 pick in the 2017 draft who battled injuries",
-      "title": "Magic waive Jonathan Isaac, their No. 6 pick in the 2017 draft who battled injuries",
-      "source_headline": "Magic waive Jonathan Isaac, their No. 6 pick in the 2017 draft who battled injuries",
-      "original_headline": "Magic waive Jonathan Isaac, their No. 6 pick in the 2017 draft who battled injuries",
-      "snapshot": "The Orlando Magic waived Jonathan Isaac on Saturday, ending the former first-round pick's injury-shortened time with the team. The Magic took Isaac with the No. 6 pick in the 2017 draft. After playing in 75 games in 2018-19 in a promising second season, the 6-foot-10 forward tore",
-      "url": "https://sports.yahoo.com/articles/magic-waive-jonathan-isaac-no-030901454.html",
+      "headline": "Knicks sign St. John’s guard to Summer League deal",
+      "title": "Knicks sign St. John’s guard to Summer League deal",
+      "source_headline": "Knicks sign St. John’s guard to Summer League deal",
+      "original_headline": "Knicks sign St. John’s guard to Summer League deal",
+      "snapshot": "The Knicks added perimeter depth after the draft, signing a local shooter from the Red Storm.",
+      "url": "https://sports.yahoo.com/articles/knicks-sign-st-john-guard-073030674.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Magic waive Jonathan Isaac, their No. 6 pick in the 2017 draft who battled injuries",
+        "Source headline: Knicks sign St. John’s guard to Summer League deal",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -124,9 +154,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 4665
+      "priority_score": 4645
     },
     {
       "league": "MLB",
@@ -154,7 +184,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -184,7 +214,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     }
@@ -196,8 +226,17 @@
       "headline": "'That sucks': Why the Seahawks' Super Bowl win actually left Sam Darnold 'kind of bummed'",
       "snapshot": "Darnold still thinks about the three throws he missed during Seattle's shellacking of the Patriots",
       "signal": "cbssports.com",
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:55 AM ET",
       "url": "https://www.cbssports.com/nfl/news/sam-darnold-super-bowl-performance-bummed/"
+    },
+    {
+      "section": "nfl",
+      "label": "NFL",
+      "headline": "Stability has Broncos poised for another Super Bowl push",
+      "snapshot": "With continuity in place from top to bottom, the Broncos stability is a key ingredient to building on last season.",
+      "signal": "sports.yahoo.com",
+      "updated_at": "2026-06-28 07:54:55 AM ET",
+      "url": "https://sports.yahoo.com/articles/stability-broncos-poised-another-super-100000741.html"
     },
     {
       "section": "nhl",
@@ -205,7 +244,7 @@
       "headline": "Bruins trade prospect Fabian Lysell to Colorado for prospect Ivan Ivan",
       "snapshot": "In the middle of all that Draft chaos, we almost forgot that a trade happened! The Bruins announced that they have traded Forward Prospect Fabian Lysell to the Colorado Avalanche in exchange for Prospect Ivan Ivan. The trade is one for one. The Bruins acquired Lysell in the 2021",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:55 AM ET",
       "url": "https://sports.yahoo.com/articles/bruins-trade-prospect-fabian-lysell-215105133.html"
     },
     {
@@ -214,17 +253,17 @@
       "headline": "How close are these Dodgers stars to a potential return?",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:55 AM ET",
       "url": "https://www.mlb.com/news/injury-updates-for-dodgers-blake-snell-edwin-diaz-will-smith"
     },
     {
       "section": "nba",
       "label": "NBA",
-      "headline": "Magic waive Jonathan Isaac, their No. 6 pick in the 2017 draft who battled injuries",
-      "snapshot": "The Orlando Magic waived Jonathan Isaac on Saturday, ending the former first-round pick's injury-shortened time with the team. The Magic took Isaac with the No. 6 pick in the 2017 draft. After playing in 75 games in 2018-19 in a promising second season, the 6-foot-10 forward tore",
+      "headline": "Knicks sign St. John’s guard to Summer League deal",
+      "snapshot": "The Knicks added perimeter depth after the draft, signing a local shooter from the Red Storm.",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-06-28 05:26:42 AM ET",
-      "url": "https://sports.yahoo.com/articles/magic-waive-jonathan-isaac-no-030901454.html"
+      "updated_at": "2026-06-28 07:54:55 AM ET",
+      "url": "https://sports.yahoo.com/articles/knicks-sign-st-john-guard-073030674.html"
     },
     {
       "section": "mlb",
@@ -232,7 +271,7 @@
       "headline": "Dodgers score 9 in 6th for their biggest inning in San Diego in nearly 6 decades",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:55 AM ET",
       "url": "https://www.mlb.com/news/dodgers-score-9-runs-in-6th-inning-in-win-vs-padres"
     },
     {
@@ -241,7 +280,7 @@
       "headline": "10 intriguing trade candidates on playoff bubble teams",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:55 AM ET",
       "url": "https://www.mlb.com/news/trade-deadline-2026-trade-candidates-on-playoff-bubble-teams"
     }
   ],
@@ -1843,7 +1882,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -1872,7 +1911,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -1904,7 +1943,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -1934,7 +1973,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4775
     },
@@ -1964,9 +2003,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4665
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Knicks sign St. John’s guard to Summer League deal",
+      "title": "Knicks sign St. John’s guard to Summer League deal",
+      "source_headline": "Knicks sign St. John’s guard to Summer League deal",
+      "original_headline": "Knicks sign St. John’s guard to Summer League deal",
+      "snapshot": "The Knicks added perimeter depth after the draft, signing a local shooter from the Red Storm.",
+      "url": "https://sports.yahoo.com/articles/knicks-sign-st-john-guard-073030674.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Knicks sign St. John’s guard to Summer League deal",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:52 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4645
     },
     {
       "league": "NHL",
@@ -1994,7 +2063,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4490
     },
@@ -2021,7 +2090,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2050,7 +2119,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2082,7 +2151,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4060
     },
@@ -2109,7 +2178,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
@@ -2141,7 +2210,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3990
     },
@@ -2171,7 +2240,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3935
     },
@@ -2201,7 +2270,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3935
     },
@@ -2231,7 +2300,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3865
     },
@@ -2257,7 +2326,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2285,7 +2354,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2317,7 +2386,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3660
     },
@@ -2347,9 +2416,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3545
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "title": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "source_headline": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "original_headline": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "snapshot": "When Joe Brady was promoted from offensive coordinator to head coach in Buffalo this year, he decided to go outside the organization for the key assistant positions on his new offensive staff.",
+      "url": "https://sports.yahoo.com/articles/josh-allen-bills-lucky-bo-094759618.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3380
     },
     {
       "league": "NHL",
@@ -2377,37 +2476,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3375
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "title": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "source_headline": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "original_headline": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "snapshot": "San Jose Sharks general manager Mike Grier had one big wish entering the NHL draft. “I hope not to be picking at the top of the draft next year,” Grier said at the prospect combine earlier this month. The benefit of winning the draft lottery and jumping seven spots in the order t",
-      "url": "https://sports.yahoo.com/articles/san-jose-sharks-future-appears-211558305.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3375
     },
@@ -2437,7 +2506,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3360
     },
@@ -2467,23 +2536,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "title": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "source_headline": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "original_headline": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "snapshot": "The Penguins nabbed Carolina&#39;s 160th overall pick to land an upside goaltender from Belarus.",
-      "url": "https://sports.yahoo.com/articles/nhl-draft-penguins-trade-another-213304568.html",
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "New York Jets Flight Connections 06/28/26",
+      "title": "New York Jets Flight Connections 06/28/26",
+      "source_headline": "New York Jets Flight Connections 06/28/26",
+      "original_headline": "New York Jets Flight Connections 06/28/26",
+      "snapshot": "Happy Sunday, Jets fans! Here are your daily links as we enjoy this weekend. Michael Nania – 2 league-wide NFL trends the NY Jets need to jump on Michael Nania – NY Jets RB pulls up to World Cup match at MetLife Stadium Connor Long – The potential cut candidates NY Jets should be",
+      "url": "https://sports.yahoo.com/articles/york-jets-flight-connections-06-110000721.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
+        "Source headline: New York Jets Flight Connections 06/28/26",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2497,39 +2566,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3340
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "title": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "source_headline": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "original_headline": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "snapshot": "The former Tar Heel’s professional career officially begins.",
-      "url": "https://sports.yahoo.com/articles/seth-trimble-signs-washington-wizards-205533986.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3140
+      "priority_score": 3175
     },
     {
       "league": "NBA",
@@ -2557,39 +2596,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "title": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "source_headline": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "original_headline": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "snapshot": "Washington Wizards fans are clearly encouraged by the franchise’s direction following the 2026 NBA Draft. In the latest SB Nation Reacts polls that we issue this week, 90 percent of respondents gave the selection of AJ Dybantsa an A grade, signaling overwhelming confidence in the",
-      "url": "https://sports.yahoo.com/articles/sb-nation-reacts-wizards-fans-211231454.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
     },
     {
       "league": "NBA",
@@ -2617,23 +2626,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3090
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "title": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "source_headline": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "original_headline": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "snapshot": "Timofey Mozgov was left out of the 2016 Cavaliers 10-year reunion that flooded social media earlier this month.",
-      "url": "https://sports.yahoo.com/articles/cavaliers-didn-t-invite-timofey-213907844.html",
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Stability has Broncos poised for another Super Bowl push",
+      "title": "Stability has Broncos poised for another Super Bowl push",
+      "source_headline": "Stability has Broncos poised for another Super Bowl push",
+      "original_headline": "Stability has Broncos poised for another Super Bowl push",
+      "snapshot": "With continuity in place from top to bottom, the Broncos stability is a key ingredient to building on last season.",
+      "url": "https://sports.yahoo.com/articles/stability-broncos-poised-another-super-100000741.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
+        "Source headline: Stability has Broncos poised for another Super Bowl push",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2647,9 +2656,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3090
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -2675,7 +2684,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -2705,7 +2714,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -2735,7 +2744,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -2765,7 +2774,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -2797,39 +2806,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "title": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "source_headline": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "original_headline": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "snapshot": "Atlanta Braves news and notes from Saturday",
-      "url": "https://sports.yahoo.com/articles/braves-news-carlos-santana-signing-040100835.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Braves News: Carlos Santana signing, pitching struggles, more",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2860
     },
     {
       "league": "MLB",
@@ -2857,7 +2836,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -2885,7 +2864,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -2915,7 +2894,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -2947,9 +2926,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2770
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "title": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "source_headline": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "original_headline": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "snapshot": "The former Dodgers general manager had it easier than Pelinka but only lasted two relatively successful seasons. Yet Pelinka must build a winner fast.",
+      "url": "https://sports.yahoo.com/articles/swanson-youre-rob-pelinka-avoid-113000859.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:52 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2540
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "title": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "source_headline": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "original_headline": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "snapshot": "The former Duke star appears to be thriving with the Boston Celtics",
+      "url": "https://sports.yahoo.com/articles/former-duke-star-amile-jefferson-111100742.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:52 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2540
     },
     {
       "league": "MLB",
@@ -2974,7 +3013,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -3003,7 +3042,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -3032,7 +3071,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -3051,7 +3090,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -3083,7 +3122,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3113,7 +3152,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3143,7 +3182,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3173,7 +3212,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3203,7 +3242,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3233,7 +3272,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3263,7 +3302,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3293,7 +3332,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3323,7 +3362,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3353,7 +3392,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3205
     },
@@ -3383,7 +3422,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3160
     },
@@ -3413,7 +3452,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3130
     },
@@ -3443,7 +3482,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -3473,7 +3512,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3090
     },
@@ -3503,7 +3542,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3090
     },
@@ -3533,7 +3572,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3070
     },
@@ -3563,7 +3602,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3050
     },
@@ -3593,7 +3632,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3050
     },
@@ -3620,7 +3659,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
@@ -3652,7 +3691,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -3682,7 +3721,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -3712,7 +3751,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2935
     },
@@ -3742,7 +3781,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -3772,7 +3811,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -3802,39 +3841,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2665
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "title": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "source_headline": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "original_headline": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "snapshot": "In a video posted to YouTube, Aiyuk criticized 49ers GM John Lynch and coach Kyle Shanahan, adding that he fired his agent in November.",
-      "url": "https://sports.yahoo.com/nfl/article/brandon-aiyuk-says-he-is-not-cool-with-49ers-john-lynch-and-kyle-shanahan-claims-he-fired-agent-192055262.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2520
     },
     {
       "league": "NFL",
@@ -3862,67 +3871,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2500
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "title": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "source_headline": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "original_headline": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "snapshot": "49ers wide receiver Brandon Aiyuk posted a video Saturday on his YouTube channel, claiming his former agent has influenced his situation with the team and 49ers general manager John Lynch recently showed up at his home.",
-      "url": "https://sports.yahoo.com/articles/brandon-aiyuk-posts-another-cryptic-205921549.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2500
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "title": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "source_headline": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "original_headline": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "snapshot": "Mike McCarthy tabbed as Coach of the Year candidate by NFL analyst.",
-      "url": "https://sports.yahoo.com/articles/nfl-analyst-tabs-steelers-mike-204900905.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2500
     },
@@ -3952,7 +3901,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
     },
@@ -3982,9 +3931,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2430
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "title": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "source_headline": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "original_headline": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "snapshot": "Could these Penguins end up being traded this off-season?",
+      "url": "https://sports.yahoo.com/articles/nhl-rumors-3-penguins-featured-111541879.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NHL Rumors: 3 Penguins Featured On New Trade Board",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2410
     },
     {
       "league": "NHL",
@@ -4012,7 +3991,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -4042,7 +4021,67 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2385
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Canadiens Go For Size On Day Two",
+      "title": "Canadiens Go For Size On Day Two",
+      "source_headline": "Canadiens Go For Size On Day Two",
+      "original_headline": "Canadiens Go For Size On Day Two",
+      "snapshot": "The Montreal Canadiens focused on physicality and size at this year&#39;s draft and loaded up on big bodies both on the blueline and up front.",
+      "url": "https://sports.yahoo.com/articles/canadiens-size-day-two-110031398.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Canadiens Go For Size On Day Two",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2385
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "title": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "source_headline": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "original_headline": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "snapshot": "A below-average weekend for the Flyers in the eyes of many.",
+      "url": "https://sports.yahoo.com/articles/flyers-draft-wrap-pick-grades-110031907.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -4072,7 +4111,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -4102,7 +4141,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -4132,7 +4171,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -4162,23 +4201,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "title": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "source_headline": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "original_headline": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "snapshot": "On Saturday at the NHL Draft, the Sens remained smitten with dynamic amateur forwards, including Sudbury Wolves rookie Adam Nemec.",
-      "url": "https://sports.yahoo.com/articles/senators-2026-draft-blueprint-came-212826207.html",
+      "headline": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "title": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "source_headline": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "original_headline": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "snapshot": "Maple Leafs GM John Chayka isn&#39;t ruling out a goaltending upgrade before July 1 and with $22 million in cap space and Sergei Bobrovsky hitting the open market. Maple Leafs GM John Chayka isn&#39;t ruling out a goaltending upgrade before July 1 — and with $22 million in cap",
+      "url": "https://sports.yahoo.com/articles/maple-leafs-gm-john-chayka-110031547.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
+        "Source headline: Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4192,9 +4231,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2385
+      "priority_score": 2370
     }
   ],
   "stories": [
@@ -4222,7 +4261,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -4251,7 +4290,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4283,7 +4322,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -4313,7 +4352,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4775
     },
@@ -4343,9 +4382,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4665
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Knicks sign St. John’s guard to Summer League deal",
+      "title": "Knicks sign St. John’s guard to Summer League deal",
+      "source_headline": "Knicks sign St. John’s guard to Summer League deal",
+      "original_headline": "Knicks sign St. John’s guard to Summer League deal",
+      "snapshot": "The Knicks added perimeter depth after the draft, signing a local shooter from the Red Storm.",
+      "url": "https://sports.yahoo.com/articles/knicks-sign-st-john-guard-073030674.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Knicks sign St. John’s guard to Summer League deal",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:52 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4645
     },
     {
       "league": "NHL",
@@ -4373,7 +4442,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4490
     },
@@ -4400,7 +4469,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4429,7 +4498,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4461,7 +4530,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4060
     },
@@ -4488,7 +4557,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
@@ -4520,7 +4589,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3990
     },
@@ -4550,7 +4619,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3935
     },
@@ -4580,7 +4649,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3935
     },
@@ -4610,7 +4679,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3865
     },
@@ -4636,7 +4705,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4664,7 +4733,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4696,7 +4765,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3660
     },
@@ -4726,9 +4795,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3545
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "title": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "source_headline": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "original_headline": "Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+      "snapshot": "When Joe Brady was promoted from offensive coordinator to head coach in Buffalo this year, he decided to go outside the organization for the key assistant positions on his new offensive staff.",
+      "url": "https://sports.yahoo.com/articles/josh-allen-bills-lucky-bo-094759618.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Josh Allen: Bills are lucky to have Bo Hardegree as new quarterbacks coach",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3380
     },
     {
       "league": "NHL",
@@ -4756,37 +4855,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3375
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "title": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "source_headline": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "original_headline": "San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-      "snapshot": "San Jose Sharks general manager Mike Grier had one big wish entering the NHL draft. “I hope not to be picking at the top of the draft next year,” Grier said at the prospect combine earlier this month. The benefit of winning the draft lottery and jumping seven spots in the order t",
-      "url": "https://sports.yahoo.com/articles/san-jose-sharks-future-appears-211558305.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: San Jose Sharks&#39; future appears brighter after 3-player 1st-round haul at NHL draft",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3375
     },
@@ -4816,7 +4885,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3360
     },
@@ -4846,23 +4915,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "title": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "source_headline": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "original_headline": "NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
-      "snapshot": "The Penguins nabbed Carolina&#39;s 160th overall pick to land an upside goaltender from Belarus.",
-      "url": "https://sports.yahoo.com/articles/nhl-draft-penguins-trade-another-213304568.html",
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "New York Jets Flight Connections 06/28/26",
+      "title": "New York Jets Flight Connections 06/28/26",
+      "source_headline": "New York Jets Flight Connections 06/28/26",
+      "original_headline": "New York Jets Flight Connections 06/28/26",
+      "snapshot": "Happy Sunday, Jets fans! Here are your daily links as we enjoy this weekend. Michael Nania – 2 league-wide NFL trends the NY Jets need to jump on Michael Nania – NY Jets RB pulls up to World Cup match at MetLife Stadium Connor Long – The potential cut candidates NY Jets should be",
+      "url": "https://sports.yahoo.com/articles/york-jets-flight-connections-06-110000721.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: NHL Draft: Penguins Trade For Another Pick In 2026 Draft, Select Belarusian Goaltender",
+        "Source headline: New York Jets Flight Connections 06/28/26",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4876,39 +4945,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3340
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "title": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "source_headline": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "original_headline": "Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-      "snapshot": "The former Tar Heel’s professional career officially begins.",
-      "url": "https://sports.yahoo.com/articles/seth-trimble-signs-washington-wizards-205533986.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Seth Trimble signs with the Washington Wizards as an undrafted free agent",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3140
+      "priority_score": 3175
     },
     {
       "league": "NBA",
@@ -4936,39 +4975,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "title": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "source_headline": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "original_headline": "SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-      "snapshot": "Washington Wizards fans are clearly encouraged by the franchise’s direction following the 2026 NBA Draft. In the latest SB Nation Reacts polls that we issue this week, 90 percent of respondents gave the selection of AJ Dybantsa an A grade, signaling overwhelming confidence in the",
-      "url": "https://sports.yahoo.com/articles/sb-nation-reacts-wizards-fans-211231454.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: SB Nation Reacts: Wizards fans give high marks on the draft and offseason so far",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
     },
     {
       "league": "NBA",
@@ -4996,23 +5005,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3090
     },
     {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "title": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "source_headline": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "original_headline": "Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
-      "snapshot": "Timofey Mozgov was left out of the 2016 Cavaliers 10-year reunion that flooded social media earlier this month.",
-      "url": "https://sports.yahoo.com/articles/cavaliers-didn-t-invite-timofey-213907844.html",
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Stability has Broncos poised for another Super Bowl push",
+      "title": "Stability has Broncos poised for another Super Bowl push",
+      "source_headline": "Stability has Broncos poised for another Super Bowl push",
+      "original_headline": "Stability has Broncos poised for another Super Bowl push",
+      "snapshot": "With continuity in place from top to bottom, the Broncos stability is a key ingredient to building on last season.",
+      "url": "https://sports.yahoo.com/articles/stability-broncos-poised-another-super-100000741.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Cavaliers didn’t invite Timofey Mozgov to their 2016 NBA title reunion: ‘No one wrote’",
+        "Source headline: Stability has Broncos poised for another Super Bowl push",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5026,9 +5035,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3090
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -5054,7 +5063,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -5084,7 +5093,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -5114,7 +5123,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -5144,7 +5153,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -5176,39 +5185,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "title": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "source_headline": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "original_headline": "Braves News: Carlos Santana signing, pitching struggles, more",
-      "snapshot": "Atlanta Braves news and notes from Saturday",
-      "url": "https://sports.yahoo.com/articles/braves-news-carlos-santana-signing-040100835.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Braves News: Carlos Santana signing, pitching struggles, more",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2860
     },
     {
       "league": "MLB",
@@ -5236,7 +5215,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -5264,7 +5243,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -5294,7 +5273,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -5326,9 +5305,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2770
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "title": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "source_headline": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "original_headline": "Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+      "snapshot": "The former Dodgers general manager had it easier than Pelinka but only lasted two relatively successful seasons. Yet Pelinka must build a winner fast.",
+      "url": "https://sports.yahoo.com/articles/swanson-youre-rob-pelinka-avoid-113000859.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Swanson: You&#39;re up, Rob Pelinka. To avoid Ned Colletti&#39;s fate, the Lakers&#39; GM has to deliver this offseason",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:52 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2540
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "title": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "source_headline": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "original_headline": "Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+      "snapshot": "The former Duke star appears to be thriving with the Boston Celtics",
+      "url": "https://sports.yahoo.com/articles/former-duke-star-amile-jefferson-111100742.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Former Duke Star Amile Jefferson To Coach Boston’s Summer League Team",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:52 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2540
     },
     {
       "league": "MLB",
@@ -5353,7 +5392,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -5382,7 +5421,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -5411,7 +5450,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -5430,7 +5469,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -5462,7 +5501,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5492,7 +5531,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5522,7 +5561,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5552,7 +5591,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5582,7 +5621,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5612,7 +5651,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5642,7 +5681,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5672,7 +5711,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5702,7 +5741,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5732,7 +5771,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3205
     },
@@ -5762,7 +5801,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3160
     },
@@ -5792,7 +5831,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3130
     },
@@ -5822,7 +5861,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3105
     },
@@ -5852,7 +5891,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3090
     },
@@ -5882,7 +5921,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3090
     },
@@ -5912,7 +5951,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3070
     },
@@ -5942,7 +5981,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3050
     },
@@ -5972,7 +6011,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3050
     },
@@ -5999,7 +6038,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:51 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
@@ -6031,7 +6070,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -6061,7 +6100,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2955
     },
@@ -6091,7 +6130,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2935
     },
@@ -6121,7 +6160,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -6151,7 +6190,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -6181,39 +6220,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2665
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "title": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "source_headline": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "original_headline": "Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-      "snapshot": "In a video posted to YouTube, Aiyuk criticized 49ers GM John Lynch and coach Kyle Shanahan, adding that he fired his agent in November.",
-      "url": "https://sports.yahoo.com/nfl/article/brandon-aiyuk-says-he-is-not-cool-with-49ers-john-lynch-and-kyle-shanahan-claims-he-fired-agent-192055262.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brandon Aiyuk says he &#39;is not cool&#39; with 49ers&#39; John Lynch and Kyle Shanahan, claims he fired agent",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2520
     },
     {
       "league": "NFL",
@@ -6241,67 +6250,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2500
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "title": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "source_headline": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "original_headline": "Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-      "snapshot": "49ers wide receiver Brandon Aiyuk posted a video Saturday on his YouTube channel, claiming his former agent has influenced his situation with the team and 49ers general manager John Lynch recently showed up at his home.",
-      "url": "https://sports.yahoo.com/articles/brandon-aiyuk-posts-another-cryptic-205921549.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brandon Aiyuk posts another cryptic video calling out John Lynch, Kyle Shanahan: ‘We is not cool’",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2500
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "title": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "source_headline": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "original_headline": "NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-      "snapshot": "Mike McCarthy tabbed as Coach of the Year candidate by NFL analyst.",
-      "url": "https://sports.yahoo.com/articles/nfl-analyst-tabs-steelers-mike-204900905.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: NFL analyst tabs Steelers’ Mike McCarthy as NFL Coach of the Year candidate",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-06-28 05:26:42 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2500
     },
@@ -6331,7 +6280,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:39 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
     },
@@ -6361,9 +6310,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:40 AM ET",
+      "updated_at": "2026-06-28 07:54:52 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2430
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "title": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "source_headline": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "original_headline": "NHL Rumors: 3 Penguins Featured On New Trade Board",
+      "snapshot": "Could these Penguins end up being traded this off-season?",
+      "url": "https://sports.yahoo.com/articles/nhl-rumors-3-penguins-featured-111541879.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NHL Rumors: 3 Penguins Featured On New Trade Board",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2410
     },
     {
       "league": "NHL",
@@ -6391,7 +6370,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -6421,7 +6400,67 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:53 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2385
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Canadiens Go For Size On Day Two",
+      "title": "Canadiens Go For Size On Day Two",
+      "source_headline": "Canadiens Go For Size On Day Two",
+      "original_headline": "Canadiens Go For Size On Day Two",
+      "snapshot": "The Montreal Canadiens focused on physicality and size at this year&#39;s draft and loaded up on big bodies both on the blueline and up front.",
+      "url": "https://sports.yahoo.com/articles/canadiens-size-day-two-110031398.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Canadiens Go For Size On Day Two",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2385
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "title": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "source_headline": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "original_headline": "Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+      "snapshot": "A below-average weekend for the Flyers in the eyes of many.",
+      "url": "https://sports.yahoo.com/articles/flyers-draft-wrap-pick-grades-110031907.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Flyers Draft Wrap: Pick Grades, Outlook, What Comes Next",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -6451,7 +6490,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -6481,7 +6520,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -6511,7 +6550,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -6541,23 +6580,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "title": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "source_headline": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "original_headline": "Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
-      "snapshot": "On Saturday at the NHL Draft, the Sens remained smitten with dynamic amateur forwards, including Sudbury Wolves rookie Adam Nemec.",
-      "url": "https://sports.yahoo.com/articles/senators-2026-draft-blueprint-came-212826207.html",
+      "headline": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "title": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "source_headline": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "original_headline": "Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
+      "snapshot": "Maple Leafs GM John Chayka isn&#39;t ruling out a goaltending upgrade before July 1 and with $22 million in cap space and Sergei Bobrovsky hitting the open market. Maple Leafs GM John Chayka isn&#39;t ruling out a goaltending upgrade before July 1 — and with $22 million in cap",
+      "url": "https://sports.yahoo.com/articles/maple-leafs-gm-john-chayka-110031547.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Senators&#39; 2026 Draft Blueprint Came Into Full Focus On Saturday",
+        "Source headline: Maple Leafs GM John Chayka Leaves Door Open On Goaltending Upgrade Ahead Of NHL Free Agency, What About Sergei Bobrovsky?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -6571,9 +6610,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-06-28 05:26:41 AM ET",
+      "updated_at": "2026-06-28 07:54:54 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2385
+      "priority_score": 2370
     }
   ],
   "reports_loaded": [
