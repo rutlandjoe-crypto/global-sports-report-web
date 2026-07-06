@@ -4,8 +4,8 @@
   "title": "GLOBAL SPORTS REPORT | 2026-07-06",
   "headline": "Sources: Kawhi hires new agent for next deal",
   "snapshot": "Fresh sports board built from source headlines with old fallback headline machinery removed.",
-  "updated_at": "2026-07-06 04:09:23 PM ET",
-  "generated_at": "2026-07-06 04:09:23 PM ET",
+  "updated_at": "2026-07-06 06:21:25 PM ET",
+  "generated_at": "2026-07-06 06:21:25 PM ET",
   "builder": "clean_build_distribution_rewrite",
   "homepage_cards": [
     {
@@ -34,23 +34,53 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 6237
     },
     {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "title": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "source_headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "original_headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "snapshot": "With how crazy free agency has been, the Colorado Avalanche might have almost taken the lead in the biggest trade, given what is being reported.",
-      "url": "https://sports.yahoo.com/articles/insider-reports-avalanche-were-running-171933162.html",
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Sources: Draft prospect Bumila has UCL injury",
+      "title": "Sources: Draft prospect Bumila has UCL injury",
+      "source_headline": "Sources: Draft prospect Bumila has UCL injury",
+      "original_headline": "Sources: Draft prospect Bumila has UCL injury",
+      "snapshot": "Fireballing Massachusetts prep left-hander Brody Bumila shared an MRI with MLB teams on Monday that revealed damage to the ulnar collateral ligament in his left elbow, sources told ESPN.",
+      "url": "https://www.espn.com/mlb/story/_/id/49289964/sources-mlb-draft-prospect-brody-bumila-ucl-injury",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Draft prospect Bumila has UCL injury",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4447
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "title": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "source_headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "original_headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "snapshot": "Proposed deal would also give Las Vegas a 1st-round pick",
+      "url": "https://sports.yahoo.com/articles/maxx-crosby-george-pickens-trade-213900964.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
+        "Source headline: Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -64,23 +94,53 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2995
+      "priority_score": 4610
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "title": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "source_headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "original_headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
+      "headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "title": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "source_headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "original_headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "snapshot": "Mets interim manager Andy Green shared an update on Jorge Polanco, revealing a plan to have the slugger play in back-to-back games as part of his injury rehab from left Achilles bursitis.",
+      "url": "https://sports.yahoo.com/articles/mets-notes-andy-green-reveals-220920242.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2880
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Stanton still not running since injury setback; return remains up in air",
+      "title": "Stanton still not running since injury setback; return remains up in air",
+      "source_headline": "Stanton still not running since injury setback; return remains up in air",
+      "original_headline": "Stanton still not running since injury setback; return remains up in air",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/cubs-2026-trade-deadline-strategy-with-injury-comebacks",
+      "url": "https://www.mlb.com/news/giancarlo-stanton-not-running-since-injury-setback",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Will injury comebacks affect Cubs’ Trade Deadline strategy?",
+        "Source headline: Stanton still not running since injury setback; return remains up in air",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -94,39 +154,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 5980
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "title": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "source_headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "original_headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "snapshot": "The two relievers couldn’t crack the Tigers bullpen, and so this says more about the state of the Twins and Mets.",
-      "url": "https://sports.yahoo.com/articles/tigers-trade-rhp-woo-suk-193547455.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2900
+      "priority_score": 2880
     },
     {
       "league": "NBA",
@@ -154,7 +184,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     }
@@ -166,35 +196,44 @@
       "headline": "Sources: Kawhi hires new agent for next deal",
       "snapshot": "Kawhi Leonard and the Toronto Raptors are expected to start contract extension talks this week in Toronto after his trade becomes official -- and the two-time Finals MVP will do so with new representation.",
       "signal": "espn.com",
-      "updated_at": "2026-07-06 04:09:23 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "url": "https://www.espn.com/nba/story/_/id/49285660/sources-kawhi-leonard-hires-new-agent-oversee-next-raptors-deal"
     },
     {
-      "section": "nhl",
-      "label": "NHL",
-      "headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "snapshot": "With how crazy free agency has been, the Colorado Avalanche might have almost taken the lead in the biggest trade, given what is being reported.",
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Sources: Draft prospect Bumila has UCL injury",
+      "snapshot": "Fireballing Massachusetts prep left-hander Brody Bumila shared an MRI with MLB teams on Monday that revealed damage to the ulnar collateral ligament in his left elbow, sources told ESPN.",
+      "signal": "espn.com",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "url": "https://www.espn.com/mlb/story/_/id/49289964/sources-mlb-draft-prospect-brody-bumila-ucl-injury"
+    },
+    {
+      "section": "nfl",
+      "label": "NFL",
+      "headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "snapshot": "Proposed deal would also give Las Vegas a 1st-round pick",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-07-06 04:09:23 PM ET",
-      "url": "https://sports.yahoo.com/articles/insider-reports-avalanche-were-running-171933162.html"
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "url": "https://sports.yahoo.com/articles/maxx-crosby-george-pickens-trade-213900964.html"
     },
     {
       "section": "mlb",
       "label": "MLB",
-      "headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
+      "headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "snapshot": "Mets interim manager Andy Green shared an update on Jorge Polanco, revealing a plan to have the slugger play in back-to-back games as part of his injury rehab from left Achilles bursitis.",
+      "signal": "sports.yahoo.com",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "url": "https://sports.yahoo.com/articles/mets-notes-andy-green-reveals-220920242.html"
+    },
+    {
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Stanton still not running since injury setback; return remains up in air",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-07-06 04:09:23 PM ET",
-      "url": "https://www.mlb.com/news/cubs-2026-trade-deadline-strategy-with-injury-comebacks"
-    },
-    {
-      "section": "mlb",
-      "label": "MLB",
-      "headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "snapshot": "The two relievers couldn’t crack the Tigers bullpen, and so this says more about the state of the Twins and Mets.",
-      "signal": "sports.yahoo.com",
-      "updated_at": "2026-07-06 04:09:23 PM ET",
-      "url": "https://sports.yahoo.com/articles/tigers-trade-rhp-woo-suk-193547455.html"
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "url": "https://www.mlb.com/news/giancarlo-stanton-not-running-since-injury-setback"
     },
     {
       "section": "nba",
@@ -202,7 +241,7 @@
       "headline": "Deandre Ayton trade grades: Lakers ship veteran center to Wizards with eyes on free-agent replacement",
       "snapshot": "Ayton started all 72 games he played last year but was expendable after the acquisition of Walker Kessler",
       "signal": "cbssports.com",
-      "updated_at": "2026-07-06 04:09:23 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "url": "https://www.cbssports.com/nba/news/deandre-ayton-trade-grades-lakers-wizards-walker-kessler/"
     }
   ],
@@ -1804,7 +1843,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -1833,7 +1872,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -1865,39 +1904,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 6237
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "title": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "source_headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "original_headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/cubs-2026-trade-deadline-strategy-with-injury-comebacks",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 5980
     },
     {
       "league": "NBA",
@@ -1925,7 +1934,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5675
     },
@@ -1955,7 +1964,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -1985,7 +1994,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4697
     },
@@ -2015,7 +2024,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4682
     },
@@ -2045,9 +2054,99 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4677
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "title": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "source_headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "original_headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "snapshot": "Proposed deal would also give Las Vegas a 1st-round pick",
+      "url": "https://sports.yahoo.com/articles/maxx-crosby-george-pickens-trade-213900964.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4610
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "title": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "source_headline": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "original_headline": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "snapshot": "Cleveland Browns roster has seen improvements through NFL free agency, draft but ESPN has them ranked near the bottom",
+      "url": "https://sports.yahoo.com/articles/despite-roster-improvements-browns-starters-212628092.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4605
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Sources: Draft prospect Bumila has UCL injury",
+      "title": "Sources: Draft prospect Bumila has UCL injury",
+      "source_headline": "Sources: Draft prospect Bumila has UCL injury",
+      "original_headline": "Sources: Draft prospect Bumila has UCL injury",
+      "snapshot": "Fireballing Massachusetts prep left-hander Brody Bumila shared an MRI with MLB teams on Monday that revealed damage to the ulnar collateral ligament in his left elbow, sources told ESPN.",
+      "url": "https://www.espn.com/mlb/story/_/id/49289964/sources-mlb-draft-prospect-brody-bumila-ucl-injury",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Draft prospect Bumila has UCL injury",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4447
     },
     {
       "league": "MLB",
@@ -2075,7 +2174,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
@@ -2105,7 +2204,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
@@ -2135,7 +2234,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4412
     },
@@ -2162,7 +2261,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2191,11 +2290,41 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 4400
+    },
+    {
+      "league": "Soccer",
+      "key": "soccer",
+      "headline": "Ronaldo exits in tears as Spain end final World Cu...",
+      "title": "Ronaldo exits in tears as Spain end final World Cu...",
+      "source_headline": "Ronaldo exits in tears as Spain end final World Cu...",
+      "original_headline": "Ronaldo exits in tears as Spain end final World Cu...",
+      "snapshot": "Cristiano Ronaldo exited his final World Cup in tears as Portugal were eliminated by Spain in the round of 16 in Arlington, Texas, on Monday.",
+      "url": "https://www.espn.com/soccer/story/_/id/49290017/cristiano-ronaldo-portugal-spain-last-world-cup-2026",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Ronaldo exits in tears as Spain end final World Cu...",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4277
     },
     {
       "league": "NBA",
@@ -2223,7 +2352,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4265
     },
@@ -2253,23 +2382,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4257
     },
     {
       "league": "Soccer",
       "key": "soccer",
-      "headline": "England survive to beat Mexico in Azteca thriller",
-      "title": "England survive to beat Mexico in Azteca thriller",
-      "source_headline": "England survive to beat Mexico in Azteca thriller",
-      "original_headline": "England survive to beat Mexico in Azteca thriller",
-      "snapshot": "England survived a raucous Azteca Stadium atmosphere and a red card early in the second half to prevail past co-hosts Mexico 3-2 in a thrilling World Cup round-of-16 clash in Mexico City on Sunday.",
-      "url": "https://www.espn.com/soccer/story/_/id/49282902/england-mexico-2026-world-cup-azteca-red-card-bellingham",
+      "headline": "World Cup updates: Merino delivers late winner as ...",
+      "title": "World Cup updates: Merino delivers late winner as ...",
+      "source_headline": "World Cup updates: Merino delivers late winner as ...",
+      "original_headline": "World Cup updates: Merino delivers late winner as ...",
+      "snapshot": "null",
+      "url": "https://www.espn.com/soccer/story/_/id/49284373/world-cup-daily-live-usmnt-belgium-spain-portugal-cristiano-ronaldo-round-16",
       "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: England survive to beat Mexico in Azteca thriller",
+        "Source headline: World Cup updates: Merino delivers late winner as ...",
         "Source: espn.com"
       ],
       "why_it_matters": [
@@ -2283,7 +2412,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4037
     },
@@ -2310,41 +2439,11 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
       "priority_score": 4000
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "title": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "source_headline": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "original_headline": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "snapshot": "Braves left-hander Martín Perez is likely headed to the injured list after he was hit on his left forearm by Juan Soto's line drive in Sunday's 10-9 loss to the Mets.",
-      "url": "https://www.espn.com/mlb/story/_/id/49280723/braves-martin-perez-hit-forearm-likely-need-il-stint",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Braves LHP Perez hit by Soto liner, likely to IL",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3972
     },
     {
       "league": "NBA",
@@ -2372,7 +2471,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -2402,7 +2501,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -2432,7 +2531,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -2462,7 +2561,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -2492,67 +2591,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3970
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "title": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "source_headline": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "original_headline": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "snapshot": "James' longtime friend and agent detailed the pros and cons of each team pursuing the NBA's all-time leading scorer",
-      "url": "https://www.cbssports.com/nba/news/lebron-james-free-agency-rich-paul-details-teams-under-consideration/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3970
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "title": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "source_headline": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "original_headline": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "snapshot": "KOC wraps up the biggest news from NBA free agency and Summer League from the weekend.",
-      "url": "https://sports.yahoo.com/nba/article/11-thoughts-on-the-lebron-james-saga-nba-free-agency--rookie-summer-league-debuts-172406539.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -2582,7 +2621,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3945
     },
@@ -2612,7 +2651,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3842
     },
@@ -2638,7 +2677,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2666,7 +2705,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2698,54 +2737,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3692
     },
     {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "title": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "source_headline": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "original_headline": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "snapshot": "null",
-      "url": "https://www.espn.com/soccer/story/_/id/49284373/world-cup-daily-live-usmnt-belgium-spain-portugal-cristiano-ronaldo-round-16",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Live updates: Spain and Portugal going toe-to-toe ...",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3582
-    },
-    {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "title": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "source_headline": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "original_headline": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "snapshot": "Murphy was ranked as Atlanta&#39;s No. 6 prospect by MLB.com and is expected to pitch out of the bullpen until at least the All-Star break.",
-      "url": "https://sports.yahoo.com/mlb/article/braves-call-up-pitcher-owen-murphy-from-triple-a-place-martin-perez-on-il-amid-flurry-of-roster-moves-195342935.html",
-      "source_label": "sports.yahoo.com",
+      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "title": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for 2026 World Cup betting",
+      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-usa-belgium-folarin-balogun-2026-world-cup-monday/",
+      "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-        "Source: sports.yahoo.com"
+        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+        "Source: cbssports.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -2758,23 +2767,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3245
+      "priority_score": 3220
     },
     {
       "league": "Soccer",
       "key": "soccer",
-      "headline": "🏆2026-27 UCL season begins mid-World Cup",
-      "title": "🏆2026-27 UCL season begins mid-World Cup",
-      "source_headline": "🏆2026-27 UCL season begins mid-World Cup",
-      "original_headline": "🏆2026-27 UCL season begins mid-World Cup",
-      "snapshot": "The new Champions League campaign begins 38 days after last season's final. Plenty of unheralded clubs are involved, all with their own fascinating stories.",
-      "url": "https://www.espn.com/soccer/story/_/id/49254165/imps-saints-vikings-action-2026-27-champions-league-kicks-off",
+      "headline": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "title": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "source_headline": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "original_headline": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "snapshot": "Mikel Merino scored a late goal to send Spain past Portugal in the round of 16 on Monday and into a FIFA World Cup quarterfinal for the first time since they won it all in 2010.",
+      "url": "https://www.espn.com/soccer/story/_/id/49288829/spain-beat-portugal-world-cup-quarters-2010",
       "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 🏆2026-27 UCL season begins mid-World Cup",
+        "Source headline: Spain beat Portugal, reach 1st quarters since 2010...",
         "Source: espn.com"
       ],
       "why_it_matters": [
@@ -2788,23 +2797,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3177
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "title": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "source_headline": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "original_headline": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "snapshot": "Rui Hachimura played at a high level for the Lakers in the playoffs, averaging 17.5 points per game in 10 postseason games, the third-highest average on the team.",
-      "url": "https://sports.yahoo.com/articles/lakers-lose-rui-hachimura-signs-162957718.html",
+      "headline": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "title": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "source_headline": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "original_headline": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "snapshot": "Celtics president of basketball operations Brad Stevens addressed the media for the first time since the franchise traded Jaylen Brown.",
+      "url": "https://sports.yahoo.com/nba/article/celtics-president-brad-stevens-on-if-jaylen-brown-trade-will-make-team-better-next-year-well-find-out-204509407.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
+        "Source headline: Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2818,9 +2827,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3125
+      "priority_score": 3130
     },
     {
       "league": "NBA",
@@ -2848,23 +2857,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "title": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "source_headline": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "original_headline": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "snapshot": "Give Rafael Stone a grade.",
-      "url": "https://sports.yahoo.com/articles/vote-grade-rockets-nba-free-172406306.html",
+      "headline": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "title": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "source_headline": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "original_headline": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "snapshot": "DeRozan wanted to get out of Sacramento and the Kings will save enough money to get below the tax line.",
+      "url": "https://sports.yahoo.com/articles/kings-reportedly-waive-demar-derozan-201336009.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: VOTE: Grade the Rockets NBA Free Agency pickups",
+        "Source headline: Kings reportedly to waive DeMar DeRozan, making him free agent",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2878,23 +2887,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3090
+      "priority_score": 3105
     },
     {
       "league": "NFL",
       "key": "nfl",
-      "headline": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "title": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "source_headline": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "original_headline": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "snapshot": "Re-Drafting the Las Vegas Raiders 2024 Draft Class with the same positions",
-      "url": "https://sports.yahoo.com/articles/2024-las-vegas-raiders-same-190300468.html",
+      "headline": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "title": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "source_headline": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "original_headline": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "snapshot": "The Titans cut a player from their injured reserve list on Monday.",
+      "url": "https://sports.yahoo.com/articles/titans-waive-dl-c-j-203407684.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2024 Las Vegas Raiders Same Position Re-Draft",
+        "Source headline: Titans waive DL C.J. Ravenell off of injured reserve",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2908,9 +2917,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3070
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "title": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "source_headline": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "original_headline": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "snapshot": "Former Detroit Lions cornerback Terrion Arnold cleared waivers at 4 p.m. ET July 6. His next pre-trial hearing is set for July 11.",
+      "url": "https://sports.yahoo.com/articles/former-lions-cb-charged-kidnappings-210135921.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "title": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "source_headline": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "original_headline": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "snapshot": "Von Miller revealed in a recent interview he had two offers in 2025 free agency. He chose the Commanders over the Seahawks, a move he now regrets.",
+      "url": "https://sports.yahoo.com/articles/von-miller-regrets-picking-commanders-212920568.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -2936,7 +3005,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -2966,7 +3035,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -2996,7 +3065,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -3026,7 +3095,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -3035,16 +3104,16 @@
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "title": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "source_headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "original_headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "snapshot": "With how crazy free agency has been, the Colorado Avalanche might have almost taken the lead in the biggest trade, given what is being reported.",
-      "url": "https://sports.yahoo.com/articles/insider-reports-avalanche-were-running-171933162.html",
+      "headline": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "title": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "source_headline": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "original_headline": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "snapshot": "Elliotte Friedman’s latest intel suggests the future Hall of Famer may ditch the Motor City to chase one final Stanley Cup with a top-tier NHL contender.",
+      "url": "https://sports.yahoo.com/articles/dont-know-expect-him-back-201318636.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
+        "Source headline: &#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -3058,23 +3127,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2995
+      "priority_score": 2955
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "title": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "source_headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "original_headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "snapshot": "The two relievers couldn’t crack the Tigers bullpen, and so this says more about the state of the Twins and Mets.",
-      "url": "https://sports.yahoo.com/articles/tigers-trade-rhp-woo-suk-193547455.html",
+      "headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "title": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "source_headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "original_headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "snapshot": "Mets interim manager Andy Green shared an update on Jorge Polanco, revealing a plan to have the slugger play in back-to-back games as part of his injury rehab from left Achilles bursitis.",
+      "url": "https://sports.yahoo.com/articles/mets-notes-andy-green-reveals-220920242.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
+        "Source headline: Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -3088,83 +3157,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2900
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "title": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "source_headline": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "original_headline": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "snapshot": "Yesterday, Bob Nightengale of USA Today included in his Sunday Notebook four potential Astros trade targets: https://www.crawfishboxes.com/houston-astros-rumors/76265/astros-targeting-of-sp-at-deadline-moniak-mccarthy-skubal-gray Today, former MLB GM Jim Bowden of The Athletic ga",
-      "url": "https://sports.yahoo.com/articles/more-astros-trade-targets-duran-184638404.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "title": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "source_headline": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "original_headline": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "snapshot": "A breakdown of what the Reds have, what they should hold, and who they should absolutely move this trade season.",
-      "url": "https://sports.yahoo.com/articles/biggest-best-trade-chip-cincinnati-183143530.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: The biggest, best trade chip on the Cincinnati Reds roster is…",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2880
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
-      "title": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
-      "source_headline": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
-      "original_headline": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
+      "headline": "Stanton still not running since injury setback; return remains up in air",
+      "title": "Stanton still not running since injury setback; return remains up in air",
+      "source_headline": "Stanton still not running since injury setback; return remains up in air",
+      "original_headline": "Stanton still not running since injury setback; return remains up in air",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/roman-anthony-transfers-rehab-to-florida-scheduled-to-see-hand-specialist",
+      "url": "https://www.mlb.com/news/giancarlo-stanton-not-running-since-injury-setback",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
+        "Source headline: Stanton still not running since injury setback; return remains up in air",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -3178,7 +3187,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -3208,53 +3217,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "title": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "source_headline": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "original_headline": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "snapshot": "2026 is shaping up to be something of an unusual draft for everyone. Here is looking at it from Arizona’s perspective.",
-      "url": "https://sports.yahoo.com/articles/arizona-diamondbacks-2026-mlb-draft-190655709.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: The Arizona Diamondbacks and the 2026 MLB Draft",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
-      "title": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
-      "source_headline": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
-      "original_headline": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
+      "headline": "2026 Draft starts Saturday! Here's what you need to know",
+      "title": "2026 Draft starts Saturday! Here's what you need to know",
+      "source_headline": "2026 Draft starts Saturday! Here's what you need to know",
+      "original_headline": "2026 Draft starts Saturday! Here's what you need to know",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/kolby-stringer-2026-mlb-draft-profile",
+      "url": "https://www.mlb.com/news/2026-mlb-draft-overview-and-schedule",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
+        "Source headline: 2026 Draft starts Saturday! Here's what you need to know",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -3268,23 +3247,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Chisholm back in Yankees' lineup a day after early exit",
-      "title": "Chisholm back in Yankees' lineup a day after early exit",
-      "source_headline": "Chisholm back in Yankees' lineup a day after early exit",
-      "original_headline": "Chisholm back in Yankees' lineup a day after early exit",
+      "headline": "This Draft prospect risked it all for a better life",
+      "title": "This Draft prospect risked it all for a better life",
+      "source_headline": "This Draft prospect risked it all for a better life",
+      "original_headline": "This Draft prospect risked it all for a better life",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jazz-chisholm-jr-exits-game-against-twins-with-injury",
+      "url": "https://www.mlb.com/news/alain-gomez-gudino-2026-draft-profile",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Chisholm back in Yankees' lineup a day after early exit",
+        "Source headline: This Draft prospect risked it all for a better life",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -3298,9 +3277,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2860
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "title": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "source_headline": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "original_headline": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/roch-cholowsky-mlb-draft-prospect-profile",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
     },
     {
       "league": "MLB",
@@ -3326,7 +3335,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -3356,11 +3365,71 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "priority_score": 2790
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "title": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "source_headline": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "original_headline": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "snapshot": "While it was time for Milwaukee and Antetokounmpo to part ways, there is a lot of good history there.",
+      "url": "https://sports.yahoo.com/articles/giannis-antetokounmpo-says-goodbye-bucks-195113312.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2705
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "title": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "source_headline": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "original_headline": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/yordan-alvarez-otto-lopez-named-players-of-the-week",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: All-Stars Yordan, Otto nab Player of the Week honors",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2255
     },
     {
       "league": "MLB",
@@ -3385,7 +3454,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -3414,7 +3483,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -3443,7 +3512,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -3462,41 +3531,11 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
       "priority_score": 1580
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "title": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "source_headline": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "original_headline": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "snapshot": "New Lakers center Walker Kessler proposed to his girlfriend, 2025 Miss America Abbie Stockard, on a Fourth of July outing. She said yes.",
-      "url": "https://www.yahoo.com/entertainment/celebrity/articles/fireworks-lakers-center-walker-kessler-161829751.html",
-      "source_label": "yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-        "Source: yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1550
     },
     {
       "league": "MLB",
@@ -3524,7 +3563,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3554,37 +3593,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "title": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "source_headline": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "original_headline": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/eliezer-alfonzo-makes-mlb-debut-with-dodgers-after-family-tragedy",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3614,23 +3623,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "New All-Star Miller doing his best to navigate through Padres' funk",
-      "title": "New All-Star Miller doing his best to navigate through Padres' funk",
-      "source_headline": "New All-Star Miller doing his best to navigate through Padres' funk",
-      "original_headline": "New All-Star Miller doing his best to navigate through Padres' funk",
+      "headline": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
+      "title": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
+      "source_headline": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
+      "original_headline": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/mason-miller-talks-padres-difficult-stretch-2026-all-star-game",
+      "url": "https://www.mlb.com/news/cristopher-sanchez-reacts-to-2nd-all-star-game-selection",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: New All-Star Miller doing his best to navigate through Padres' funk",
+        "Source headline: Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -3644,23 +3653,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "3 numbers that define JJ Wetherholt’s stellar first half",
-      "title": "3 numbers that define JJ Wetherholt’s stellar first half",
-      "source_headline": "3 numbers that define JJ Wetherholt’s stellar first half",
-      "original_headline": "3 numbers that define JJ Wetherholt’s stellar first half",
+      "headline": "Murakami 'at 99 percent' health as he begins rehab assignment",
+      "title": "Murakami 'at 99 percent' health as he begins rehab assignment",
+      "source_headline": "Murakami 'at 99 percent' health as he begins rehab assignment",
+      "original_headline": "Murakami 'at 99 percent' health as he begins rehab assignment",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jj-wetherholt-2026-season-first-half-numbers-cardinals",
+      "url": "https://www.mlb.com/news/munetaka-murakami-to-begin-rehab-assignment-in-triple-a",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 3 numbers that define JJ Wetherholt’s stellar first half",
+        "Source headline: Murakami 'at 99 percent' health as he begins rehab assignment",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -3674,53 +3683,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "title": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-usa-belgium-spain-portugal-2026-world-cup-monday/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3220
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
-      "source_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
-      "original_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
+      "headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
+      "source_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
+      "original_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
       "snapshot": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-usa-belgium-spain-portugal-world-cup-monday/",
+      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-usa-belgium-folarin-balogun-world-cup-monday/",
       "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
+        "Source headline: Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
         "Source: cbssports.com"
       ],
       "why_it_matters": [
@@ -3734,23 +3713,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3205
     },
     {
       "league": "Soccer",
       "key": "soccer",
-      "headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "title": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "source_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "original_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "snapshot": "UEFA have strongly criticized FIFA's decision to suspend USMNT striker Folarin Balogun's red card, thus allowing the United States striker to be available for the World Cup round-of-16 match against Belgium.",
-      "url": "https://www.espn.com/soccer/story/_/id/49284889/uefa-fifa-folarin-balogun-red-card-ban-overturned-usmnt",
+      "headline": "🏆2026-27 UCL season begins mid-World Cup",
+      "title": "🏆2026-27 UCL season begins mid-World Cup",
+      "source_headline": "🏆2026-27 UCL season begins mid-World Cup",
+      "original_headline": "🏆2026-27 UCL season begins mid-World Cup",
+      "snapshot": "The new Champions League campaign begins 38 days after last season's final. Plenty of unheralded clubs are involved, all with their own fascinating stories.",
+      "url": "https://www.espn.com/soccer/story/_/id/49254165/imps-saints-vikings-action-2026-27-champions-league-kicks-off",
       "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: UEFA: FIFA crossed 'red line' on Balogun ban",
+        "Source headline: 🏆2026-27 UCL season begins mid-World Cup",
         "Source: espn.com"
       ],
       "why_it_matters": [
@@ -3764,69 +3743,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3157
-    },
-    {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Mexico proud, but 'hurt' after exiting World Cup",
-      "title": "Mexico proud, but 'hurt' after exiting World Cup",
-      "source_headline": "Mexico proud, but 'hurt' after exiting World Cup",
-      "original_headline": "Mexico proud, but 'hurt' after exiting World Cup",
-      "snapshot": "Mexico manager Javier Aguirre said he feels proud but hurt after being eliminated from the FIFA World Cup with a 3-2 loss against England on Sunday night at the Estadio Azteca.",
-      "url": "https://www.espn.com/soccer/story/_/id/49283428/mexico-proud-hurt-exiting-world-cup-england",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Mexico proud, but 'hurt' after exiting World Cup",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3157
-    },
-    {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Tearful Neymar retires from Brazil after WC exit",
-      "title": "Tearful Neymar retires from Brazil after WC exit",
-      "source_headline": "Tearful Neymar retires from Brazil after WC exit",
-      "original_headline": "Tearful Neymar retires from Brazil after WC exit",
-      "snapshot": "An emotional Neymar said his career with Brazil had \"finished\" after his team's World Cup exit at the hands of Norway in the round of 16 on Sunday.",
-      "url": "https://www.espn.com/soccer/story/_/id/49281072/neymar-brazil-retires-world-cup-2026-exit-norway",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Tearful Neymar retires from Brazil after WC exit",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3157
+      "priority_score": 3177
     },
     {
       "league": "Soccer",
@@ -3854,7 +3773,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3157
+    },
+    {
+      "league": "Soccer",
+      "key": "soccer",
+      "headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "title": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "source_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "original_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "snapshot": "UEFA have strongly criticized FIFA's decision to suspend USMNT striker Folarin Balogun's red card, thus allowing the United States striker to be available for the World Cup round-of-16 match against Belgium.",
+      "url": "https://www.espn.com/soccer/story/_/id/49284889/uefa-fifa-folarin-balogun-red-card-ban-overturned-usmnt",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: UEFA: FIFA crossed 'red line' on Balogun ban",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3157
     },
@@ -3884,7 +3833,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3142
     },
@@ -3914,7 +3863,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3117
     },
@@ -3944,7 +3893,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3117
     },
@@ -3974,7 +3923,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3117
     },
@@ -4004,7 +3953,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
@@ -4034,7 +3983,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
@@ -4064,7 +4013,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3082
     },
@@ -4094,7 +4043,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3082
     },
@@ -4124,7 +4073,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3077
     },
@@ -4154,7 +4103,97 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "title": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "source_headline": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "original_headline": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "snapshot": "From high draft slots to replacing legendary veterans, these rookies face the most intense pressure to produce immediately in their NFL careers",
+      "url": "https://www.cbssports.com/nfl/news/nfl-rookies-pressure-to-succeed-jeremiyah-love/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:24 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "title": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "source_headline": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "original_headline": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "snapshot": "Here's everything you need to know about the NFL for July 2",
+      "url": "https://www.cbssports.com/nfl/news/nfl-qb-tiers-wr-duos-landing-spots-free-agents/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:24 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "title": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "source_headline": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "original_headline": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "snapshot": "Here's where the NFL's most notable free agents might end up",
+      "url": "https://www.cbssports.com/nfl/news/nfl-free-agent-matchmaker-diggs-hill-samuel/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     }
@@ -4184,7 +4223,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -4213,7 +4252,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4245,39 +4284,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 6237
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "title": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "source_headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "original_headline": "Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/cubs-2026-trade-deadline-strategy-with-injury-comebacks",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Will injury comebacks affect Cubs’ Trade Deadline strategy?",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 5980
     },
     {
       "league": "NBA",
@@ -4305,7 +4314,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5675
     },
@@ -4335,7 +4344,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -4365,7 +4374,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4697
     },
@@ -4395,7 +4404,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4682
     },
@@ -4425,9 +4434,99 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4677
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "title": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "source_headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "original_headline": "Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+      "snapshot": "Proposed deal would also give Las Vegas a 1st-round pick",
+      "url": "https://sports.yahoo.com/articles/maxx-crosby-george-pickens-trade-213900964.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Would Maxx Crosby-George Pickens trade make sense for Las Vegas Raiders, Dallas Cowboys?",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4610
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "title": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "source_headline": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "original_headline": "Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+      "snapshot": "Cleveland Browns roster has seen improvements through NFL free agency, draft but ESPN has them ranked near the bottom",
+      "url": "https://sports.yahoo.com/articles/despite-roster-improvements-browns-starters-212628092.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Despite roster improvements, Browns starters still ranked near bottom of the NFL",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4605
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Sources: Draft prospect Bumila has UCL injury",
+      "title": "Sources: Draft prospect Bumila has UCL injury",
+      "source_headline": "Sources: Draft prospect Bumila has UCL injury",
+      "original_headline": "Sources: Draft prospect Bumila has UCL injury",
+      "snapshot": "Fireballing Massachusetts prep left-hander Brody Bumila shared an MRI with MLB teams on Monday that revealed damage to the ulnar collateral ligament in his left elbow, sources told ESPN.",
+      "url": "https://www.espn.com/mlb/story/_/id/49289964/sources-mlb-draft-prospect-brody-bumila-ucl-injury",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sources: Draft prospect Bumila has UCL injury",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4447
     },
     {
       "league": "MLB",
@@ -4455,7 +4554,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
@@ -4485,7 +4584,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4420
     },
@@ -4515,7 +4614,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4412
     },
@@ -4542,7 +4641,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4571,11 +4670,41 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 4400
+    },
+    {
+      "league": "Soccer",
+      "key": "soccer",
+      "headline": "Ronaldo exits in tears as Spain end final World Cu...",
+      "title": "Ronaldo exits in tears as Spain end final World Cu...",
+      "source_headline": "Ronaldo exits in tears as Spain end final World Cu...",
+      "original_headline": "Ronaldo exits in tears as Spain end final World Cu...",
+      "snapshot": "Cristiano Ronaldo exited his final World Cup in tears as Portugal were eliminated by Spain in the round of 16 in Arlington, Texas, on Monday.",
+      "url": "https://www.espn.com/soccer/story/_/id/49290017/cristiano-ronaldo-portugal-spain-last-world-cup-2026",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Ronaldo exits in tears as Spain end final World Cu...",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4277
     },
     {
       "league": "NBA",
@@ -4603,7 +4732,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4265
     },
@@ -4633,23 +4762,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4257
     },
     {
       "league": "Soccer",
       "key": "soccer",
-      "headline": "England survive to beat Mexico in Azteca thriller",
-      "title": "England survive to beat Mexico in Azteca thriller",
-      "source_headline": "England survive to beat Mexico in Azteca thriller",
-      "original_headline": "England survive to beat Mexico in Azteca thriller",
-      "snapshot": "England survived a raucous Azteca Stadium atmosphere and a red card early in the second half to prevail past co-hosts Mexico 3-2 in a thrilling World Cup round-of-16 clash in Mexico City on Sunday.",
-      "url": "https://www.espn.com/soccer/story/_/id/49282902/england-mexico-2026-world-cup-azteca-red-card-bellingham",
+      "headline": "World Cup updates: Merino delivers late winner as ...",
+      "title": "World Cup updates: Merino delivers late winner as ...",
+      "source_headline": "World Cup updates: Merino delivers late winner as ...",
+      "original_headline": "World Cup updates: Merino delivers late winner as ...",
+      "snapshot": "null",
+      "url": "https://www.espn.com/soccer/story/_/id/49284373/world-cup-daily-live-usmnt-belgium-spain-portugal-cristiano-ronaldo-round-16",
       "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: England survive to beat Mexico in Azteca thriller",
+        "Source headline: World Cup updates: Merino delivers late winner as ...",
         "Source: espn.com"
       ],
       "why_it_matters": [
@@ -4663,7 +4792,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4037
     },
@@ -4690,41 +4819,11 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
       "priority_score": 4000
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "title": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "source_headline": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "original_headline": "Braves LHP Perez hit by Soto liner, likely to IL",
-      "snapshot": "Braves left-hander Martín Perez is likely headed to the injured list after he was hit on his left forearm by Juan Soto's line drive in Sunday's 10-9 loss to the Mets.",
-      "url": "https://www.espn.com/mlb/story/_/id/49280723/braves-martin-perez-hit-forearm-likely-need-il-stint",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Braves LHP Perez hit by Soto liner, likely to IL",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3972
     },
     {
       "league": "NBA",
@@ -4752,7 +4851,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -4782,7 +4881,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -4812,7 +4911,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -4842,7 +4941,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -4872,67 +4971,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3970
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "title": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "source_headline": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "original_headline": "Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-      "snapshot": "James' longtime friend and agent detailed the pros and cons of each team pursuing the NBA's all-time leading scorer",
-      "url": "https://www.cbssports.com/nba/news/lebron-james-free-agency-rich-paul-details-teams-under-consideration/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Rich Paul breaks down LeBron James' free agency: What The King's agent said about 10 teams in the hunt",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3970
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "title": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "source_headline": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "original_headline": "11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-      "snapshot": "KOC wraps up the biggest news from NBA free agency and Summer League from the weekend.",
-      "url": "https://sports.yahoo.com/nba/article/11-thoughts-on-the-lebron-james-saga-nba-free-agency--rookie-summer-league-debuts-172406539.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 11 thoughts on the LeBron James saga, NBA free agency & rookie Summer League debuts",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -4962,7 +5001,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3945
     },
@@ -4992,7 +5031,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3842
     },
@@ -5018,7 +5057,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -5046,7 +5085,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -5078,54 +5117,24 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3692
     },
     {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "title": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "source_headline": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "original_headline": "Live updates: Spain and Portugal going toe-to-toe ...",
-      "snapshot": "null",
-      "url": "https://www.espn.com/soccer/story/_/id/49284373/world-cup-daily-live-usmnt-belgium-spain-portugal-cristiano-ronaldo-round-16",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Live updates: Spain and Portugal going toe-to-toe ...",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3582
-    },
-    {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "title": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "source_headline": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "original_headline": "Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-      "snapshot": "Murphy was ranked as Atlanta&#39;s No. 6 prospect by MLB.com and is expected to pitch out of the bullpen until at least the All-Star break.",
-      "url": "https://sports.yahoo.com/mlb/article/braves-call-up-pitcher-owen-murphy-from-triple-a-place-martin-perez-on-il-amid-flurry-of-roster-moves-195342935.html",
-      "source_label": "sports.yahoo.com",
+      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "title": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for 2026 World Cup betting",
+      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-usa-belgium-folarin-balogun-2026-world-cup-monday/",
+      "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Braves call up pitcher Owen Murphy from Triple-A, place Martín Pérez on IL amid flurry of roster moves",
-        "Source: sports.yahoo.com"
+        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Folarin Balogun in 2026 World Cup",
+        "Source: cbssports.com"
       ],
       "why_it_matters": [
         "This card is based on a media article headline, not a scoreboard matchup label."
@@ -5138,23 +5147,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3245
+      "priority_score": 3220
     },
     {
       "league": "Soccer",
       "key": "soccer",
-      "headline": "🏆2026-27 UCL season begins mid-World Cup",
-      "title": "🏆2026-27 UCL season begins mid-World Cup",
-      "source_headline": "🏆2026-27 UCL season begins mid-World Cup",
-      "original_headline": "🏆2026-27 UCL season begins mid-World Cup",
-      "snapshot": "The new Champions League campaign begins 38 days after last season's final. Plenty of unheralded clubs are involved, all with their own fascinating stories.",
-      "url": "https://www.espn.com/soccer/story/_/id/49254165/imps-saints-vikings-action-2026-27-champions-league-kicks-off",
+      "headline": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "title": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "source_headline": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "original_headline": "Spain beat Portugal, reach 1st quarters since 2010...",
+      "snapshot": "Mikel Merino scored a late goal to send Spain past Portugal in the round of 16 on Monday and into a FIFA World Cup quarterfinal for the first time since they won it all in 2010.",
+      "url": "https://www.espn.com/soccer/story/_/id/49288829/spain-beat-portugal-world-cup-quarters-2010",
       "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 🏆2026-27 UCL season begins mid-World Cup",
+        "Source headline: Spain beat Portugal, reach 1st quarters since 2010...",
         "Source: espn.com"
       ],
       "why_it_matters": [
@@ -5168,23 +5177,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3177
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "title": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "source_headline": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "original_headline": "Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
-      "snapshot": "Rui Hachimura played at a high level for the Lakers in the playoffs, averaging 17.5 points per game in 10 postseason games, the third-highest average on the team.",
-      "url": "https://sports.yahoo.com/articles/lakers-lose-rui-hachimura-signs-162957718.html",
+      "headline": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "title": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "source_headline": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "original_headline": "Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
+      "snapshot": "Celtics president of basketball operations Brad Stevens addressed the media for the first time since the franchise traded Jaylen Brown.",
+      "url": "https://sports.yahoo.com/nba/article/celtics-president-brad-stevens-on-if-jaylen-brown-trade-will-make-team-better-next-year-well-find-out-204509407.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Lakers lose Rui Hachimura, who signs two-year deal with the Clippers",
+        "Source headline: Celtics president Brad Stevens on if Jaylen Brown trade will make team better next year: &#39;We&#39;ll find out&#39;",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5198,9 +5207,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3125
+      "priority_score": 3130
     },
     {
       "league": "NBA",
@@ -5228,23 +5237,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
     {
       "league": "NBA",
       "key": "nba",
-      "headline": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "title": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "source_headline": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "original_headline": "VOTE: Grade the Rockets NBA Free Agency pickups",
-      "snapshot": "Give Rafael Stone a grade.",
-      "url": "https://sports.yahoo.com/articles/vote-grade-rockets-nba-free-172406306.html",
+      "headline": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "title": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "source_headline": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "original_headline": "Kings reportedly to waive DeMar DeRozan, making him free agent",
+      "snapshot": "DeRozan wanted to get out of Sacramento and the Kings will save enough money to get below the tax line.",
+      "url": "https://sports.yahoo.com/articles/kings-reportedly-waive-demar-derozan-201336009.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: VOTE: Grade the Rockets NBA Free Agency pickups",
+        "Source headline: Kings reportedly to waive DeMar DeRozan, making him free agent",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5258,23 +5267,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3090
+      "priority_score": 3105
     },
     {
       "league": "NFL",
       "key": "nfl",
-      "headline": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "title": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "source_headline": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "original_headline": "2024 Las Vegas Raiders Same Position Re-Draft",
-      "snapshot": "Re-Drafting the Las Vegas Raiders 2024 Draft Class with the same positions",
-      "url": "https://sports.yahoo.com/articles/2024-las-vegas-raiders-same-190300468.html",
+      "headline": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "title": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "source_headline": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "original_headline": "Titans waive DL C.J. Ravenell off of injured reserve",
+      "snapshot": "The Titans cut a player from their injured reserve list on Monday.",
+      "url": "https://sports.yahoo.com/articles/titans-waive-dl-c-j-203407684.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2024 Las Vegas Raiders Same Position Re-Draft",
+        "Source headline: Titans waive DL C.J. Ravenell off of injured reserve",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5288,9 +5297,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3070
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "title": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "source_headline": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "original_headline": "Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+      "snapshot": "Former Detroit Lions cornerback Terrion Arnold cleared waivers at 4 p.m. ET July 6. His next pre-trial hearing is set for July 11.",
+      "url": "https://sports.yahoo.com/articles/former-lions-cb-charged-kidnappings-210135921.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Former Lions CB charged with kidnappings now a free agent. Could that help him in court?",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "title": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "source_headline": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "original_headline": "Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+      "snapshot": "Von Miller revealed in a recent interview he had two offers in 2025 free agency. He chose the Commanders over the Seahawks, a move he now regrets.",
+      "url": "https://sports.yahoo.com/articles/von-miller-regrets-picking-commanders-212920568.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Von Miller regrets picking Commanders over Seahawks in 2025 free agency",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -5316,7 +5385,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -5346,7 +5415,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -5376,7 +5445,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -5406,7 +5475,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -5415,16 +5484,16 @@
     {
       "league": "NHL",
       "key": "nhl",
-      "headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "title": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "source_headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "original_headline": "Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
-      "snapshot": "With how crazy free agency has been, the Colorado Avalanche might have almost taken the lead in the biggest trade, given what is being reported.",
-      "url": "https://sports.yahoo.com/articles/insider-reports-avalanche-were-running-171933162.html",
+      "headline": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "title": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "source_headline": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "original_headline": "&#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
+      "snapshot": "Elliotte Friedman’s latest intel suggests the future Hall of Famer may ditch the Motor City to chase one final Stanley Cup with a top-tier NHL contender.",
+      "url": "https://sports.yahoo.com/articles/dont-know-expect-him-back-201318636.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Insider Reports The Avalanche Were In The Running For Jets’ Connor Hellebuyck",
+        "Source headline: &#39;I Don&#39;t Know That I Expect Him To Go Back&#39;: NHL Insider Casts Doubt On Patrick Kane Returning To Detroit",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5438,23 +5507,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2995
+      "priority_score": 2955
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "title": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "source_headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "original_headline": "Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
-      "snapshot": "The two relievers couldn’t crack the Tigers bullpen, and so this says more about the state of the Twins and Mets.",
-      "url": "https://sports.yahoo.com/articles/tigers-trade-rhp-woo-suk-193547455.html",
+      "headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "title": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "source_headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "original_headline": "Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
+      "snapshot": "Mets interim manager Andy Green shared an update on Jorge Polanco, revealing a plan to have the slugger play in back-to-back games as part of his injury rehab from left Achilles bursitis.",
+      "url": "https://sports.yahoo.com/articles/mets-notes-andy-green-reveals-220920242.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Tigers trade RHP Woo-Suk Go to the Twins, RHP Matt Seelinger to the Mets",
+        "Source headline: Mets Notes: Andy Green reveals updated injury rehab plan for Jorge Polanco",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5468,83 +5537,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2900
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "title": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "source_headline": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "original_headline": "More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-      "snapshot": "Yesterday, Bob Nightengale of USA Today included in his Sunday Notebook four potential Astros trade targets: https://www.crawfishboxes.com/houston-astros-rumors/76265/astros-targeting-of-sp-at-deadline-moniak-mccarthy-skubal-gray Today, former MLB GM Jim Bowden of The Athletic ga",
-      "url": "https://sports.yahoo.com/articles/more-astros-trade-targets-duran-184638404.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: More Astros Trade Targets: Duran, Carpenter, O’Hearn, Moniak",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "title": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "source_headline": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "original_headline": "The biggest, best trade chip on the Cincinnati Reds roster is…",
-      "snapshot": "A breakdown of what the Reds have, what they should hold, and who they should absolutely move this trade season.",
-      "url": "https://sports.yahoo.com/articles/biggest-best-trade-chip-cincinnati-183143530.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: The biggest, best trade chip on the Cincinnati Reds roster is…",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2880
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
-      "title": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
-      "source_headline": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
-      "original_headline": "Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
+      "headline": "Stanton still not running since injury setback; return remains up in air",
+      "title": "Stanton still not running since injury setback; return remains up in air",
+      "source_headline": "Stanton still not running since injury setback; return remains up in air",
+      "original_headline": "Stanton still not running since injury setback; return remains up in air",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/roman-anthony-transfers-rehab-to-florida-scheduled-to-see-hand-specialist",
+      "url": "https://www.mlb.com/news/giancarlo-stanton-not-running-since-injury-setback",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Anthony transfers rehab to Florida, scheduled to see specialist for finger injury",
+        "Source headline: Stanton still not running since injury setback; return remains up in air",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5558,7 +5567,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -5588,53 +5597,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "title": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "source_headline": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "original_headline": "The Arizona Diamondbacks and the 2026 MLB Draft",
-      "snapshot": "2026 is shaping up to be something of an unusual draft for everyone. Here is looking at it from Arizona’s perspective.",
-      "url": "https://sports.yahoo.com/articles/arizona-diamondbacks-2026-mlb-draft-190655709.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: The Arizona Diamondbacks and the 2026 MLB Draft",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
-      "title": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
-      "source_headline": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
-      "original_headline": "Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
+      "headline": "2026 Draft starts Saturday! Here's what you need to know",
+      "title": "2026 Draft starts Saturday! Here's what you need to know",
+      "source_headline": "2026 Draft starts Saturday! Here's what you need to know",
+      "original_headline": "2026 Draft starts Saturday! Here's what you need to know",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/kolby-stringer-2026-mlb-draft-profile",
+      "url": "https://www.mlb.com/news/2026-mlb-draft-overview-and-schedule",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Meet the Draft prospect who hits in welding gloves, throws in a barn and K'd 570 batters",
+        "Source headline: 2026 Draft starts Saturday! Here's what you need to know",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5648,23 +5627,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Chisholm back in Yankees' lineup a day after early exit",
-      "title": "Chisholm back in Yankees' lineup a day after early exit",
-      "source_headline": "Chisholm back in Yankees' lineup a day after early exit",
-      "original_headline": "Chisholm back in Yankees' lineup a day after early exit",
+      "headline": "This Draft prospect risked it all for a better life",
+      "title": "This Draft prospect risked it all for a better life",
+      "source_headline": "This Draft prospect risked it all for a better life",
+      "original_headline": "This Draft prospect risked it all for a better life",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jazz-chisholm-jr-exits-game-against-twins-with-injury",
+      "url": "https://www.mlb.com/news/alain-gomez-gudino-2026-draft-profile",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Chisholm back in Yankees' lineup a day after early exit",
+        "Source headline: This Draft prospect risked it all for a better life",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5678,9 +5657,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2860
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "title": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "source_headline": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "original_headline": "No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/roch-cholowsky-mlb-draft-prospect-profile",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: No. 2 Draft prospect Cholowsky ready for this moment since Day 1",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
     },
     {
       "league": "MLB",
@@ -5706,7 +5715,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -5736,11 +5745,71 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "priority_score": 2790
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "title": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "source_headline": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "original_headline": "Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+      "snapshot": "While it was time for Milwaukee and Antetokounmpo to part ways, there is a lot of good history there.",
+      "url": "https://sports.yahoo.com/articles/giannis-antetokounmpo-says-goodbye-bucks-195113312.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Giannis Antetokounmpo says goodbye to Bucks in emotional farewell video",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2705
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "title": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "source_headline": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "original_headline": "All-Stars Yordan, Otto nab Player of the Week honors",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/yordan-alvarez-otto-lopez-named-players-of-the-week",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: All-Stars Yordan, Otto nab Player of the Week honors",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:23 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2255
     },
     {
       "league": "MLB",
@@ -5765,7 +5834,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -5794,7 +5863,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -5823,7 +5892,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -5842,41 +5911,11 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
       "priority_score": 1580
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "title": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "source_headline": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "original_headline": "Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-      "snapshot": "New Lakers center Walker Kessler proposed to his girlfriend, 2025 Miss America Abbie Stockard, on a Fourth of July outing. She said yes.",
-      "url": "https://www.yahoo.com/entertainment/celebrity/articles/fireworks-lakers-center-walker-kessler-161829751.html",
-      "source_label": "yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Fireworks! New Lakers center Walker Kessler proposed to 2025 Miss America Abbie Stockard",
-        "Source: yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1550
     },
     {
       "league": "MLB",
@@ -5904,7 +5943,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5934,37 +5973,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1320
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "title": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "source_headline": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "original_headline": "Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/eliezer-alfonzo-makes-mlb-debut-with-dodgers-after-family-tragedy",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Alfonzo makes MLB debut with heavy heart after family tragedy in Venezuela",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5994,23 +6003,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "New All-Star Miller doing his best to navigate through Padres' funk",
-      "title": "New All-Star Miller doing his best to navigate through Padres' funk",
-      "source_headline": "New All-Star Miller doing his best to navigate through Padres' funk",
-      "original_headline": "New All-Star Miller doing his best to navigate through Padres' funk",
+      "headline": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
+      "title": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
+      "source_headline": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
+      "original_headline": "Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/mason-miller-talks-padres-difficult-stretch-2026-all-star-game",
+      "url": "https://www.mlb.com/news/cristopher-sanchez-reacts-to-2nd-all-star-game-selection",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: New All-Star Miller doing his best to navigate through Padres' funk",
+        "Source headline: Sánchez allows career highs in hits, runs in uncharacteristic outing vs. Royals",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -6024,23 +6033,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "3 numbers that define JJ Wetherholt’s stellar first half",
-      "title": "3 numbers that define JJ Wetherholt’s stellar first half",
-      "source_headline": "3 numbers that define JJ Wetherholt’s stellar first half",
-      "original_headline": "3 numbers that define JJ Wetherholt’s stellar first half",
+      "headline": "Murakami 'at 99 percent' health as he begins rehab assignment",
+      "title": "Murakami 'at 99 percent' health as he begins rehab assignment",
+      "source_headline": "Murakami 'at 99 percent' health as he begins rehab assignment",
+      "original_headline": "Murakami 'at 99 percent' health as he begins rehab assignment",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jj-wetherholt-2026-season-first-half-numbers-cardinals",
+      "url": "https://www.mlb.com/news/munetaka-murakami-to-begin-rehab-assignment-in-triple-a",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 3 numbers that define JJ Wetherholt’s stellar first half",
+        "Source headline: Murakami 'at 99 percent' health as he begins rehab assignment",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -6054,53 +6063,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "title": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-usa-belgium-spain-portugal-2026-world-cup-monday/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting USA-Belgium, Spain-Portugal in 2026 World Cup",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3220
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
-      "source_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
-      "original_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
+      "headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
+      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
+      "source_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
+      "original_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
       "snapshot": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-usa-belgium-spain-portugal-world-cup-monday/",
+      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-usa-belgium-folarin-balogun-world-cup-monday/",
       "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Spain-Portugal, World Cup on Monday",
+        "Source headline: Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for USA-Belgium, Folarin Balogun, World Cup on Monday",
         "Source: cbssports.com"
       ],
       "why_it_matters": [
@@ -6114,23 +6093,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:23 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3205
     },
     {
       "league": "Soccer",
       "key": "soccer",
-      "headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "title": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "source_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "original_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
-      "snapshot": "UEFA have strongly criticized FIFA's decision to suspend USMNT striker Folarin Balogun's red card, thus allowing the United States striker to be available for the World Cup round-of-16 match against Belgium.",
-      "url": "https://www.espn.com/soccer/story/_/id/49284889/uefa-fifa-folarin-balogun-red-card-ban-overturned-usmnt",
+      "headline": "🏆2026-27 UCL season begins mid-World Cup",
+      "title": "🏆2026-27 UCL season begins mid-World Cup",
+      "source_headline": "🏆2026-27 UCL season begins mid-World Cup",
+      "original_headline": "🏆2026-27 UCL season begins mid-World Cup",
+      "snapshot": "The new Champions League campaign begins 38 days after last season's final. Plenty of unheralded clubs are involved, all with their own fascinating stories.",
+      "url": "https://www.espn.com/soccer/story/_/id/49254165/imps-saints-vikings-action-2026-27-champions-league-kicks-off",
       "source_label": "espn.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: UEFA: FIFA crossed 'red line' on Balogun ban",
+        "Source headline: 🏆2026-27 UCL season begins mid-World Cup",
         "Source: espn.com"
       ],
       "why_it_matters": [
@@ -6144,69 +6123,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3157
-    },
-    {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Mexico proud, but 'hurt' after exiting World Cup",
-      "title": "Mexico proud, but 'hurt' after exiting World Cup",
-      "source_headline": "Mexico proud, but 'hurt' after exiting World Cup",
-      "original_headline": "Mexico proud, but 'hurt' after exiting World Cup",
-      "snapshot": "Mexico manager Javier Aguirre said he feels proud but hurt after being eliminated from the FIFA World Cup with a 3-2 loss against England on Sunday night at the Estadio Azteca.",
-      "url": "https://www.espn.com/soccer/story/_/id/49283428/mexico-proud-hurt-exiting-world-cup-england",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Mexico proud, but 'hurt' after exiting World Cup",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3157
-    },
-    {
-      "league": "Soccer",
-      "key": "soccer",
-      "headline": "Tearful Neymar retires from Brazil after WC exit",
-      "title": "Tearful Neymar retires from Brazil after WC exit",
-      "source_headline": "Tearful Neymar retires from Brazil after WC exit",
-      "original_headline": "Tearful Neymar retires from Brazil after WC exit",
-      "snapshot": "An emotional Neymar said his career with Brazil had \"finished\" after his team's World Cup exit at the hands of Norway in the round of 16 on Sunday.",
-      "url": "https://www.espn.com/soccer/story/_/id/49281072/neymar-brazil-retires-world-cup-2026-exit-norway",
-      "source_label": "espn.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Tearful Neymar retires from Brazil after WC exit",
-        "Source: espn.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3157
+      "priority_score": 3177
     },
     {
       "league": "Soccer",
@@ -6234,7 +6153,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3157
+    },
+    {
+      "league": "Soccer",
+      "key": "soccer",
+      "headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "title": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "source_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "original_headline": "UEFA: FIFA crossed 'red line' on Balogun ban",
+      "snapshot": "UEFA have strongly criticized FIFA's decision to suspend USMNT striker Folarin Balogun's red card, thus allowing the United States striker to be available for the World Cup round-of-16 match against Belgium.",
+      "url": "https://www.espn.com/soccer/story/_/id/49284889/uefa-fifa-folarin-balogun-red-card-ban-overturned-usmnt",
+      "source_label": "espn.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: UEFA: FIFA crossed 'red line' on Balogun ban",
+        "Source: espn.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3157
     },
@@ -6264,7 +6213,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:25 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3142
     },
@@ -6294,7 +6243,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3117
     },
@@ -6324,7 +6273,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3117
     },
@@ -6354,7 +6303,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3117
     },
@@ -6384,7 +6333,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
@@ -6414,7 +6363,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
@@ -6444,7 +6393,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3082
     },
@@ -6474,7 +6423,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:20 PM ET",
+      "updated_at": "2026-07-06 06:21:22 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3082
     },
@@ -6504,7 +6453,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:21 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3077
     },
@@ -6534,7 +6483,97 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-06 04:09:22 PM ET",
+      "updated_at": "2026-07-06 06:21:24 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "title": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "source_headline": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "original_headline": "NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+      "snapshot": "From high draft slots to replacing legendary veterans, these rookies face the most intense pressure to produce immediately in their NFL careers",
+      "url": "https://www.cbssports.com/nfl/news/nfl-rookies-pressure-to-succeed-jeremiyah-love/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NFL rookies with the most pressure to succeed: Jeremiyah Love, Makai Lemon among top 10",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:24 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "title": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "source_headline": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "original_headline": "Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+      "snapshot": "Here's everything you need to know about the NFL for July 2",
+      "url": "https://www.cbssports.com/nfl/news/nfl-qb-tiers-wr-duos-landing-spots-free-agents/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Ranking every NFL QB by tier, plus the top receiving duos and landing spots for the top remaining free agents",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:24 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3065
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "title": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "source_headline": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "original_headline": "Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+      "snapshot": "Here's where the NFL's most notable free agents might end up",
+      "url": "https://www.cbssports.com/nfl/news/nfl-free-agent-matchmaker-diggs-hill-samuel/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Playing matchmaker for remaining key NFL free agents: Several receivers still in search of new team",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-06 06:21:24 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     }
