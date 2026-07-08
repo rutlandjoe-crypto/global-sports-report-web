@@ -4,8 +4,8 @@
   "title": "GLOBAL SPORTS REPORT | 2026-07-08",
   "headline": "Jalen Brunson played through Knicks' championship run with wrist injury, is scheduled for surgery",
   "snapshot": "Fresh sports board built from source headlines with old fallback headline machinery removed.",
-  "updated_at": "2026-07-08 06:28:35 AM ET",
-  "generated_at": "2026-07-08 06:28:35 AM ET",
+  "updated_at": "2026-07-08 08:47:37 AM ET",
+  "generated_at": "2026-07-08 08:47:37 AM ET",
   "builder": "clean_build_distribution_rewrite",
   "homepage_cards": [
     {
@@ -34,7 +34,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 6240
     },
@@ -64,13 +64,43 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
     {
       "league": "MLB",
       "key": "mlb",
+      "headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "title": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "source_headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "original_headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "snapshot": "Amazing performances last night. Bucs and Marlins are on the rise. Trade Deadline and Draft plus other MLB news.",
+      "url": "https://sports.yahoo.com/articles/mlb-news-outside-confines-amazing-120000460.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: MLB News Outside The Confines: Amazing feats in MLB history",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 5975
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
       "headline": "Analyzing USMNT's run after World Cup exit; Top 25 MLB trade deadline candidates",
       "title": "Analyzing USMNT's run after World Cup exit; Top 25 MLB trade deadline candidates",
       "source_headline": "Analyzing USMNT's run after World Cup exit; Top 25 MLB trade deadline candidates",
@@ -94,23 +124,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 6305
+      "priority_score": 6275
     },
     {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "title": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "source_headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "original_headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "snapshot": "The signing of Rasul Douglas this week changes a lot of things about the Washington secondary",
-      "url": "https://sports.yahoo.com/articles/commanders-cb-not-named-trey-050000374.html",
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Yankees potential trade partner: New York Mets",
+      "title": "Yankees potential trade partner: New York Mets",
+      "source_headline": "Yankees potential trade partner: New York Mets",
+      "original_headline": "Yankees potential trade partner: New York Mets",
+      "snapshot": "A disappointing season has turned the Mets into sellers.",
+      "url": "https://sports.yahoo.com/articles/yankees-potential-trade-partner-york-123000950.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
+        "Source headline: Yankees potential trade partner: New York Mets",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -124,9 +154,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:35 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3050
+      "priority_score": 2880
     },
     {
       "league": "MLB",
@@ -154,7 +184,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     }
@@ -166,7 +196,7 @@
       "headline": "Jalen Brunson played through Knicks' championship run with wrist injury, is scheduled for surgery",
       "snapshot": "Brunson won Finals MVP as he led the Knicks to their first NBA title in more than 50 years",
       "signal": "cbssports.com",
-      "updated_at": "2026-07-08 06:28:35 AM ET",
+      "updated_at": "2026-07-08 08:47:37 AM ET",
       "url": "https://www.cbssports.com/nba/news/jalen-brunson-injury-timeline-wrist-surgery-knicks/"
     },
     {
@@ -175,26 +205,35 @@
       "headline": "Looking back at Kyle Dubas’ major trades since joining the Penguins",
       "snapshot": "Pittsburgh Penguins general manager Kyle Dubas is no stranger to making a trade. And as we enter the dog days of summer, with the NHL’s 2026 free agent frenzy having died down, Dubas likely remains open to strengthening his roster—in the short and long term—via trade. While we wa",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-07-08 06:28:35 AM ET",
+      "updated_at": "2026-07-08 08:47:37 AM ET",
       "url": "https://sports.yahoo.com/articles/looking-back-kyle-dubas-major-100000600.html"
     },
     {
       "section": "mlb",
       "label": "MLB",
-      "headline": "Analyzing USMNT's run after World Cup exit; Top 25 MLB trade deadline candidates",
-      "snapshot": "Plus Celtics GM Brad Stevens offered an underwhelming explanation for the Jaylen Brown trade",
-      "signal": "cbssports.com",
-      "updated_at": "2026-07-08 06:28:35 AM ET",
-      "url": "https://www.cbssports.com/mlb/news/analyzing-usmnts-run-after-world-cup-exit-top-25-mlb-trade-deadline-candidates/"
+      "headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "snapshot": "Amazing performances last night. Bucs and Marlins are on the rise. Trade Deadline and Draft plus other MLB news.",
+      "signal": "sports.yahoo.com",
+      "updated_at": "2026-07-08 08:47:37 AM ET",
+      "url": "https://sports.yahoo.com/articles/mlb-news-outside-confines-amazing-120000460.html"
     },
     {
       "section": "nfl",
       "label": "NFL",
-      "headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "snapshot": "The signing of Rasul Douglas this week changes a lot of things about the Washington secondary",
+      "headline": "Analyzing USMNT's run after World Cup exit; Top 25 MLB trade deadline candidates",
+      "snapshot": "Plus Celtics GM Brad Stevens offered an underwhelming explanation for the Jaylen Brown trade",
+      "signal": "cbssports.com",
+      "updated_at": "2026-07-08 08:47:37 AM ET",
+      "url": "https://www.cbssports.com/mlb/news/analyzing-usmnts-run-after-world-cup-exit-top-25-mlb-trade-deadline-candidates/"
+    },
+    {
+      "section": "mlb",
+      "label": "MLB",
+      "headline": "Yankees potential trade partner: New York Mets",
+      "snapshot": "A disappointing season has turned the Mets into sellers.",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-07-08 06:28:35 AM ET",
-      "url": "https://sports.yahoo.com/articles/commanders-cb-not-named-trey-050000374.html"
+      "updated_at": "2026-07-08 08:47:37 AM ET",
+      "url": "https://sports.yahoo.com/articles/yankees-potential-trade-partner-york-123000950.html"
     },
     {
       "section": "mlb",
@@ -202,7 +241,7 @@
       "headline": "Remarkable facts and figures about Ohtani's 300th home run",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-07-08 06:28:35 AM ET",
+      "updated_at": "2026-07-08 08:47:37 AM ET",
       "url": "https://www.mlb.com/news/shohei-ohtani-facts-300th-home-run"
     }
   ],
@@ -1804,7 +1843,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -1833,7 +1872,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -1865,7 +1904,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 6315
     },
@@ -1895,9 +1934,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 6240
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "title": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "source_headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "original_headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "snapshot": "Amazing performances last night. Bucs and Marlins are on the rise. Trade Deadline and Draft plus other MLB news.",
+      "url": "https://sports.yahoo.com/articles/mlb-news-outside-confines-amazing-120000460.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: MLB News Outside The Confines: Amazing feats in MLB history",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 5975
     },
     {
       "league": "NBA",
@@ -1925,7 +1994,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 5510
     },
@@ -1955,7 +2024,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -1985,7 +2054,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4960
     },
@@ -2012,7 +2081,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2041,41 +2110,11 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 4400
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "title": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-argentina-egypt-messi-colombia-switzerland-world-cup/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4210
     },
     {
       "league": "NBA",
@@ -2103,7 +2142,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4025
     },
@@ -2130,11 +2169,41 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
       "priority_score": 4000
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "title": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "source_headline": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "original_headline": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "snapshot": "LeBron James&#39; next team odds have tightened, with Cleveland still leading Kalshi&#39;s market as Miami surges past Golden State into second.",
+      "url": "https://sports.yahoo.com/articles/2026-lebron-james-next-team-091700774.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3985
     },
     {
       "league": "NBA",
@@ -2162,7 +2231,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -2192,7 +2261,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -2222,7 +2291,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3905
     },
@@ -2252,7 +2321,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3895
     },
@@ -2278,7 +2347,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2306,41 +2375,11 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 3795
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "title": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "source_headline": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "original_headline": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "snapshot": "Shohei Ohtani hits his 300th homer, Justin Wrobleski pitches seven strong innings, but defensive lapses lead to Dodgers&#39; loss to Rockies.",
-      "url": "https://sports.yahoo.com/articles/shohei-ohtani-hits-milestone-homer-050215475.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3465
     },
     {
       "league": "NHL",
@@ -2368,7 +2407,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
@@ -2398,53 +2437,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3300
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "title": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "source_headline": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "original_headline": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "snapshot": "The 2026 MLB draft kicks off this Saturday, at 1:00pm ET. Because of MLB’s ironclad commitment to preventing this from becoming an event, it will occur while several teams are playing actual MLB games, although the Jays specifically will be in San Diego and don’t go until 8:40pm.",
-      "url": "https://sports.yahoo.com/articles/bluebird-banter-2026-mlb-draft-072200108.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Bluebird Banter 2026 MLB Draft Preview Part 1",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3260
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "source_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "original_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "snapshot": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-colombia-switzerland-world-cup-tuesday/",
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "title": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "source_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "original_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "snapshot": "The nerd-number Brown discourse is out of control, but Boston might be better off in the long term after the shocking deal",
+      "url": "https://www.cbssports.com/nba/news/why-celtics-traded-jaylen-brown-better-for-it/",
       "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
+        "Source headline: Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
         "Source: cbssports.com"
       ],
       "why_it_matters": [
@@ -2458,9 +2467,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3205
+      "priority_score": 3130
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "title": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "source_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "original_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "snapshot": "Stevens explained why the stunning Brown trade to the 76ers was the 'right opportunity' for Boston",
+      "url": "https://www.cbssports.com/nba/news/brad-stevens-explanation-jaylen-brown-trade-celtics/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3110
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Jaylen trade has set the Celtics up for Banner 19",
+      "title": "The Jaylen trade has set the Celtics up for Banner 19",
+      "source_headline": "The Jaylen trade has set the Celtics up for Banner 19",
+      "original_headline": "The Jaylen trade has set the Celtics up for Banner 19",
+      "snapshot": "In Brad we trust...again.",
+      "url": "https://sports.yahoo.com/articles/jaylen-trade-set-celtics-banner-103600457.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Jaylen trade has set the Celtics up for Banner 19",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3110
     },
     {
       "league": "NBA",
@@ -2488,7 +2557,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
@@ -2518,129 +2587,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "title": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "source_headline": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "original_headline": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "snapshot": "A familiar face is returning to Washington via a convoluted path.",
-      "url": "https://sports.yahoo.com/nba/breaking-news/article/khris-middleton-reportedly-rejoining-wizards-from-mavericks-via-6-team-sign-and-trade-deal-022709169.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Wizards acquire Khris Middleton via sign-and-trade",
-      "title": "Wizards acquire Khris Middleton via sign-and-trade",
-      "source_headline": "Wizards acquire Khris Middleton via sign-and-trade",
-      "original_headline": "Wizards acquire Khris Middleton via sign-and-trade",
-      "snapshot": "The Washington Wizards have acquired Khris Middleton via a sign-and-trade deal with the Dallas Mavericks, ESPN’s Shams Charania reported Tuesday. The deal is part of a larger six-team trade that sends D’Angelo Russell, a 2029 second-round picks (via Lakers) and a 2033 second-roun",
-      "url": "https://sports.yahoo.com/articles/wizards-acquire-khris-middleton-via-020956043.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Wizards acquire Khris Middleton via sign-and-trade",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "title": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "source_headline": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "original_headline": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "snapshot": "The Lakers have reportedly made an offer to Jonathan Kuminga, but he remains a free agent.",
-      "url": "https://sports.yahoo.com/articles/lakers-contract-offer-jonathan-kuminga-020133424.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "title": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "source_headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "original_headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "snapshot": "The signing of Rasul Douglas this week changes a lot of things about the Washington secondary",
-      "url": "https://sports.yahoo.com/articles/commanders-cb-not-named-trey-050000374.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:35 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -2666,7 +2615,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -2696,7 +2645,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -2726,7 +2675,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -2756,11 +2705,71 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "priority_score": 3010
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Yankees potential trade partner: New York Mets",
+      "title": "Yankees potential trade partner: New York Mets",
+      "source_headline": "Yankees potential trade partner: New York Mets",
+      "original_headline": "Yankees potential trade partner: New York Mets",
+      "snapshot": "A disappointing season has turned the Mets into sellers.",
+      "url": "https://sports.yahoo.com/articles/yankees-potential-trade-partner-york-123000950.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Yankees potential trade partner: New York Mets",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2880
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Kansas City Royals news: MLB draft still coming into focus",
+      "title": "Kansas City Royals news: MLB draft still coming into focus",
+      "source_headline": "Kansas City Royals news: MLB draft still coming into focus",
+      "original_headline": "Kansas City Royals news: MLB draft still coming into focus",
+      "snapshot": "Before the All-Star Game kicks off, the Kansas City Royals have some business in the 2026 MLB Draft.",
+      "url": "https://sports.yahoo.com/articles/kansas-city-royals-news-mlb-120000555.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Kansas City Royals news: MLB draft still coming into focus",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
     },
     {
       "league": "MLB",
@@ -2788,39 +2797,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "title": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "source_headline": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "original_headline": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "snapshot": "For the better part of the season, Paul Goldschmidt often looked like his former MVP version. Over his last 30 at-bats, though, he has gone missing.",
-      "url": "https://sports.yahoo.com/articles/yankees-paul-goldschmidt-mired-0-050945977.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2860
     },
     {
       "league": "MLB",
@@ -2848,7 +2827,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -2876,7 +2855,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -2906,7 +2885,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -2915,16 +2894,16 @@
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "title": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "source_headline": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "original_headline": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "snapshot": "Shohei Ohtani hit his 300th career home run, but the Dodgers lost to the Rockies after two eighth-inning errors led to three unearned runs.",
-      "url": "https://sports.yahoo.com/articles/dodgers-defensive-meltdown-wastes-shohei-054851916.html",
+      "headline": "Shohei Ohtani hits 300th career home run",
+      "title": "Shohei Ohtani hits 300th career home run",
+      "source_headline": "Shohei Ohtani hits 300th career home run",
+      "original_headline": "Shohei Ohtani hits 300th career home run",
+      "snapshot": "While Tuesday’s contest against the Colorado Rockies produced a more disappointing outcome compared to Monday’s walk-off, Shohei Ohtani started off the game with a historic blast. Ohtani smacked a leadoff home run against Michael Lorenzen on Tuesday, which was not only his 25th l",
+      "url": "https://sports.yahoo.com/articles/shohei-ohtani-hits-300th-career-120500787.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
+        "Source headline: Shohei Ohtani hits 300th career home run",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2938,9 +2917,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2475
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "title": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "source_headline": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "original_headline": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "snapshot": "Ohtani is the fifth-fastest in history to reach 300 and the 170th member of the club.",
+      "url": "https://sports.yahoo.com/articles/shohei-ohtani-hits-300th-career-114519564.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2475
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "title": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "source_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "original_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "snapshot": "Today I feel a bit unwell, so here’s a brief dose of links and notes. “LeBron can influence the balance of power in the conference,” the executive said. ‘He’s not a driver, not on a night-to-night basis. [But] having him around, he picks and chooses his spots. ‘I wonder how he wo",
+      "url": "https://sports.yahoo.com/articles/wednesday-posted-toasted-notes-knifed-080018528.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2430
     },
     {
       "league": "MLB",
@@ -2968,7 +3007,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -2998,7 +3037,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -3025,7 +3064,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -3054,7 +3093,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -3083,7 +3122,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -3115,7 +3154,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1705
     },
@@ -3132,7 +3171,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -3164,7 +3203,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3194,23 +3233,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
-      "title": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
-      "source_headline": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
-      "original_headline": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
+      "headline": "Indian cricket star SKY to serve as MLB Ambassador",
+      "title": "Indian cricket star SKY to serve as MLB Ambassador",
+      "source_headline": "Indian cricket star SKY to serve as MLB Ambassador",
+      "original_headline": "Indian cricket star SKY to serve as MLB Ambassador",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jakob-marsee-hits-walk-off-to-give-marlins-win-over-mariners",
+      "url": "https://www.mlb.com/news/suryakumar-yadav-named-mlb-ambassador",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
+        "Source headline: Indian cricket star SKY to serve as MLB Ambassador",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -3224,7 +3263,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3254,69 +3293,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "title": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "source_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "original_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "snapshot": "The nerd-number Brown discourse is out of control, but Boston might be better off in the long term after the shocking deal",
-      "url": "https://www.cbssports.com/nba/news/why-celtics-traded-jaylen-brown-better-for-it/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3130
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "title": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "source_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "original_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "snapshot": "Stevens explained why the stunning Brown trade to the 76ers was the 'right opportunity' for Boston",
-      "url": "https://www.cbssports.com/nba/news/brad-stevens-explanation-jaylen-brown-trade-celtics/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3110
     },
     {
       "league": "NFL",
@@ -3344,7 +3323,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -3374,7 +3353,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -3404,7 +3383,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3010
     },
@@ -3431,7 +3410,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
@@ -3463,7 +3442,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2975
     },
@@ -3493,7 +3472,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2900
     },
@@ -3523,7 +3502,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -3553,7 +3532,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2515
     },
@@ -3583,7 +3562,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2500
     },
@@ -3613,39 +3592,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "title": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "source_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "original_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "snapshot": "Today I feel a bit unwell, so here’s a brief dose of links and notes. “LeBron can influence the balance of power in the conference,” the executive said. ‘He’s not a driver, not on a night-to-night basis. [But] having him around, he picks and chooses his spots. ‘I wonder how he wo",
-      "url": "https://sports.yahoo.com/articles/wednesday-posted-toasted-notes-knifed-080018528.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2430
     },
     {
       "league": "NBA",
@@ -3673,39 +3622,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2430
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "title": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "source_headline": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "original_headline": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "snapshot": "Claude Giroux, one of the NHL&#39;s top remaining free agents, is staying with the Ottawa Senators on a one-year deal.",
-      "url": "https://sports.yahoo.com/articles/claude-giroux-signs-ottawa-senators-213940105.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Claude Giroux re-signs with Ottawa Senators for one season",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2405
     },
     {
       "league": "NHL",
@@ -3733,7 +3652,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -3763,67 +3682,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "title": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "source_headline": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "original_headline": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "snapshot": "The Sabres should consider targeting these two Penguins forwards.",
-      "url": "https://sports.yahoo.com/articles/sabres-2-prime-trade-targets-214327291.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "title": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "source_headline": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "original_headline": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "snapshot": "Josh Allen threw an interception on the subsequent drive, setting up the Broncos&#39; win.",
-      "url": "https://sports.yahoo.com/articles/sean-payton-called-fake-punt-085308751.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:35 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -3853,7 +3712,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2385
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Sabres Should Sign The Best NHL Free Agent Left",
+      "title": "Sabres Should Sign The Best NHL Free Agent Left",
+      "source_headline": "Sabres Should Sign The Best NHL Free Agent Left",
+      "original_headline": "Sabres Should Sign The Best NHL Free Agent Left",
+      "snapshot": "With the Sabres needing forward help, they should consider bringing in Anthony Mantha.",
+      "url": "https://sports.yahoo.com/articles/sabres-sign-best-nhl-free-110928060.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sabres Should Sign The Best NHL Free Agent Left",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -3883,23 +3772,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "title": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "source_headline": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "original_headline": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "snapshot": "Rice to partake in HR Derby; Record-breaking strikeouts; Fried to face hitters in BP; The shortstop debate",
-      "url": "https://sports.yahoo.com/articles/yankees-news-ben-rice-dad-090000473.html",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "title": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "source_headline": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "original_headline": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "snapshot": "This Penguins goalie has the potential to break out next season.",
+      "url": "https://sports.yahoo.com/articles/penguins-prospect-goalie-major-breakout-110037217.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Yankees news: Ben Rice and dad to participate in Home Run Derby",
+        "Source headline: This Penguins Prospect Goalie Is Major Breakout Candidate",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -3913,9 +3802,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2330
+      "priority_score": 2370
     },
     {
       "league": "MLB",
@@ -3943,23 +3832,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "title": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "source_headline": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "original_headline": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "snapshot": "His bat flip went viral. His 45 home runs nearly broke a franchise record. He&#39;s among the leaders in homers again. But Junior Caminero stays humble.",
-      "url": "https://sports.yahoo.com/articles/junior-caminero-emerging-face-historically-100630660.html",
+      "headline": "Ryan O’Hearn has career night, sets Pirates record",
+      "title": "Ryan O’Hearn has career night, sets Pirates record",
+      "source_headline": "Ryan O’Hearn has career night, sets Pirates record",
+      "original_headline": "Ryan O’Hearn has career night, sets Pirates record",
+      "snapshot": "Historic night from the bat of O’Hearn helps Pirates win third straight.",
+      "url": "https://sports.yahoo.com/articles/ryan-o-hearn-career-night-110017692.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
+        "Source headline: Ryan O’Hearn has career night, sets Pirates record",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -3973,7 +3862,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -4003,7 +3892,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1955
     },
@@ -4033,39 +3922,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1945
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "title": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "source_headline": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "original_headline": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "snapshot": "New York Giants headlines for Wednesday",
-      "url": "https://sports.yahoo.com/articles/giants-news-7-8-roster-100000458.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Giants news, 7/8: Roster moves, training camp previews, more",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:35 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1895
     },
     {
       "league": "NHL",
@@ -4093,7 +3952,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1820
     },
@@ -4123,7 +3982,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1600
     },
@@ -4153,7 +4012,187 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "title": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "source_headline": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "original_headline": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "snapshot": "Kuminga's market is light, but he could be in for a major role if he lands in Los Angeles",
+      "url": "https://www.cbssports.com/nba/news/nba-rumors-jonathan-kuminga-lakers/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "title": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "source_headline": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "original_headline": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "snapshot": "The Kings waived DeRozan, who ranks 18th all-time in career points, on Monday; where could he end up?",
+      "url": "https://www.cbssports.com/nba/news/demar-derozan-landing-spots-five-teams/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "title": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "source_headline": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "original_headline": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "snapshot": "This is the Maryland Minute, a short story followed by a roundup of Terps-related news.",
+      "url": "https://sports.yahoo.com/articles/mm-7-8-maryland-men-103000376.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "title": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "source_headline": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "original_headline": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "snapshot": "The Lakers are banking on Quentin Grimes to be great for them to be good next season.",
+      "url": "https://sports.yahoo.com/articles/lakers-officially-signed-quentin-grimes-041702455.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "title": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "source_headline": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "original_headline": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "snapshot": "The big man is headed to Memphis.",
+      "url": "https://sports.yahoo.com/articles/warriors-don-t-match-grizzlies-040622901.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Warriors don’t match Grizzlies contract offer for Quinten Post",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "title": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "source_headline": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "original_headline": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "snapshot": "The Lakers are hoping that Sandro Mamukelashvili can bring a new look and variety to the offense.",
+      "url": "https://sports.yahoo.com/articles/lakers-officially-signed-sandro-mamukelashvili-040313948.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1550
     }
@@ -4183,7 +4222,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -4212,7 +4251,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4244,7 +4283,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 6315
     },
@@ -4274,9 +4313,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 6240
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "title": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "source_headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "original_headline": "MLB News Outside The Confines: Amazing feats in MLB history",
+      "snapshot": "Amazing performances last night. Bucs and Marlins are on the rise. Trade Deadline and Draft plus other MLB news.",
+      "url": "https://sports.yahoo.com/articles/mlb-news-outside-confines-amazing-120000460.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: MLB News Outside The Confines: Amazing feats in MLB history",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 5975
     },
     {
       "league": "NBA",
@@ -4304,7 +4373,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 5510
     },
@@ -4334,7 +4403,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 5170
     },
@@ -4364,7 +4433,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4960
     },
@@ -4391,7 +4460,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4420,41 +4489,11 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 4400
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "title": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "source_headline": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "original_headline": "Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-      "snapshot": "DraftKings offers $200 in bonus bets instantly after your first $5 wager for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-200-bonus-bets-argentina-egypt-messi-colombia-switzerland-world-cup/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Use DraftKings promo code for $200 in bonus bets by targeting Argentina-Egypt, Colombia-Switzerland, World Cup",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4210
     },
     {
       "league": "NBA",
@@ -4482,7 +4521,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 4025
     },
@@ -4509,11 +4548,41 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
       "priority_score": 4000
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "title": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "source_headline": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "original_headline": "2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+      "snapshot": "LeBron James&#39; next team odds have tightened, with Cleveland still leading Kalshi&#39;s market as Miami surges past Golden State into second.",
+      "url": "https://sports.yahoo.com/articles/2026-lebron-james-next-team-091700774.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 LeBron James Next Team Odds: Latest Movement as &#39;The King&#39; Eyes Championship Fit",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3985
     },
     {
       "league": "NBA",
@@ -4541,7 +4610,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -4571,7 +4640,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3970
     },
@@ -4601,7 +4670,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3905
     },
@@ -4631,7 +4700,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3895
     },
@@ -4657,7 +4726,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4685,41 +4754,11 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
       "priority_score": 3795
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "title": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "source_headline": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "original_headline": "Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-      "snapshot": "Shohei Ohtani hits his 300th homer, Justin Wrobleski pitches seven strong innings, but defensive lapses lead to Dodgers&#39; loss to Rockies.",
-      "url": "https://sports.yahoo.com/articles/shohei-ohtani-hits-milestone-homer-050215475.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Shohei Ohtani hits milestone homer, Justin Wrobleski makes All-Star case in Dodgers&#39; loss",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3465
     },
     {
       "league": "NHL",
@@ -4747,7 +4786,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
@@ -4777,53 +4816,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3300
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "title": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "source_headline": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "original_headline": "Bluebird Banter 2026 MLB Draft Preview Part 1",
-      "snapshot": "The 2026 MLB draft kicks off this Saturday, at 1:00pm ET. Because of MLB’s ironclad commitment to preventing this from becoming an event, it will occur while several teams are playing actual MLB games, although the Jays specifically will be in San Diego and don’t go until 8:40pm.",
-      "url": "https://sports.yahoo.com/articles/bluebird-banter-2026-mlb-draft-072200108.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Bluebird Banter 2026 MLB Draft Preview Part 1",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3260
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "source_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "original_headline": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
-      "snapshot": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for 2026 World Cup betting",
-      "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-colombia-switzerland-world-cup-tuesday/",
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "title": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "source_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "original_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
+      "snapshot": "The nerd-number Brown discourse is out of control, but Boston might be better off in the long term after the shocking deal",
+      "url": "https://www.cbssports.com/nba/news/why-celtics-traded-jaylen-brown-better-for-it/",
       "source_label": "cbssports.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Colombia vs. Switzerland, World Cup on Tuesday",
+        "Source headline: Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
         "Source: cbssports.com"
       ],
       "why_it_matters": [
@@ -4837,9 +4846,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3205
+      "priority_score": 3130
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "title": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "source_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "original_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+      "snapshot": "Stevens explained why the stunning Brown trade to the 76ers was the 'right opportunity' for Boston",
+      "url": "https://www.cbssports.com/nba/news/brad-stevens-explanation-jaylen-brown-trade-celtics/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3110
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Jaylen trade has set the Celtics up for Banner 19",
+      "title": "The Jaylen trade has set the Celtics up for Banner 19",
+      "source_headline": "The Jaylen trade has set the Celtics up for Banner 19",
+      "original_headline": "The Jaylen trade has set the Celtics up for Banner 19",
+      "snapshot": "In Brad we trust...again.",
+      "url": "https://sports.yahoo.com/articles/jaylen-trade-set-celtics-banner-103600457.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Jaylen trade has set the Celtics up for Banner 19",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3110
     },
     {
       "league": "NBA",
@@ -4867,7 +4936,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
@@ -4897,129 +4966,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "title": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "source_headline": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "original_headline": "Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-      "snapshot": "A familiar face is returning to Washington via a convoluted path.",
-      "url": "https://sports.yahoo.com/nba/breaking-news/article/khris-middleton-reportedly-rejoining-wizards-from-mavericks-via-6-team-sign-and-trade-deal-022709169.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Khris Middleton reportedly rejoining Wizards from Mavericks via 6-team sign-and-trade deal",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Wizards acquire Khris Middleton via sign-and-trade",
-      "title": "Wizards acquire Khris Middleton via sign-and-trade",
-      "source_headline": "Wizards acquire Khris Middleton via sign-and-trade",
-      "original_headline": "Wizards acquire Khris Middleton via sign-and-trade",
-      "snapshot": "The Washington Wizards have acquired Khris Middleton via a sign-and-trade deal with the Dallas Mavericks, ESPN’s Shams Charania reported Tuesday. The deal is part of a larger six-team trade that sends D’Angelo Russell, a 2029 second-round picks (via Lakers) and a 2033 second-roun",
-      "url": "https://sports.yahoo.com/articles/wizards-acquire-khris-middleton-via-020956043.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Wizards acquire Khris Middleton via sign-and-trade",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3110
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "title": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "source_headline": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "original_headline": "Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-      "snapshot": "The Lakers have reportedly made an offer to Jonathan Kuminga, but he remains a free agent.",
-      "url": "https://sports.yahoo.com/articles/lakers-contract-offer-jonathan-kuminga-020133424.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Lakers’ contract offer to Jonathan Kuminga is two years, $20 million",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "title": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "source_headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "original_headline": "Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-      "snapshot": "The signing of Rasul Douglas this week changes a lot of things about the Washington secondary",
-      "url": "https://sports.yahoo.com/articles/commanders-cb-not-named-trey-050000374.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Which Commanders CB not named Trey Amos gets the most snaps in ’26? – Survey",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:35 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -5045,7 +4994,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -5075,7 +5024,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -5105,7 +5054,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -5135,11 +5084,71 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "priority_score": 3010
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Yankees potential trade partner: New York Mets",
+      "title": "Yankees potential trade partner: New York Mets",
+      "source_headline": "Yankees potential trade partner: New York Mets",
+      "original_headline": "Yankees potential trade partner: New York Mets",
+      "snapshot": "A disappointing season has turned the Mets into sellers.",
+      "url": "https://sports.yahoo.com/articles/yankees-potential-trade-partner-york-123000950.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Yankees potential trade partner: New York Mets",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2880
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Kansas City Royals news: MLB draft still coming into focus",
+      "title": "Kansas City Royals news: MLB draft still coming into focus",
+      "source_headline": "Kansas City Royals news: MLB draft still coming into focus",
+      "original_headline": "Kansas City Royals news: MLB draft still coming into focus",
+      "snapshot": "Before the All-Star Game kicks off, the Kansas City Royals have some business in the 2026 MLB Draft.",
+      "url": "https://sports.yahoo.com/articles/kansas-city-royals-news-mlb-120000555.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Kansas City Royals news: MLB draft still coming into focus",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
     },
     {
       "league": "MLB",
@@ -5167,39 +5176,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "title": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "source_headline": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "original_headline": "Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-      "snapshot": "For the better part of the season, Paul Goldschmidt often looked like his former MVP version. Over his last 30 at-bats, though, he has gone missing.",
-      "url": "https://sports.yahoo.com/articles/yankees-paul-goldschmidt-mired-0-050945977.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Yankees’ Paul Goldschmidt mired in 0-for-30 slump after strong start: ‘I wish I had an answer’",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2860
     },
     {
       "league": "MLB",
@@ -5227,7 +5206,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -5255,7 +5234,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -5285,7 +5264,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -5294,16 +5273,16 @@
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "title": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "source_headline": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "original_headline": "Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
-      "snapshot": "Shohei Ohtani hit his 300th career home run, but the Dodgers lost to the Rockies after two eighth-inning errors led to three unearned runs.",
-      "url": "https://sports.yahoo.com/articles/dodgers-defensive-meltdown-wastes-shohei-054851916.html",
+      "headline": "Shohei Ohtani hits 300th career home run",
+      "title": "Shohei Ohtani hits 300th career home run",
+      "source_headline": "Shohei Ohtani hits 300th career home run",
+      "original_headline": "Shohei Ohtani hits 300th career home run",
+      "snapshot": "While Tuesday’s contest against the Colorado Rockies produced a more disappointing outcome compared to Monday’s walk-off, Shohei Ohtani started off the game with a historic blast. Ohtani smacked a leadoff home run against Michael Lorenzen on Tuesday, which was not only his 25th l",
+      "url": "https://sports.yahoo.com/articles/shohei-ohtani-hits-300th-career-120500787.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Dodgers defensive meltdown wastes Shohei Ohtani’s 300th home run in loss to Rockies",
+        "Source headline: Shohei Ohtani hits 300th career home run",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5317,9 +5296,69 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2475
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "title": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "source_headline": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "original_headline": "Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+      "snapshot": "Ohtani is the fifth-fastest in history to reach 300 and the 170th member of the club.",
+      "url": "https://sports.yahoo.com/articles/shohei-ohtani-hits-300th-career-114519564.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Shohei Ohtani hits his 300th career homer, becoming first Japanese-born MLB player to reach mark",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2475
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "title": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "source_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "original_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+      "snapshot": "Today I feel a bit unwell, so here’s a brief dose of links and notes. “LeBron can influence the balance of power in the conference,” the executive said. ‘He’s not a driver, not on a night-to-night basis. [But] having him around, he picks and chooses his spots. ‘I wonder how he wo",
+      "url": "https://sports.yahoo.com/articles/wednesday-posted-toasted-notes-knifed-080018528.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2430
     },
     {
       "league": "MLB",
@@ -5347,7 +5386,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -5377,7 +5416,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -5404,7 +5443,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -5433,7 +5472,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -5462,7 +5501,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -5494,7 +5533,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1705
     },
@@ -5511,7 +5550,7 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -5543,7 +5582,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5573,23 +5612,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
-      "title": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
-      "source_headline": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
-      "original_headline": "Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
+      "headline": "Indian cricket star SKY to serve as MLB Ambassador",
+      "title": "Indian cricket star SKY to serve as MLB Ambassador",
+      "source_headline": "Indian cricket star SKY to serve as MLB Ambassador",
+      "original_headline": "Indian cricket star SKY to serve as MLB Ambassador",
       "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/jakob-marsee-hits-walk-off-to-give-marlins-win-over-mariners",
+      "url": "https://www.mlb.com/news/suryakumar-yadav-named-mlb-ambassador",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Marsee helps red-hot Marlins turn up temperature with walk-off vs. Seattle",
+        "Source headline: Indian cricket star SKY to serve as MLB Ambassador",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5603,7 +5642,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5633,69 +5672,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "title": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "source_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "original_headline": "Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-      "snapshot": "The nerd-number Brown discourse is out of control, but Boston might be better off in the long term after the shocking deal",
-      "url": "https://www.cbssports.com/nba/news/why-celtics-traded-jaylen-brown-better-for-it/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Why the Celtics traded Jaylen Brown, and why they could actually be better for it",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3130
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "title": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "source_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "original_headline": "Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-      "snapshot": "Stevens explained why the stunning Brown trade to the 76ers was the 'right opportunity' for Boston",
-      "url": "https://www.cbssports.com/nba/news/brad-stevens-explanation-jaylen-brown-trade-celtics/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brad Stevens' explanation of Jaylen Brown trade is unlikely to soothe Celtics fans",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3110
     },
     {
       "league": "NFL",
@@ -5723,7 +5702,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -5753,7 +5732,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3065
     },
@@ -5783,7 +5762,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 3010
     },
@@ -5810,7 +5789,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:33 AM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
@@ -5842,7 +5821,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2975
     },
@@ -5872,7 +5851,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2900
     },
@@ -5902,7 +5881,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -5932,7 +5911,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2515
     },
@@ -5962,7 +5941,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2500
     },
@@ -5992,39 +5971,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "title": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "source_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "original_headline": "Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-      "snapshot": "Today I feel a bit unwell, so here’s a brief dose of links and notes. “LeBron can influence the balance of power in the conference,” the executive said. ‘He’s not a driver, not on a night-to-night basis. [But] having him around, he picks and chooses his spots. ‘I wonder how he wo",
-      "url": "https://sports.yahoo.com/articles/wednesday-posted-toasted-notes-knifed-080018528.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Wednesday Posted & Toasted Notes: Knifed burner, no more Looney Tunes, C’s No. 4",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2430
     },
     {
       "league": "NBA",
@@ -6052,39 +6001,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2430
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "title": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "source_headline": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "original_headline": "Claude Giroux re-signs with Ottawa Senators for one season",
-      "snapshot": "Claude Giroux, one of the NHL&#39;s top remaining free agents, is staying with the Ottawa Senators on a one-year deal.",
-      "url": "https://sports.yahoo.com/articles/claude-giroux-signs-ottawa-senators-213940105.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Claude Giroux re-signs with Ottawa Senators for one season",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2405
     },
     {
       "league": "NHL",
@@ -6112,7 +6031,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -6142,67 +6061,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "title": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "source_headline": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "original_headline": "Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-      "snapshot": "The Sabres should consider targeting these two Penguins forwards.",
-      "url": "https://sports.yahoo.com/articles/sabres-2-prime-trade-targets-214327291.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sabres Have 2 Prime Trade Targets From Penguins To Consider",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2390
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "title": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "source_headline": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "original_headline": "Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-      "snapshot": "Josh Allen threw an interception on the subsequent drive, setting up the Broncos&#39; win.",
-      "url": "https://sports.yahoo.com/articles/sean-payton-called-fake-punt-085308751.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Sean Payton called a fake punt on fourth-and-11 in OT vs. Bills, players didn&#39;t run it",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:35 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -6232,7 +6091,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2385
+    },
+    {
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "Sabres Should Sign The Best NHL Free Agent Left",
+      "title": "Sabres Should Sign The Best NHL Free Agent Left",
+      "source_headline": "Sabres Should Sign The Best NHL Free Agent Left",
+      "original_headline": "Sabres Should Sign The Best NHL Free Agent Left",
+      "snapshot": "With the Sabres needing forward help, they should consider bringing in Anthony Mantha.",
+      "url": "https://sports.yahoo.com/articles/sabres-sign-best-nhl-free-110928060.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Sabres Should Sign The Best NHL Free Agent Left",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -6262,23 +6151,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
     {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "title": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "source_headline": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "original_headline": "Yankees news: Ben Rice and dad to participate in Home Run Derby",
-      "snapshot": "Rice to partake in HR Derby; Record-breaking strikeouts; Fried to face hitters in BP; The shortstop debate",
-      "url": "https://sports.yahoo.com/articles/yankees-news-ben-rice-dad-090000473.html",
+      "league": "NHL",
+      "key": "nhl",
+      "headline": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "title": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "source_headline": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "original_headline": "This Penguins Prospect Goalie Is Major Breakout Candidate",
+      "snapshot": "This Penguins goalie has the potential to break out next season.",
+      "url": "https://sports.yahoo.com/articles/penguins-prospect-goalie-major-breakout-110037217.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Yankees news: Ben Rice and dad to participate in Home Run Derby",
+        "Source headline: This Penguins Prospect Goalie Is Major Breakout Candidate",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -6292,9 +6181,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:36 AM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2330
+      "priority_score": 2370
     },
     {
       "league": "MLB",
@@ -6322,23 +6211,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "title": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "source_headline": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "original_headline": "Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
-      "snapshot": "His bat flip went viral. His 45 home runs nearly broke a franchise record. He&#39;s among the leaders in homers again. But Junior Caminero stays humble.",
-      "url": "https://sports.yahoo.com/articles/junior-caminero-emerging-face-historically-100630660.html",
+      "headline": "Ryan O’Hearn has career night, sets Pirates record",
+      "title": "Ryan O’Hearn has career night, sets Pirates record",
+      "source_headline": "Ryan O’Hearn has career night, sets Pirates record",
+      "original_headline": "Ryan O’Hearn has career night, sets Pirates record",
+      "snapshot": "Historic night from the bat of O’Hearn helps Pirates win third straight.",
+      "url": "https://sports.yahoo.com/articles/ryan-o-hearn-career-night-110017692.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Junior Caminero is emerging face of historically faceless (but dangerous) Rays franchise",
+        "Source headline: Ryan O’Hearn has career night, sets Pirates record",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -6352,7 +6241,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -6382,7 +6271,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1955
     },
@@ -6412,39 +6301,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1945
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "title": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "source_headline": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "original_headline": "Giants news, 7/8: Roster moves, training camp previews, more",
-      "snapshot": "New York Giants headlines for Wednesday",
-      "url": "https://sports.yahoo.com/articles/giants-news-7-8-roster-100000458.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Giants news, 7/8: Roster moves, training camp previews, more",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-08 06:28:35 AM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1895
     },
     {
       "league": "NHL",
@@ -6472,7 +6331,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1820
     },
@@ -6502,7 +6361,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:34 AM ET",
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1600
     },
@@ -6532,7 +6391,187 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-08 06:28:33 AM ET",
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "title": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "source_headline": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "original_headline": "NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+      "snapshot": "Kuminga's market is light, but he could be in for a major role if he lands in Los Angeles",
+      "url": "https://www.cbssports.com/nba/news/nba-rumors-jonathan-kuminga-lakers/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBA rumors: Lakers 'most active' in Jonathan Kuminga talks, pitching him on 'likely starting role'",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "title": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "source_headline": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "original_headline": "DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+      "snapshot": "The Kings waived DeRozan, who ranks 18th all-time in career points, on Monday; where could he end up?",
+      "url": "https://www.cbssports.com/nba/news/demar-derozan-landing-spots-five-teams/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: DeMar DeRozan landing spots: Five teams that make sense for newly available veteran scorer",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:34 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "title": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "source_headline": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "original_headline": "MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+      "snapshot": "This is the Maryland Minute, a short story followed by a roundup of Terps-related news.",
+      "url": "https://sports.yahoo.com/articles/mm-7-8-maryland-men-103000376.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: MM 7.8: Maryland men’s basketball alum Julian Reese to play for Washington Wizards in 2026 NBA Summer League",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "title": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "source_headline": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "original_headline": "The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+      "snapshot": "The Lakers are banking on Quentin Grimes to be great for them to be good next season.",
+      "url": "https://sports.yahoo.com/articles/lakers-officially-signed-quentin-grimes-041702455.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Lakers have officially signed Quentin Grimes, who will be vital offensively",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "title": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "source_headline": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "original_headline": "Warriors don’t match Grizzlies contract offer for Quinten Post",
+      "snapshot": "The big man is headed to Memphis.",
+      "url": "https://sports.yahoo.com/articles/warriors-don-t-match-grizzlies-040622901.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Warriors don’t match Grizzlies contract offer for Quinten Post",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1550
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "title": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "source_headline": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "original_headline": "The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+      "snapshot": "The Lakers are hoping that Sandro Mamukelashvili can bring a new look and variety to the offense.",
+      "url": "https://sports.yahoo.com/articles/lakers-officially-signed-sandro-mamukelashvili-040313948.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: The Lakers have officially signed Sandro Mamukelashvili, who brings a new look to the team",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-08 08:47:35 AM ET",
       "source_file": "rss_article_source",
       "priority_score": 1550
     }
