@@ -4,8 +4,8 @@
   "title": "GLOBAL SPORTS REPORT | 2026-07-11",
   "headline": "Blues Bring Oskar Sundqvist Back On One-Year, Two-Way Contract",
   "snapshot": "Fresh sports board built from source headlines with old fallback headline machinery removed.",
-  "updated_at": "2026-07-11 03:19:21 PM ET",
-  "generated_at": "2026-07-11 03:19:21 PM ET",
+  "updated_at": "2026-07-11 05:00:57 PM ET",
+  "generated_at": "2026-07-11 05:00:57 PM ET",
   "builder": "clean_build_distribution_rewrite",
   "homepage_cards": [
     {
@@ -34,9 +34,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4510
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Steelers Super Bowl champion passes away",
+      "title": "Steelers Super Bowl champion passes away",
+      "source_headline": "Steelers Super Bowl champion passes away",
+      "original_headline": "Steelers Super Bowl champion passes away",
+      "snapshot": "A former Steelers running back passes away.",
+      "url": "https://sports.yahoo.com/articles/steelers-super-bowl-champion-passes-202151194.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Steelers Super Bowl champion passes away",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:56 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
     },
     {
       "league": "NHL",
@@ -64,7 +94,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
@@ -94,39 +124,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
-    },
-    {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "What does the long-term future hold for Dorian Strong?",
-      "title": "What does the long-term future hold for Dorian Strong?",
-      "source_headline": "What does the long-term future hold for Dorian Strong?",
-      "original_headline": "What does the long-term future hold for Dorian Strong?",
-      "snapshot": "This 2025 sixth-round pick may be injured, but he’s still on the roster",
-      "url": "https://sports.yahoo.com/articles/does-long-term-future-hold-161311205.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: What does the long-term future hold for Dorian Strong?",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 4610
     },
     {
       "league": "MLB",
@@ -154,7 +154,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3300
     }
@@ -166,8 +166,17 @@
       "headline": "Blues Bring Oskar Sundqvist Back On One-Year, Two-Way Contract",
       "snapshot": "Stanley Cup champion, unrestricted free agent signs for $850,000 NHL, $300,000 AHL",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-07-11 03:19:21 PM ET",
+      "updated_at": "2026-07-11 05:00:57 PM ET",
       "url": "https://sports.yahoo.com/articles/blues-bring-oskar-sundqvist-back-001852770.html"
+    },
+    {
+      "section": "nfl",
+      "label": "NFL",
+      "headline": "Steelers Super Bowl champion passes away",
+      "snapshot": "A former Steelers running back passes away.",
+      "signal": "sports.yahoo.com",
+      "updated_at": "2026-07-11 05:00:57 PM ET",
+      "url": "https://sports.yahoo.com/articles/steelers-super-bowl-champion-passes-202151194.html"
     },
     {
       "section": "nhl",
@@ -175,7 +184,7 @@
       "headline": "Potential Sabres Trade Or Free Agent Acquisitions - Alex DeBrincat",
       "snapshot": "Veteran winger scored 41 goals for Detroit last season",
       "signal": "sports.yahoo.com",
-      "updated_at": "2026-07-11 03:19:21 PM ET",
+      "updated_at": "2026-07-11 05:00:57 PM ET",
       "url": "https://sports.yahoo.com/articles/potential-sabres-trade-free-agent-160449975.html"
     },
     {
@@ -184,17 +193,8 @@
       "headline": "2026 MLB Home Run Derby tracker: Munetaka Murakami, Kyle Schwarber round out field in Philadelphia",
       "snapshot": "Murakami is fresh off the injured list but slugged 20 homers before hurting his hamstring",
       "signal": "cbssports.com",
-      "updated_at": "2026-07-11 03:19:21 PM ET",
+      "updated_at": "2026-07-11 05:00:57 PM ET",
       "url": "https://www.cbssports.com/mlb/news/2026-mlb-home-run-derby-field/"
-    },
-    {
-      "section": "nfl",
-      "label": "NFL",
-      "headline": "What does the long-term future hold for Dorian Strong?",
-      "snapshot": "This 2025 sixth-round pick may be injured, but he’s still on the roster",
-      "signal": "sports.yahoo.com",
-      "updated_at": "2026-07-11 03:19:21 PM ET",
-      "url": "https://sports.yahoo.com/articles/does-long-term-future-hold-161311205.html"
     },
     {
       "section": "mlb",
@@ -202,7 +202,7 @@
       "headline": "TWIB: Ohtani’s latest milestone, a rookie’s homecoming, hidden-ball tricks",
       "snapshot": "MLB article selected from a media source.",
       "signal": "mlb.com",
-      "updated_at": "2026-07-11 03:19:21 PM ET",
+      "updated_at": "2026-07-11 05:00:57 PM ET",
       "url": "https://www.mlb.com/news/shohei-ohtani-s-300th-home-run-highlights-this-week-in-baseball"
     }
   ],
@@ -1804,7 +1804,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -1833,7 +1833,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -1865,7 +1865,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5930
     },
@@ -1895,9 +1895,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5545
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "title": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "source_headline": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "original_headline": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "snapshot": "The Dodgers began their 2026 MLB Draft on Saturday by selecting Bo Lowrance, a high school third baseman from South Carolina with their first-round pick, and 40th overall in the draft. By virtue of winning the World Series last year, the Dodgers owned the 30th pick in the first r",
+      "url": "https://sports.yahoo.com/articles/dodgers-draft-bo-lowrance-1st-204216677.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4745
     },
     {
       "league": "NBA",
@@ -1925,7 +1955,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4650
     },
@@ -1955,7 +1985,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4610
     },
@@ -1985,7 +2015,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4510
     },
@@ -2015,7 +2045,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4495
     },
@@ -2045,7 +2075,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4435
     },
@@ -2072,7 +2102,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2101,7 +2131,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2133,7 +2163,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4025
     },
@@ -2163,7 +2193,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4015
     },
@@ -2190,7 +2220,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
@@ -2222,9 +2252,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3925
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "title": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "source_headline": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "original_headline": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "snapshot": "Eric Samulski breaks down some of his favorite or most confusing picks from the 2026 MLB Draft",
+      "url": "https://sports.yahoo.com/articles/roch-cholowsky-jackson-flora-more-203311325.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3865
     },
     {
       "league": "Betting",
@@ -2248,7 +2308,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2276,7 +2336,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -2308,7 +2368,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
@@ -2338,23 +2398,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3300
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "title": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "source_headline": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "original_headline": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "snapshot": "I’ve done my best this year to avoid many Pitching write ups. After the team went kind of pitching nuts last year, I figured they’d probably filled the cupboard and may focus elsewhere. However, top draft prospect lists right now are jam packed with Pitching in the 25-50 range in",
-      "url": "https://sports.yahoo.com/articles/2026-phillies-mlb-draft-preview-190000858.html",
+      "headline": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "title": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "source_headline": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "original_headline": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "snapshot": "Eric Samulski discusses seven players he thinks could be quickest to the big leagues from the 2026 MLB Draft",
+      "url": "https://sports.yahoo.com/articles/mlb-draft-2026-recap-players-204011122.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
+        "Source headline: MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2368,39 +2428,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3260
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "title": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "source_headline": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "original_headline": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "snapshot": "Find best bets and props for the biggest games in sports on Friday from the SportsLine Projection Model and top CBS Sports experts",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-dodgers-vs-diamondbacks-world-cup-look-ahead-and-more/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3205
     },
     {
       "league": "NFL",
@@ -2428,7 +2458,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -2458,7 +2488,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -2488,7 +2518,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -2518,7 +2548,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3130
     },
@@ -2548,23 +2578,53 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
     {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "2026 may be a breakout year for Dominick Puni",
-      "title": "2026 may be a breakout year for Dominick Puni",
-      "source_headline": "2026 may be a breakout year for Dominick Puni",
-      "original_headline": "2026 may be a breakout year for Dominick Puni",
-      "snapshot": "Dominick Puni is the only 49er on Bucky Brooks&#39; offensive breakout list. The PCL injury context makes the case stronger.",
-      "url": "https://sports.yahoo.com/articles/2026-may-breakout-dominick-puni-153400646.html",
+      "league": "NBA",
+      "key": "nba",
+      "headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "title": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "source_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "original_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "snapshot": "The No. 1 and No. 2 picks in the 2026 NBA Draft both rose to the occasion in Las Vegas, providing a glimpse into the future for the league's stars",
+      "url": "https://www.cbssports.com/nba/news/aj-dybantsa-darryn-peterson-nba-summer-league/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:54 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3105
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Winners and Losers from NBA Free Agency",
+      "title": "Winners and Losers from NBA Free Agency",
+      "source_headline": "Winners and Losers from NBA Free Agency",
+      "original_headline": "Winners and Losers from NBA Free Agency",
+      "snapshot": "It&#39;s a good time to be a 76ers fan, or a backup NBA center.",
+      "url": "https://sports.yahoo.com/articles/winners-losers-nba-free-agency-193308705.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2026 may be a breakout year for Dominick Puni",
+        "Source headline: Winners and Losers from NBA Free Agency",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2578,9 +2638,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3070
+      "priority_score": 3090
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Steelers Super Bowl champion passes away",
+      "title": "Steelers Super Bowl champion passes away",
+      "source_headline": "Steelers Super Bowl champion passes away",
+      "original_headline": "Steelers Super Bowl champion passes away",
+      "snapshot": "A former Steelers running back passes away.",
+      "url": "https://sports.yahoo.com/articles/steelers-super-bowl-champion-passes-202151194.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Steelers Super Bowl champion passes away",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:56 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -2606,7 +2696,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -2636,7 +2726,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -2666,7 +2756,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -2696,7 +2786,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -2705,16 +2795,16 @@
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "title": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "source_headline": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "original_headline": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "snapshot": "Brayan Bello has not, apparently, fallen back in love with Baseball, as Craig Breslow hoped he would. Or maybe he’s fallen in love with Worcester. Either way, he will not be starting today in place of the injured Ranger Suárez. Instead, the Sox are handing the ball to Eduardo Riv",
-      "url": "https://sports.yahoo.com/articles/eduardo-rivera-not-brayan-bello-191028412.html",
+      "headline": "Minnesota Twins 2026 MLB Draft Tracker",
+      "title": "Minnesota Twins 2026 MLB Draft Tracker",
+      "source_headline": "Minnesota Twins 2026 MLB Draft Tracker",
+      "original_headline": "Minnesota Twins 2026 MLB Draft Tracker",
+      "snapshot": "Stay tuned to this page for the next two days as we’ll be tracking each pick the Twins make. Come chat about it with us!",
+      "url": "https://sports.yahoo.com/articles/minnesota-twins-2026-mlb-draft-162348559.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
+        "Source headline: Minnesota Twins 2026 MLB Draft Tracker",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -2728,9 +2818,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2880
+      "priority_score": 2895
     },
     {
       "league": "MLB",
@@ -2758,113 +2848,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Rangers take prep pitcher Gio Rojas in first round",
-      "title": "Rangers take prep pitcher Gio Rojas in first round",
-      "source_headline": "Rangers take prep pitcher Gio Rojas in first round",
-      "original_headline": "Rangers take prep pitcher Gio Rojas in first round",
-      "snapshot": "The Texas Rangers have selected Gio Rojas with the #16 overall pick in the 2026 MLB Draft",
-      "url": "https://sports.yahoo.com/articles/rangers-prep-pitcher-gio-rojas-190523166.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Rangers take prep pitcher Gio Rojas in first round",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "title": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "source_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "original_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "snapshot": "The draft is set to get underway with the Braves holding the 9th and 26th overall picks",
-      "url": "https://sports.yahoo.com/articles/2026-mlb-draft-day-1-171919158.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 2026 MLB Draft Day 1 Tracker and Open Thread",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "title": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "source_headline": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "original_headline": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "snapshot": "Paul Toboni made Chris Hacopian his first draft selection. The infielder is arguably the best pure hitter in the class",
-      "url": "https://sports.yahoo.com/articles/washington-nationals-select-hard-hitting-190000575.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Washington Nationals select hard hitting local product Chris Hacopian",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
-      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
-      "source_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
-      "original_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
+      "headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
+      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
+      "source_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
+      "original_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
       "snapshot": "MLB article selected from a media source.",
       "url": "https://www.mlb.com/news/2026-mlb-draft-day-1-complete-coverage",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
+        "Source headline: MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -2878,7 +2878,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -2908,7 +2908,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -2938,37 +2938,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Here's what you need to know about the 2026 MLB Draft",
-      "title": "Here's what you need to know about the 2026 MLB Draft",
-      "source_headline": "Here's what you need to know about the 2026 MLB Draft",
-      "original_headline": "Here's what you need to know about the 2026 MLB Draft",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/2026-mlb-draft-overview-and-schedule",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Here's what you need to know about the 2026 MLB Draft",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -2998,7 +2968,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -3028,7 +2998,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -3058,7 +3028,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -3086,7 +3056,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -3116,7 +3086,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -3145,7 +3115,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -3174,7 +3144,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -3203,7 +3173,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -3222,11 +3192,41 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
       "priority_score": 1580
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "title": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "source_headline": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "original_headline": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/chase-burns-injures-groin-to-miss-2026-all-star-game",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Chase Burns (tight right groin) to miss 2026 All-Star Game",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1320
     },
     {
       "league": "MLB",
@@ -3254,7 +3254,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3284,7 +3284,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -3314,39 +3314,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "title": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "source_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "original_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "snapshot": "The No. 1 and No. 2 picks in the 2026 NBA Draft both rose to the occasion in Las Vegas, providing a glimpse into the future for the league's stars",
-      "url": "https://www.cbssports.com/nba/news/aj-dybantsa-darryn-peterson-nba-summer-league/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
     },
     {
       "league": "NHL",
@@ -3374,7 +3344,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3010
     },
@@ -3401,7 +3371,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
@@ -3433,7 +3403,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2975
     },
@@ -3463,7 +3433,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -3474,7 +3444,7 @@
       "title": "2026 MLB Draft tracker, results: Full list of 613 draft picks, analysis of every team's first-round selection",
       "source_headline": "2026 MLB Draft tracker, results: Full list of 613 draft picks, analysis of every team's first-round selection",
       "original_headline": "2026 MLB Draft tracker, results: Full list of 613 draft picks, analysis of every team's first-round selection",
-      "snapshot": "The White Sox picked Roch Cholowsky to start the draft before the Rays grabbed Grady Emerson",
+      "snapshot": "Two shortstops came off the board to start the draft: Roch Cholowsky to the White Sox and Grady Emerson to the Rays",
       "url": "https://www.cbssports.com/mlb/news/2026-mlb-draft-tracker-results-picks-analysis/",
       "source_label": "cbssports.com",
       "story_type": "article",
@@ -3493,7 +3463,67 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "title": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "source_headline": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "original_headline": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "snapshot": "Meanwhile, Rob Manfred botched Roch Cholowsky's name and contact hitters are this year's pick du jour",
+      "url": "https://www.cbssports.com/mlb/news/2026-mlb-draft-winners-and-losers-white-sox-roch-cholowsky-georgia-tech-contact-hitters-pitchers-rockies/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "title": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "source_headline": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "original_headline": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "snapshot": "Black catchers have become a rarity in MLB, and Lackey -- the 'best player in the country' at Georgia Tech -- wants to help change that",
+      "url": "https://www.cbssports.com/mlb/news/vahn-lackey-mlb-draft-inspiration-black-catcher/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -3523,7 +3553,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -3553,7 +3583,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -3583,23 +3613,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "title": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "source_headline": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "original_headline": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "snapshot": "Born in the Denver area, Rojas grew up in the suburb of Lakewood before moving cross country to South Florida to play for a national power.",
-      "url": "https://sports.yahoo.com/articles/gio-rojas-selected-texas-rangers-185835188.html",
+      "headline": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "title": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "source_headline": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "original_headline": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "snapshot": "One of the younger players in the 2026 draft, Rocco Maniscalco, is only 17 years old and is a plus defender and was one of the more exciting performers at the MLB Combine as an Alabama Prep infielder. This is a bet on projection and upside with the opportunity to allow such a you",
+      "url": "https://sports.yahoo.com/articles/st-louis-cardinals-2026-draft-205814233.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
+        "Source headline: St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -3613,7 +3643,127 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "title": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "source_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "original_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "snapshot": "The draft is set to get underway with the Braves holding the 9th and 26th overall picks",
+      "url": "https://sports.yahoo.com/articles/2026-mlb-draft-day-1-171919158.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 MLB Draft Day 1 Tracker and Open Thread",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "title": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "source_headline": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "original_headline": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "snapshot": "The Yankees go with an imposing pitcher to lead their draft class.",
+      "url": "https://sports.yahoo.com/articles/yankees-draft-hunter-dietz-selected-204418455.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "title": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "source_headline": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "original_headline": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "snapshot": "Back-to-back Ebels in back-to-back years",
+      "url": "https://sports.yahoo.com/articles/meet-trey-ebel-brewers-first-203912570.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "title": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "source_headline": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "original_headline": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "snapshot": "Stay up to date with every selection from Day 1 the 2026 MLB Draft, plus watch the action unfold live on NBC and Peacock.",
+      "url": "https://sports.yahoo.com/articles/2026-mlb-draft-tracker-day-145321294.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 MLB Draft Tracker: Day 1 picks and results",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -3643,7 +3793,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2595
     },
@@ -3673,7 +3823,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
     },
@@ -3703,7 +3853,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2485
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "title": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "source_headline": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "original_headline": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "snapshot": "National Basketball Players Association executive director David Kelly said Friday that the second apron decimates teams and forces choices &quot;that are not basketball decisions.&quot;",
+      "url": "https://sports.yahoo.com/nba/article/nbpa-airs-grievances-about-second-apron-same-day-spurs-superstar-victor-wembanyama-reportedly-makes-contract-sacrifice-205325949.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
     },
@@ -3733,7 +3913,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -3763,7 +3943,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -3793,7 +3973,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -3823,7 +4003,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -3853,7 +4033,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -3883,7 +4063,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -3913,7 +4093,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -3943,7 +4123,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1945
     },
@@ -3973,189 +4153,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1935
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "title": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "source_headline": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "original_headline": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "snapshot": "When Connor McDavid signed his extension in September, the expectation around the league was that he would become the NHL&#39;s first $19-million player, or at least come close enough that the distinction wouldn&#39;t matter. Nobody would&#39;ve argued he hadn&#39;t earned it. He",
-      "url": "https://sports.yahoo.com/articles/oilers-fans-gain-appreciation-mcdavids-183129482.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Oilers Fans Gain New Appreciation For McDavids Contract",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1930
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "title": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "source_headline": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "original_headline": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "snapshot": "The Ducks are paying a record price to keep their franchise center in Anaheim",
-      "url": "https://www.cbssports.com/nhl/news/ducks-leo-carlsson-90-million-offer-nhl-highest-paid-players/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1820
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "title": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "source_headline": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "original_headline": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "snapshot": "Carlsson is now the highest-paid player in the NHL, but who will be play for next season?",
-      "url": "https://www.cbssports.com/nhl/news/flyers-sign-ducks-c-leo-carlsson-to-record-5-year-90-million-offer-sheet/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1820
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "title": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "source_headline": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "original_headline": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "snapshot": "Brady discussed what his new normal could look like in Florida as he and Matthew grow their young families together",
-      "url": "https://www.cbssports.com/nhl/news/brady-tkachuk-matthew-tkachuk-florida-panthers-reunion/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1600
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "title": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "source_headline": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "original_headline": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "snapshot": "The first two days of the NBA Summer League in Las Vegas are in the books",
-      "url": "https://www.cbssports.com/nba/news/nba-summer-league-caleb-wilson-aj-dybantsa-darryn-peterson-yaxel-lendeborg-keaton-wagler/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1550
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "title": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "source_headline": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "original_headline": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "snapshot": "The two former Heat teammates played together for seven seasons",
-      "url": "https://www.cbssports.com/nba/news/bam-adebayo-tyler-herro-physical-altercation-miami-heat/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1550
     }
   ],
   "stories": [
@@ -4183,7 +4183,7 @@
         "Monitor updated spread, total, moneyline and player-prop movement before tipoff, along with official injury reports, starting groups and late news on Wembanyama or Gilgeous-Alexander usage."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
@@ -4212,7 +4212,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4244,7 +4244,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5930
     },
@@ -4274,9 +4274,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 5545
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "title": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "source_headline": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "original_headline": "Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+      "snapshot": "The Dodgers began their 2026 MLB Draft on Saturday by selecting Bo Lowrance, a high school third baseman from South Carolina with their first-round pick, and 40th overall in the draft. By virtue of winning the World Series last year, the Dodgers owned the 30th pick in the first r",
+      "url": "https://sports.yahoo.com/articles/dodgers-draft-bo-lowrance-1st-204216677.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Dodgers draft Bo Lowrance with 1st pick, 40th overall",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 4745
     },
     {
       "league": "NBA",
@@ -4304,7 +4334,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4650
     },
@@ -4334,7 +4364,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4610
     },
@@ -4364,7 +4394,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4510
     },
@@ -4394,7 +4424,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4495
     },
@@ -4424,7 +4454,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4435
     },
@@ -4451,7 +4481,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4480,7 +4510,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4512,7 +4542,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4025
     },
@@ -4542,7 +4572,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 4015
     },
@@ -4569,7 +4599,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bears-Panthers Spread Hinges on Injury News",
       "original_headline": "Bears-Panthers Spread Hinges on Injury News",
@@ -4601,9 +4631,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3925
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "title": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "source_headline": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "original_headline": "Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+      "snapshot": "Eric Samulski breaks down some of his favorite or most confusing picks from the 2026 MLB Draft",
+      "url": "https://sports.yahoo.com/articles/roch-cholowsky-jackson-flora-more-203311325.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Roch Cholowsky, Jackson Flora, more favorite or puzzling picks from the 2026 MLB Draft",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3865
     },
     {
       "league": "Betting",
@@ -4627,7 +4687,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4655,7 +4715,7 @@
         "Public perception",
         "Injury, lineup or weather timing"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Late Lineup News Puts Betting Markets on Watch",
       "original_headline": "Late Lineup News Puts Betting Markets on Watch",
@@ -4687,7 +4747,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3340
     },
@@ -4717,23 +4777,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3300
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "title": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "source_headline": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "original_headline": "2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
-      "snapshot": "I’ve done my best this year to avoid many Pitching write ups. After the team went kind of pitching nuts last year, I figured they’d probably filled the cupboard and may focus elsewhere. However, top draft prospect lists right now are jam packed with Pitching in the 25-50 range in",
-      "url": "https://sports.yahoo.com/articles/2026-phillies-mlb-draft-preview-190000858.html",
+      "headline": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "title": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "source_headline": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "original_headline": "MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
+      "snapshot": "Eric Samulski discusses seven players he thinks could be quickest to the big leagues from the 2026 MLB Draft",
+      "url": "https://sports.yahoo.com/articles/mlb-draft-2026-recap-players-204011122.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2026 Phillies MLB Draft Preview: A Smorgasbord of Starters",
+        "Source headline: MLB Draft 2026 Recap: Which players could be first to arrive in the big leagues?",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4747,39 +4807,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3260
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "title": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "source_headline": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "original_headline": "Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-      "snapshot": "Find best bets and props for the biggest games in sports on Friday from the SportsLine Projection Model and top CBS Sports experts",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-dodgers-vs-diamondbacks-world-cup-look-ahead-and-more/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Today's top games to watch, best bets, odds: Dodgers vs. Diamondbacks, World Cup look-ahead and more",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3205
     },
     {
       "league": "NFL",
@@ -4807,7 +4837,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -4837,7 +4867,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -4867,7 +4897,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3175
     },
@@ -4897,7 +4927,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3130
     },
@@ -4927,23 +4957,53 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3110
     },
     {
-      "league": "NFL",
-      "key": "nfl",
-      "headline": "2026 may be a breakout year for Dominick Puni",
-      "title": "2026 may be a breakout year for Dominick Puni",
-      "source_headline": "2026 may be a breakout year for Dominick Puni",
-      "original_headline": "2026 may be a breakout year for Dominick Puni",
-      "snapshot": "Dominick Puni is the only 49er on Bucky Brooks&#39; offensive breakout list. The PCL injury context makes the case stronger.",
-      "url": "https://sports.yahoo.com/articles/2026-may-breakout-dominick-puni-153400646.html",
+      "league": "NBA",
+      "key": "nba",
+      "headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "title": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "source_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "original_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+      "snapshot": "The No. 1 and No. 2 picks in the 2026 NBA Draft both rose to the occasion in Las Vegas, providing a glimpse into the future for the league's stars",
+      "url": "https://www.cbssports.com/nba/news/aj-dybantsa-darryn-peterson-nba-summer-league/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:54 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3105
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "Winners and Losers from NBA Free Agency",
+      "title": "Winners and Losers from NBA Free Agency",
+      "source_headline": "Winners and Losers from NBA Free Agency",
+      "original_headline": "Winners and Losers from NBA Free Agency",
+      "snapshot": "It&#39;s a good time to be a 76ers fan, or a backup NBA center.",
+      "url": "https://sports.yahoo.com/articles/winners-losers-nba-free-agency-193308705.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: 2026 may be a breakout year for Dominick Puni",
+        "Source headline: Winners and Losers from NBA Free Agency",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -4957,9 +5017,39 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:20 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 3070
+      "priority_score": 3090
+    },
+    {
+      "league": "NFL",
+      "key": "nfl",
+      "headline": "Steelers Super Bowl champion passes away",
+      "title": "Steelers Super Bowl champion passes away",
+      "source_headline": "Steelers Super Bowl champion passes away",
+      "original_headline": "Steelers Super Bowl champion passes away",
+      "snapshot": "A former Steelers running back passes away.",
+      "url": "https://sports.yahoo.com/articles/steelers-super-bowl-champion-passes-202151194.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Steelers Super Bowl champion passes away",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:56 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 3050
     },
     {
       "league": "NFL",
@@ -4985,7 +5075,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Patriots-Seahawks Spread Hinges on Injury News",
       "original_headline": "Patriots-Seahawks Spread Hinges on Injury News",
@@ -5015,7 +5105,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Ravens-Colts Spread Hinges on Injury News",
       "original_headline": "Ravens-Colts Spread Hinges on Injury News",
@@ -5045,7 +5135,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "49ers-Rams Spread Hinges on Injury News",
       "original_headline": "49ers-Rams Spread Hinges on Injury News",
@@ -5075,7 +5165,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Falcons-Steelers Spread Hinges on Injury News",
       "original_headline": "Falcons-Steelers Spread Hinges on Injury News",
@@ -5084,16 +5174,16 @@
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "title": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "source_headline": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "original_headline": "Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
-      "snapshot": "Brayan Bello has not, apparently, fallen back in love with Baseball, as Craig Breslow hoped he would. Or maybe he’s fallen in love with Worcester. Either way, he will not be starting today in place of the injured Ranger Suárez. Instead, the Sox are handing the ball to Eduardo Riv",
-      "url": "https://sports.yahoo.com/articles/eduardo-rivera-not-brayan-bello-191028412.html",
+      "headline": "Minnesota Twins 2026 MLB Draft Tracker",
+      "title": "Minnesota Twins 2026 MLB Draft Tracker",
+      "source_headline": "Minnesota Twins 2026 MLB Draft Tracker",
+      "original_headline": "Minnesota Twins 2026 MLB Draft Tracker",
+      "snapshot": "Stay tuned to this page for the next two days as we’ll be tracking each pick the Twins make. Come chat about it with us!",
+      "url": "https://sports.yahoo.com/articles/minnesota-twins-2026-mlb-draft-162348559.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Eduardo Rivera – not Brayan Bello – starts as Red Sox go for 8 in a row against Mets",
+        "Source headline: Minnesota Twins 2026 MLB Draft Tracker",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5107,9 +5197,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
-      "priority_score": 2880
+      "priority_score": 2895
     },
     {
       "league": "MLB",
@@ -5137,113 +5227,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Rangers take prep pitcher Gio Rojas in first round",
-      "title": "Rangers take prep pitcher Gio Rojas in first round",
-      "source_headline": "Rangers take prep pitcher Gio Rojas in first round",
-      "original_headline": "Rangers take prep pitcher Gio Rojas in first round",
-      "snapshot": "The Texas Rangers have selected Gio Rojas with the #16 overall pick in the 2026 MLB Draft",
-      "url": "https://sports.yahoo.com/articles/rangers-prep-pitcher-gio-rojas-190523166.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Rangers take prep pitcher Gio Rojas in first round",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "title": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "source_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "original_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
-      "snapshot": "The draft is set to get underway with the Braves holding the 9th and 26th overall picks",
-      "url": "https://sports.yahoo.com/articles/2026-mlb-draft-day-1-171919158.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: 2026 MLB Draft Day 1 Tracker and Open Thread",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "title": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "source_headline": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "original_headline": "Washington Nationals select hard hitting local product Chris Hacopian",
-      "snapshot": "Paul Toboni made Chris Hacopian his first draft selection. The infielder is arguably the best pure hitter in the class",
-      "url": "https://sports.yahoo.com/articles/washington-nationals-select-hard-hitting-190000575.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Washington Nationals select hard hitting local product Chris Hacopian",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
-      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
-      "source_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
-      "original_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
+      "headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
+      "title": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
+      "source_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
+      "original_headline": "MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
       "snapshot": "MLB article selected from a media source.",
       "url": "https://www.mlb.com/news/2026-mlb-draft-day-1-complete-coverage",
       "source_label": "mlb.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: MLB Draft Day 1 picks, analysis (LIVE on MLB Network, Peacock, MLB.com, MLB.TV, MLB+)",
+        "Source headline: MLB Draft Day 1 picks, analysis (LIVE on MLB.com, MLB.TV, MLB+)",
         "Source: mlb.com"
       ],
       "why_it_matters": [
@@ -5257,7 +5257,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -5287,7 +5287,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -5317,37 +5317,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 2875
-    },
-    {
-      "league": "MLB",
-      "key": "mlb",
-      "headline": "Here's what you need to know about the 2026 MLB Draft",
-      "title": "Here's what you need to know about the 2026 MLB Draft",
-      "source_headline": "Here's what you need to know about the 2026 MLB Draft",
-      "original_headline": "Here's what you need to know about the 2026 MLB Draft",
-      "snapshot": "MLB article selected from a media source.",
-      "url": "https://www.mlb.com/news/2026-mlb-draft-overview-and-schedule",
-      "source_label": "mlb.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Here's what you need to know about the 2026 MLB Draft",
-        "Source: mlb.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -5377,7 +5347,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -5407,7 +5377,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -5437,7 +5407,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2860
     },
@@ -5465,7 +5435,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
       "original_headline": "White Sox-Phillies Total Starts With Pitching Matchup",
@@ -5495,7 +5465,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
       "original_headline": "Red Sox-Yankees Total Starts With Pitching Matchup",
@@ -5524,7 +5494,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Pirates-Braves Total Starts With Pitching Matchup",
       "original_headline": "Pirates-Braves Total Starts With Pitching Matchup",
@@ -5553,7 +5523,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
       "original_headline": "Orioles-Blue Jays Total Starts With Pitching Matchup",
@@ -5582,7 +5552,7 @@
         "Starting pitchers, bullpen availability, posted lineups, weather and late total movement decide whether the number is still playable."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
       "original_headline": "Mariners-Tigers Total Starts With Pitching Matchup",
@@ -5601,11 +5571,41 @@
       "why_it_matters": [],
       "what_to_watch": [],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Thunder-Spurs Total Hinges on Injury News",
       "original_headline": "Thunder-Spurs Total Hinges on Injury News",
       "priority_score": 1580
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "title": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "source_headline": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "original_headline": "Chase Burns (tight right groin) to miss 2026 All-Star Game",
+      "snapshot": "MLB article selected from a media source.",
+      "url": "https://www.mlb.com/news/chase-burns-injures-groin-to-miss-2026-all-star-game",
+      "source_label": "mlb.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Chase Burns (tight right groin) to miss 2026 All-Star Game",
+        "Source: mlb.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 1320
     },
     {
       "league": "MLB",
@@ -5633,7 +5633,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5663,7 +5663,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
     },
@@ -5693,39 +5693,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1320
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "title": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "source_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "original_headline": "AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-      "snapshot": "The No. 1 and No. 2 picks in the 2026 NBA Draft both rose to the occasion in Las Vegas, providing a glimpse into the future for the league's stars",
-      "url": "https://www.cbssports.com/nba/news/aj-dybantsa-darryn-peterson-nba-summer-league/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: AJ Dybantsa, Darryn Peterson deliver glimpse of the NBA's bright future in Summer League showdown",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 3105
     },
     {
       "league": "NHL",
@@ -5753,7 +5723,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 3010
     },
@@ -5780,7 +5750,7 @@
         "Lineup and injury updates, weather shifts, timing, and late book movement determine whether the current price stays meaningful."
       ],
       "story_angles": [],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "latest_betting_report.json",
       "source_headline": "Bills-Texans Spread Hinges on Injury News",
       "original_headline": "Bills-Texans Spread Hinges on Injury News",
@@ -5812,7 +5782,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2975
     },
@@ -5842,7 +5812,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2880
     },
@@ -5853,7 +5823,7 @@
       "title": "2026 MLB Draft tracker, results: Full list of 613 draft picks, analysis of every team's first-round selection",
       "source_headline": "2026 MLB Draft tracker, results: Full list of 613 draft picks, analysis of every team's first-round selection",
       "original_headline": "2026 MLB Draft tracker, results: Full list of 613 draft picks, analysis of every team's first-round selection",
-      "snapshot": "The White Sox picked Roch Cholowsky to start the draft before the Rays grabbed Grady Emerson",
+      "snapshot": "Two shortstops came off the board to start the draft: Roch Cholowsky to the White Sox and Grady Emerson to the Rays",
       "url": "https://www.cbssports.com/mlb/news/2026-mlb-draft-tracker-results-picks-analysis/",
       "source_label": "cbssports.com",
       "story_type": "article",
@@ -5872,7 +5842,67 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "title": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "source_headline": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "original_headline": "2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+      "snapshot": "Meanwhile, Rob Manfred botched Roch Cholowsky's name and contact hitters are this year's pick du jour",
+      "url": "https://www.cbssports.com/mlb/news/2026-mlb-draft-winners-and-losers-white-sox-roch-cholowsky-georgia-tech-contact-hitters-pitchers-rockies/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 MLB Draft winners and losers: Georgia Tech gets plenty of buzz, pitchers keep falling down the board",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "title": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "source_headline": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "original_headline": "Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+      "snapshot": "Black catchers have become a rarity in MLB, and Lackey -- the 'best player in the country' at Georgia Tech -- wants to help change that",
+      "url": "https://www.cbssports.com/mlb/news/vahn-lackey-mlb-draft-inspiration-black-catcher/",
+      "source_label": "cbssports.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Vahn Lackey, No. 3 MLB Draft pick, knows he can be an inspiration as a Black catcher",
+        "Source: cbssports.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -5902,7 +5932,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -5932,7 +5962,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -5962,23 +5992,23 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
     {
       "league": "MLB",
       "key": "mlb",
-      "headline": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "title": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "source_headline": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "original_headline": "Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
-      "snapshot": "Born in the Denver area, Rojas grew up in the suburb of Lakewood before moving cross country to South Florida to play for a national power.",
-      "url": "https://sports.yahoo.com/articles/gio-rojas-selected-texas-rangers-185835188.html",
+      "headline": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "title": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "source_headline": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "original_headline": "St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
+      "snapshot": "One of the younger players in the 2026 draft, Rocco Maniscalco, is only 17 years old and is a plus defender and was one of the more exciting performers at the MLB Combine as an Alabama Prep infielder. This is a bet on projection and upside with the opportunity to allow such a you",
+      "url": "https://sports.yahoo.com/articles/st-louis-cardinals-2026-draft-205814233.html",
       "source_label": "sports.yahoo.com",
       "story_type": "article",
       "key_data": [
-        "Source headline: Gio Rojas selected by Texas Rangers with 16th pick in 2026 MLB Draft",
+        "Source headline: St. Louis Cardinals 2026 Draft Pick: 2-50 SS Rocco Maniscalco",
         "Source: sports.yahoo.com"
       ],
       "why_it_matters": [
@@ -5992,7 +6022,127 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "title": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "source_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "original_headline": "2026 MLB Draft Day 1 Tracker and Open Thread",
+      "snapshot": "The draft is set to get underway with the Braves holding the 9th and 26th overall picks",
+      "url": "https://sports.yahoo.com/articles/2026-mlb-draft-day-1-171919158.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 MLB Draft Day 1 Tracker and Open Thread",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "title": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "source_headline": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "original_headline": "Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+      "snapshot": "The Yankees go with an imposing pitcher to lead their draft class.",
+      "url": "https://sports.yahoo.com/articles/yankees-draft-hunter-dietz-selected-204418455.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Yankees Draft: Hunter Dietz selected with 2026 first-round pick",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "title": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "source_headline": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "original_headline": "Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+      "snapshot": "Back-to-back Ebels in back-to-back years",
+      "url": "https://sports.yahoo.com/articles/meet-trey-ebel-brewers-first-203912570.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: Meet Trey Ebel, the Brewers’ first-round pick in the 2026 MLB Draft",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2875
+    },
+    {
+      "league": "MLB",
+      "key": "mlb",
+      "headline": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "title": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "source_headline": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "original_headline": "2026 MLB Draft Tracker: Day 1 picks and results",
+      "snapshot": "Stay up to date with every selection from Day 1 the 2026 MLB Draft, plus watch the action unfold live on NBC and Peacock.",
+      "url": "https://sports.yahoo.com/articles/2026-mlb-draft-tracker-day-145321294.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: 2026 MLB Draft Tracker: Day 1 picks and results",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2875
     },
@@ -6022,7 +6172,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2595
     },
@@ -6052,7 +6202,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
     },
@@ -6082,7 +6232,37 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
+      "updated_at": "2026-07-11 05:00:54 PM ET",
+      "source_file": "rss_article_source",
+      "priority_score": 2485
+    },
+    {
+      "league": "NBA",
+      "key": "nba",
+      "headline": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "title": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "source_headline": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "original_headline": "NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+      "snapshot": "National Basketball Players Association executive director David Kelly said Friday that the second apron decimates teams and forces choices &quot;that are not basketball decisions.&quot;",
+      "url": "https://sports.yahoo.com/nba/article/nbpa-airs-grievances-about-second-apron-same-day-spurs-superstar-victor-wembanyama-reportedly-makes-contract-sacrifice-205325949.html",
+      "source_label": "sports.yahoo.com",
+      "story_type": "article",
+      "key_data": [
+        "Source headline: NBPA airs grievances about second apron same day Spurs superstar Victor Wembanyama reportedly makes contract sacrifice",
+        "Source: sports.yahoo.com"
+      ],
+      "why_it_matters": [
+        "This card is based on a media article headline, not a scoreboard matchup label."
+      ],
+      "what_to_watch": [
+        "Read the linked source story for reporting detail and follow-up context."
+      ],
+      "story_angles": [
+        "Source-reported sports news",
+        "Follow-up reporting",
+        "Context and consequences"
+      ],
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2485
     },
@@ -6112,7 +6292,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -6142,7 +6322,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -6172,7 +6352,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -6202,7 +6382,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2390
     },
@@ -6232,7 +6412,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -6262,7 +6442,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2385
     },
@@ -6292,7 +6472,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 2310
     },
@@ -6322,7 +6502,7 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
+      "updated_at": "2026-07-11 05:00:56 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1945
     },
@@ -6352,189 +6532,9 @@
         "Follow-up reporting",
         "Context and consequences"
       ],
-      "updated_at": "2026-07-11 03:19:18 PM ET",
+      "updated_at": "2026-07-11 05:00:55 PM ET",
       "source_file": "rss_article_source",
       "priority_score": 1935
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "title": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "source_headline": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "original_headline": "Oilers Fans Gain New Appreciation For McDavids Contract",
-      "snapshot": "When Connor McDavid signed his extension in September, the expectation around the league was that he would become the NHL&#39;s first $19-million player, or at least come close enough that the distinction wouldn&#39;t matter. Nobody would&#39;ve argued he hadn&#39;t earned it. He",
-      "url": "https://sports.yahoo.com/articles/oilers-fans-gain-appreciation-mcdavids-183129482.html",
-      "source_label": "sports.yahoo.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Oilers Fans Gain New Appreciation For McDavids Contract",
-        "Source: sports.yahoo.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1930
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "title": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "source_headline": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "original_headline": "Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-      "snapshot": "The Ducks are paying a record price to keep their franchise center in Anaheim",
-      "url": "https://www.cbssports.com/nhl/news/ducks-leo-carlsson-90-million-offer-nhl-highest-paid-players/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Ducks match Leo Carlsson's $90 million offer sheet: Anaheim star tops list of NHL's highest-paid players",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1820
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "title": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "source_headline": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "original_headline": "Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-      "snapshot": "Carlsson is now the highest-paid player in the NHL, but who will be play for next season?",
-      "url": "https://www.cbssports.com/nhl/news/flyers-sign-ducks-c-leo-carlsson-to-record-5-year-90-million-offer-sheet/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Flyers sign Ducks C Leo Carlsson to record 5-year, $90 million offer sheet",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1820
-    },
-    {
-      "league": "NHL",
-      "key": "nhl",
-      "headline": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "title": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "source_headline": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "original_headline": "Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-      "snapshot": "Brady discussed what his new normal could look like in Florida as he and Matthew grow their young families together",
-      "url": "https://www.cbssports.com/nhl/news/brady-tkachuk-matthew-tkachuk-florida-panthers-reunion/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Brady Tkachuk excited to be reunited with brother Matthew on Panthers: 'I just couldn't believe it'",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:19 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1600
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "title": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "source_headline": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "original_headline": "NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-      "snapshot": "The first two days of the NBA Summer League in Las Vegas are in the books",
-      "url": "https://www.cbssports.com/nba/news/nba-summer-league-caleb-wilson-aj-dybantsa-darryn-peterson-yaxel-lendeborg-keaton-wagler/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: NBA Summer League takeaways: Caleb Wilson, Yaxel Lendeborg shine; Keaton Wagler struggles",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1550
-    },
-    {
-      "league": "NBA",
-      "key": "nba",
-      "headline": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "title": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "source_headline": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "original_headline": "Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-      "snapshot": "The two former Heat teammates played together for seven seasons",
-      "url": "https://www.cbssports.com/nba/news/bam-adebayo-tyler-herro-physical-altercation-miami-heat/",
-      "source_label": "cbssports.com",
-      "story_type": "article",
-      "key_data": [
-        "Source headline: Bam Adebayo, Tyler Herro involved in physical altercation on Las Vegas practice court, per report",
-        "Source: cbssports.com"
-      ],
-      "why_it_matters": [
-        "This card is based on a media article headline, not a scoreboard matchup label."
-      ],
-      "what_to_watch": [
-        "Read the linked source story for reporting detail and follow-up context."
-      ],
-      "story_angles": [
-        "Source-reported sports news",
-        "Follow-up reporting",
-        "Context and consequences"
-      ],
-      "updated_at": "2026-07-11 03:19:17 PM ET",
-      "source_file": "rss_article_source",
-      "priority_score": 1550
     }
   ],
   "reports_loaded": [
