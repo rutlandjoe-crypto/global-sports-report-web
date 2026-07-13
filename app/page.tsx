@@ -1,11 +1,11 @@
 ﻿import fs from "fs";
 import path from "path";
+import EditorialStandard from "@/components/EditorialStandard";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 export const fetchCache = "force-no-store";
 
-import EditorialStandard from "@/components/EditorialStandard";
 import SocialIconLinks from "@/app/SocialIconLinks";
 
 type AnyObj = Record<string, any>;
@@ -904,6 +904,8 @@ export default function Page() {
         </div>
       </header>
 
+      <EditorialStandard />
+
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">
           <Block title="World Cup 2026 Coverage">
@@ -1027,7 +1029,6 @@ export default function Page() {
             {SITE.descriptor}
           </p>
         </div>
-        <EditorialStandard />
       </footer>
     </main>
   );
