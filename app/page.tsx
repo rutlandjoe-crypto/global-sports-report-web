@@ -535,6 +535,111 @@ function isPublishableStory(story: AnyObj): boolean {
   return true;
 }
 
+function getSoccerStories(report: AnyObj): AnyObj[] {
+  const candidates = [report.homepage_cards, report.stories]
+    .filter(Array.isArray)
+    .flat()
+    .filter((story) => story && typeof story === "object")
+    .filter((story) => normalizeText(story.league || story.label || story.category) === "soccer")
+    .filter((story) => {
+      const headline = normalizeText(story.source_headline || story.original_headline || story.headline);
+      const url = cleanText(story.url || story.source_url || story.link);
+
+      if (!headline || !isValidUrl(url)) return false;
+
+      return (
+        !/\b(schedule|scores page|futures market|odds|tifo|preview guide)\b/.test(headline) &&
+        !/\b(mlb|nba|nfl|nhl|golf)\b/.test(headline) &&
+        !/\/golf\//.test(url)
+      );
+    })
+    .sort((a, b) => {
+      const rank = (story: AnyObj) => {
+        const headline = normalizeText(story.source_headline || story.original_headline || story.headline);
+
+        if (/\b(beat|defeat|win|won|advance|eliminat|exit|final)\b/.test(headline)) return 5;
+        if (/\b(sign|transfer|injur|manager|coach|standings|title)\b/.test(headline)) return 4;
+        if (/\b(face|play|ruling|ban|suspend|reject)\b/.test(headline)) return 3;
+        return 2;
+      };
+
+      return rank(b) - rank(a) || Number(b.priority_score || 0) - Number(a.priority_score || 0);
+    });
+
+  const selected: AnyObj[] = [];
+  const seenHeadlines = new Set<string>();
+  const seenUrls = new Set<string>();
+  const eventKey = (story: AnyObj) => {
+    const text = normalizeText(
+      `${story.source_headline || story.original_headline || story.headline || ""} ${story.snapshot || story.summary || ""}`
+    );
+
+    if (text.includes("balogun") && /red card|ban|ruling|reversal|suspend|belgium|letting .* off|review/.test(text)) {
+      return "balogun-discipline";
+    }
+
+    if (text.includes("england") && text.includes("mexico")) return "england-mexico";
+
+    return "";
+  };
+  const eventWords = (story: AnyObj) =>
+    new Set(
+      normalizeText(story.source_headline || story.original_headline || story.headline)
+        .split(/[^a-z0-9]+/)
+        .filter(
+          (word) =>
+            word.length > 4 &&
+            ![
+              "soccer",
+              "world",
+              "match",
+              "after",
+              "their",
+              "against",
+              "latest",
+              "report",
+              "useful",
+              "story",
+              "rumor",
+              "change",
+              "squad",
+              "balance",
+              "structure",
+              "minutes",
+              "pathways",
+              "competitive",
+              "pressure",
+            ].includes(word)
+        )
+    );
+
+  for (const story of candidates) {
+    const headline = cleanText(story.source_headline || story.original_headline || story.headline);
+    const headlineKey = headline.toLowerCase();
+    const url = cleanText(story.url || story.source_url || story.link);
+
+    if (seenHeadlines.has(headlineKey) || seenUrls.has(url)) continue;
+
+    const words = eventWords(story);
+    const repeatsEvent = selected.some((existing) => {
+      if (eventKey(story) && eventKey(story) === eventKey(existing)) return true;
+
+      const sharedWords = [...words].filter((word) => eventWords(existing).has(word));
+      return sharedWords.length >= 2;
+    });
+
+    if (repeatsEvent) continue;
+
+    selected.push({ ...story, display_headline: headline, display_url: url });
+    seenHeadlines.add(headlineKey);
+    seenUrls.add(url);
+
+    if (selected.length === 6) break;
+  }
+
+  return selected;
+}
+
 function cleanSignals(items: string[]): string[] {
   return unique(items).slice(0, 6);
 }
@@ -810,19 +915,7 @@ export default function Page() {
 
   const leadStories = stories.slice(0, 10);
 
-  const worldCupStories = stories
-    .filter((story) => {
-      const blob = `${story.headline || ""} ${story.title || ""} ${story.snapshot || ""} ${story.summary || ""} ${story.content || ""}`.toLowerCase();
-      return (
-        blob.includes("world cup") ||
-        blob.includes("fifa") ||
-        blob.includes("usmnt") ||
-        blob.includes("soccer") ||
-        blob.includes("qualifying") ||
-        blob.includes("national team")
-      );
-    })
-    .slice(0, 5);
+  const soccerStories = getSoccerStories(report);
 
   const liveBriefingItems = liveNewsroomStories.length
     ? spotlightItemsFromStories(liveNewsroomStories)
@@ -908,29 +1001,29 @@ export default function Page() {
 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">
-          <Block title="World Cup 2026 Coverage">
+          <Block title="Global Soccer Report">
             <img
               src="/world-cup-2026-soccer.svg"
-              alt="World Cup 2026 soccer coverage"
+              alt="Global soccer coverage"
               className="w-full rounded-xl border border-neutral-200 bg-neutral-950"
             />
             <p className="mt-3 text-sm leading-6 text-neutral-700">
-              Global Sports Report is tracking World Cup 2026 through match coverage, player trends, team movement, host-city context and the broader soccer storylines building through the tournament.
+              Global Sports Report is tracking the major results, matches, transfers, injuries, title races and international developments shaping soccer around the world, including the World Cup.
             </p>
 
             <div className="mt-4 space-y-3">
-              <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Latest World Cup Signals</p>
-              {worldCupStories.length ? (
-                worldCupStories.map((story, index) => {
-                  const title = cleanText(story.headline || story.title || `World Cup update ${index + 1}`);
-                  const url = cleanText(story.url || story.source_url || "");
+              <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Latest Soccer Headlines</p>
+              {soccerStories.length ? (
+                soccerStories.map((story) => {
+                  const title = story.display_headline;
+                  const url = story.display_url;
                   const source = cleanText(story.source_label || story.source || "");
                   return (
                     <a
-                      key={`${title}-${index}`}
-                      href={url || "#"}
-                      target={url ? "_blank" : undefined}
-                      rel={url ? "noopener noreferrer" : undefined}
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="block rounded-lg border border-neutral-200 bg-neutral-50 p-3 hover:bg-white"
                     >
                       <p className="text-sm font-black leading-5 text-neutral-950">{title}</p>
@@ -938,11 +1031,7 @@ export default function Page() {
                     </a>
                   );
                 })
-              ) : (
-                <p className="rounded-lg border border-neutral-200 bg-neutral-50 p-3 text-sm leading-6 text-neutral-700">
-                  World Cup story tracking will update here as soccer headlines enter the Sports report.
-                </p>
-              )}
+              ) : null}
             </div>
           </Block>
           <Block title="World Cup 2026 Data Desk">
