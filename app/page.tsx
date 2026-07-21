@@ -535,6 +535,78 @@ function isPublishableStory(story: AnyObj): boolean {
   return true;
 }
 
+function getProFootballStories(report: AnyObj): AnyObj[] {
+  const candidates = [report.homepage_cards, report.stories]
+    .filter(Array.isArray)
+    .flat()
+    .filter((story) => story && typeof story === "object")
+    .filter((story) => normalizeText(story.league || story.label || story.category) === "nfl")
+    .filter((story) => {
+      const headline = normalizeText(story.source_headline || story.original_headline);
+      const url = cleanText(story.url || story.source_url || story.link);
+
+      if (!headline || !isValidUrl(url)) return false;
+
+      return (
+        !/\b(schedule hub|news board updates|fantasy|college football|soccer|preview)\b/.test(headline) &&
+        !/^(ranking|best)\b/.test(headline) &&
+        !/\b(matchmaker|landing spots)\b/.test(headline) &&
+        !/\/(college-football|soccer|nba)\//.test(url) &&
+        !/^https?:\/\/(www\.)?espn\.com\/nfl\/?$/.test(url)
+      );
+    })
+    .sort((a, b) => {
+      const rank = (story: AnyObj) => {
+        const headline = normalizeText(story.source_headline || story.original_headline);
+
+        if (/\b(sign(?:s|ed|ing)?|trad(?:e|es|ed|ing)|releas(?:e|es|ed|ing)|waiv\w*|extension|holdout|injur\w*)\b/.test(headline)) return 5;
+        if (/\b(training camp|roster|rookie|coach\w*|front office)\b/.test(headline)) return 4;
+        if (/\b(beat|defeat\w*|win|won|final|standings|playoff\w*|preseason)\b/.test(headline)) return 3;
+        return 2;
+      };
+
+      return rank(b) - rank(a) || Number(b.priority_score || 0) - Number(a.priority_score || 0);
+    });
+
+  const selected: AnyObj[] = [];
+  const seenHeadlines = new Set<string>();
+  const seenUrls = new Set<string>();
+  const eventWords = (story: AnyObj) =>
+    new Set(
+      normalizeText(story.source_headline || story.original_headline)
+        .split(/[^a-z0-9]+/)
+        .filter(
+          (word) =>
+            word.length > 4 &&
+            !["football", "league", "after", "their", "against", "could", "would", "season", "report"].includes(word)
+        )
+    );
+
+  for (const story of candidates) {
+    const headline = cleanText(story.source_headline || story.original_headline);
+    const headlineKey = headline.toLowerCase();
+    const url = cleanText(story.url || story.source_url || story.link);
+
+    if (seenHeadlines.has(headlineKey) || seenUrls.has(url)) continue;
+
+    const words = eventWords(story);
+    const repeatsEvent = selected.some((existing) => {
+      const sharedWords = [...words].filter((word) => eventWords(existing).has(word));
+      return sharedWords.length >= 3;
+    });
+
+    if (repeatsEvent) continue;
+
+    selected.push({ ...story, display_headline: headline, display_url: url });
+    seenHeadlines.add(headlineKey);
+    seenUrls.add(url);
+
+    if (selected.length === 6) break;
+  }
+
+  return selected;
+}
+
 function getSoccerStories(report: AnyObj): AnyObj[] {
   const candidates = [report.homepage_cards, report.stories]
     .filter(Array.isArray)
@@ -915,6 +987,7 @@ export default function Page() {
 
   const leadStories = stories.slice(0, 10);
 
+  const proFootballStories = getProFootballStories(report);
   const soccerStories = getSoccerStories(report);
 
   const liveBriefingItems = liveNewsroomStories.length
@@ -1001,6 +1074,31 @@ export default function Page() {
 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">
+          <Block title="Global Pro Football Report">
+            <div className="space-y-3">
+              {proFootballStories.length ? (
+                proFootballStories.map((story) => {
+                  const title = story.display_headline;
+                  const url = story.display_url;
+                  const source = cleanText(story.source_label || story.source || "");
+                  return (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-lg border border-neutral-200 bg-neutral-50 p-3 hover:bg-white"
+                    >
+                      <p className="text-sm font-black leading-5 text-neutral-950">{title}</p>
+                      {source ? <p className="mt-1 text-xs font-bold uppercase tracking-wide text-neutral-500">{source}</p> : null}
+                    </a>
+                  );
+                })
+              ) : (
+                <p className="text-sm leading-6 text-neutral-700">No current pro football headlines available.</p>
+              )}
+            </div>
+          </Block>
           <Block title="Global Soccer Report">
             <div className="space-y-3">
               {soccerStories.length ? (
@@ -1025,29 +1123,6 @@ export default function Page() {
                 <p className="text-sm leading-6 text-neutral-700">No current soccer headlines available.</p>
               )}
             </div>
-          </Block>
-          <Block title="World Cup 2026 Data Desk">
-            <div className="grid grid-cols-2 gap-3 text-sm">
-              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
-                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Opening Match</p>
-                <p className="mt-1 font-black text-neutral-950">June 11, 2026</p>
-              </div>
-              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
-                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Final</p>
-                <p className="mt-1 font-black text-neutral-950">July 19, 2026</p>
-              </div>
-              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
-                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Teams</p>
-                <p className="mt-1 font-black text-neutral-950">48</p>
-              </div>
-              <div className="rounded-lg border border-neutral-200 bg-neutral-50 p-3">
-                <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Matches</p>
-                <p className="mt-1 font-black text-neutral-950">104</p>
-              </div>
-            </div>
-            <p className="mt-3 text-sm leading-6 text-neutral-700">
-              GSR will track the tournament through match results, player form, group movement, host-city pressure, travel demands and the soccer storylines that matter beyond the scoreboard.
-            </p>
           </Block>
           <Block title="Editor Signals">
             <LineList
