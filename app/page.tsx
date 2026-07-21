@@ -1002,17 +1002,7 @@ export default function Page() {
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">
           <Block title="Global Soccer Report">
-            <img
-              src="/world-cup-2026-soccer.svg"
-              alt="Global soccer coverage"
-              className="w-full rounded-xl border border-neutral-200 bg-neutral-950"
-            />
-            <p className="mt-3 text-sm leading-6 text-neutral-700">
-              Global Sports Report is tracking the major results, matches, transfers, injuries, title races and international developments shaping soccer around the world, including the World Cup.
-            </p>
-
-            <div className="mt-4 space-y-3">
-              <p className="text-xs font-black uppercase tracking-wide text-neutral-500">Latest Soccer Headlines</p>
+            <div className="space-y-3">
               {soccerStories.length ? (
                 soccerStories.map((story) => {
                   const title = story.display_headline;
@@ -1031,7 +1021,9 @@ export default function Page() {
                     </a>
                   );
                 })
-              ) : null}
+              ) : (
+                <p className="text-sm leading-6 text-neutral-700">No current soccer headlines available.</p>
+              )}
             </div>
           </Block>
           <Block title="World Cup 2026 Data Desk">
