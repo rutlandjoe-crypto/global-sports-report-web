@@ -607,6 +607,94 @@ function getProFootballStories(report: AnyObj): AnyObj[] {
   return selected;
 }
 
+function getCollegeFootballStories(report: AnyObj): AnyObj[] {
+  const collegeFootballTags = new Set(["ncaaf", "ncaafb", "cfb", "college football", "ncaa football"]);
+  const explicitFootballSignals =
+    /\b(college football|ncaa football|ncaaf|ncaafb|cfb|college football playoff|ap top 25|coaches poll|heisman|bowl game|bowl games|transfer portal|national signing day|football recruiting|football season|football team|football program)\b/;
+  const broadCollegeSignals = /\b(power four|sec|big ten|big 12|acc)\b/;
+  const footballContext =
+    /\b(football|cfp|playoff|bowl|heisman|quarterback|qb|touchdown|gridiron|recruiting|signing day|transfer portal|depth chart|training camp|preseason practice)\b/;
+  const unrelatedSports =
+    /\b(nfl|super bowl|nba|wnba|mlb|nhl|soccer|premier league|champions league|basketball|baseball|softball|hockey|lacrosse|volleyball|golf|tennis)\b/;
+  const lowQuality =
+    /\b(schedule hub|schedule page|scores page|rankings hub|recruiting database|team roster|roster directory|fantasy football|preview guide|futures market|betting odds)\b/;
+
+  const candidates = [report.homepage_cards, report.stories]
+    .filter(Array.isArray)
+    .flat()
+    .filter((story) => story && typeof story === "object")
+    .filter((story) => {
+      const tag = normalizeText(story.league || story.label || story.category);
+      const headline = normalizeText(story.source_headline || story.original_headline);
+      const url = cleanText(story.url || story.source_url || story.link);
+      const hasCollegeFootballTag = collegeFootballTags.has(tag);
+      const hasHeadlineSignal = explicitFootballSignals.test(headline);
+      const hasQualifiedConferenceSignal = broadCollegeSignals.test(headline) && footballContext.test(headline);
+
+      if (!headline || !isValidUrl(url)) return false;
+      if (!hasCollegeFootballTag && !hasHeadlineSignal && !hasQualifiedConferenceSignal) return false;
+      if (unrelatedSports.test(headline) || lowQuality.test(headline)) return false;
+      if (/\/(nfl|soccer|nba|mens-college-basketball|womens-college-basketball|mlb|nhl)\//.test(url)) return false;
+      if (/\/(odds|futures)(?:\/|$)/.test(url)) return false;
+
+      return true;
+    })
+    .sort((a, b) => {
+      const rank = (story: AnyObj) => {
+        const headline = normalizeText(story.source_headline || story.original_headline);
+
+        if (/\b(breaking|fired|hires?|resigns?|dies?|suspended|investigation)\b/.test(headline)) return 8;
+        if (/\b(college football playoff|cfp|national championship|semifinal)\b/.test(headline)) return 7;
+        if (/\b(ap top 25|coaches poll|rankings?)\b/.test(headline)) return 6;
+        if (/\b(final score|upset|conference championship|standings|playoff implications?|beat|defeat\w*|wins?|won)\b/.test(headline)) return 5;
+        if (/\b(injur\w*|transfer portal|transfers?|recruit\w*|signing day|coach\w*|coordinator)\b/.test(headline)) return 4;
+        if (/\b(training camp|preseason practice|depth chart|quarterback competition|position battle)\b/.test(headline)) return 3;
+        if (/\bheisman\b/.test(headline)) return 2;
+        return 1;
+      };
+
+      return rank(b) - rank(a) || Number(b.priority_score || 0) - Number(a.priority_score || 0);
+    });
+
+  const selected: AnyObj[] = [];
+  const seenHeadlines = new Set<string>();
+  const seenUrls = new Set<string>();
+  const eventWords = (story: AnyObj) =>
+    new Set(
+      normalizeText(story.source_headline || story.original_headline)
+        .split(/[^a-z0-9]+/)
+        .filter(
+          (word) =>
+            word.length > 4 &&
+            !["college", "football", "after", "their", "against", "season", "report", "latest", "today"].includes(word)
+        )
+    );
+
+  for (const story of candidates) {
+    const headline = cleanText(story.source_headline || story.original_headline);
+    const headlineKey = headline.toLowerCase();
+    const url = cleanText(story.url || story.source_url || story.link);
+
+    if (seenHeadlines.has(headlineKey) || seenUrls.has(url)) continue;
+
+    const words = eventWords(story);
+    const repeatsEvent = selected.some((existing) => {
+      const sharedWords = [...words].filter((word) => eventWords(existing).has(word));
+      return sharedWords.length >= 3;
+    });
+
+    if (repeatsEvent) continue;
+
+    selected.push({ ...story, display_headline: headline, display_url: url });
+    seenHeadlines.add(headlineKey);
+    seenUrls.add(url);
+
+    if (selected.length === 6) break;
+  }
+
+  return selected;
+}
+
 function getSoccerStories(report: AnyObj): AnyObj[] {
   const candidates = [report.homepage_cards, report.stories]
     .filter(Array.isArray)
@@ -988,6 +1076,7 @@ export default function Page() {
   const leadStories = stories.slice(0, 10);
 
   const proFootballStories = getProFootballStories(report);
+  const collegeFootballStories = getCollegeFootballStories(report);
   const soccerStories = getSoccerStories(report);
 
   const liveBriefingItems = liveNewsroomStories.length
@@ -1096,6 +1185,31 @@ export default function Page() {
                 })
               ) : (
                 <p className="text-sm leading-6 text-neutral-700">No current pro football headlines available.</p>
+              )}
+            </div>
+          </Block>
+          <Block title="Global College Football Report">
+            <div className="space-y-3">
+              {collegeFootballStories.length ? (
+                collegeFootballStories.map((story) => {
+                  const title = story.display_headline;
+                  const url = story.display_url;
+                  const source = cleanText(story.source_label || story.source || "");
+                  return (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-lg border border-neutral-200 bg-neutral-50 p-3 hover:bg-white"
+                    >
+                      <p className="text-sm font-black leading-5 text-neutral-950">{title}</p>
+                      {source ? <p className="mt-1 text-xs font-bold uppercase tracking-wide text-neutral-500">{source}</p> : null}
+                    </a>
+                  );
+                })
+              ) : (
+                <p className="text-sm leading-6 text-neutral-700">No current college football headlines available.</p>
               )}
             </div>
           </Block>
