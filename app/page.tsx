@@ -1,6 +1,7 @@
 ﻿import fs from "fs";
 import path from "path";
 import EditorialStandard from "@/components/EditorialStandard";
+import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -1138,6 +1139,12 @@ export default function Page() {
               <span className="rounded-full bg-black px-4 py-2 text-white">
                 {SITE.tagline}
               </span>
+              <Link
+                href="/apps/sports-desk"
+                className="rounded-full bg-red-700 px-4 py-2 text-white hover:bg-red-800"
+              >
+                Sports Desk
+              </Link>
               <span className="rounded-full bg-neutral-200 px-4 py-2 text-neutral-800">
                 Updated: {updated}
               </span>
