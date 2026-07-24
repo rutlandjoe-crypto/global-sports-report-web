@@ -30,6 +30,7 @@ type Game = {
 };
 
 type Standing = {
+  league: "American League" | "National League";
   team: string;
   wins: string;
   losses: string;
@@ -129,12 +130,30 @@ function normalizeHeadline(value: string): string {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
-function storyRank(type: string, headline: string): number {
-  const value = `${type} ${headline}`.toLowerCase();
-  if (/\b(article|news|trade|injury|roster)\b/.test(value)) return 4;
-  if (/\b(final|wins?|beats?|defeats?|result)\b/.test(value)) return 3;
-  if (/\b(analysis|feature|preview)\b/.test(value)) return 2;
-  return 1;
+function isMlbFocused(headline: string, snapshot: string): boolean {
+  const prominentText = `${headline} ${snapshot}`;
+  return !/\b(nfl|nba|wnba|nhl|mls|ncaa|college football|college basketball|football|basketball|hockey|soccer|golf|tennis|softball|ausl|super bowl|stanley cup|march madness|lebron(?: james)?|patrick mahomes|caitlin clark)\b/i.test(
+    prominentText
+  );
+}
+
+function isGenericMatchup(headline: string): boolean {
+  return /^[\w .'-]+(?:\s+at|\s+vs\.?)\s+[\w .'-]+$/i.test(headline.trim());
+}
+
+function storyRank(story: Story): number {
+  const value = `${story.storyType} ${story.headline} ${story.snapshot}`.toLowerCase();
+  let score = 0;
+  if (/\b(trade deadline|trade rumors?|trades?|dealt|acquir(?:e|ed|ing)|on the block)\b/.test(value)) score += 90;
+  if (/\b(injur(?:y|ed|ies)|il\b|injured list|availability|scratch(?:ed)?|out for|day-to-day)\b/.test(value)) score += 85;
+  if (/\b(roster|call-?up|promot(?:e|ed|ion)|option(?:ed)?|designated for assignment|dfa|waiver|release(?:d)?|sign(?:s|ed|ing)?)\b/.test(value)) score += 75;
+  if (/\b(standings?|pennant|wild card|playoff|division race|contender|eliminat(?:e|ed|ion))\b/.test(value)) score += 70;
+  if (/\b(starting pitcher|probable pitcher|rotation|bullpen|pitching availability|pitch count)\b/.test(value)) score += 65;
+  if (/\b(final|wins?|won|beats?|defeats?|walk-?off|no-hitter|perfect game)\b/.test(value)) score += 45;
+  if (/\b(live|in progress|inning)\b/.test(value)) score += 35;
+  if (/\b(analysis|feature|legacy|preview)\b/.test(value)) score += 10;
+  if (isGenericMatchup(story.headline)) score -= 80;
+  return score;
 }
 
 function storiesFromLeague(league: JsonObject): Story[] {
@@ -167,6 +186,7 @@ function storiesFromLeague(league: JsonObject): Story[] {
     .filter((story) => {
       const normalized = normalizeHeadline(story.headline);
       if (!normalized || !story.url || GENERIC_TITLES.has(normalized)) return false;
+      if (!isMlbFocused(story.headline, story.snapshot)) return false;
       if (/\b(schedule|scoreboard)(?:\s+(?:hub|updates?|today))?\b/i.test(story.headline)) {
         return false;
       }
@@ -175,11 +195,8 @@ function storiesFromLeague(league: JsonObject): Story[] {
       seenHeadlines.add(normalized);
       return true;
     })
-    .sort(
-      (a, b) =>
-        storyRank(b.storyType, b.headline) - storyRank(a.storyType, a.headline)
-    )
-    .slice(0, 5);
+    .sort((a, b) => storyRank(b) - storyRank(a))
+    .slice(0, 6);
 }
 
 function gamesFrom(value: unknown): Game[] {
@@ -202,6 +219,57 @@ function gamesFrom(value: unknown): Game[] {
     .filter((game) => game.away && game.home);
 }
 
+function standingLeague(value: unknown): Standing["league"] | "" {
+  const candidate = text(value).toLowerCase();
+  if (candidate === "al" || candidate.includes("american")) return "American League";
+  if (candidate === "nl" || candidate.includes("national")) return "National League";
+  return "";
+}
+
+function rowsFromStandingValue(
+  value: unknown,
+  inheritedLeague: Standing["league"] | "" = ""
+): Standing[] {
+  if (Array.isArray(value)) {
+    return value.flatMap((item) => {
+      const row = object(item);
+      const nested = row.teams ?? row.entries ?? row.standings ?? row.records ?? row.rows;
+      if (nested) {
+        return rowsFromStandingValue(
+          nested,
+          standingLeague(row.league ?? row.league_name ?? row.name) ||
+            inheritedLeague
+        );
+      }
+
+      const teamObject = object(row.team);
+      const team =
+        firstText(row, ["team_name", "name", "club"]) ||
+        firstText(teamObject, ["displayName", "shortDisplayName", "name"]);
+      const leagueName =
+        standingLeague(row.league ?? row.league_name ?? row.league_abbr) ||
+        inheritedLeague;
+      const wins = firstText(row, ["wins", "w"]);
+      const losses = firstText(row, ["losses", "l"]);
+      const pct = firstText(row, [
+        "pct",
+        "percentage",
+        "win_percentage",
+        "winning_percentage",
+      ]);
+      const gamesBack = firstText(row, ["games_back", "gb", "gamesBehind"]);
+
+      return team && leagueName && wins && losses
+        ? [{ league: leagueName, team, wins, losses, pct, gamesBack }]
+        : [];
+    });
+  }
+
+  return Object.entries(object(value)).flatMap(([key, nested]) =>
+    rowsFromStandingValue(nested, standingLeague(key) || inheritedLeague)
+  );
+}
+
 function standingRows(league: JsonObject): Standing[] {
   const leagueSections = object(league.sections);
   const candidates = [
@@ -215,16 +283,7 @@ function standingRows(league: JsonObject): Standing[] {
   ];
 
   for (const candidate of candidates) {
-    const rows = array(candidate)
-      .map(object)
-      .map((row) => ({
-        team: firstText(row, ["team", "name", "club"]),
-        wins: firstText(row, ["wins", "w"]),
-        losses: firstText(row, ["losses", "l"]),
-        pct: firstText(row, ["pct", "percentage", "win_percentage"]),
-        gamesBack: firstText(row, ["games_back", "gb"]),
-      }))
-      .filter((row) => row.team && (row.wins || row.losses || row.gamesBack));
+    const rows = rowsFromStandingValue(candidate);
     if (rows.length) return rows;
   }
   return [];
@@ -271,7 +330,6 @@ function GameGroup({ title, games }: { title: string; games: Game[] }) {
               <p className="mt-2 text-sm font-bold text-red-700">{game.status}</p>
             ) : null}
             {game.time ? <p className="mt-1 text-sm text-neutral-600">{game.time}</p> : null}
-            {game.date ? <p className="mt-1 text-xs text-neutral-500">{game.date}</p> : null}
             {game.url ? (
               <a
                 href={game.url}
@@ -298,6 +356,8 @@ export default function LeagueDesk({
   const league = object(sections[leagueKey]);
   const leagueSections = object(league.sections);
   const stories = storiesFromLeague(league);
+  const leadStory = stories[0];
+  const headlineStories = leadStory ? stories.slice(1, 5) : stories.slice(0, 5);
   const live = gamesFrom(
     leagueSections.today_live ?? league.live_games ?? league.games_live
   );
@@ -308,19 +368,35 @@ export default function LeagueDesk({
     leagueSections.today_schedule ?? league.upcoming_games ?? league.upcoming
   );
   const standings = standingRows(league);
-  const leadUrl = validUrl(league.url) || validUrl(league.source_url);
+  const leagueLeadUrl = validUrl(league.url) || validUrl(league.source_url);
   const updated =
     formatEt(league.updated_at ?? league.generated_at ?? league.published_at) ||
     formatEt(report.updated_at ?? report.generated_at ?? report.published_at);
-  const headline = firstText(league, ["headline"]);
-  const snapshot = firstText(league, ["snapshot", "summary"]);
-  const why = list(league.why_it_matters);
-  const watch = list(league.what_to_watch);
+  const reportHeadline = firstText(league, ["headline"]);
+  const reportSnapshot = firstText(league, ["snapshot", "summary"]);
+  const reportIsMlbFocused = isMlbFocused(reportHeadline, reportSnapshot);
+  const headline =
+    leadStory?.headline ||
+    (reportIsMlbFocused ? reportHeadline : "") ||
+    `${leagueName} coverage`;
+  const snapshot =
+    leadStory?.snapshot || (reportIsMlbFocused ? reportSnapshot : "");
+  const why = leadStory?.why.length ? leadStory.why : list(league.why_it_matters);
+  const watch = leadStory?.watch.length
+    ? leadStory.watch
+    : list(league.what_to_watch);
+  const leadUrl = leadStory?.url || (reportIsMlbFocused ? leagueLeadUrl : "");
+  const leadSource = leadStory?.source || leagueName;
+  const leadUpdated = leadStory?.updated || updated;
   const hasGames = live.length + finals.length + upcoming.length > 0;
 
   return (
     <>
-      <section aria-labelledby="mlb-lead" className="gsr-card p-5 sm:p-7">
+      <section
+        id="top-stories"
+        aria-labelledby="mlb-lead"
+        className="gsr-card scroll-mt-4 p-5 sm:p-7"
+      >
         <p className="gsr-section-label">{leagueName}</p>
         <h2 id="mlb-lead" className="mt-2 text-2xl font-black sm:text-3xl">
           {headline || `${leagueName} coverage`}
@@ -342,20 +418,25 @@ export default function LeagueDesk({
               rel="noopener noreferrer"
               className="font-bold text-red-700 hover:underline"
             >
-              MLB source
+              {leadSource} source
             </a>
           ) : null}
-          {updated ? <span className="text-neutral-500">Updated: {updated}</span> : null}
+          {leadUpdated ? (
+            <span className="text-neutral-500">Updated: {leadUpdated}</span>
+          ) : null}
         </div>
       </section>
 
-      {stories.length ? (
-        <section aria-labelledby="mlb-headlines">
+      {headlineStories.length ? (
+        <section
+          aria-labelledby="mlb-headlines"
+          className="scroll-mt-4"
+        >
           <h2 id="mlb-headlines" className="text-2xl font-black">
             MLB Headlines
           </h2>
           <div className="mt-4 grid gap-4 lg:grid-cols-2">
-            {stories.map((story) => (
+            {headlineStories.map((story) => (
               <article key={story.url} className="gsr-card min-w-0 p-5">
                 <div className="flex flex-wrap gap-2 text-xs font-bold uppercase tracking-wide text-neutral-500">
                   {story.storyType ? <span>{story.storyType}</span> : null}
@@ -399,7 +480,11 @@ export default function LeagueDesk({
         </section>
       ) : null}
 
-      <section aria-labelledby="mlb-board" className="gsr-card p-5 sm:p-7">
+      <section
+        id="scoreboard"
+        aria-labelledby="mlb-board"
+        className="gsr-card scroll-mt-4 p-5 sm:p-7"
+      >
         <h2 id="mlb-board" className="text-2xl font-black">
           Today&apos;s MLB Board
         </h2>
@@ -417,8 +502,12 @@ export default function LeagueDesk({
         )}
       </section>
 
-      <section aria-labelledby="pennant-race" className="gsr-card p-5 sm:p-7">
-        <h2 id="pennant-race" className="text-2xl font-black">
+      <section
+        id="pennant-race"
+        aria-labelledby="pennant-race-heading"
+        className="gsr-card scroll-mt-4 p-5 sm:p-7"
+      >
+        <h2 id="pennant-race-heading" className="text-2xl font-black">
           Pennant Race
         </h2>
         {standings.length ? (
@@ -426,6 +515,7 @@ export default function LeagueDesk({
             <table className="w-full min-w-[30rem] border-collapse text-left text-sm">
               <thead>
                 <tr className="border-b border-neutral-300">
+                  <th className="p-2">League</th>
                   <th className="p-2">Team</th>
                   <th className="p-2">W</th>
                   <th className="p-2">L</th>
@@ -436,6 +526,9 @@ export default function LeagueDesk({
               <tbody>
                 {standings.map((row) => (
                   <tr key={row.team} className="border-b border-neutral-200">
+                    <td className="whitespace-nowrap p-2">
+                      {row.league === "American League" ? "AL" : "NL"}
+                    </td>
                     <th className="p-2 font-bold">{row.team}</th>
                     <td className="p-2">{row.wins || "—"}</td>
                     <td className="p-2">{row.losses || "—"}</td>
@@ -448,7 +541,9 @@ export default function LeagueDesk({
           </div>
         ) : (
           <p className="mt-3 leading-7 text-neutral-700">
-            Pennant Race standings are coming in the next Sports Desk data update.
+            The current local MLB report does not include verified standings.
+            Scores and reporting above remain available without estimated records
+            or invented games-back figures.
           </p>
         )}
       </section>

@@ -83,6 +83,26 @@ export default function SportsDeskPage() {
         </div>
       </header>
 
+      <nav
+        aria-label="Sports Desk sections"
+        className="border-b border-neutral-300 bg-white"
+      >
+        <div className="mx-auto flex max-w-7xl gap-x-5 gap-y-2 overflow-x-auto px-4 py-3 text-sm font-black text-neutral-700 sm:flex-wrap sm:px-5">
+          <a href="#top-stories" className="shrink-0 hover:text-red-700">
+            Top Stories
+          </a>
+          <a href="#scoreboard" className="shrink-0 hover:text-red-700">
+            Scoreboard
+          </a>
+          <a href="#pennant-race" className="shrink-0 hover:text-red-700">
+            Pennant Race
+          </a>
+          <a href="#editorial-standards" className="shrink-0 hover:text-red-700">
+            Editorial Standards
+          </a>
+        </div>
+      </nav>
+
       <div className="mx-auto max-w-7xl space-y-7 px-4 py-6 sm:px-5 sm:py-8">
         <aside
           aria-label="Sponsor opportunity"
@@ -98,7 +118,10 @@ export default function SportsDeskPage() {
 
         <LeagueDesk leagueKey="mlb" leagueName="MLB" report={report} />
 
-        <section className="rounded-2xl border border-neutral-800 bg-neutral-950 p-5 text-white sm:p-6">
+        <section
+          id="editorial-standards"
+          className="scroll-mt-4 rounded-2xl border border-neutral-800 bg-neutral-950 p-5 text-white sm:p-6"
+        >
           <h2 className="text-xl font-black">Editorial Standards</h2>
           <ul className="mt-4 grid gap-2 text-sm leading-6 text-neutral-300 sm:grid-cols-2">
             <li>Source headlines are preserved.</li>
