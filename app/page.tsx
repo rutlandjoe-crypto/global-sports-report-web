@@ -2,6 +2,7 @@
 import path from "path";
 import EditorialStandard from "@/components/EditorialStandard";
 import Link from "next/link";
+import SportsDeskDirectory from "@/components/sports-desk/SportsDeskDirectory";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -1167,6 +1168,10 @@ export default function Page() {
       </header>
 
       <EditorialStandard />
+
+      <div className="mx-auto max-w-7xl px-5 pt-6">
+        <SportsDeskDirectory />
+      </div>
 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">

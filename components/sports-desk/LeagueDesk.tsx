@@ -4,6 +4,32 @@ export type LeagueDeskProps = {
   leagueKey: string;
   leagueName: string;
   report: JsonObject;
+  config?: LeagueDeskConfig;
+};
+
+export type LeagueDeskConfig = {
+  slug: string;
+  sport:
+    | "baseball"
+    | "football"
+    | "college-football"
+    | "soccer"
+    | "wnba"
+    | "fantasy";
+  headlinesTitle: string;
+  scoreboardTitle: string;
+  scoreboardEmpty: string;
+  showScoreboard?: boolean;
+  standingsTitle: string;
+  standingsAnchor: string;
+  standingsEmpty: string;
+  fallbackHeadline: string;
+  fallbackSummary: string;
+  fallbackHeadlines?: Array<{
+    label: string;
+    headline: string;
+    summary: string;
+  }>;
 };
 
 type Story = {
@@ -30,21 +56,58 @@ type Game = {
 };
 
 type Standing = {
-  league: "American League" | "National League";
+  group: string;
+  division: string;
   team: string;
   wins: string;
   losses: string;
+  ties: string;
   pct: string;
   gamesBack: string;
 };
 
+const MLB_CONFIG: LeagueDeskConfig = {
+  slug: "mlb",
+  sport: "baseball",
+  headlinesTitle: "MLB Headlines",
+  scoreboardTitle: "Today’s MLB Board",
+  scoreboardEmpty:
+    "The current Sports report does not include a complete MLB game board. Headlines and editorial context remain available above.",
+  standingsTitle: "Pennant Race",
+  standingsAnchor: "pennant-race",
+  standingsEmpty:
+    "The current local MLB report does not include verified standings. Scores and reporting above remain available without estimated records or invented games-back figures.",
+  fallbackHeadline: "MLB coverage",
+  fallbackSummary: "",
+};
+
 const GENERIC_TITLES = new Set([
   "mlb",
+  "nfl",
+  "ncaafb",
+  "college football",
+  "soccer",
+  "wnba",
+  "fantasy",
   "mlb report",
+  "nfl report",
+  "college football report",
+  "soccer report",
+  "wnba report",
+  "fantasy report",
   "sports newsroom update",
   "latest mlb news",
+  "latest nfl news",
+  "latest soccer news",
+  "latest wnba news",
+  "latest fantasy news",
   "mlb news",
+  "nfl news",
   "baseball news",
+  "football news",
+  "soccer news",
+  "wnba news",
+  "fantasy news",
 ]);
 
 function object(value: unknown): JsonObject {
@@ -109,6 +172,14 @@ function validUrl(value: unknown): string {
   }
 }
 
+function sourceFromUrl(value: string): string {
+  try {
+    return new URL(value).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
 function formatEt(value: unknown): string {
   const raw = text(value);
   if (!raw) return "";
@@ -130,18 +201,32 @@ function normalizeHeadline(value: string): string {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
-function isMlbFocused(headline: string, snapshot: string): boolean {
+function isLeagueFocused(
+  headline: string,
+  snapshot: string,
+  sport: LeagueDeskConfig["sport"]
+): boolean {
   const prominentText = `${headline} ${snapshot}`;
-  return !/\b(nfl|nba|wnba|nhl|mls|ncaa|college football|college basketball|football|basketball|hockey|soccer|golf|tennis|softball|ausl|super bowl|stanley cup|march madness|lebron(?: james)?|patrick mahomes|caitlin clark)\b/i.test(
-    prominentText
-  );
+  const excluded =
+    sport === "football"
+      ? /\b(mlb|nba|wnba|nhl|mls|college football|college basketball|baseball|basketball|hockey|soccer|golf|tennis|softball|stanley cup|march madness)\b/i
+      : sport === "fantasy"
+        ? /$^/
+      : sport === "wnba"
+        ? /\b(nfl|nba|mlb|nhl|mls|college football|college basketball|baseball|hockey|soccer|golf|tennis|softball|super bowl|stanley cup|march madness)\b/i
+      : sport === "soccer"
+        ? /\b(nfl|mlb|nba|wnba|nhl|college football|college basketball|baseball|basketball|hockey|golf|tennis|softball|super bowl|stanley cup|march madness)\b/i
+      : sport === "college-football"
+        ? /\b(nfl|mlb|nba|wnba|nhl|mls|college basketball|baseball|basketball|hockey|soccer|golf|tennis|softball|super bowl|stanley cup|march madness)\b/i
+        : /\b(nfl|nba|wnba|nhl|mls|ncaa|college football|college basketball|football|basketball|hockey|soccer|golf|tennis|softball|ausl|super bowl|stanley cup|march madness|lebron(?: james)?|patrick mahomes|caitlin clark)\b/i;
+  return !excluded.test(prominentText);
 }
 
 function isGenericMatchup(headline: string): boolean {
   return /^[\w .'-]+(?:\s+at|\s+vs\.?)\s+[\w .'-]+$/i.test(headline.trim());
 }
 
-function storyRank(story: Story): number {
+function storyRank(story: Story, sport: LeagueDeskConfig["sport"]): number {
   const value = `${story.storyType} ${story.headline} ${story.snapshot}`.toLowerCase();
   let score = 0;
   if (/\b(trade deadline|trade rumors?|trades?|dealt|acquir(?:e|ed|ing)|on the block)\b/.test(value)) score += 90;
@@ -152,11 +237,22 @@ function storyRank(story: Story): number {
   if (/\b(final|wins?|won|beats?|defeats?|walk-?off|no-hitter|perfect game)\b/.test(value)) score += 45;
   if (/\b(live|in progress|inning)\b/.test(value)) score += 35;
   if (/\b(analysis|feature|legacy|preview)\b/.test(value)) score += 10;
+  if (
+    sport !== "baseball" &&
+    /\b(quarterback|training camp|depth chart|coaching|draft|contract|roster|division)\b/.test(
+      value
+    )
+  ) {
+    score += 30;
+  }
   if (isGenericMatchup(story.headline)) score -= 80;
   return score;
 }
 
-function storiesFromLeague(league: JsonObject): Story[] {
+function storiesFromLeague(
+  league: JsonObject,
+  config: LeagueDeskConfig
+): Story[] {
   const candidates = [...array(league.stories), ...array(league.cards)];
   const seenUrls = new Set<string>();
   const seenHeadlines = new Set<string>();
@@ -172,11 +268,22 @@ function storiesFromLeague(league: JsonObject): Story[] {
       ]);
       const url = validUrl(item.url) || validUrl(item.source_url) || validUrl(item.link);
       const storyType = firstText(item, ["story_type", "type"]);
+      const rawSnapshot = firstText(item, [
+        "snapshot",
+        "summary",
+        "description",
+      ]);
+      const snapshot =
+        rawSnapshot.length > 200 && /(?:,\s*|\s)\w{1,2}$/i.test(rawSnapshot)
+          ? ""
+          : rawSnapshot;
       return {
         headline,
         url,
-        source: firstText(item, ["source_label", "source", "publisher"]),
-        snapshot: firstText(item, ["snapshot", "summary", "description"]),
+        source:
+          firstText(item, ["source_label", "source", "publisher"]) ||
+          sourceFromUrl(url),
+        snapshot,
         why: list(item.why_it_matters ?? item.whyItMatters),
         watch: list(item.what_to_watch ?? item.whatToWatch),
         storyType,
@@ -186,8 +293,17 @@ function storiesFromLeague(league: JsonObject): Story[] {
     .filter((story) => {
       const normalized = normalizeHeadline(story.headline);
       if (!normalized || !story.url || GENERIC_TITLES.has(normalized)) return false;
-      if (!isMlbFocused(story.headline, story.snapshot)) return false;
+      if (story.storyType.toLowerCase() === "schedule") return false;
+      if (!isLeagueFocused(story.headline, story.snapshot, config.sport)) {
+        return false;
+      }
       if (/\b(schedule|scoreboard)(?:\s+(?:hub|updates?|today))?\b/i.test(story.headline)) {
+        return false;
+      }
+      if (
+        isGenericMatchup(story.headline) &&
+        (/\/scoreboard\b/i.test(story.url) || /\bboard for\b/i.test(story.snapshot))
+      ) {
         return false;
       }
       if (seenUrls.has(story.url) || seenHeadlines.has(normalized)) return false;
@@ -195,8 +311,8 @@ function storiesFromLeague(league: JsonObject): Story[] {
       seenHeadlines.add(normalized);
       return true;
     })
-    .sort((a, b) => storyRank(b) - storyRank(a))
-    .slice(0, 6);
+    .sort((a, b) => storyRank(b, config.sport) - storyRank(a, config.sport))
+    .slice(0, 7);
 }
 
 function gamesFrom(value: unknown): Game[] {
@@ -219,16 +335,19 @@ function gamesFrom(value: unknown): Game[] {
     .filter((game) => game.away && game.home);
 }
 
-function standingLeague(value: unknown): Standing["league"] | "" {
+function standingGroup(value: unknown): string {
   const candidate = text(value).toLowerCase();
+  if (candidate === "afc" || candidate.includes("american football")) return "AFC";
+  if (candidate === "nfc" || candidate.includes("national football")) return "NFC";
   if (candidate === "al" || candidate.includes("american")) return "American League";
   if (candidate === "nl" || candidate.includes("national")) return "National League";
-  return "";
+  return text(value);
 }
 
 function rowsFromStandingValue(
   value: unknown,
-  inheritedLeague: Standing["league"] | "" = ""
+  inheritedGroup = "",
+  inheritedDivision = ""
 ): Standing[] {
   if (Array.isArray(value)) {
     return value.flatMap((item) => {
@@ -237,8 +356,11 @@ function rowsFromStandingValue(
       if (nested) {
         return rowsFromStandingValue(
           nested,
-          standingLeague(row.league ?? row.league_name ?? row.name) ||
-            inheritedLeague
+          standingGroup(
+            row.conference ?? row.league ?? row.league_name ?? inheritedGroup
+          ),
+          firstText(row, ["division", "division_name", "name"]) ||
+            inheritedDivision
         );
       }
 
@@ -246,11 +368,15 @@ function rowsFromStandingValue(
       const team =
         firstText(row, ["team_name", "name", "club"]) ||
         firstText(teamObject, ["displayName", "shortDisplayName", "name"]);
-      const leagueName =
-        standingLeague(row.league ?? row.league_name ?? row.league_abbr) ||
-        inheritedLeague;
+      const group =
+        standingGroup(
+          row.conference ?? row.league ?? row.league_name ?? row.league_abbr
+        ) || inheritedGroup;
+      const division =
+        firstText(row, ["division", "division_name"]) || inheritedDivision;
       const wins = firstText(row, ["wins", "w"]);
       const losses = firstText(row, ["losses", "l"]);
+      const ties = firstText(row, ["ties", "t"]);
       const pct = firstText(row, [
         "pct",
         "percentage",
@@ -259,15 +385,23 @@ function rowsFromStandingValue(
       ]);
       const gamesBack = firstText(row, ["games_back", "gb", "gamesBehind"]);
 
-      return team && leagueName && wins && losses
-        ? [{ league: leagueName, team, wins, losses, pct, gamesBack }]
+      return team && wins && losses
+        ? [{ group, division, team, wins, losses, ties, pct, gamesBack }]
         : [];
     });
   }
 
-  return Object.entries(object(value)).flatMap(([key, nested]) =>
-    rowsFromStandingValue(nested, standingLeague(key) || inheritedLeague)
-  );
+  return Object.entries(object(value)).flatMap(([key, nested]) => {
+    const keyGroup = standingGroup(key);
+    const looksLikeGroup =
+      /^(al|nl|afc|nfc)$/i.test(key) ||
+      /\b(american|national)(?: football)? (?:league|conference)\b/i.test(key);
+    return rowsFromStandingValue(
+      nested,
+      looksLikeGroup ? keyGroup : inheritedGroup,
+      looksLikeGroup ? inheritedDivision : key
+    );
+  });
 }
 
 function standingRows(league: JsonObject): Standing[] {
@@ -351,13 +485,32 @@ export default function LeagueDesk({
   leagueKey,
   leagueName,
   report,
+  config: suppliedConfig,
 }: LeagueDeskProps) {
+  const config = suppliedConfig ?? MLB_CONFIG;
   const sections = object(report.sections);
   const league = object(sections[leagueKey]);
   const leagueSections = object(league.sections);
-  const stories = storiesFromLeague(league);
-  const leadStory = stories[0];
-  const headlineStories = leadStory ? stories.slice(1, 5) : stories.slice(0, 5);
+  const liveStories = storiesFromLeague(league, config);
+  const fallbackStories: Story[] = (config.fallbackHeadlines ?? []).map(
+    (story) => ({
+      headline: story.headline,
+      url: "",
+      source: story.label,
+      snapshot: story.summary,
+      why: [],
+      watch: [],
+      storyType: "Coverage lane",
+      updated: "",
+    })
+  );
+  const stories = liveStories.length
+    ? [...liveStories, ...fallbackStories.slice(0, Math.max(0, 7 - liveStories.length))]
+    : fallbackStories;
+  const leadStory = liveStories[0];
+  const headlineStories = liveStories.length
+    ? stories.slice(1, 7)
+    : fallbackStories.slice(0, 6);
   const live = gamesFrom(
     leagueSections.today_live ?? league.live_games ?? league.games_live
   );
@@ -374,32 +527,47 @@ export default function LeagueDesk({
     formatEt(report.updated_at ?? report.generated_at ?? report.published_at);
   const reportHeadline = firstText(league, ["headline"]);
   const reportSnapshot = firstText(league, ["snapshot", "summary"]);
-  const reportIsMlbFocused = isMlbFocused(reportHeadline, reportSnapshot);
+  const reportIsLeagueFocused = isLeagueFocused(
+    reportHeadline,
+    reportSnapshot,
+    config.sport
+  );
   const headline =
     leadStory?.headline ||
-    (reportIsMlbFocused ? reportHeadline : "") ||
-    `${leagueName} coverage`;
+    (reportIsLeagueFocused ? reportHeadline : "") ||
+    config.fallbackHeadline;
   const snapshot =
-    leadStory?.snapshot || (reportIsMlbFocused ? reportSnapshot : "");
+    leadStory?.snapshot ||
+    (reportIsLeagueFocused ? reportSnapshot : "") ||
+    config.fallbackSummary;
   const why = leadStory?.why.length ? leadStory.why : list(league.why_it_matters);
   const watch = leadStory?.watch.length
     ? leadStory.watch
     : list(league.what_to_watch);
-  const leadUrl = leadStory?.url || (reportIsMlbFocused ? leagueLeadUrl : "");
+  const leadUrl =
+    leadStory?.url || (reportIsLeagueFocused ? leagueLeadUrl : "");
+  const hasSourcedLead = Boolean(
+    leadStory || (reportIsLeagueFocused && reportHeadline)
+  );
   const leadSource = leadStory?.source || leagueName;
-  const leadUpdated = leadStory?.updated || updated;
+  const leadUpdated = leadStory?.updated || (hasSourcedLead ? updated : "");
   const hasGames = live.length + finals.length + upcoming.length > 0;
 
   return (
     <>
       <section
         id="top-stories"
-        aria-labelledby="mlb-lead"
+        aria-labelledby={`${config.slug}-lead`}
         className="gsr-card scroll-mt-4 p-5 sm:p-7"
       >
-        <p className="gsr-section-label">{leagueName}</p>
-        <h2 id="mlb-lead" className="mt-2 text-2xl font-black sm:text-3xl">
-          {headline || `${leagueName} coverage`}
+        <p className="gsr-section-label">
+          {hasSourcedLead ? leagueName : `${leagueName} Coverage Lane`}
+        </p>
+        <h2
+          id={`${config.slug}-lead`}
+          className="mt-2 text-2xl font-black sm:text-3xl"
+        >
+          {headline || config.fallbackHeadline}
         </h2>
         {snapshot ? (
           <p className="mt-4 max-w-4xl text-base leading-7 text-neutral-700">
@@ -428,29 +596,33 @@ export default function LeagueDesk({
       </section>
 
       {headlineStories.length ? (
-        <section
-          aria-labelledby="mlb-headlines"
-          className="scroll-mt-4"
-        >
-          <h2 id="mlb-headlines" className="text-2xl font-black">
-            MLB Headlines
+        <section aria-labelledby={`${config.slug}-headlines`} className="scroll-mt-4">
+          <h2 id={`${config.slug}-headlines`} className="text-2xl font-black">
+            {config.headlinesTitle}
           </h2>
           <div className="mt-4 grid gap-4 lg:grid-cols-2">
             {headlineStories.map((story) => (
-              <article key={story.url} className="gsr-card min-w-0 p-5">
+              <article
+                key={`${story.headline}-${story.url}`}
+                className="gsr-card min-w-0 p-5"
+              >
                 <div className="flex flex-wrap gap-2 text-xs font-bold uppercase tracking-wide text-neutral-500">
                   {story.storyType ? <span>{story.storyType}</span> : null}
                   {story.source ? <span>• {story.source}</span> : null}
                 </div>
                 <h3 className="mt-2 break-words text-xl font-black leading-tight">
-                  <a
-                    href={story.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-red-700"
-                  >
-                    {story.headline}
-                  </a>
+                  {story.url ? (
+                    <a
+                      href={story.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-red-700"
+                    >
+                      {story.headline}
+                    </a>
+                  ) : (
+                    story.headline
+                  )}
                 </h3>
                 {story.snapshot ? (
                   <p className="mt-3 text-sm leading-6 text-neutral-700">
@@ -461,90 +633,120 @@ export default function LeagueDesk({
                   <DetailList title="Why It Matters" items={story.why} />
                   <DetailList title="What To Watch" items={story.watch} />
                 </div>
-                <div className="mt-4 flex flex-wrap items-center gap-4 text-sm">
-                  <a
-                    href={story.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-bold text-red-700 hover:underline"
-                  >
-                    Read original source
-                  </a>
-                  {story.updated ? (
-                    <span className="text-neutral-500">Updated: {story.updated}</span>
-                  ) : null}
-                </div>
+                {story.url || story.updated ? (
+                  <div className="mt-4 flex flex-wrap items-center gap-4 text-sm">
+                    {story.url ? (
+                      <a
+                        href={story.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-bold text-red-700 hover:underline"
+                      >
+                        Read original source
+                      </a>
+                    ) : null}
+                    {story.updated ? (
+                      <span className="text-neutral-500">
+                        Updated: {story.updated}
+                      </span>
+                    ) : null}
+                  </div>
+                ) : null}
               </article>
             ))}
           </div>
         </section>
       ) : null}
 
-      <section
-        id="scoreboard"
-        aria-labelledby="mlb-board"
-        className="gsr-card scroll-mt-4 p-5 sm:p-7"
-      >
-        <h2 id="mlb-board" className="text-2xl font-black">
-          Today&apos;s MLB Board
-        </h2>
-        {hasGames ? (
-          <div className="mt-5 space-y-6">
-            <GameGroup title="Live" games={live} />
-            <GameGroup title="Final" games={finals} />
-            <GameGroup title="Upcoming" games={upcoming} />
-          </div>
-        ) : (
-          <p className="mt-3 leading-7 text-neutral-700">
-            The current Sports report does not include a complete MLB game board.
-            Headlines and editorial context remain available above.
-          </p>
-        )}
-      </section>
+      {config.showScoreboard !== false ? (
+        <section
+          id="scoreboard"
+          aria-labelledby={`${config.slug}-board`}
+          className="gsr-card scroll-mt-4 p-5 sm:p-7"
+        >
+          <h2 id={`${config.slug}-board`} className="text-2xl font-black">
+            {config.scoreboardTitle}
+          </h2>
+          {hasGames ? (
+            <div className="mt-5 space-y-6">
+              <GameGroup title="Live" games={live} />
+              <GameGroup title="Final" games={finals} />
+              <GameGroup title="Upcoming" games={upcoming} />
+            </div>
+          ) : (
+            <p className="mt-3 leading-7 text-neutral-700">
+              {config.scoreboardEmpty}
+            </p>
+          )}
+        </section>
+      ) : null}
 
       <section
-        id="pennant-race"
-        aria-labelledby="pennant-race-heading"
+        id={config.standingsAnchor}
+        aria-labelledby={`${config.standingsAnchor}-heading`}
         className="gsr-card scroll-mt-4 p-5 sm:p-7"
       >
-        <h2 id="pennant-race-heading" className="text-2xl font-black">
-          Pennant Race
+        <h2
+          id={`${config.standingsAnchor}-heading`}
+          className="text-2xl font-black"
+        >
+          {config.standingsTitle}
         </h2>
         {standings.length ? (
           <div className="mt-4 overflow-x-auto">
             <table className="w-full min-w-[30rem] border-collapse text-left text-sm">
               <thead>
                 <tr className="border-b border-neutral-300">
-                  <th className="p-2">League</th>
+                  <th className="p-2">
+                    {config.sport !== "baseball" ? "Conference" : "League"}
+                  </th>
+                  {config.sport !== "baseball" ? (
+                    <th className="p-2">Division</th>
+                  ) : null}
                   <th className="p-2">Team</th>
                   <th className="p-2">W</th>
                   <th className="p-2">L</th>
+                  {config.sport !== "baseball" ? (
+                    <th className="p-2">T</th>
+                  ) : null}
                   <th className="p-2">Pct.</th>
-                  <th className="p-2">GB</th>
+                  {config.sport === "baseball" ? (
+                    <th className="p-2">GB</th>
+                  ) : null}
                 </tr>
               </thead>
               <tbody>
                 {standings.map((row) => (
                   <tr key={row.team} className="border-b border-neutral-200">
                     <td className="whitespace-nowrap p-2">
-                      {row.league === "American League" ? "AL" : "NL"}
+                      {row.group === "American League"
+                        ? "AL"
+                        : row.group === "National League"
+                          ? "NL"
+                          : row.group || "—"}
                     </td>
+                    {config.sport !== "baseball" ? (
+                      <td className="whitespace-nowrap p-2">
+                        {row.division || "—"}
+                      </td>
+                    ) : null}
                     <th className="p-2 font-bold">{row.team}</th>
                     <td className="p-2">{row.wins || "—"}</td>
                     <td className="p-2">{row.losses || "—"}</td>
+                    {config.sport !== "baseball" ? (
+                      <td className="p-2">{row.ties || "—"}</td>
+                    ) : null}
                     <td className="p-2">{row.pct || "—"}</td>
-                    <td className="p-2">{row.gamesBack || "—"}</td>
+                    {config.sport === "baseball" ? (
+                      <td className="p-2">{row.gamesBack || "—"}</td>
+                    ) : null}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
         ) : (
-          <p className="mt-3 leading-7 text-neutral-700">
-            The current local MLB report does not include verified standings.
-            Scores and reporting above remain available without estimated records
-            or invented games-back figures.
-          </p>
+          <p className="mt-3 leading-7 text-neutral-700">{config.standingsEmpty}</p>
         )}
       </section>
     </>

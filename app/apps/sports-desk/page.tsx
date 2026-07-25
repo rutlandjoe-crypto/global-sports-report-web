@@ -1,10 +1,12 @@
-import fs from "fs";
-import path from "path";
 import type { Metadata } from "next";
 import Link from "next/link";
 import LeagueDesk from "@/components/sports-desk/LeagueDesk";
-
-type JsonObject = Record<string, unknown>;
+import SportsDeskDirectory from "@/components/sports-desk/SportsDeskDirectory";
+import { LIVE_SPORTS_DESKS } from "@/components/sports-desk/desks";
+import {
+  freshestLeagueUpdate,
+  readSportsReport,
+} from "@/app/apps/report";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -12,46 +14,15 @@ export const revalidate = 0;
 export const metadata: Metadata = {
   title: "GSR Sports Desk | Global Sports Report",
   description:
-    "MLB headlines, scores, standings and editorial context from Global Sports Report.",
+    "Explore NFL, college football, MLB, soccer, WNBA, and fantasy sports coverage from Global Sports Report.",
   alternates: {
     canonical: "https://www.globalsportsreport.com/apps/sports-desk",
   },
 };
 
-function readReport(): JsonObject {
-  try {
-    const reportPath = path.join(process.cwd(), "public", "latest_report.json");
-    return JSON.parse(fs.readFileSync(reportPath, "utf8")) as JsonObject;
-  } catch {
-    return {};
-  }
-}
-
-function object(value: unknown): JsonObject {
-  return value && typeof value === "object" && !Array.isArray(value)
-    ? (value as JsonObject)
-    : {};
-}
-
-function text(value: unknown): string {
-  return typeof value === "string" ? value.trim() : "";
-}
-
-function freshestUpdate(report: JsonObject): string {
-  const mlb = object(object(report.sections).mlb);
-  const raw =
-    text(mlb.updated_at) ||
-    text(mlb.generated_at) ||
-    text(mlb.published_at) ||
-    text(report.updated_at) ||
-    text(report.generated_at) ||
-    text(report.published_at);
-  return raw.replace(/\bEST\b|\bEDT\b/i, "ET");
-}
-
 export default function SportsDeskPage() {
-  const report = readReport();
-  const updated = freshestUpdate(report);
+  const report = readSportsReport();
+  const updated = freshestLeagueUpdate(report, "mlb");
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-neutral-100 text-neutral-950">
@@ -60,7 +31,17 @@ export default function SportsDeskPage() {
           <Link href="/" className="hover:text-red-300">
             ← Global Sports Report
           </Link>
-          <span className="text-red-300">Phase 1: MLB</span>
+          <div className="flex flex-wrap items-center gap-4">
+            {LIVE_SPORTS_DESKS.map((desk) => (
+              <Link
+                key={desk.href}
+                href={desk.href}
+                className="text-red-300 hover:text-white"
+              >
+                {desk.shortName}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -104,6 +85,11 @@ export default function SportsDeskPage() {
       </nav>
 
       <div className="mx-auto max-w-7xl space-y-7 px-4 py-6 sm:px-5 sm:py-8">
+        <SportsDeskDirectory
+          heading="Choose Your Sports Desk"
+          description="Six dedicated GSR desks bring together sourced headlines, scores, standings, strategy, and editorial context."
+        />
+
         <aside
           aria-label="Sponsor opportunity"
           className="rounded-2xl border border-neutral-300 bg-white p-5 shadow-sm"
