@@ -349,23 +349,41 @@ def build_key_data(item: dict[str, Any], vertical: str = "sports") -> list[str]:
     return _not_headline(lines, headline)[:6]
 
 
+def _story_subject(item: dict[str, Any]) -> str:
+    text = clean_text(f"{item.get('headline', '')} {item.get('snapshot', '')} {item.get('content', '')}")
+    people = _extract_people(text)
+    teams = _extract_teams(text)
+    return (people or teams or [clean_text(item.get("league") or item.get("title") or "This story")])[0]
+
+
 def build_why_it_matters(item: dict[str, Any], vertical: str = "sports") -> list[str]:
     text = clean_text(f"{item.get('headline', '')} {item.get('snapshot', '')} {item.get('content', '')}").lower()
-    if any(w in text for w in ["playoff", "seed", "standings", "race", "record"]):
-        return ["This changes the standings frame and helps editors decide whether the card is a race, seeding or next-matchup story."]
-    if any(w in text for w in ["injury", "il", "questionable", "out", "probable"]):
-        return ["Availability and starter context can reshape lineup decisions, roster coverage, betting value and fantasy relevance."]
-    if any(w in text for w in ["odds", "bet", "line", "spread", "fantasy"]):
-        return ["The market signal is useful when it is paired with verified team, injury and matchup context."]
-    return ["The card gives the desk quick score, roster, matchup or schedule context without forcing editors through a full report blob."]
+    subject = _story_subject(item)
+    if any(w in text for w in ["injury", "injured", "surgery", "questionable", "disabled list", " il ", "out for"]):
+        return [f"{subject}'s verified status can affect availability, lineup roles and the options available to the team."]
+    if any(w in text for w in ["trade", "traded", "signed", "signing", "waived", "released", "contract", "transfer"]):
+        return [f"The {subject} move can change roster roles, depth and the decisions surrounding the next competition window."]
+    if any(w in text for w in ["playoff", "seed", "standings", "race", "wild card", "table", "postseason", "pennant"]):
+        return [f"The {subject} development carries race, seeding or table context documented in the source report."]
+    if any(w in text for w in ["fantasy", "waiver", "start/sit", "start sit", "draft rankings", "lineup"]):
+        return [f"The {subject} report may change fantasy value through role, availability, ranking or roster-management context."]
+    if any(w in text for w in ["score", "beat", "defeated", "won", "lost", "final"]):
+        return [f"The verified {subject} result provides current performance and competition context for the next matchup."]
+    return [f"The verified {subject} development adds current context to the next decision, matchup or league storyline."]
 
 
 def build_what_to_watch(item: dict[str, Any], vertical: str = "sports") -> list[str]:
-    return [
-        "Monitor final scores, lineup confirmations, injury/status notes and coach/player comments.",
-        "Track the next game or matchup context before elevating standings, betting or fantasy implications.",
-    ]
-
+    text = clean_text(f"{item.get('headline', '')} {item.get('snapshot', '')} {item.get('content', '')}").lower()
+    subject = _story_subject(item)
+    if any(w in text for w in ["injury", "injured", "surgery", "questionable", "out for"]):
+        return [f"Watch official updates on {subject} for confirmed timing, participation and resulting role changes."]
+    if any(w in text for w in ["trade", "traded", "signed", "waived", "released", "contract", "transfer"]):
+        return [f"Watch for official {subject} transaction terms, corresponding roster moves and sourced role information."]
+    if any(w in text for w in ["playoff", "seed", "standings", "race", "wild card", "table", "postseason"]):
+        return [f"Watch the next verified {subject} result and updated standings before extending the race conclusion."]
+    if any(w in text for w in ["fantasy", "waiver", "start/sit", "start sit", "draft", "lineup"]):
+        return [f"Watch confirmed {subject} usage, injury status, depth-chart movement and updated expert rankings."]
+    return [f"Watch the cited source for the next confirmed {subject} development and documented competitive consequence."]
 
 def normalize_card(item: dict[str, Any], vertical: str = "sports") -> dict[str, Any]:
     card = dict(item)

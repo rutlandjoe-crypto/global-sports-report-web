@@ -13,9 +13,11 @@ from sports_desk_pipeline import (
     deduplicate_stories,
     diversify_stories,
     build_pipeline,
+    build_homepage_payload,
     load_config,
     normalize_url,
     parse_feed,
+    rank_homepage_stories,
     story_quality,
     story_relevance,
     validate_payload,
@@ -120,7 +122,7 @@ class SportsDeskPipelineTests(unittest.TestCase):
             "WNBA",
             "https://wnba.example/all-star",
         )
-        self.assertLess(story_relevance(baseball, fantasy), 0)
+        self.assertGreater(story_relevance(baseball, fantasy), 0)
         self.assertGreater(story_relevance(all_star, wnba), 0)
 
     def test_geographic_sourcing_profiles_have_required_groups(self) -> None:
@@ -201,8 +203,8 @@ class SportsDeskPipelineTests(unittest.TestCase):
 
         data = {
             "scores": [],
-            "schedule": [{"id": "1", "away": "A", "home": "B"}],
-            "standings": [{"team": "A"}, {"team": "B"}],
+            "schedule": [{"id": "1", "away": "A", "home": "B", "source": "ESPN", "source_url": "https://espn.example/1"}],
+            "standings": [{"team": "A", "source": "ESPN", "source_url": "https://espn.example/standings"}, {"team": "B", "source": "ESPN", "source_url": "https://espn.example/standings"}],
         }
         with tempfile.TemporaryDirectory() as directory, patch(
             "sports_desk_pipeline.fetch_feed", side_effect=fake_feed
@@ -237,12 +239,12 @@ class SportsDeskPipelineTests(unittest.TestCase):
 
         first_data = {
             "scores": [],
-            "schedule": [{"id": "old-game"}],
-            "standings": [{"team": "A"}, {"team": "B"}],
+            "schedule": [{"id": "old-game", "source": "ESPN", "source_url": "https://espn.example/old"}],
+            "standings": [{"team": "A", "source": "ESPN", "source_url": "https://espn.example/standings"}, {"team": "B", "source": "ESPN", "source_url": "https://espn.example/standings"}],
         }
         second_data = {
             "scores": [],
-            "schedule": [{"id": "new-game"}],
+            "schedule": [{"id": "new-game", "source": "ESPN", "source_url": "https://espn.example/new"}],
             "standings": [],
         }
         with tempfile.TemporaryDirectory() as directory, patch(
@@ -283,8 +285,8 @@ class SportsDeskPipelineTests(unittest.TestCase):
             "modules": {"top-stories": {"items": stories}},
             "data": {
                 "scores": [],
-                "schedule": [{"id": "1"}],
-                "standings": [{"team": "A"}, {"team": "B"}],
+                "schedule": [{"id": "1", "source": "ESPN", "source_url": "https://espn.example/1"}],
+                "standings": [{"team": "A", "source": "ESPN", "source_url": "https://espn.example/standings"}, {"team": "B", "source": "ESPN", "source_url": "https://espn.example/standings"}],
             },
             "data_updated_at": {"scores": now.isoformat(), "standings": now.isoformat()},
             "diagnostics": {"source_success_count": 1},
@@ -294,6 +296,50 @@ class SportsDeskPipelineTests(unittest.TestCase):
         current["generated_at"] = (now + timedelta(seconds=1)).isoformat()
         with self.assertRaisesRegex(RuntimeError, "advanced without new"):
             validate_payload(current, config, previous=previous, now=now)
+
+
+    def test_fantasy_template_deduplication_blocks_repetitive_matchup_cards(self) -> None:
+        fantasy = next(item for item in self.desks if item["id"] == "fantasy")
+        first = story("Fantasy matchup outlook for Broncos running backs", "FantasyPros", "https://fantasy.example/broncos")
+        second = story("Fantasy matchup outlook for Raiders running backs", "FantasyPros", "https://fantasy.example/raiders")
+        first["desk"] = second["desk"] = "fantasy"
+        first["summary"] = second["summary"] = "Availability and role questions shape this fantasy matchup; watch practice notes and lineup decisions."
+        self.assertEqual(1, len(deduplicate_stories([first, second], fantasy)))
+
+    def test_homepage_hero_prefers_newer_qualified_major_story(self) -> None:
+        now = datetime.now(timezone.utc)
+        older = story("NFL team opens routine voluntary practice session", "Regional Reporter", "https://older.example/item")
+        older["published_at"] = (now - timedelta(hours=8)).isoformat()
+        newer = story("WNBA playoff championship race changes after verified result", "WNBA", "https://newer.example/item")
+        newer.update({"desk": "wnba", "source_group": "official", "published_at": (now - timedelta(hours=1)).isoformat(), "lanes": ["championship-race"]})
+        ranked = rank_homepage_stories([older, newer], now)
+        self.assertEqual(newer["id"], ranked[0]["id"])
+
+    def test_homepage_hero_is_independent_of_array_order(self) -> None:
+        now = datetime.now(timezone.utc)
+        items = []
+        for index, headline in enumerate((
+            "MLB postseason race shifts after verified result",
+            "NFL injury update changes roster availability",
+            "WNBA playoff picture receives a verified update",
+        )):
+            item = story(headline, "Associated Press", f"https://order.example/{index}")
+            item["published_at"] = (now - timedelta(hours=index + 1)).isoformat()
+            items.append(item)
+        forward = rank_homepage_stories(items, now)[0]["id"]
+        reverse = rank_homepage_stories(list(reversed(items)), now)[0]["id"]
+        self.assertEqual(forward, reverse)
+
+    def test_homepage_material_timestamp_does_not_advance_on_noop(self) -> None:
+        now = datetime.now(timezone.utc)
+        item = story("NFL playoff race receives a verified league update", "NFL", "https://timestamp.example/item")
+        item["published_at"] = (now - timedelta(hours=1)).isoformat()
+        desks = {"nfl": {"stories": [item]}}
+        first = build_homepage_payload(desks, {}, now)
+        previous = {"homepage": first}
+        second = build_homepage_payload(desks, previous, now + timedelta(minutes=30))
+        self.assertEqual(first["updated_at"], second["updated_at"])
+        self.assertEqual(first["hero"]["id"], second["hero"]["id"])
 
 if __name__ == "__main__":
     unittest.main()

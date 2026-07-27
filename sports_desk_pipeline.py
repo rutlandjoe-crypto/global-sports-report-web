@@ -280,6 +280,12 @@ def same_event(left: dict[str, Any], right: dict[str, Any]) -> bool:
     similarity = title_similarity(left.get("title"), right.get("title"))
     if similarity >= 0.72:
         return True
+    summary_similarity = title_similarity(left.get("summary"), right.get("summary"))
+    # Repetitive generated matchup cards often vary only the team/player name.
+    # Treat a shared editorial template as a duplicate even when the headline
+    # substitutions lower title-token similarity.
+    if summary_similarity >= 0.82 or (summary_similarity >= 0.68 and similarity >= 0.45):
+        return True
     shared_teams = set(left.get("teams", [])) & set(right.get("teams", []))
     shared_people = set(left.get("players", [])) & set(right.get("players", []))
     left_time = parse_datetime(left.get("published_at"))
@@ -393,16 +399,24 @@ def parse_espn_games(payload: dict[str, Any]) -> tuple[list[dict[str, Any]], lis
         teams = {entry.get("homeAway"): entry for entry in competitors}
         away, home = teams.get("away", competitors[0]), teams.get("home", competitors[-1])
         status = competition.get("status", {}).get("type", {})
+        event_url = next((link.get("href") for link in event.get("links", []) if link.get("href")), "")
         game = {
             "id": str(event.get("id", "")),
             "name": clean_text(event.get("name")),
+            "competition": clean_text(
+                event.get("league", {}).get("name")
+                or event.get("league", {}).get("abbreviation")
+                or competition.get("type", {}).get("abbreviation")
+            ),
             "away": clean_text(away.get("team", {}).get("displayName")),
             "home": clean_text(home.get("team", {}).get("displayName")),
             "away_score": clean_text(away.get("score")),
             "home_score": clean_text(home.get("score")),
             "status": clean_text(status.get("shortDetail") or status.get("detail")),
             "starts_at": event.get("date"),
-            "url": next((link.get("href") for link in event.get("links", []) if link.get("href")), ""),
+            "url": event_url,
+            "source": "ESPN",
+            "source_url": event_url or "https://www.espn.com/scoreboard",
         }
         (scores if status.get("state") in {"in", "post"} else schedule).append(game)
     return scores, schedule
@@ -413,22 +427,26 @@ def parse_mlb_games(payload: dict[str, Any]) -> tuple[list[dict[str, Any]], list
     for day in payload.get("dates", []):
         for game in day.get("games", []):
             status = clean_text(game.get("status", {}).get("abstractGameState"))
+            game_url = f"https://www.mlb.com/gameday/{game.get('gamePk')}"
             normalized = {
                 "id": str(game.get("gamePk", "")),
                 "name": f"{game.get('teams', {}).get('away', {}).get('team', {}).get('name', '')} at {game.get('teams', {}).get('home', {}).get('team', {}).get('name', '')}",
+                "competition": "Major League Baseball",
                 "away": clean_text(game.get("teams", {}).get("away", {}).get("team", {}).get("name")),
                 "home": clean_text(game.get("teams", {}).get("home", {}).get("team", {}).get("name")),
                 "away_score": clean_text(game.get("teams", {}).get("away", {}).get("score")),
                 "home_score": clean_text(game.get("teams", {}).get("home", {}).get("score")),
                 "status": status,
                 "starts_at": game.get("gameDate"),
-                "url": f"https://www.mlb.com/gameday/{game.get('gamePk')}",
+                "url": game_url,
+                "source": "MLB",
+                "source_url": game_url,
             }
             (scores if status in {"Live", "Final"} else schedule).append(normalized)
     return scores, schedule
 
 
-def parse_standings(payload: dict[str, Any]) -> list[dict[str, Any]]:
+def parse_standings(payload: dict[str, Any], source_url: str = "") -> list[dict[str, Any]]:
     output = []
     if isinstance(payload.get("children"), list):
         groups = payload["children"]
@@ -441,6 +459,8 @@ def parse_standings(payload: dict[str, Any]) -> list[dict[str, Any]]:
                     "win_percentage": stats.get("winPercent") or stats.get("winPercentage") or "",
                     "games_back": stats.get("gamesBehind") or "",
                     "group": clean_text(group.get("name")),
+                    "source": "ESPN",
+                    "source_url": source_url,
                 })
     for record in payload.get("records", []):
         for row in record.get("teamRecords", []):
@@ -450,9 +470,30 @@ def parse_standings(payload: dict[str, Any]) -> list[dict[str, Any]]:
                 "win_percentage": clean_text(row.get("winningPercentage")),
                 "games_back": clean_text(row.get("gamesBack")),
                 "group": clean_text(record.get("division", {}).get("name")),
+                "source": "MLB",
+                "source_url": source_url,
             })
     return [row for row in output if row["team"]]
 
+
+def parse_rankings(payload: dict[str, Any], source_url: str = "") -> list[dict[str, Any]]:
+    polls = payload.get("rankings") or []
+    poll = next((item for item in polls if item.get("ranks")), None)
+    if not poll:
+        return []
+    output = []
+    for row in poll.get("ranks", []):
+        team = row.get("team", {})
+        output.append({
+            "rank": row.get("current"),
+            "previous_rank": row.get("previous"),
+            "team": clean_text(team.get("location") or team.get("displayName") or team.get("name")),
+            "record": clean_text(row.get("recordSummary")),
+            "poll": clean_text(poll.get("name") or poll.get("shortName")),
+            "source": "ESPN",
+            "source_url": source_url,
+        })
+    return [row for row in output if row["rank"] and row["team"]]
 
 def fetch_json(url: str, timeout: int) -> dict[str, Any]:
     return json.loads(fetch_bytes(url, timeout).decode("utf-8"))
@@ -461,7 +502,7 @@ def fetch_json(url: str, timeout: int) -> dict[str, Any]:
 def fetch_desk_data(
     desk: dict[str, Any], timeout: int
 ) -> tuple[dict[str, Any], list[str], dict[str, bool]]:
-    data = {"scores": [], "schedule": [], "standings": []}
+    data = {"scores": [], "schedule": [], "standings": [], "rankings": []}
     errors: list[str] = []
     provider_ok: dict[str, bool] = {}
     for kind, url in desk.get("data_providers", {}).items():
@@ -472,8 +513,11 @@ def fetch_desk_data(
                 data["scores"], data["schedule"] = parser(payload)
                 provider_ok[kind] = bool(data["scores"] or data["schedule"])
             elif kind == "standings":
-                data["standings"] = parse_standings(payload)
+                data["standings"] = parse_standings(payload, url)
                 provider_ok[kind] = bool(data["standings"])
+            elif kind == "rankings":
+                data["rankings"] = parse_rankings(payload, url)
+                provider_ok[kind] = bool(data["rankings"])
             else:
                 provider_ok[kind] = False
                 errors.append(f"{kind}: unsupported data provider kind")
@@ -543,6 +587,119 @@ def build_modules(
     return modules
 
 
+HOMEPAGE_SIGNIFICANCE = {
+    "championship": 8,
+    "world cup": 8,
+    "playoff": 7,
+    "postseason": 7,
+    "title": 6,
+    "record": 5,
+    "trade": 5,
+    "traded": 5,
+    "injury": 4,
+    "injured": 4,
+    "surgery": 4,
+    "fired": 4,
+    "hired": 4,
+    "suspended": 4,
+    "expansion": 4,
+    "all-star": 3,
+    "rankings": 3,
+}
+
+
+def homepage_significance(story: dict[str, Any]) -> int:
+    text = f"{story.get('title', '')} {story.get('summary', '')}".lower()
+    return min(20, sum(weight for signal, weight in HOMEPAGE_SIGNIFICANCE.items() if signal in text))
+
+
+def homepage_source_quality(story: dict[str, Any]) -> int:
+    group_score = {"official": 4, "national": 3, "specialist": 2, "local": 2, "europe": 3, "americas": 2, "africa_asia": 2}
+    publisher = clean_text(story.get("publisher")).lower()
+    established = ("associated press", "reuters", "bbc", "espn", "nfl", "mlb", "wnba", "ncaa", "fifa", "uefa")
+    return group_score.get(story.get("source_group"), 1) + int(any(name in publisher for name in established))
+
+
+def rank_homepage_stories(stories: list[dict[str, Any]], now: datetime | None = None) -> list[dict[str, Any]]:
+    now = now or datetime.now(timezone.utc)
+    qualified = [
+        story for story in stories
+        if normalize_url(story.get("canonical_url") or story.get("url"))
+        and parse_datetime(story.get("published_at"))
+        and now - parse_datetime(story.get("published_at")) <= timedelta(hours=96)
+    ]
+    if not qualified:
+        return []
+
+    deduped: list[dict[str, Any]] = []
+    for story in sorted(qualified, key=lambda item: normalize_url(item.get("url"))):
+        if not any(same_event(story, existing) for existing in deduped):
+            deduped.append(story)
+
+    latest = max(parse_datetime(item["published_at"]) for item in deduped)
+    eligible = [
+        item for item in deduped
+        if latest - parse_datetime(item["published_at"]) <= timedelta(hours=36)
+    ]
+
+    def ranking_key(story: dict[str, Any]) -> tuple[int, int, int, int, float, str]:
+        published = parse_datetime(story["published_at"])
+        freshness_band = int((latest - published).total_seconds() // (3 * 3600))
+        global_relevance = int(bool(set(story.get("lanes", [])) & {
+            "championship-race", "playoff-race", "wild-card-picture", "division-races",
+            "international-soccer", "world-cup", "league-business", "trades", "injuries",
+        }))
+        return (
+            -freshness_band,
+            homepage_significance(story),
+            homepage_source_quality(story),
+            global_relevance,
+            published.timestamp(),
+            normalize_url(story.get("url")),
+        )
+
+    return sorted(eligible, key=ranking_key, reverse=True)
+
+
+def build_homepage_payload(
+    desks: dict[str, Any], previous: dict[str, Any], now: datetime
+) -> dict[str, Any]:
+    ranked = rank_homepage_stories(
+        [story for desk in desks.values() for story in desk.get("stories", [])],
+        now,
+    )
+    if not ranked:
+        return previous.get("homepage", {})
+
+    selected: list[dict[str, Any]] = []
+    desk_counts: Counter[str] = Counter()
+    publisher_counts: Counter[str] = Counter()
+    for story in ranked:
+        desk_id = clean_text(story.get("desk")) or "other"
+        publisher = clean_text(story.get("publisher")) or "Unknown"
+        if desk_counts[desk_id] >= 3 or publisher_counts[publisher] >= 2:
+            continue
+        selected.append(story)
+        desk_counts[desk_id] += 1
+        publisher_counts[publisher] += 1
+        if len(selected) >= 12:
+            break
+    if ranked[0] not in selected:
+        selected.insert(0, ranked[0])
+
+    previous_homepage = previous.get("homepage", {})
+    semantic = [{key: item.get(key) for key in ("id", "title", "url", "published_at")} for item in selected]
+    previous_semantic = [
+        {key: item.get(key) for key in ("id", "title", "url", "published_at")}
+        for item in previous_homepage.get("stories", [])
+    ]
+    updated_at = (
+        previous_homepage.get("updated_at")
+        if previous_semantic and _stable_hash(semantic) == _stable_hash(previous_semantic)
+        else now.isoformat()
+    )
+    return {"hero": ranked[0], "stories": selected, "updated_at": updated_at}
+
 def atomic_write(path: Path, payload: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=path.parent, delete=False) as handle:
@@ -558,12 +715,16 @@ def _stable_hash(value: Any) -> str:
 
 
 def payload_signature(payload: dict[str, Any]) -> str:
-    semantic = {
+    semantic_desks = {
         desk_id: {"stories": desk.get("stories", []), "data": desk.get("data", {})}
         for desk_id, desk in sorted(payload.get("desks", {}).items())
     }
-    return _stable_hash(semantic)
-
+    homepage = payload.get("homepage", {})
+    semantic_homepage = [
+        {key: item.get(key) for key in ("id", "title", "url", "published_at")}
+        for item in homepage.get("stories", [])
+    ]
+    return _stable_hash({"desks": semantic_desks, "homepage": semantic_homepage})
 
 def validate_payload(
     payload: dict[str, Any],
@@ -603,17 +764,31 @@ def validate_payload(
             if not published or now - published > timedelta(hours=defaults["recency_hours"]):
                 errors.append(f"{desk_id}: stale/invalid story timestamp: {story.get('title', '<untitled>')}")
                 break
+            if not normalize_url(story.get("canonical_url") or story.get("url")):
+                errors.append(f"{desk_id}: story has no valid original-source URL: {story.get('title', '<untitled>')}")
+                break
 
         diagnostics = desk.get("diagnostics", {})
         if require_live_sources and diagnostics.get("source_success_count", 0) < 1:
             errors.append(f"{desk_id}: source ingestion failed for every configured feed")
 
         data = desk.get("data", {})
+        optional_providers = set(desk_config.get("optional_data_providers", []))
         for kind in desk_config.get("data_providers", {}):
-            if kind == "scores" and not (data.get("scores") or data.get("schedule")):
+            has_data = bool(data.get("scores") or data.get("schedule")) if kind == "scores" else bool(data.get(kind))
+            if not has_data and kind in optional_providers:
+                continue
+            if kind == "scores" and not has_data:
                 errors.append(f"{desk_id}: scoreboard and schedule data are both missing")
-            if kind == "standings" and not data.get("standings"):
-                errors.append(f"{desk_id}: standings data is missing")
+            if kind != "scores" and not has_data:
+                errors.append(f"{desk_id}: {kind} data is missing")
+            rows = (
+                [*data.get("scores", []), *data.get("schedule", [])]
+                if kind == "scores"
+                else data.get(kind, [])
+            )
+            if any(not clean_text(row.get("source")) or not normalize_url(row.get("source_url")) for row in rows):
+                errors.append(f"{desk_id}: {kind} data is missing verified provider provenance")
             updated = parse_datetime(desk.get("data_updated_at", {}).get(kind))
             if not updated:
                 errors.append(f"{desk_id}: {kind} data timestamp is missing")
@@ -690,9 +865,12 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
                 LOG.warning("%s using last known good stories after an underfilled refresh", desk_id)
 
         if offline:
-            data = previous_desk.get("data", {"scores": [], "schedule": [], "standings": []})
+            data = previous_desk.get("data", {"scores": [], "schedule": [], "standings": [], "rankings": []})
             data_errors: list[str] = []
-            provider_ok = {kind: bool(data.get(kind)) for kind in desk.get("data_providers", {})}
+            provider_ok = {
+                kind: bool(data.get("scores") or data.get("schedule")) if kind == "scores" else bool(data.get(kind))
+                for kind in desk.get("data_providers", {})
+            }
         else:
             data, data_errors, provider_ok = fetch_desk_data(desk, defaults["request_timeout_seconds"])
         for error in data_errors:
@@ -704,35 +882,35 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
         data_fallbacks: list[str] = []
         for kind in desk.get("data_providers", {}):
             previous_time = parse_datetime(previous_data_times.get(kind) or previous.get("generated_at"))
+            current_value = (
+                {"scores": data.get("scores", []), "schedule": data.get("schedule", [])}
+                if kind == "scores"
+                else data.get(kind, [])
+            )
+            previous_value = (
+                {"scores": previous_data.get("scores", []), "schedule": previous_data.get("schedule", [])}
+                if kind == "scores"
+                else previous_data.get(kind, [])
+            )
             if provider_ok.get(kind):
-                current_value = (
-                    {"scores": data.get("scores", []), "schedule": data.get("schedule", [])}
-                    if kind == "scores"
-                    else data.get(kind, [])
-                )
-                previous_value = (
-                    {"scores": previous_data.get("scores", []), "schedule": previous_data.get("schedule", [])}
-                    if kind == "scores"
-                    else previous_data.get(kind, [])
-                )
                 data_updated_at[kind] = (
                     previous_time.isoformat()
                     if previous_time and _stable_hash(current_value) == _stable_hash(previous_value)
                     else now.isoformat()
                 )
                 continue
-            can_restore = previous_time and now - previous_time <= timedelta(hours=defaults["stale_fallback_hours"])
+
+            can_restore = bool(previous_time and now - previous_time <= timedelta(hours=defaults["stale_fallback_hours"]))
             if kind == "scores" and can_restore and (previous_data.get("scores") or previous_data.get("schedule")):
                 data["scores"] = previous_data.get("scores", [])
                 data["schedule"] = previous_data.get("schedule", [])
-            elif kind == "standings" and can_restore and previous_data.get("standings"):
-                data["standings"] = previous_data["standings"]
+            elif kind != "scores" and can_restore and previous_data.get(kind):
+                data[kind] = previous_data[kind]
             else:
                 continue
             data_updated_at[kind] = previous_time.isoformat()
             data_fallbacks.append(kind)
             LOG.warning("%s preserving last known good %s data", desk_id, kind)
-
         old_story_hash = _stable_hash(previous_desk.get("stories", []))
         new_story_hash = _stable_hash(diversified)
         if old_story_hash == new_story_hash:
@@ -768,6 +946,8 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
                 "data_fallbacks": data_fallbacks,
             },
         }
+
+    result["homepage"] = build_homepage_payload(result["desks"], previous, now)
 
     signature = payload_signature(result)
     previous_signature = payload_signature(previous) if previous else ""

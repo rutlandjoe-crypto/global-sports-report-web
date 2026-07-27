@@ -742,11 +742,31 @@ def build_v3_why_it_matters(section_key: str, content: str) -> str:
         )
 
     if section_key == "fantasy":
+        lowered = combined.lower()
+        if signals["has_injury"]:
+            return (
+                "The fantasy impact is tied to verified availability and any documented change in role or opportunity. "
+                "Treat the status update as the fact; replacement value remains format- and roster-dependent."
+            )
+        if "waiver" in lowered:
+            return (
+                "The waiver angle matters when the source identifies a real role, usage or availability change. "
+                "Priority still depends on league format, roster need and the evidence behind the recommendation."
+            )
+        if any(term in lowered for term in ("draft", "rankings", "tiers", "best ball")):
+            return (
+                "The draft angle matters because the source is updating relative value, role or roster construction. "
+                "Use the cited format and assumptions before applying the ranking to another league."
+            )
+        if any(term in lowered for term in ("start/sit", "start sit", "lineup", "matchup")):
+            return (
+                "The lineup angle depends on the specific matchup and the source's stated role or usage evidence. "
+                "A recommendation is analysis, not a guaranteed outcome."
+            )
         return (
-            f"The fantasy angle matters because role clarity often arrives before the box score fully explains it. "
-            f"Usage, matchup volume, and injury replacements can point to changing value before it becomes obvious."
+            "The fantasy relevance comes from the role, usage or roster-impact evidence in the source. "
+            "Value should move only as far as that verified context supports."
         )
-
     if signals["has_standings"]:
         return (
             f"This {label} item matters because it connects the result to {stake}, not just the final line. "

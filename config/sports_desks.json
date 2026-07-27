@@ -68,9 +68,11 @@
         {"name": "College football specialists", "publisher": "College football specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=college%20football%20%28site%3Aon3.com%20OR%20site%3A247sports.com%29&hl=en-US&gl=US&ceid=US%3Aen"},
         {"name": "College football local discovery", "publisher": "Local and regional", "group": "local", "url": "https://news.google.com/rss/search?q=college%20football%20%28site%3Aajc.com%20OR%20site%3Acleveland.com%20OR%20site%3Aoregonlive.com%29&hl=en-US&gl=US&ceid=US%3Aen"}
       ],
+      "optional_data_providers": ["rankings"],
       "data_providers": {
         "scores": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
-        "standings": "https://site.api.espn.com/apis/v2/sports/football/college-football/standings"
+        "standings": "https://site.api.espn.com/apis/v2/sports/football/college-football/standings",
+        "rankings": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings"
       }
     },
     {
@@ -136,8 +138,8 @@
       "geographic_profile": "us",
       "search_terms": ["fantasy football", "fantasy baseball", "fantasy sports", "waiver wire", "start sit"],
       "required_signals": ["fantasy", "waiver wire", "start/sit", "start sit", "sleepers", "projections"],
-      "qualification_signals": ["fantasy football", "nfl", "quarterback", "running back", "wide receiver", "tight end", "half-ppr", "ppr", "superflex"],
-      "excluded_signals": ["fantasy novel", "fantasy film", "fantasy baseball", "fantasy basketball", "fantasy hockey", "fantasy soccer", "college fantasy football", "baseball", "basketball", "nba", "mlb", "pitcher", "hitter", "serie a", "lazio", "torino", "fiorentina"],
+      "qualification_signals": ["fantasy football", "fantasy baseball", "nfl", "mlb", "quarterback", "running back", "wide receiver", "tight end", "pitcher", "hitter", "half-ppr", "ppr", "superflex", "roto"],
+      "excluded_signals": ["fantasy novel", "fantasy film", "fantasy basketball", "fantasy hockey", "fantasy soccer", "college fantasy football", "basketball", "nba", "serie a", "lazio", "torino", "fiorentina"],
       "teams": [],
       "preferred_publishers": ["Yahoo Sports", "ESPN", "CBS Sports", "NBC Sports", "FantasyPros", "RotoWire"],
       "low_priority_publishers": ["FanSided"],
@@ -146,13 +148,10 @@
         {"name": "ESPN Fantasy discovery", "publisher": "ESPN", "group": "national", "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Ffantasy%20fantasy%20sports&hl=en-US&gl=US&ceid=US%3Aen"},
         {"name": "Yahoo Fantasy", "publisher": "Yahoo Sports", "group": "national", "url": "https://sports.yahoo.com/fantasy/rss/"},
         {"name": "Official league fantasy discovery", "publisher": "NFL / MLB", "group": "official", "url": "https://news.google.com/rss/search?q=%28site%3Anfl.com%2Ffantasy%20OR%20site%3Amlb.com%2Ffantasy%29%20fantasy&hl=en-US&gl=US&ceid=US%3Aen"},
-        {"name": "Fantasy specialists", "publisher": "Fantasy specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=fantasy%20sports%20%28site%3Afantasypros.com%20OR%20site%3Arotowire.com%29&hl=en-US&gl=US&ceid=US%3Aen"},
+        {"name": "Fantasy specialists", "publisher": "Fantasy specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=%28%22fantasy%20football%22%20OR%20%22fantasy%20baseball%22%29%20%28site%3Afantasypros.com%20OR%20site%3Arotowire.com%29&hl=en-US&gl=US&ceid=US%3Aen"},
         {"name": "Fantasy local discovery", "publisher": "Local and regional", "group": "local", "url": "https://news.google.com/rss/search?q=%22fantasy%20football%22%20%28site%3Acleveland.com%20OR%20site%3Anj.com%29&hl=en-US&gl=US&ceid=US%3Aen"}
       ],
-      "data_providers": {
-        "scores": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
-        "standings": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings"
-      }
+      "data_providers": {}
     },
     {
       "id": "wnba",
@@ -235,6 +234,9 @@
       {"id": "trending-players", "label": "Trending Players", "maximum": 5, "signals": ["fantasy riser", "fantasy faller", "stock up", "stock down", "breakout", "sleeper"]},
       {"id": "matchups", "label": "Matchups", "maximum": 5, "signals": ["fantasy matchup", "favorable matchup", "matchup ranking", "start sit", "start/sit"]},
       {"id": "draft-prep", "label": "Draft Prep", "maximum": 5, "signals": ["draft prep", "mock draft", "draft strategy", "draft rankings", "ppr rankings", "fantasy draft"]},
+      {"id": "rankings", "label": "Rankings", "maximum": 5, "signals": ["fantasy rankings", "rankings", "ranked", "tiers", "top 100", "top 200"]},
+      {"id": "roles", "label": "Roles & Usage", "maximum": 5, "signals": ["role", "usage", "target share", "snap share", "batting order", "rotation spot", "closer", "playing time"]},
+      {"id": "lineup", "label": "Lineup Decisions", "maximum": 5, "signals": ["lineup", "start sit", "start/sit", "bench", "flex", "two-start", "daily fantasy"]},
       {"id": "dynasty", "label": "Dynasty", "maximum": 5, "signals": ["dynasty", "rookie draft", "taxi squad", "keeper league"]},
       {"id": "best-ball", "label": "Best Ball", "maximum": 5, "signals": ["best ball", "best-ball"]},
       {"id": "injury-replacements", "label": "Injury Replacements", "maximum": 5, "signals": ["injury replacement", "fantasy replacement", "handcuff", "replace injured", "next man up"]}
@@ -255,6 +257,7 @@
   "visibility": {
     "scores": {"minimum": 1},
     "schedule": {"minimum": 1},
-    "standings": {"minimum": 2}
+    "standings": {"minimum": 2},
+    "rankings": {"minimum": 5}
   }
 }
