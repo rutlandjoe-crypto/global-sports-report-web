@@ -35,10 +35,11 @@ SCRIPTS = [
     ("betting_odds.py", 240, False),
     ("global_sports_report.py", 180, True),
     ("build_distribution.py", 300, True),
+    ("sports_desk_pipeline.py", 180, True),
 ]
 
 ALWAYS_RUN = {"global_sports_report.py", "build_distribution.py"}
-CRITICAL_SCRIPTS = {"global_sports_report.py"}
+CRITICAL_SCRIPTS = {"global_sports_report.py", "sports_desk_pipeline.py"}
 NON_CRITICAL_FAILURES = {
     "get_mlb_advanced_report.py",
     "get_nba_advanced_report.py",

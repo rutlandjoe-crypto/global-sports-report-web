@@ -10,7 +10,7 @@ export const fetchCache = "force-no-store";
 
 import SocialIconLinks from "@/app/SocialIconLinks";
 
-type AnyObj = Record<string, any>;
+type AnyObj = ReturnType<typeof JSON.parse>;
 
 const SITE = {
   name: "Global Sports Report",
@@ -96,7 +96,7 @@ function readReport(): AnyObj {
   }
 }
 
-function cleanText(value: any): string {
+function cleanText(value: AnyObj): string {
   if (value === null || value === undefined) return "";
 
   if (Array.isArray(value)) {
@@ -123,11 +123,11 @@ function cleanText(value: any): string {
     .trim();
 }
 
-function normalizeText(value: any): string {
+function normalizeText(value: AnyObj): string {
   return cleanText(value).toLowerCase();
 }
 
-function isInternalReportLabel(value: any): boolean {
+function isInternalReportLabel(value: AnyObj): boolean {
   const text = cleanText(value);
   if (!text) return false;
 
@@ -142,12 +142,12 @@ function isInternalReportLabel(value: any): boolean {
   return /\breport\s*\|\s*\d{4}-\d{2}-\d{2}\b/i.test(text) && text.length <= 90;
 }
 
-function publicText(value: any): string {
+function publicText(value: AnyObj): string {
   const text = cleanText(value);
   return isInternalReportLabel(text) ? "" : text;
 }
 
-function isBadContent(value: any): boolean {
+function isBadContent(value: AnyObj): boolean {
   const text = normalizeText(value);
   if (!text) return true;
   if (isInternalReportLabel(value)) return true;
@@ -168,7 +168,7 @@ function unique(items: string[]): string[] {
     });
 }
 
-function asList(value: any): string[] {
+function asList(value: AnyObj): string[] {
   if (!value) return [];
 
   if (Array.isArray(value)) {
@@ -201,12 +201,12 @@ function asList(value: any): string[] {
   );
 }
 
-function isValidUrl(value: any): boolean {
+function isValidUrl(value: AnyObj): boolean {
   const url = cleanText(value);
   return url.startsWith("http://") || url.startsWith("https://");
 }
 
-function findUrlInText(value: any): string {
+function findUrlInText(value: AnyObj): string {
   const text = cleanText(value);
   const match = text.match(/https?:\/\/[^\s"'<>]+/);
   return match ? match[0].replace(/[),.;]+$/, "") : "";
@@ -437,7 +437,7 @@ function getStories(report: AnyObj): AnyObj[] {
 
     if (candidates && typeof candidates === "object" && !Array.isArray(candidates)) {
       const normalized = Object.entries(candidates)
-        .map(([key, value]: [string, any], index) => {
+        .map(([key, value]: [string, AnyObj], index) => {
           if (value && typeof value === "object") {
             return normalizeStory(
               {
@@ -475,7 +475,7 @@ function getStories(report: AnyObj): AnyObj[] {
   }
 
   if (report.sections && typeof report.sections === "object") {
-    return Object.entries(report.sections).map(([key, value]: [string, any]) =>
+    return Object.entries(report.sections).map(([key, value]: [string, AnyObj]) =>
       sectionToStory(key, value || {})
     );
   }

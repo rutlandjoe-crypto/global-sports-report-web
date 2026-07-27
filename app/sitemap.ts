@@ -4,10 +4,16 @@ import { LIVE_SPORTS_DESKS } from "@/components/sports-desk/desks";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.globalsportsreport.com";
 
-  const sportsDeskRoutes = [
+  const sportsDeskRoutes = new Set([
     "/apps/sports-desk",
     ...LIVE_SPORTS_DESKS.map((desk) => desk.href),
-  ];
+    "/nfl",
+    "/college-football",
+    "/mlb",
+    "/soccer",
+    "/fantasy",
+    "/wnba",
+  ]);
 
   return [
     {
@@ -16,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "hourly",
       priority: 1,
     },
-    ...sportsDeskRoutes.map((route) => ({
+    ...Array.from(sportsDeskRoutes).map((route) => ({
       url: `${baseUrl}${route}`,
       lastModified: new Date(),
       changeFrequency: "hourly" as const,

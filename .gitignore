@@ -42,3 +42,7 @@ next-env.d.ts
 
 .vercel
 .env*.local
+
+# local Sports Desk pipeline cache
+/.cache/
+__pycache__/

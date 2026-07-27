@@ -63,14 +63,17 @@ jobs:
           python master_runner.py
           echo "SPORTS BLOCK FINISH"
 
+      - name: Validate all six Sports Desks
+        run: python validate_sports_desks.py
+
       - name: Stage website files
         run: |
-          git add public/latest_report.json public/latest_report.txt public/global_sports_report.txt || true
+          git add public/latest_report.json public/sports_desks.json public/latest_report.txt public/global_sports_report.txt || true
 
       - name: Commit updated site data if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com}"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if git diff --cached --quiet; then
             echo "No site-data changes to commit."
