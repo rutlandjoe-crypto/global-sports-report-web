@@ -1,4 +1,4 @@
-﻿name: Global Sports Agent Hourly Update
+name: Global Sports Agent Hourly Update
 
 on:
   workflow_dispatch:
@@ -78,6 +78,18 @@ jobs:
 
           Write-Host "Copied Sports report from $source"
 
+      - name: Build six Sports Desks
+        working-directory: sports-site
+        shell: pwsh
+        run: |
+          python sports_desk_pipeline.py
+
+      - name: Validate all six Sports Desks
+        working-directory: sports-site
+        shell: pwsh
+        run: |
+          python validate_sports_desks.py
+
       - name: Validate Sports Agent output
         shell: pwsh
         run: |
@@ -154,6 +166,20 @@ jobs:
               raise SystemExit(f"Too few Sports newsroom items: {len(newsroom)}")
 
           print(f"Sports Agent OK: timestamp={updated}, age_hours={age_hours:.2f}, cards={len(cards)}, newsroom={len(newsroom)}, signals={len(signals)}")
+
+          with open("sports-site/public/sports_desks.json", "r", encoding="utf-8") as f:
+              desks = json.load(f).get("desks", {})
+
+          required = {"nfl", "college-football", "mlb", "soccer", "fantasy", "wnba"}
+          missing = required - set(desks)
+          if missing:
+              raise SystemExit(f"Missing Sports Desks: {sorted(missing)}")
+          for desk_id in required:
+              desk = desks[desk_id]
+              if len(desk.get("stories", [])) < 3:
+                  raise SystemExit(f"Underfilled Sports Desk: {desk_id}")
+              if "top-stories" not in desk.get("modules", {}):
+                  raise SystemExit(f"Missing primary module: {desk_id}")
           '@
 
           Set-Content -Path validate_sports_agent.py -Value $script -Encoding utf8
@@ -166,7 +192,7 @@ jobs:
           git config user.name "GSR Sports Agent"
           git config user.email "actions@github.com"
 
-          git add public/latest_report.json latest_report.json
+          git add public/latest_report.json public/sports_desks.json latest_report.json
 
           $changes = git diff --cached --name-only
 
