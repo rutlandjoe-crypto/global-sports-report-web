@@ -63,8 +63,8 @@ export function readSportsDeskPayload(): SportsDeskPayload {
   }
 }
 
-export function getSportsDesk(id: string): { desk: SportsDesk | null; generatedAt: string } {
+export function getSportsDesk(id: string): { desk: SportsDesk | null; contentUpdatedAt: string } {
   const payload = readSportsDeskPayload();
   const desk = payload.desks?.[id] ?? null;
-  return { desk, generatedAt: desk?.updated_at ?? payload.generated_at ?? "" };
+  return { desk, contentUpdatedAt: desk?.content_updated_at ?? "" };
 }

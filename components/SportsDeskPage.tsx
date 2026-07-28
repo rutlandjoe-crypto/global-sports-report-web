@@ -21,8 +21,9 @@ const DATA_SECTIONS: Record<string, DataSection[]> = {
     { id: "standings", label: "Standings", kind: "standings", sources: ["standings"], providerKey: "standings" },
   ],
   "college-football": [
-    { id: "schedule", label: "Upcoming Schedule", kind: "games", sources: ["schedule"], providerKey: "scores" },
+    { id: "scoreboard", label: "Scoreboard & Upcoming Schedule", kind: "games", sources: ["scores", "schedule"], providerKey: "scores" },
     { id: "rankings", label: "Rankings", kind: "rankings", sources: ["rankings"], providerKey: "rankings" },
+    { id: "standings", label: "Conference Standings", kind: "standings", sources: ["standings"], providerKey: "standings" },
   ],
   mlb: [
     { id: "scoreboard", label: "Current & Recent Scoreboard", kind: "games", sources: ["scores", "schedule"], providerKey: "scores" },
@@ -153,11 +154,11 @@ function RankingRow({ item }: { item: Record<string, unknown> }) {
 }
 
 function EmptyState({ label }: { label: string }) {
-  return <p className="rounded-lg border border-dashed border-[#8fb3d9] bg-[#f8fbff] p-4 text-sm leading-6 text-slate-600">Current verified {label.toLowerCase()} data is unavailable. This section will refresh after the next successful provider update.</p>;
+  return <p className="rounded-lg border border-dashed border-[#8fb3d9] bg-[#f8fbff] p-4 text-sm leading-6 text-slate-600">Current verified {label.toLowerCase()} data is unavailable. This section will refresh when the provider publishes usable data.</p>;
 }
 
 export default function SportsDeskPage({ deskId }: { deskId: string }) {
-  const { desk, generatedAt } = getSportsDesk(deskId);
+  const { desk, contentUpdatedAt } = getSportsDesk(deskId);
   if (!desk || !desk.modules["top-stories"]) {
     return (
       <main className="min-h-screen bg-[#f5f7fb] px-5 py-16 text-slate-950">
@@ -208,7 +209,7 @@ export default function SportsDeskPage({ deskId }: { deskId: string }) {
           </div>
           <h1 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">GSR {desk.label} Desk</h1>
           <p className="mt-4 max-w-4xl text-sm font-medium tracking-wide text-slate-300 sm:text-base">{desk.competitions.join(" • ")}</p>
-          {readableDate(generatedAt) ? <p className="mt-3 text-xs text-slate-400">Content and data refreshed {readableDate(generatedAt)}</p> : null}
+          {readableDate(contentUpdatedAt) ? <p className="mt-3 text-xs text-slate-400">Editorial selection updated {readableDate(contentUpdatedAt)}</p> : null}
         </div>
       </header>
 
@@ -252,6 +253,7 @@ export default function SportsDeskPage({ deskId }: { deskId: string }) {
           <div className="mt-8 grid gap-5 lg:grid-cols-2 xl:grid-cols-3">
             {dataSections.map((section) => {
               const items = section.sources.flatMap((source) => desk.data[source] ?? []);
+              const providers = Array.from(new Set(items.map((item) => String(item.source ?? "").trim()).filter(Boolean)));
               const sourceUrl = items.find((item) => validExternalUrl(item.source_url))?.source_url;
               const dataUpdated = readableDate(desk.data_updated_at?.[section.providerKey]);
               return (
@@ -259,6 +261,7 @@ export default function SportsDeskPage({ deskId }: { deskId: string }) {
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#315c8d]">Data Desk</p>
                   <h2 className="mt-2 text-xl font-bold text-[#0f1c2e]">{section.label}</h2>
                   {dataUpdated ? <p className="mt-1 text-xs text-slate-500">Verified data updated {dataUpdated}</p> : null}
+                  {providers.length ? <p className="mt-1 text-xs text-slate-500">Source: {providers.join(", ")}</p> : null}
                   <div className="mt-4 max-h-96 space-y-2 overflow-auto">
                     {!items.length ? <EmptyState label={section.label} /> : section.kind === "standings"
                       ? items.map((item, index) => <StandingRow key={`${String(item.team)}-${index}`} item={item} />)
@@ -266,7 +269,7 @@ export default function SportsDeskPage({ deskId }: { deskId: string }) {
                         ? items.map((item, index) => <RankingRow key={`${String(item.team)}-${index}`} item={item} />)
                         : items.map((item, index) => <GameRow key={`${String(item.id)}-${index}`} item={item} />)}
                   </div>
-                  {validExternalUrl(sourceUrl) ? <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex text-xs font-bold text-[#315c8d] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#315c8d]">View verified provider <span aria-hidden="true">↗</span></a> : null}
+                  {validExternalUrl(sourceUrl) ? <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex text-xs font-bold text-[#315c8d] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#315c8d]">View {providers.join(", ") || "verified provider"} source <span aria-hidden="true">↗</span></a> : null}
                 </section>
               );
             })}

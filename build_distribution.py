@@ -75,7 +75,9 @@ except Exception:
 # =============================================================================
 
 BASE_DIR = Path(__file__).resolve().parent
-WEB_DIR = Path(r"C:\Users\joeru\OneDrive\Desktop\global-sports-report-web")
+# This repository is the website checkout in production. Allow an explicit
+# override for legacy split-checkout setups without hard-coding one workstation.
+WEB_DIR = Path(os.getenv("GSR_WEB_DIR", str(BASE_DIR))).resolve()
 WEB_PUBLIC_DIR = WEB_DIR / "public"
 
 TITLE = "GLOBAL SPORTS REPORT"
@@ -1237,7 +1239,17 @@ def sync_website_files() -> list[Path]:
 # TELEGRAM / TWITTER
 # =============================================================================
 
+def social_posts_disabled() -> bool:
+    return any(
+        os.getenv(name, "").strip().lower() in {"1", "true", "yes", "on"}
+        for name in ("GSR_DISABLE_SOCIAL_POSTS", "DISTRIBUTION_DISABLE_POSTS")
+    )
+
+
 def send_telegram_message(text: str) -> bool:
+    if social_posts_disabled():
+        log("Telegram send skipped: social posting is disabled.")
+        return False
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
 
@@ -1299,6 +1311,9 @@ def split_for_telegram(text: str, max_len: int = 3900) -> list[str]:
 
 
 def send_twitter_thread(parts: list[str]) -> bool:
+    if social_posts_disabled():
+        log("X/Twitter send skipped: social posting is disabled.")
+        return False
     api_key = os.getenv("TWITTER_API_KEY", "").strip()
     api_secret = os.getenv("TWITTER_API_SECRET", "").strip()
     access_token = os.getenv("TWITTER_ACCESS_TOKEN", "").strip()

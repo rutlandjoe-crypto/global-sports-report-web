@@ -1187,7 +1187,7 @@ export default function Page() {
                 {SITE.tagline}
               </span>
               <span className="rounded-full bg-neutral-200 px-4 py-2 text-neutral-800">
-                Updated: {updated}
+                Editorial selection updated: {updated}
               </span>
             </div>
           </div>

@@ -62,7 +62,9 @@ def timestamp() -> str:
 def log(message: str, also_print: bool = True) -> None:
     line = f"[{timestamp()}] {message}"
     if also_print:
-        print(line, flush=True)
+        console_encoding = sys.stdout.encoding or "utf-8"
+        console_line = line.encode(console_encoding, errors="replace").decode(console_encoding)
+        print(console_line, flush=True)
 
     try:
         LOG_FILE.parent.mkdir(parents=True, exist_ok=True)

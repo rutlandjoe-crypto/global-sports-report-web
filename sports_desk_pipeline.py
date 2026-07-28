@@ -250,7 +250,11 @@ def is_valid_story(story: dict[str, Any], now: datetime, recency_hours: int) -> 
     if not normalize_url(story.get("canonical_url") or story.get("url")):
         return False
     published = parse_datetime(story.get("published_at"))
-    return bool(published and now - published <= timedelta(hours=recency_hours))
+    return bool(
+        published
+        and published <= now + timedelta(minutes=5)
+        and now - published <= timedelta(hours=recency_hours)
+    )
 
 
 def source_quality(story: dict[str, Any], desk: dict[str, Any]) -> int:
@@ -626,6 +630,7 @@ def rank_homepage_stories(stories: list[dict[str, Any]], now: datetime | None = 
         story for story in stories
         if normalize_url(story.get("canonical_url") or story.get("url"))
         and parse_datetime(story.get("published_at"))
+        and parse_datetime(story.get("published_at")) <= now + timedelta(minutes=5)
         and now - parse_datetime(story.get("published_at")) <= timedelta(hours=96)
     ]
     if not qualified:
@@ -761,7 +766,11 @@ def validate_payload(
             errors.append(f"{desk_id}: top-stories module is empty")
         for story in stories:
             published = parse_datetime(story.get("published_at"))
-            if not published or now - published > timedelta(hours=defaults["recency_hours"]):
+            if (
+                not published
+                or published > now + timedelta(minutes=5)
+                or now - published > timedelta(hours=defaults["recency_hours"])
+            ):
                 errors.append(f"{desk_id}: stale/invalid story timestamp: {story.get('title', '<untitled>')}")
                 break
             if not normalize_url(story.get("canonical_url") or story.get("url")):
@@ -769,7 +778,11 @@ def validate_payload(
                 break
 
         diagnostics = desk.get("diagnostics", {})
-        if require_live_sources and diagnostics.get("source_success_count", 0) < 1:
+        if (
+            require_live_sources
+            and diagnostics.get("source_success_count", 0) < 1
+            and not diagnostics.get("story_fallback_used")
+        ):
             errors.append(f"{desk_id}: source ingestion failed for every configured feed")
 
         data = desk.get("data", {})

@@ -41,7 +41,13 @@ class FrontendContractTests(unittest.TestCase):
     def test_empty_sections_render_truthful_state(self) -> None:
         self.assertIn("Current verified", self.source)
         self.assertIn("is unavailable", self.source)
-        self.assertIn("next successful provider update", self.source)
+        self.assertIn("when the provider publishes usable data", self.source)
+
+    def test_editorial_and_provider_timestamps_are_not_conflated(self) -> None:
+        self.assertIn("Editorial selection updated", self.source)
+        self.assertIn("Verified data updated", self.source)
+        self.assertIn("Source:", self.source)
+        self.assertNotIn("Content and data refreshed", self.source)
 
     def test_no_static_score_or_standing_rows_are_embedded(self) -> None:
         self.assertNotRegex(self.source, re.compile(r'away_score:\s*["\']\d'))

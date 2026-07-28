@@ -167,6 +167,12 @@ class SportsDeskPipelineTests(unittest.TestCase):
         feed = {"publisher": "Example", "group": "national", "name": "Example feed"}
         self.assertEqual([], parse_feed(payload, feed, "wnba"))
 
+    def test_materially_future_dated_story_cannot_rank_as_fresh(self) -> None:
+        future = story("NFL future-dated provider item is not yet publishable", "ESPN", "https://espn.example/future")
+        future["published_at"] = (datetime.now(timezone.utc) + timedelta(minutes=30)).isoformat()
+        current = story("NFL current verified provider item is publishable", "ESPN", "https://espn.example/current")
+        self.assertEqual([current["id"]], [item["id"] for item in rank_homepage_stories([future, current])])
+
     def test_fresh_relevant_story_outranks_old_preferred_publisher(self) -> None:
         fresh = story("NFL trade reshapes the Broncos depth chart", "Regional Reporter", "https://fresh.example/nfl")
         old = story("NFL training camp note from two days ago", "NFL", "https://old.example/nfl")
@@ -215,6 +221,56 @@ class SportsDeskPipelineTests(unittest.TestCase):
         self.assertEqual(3, len(payload["desks"]["wnba"]["stories"]))
         self.assertEqual(1, payload["desks"]["wnba"]["diagnostics"]["source_success_count"])
         self.assertTrue(payload["desks"]["wnba"]["diagnostics"]["source_errors"])
+
+    def test_recent_story_fallback_survives_a_total_feed_outage(self) -> None:
+        config = copy.deepcopy(self.config)
+        wnba = next(item for item in config["desks"] if item["id"] == "wnba")
+        config["desks"] = [wnba]
+        current_data = {
+            "scores": [],
+            "schedule": [{"id": "1", "source": "ESPN", "source_url": "https://espn.example/game"}],
+            "standings": [
+                {"team": "A", "source": "ESPN", "source_url": "https://espn.example/standings"},
+                {"team": "B", "source": "ESPN", "source_url": "https://espn.example/standings"},
+            ],
+            "rankings": [],
+        }
+
+        def current_feed(feed: dict, desk_id: str, timeout: int):
+            items = []
+            for index, headline in enumerate((
+                "WNBA Fever complete a major roster trade",
+                "WNBA Aces announce an injury update",
+                "WNBA Liberty hire a new assistant coach",
+            )):
+                item = story(headline, "ESPN", f"https://secondary.example/{index}")
+                item.update({"desk": desk_id, "feed": feed["name"], "source_group": feed["group"]})
+                items.append(item)
+            return items, None
+
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "desks.json"
+            with patch("sports_desk_pipeline.fetch_feed", side_effect=current_feed), patch(
+                "sports_desk_pipeline.fetch_desk_data",
+                return_value=(current_data, [], {"scores": True, "standings": True}),
+            ):
+                first = build_pipeline(config, output)
+            with patch(
+                "sports_desk_pipeline.fetch_feed",
+                return_value=([], "simulated total outage"),
+            ), patch(
+                "sports_desk_pipeline.fetch_desk_data",
+                return_value=(
+                    {"scores": [], "schedule": [], "standings": [], "rankings": []},
+                    ["simulated total outage"],
+                    {"scores": False, "standings": False},
+                ),
+            ):
+                second = build_pipeline(config, output)
+
+        self.assertEqual(first["desks"]["wnba"]["stories"], second["desks"]["wnba"]["stories"])
+        self.assertEqual(first["desks"]["wnba"]["data"], second["desks"]["wnba"]["data"])
+        self.assertEqual(first["generated_at"], second["generated_at"])
 
     def test_failed_provider_preserves_only_its_last_known_good_data(self) -> None:
         config = copy.deepcopy(self.config)

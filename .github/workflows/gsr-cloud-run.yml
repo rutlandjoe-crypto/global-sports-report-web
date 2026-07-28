@@ -83,7 +83,7 @@ jobs:
 
       - name: Push changes
         run: |
-          if git diff --cached --quiet && git diff --quiet; then
+          if [ "$(git rev-list --count origin/master..HEAD)" -eq 0 ]; then
             echo "Nothing to push."
           else
             git push origin HEAD:master
