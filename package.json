@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test:desks": "python -m unittest discover -s tests -v",
+    "generate:desks": "python sports_desk_pipeline.py"
   },
   "dependencies": {
     "@vercel/blob": "^2.3.3",

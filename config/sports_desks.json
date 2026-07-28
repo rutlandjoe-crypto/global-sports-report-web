@@ -68,9 +68,11 @@
         {"name": "College football specialists", "publisher": "College football specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=college%20football%20%28site%3Aon3.com%20OR%20site%3A247sports.com%29&hl=en-US&gl=US&ceid=US%3Aen"},
         {"name": "College football local discovery", "publisher": "Local and regional", "group": "local", "url": "https://news.google.com/rss/search?q=college%20football%20%28site%3Aajc.com%20OR%20site%3Acleveland.com%20OR%20site%3Aoregonlive.com%29&hl=en-US&gl=US&ceid=US%3Aen"}
       ],
+      "optional_data_providers": ["rankings"],
       "data_providers": {
         "scores": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
-        "standings": "https://site.api.espn.com/apis/v2/sports/football/college-football/standings"
+        "standings": "https://site.api.espn.com/apis/v2/sports/football/college-football/standings",
+        "rankings": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings"
       }
     },
     {
@@ -132,12 +134,12 @@
       "slug": "fantasy",
       "label": "Fantasy Sports",
       "sport": "multi-sport",
-      "competitions": ["NFL Fantasy", "MLB Fantasy", "WNBA Fantasy", "Soccer Fantasy"],
+      "competitions": ["Fantasy Football", "Fantasy Baseball", "Fantasy Basketball", "Fantasy Hockey", "Fantasy Soccer"],
       "geographic_profile": "us",
-      "search_terms": ["fantasy football", "fantasy baseball", "fantasy sports", "waiver wire", "start sit"],
+      "search_terms": ["fantasy football", "fantasy baseball", "fantasy basketball", "fantasy hockey", "fantasy soccer", "fantasy sports", "waiver wire", "start sit"],
       "required_signals": ["fantasy", "waiver wire", "start/sit", "start sit", "sleepers", "projections"],
-      "qualification_signals": ["fantasy football", "nfl", "quarterback", "running back", "wide receiver", "tight end", "half-ppr", "ppr", "superflex"],
-      "excluded_signals": ["fantasy novel", "fantasy film", "fantasy baseball", "fantasy basketball", "fantasy hockey", "fantasy soccer", "college fantasy football", "baseball", "basketball", "nba", "mlb", "pitcher", "hitter", "serie a", "lazio", "torino", "fiorentina"],
+      "qualification_signals": ["fantasy", "waiver wire", "start/sit", "start sit", "sleepers", "projections", "dfs", "daily fantasy"],
+      "excluded_signals": ["fantasy novel", "fantasy film"],
       "teams": [],
       "preferred_publishers": ["Yahoo Sports", "ESPN", "CBS Sports", "NBC Sports", "FantasyPros", "RotoWire"],
       "low_priority_publishers": ["FanSided"],
@@ -145,39 +147,36 @@
       "feeds": [
         {"name": "ESPN Fantasy discovery", "publisher": "ESPN", "group": "national", "url": "https://news.google.com/rss/search?q=site%3Aespn.com%2Ffantasy%20fantasy%20sports&hl=en-US&gl=US&ceid=US%3Aen"},
         {"name": "Yahoo Fantasy", "publisher": "Yahoo Sports", "group": "national", "url": "https://sports.yahoo.com/fantasy/rss/"},
-        {"name": "Official league fantasy discovery", "publisher": "NFL / MLB", "group": "official", "url": "https://news.google.com/rss/search?q=%28site%3Anfl.com%2Ffantasy%20OR%20site%3Amlb.com%2Ffantasy%29%20fantasy&hl=en-US&gl=US&ceid=US%3Aen"},
-        {"name": "Fantasy specialists", "publisher": "Fantasy specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=fantasy%20sports%20%28site%3Afantasypros.com%20OR%20site%3Arotowire.com%29&hl=en-US&gl=US&ceid=US%3Aen"},
-        {"name": "Fantasy local discovery", "publisher": "Local and regional", "group": "local", "url": "https://news.google.com/rss/search?q=%22fantasy%20football%22%20%28site%3Acleveland.com%20OR%20site%3Anj.com%29&hl=en-US&gl=US&ceid=US%3Aen"}
+        {"name": "Official league fantasy discovery", "publisher": "Official league fantasy", "group": "official", "url": "https://news.google.com/rss/search?q=%28site%3Anfl.com%2Ffantasy%20OR%20site%3Amlb.com%2Ffantasy%20OR%20site%3Anba.com%20OR%20site%3Anhl.com%20OR%20site%3Apremierleague.com%29%20fantasy&hl=en-US&gl=US&ceid=US%3Aen"},
+        {"name": "Multi-sport fantasy specialists", "publisher": "Fantasy specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=%28%22fantasy%20football%22%20OR%20%22fantasy%20baseball%22%20OR%20%22fantasy%20basketball%22%20OR%20%22fantasy%20hockey%22%20OR%20%22fantasy%20soccer%22%29%20%28site%3Afantasypros.com%20OR%20site%3Arotowire.com%29&hl=en-US&gl=US&ceid=US%3Aen"},
+        {"name": "Fantasy regional discovery", "publisher": "Local and regional", "group": "local", "url": "https://news.google.com/rss/search?q=%28%22fantasy%20football%22%20OR%20%22fantasy%20baseball%22%20OR%20%22fantasy%20basketball%22%20OR%20%22fantasy%20hockey%22%20OR%20%22fantasy%20soccer%22%29%20%28site%3Acleveland.com%20OR%20site%3Anj.com%20OR%20site%3Astartribune.com%29&hl=en-US&gl=US&ceid=US%3Aen"}
       ],
-      "data_providers": {
-        "scores": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
-        "standings": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings"
-      }
+      "data_providers": {}
     },
     {
-      "id": "wnba",
-      "slug": "wnba",
-      "label": "WNBA",
+      "id": "nba",
+      "slug": "nba",
+      "label": "NBA",
       "sport": "basketball",
-      "competitions": ["WNBA", "WNBA Playoffs", "WNBA Commissioner's Cup", "WNBA All-Star"],
+      "competitions": ["NBA", "NBA Playoffs", "NBA Finals"],
       "geographic_profile": "us",
-      "search_terms": ["WNBA", "women's basketball"],
-      "required_signals": ["WNBA", "Commissioner's Cup", "WNBA All-Star"],
-      "excluded_signals": ["women's college basketball", "NCAAW", "NBA"],
-      "teams": ["Atlanta Dream", "Chicago Sky", "Connecticut Sun", "Dallas Wings", "Golden State Valkyries", "Indiana Fever", "Las Vegas Aces", "Los Angeles Sparks", "Minnesota Lynx", "New York Liberty", "Phoenix Mercury", "Seattle Storm", "Washington Mystics"],
-      "preferred_publishers": ["WNBA", "Associated Press", "ESPN", "CBS Sports", "Yahoo Sports", "The Athletic", "Just Women's Sports", "The Next"],
+      "search_terms": ["NBA", "National Basketball Association", "NBA offseason", "NBA free agency"],
+      "required_signals": ["NBA", "National Basketball Association", "NBA Finals", "NBA free agency"],
+      "excluded_signals": ["WNBA", "women's college basketball", "NCAAW", "college basketball"],
+      "teams": ["Atlanta Hawks", "Boston Celtics", "Brooklyn Nets", "Charlotte Hornets", "Chicago Bulls", "Cleveland Cavaliers", "Dallas Mavericks", "Denver Nuggets", "Detroit Pistons", "Golden State Warriors", "Houston Rockets", "Indiana Pacers", "Los Angeles Clippers", "Los Angeles Lakers", "Memphis Grizzlies", "Miami Heat", "Milwaukee Bucks", "Minnesota Timberwolves", "New Orleans Pelicans", "New York Knicks", "Oklahoma City Thunder", "Orlando Magic", "Philadelphia 76ers", "Phoenix Suns", "Portland Trail Blazers", "Sacramento Kings", "San Antonio Spurs", "Toronto Raptors", "Utah Jazz", "Washington Wizards"],
+      "preferred_publishers": ["NBA", "Associated Press", "ESPN", "CBS Sports", "Yahoo Sports", "The Athletic", "NBA.com", "HoopsHype"],
       "low_priority_publishers": ["FanSided"],
       "blocked_publishers": ["Athlon Sports", "ClutchPoints", "College Football Network", "Collectibles On SI", "EssentiallySports", "HEAVY", "HITC", "Pro Football Network", "Roundtable Sports", "Sportsnaut", "The Big Lead", "The Spun", "The Sporting News"],
       "feeds": [
-        {"name": "ESPN WNBA", "publisher": "ESPN", "group": "national", "url": "https://www.espn.com/espn/rss/wnba/news"},
-        {"name": "Yahoo WNBA", "publisher": "Yahoo Sports", "group": "national", "url": "https://sports.yahoo.com/wnba/rss/"},
-        {"name": "WNBA official discovery", "publisher": "WNBA", "group": "official", "url": "https://news.google.com/rss/search?q=site%3Awnba.com%20WNBA&hl=en-US&gl=US&ceid=US%3Aen"},
-        {"name": "WNBA specialists", "publisher": "Women's basketball specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=WNBA%20%28site%3Ajustwomenssports.com%20OR%20site%3Athenexthoops.com%29&hl=en-US&gl=US&ceid=US%3Aen"},
-        {"name": "WNBA local discovery", "publisher": "Local and regional", "group": "local", "url": "https://news.google.com/rss/search?q=WNBA%20%28site%3Astartribune.com%20OR%20site%3Aseattletimes.com%20OR%20site%3Aindystar.com%20OR%20site%3Anydailynews.com%29&hl=en-US&gl=US&ceid=US%3Aen"}
+        {"name": "ESPN NBA", "publisher": "ESPN", "group": "national", "url": "https://www.espn.com/espn/rss/nba/news"},
+        {"name": "Yahoo NBA", "publisher": "Yahoo Sports", "group": "national", "url": "https://sports.yahoo.com/nba/rss/"},
+        {"name": "NBA official discovery", "publisher": "NBA", "group": "official", "url": "https://news.google.com/rss/search?q=site%3Anba.com%2Fnews%20NBA&hl=en-US&gl=US&ceid=US%3Aen"},
+        {"name": "NBA specialists", "publisher": "Basketball specialists", "group": "specialist", "url": "https://news.google.com/rss/search?q=NBA%20%28site%3Ahoopshype.com%20OR%20site%3Arealgm.com%2Fnba%29&hl=en-US&gl=US&ceid=US%3Aen"},
+        {"name": "NBA local discovery", "publisher": "Local and regional", "group": "local", "url": "https://news.google.com/rss/search?q=NBA%20%28site%3Abostonglobe.com%20OR%20site%3Adallasnews.com%20OR%20site%3Adenverpost.com%20OR%20site%3Alatimes.com%29&hl=en-US&gl=US&ceid=US%3Aen"}
       ],
       "data_providers": {
-        "scores": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard",
-        "standings": "https://site.api.espn.com/apis/v2/sports/basketball/wnba/standings"
+        "scores": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+        "standings": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings"
       }
     }
   ],
@@ -230,31 +229,38 @@
       {"id": "division-races", "label": "Division Races", "maximum": 5, "signals": ["division race", "division title", "division lead", "win the division"]}
     ],
     "fantasy": [
+      {"id": "fantasy-football", "label": "Fantasy Football", "maximum": 5, "signals": ["fantasy football", "quarterback", "running back", "wide receiver", "tight end", "ppr", "superflex"]},
+      {"id": "fantasy-baseball", "label": "Fantasy Baseball", "maximum": 5, "signals": ["fantasy baseball", "pitcher", "hitter", "roto", "two-start"]},
+      {"id": "fantasy-basketball", "label": "Fantasy Basketball", "maximum": 5, "signals": ["fantasy basketball", "fantasy hoops", "nine-category", "points league"]},
+      {"id": "fantasy-hockey", "label": "Fantasy Hockey", "maximum": 5, "signals": ["fantasy hockey", "fantasy nhl", "goalie start"]},
+      {"id": "fantasy-soccer", "label": "Fantasy Soccer", "maximum": 5, "signals": ["fantasy soccer", "fantasy premier league", "fpl"]},
       {"id": "waiver-wire", "label": "Waiver Wire", "maximum": 5, "signals": ["waiver wire", "waiver pickup", "waiver add"]},
       {"id": "streaming", "label": "Streaming", "maximum": 5, "signals": ["streaming option", "streamer", "streaming defense", "streaming quarterback"]},
       {"id": "trending-players", "label": "Trending Players", "maximum": 5, "signals": ["fantasy riser", "fantasy faller", "stock up", "stock down", "breakout", "sleeper"]},
       {"id": "matchups", "label": "Matchups", "maximum": 5, "signals": ["fantasy matchup", "favorable matchup", "matchup ranking", "start sit", "start/sit"]},
       {"id": "draft-prep", "label": "Draft Prep", "maximum": 5, "signals": ["draft prep", "mock draft", "draft strategy", "draft rankings", "ppr rankings", "fantasy draft"]},
+      {"id": "fantasy-rankings", "label": "Rankings", "maximum": 5, "signals": ["fantasy rankings", "rankings", "ranked", "tiers", "top 100", "top 200"]},
+      {"id": "roles", "label": "Roles & Usage", "maximum": 5, "signals": ["role", "usage", "target share", "snap share", "batting order", "rotation spot", "closer", "playing time"]},
+      {"id": "lineup", "label": "Lineup Decisions", "maximum": 5, "signals": ["lineup", "start sit", "start/sit", "bench", "flex", "two-start", "daily fantasy"]},
       {"id": "dynasty", "label": "Dynasty", "maximum": 5, "signals": ["dynasty", "rookie draft", "taxi squad", "keeper league"]},
       {"id": "best-ball", "label": "Best Ball", "maximum": 5, "signals": ["best ball", "best-ball"]},
       {"id": "injury-replacements", "label": "Injury Replacements", "maximum": 5, "signals": ["injury replacement", "fantasy replacement", "handcuff", "replace injured", "next man up"]}
     ],
-    "wnba": [
-      {"id": "championship-race", "label": "Championship Race", "maximum": 5, "signals": ["championship race", "title contender", "playoff race", "championship contender", "playoff picture"]},
+    "nba": [
+      {"id": "transactions", "label": "Transactions", "maximum": 5, "signals": ["trade", "traded", "acquired", "signed", "waived", "free agency", "free agent"]},
+      {"id": "contracts", "label": "Contracts", "maximum": 5, "signals": ["contract", "extension", "deal", "salary cap", "option"]},
       {"id": "player-development", "label": "Player Development", "maximum": 5, "signals": ["player development", "development", "rookie", "breakout", "most improved"]},
-      {"id": "trades", "label": "Trades", "maximum": 5, "signals": ["trade", "traded", "trade request", "acquired"]},
-      {"id": "roster-moves", "label": "Roster Moves", "maximum": 5, "signals": ["roster move", "waived", "released", "signed", "replacement player", "hardship contract"]},
-      {"id": "expansion", "label": "Expansion", "maximum": 5, "signals": ["expansion", "expansion team", "expansion draft", "new franchise"]},
-      {"id": "league-business", "label": "League Business", "maximum": 5, "signals": ["cathy engelbert", "collective bargaining", "cba", "media rights", "replay center", "league business", "revenue"]},
+      {"id": "roster-moves", "label": "Roster Moves", "maximum": 5, "signals": ["roster move", "waived", "released", "signed", "two-way contract"]},
+      {"id": "league-business", "label": "League Business", "maximum": 5, "signals": ["collective bargaining", "cba", "media rights", "league business", "revenue", "expansion"]},
       {"id": "injuries", "label": "Injuries", "maximum": 5, "signals": ["injury", "injured", "out for", "surgery", "medical update"]},
       {"id": "coaching", "label": "Coaching", "maximum": 5, "signals": ["head coach", "coach fired", "coach hired", "coaching staff", "interim coach"]},
-      {"id": "all-star", "label": "All-Star", "maximum": 5, "signals": ["all-star", "all star", "three-point contest", "skills challenge"]},
-      {"id": "international-players", "label": "International Players", "maximum": 5, "signals": ["international player", "fiba", "national team", "world cup", "olympic", "overseas"]}
+      {"id": "offseason", "label": "Offseason Developments", "maximum": 5, "signals": ["offseason", "summer league", "draft", "free agency"]}
     ]
   },
   "visibility": {
     "scores": {"minimum": 1},
     "schedule": {"minimum": 1},
-    "standings": {"minimum": 2}
+    "standings": {"minimum": 2},
+    "rankings": {"minimum": 5}
   }
 }

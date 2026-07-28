@@ -1,8 +1,8 @@
-﻿import fs from "fs";
+import fs from "fs";
 import path from "path";
-import EditorialStandard from "@/components/EditorialStandard";
 import Link from "next/link";
-import SportsDeskDirectory from "@/components/sports-desk/SportsDeskDirectory";
+import EditorialStandard from "@/components/EditorialStandard";
+import { readSportsDeskPayload } from "@/lib/sportsDesks";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -44,6 +44,15 @@ const GSR_NETWORK = [
   ["Betting", "https://globalbettingreport.com"],
 ];
 
+const SPORTS_DESKS = [
+  ["NFL", "/nfl"],
+  ["College Football", "/college-football"],
+  ["MLB", "/mlb"],
+  ["Soccer / Football", "/soccer"],
+  ["Fantasy Sports", "/fantasy"],
+  ["NBA", "/nba"],
+];
+
 const LEAGUE_LABELS: AnyObj = {
   breaking_news: "Breaking Sports News",
   mlb: "MLB",
@@ -52,22 +61,8 @@ const LEAGUE_LABELS: AnyObj = {
   nfl: "NFL",
   ncaafb: "College Football",
   soccer: "Soccer",
-  wnba: "WNBA",
   betting_odds: "Betting Odds",
   fantasy: "Fantasy",
-};
-
-const LEAGUE_DEFAULT_URLS: AnyObj = {
-  breaking_news: "https://www.espn.com/",
-  mlb: "https://www.espn.com/mlb/",
-  nba: "https://www.espn.com/nba/",
-  nhl: "https://www.espn.com/nhl/",
-  nfl: "https://www.espn.com/nfl/",
-  ncaafb: "https://www.espn.com/college-football/",
-  soccer: "https://www.espn.com/soccer/",
-  wnba: "https://www.espn.com/wnba/",
-  betting_odds: "https://globalbettingreport.com",
-  fantasy: "https://www.espn.com/fantasy/",
 };
 
 const BAD_CONTENT_PHRASES = [
@@ -212,7 +207,7 @@ function findUrlInText(value: AnyObj): string {
   return match ? match[0].replace(/[),.;]+$/, "") : "";
 }
 
-function extractBestUrl(section: AnyObj, key: string): string {
+function extractBestUrl(section: AnyObj): string {
   const directCandidates = [
     section.url,
     section.link,
@@ -258,7 +253,7 @@ function extractBestUrl(section: AnyObj, key: string): string {
     if (found) return found;
   }
 
-  return LEAGUE_DEFAULT_URLS[key] || "https://www.espn.com/";
+  return "";
 }
 
 function extractSectionLines(content: string, heading: string): string[] {
@@ -358,7 +353,7 @@ function sectionToStory(key: string, section: AnyObj): AnyObj {
     snapshot: extractSnapshot(section),
     updated_at: section.updated_at,
     source_file: section.source_file,
-    url: extractBestUrl(section, key),
+    url: extractBestUrl(section),
     key_data: unique(keyData).slice(0, 8),
     why_it_matters: unique(why).slice(0, 6),
     what_to_watch: unique(watch).slice(0, 8),
@@ -378,7 +373,7 @@ function normalizeStory(story: AnyObj, index: number): AnyObj {
     "Sports Watch";
 
   const title = publicText(story.title) || publicText(story.league) || label;
-  const url = extractBestUrl(story, key);
+  const url = extractBestUrl(story);
 
   return {
     ...story,
@@ -507,7 +502,7 @@ function storyTitle(story: AnyObj, index: number): string {
 
 function storyUrl(story: AnyObj): string {
   const url = cleanText(story.url) || cleanText(story.link) || cleanText(story.source_url);
-  return isValidUrl(url) ? url : "https://www.espn.com/";
+  return isValidUrl(url) ? url : "";
 }
 
 function storySummary(story: AnyObj): string {
@@ -533,6 +528,7 @@ function isPublishableStory(story: AnyObj): boolean {
 
   if (!title) return false;
   if (isBadContent(text)) return false;
+  if (!isValidUrl(storyUrl(story))) return false;
 
   return true;
 }
@@ -950,11 +946,54 @@ function LinkList({ items }: { items: string[][] }) {
   );
 }
 
+function fallbackEditorialContext(story: AnyObj, title: string, label: string) {
+  const text = normalizeText(`${title} ${storySummary(story)}`);
+  const teams = asList(story.teams).slice(0, 2);
+  const players = asList(story.players).slice(0, 2);
+  const subject = [...players, ...teams][0] || label;
+
+  if (/injur|surgery|questionable|disabled list|\bil\b|\bpup\b|out for/.test(text)) {
+    return {
+      why: `${subject}'s verified status can affect availability, lineup roles and the options available to the team.`,
+      watch: `Watch the original source and official team updates for confirmed timing, participation and any resulting role changes.`,
+      angle: `Report the confirmed status first, then assess roster and competition impact without projecting beyond the available update.`,
+    };
+  }
+  if (/trade|traded|signing|signed|waived|released|contract|transfer/.test(text)) {
+    return {
+      why: `The ${subject} move can change roster roles, depth and the decisions surrounding the next competition window.`,
+      watch: `Watch for official transaction terms, corresponding roster moves and clearly sourced role information.`,
+      angle: `Separate confirmed transaction details from speculation about usage, fit or future moves.`,
+    };
+  }
+  if (/playoff|postseason|pennant|standings|table|seed|title race|wild card/.test(text)) {
+    return {
+      why: `The development carries race or table implications within the competition identified by the source.`,
+      watch: `Watch the next verified result and updated standings before drawing a broader postseason or title-race conclusion.`,
+      angle: `Connect the result to the published race context while keeping projections distinct from current standings.`,
+    };
+  }
+  if (/fantasy|waiver|start.?sit|draft|rankings|lineup/.test(text)) {
+    return {
+      why: `The report may change fantasy value through role, availability, ranking or roster-management context documented by the source.`,
+      watch: `Watch for confirmed usage, injury status, depth-chart movement and updated expert rankings before changing a lineup or roster.`,
+      angle: `Tie recommendations to the cited role and format; avoid turning a projection into a reported outcome.`,
+    };
+  }
+  return {
+    why: `The verified ${label.toLowerCase()} development adds current context to the next decision, matchup or league storyline.`,
+    watch: `Watch the cited source for the next confirmed development and any clearly documented competitive consequence.`,
+    angle: `Lead with what the source confirms, then distinguish analysis from facts that remain unsettled.`,
+  };
+}
+
 function StoryCard({ story, index }: { story: AnyObj; index: number }) {
   const title = storyTitle(story, index);
   const url = storyUrl(story);
   const summary = storySummary(story);
   const label = storyLabel(story);
+  const source = publicText(story.source_label || story.publisher || story.source || "Original source");
+  const fallback = fallbackEditorialContext(story, title, label);
 
   const keyData = asList(story.key_data || story.keyData || story.data || story.metrics);
   const why = asList(story.why_it_matters || story.whyItMatters || story.why);
@@ -962,13 +1001,13 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
   const angles = asList(story.story_angles || story.storyAngles || story.angles);
 
   return (
-    <article className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+    <article className="group relative rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm focus-within:ring-2 focus-within:ring-red-700 focus-within:ring-offset-2">
       <p className="mb-2 text-xs font-black uppercase tracking-wide text-red-700">
         {label}
       </p>
 
-      <h3 className="text-xl font-black leading-tight text-neutral-950">
-        <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
+      <h3 className="text-xl font-black leading-tight text-neutral-950 group-hover:text-red-700 group-hover:underline">
+        <a href={url} target="_blank" rel="noopener noreferrer" aria-label={`${title} from ${source} (opens in a new tab)`} className="after:absolute after:inset-0 focus:outline-none">
           {title}
         </a>
       </h3>
@@ -983,45 +1022,48 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 
         <div className="rounded-xl bg-neutral-50 p-3">
           <p className="mb-2 text-xs font-black uppercase text-neutral-600">Story Stakes</p>
-          <LineList
-            items={
-              why.length
-                ? why
-                : ["The latest development can reshape momentum, pressure, playoff positioning or the broader sports conversation."]
-            }
-          />
+          <LineList items={why.length ? why : [fallback.why]} />
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
           <p className="mb-2 text-xs font-black uppercase text-neutral-600">Next Read</p>
-          <LineList
-            items={
-              watch.length
-                ? watch
-                : ["Watch for injury clarity, lineup changes, coaching decisions, playoff implications and shifts in team trajectory."]
-            }
-          />
+          <LineList items={watch.length ? watch : [fallback.watch]} />
         </div>
 
         <div className="rounded-xl bg-neutral-50 p-3">
           <p className="mb-2 text-xs font-black uppercase text-neutral-600">Reporting Angles</p>
-          <LineList
-            items={
-              angles.length
-                ? angles
-                : ["The strongest stories usually sit beneath the scoreboard: pressure, momentum, roster tension, accountability and what changes next."]
-            }
-          />
+          <LineList items={angles.length ? angles : [fallback.angle]} />
         </div>
       </div>
+
+      <a href={url} target="_blank" rel="noopener noreferrer" className="relative z-10 mt-4 inline-flex text-sm font-black text-red-700 underline decoration-transparent underline-offset-4 hover:decoration-current focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">
+        Read original source{source ? ` · ${source}` : ""} <span aria-hidden="true">↗</span>
+      </a>
     </article>
   );
 }
-
 export default function Page() {
   const report = readReport();
-
-  let stories = getStories(report).filter(isPublishableStory);
+  const deskPayload = readSportsDeskPayload();
+  const homepageEditorial = deskPayload.homepage;
+  const homepageHero = homepageEditorial?.hero;
+  const generatedStories = (homepageEditorial?.stories ?? [])
+    .map((story, index) => normalizeStory({
+      ...story,
+      label: deskPayload.desks?.[story.desk ?? ""]?.label ?? story.desk ?? "Sports Watch",
+      league: deskPayload.desks?.[story.desk ?? ""]?.label ?? story.desk ?? "Sports Watch",
+      headline: story.title,
+      source_label: story.publisher,
+    }, index))
+    .filter(isPublishableStory);
+  const reportStories = getStories(report).filter(isPublishableStory);
+  const seenStoryUrls = new Set<string>();
+  const stories = [...generatedStories, ...reportStories].filter((story) => {
+    const url = storyUrl(story);
+    if (!url || seenStoryUrls.has(url)) return false;
+    seenStoryUrls.add(url);
+    return true;
+  });
 
   const liveNewsroomStories = getSpotlightStories(report, "live_newsroom");
   const editorSignalStories = getSpotlightStories(report, "editor_signals");
@@ -1035,17 +1077,18 @@ export default function Page() {
   );
 
   const fallbackHeadline = "Global Sports Report: The Stories Behind The Board";
-
   const headline =
-    cleanText(report.headline) && !isBadContent(report.headline)
+    publicText(homepageHero?.title) ||
+    (cleanText(report.headline) && !isBadContent(report.headline)
       ? cleanText(report.headline)
-      : fallbackHeadline;
+      : fallbackHeadline);
+  const heroUrl = isValidUrl(homepageHero?.url) ? cleanText(homepageHero?.url) : "";
+  const heroSource = publicText(homepageHero?.publisher);
 
   const defaultSnapshot =
     "A live sports newsroom briefing focused on the stories, injuries, results and league developments shaping the next cycle of coverage.";
 
-  const rawSnapshot = cleanText(report.snapshot);
-
+  const rawSnapshot = cleanText(homepageHero?.summary || report.snapshot);
   const snapshot =
     rawSnapshot &&
     !isBadContent(rawSnapshot) &&
@@ -1054,41 +1097,39 @@ export default function Page() {
       : defaultSnapshot;
 
   const updated =
+    cleanText(homepageEditorial?.updated_at) ||
     cleanText(report.updated_at) ||
     cleanText(report.generated_at) ||
     cleanText(report.published_at) ||
     "Update time unavailable";
 
-  if (!stories.length) {
-    stories = [
-      {
-        league: "Sports Watch",
-        headline,
-        summary: snapshot,
-        url: "https://www.espn.com/",
-        key_data: ["The current sports cycle centers on playoff races, roster pressure, injuries and league-wide momentum shifts."],
-        why_it_matters: ["Every major result, injury or roster decision can quickly reshape standings, expectations and the next wave of coverage."],
-        what_to_watch: ["Watch for late-breaking injuries, coaching decisions, lineup changes, postseason pressure and statistical movement."],
-        story_angles: ["The biggest stories often emerge from tension, expectations, accountability and what happens after the final score."],
-        story_type: "analysis",
-      },
-    ];
-  }
-
   const leadStories = stories.slice(0, 10);
+  const sidebarStories = (deskId: string) => (deskPayload.desks?.[deskId]?.stories ?? [])
+    .filter((story) => isValidUrl(story.url))
+    .slice(0, 6)
+    .map((story) => ({
+      ...story,
+      display_headline: story.title,
+      display_url: story.url,
+      source_label: story.publisher,
+    }));
+  const nflSidebarStories = sidebarStories("nfl");
+  const collegeSidebarStories = sidebarStories("college-football");
+  const soccerSidebarStories = sidebarStories("soccer");
+  const proFootballStories = nflSidebarStories.length ? nflSidebarStories : getProFootballStories(report);
+  const collegeFootballStories = collegeSidebarStories.length ? collegeSidebarStories : getCollegeFootballStories(report);
+  const soccerStories = soccerSidebarStories.length ? soccerSidebarStories : getSoccerStories(report);
+  const liveBriefingItems = generatedStories.length
+    ? buildBriefingItems(generatedStories, [])
+    : liveNewsroomStories.length
+      ? spotlightItemsFromStories(liveNewsroomStories)
+      : buildBriefingItems(stories, rawSignals);
 
-  const proFootballStories = getProFootballStories(report);
-  const collegeFootballStories = getCollegeFootballStories(report);
-  const soccerStories = getSoccerStories(report);
-
-  const liveBriefingItems = liveNewsroomStories.length
-    ? spotlightItemsFromStories(liveNewsroomStories)
-    : buildBriefingItems(stories, rawSignals);
-
-  const editorSignalItems = editorSignalStories.length
-    ? spotlightItemsFromStories(editorSignalStories)
-    : cleanSignals(rawSignals.length ? rawSignals : buildBriefingItems(stories.slice(3), []));
-
+  const editorSignalItems = generatedStories.length
+    ? buildBriefingItems(generatedStories.slice(3), [])
+    : editorSignalStories.length
+      ? spotlightItemsFromStories(editorSignalStories)
+      : cleanSignals(rawSignals.length ? rawSignals : buildBriefingItems(stories.slice(3), []));
   return (
     <main className="min-h-screen bg-neutral-100 text-neutral-950">
       <div className="border-b border-neutral-800 bg-black text-white">
@@ -1129,25 +1170,23 @@ export default function Page() {
             </p>
 
             <h1 className="mt-3 text-4xl font-black leading-tight md:text-5xl">
-              {headline}
+              {heroUrl ? (
+                <a href={heroUrl} target="_blank" rel="noopener noreferrer" className="hover:text-red-700 hover:underline focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700" aria-label={`${headline} from ${heroSource || "the original source"} (opens in a new tab)`}>
+                  {headline}
+                </a>
+              ) : headline}
             </h1>
 
             <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-700">
               {snapshot}
             </p>
-
+            {heroUrl ? <a href={heroUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex text-sm font-black text-red-700 underline underline-offset-4 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">Read original source{heroSource ? ` · ${heroSource}` : ""} <span aria-hidden="true">↗</span></a> : null}
             <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold">
               <span className="rounded-full bg-black px-4 py-2 text-white">
                 {SITE.tagline}
               </span>
-              <Link
-                href="/apps/sports-desk"
-                className="rounded-full bg-red-700 px-4 py-2 text-white hover:bg-red-800"
-              >
-                Sports Desk
-              </Link>
               <span className="rounded-full bg-neutral-200 px-4 py-2 text-neutral-800">
-                Updated: {updated}
+                Editorial selection updated: {updated}
               </span>
             </div>
           </div>
@@ -1167,14 +1206,48 @@ export default function Page() {
         </div>
       </header>
 
-      <EditorialStandard />
+      <nav aria-label="Sports Desks" className="border-b border-neutral-300 bg-neutral-950 text-white">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-5 gap-y-2 px-5 py-3 text-sm font-bold">
+          <span className="text-neutral-400">Sports Desks:</span>
+          {SPORTS_DESKS.map(([label, href]) => (
+            <Link key={href} href={href} className="hover:text-red-300 hover:underline">{label}</Link>
+          ))}
+        </div>
+      </nav>
 
-      <div className="mx-auto max-w-7xl px-5 pt-6">
-        <SportsDeskDirectory />
-      </div>
+      <EditorialStandard />
 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">
+          <section className="rounded-2xl border border-blue-700 bg-gradient-to-br from-slate-950 via-blue-950 to-blue-900 p-5 text-white shadow-lg">
+            <span className="inline-flex rounded-full bg-blue-500 px-3 py-1 text-xs font-black uppercase tracking-widest text-white">
+              NEW
+            </span>
+
+            <h2 className="mt-4 text-2xl font-black tracking-tight">NFL Desk</h2>
+
+            <p className="mt-3 text-sm leading-6 text-blue-100">
+              Training camp, injuries, transactions, quarterback battles, roster movement, and breaking league news.
+            </p>
+
+            <ul className="mt-5 space-y-2 text-sm font-semibold text-white">
+              <li>• Training Camp Report</li>
+              <li>• Injury Tracker</li>
+              <li>• Transactions</li>
+              <li>• Quarterback Battles</li>
+              <li>• League Headlines</li>
+            </ul>
+
+<Link
+  href="/nfl"
+  className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-white px-4 py-3 text-sm font-black transition hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-950 sm:w-auto"
+  style={{ color: "#172554" }}
+>
+  <span>View Full NFL Desk →</span>
+</Link>
+
+          </section>
+
           <Block title="Global Pro Football Report">
             <div className="space-y-3">
               {proFootballStories.length ? (
@@ -1296,9 +1369,15 @@ export default function Page() {
         </aside>
 
         <section className="space-y-6">
-          {leadStories.map((story, index) => (
-            <StoryCard key={story.id || index} story={story} index={index} />
-          ))}
+{leadStories.map((story, index) => (
+        <StoryCard
+              key={`${story.id || story.key || story.league || "story"}-${index}`}
+              story={story}
+              index={index}
+  />
+))}
+
+
         </section>
 </section>
 

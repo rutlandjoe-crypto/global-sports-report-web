@@ -8,7 +8,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from sports_desk_pipeline import load_config, parse_datetime, story_quality, validate_payload
+from sports_desk_pipeline import load_config, normalize_url, parse_datetime, rank_homepage_stories, story_quality, validate_payload
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_PAYLOAD = ROOT / "public" / "sports_desks.json"
@@ -33,6 +33,21 @@ def main() -> int:
     validate_payload(payload, config, previous=previous, now=datetime.now(timezone.utc))
 
     desk_configs = {desk["id"]: desk for desk in config["desks"]}
+    homepage = payload.get("homepage", {})
+    hero = homepage.get("hero", {})
+    ranked_homepage = rank_homepage_stories(
+        [story for desk in payload["desks"].values() for story in desk.get("stories", [])]
+    )
+    if not ranked_homepage or hero.get("id") != ranked_homepage[0].get("id"):
+        raise RuntimeError("Homepage hero does not match deterministic freshness/significance ranking")
+    if not normalize_url(hero.get("url")) or not parse_datetime(hero.get("published_at")):
+        raise RuntimeError("Homepage hero lacks a verified publication time or valid original URL")
+    if not parse_datetime(homepage.get("updated_at")):
+        raise RuntimeError("Homepage material-update timestamp is missing or invalid")
+    print(
+        f"homepage: hero={hero.get('title')} publisher={hero.get('publisher')} "
+        f"published_at={hero.get('published_at')} updated_at={homepage.get('updated_at')}"
+    )
     for desk_id, desk in payload["desks"].items():
         stories = desk["stories"]
         expected_lead = max(stories, key=lambda item: story_quality(item, desk_configs[desk_id]))
@@ -44,7 +59,8 @@ def main() -> int:
         print(
             f"{desk_id}: stories={len(stories)} lead={lead_time.isoformat() if lead_time else 'invalid'} "
             f"scores={data_counts['scores']} schedule={data_counts['schedule']} "
-            f"standings={data_counts['standings']} updated_at={desk.get('updated_at')}"
+            f"standings={data_counts['standings']} rankings={data_counts['rankings']} "
+            f"updated_at={desk.get('updated_at')}"
         )
     print(f"Sports Desk validation OK: generated_at={payload['generated_at']} hash={payload['content_hash']}")
     return 0

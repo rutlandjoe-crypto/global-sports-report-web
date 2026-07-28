@@ -3,14 +3,17 @@ import path from "path";
 
 export type DeskStory = {
   id: string;
+  desk?: string;
   title: string;
   summary?: string;
   url: string;
+  canonical_url?: string;
   publisher: string;
   published_at?: string;
   teams?: string[];
   players?: string[];
   lanes?: string[];
+  source_group?: string;
 };
 
 export type DeskModule = {
@@ -30,24 +33,39 @@ export type SportsDesk = {
     scores: Array<Record<string, unknown>>;
     schedule: Array<Record<string, unknown>>;
     standings: Array<Record<string, unknown>>;
+    rankings: Array<Record<string, unknown>>;
   };
   modules: Record<string, DeskModule>;
+  providers?: Record<string, { label: string; url: string; available: boolean }>;
+  content_updated_at?: string;
+  updated_at?: string;
+  data_updated_at?: Record<string, string>;
+};
+
+export type HomepageEditorial = {
+  hero?: DeskStory;
+  stories?: DeskStory[];
   updated_at?: string;
 };
 
-type SportsDeskPayload = {
+export type SportsDeskPayload = {
   generated_at?: string;
+  homepage?: HomepageEditorial;
   desks?: Record<string, SportsDesk>;
 };
 
-export function getSportsDesk(id: string): { desk: SportsDesk | null; generatedAt: string } {
+export function readSportsDeskPayload(): SportsDeskPayload {
   try {
     const file = path.join(process.cwd(), "public", "sports_desks.json");
-    const payload = JSON.parse(fs.readFileSync(file, "utf8")) as SportsDeskPayload;
-    const desk = payload.desks?.[id] ?? null;
-    return { desk, generatedAt: desk?.updated_at ?? payload.generated_at ?? "" };
+    return JSON.parse(fs.readFileSync(file, "utf8")) as SportsDeskPayload;
   } catch (error) {
-    console.error(`Sports desk data unavailable for ${id}:`, error);
-    return { desk: null, generatedAt: "" };
+    console.error("Sports desk data unavailable:", error);
+    return {};
   }
+}
+
+export function getSportsDesk(id: string): { desk: SportsDesk | null; contentUpdatedAt: string } {
+  const payload = readSportsDeskPayload();
+  const desk = payload.desks?.[id] ?? null;
+  return { desk, contentUpdatedAt: desk?.content_updated_at ?? "" };
 }
