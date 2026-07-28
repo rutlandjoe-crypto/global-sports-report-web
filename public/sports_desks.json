@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-07-28T01:48:25.623071+00:00",
+  "generated_at": "2026-07-28T01:58:58.077000+00:00",
   "config": {
     "publisher_limit": 6,
     "recency_hours": 96
@@ -99,6 +99,32 @@
             "training-camp",
             "contract-news"
           ]
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/jamal-adams-set-10-nfl-013822769.html",
+          "desk": "nfl",
+          "title": "Jamal Adams set for Year 10 in NFL with the Vikings",
+          "summary": "Jamal Adams, who has been named to three All-Pro teams, posted on X that he's joining the Minnesota Vikings in 2026.",
+          "url": "https://sports.yahoo.com/articles/jamal-adams-set-10-nfl-013822769.html",
+          "canonical_url": "https://sports.yahoo.com/articles/jamal-adams-set-10-nfl-013822769.html",
+          "publisher": "USA TODAY Sports",
+          "source_group": "national",
+          "feed": "Yahoo NFL",
+          "published_at": "2026-07-28T01:38:22+00:00",
+          "teams": [
+            "Vikings"
+          ],
+          "players": [
+            "Jamal Adams",
+            "Vikings Jamal Adams",
+            "Vikings Jamal",
+            "Minnesota Vikings"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NFL"
+          ],
+          "lanes": []
         },
         {
           "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-wr-george-pickens-reports-to-training-camp-as-expected",
@@ -1424,27 +1450,6 @@
           "lanes": []
         },
         {
-          "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-on-learning-patriots-offense-im-in-a-pretty-good-spot",
-          "desk": "nfl",
-          "title": "A.J. Brown on learning Patriots offense: \"I’m in a pretty good spot\"",
-          "summary": "Receiver A.J.",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-on-learning-patriots-offense-im-in-a-pretty-good-spot",
-          "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-on-learning-patriots-offense-im-in-a-pretty-good-spot",
-          "publisher": "ProFootballTalk",
-          "source_group": "specialist",
-          "feed": "ProFootballTalk",
-          "published_at": "2026-07-27T20:13:12+00:00",
-          "teams": [
-            "Patriots"
-          ],
-          "players": [],
-          "sport": "football",
-          "competitions": [
-            "NFL"
-          ],
-          "lanes": []
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXNJbzVINmxfRXQ1ZHBIMWk4YnNxNFdEdWlST1BweFVLdVY4amo3a2NwWVJQaGgzNy1RV2N0Y05aMU5ZSnBXRGpvdEtoWnN2M0l4VFBYVUdWejhhUzMtSEZFN3ZTcXJfNWg4emp4RkdFZ2NRYXZuUFNsUmJvb3JLWVFNQVYxTTc4YWYydjhQM0RXN05Oc0k1MHBON0tLQQ?oc=5",
           "desk": "nfl",
           "title": "'Madden NFL 27' 99 Club revealed: Josh Allen, Matthew Stafford, Myles Garrett headline 6-player class",
@@ -1460,30 +1465,6 @@
             "Josh Allen",
             "Matthew Stafford",
             "Myles Garrett"
-          ],
-          "sport": "football",
-          "competitions": [
-            "NFL"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR2JiZTQwU19VRTRJVmlwTmFwTzJJRUcxZ0RPUXFvMC1ZMHgtSzlNYnZqNGNqMU9pekRnZlBiTEpyZ25URVlfWmY2Nk8zVGg3UENlSi05WWdDT0FLTGFzbTFybGRlWFF5d0lONU83cU9CQUtNblpBM2FCUTFPcVYwTnlhTXY?oc=5",
-          "desk": "nfl",
-          "title": "Patriots receiver A.J. Brown ‘really comfortable’ with new playbook and teammates",
-          "summary": "Patriots receiver A.J. Brown ‘really comfortable’ with new playbook and teammates The Boston Globe",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR2JiZTQwU19VRTRJVmlwTmFwTzJJRUcxZ0RPUXFvMC1ZMHgtSzlNYnZqNGNqMU9pekRnZlBiTEpyZ25URVlfWmY2Nk8zVGg3UENlSi05WWdDT0FLTGFzbTFybGRlWFF5d0lONU83cU9CQUtNblpBM2FCUTFPcVYwTnlhTXY?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR2JiZTQwU19VRTRJVmlwTmFwTzJJRUcxZ0RPUXFvMC1ZMHgtSzlNYnZqNGNqMU9pekRnZlBiTEpyZ25URVlfWmY2Nk8zVGg3UENlSi05WWdDT0FLTGFzbTFybGRlWFF5d0lONU83cU9CQUtNblpBM2FCUTFPcVYwTnlhTXY?oc=5",
-          "publisher": "The Boston Globe",
-          "source_group": "local",
-          "feed": "NFL local discovery",
-          "published_at": "2026-07-27T16:54:49+00:00",
-          "teams": [
-            "Patriots"
-          ],
-          "players": [
-            "The Boston Globe",
-            "The Boston"
           ],
           "sport": "football",
           "competitions": [
@@ -1738,6 +1719,31 @@
             "NFL"
           ],
           "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMy03ZWNYODlHUVVscUM2MnRZeThJMGRvVE5heVNKb2JTbUZZcDdhYzZQN280a2RNTUJvT2RGUl82R3pTQTlfampxbzVEb21HTmwtMzI0NERCQk1HbnloVWY0RlNTM3ZwZk9iRHFzb0ZGT3g4NGlMcGZJTHpFSUZLTtIBgAFBVV95cUxQLXNyNEdhV0MwQUZXbTVGMWxDUDh6aHoxS2pNb2YwblVITElITTZVY0MyX085ZXdTTTJ5Wm1NZmtyQ3pNczdaN3ZmakotYkRqaTBtWmFobVlVaE9uaW91WE5qckQ5Ql9QanZQWXYzOTNFN2lUZnB1QmF2V2lSeTZRTw?oc=5",
+          "desk": "nfl",
+          "title": "Three burning questions before Dolphins training camp starts",
+          "summary": "Three burning questions before Dolphins training camp starts Miami Herald",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMy03ZWNYODlHUVVscUM2MnRZeThJMGRvVE5heVNKb2JTbUZZcDdhYzZQN280a2RNTUJvT2RGUl82R3pTQTlfampxbzVEb21HTmwtMzI0NERCQk1HbnloVWY0RlNTM3ZwZk9iRHFzb0ZGT3g4NGlMcGZJTHpFSUZLTtIBgAFBVV95cUxQLXNyNEdhV0MwQUZXbTVGMWxDUDh6aHoxS2pNb2YwblVITElITTZVY0MyX085ZXdTTTJ5Wm1NZmtyQ3pNczdaN3ZmakotYkRqaTBtWmFobVlVaE9uaW91WE5qckQ5Ql9QanZQWXYzOTNFN2lUZnB1QmF2V2lSeTZRTw?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMy03ZWNYODlHUVVscUM2MnRZeThJMGRvVE5heVNKb2JTbUZZcDdhYzZQN280a2RNTUJvT2RGUl82R3pTQTlfampxbzVEb21HTmwtMzI0NERCQk1HbnloVWY0RlNTM3ZwZk9iRHFzb0ZGT3g4NGlMcGZJTHpFSUZLTtIBgAFBVV95cUxQLXNyNEdhV0MwQUZXbTVGMWxDUDh6aHoxS2pNb2YwblVITElITTZVY0MyX085ZXdTTTJ5Wm1NZmtyQ3pNczdaN3ZmakotYkRqaTBtWmFobVlVaE9uaW91WE5qckQ5Ql9QanZQWXYzOTNFN2lUZnB1QmF2V2lSeTZRTw?oc=5",
+          "publisher": "Miami Herald",
+          "source_group": "local",
+          "feed": "NFL local discovery",
+          "published_at": "2026-07-25T11:00:00+00:00",
+          "teams": [
+            "Dolphins"
+          ],
+          "players": [
+            "Miami Herald"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NFL"
+          ],
+          "lanes": [
+            "training-camp"
+          ]
         },
         {
           "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY1lPLUZES3BrVDd5VWw5VG9jRm93VURnU1otSUI1RFRxR1IzMUQxeGQ1QUdvYjFsQkRyM3MzZi1Zd01OWGMwemhBRmJwOVo0WmdaUXNoS2M5ZFFGLUpORW9iZEdoZ0IyWDd5V0RqQkp4c1ppbFVFdFdtay16V3RXNnRVWE9rSm5PWk1Ma2l4UjZSanc?oc=5",
@@ -2827,6 +2833,32 @@
               ]
             },
             {
+              "id": "https://sports.yahoo.com/articles/jamal-adams-set-10-nfl-013822769.html",
+              "desk": "nfl",
+              "title": "Jamal Adams set for Year 10 in NFL with the Vikings",
+              "summary": "Jamal Adams, who has been named to three All-Pro teams, posted on X that he's joining the Minnesota Vikings in 2026.",
+              "url": "https://sports.yahoo.com/articles/jamal-adams-set-10-nfl-013822769.html",
+              "canonical_url": "https://sports.yahoo.com/articles/jamal-adams-set-10-nfl-013822769.html",
+              "publisher": "USA TODAY Sports",
+              "source_group": "national",
+              "feed": "Yahoo NFL",
+              "published_at": "2026-07-28T01:38:22+00:00",
+              "teams": [
+                "Vikings"
+              ],
+              "players": [
+                "Jamal Adams",
+                "Vikings Jamal Adams",
+                "Vikings Jamal",
+                "Minnesota Vikings"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NFL"
+              ],
+              "lanes": []
+            },
+            {
               "id": "https://sports.yahoo.com/fantasy/article/fantasy-football-health-of-malik-nabers-matthew-goldens-role-patriots-slot-man-among-biggest-wr-questions-for-nfl-training-camps-160605437.html",
               "desk": "nfl",
               "title": "Fantasy Football: Health of Malik Nabers, Matthew Golden's role, Patriots slot man among biggest WR questions for NFL training camps",
@@ -2926,7 +2958,12 @@
                 "NFL"
               ],
               "lanes": []
-            },
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
             {
               "id": "https://sports.yahoo.com/articles/notes-lions-biggest-challenger-la-213000423.html",
               "desk": "nfl",
@@ -2952,12 +2989,7 @@
                 "NFL"
               ],
               "lanes": []
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
+            },
             {
               "id": "https://sports.yahoo.com/articles/eric-bieniemy-crisis-andy-reid-212128435.html",
               "desk": "nfl",
@@ -3122,30 +3154,6 @@
               "players": [
                 "Tuesday The Broncos",
                 "Tuesday The"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NFL"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2ZySk1YNHc3d2JKT1NibTJaWFBaNmFXOWhaVVN0NEdGdlJpRmE1XzIxTTRpcHczWTZ6WkduWWpxYlBCSXFqa0xGWm4wY0NJYkEybVBBRWR2OUhJZS1nS2c1MjVzckRnTlNWMHJSMEtDd1NtNURLUDJpbVBXVVBxNmxyX3dUd3l1NHJ6Zy1NSXZpOVZSYWc?oc=5",
-              "desk": "nfl",
-              "title": "Packers president Ed Policy: No sale on Lambeau Field naming rights",
-              "summary": "Packers president Ed Policy: No sale on Lambeau Field naming rights NFL.com",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2ZySk1YNHc3d2JKT1NibTJaWFBaNmFXOWhaVVN0NEdGdlJpRmE1XzIxTTRpcHczWTZ6WkduWWpxYlBCSXFqa0xGWm4wY0NJYkEybVBBRWR2OUhJZS1nS2c1MjVzckRnTlNWMHJSMEtDd1NtNURLUDJpbVBXVVBxNmxyX3dUd3l1NHJ6Zy1NSXZpOVZSYWc?oc=5",
-              "canonical_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2ZySk1YNHc3d2JKT1NibTJaWFBaNmFXOWhaVVN0NEdGdlJpRmE1XzIxTTRpcHczWTZ6WkduWWpxYlBCSXFqa0xGWm4wY0NJYkEybVBBRWR2OUhJZS1nS2c1MjVzckRnTlNWMHJSMEtDd1NtNURLUDJpbVBXVVBxNmxyX3dUd3l1NHJ6Zy1NSXZpOVZSYWc?oc=5",
-              "publisher": "NFL.com",
-              "source_group": "official",
-              "feed": "NFL official discovery",
-              "published_at": "2026-07-27T22:21:00+00:00",
-              "teams": [
-                "Packers"
-              ],
-              "players": [
-                "Ed Policy",
-                "Lambeau Field"
               ],
               "sport": "football",
               "competitions": [
@@ -3468,30 +3476,30 @@
           ]
         }
       },
-      "content_updated_at": "2026-07-28T01:48:25.623071+00:00",
-      "updated_at": "2026-07-28T01:48:25.623071+00:00",
+      "content_updated_at": "2026-07-28T01:58:58.077000+00:00",
+      "updated_at": "2026-07-28T01:58:58.077000+00:00",
       "data_updated_at": {
         "scores": "2026-07-27T16:48:08.044745+00:00",
         "standings": "2026-07-27T16:48:08.044745+00:00"
       },
       "diagnostics": {
         "candidate_count": 300,
-        "classified_count": 108,
+        "classified_count": 109,
         "deduplicated_count": 92,
         "selected_count": 72,
         "publishers": {
           "Yahoo Sports": 4,
           "NY Post Sports": 3,
-          "ProFootballTalk": 22,
-          "USA TODAY Sports": 3,
+          "USA TODAY Sports": 4,
+          "ProFootballTalk": 21,
           "SB Nation": 20,
           "NFL.com": 6,
-          "Miami Herald": 2,
+          "Miami Herald": 3,
           "NBC Sports Boston": 1,
-          "The Boston Globe": 3,
           "The Seattle Times": 5,
           "ESPN": 1,
-          "Dallas News": 2
+          "Dallas News": 2,
+          "The Boston Globe": 2
         },
         "source_counts": {
           "ESPN NFL": 20,
@@ -3837,6 +3845,32 @@
           "lanes": []
         },
         {
+          "id": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+          "desk": "college-football",
+          "title": "Alabama predicted to land nation’s top interior offensive lineman",
+          "summary": "Alabama‘s 2027 recruiting class has lacked some of the juice the Crimson Tide had in previous classes with just 14 commitments and a group that ranks No. 33 nationally. Instead, Kalen DeBoer and his staff have allocated their time — and money — toward retaining their roster this offseason with a talented young crop of […]",
+          "url": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+          "canonical_url": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+          "publisher": "On3",
+          "source_group": "national",
+          "feed": "Yahoo College Football",
+          "published_at": "2026-07-28T01:41:04+00:00",
+          "teams": [
+            "Alabama"
+          ],
+          "players": [
+            "Crimson Tide"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NCAA FBS",
+            "College Football Playoff"
+          ],
+          "lanes": [
+            "recruiting"
+          ]
+        },
+        {
           "id": "https://sports.yahoo.com/articles/sarkisian-compared-texas-backup-qb-193211565.html",
           "desk": "college-football",
           "title": "Sarkisian compared Texas backup QB KJ Lacy to which Heisman winner?",
@@ -4004,60 +4038,6 @@
             "New Mexico Oklahoma",
             "New Mexico",
             "New Mexico Lobos"
-          ],
-          "sport": "football",
-          "competitions": [
-            "NCAA FBS",
-            "College Football Playoff"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/another-glimpse-money-side-college-191455901.html",
-          "desk": "college-football",
-          "title": "Another Glimpse At the Money Side Of College Football",
-          "summary": "While unverified, the UW's Demond Williams Jr. turns up among the top half-dozen compensated players.",
-          "url": "https://sports.yahoo.com/articles/another-glimpse-money-side-college-191455901.html",
-          "canonical_url": "https://sports.yahoo.com/articles/another-glimpse-money-side-college-191455901.html",
-          "publisher": "Washington Huskies On SI",
-          "source_group": "national",
-          "feed": "Yahoo College Football",
-          "published_at": "2026-07-27T19:14:55+00:00",
-          "teams": [],
-          "players": [
-            "Another Glimpse At",
-            "Another Glimpse",
-            "Money Side Of",
-            "Money Side",
-            "College Football While",
-            "College Football",
-            "Demond Williams Jr",
-            "Demond Williams"
-          ],
-          "sport": "football",
-          "competitions": [
-            "NCAA FBS",
-            "College Football Playoff"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/florida-hires-well-traveled-special-191346833.html",
-          "desk": "college-football",
-          "title": "Florida hires well-traveled special teams coordinator as analyst",
-          "summary": "Greg McMahon won a national title at LSU and worked with Jon Sumrall at Tulane. Now, the veteran special teams coordinator is joining him again.",
-          "url": "https://sports.yahoo.com/articles/florida-hires-well-traveled-special-191346833.html",
-          "canonical_url": "https://sports.yahoo.com/articles/florida-hires-well-traveled-special-191346833.html",
-          "publisher": "College Sports Wire",
-          "source_group": "national",
-          "feed": "Yahoo College Football",
-          "published_at": "2026-07-27T19:13:46+00:00",
-          "teams": [
-            "Florida",
-            "LSU"
-          ],
-          "players": [
-            "Jon Sumrall"
           ],
           "sport": "football",
           "competitions": [
@@ -4867,32 +4847,6 @@
           "lanes": []
         },
         {
-          "id": "https://sports.yahoo.com/articles/tennessee-football-offers-no-1-190059922.html",
-          "desk": "college-football",
-          "title": "Tennessee football offers No. 1 2028 prospect from Wisconsin",
-          "summary": "Tennessee football offers a scholarship to a 2028 four-star tight end from Wisconsin.",
-          "url": "https://sports.yahoo.com/articles/tennessee-football-offers-no-1-190059922.html",
-          "canonical_url": "https://sports.yahoo.com/articles/tennessee-football-offers-no-1-190059922.html",
-          "publisher": "Vols Wire",
-          "source_group": "national",
-          "feed": "Yahoo College Football",
-          "published_at": "2026-07-27T19:00:59+00:00",
-          "teams": [
-            "Tennessee"
-          ],
-          "players": [
-            "Wisconsin Tennessee"
-          ],
-          "sport": "football",
-          "competitions": [
-            "NCAA FBS",
-            "College Football Playoff"
-          ],
-          "lanes": [
-            "recruiting"
-          ]
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORjh6SWI5djN1UmJmaVZHekdQMF9rWnc5RFBSLVVIekxidzFSemZYaGk4V0NkX1BxY1FuejBTR0ZZRjJESW51TWRCUkVYemdWSGoybE5YVVZVWHFZUUREM0ZvTzM3bllBVkltRkhEWXpIcEVUSjFtRTNfZGljS0xmN3d3OXl1RWtwRXhrNjM3dHQzYVJYclpQLVV5N3NDWmItR2c4YW9rU0hIdFM2cWRwU2hEMWM0cHFfc1NYZzZwaVhYTFY4dGpJMXF4bw?oc=5",
           "desk": "college-football",
           "title": "Michigan QB Bryce Underwood reveals three goals for this season, what he's learned training with Joe Burrow",
@@ -5282,6 +5236,55 @@
           "teams": [],
           "players": [
             "Is Jaylen"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NCAA FBS",
+            "College Football Playoff"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQeVpkSk9nVUFMMnpUamE5bHE3N2hpcmtrWmI3aVFBOVZQWEZNSWVsUFI2Wm9WcExuSFZOLWRRT25kVFhoYjJhT0d0SUt2V0RtSUpMWjV4bm41YnJlTkJGTkowREJMTVJjQzVMV0pzNXZpdFhfTVE3bzBkcFhETnVCVDU0cmFiNm1JTjBsNEhzSEpRQTE0SjZMZXNIcXhuaHBkR2FsbHBKR0Q5VHc3ak12Vmc0X1IzUF9SVFkxd2ZJeldtYTM1MVFmV2I3UW1WelN3RnJ0YXNiOG9Rb0V4MGJjeno2TzA5M3FUNUtjUk9hTGVKbjMzbURYbmFWLUNSSUJQTnRhVHJmSGlDbnhwV2xwUnNaZkpfOFJDTDVrYjRZaWRBb3FBQTk5TzI4bEdRZjd6Q2k4?oc=5",
+          "desk": "college-football",
+          "title": "College football's rebound teams: Florida, Penn State among squads poised to improve win totals in 2026",
+          "summary": "College football's rebound teams: Florida, Penn State among squads poised to improve win totals in 2026 247Sports",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQeVpkSk9nVUFMMnpUamE5bHE3N2hpcmtrWmI3aVFBOVZQWEZNSWVsUFI2Wm9WcExuSFZOLWRRT25kVFhoYjJhT0d0SUt2V0RtSUpMWjV4bm41YnJlTkJGTkowREJMTVJjQzVMV0pzNXZpdFhfTVE3bzBkcFhETnVCVDU0cmFiNm1JTjBsNEhzSEpRQTE0SjZMZXNIcXhuaHBkR2FsbHBKR0Q5VHc3ak12Vmc0X1IzUF9SVFkxd2ZJeldtYTM1MVFmV2I3UW1WelN3RnJ0YXNiOG9Rb0V4MGJjeno2TzA5M3FUNUtjUk9hTGVKbjMzbURYbmFWLUNSSUJQTnRhVHJmSGlDbnhwV2xwUnNaZkpfOFJDTDVrYjRZaWRBb3FBQTk5TzI4bEdRZjd6Q2k4?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQeVpkSk9nVUFMMnpUamE5bHE3N2hpcmtrWmI3aVFBOVZQWEZNSWVsUFI2Wm9WcExuSFZOLWRRT25kVFhoYjJhT0d0SUt2V0RtSUpMWjV4bm41YnJlTkJGTkowREJMTVJjQzVMV0pzNXZpdFhfTVE3bzBkcFhETnVCVDU0cmFiNm1JTjBsNEhzSEpRQTE0SjZMZXNIcXhuaHBkR2FsbHBKR0Q5VHc3ak12Vmc0X1IzUF9SVFkxd2ZJeldtYTM1MVFmV2I3UW1WelN3RnJ0YXNiOG9Rb0V4MGJjeno2TzA5M3FUNUtjUk9hTGVKbjMzbURYbmFWLUNSSUJQTnRhVHJmSGlDbnhwV2xwUnNaZkpfOFJDTDVrYjRZaWRBb3FBQTk5TzI4bEdRZjd6Q2k4?oc=5",
+          "publisher": "247Sports",
+          "source_group": "specialist",
+          "feed": "College football specialists",
+          "published_at": "2026-07-26T14:41:00+00:00",
+          "teams": [
+            "Florida",
+            "Penn State"
+          ],
+          "players": [],
+          "sport": "football",
+          "competitions": [
+            "NCAA FBS",
+            "College Football Playoff"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbkFCV0FadlQwSy1CdlZXMnljY25rdm5FbklNa3VOTGh0cHpJTG53QUhIT2F2X2RVeUVLOXBraE5tXzlJZlAyRDlNN0psMjdOUUY2ZnRRYUlQVkhhcjZKbks1ZG9aY0YwZUFBYzJ3YUVJRjE5V0pNVE1oaHY0djhMTThVWFZTS3V2TFY3S3FDM25aZmoxeGtkTmpDR2lpMXNmU3hIeWN5b0NMMHRiaEI5WTFwZlRnY1JEUXNIekRsZjJCUFZmOTNBRDdoY3l0Q3FPcmpFaGJR?oc=5",
+          "desk": "college-football",
+          "title": "The biggest Oregon football questions I want answered at Big Ten Media Days",
+          "summary": "The biggest Oregon football questions I want answered at Big Ten Media Days 247Sports",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbkFCV0FadlQwSy1CdlZXMnljY25rdm5FbklNa3VOTGh0cHpJTG53QUhIT2F2X2RVeUVLOXBraE5tXzlJZlAyRDlNN0psMjdOUUY2ZnRRYUlQVkhhcjZKbks1ZG9aY0YwZUFBYzJ3YUVJRjE5V0pNVE1oaHY0djhMTThVWFZTS3V2TFY3S3FDM25aZmoxeGtkTmpDR2lpMXNmU3hIeWN5b0NMMHRiaEI5WTFwZlRnY1JEUXNIekRsZjJCUFZmOTNBRDdoY3l0Q3FPcmpFaGJR?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbkFCV0FadlQwSy1CdlZXMnljY25rdm5FbklNa3VOTGh0cHpJTG53QUhIT2F2X2RVeUVLOXBraE5tXzlJZlAyRDlNN0psMjdOUUY2ZnRRYUlQVkhhcjZKbks1ZG9aY0YwZUFBYzJ3YUVJRjE5V0pNVE1oaHY0djhMTThVWFZTS3V2TFY3S3FDM25aZmoxeGtkTmpDR2lpMXNmU3hIeWN5b0NMMHRiaEI5WTFwZlRnY1JEUXNIekRsZjJCUFZmOTNBRDdoY3l0Q3FPcmpFaGJR?oc=5",
+          "publisher": "247Sports",
+          "source_group": "specialist",
+          "feed": "College football specialists",
+          "published_at": "2026-07-26T23:11:25+00:00",
+          "teams": [
+            "Oregon"
+          ],
+          "players": [
+            "Big Ten Media",
+            "Big Ten",
+            "Days The"
           ],
           "sport": "football",
           "competitions": [
@@ -8280,6 +8283,32 @@
               ]
             },
             {
+              "id": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+              "desk": "college-football",
+              "title": "Alabama predicted to land nation’s top interior offensive lineman",
+              "summary": "Alabama‘s 2027 recruiting class has lacked some of the juice the Crimson Tide had in previous classes with just 14 commitments and a group that ranks No. 33 nationally. Instead, Kalen DeBoer and his staff have allocated their time — and money — toward retaining their roster this offseason with a talented young crop of […]",
+              "url": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+              "canonical_url": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+              "publisher": "On3",
+              "source_group": "national",
+              "feed": "Yahoo College Football",
+              "published_at": "2026-07-28T01:41:04+00:00",
+              "teams": [
+                "Alabama"
+              ],
+              "players": [
+                "Crimson Tide"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NCAA FBS",
+                "College Football Playoff"
+              ],
+              "lanes": [
+                "recruiting"
+              ]
+            },
+            {
               "id": "https://sports.yahoo.com/articles/mike-elko-built-texas-m-203829679.html",
               "desk": "college-football",
               "title": "Mike Elko Has Built This Texas A&M Roster for SEC Football; Here's Where It Shows",
@@ -8303,36 +8332,6 @@
                 "Here's Where",
                 "Shows Mike Elko",
                 "Shows Mike"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NCAA FBS",
-                "College Football Playoff"
-              ],
-              "lanes": [
-                "recruiting"
-              ]
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/alabama-receives-good-news-pursuit-201743280.html",
-              "desk": "college-football",
-              "title": "Alabama Receives Good News in Pursuit of 6-foot-3 Auburn Recruiting Target",
-              "summary": "Alabama looks ready to swoop up this still-growing SEC target in front of Auburn. The post Alabama Receives Good News in Pursuit of 6-foot-3 Auburn Recruiting Target appeared first on HEAVY.",
-              "url": "https://sports.yahoo.com/articles/alabama-receives-good-news-pursuit-201743280.html",
-              "canonical_url": "https://sports.yahoo.com/articles/alabama-receives-good-news-pursuit-201743280.html",
-              "publisher": "HEAVY",
-              "source_group": "national",
-              "feed": "Yahoo College Football",
-              "published_at": "2026-07-27T20:17:43+00:00",
-              "teams": [
-                "Alabama",
-                "Auburn"
-              ],
-              "players": [
-                "Alabama Receives Good",
-                "Alabama Receives",
-                "Auburn Recruiting Target",
-                "Auburn Recruiting"
               ],
               "sport": "football",
               "competitions": [
@@ -9049,6 +9048,36 @@
               "lanes": []
             },
             {
+              "id": "https://sports.yahoo.com/articles/alabama-receives-good-news-pursuit-201743280.html",
+              "desk": "college-football",
+              "title": "Alabama Receives Good News in Pursuit of 6-foot-3 Auburn Recruiting Target",
+              "summary": "Alabama looks ready to swoop up this still-growing SEC target in front of Auburn. The post Alabama Receives Good News in Pursuit of 6-foot-3 Auburn Recruiting Target appeared first on HEAVY.",
+              "url": "https://sports.yahoo.com/articles/alabama-receives-good-news-pursuit-201743280.html",
+              "canonical_url": "https://sports.yahoo.com/articles/alabama-receives-good-news-pursuit-201743280.html",
+              "publisher": "HEAVY",
+              "source_group": "national",
+              "feed": "Yahoo College Football",
+              "published_at": "2026-07-27T20:17:43+00:00",
+              "teams": [
+                "Alabama",
+                "Auburn"
+              ],
+              "players": [
+                "Alabama Receives Good",
+                "Alabama Receives",
+                "Auburn Recruiting Target",
+                "Auburn Recruiting"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NCAA FBS",
+                "College Football Playoff"
+              ],
+              "lanes": [
+                "recruiting"
+              ]
+            },
+            {
               "id": "https://sports.yahoo.com/articles/early-look-non-conference-opponent-000053732.html",
               "desk": "college-football",
               "title": "An Early Look at Non-Conference Opponent: New Mexico",
@@ -9069,60 +9098,6 @@
                 "New Mexico Oklahoma",
                 "New Mexico",
                 "New Mexico Lobos"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NCAA FBS",
-                "College Football Playoff"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/another-glimpse-money-side-college-191455901.html",
-              "desk": "college-football",
-              "title": "Another Glimpse At the Money Side Of College Football",
-              "summary": "While unverified, the UW's Demond Williams Jr. turns up among the top half-dozen compensated players.",
-              "url": "https://sports.yahoo.com/articles/another-glimpse-money-side-college-191455901.html",
-              "canonical_url": "https://sports.yahoo.com/articles/another-glimpse-money-side-college-191455901.html",
-              "publisher": "Washington Huskies On SI",
-              "source_group": "national",
-              "feed": "Yahoo College Football",
-              "published_at": "2026-07-27T19:14:55+00:00",
-              "teams": [],
-              "players": [
-                "Another Glimpse At",
-                "Another Glimpse",
-                "Money Side Of",
-                "Money Side",
-                "College Football While",
-                "College Football",
-                "Demond Williams Jr",
-                "Demond Williams"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NCAA FBS",
-                "College Football Playoff"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/florida-hires-well-traveled-special-191346833.html",
-              "desk": "college-football",
-              "title": "Florida hires well-traveled special teams coordinator as analyst",
-              "summary": "Greg McMahon won a national title at LSU and worked with Jon Sumrall at Tulane. Now, the veteran special teams coordinator is joining him again.",
-              "url": "https://sports.yahoo.com/articles/florida-hires-well-traveled-special-191346833.html",
-              "canonical_url": "https://sports.yahoo.com/articles/florida-hires-well-traveled-special-191346833.html",
-              "publisher": "College Sports Wire",
-              "source_group": "national",
-              "feed": "Yahoo College Football",
-              "published_at": "2026-07-27T19:13:46+00:00",
-              "teams": [
-                "Florida",
-                "LSU"
-              ],
-              "players": [
-                "Jon Sumrall"
               ],
               "sport": "football",
               "competitions": [
@@ -9180,6 +9155,28 @@
                 "Evaluating Florida State's",
                 "Evaluating Florida"
               ],
+              "sport": "football",
+              "competitions": [
+                "NCAA FBS",
+                "College Football Playoff"
+              ],
+              "lanes": []
+            },
+            {
+              "id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRC1BNk1FZDkwSGU2SS1Yc2dPdC1vMVpxdkJsMDg2WjVqQ0NEWXpwMWF6T2JISHZ5bnJPaW5kZWpuQlJMSG5DUEplUU5FVTZ3dnl4MW5sOWo3bVNyMFZURG5WR3pISzNWSjZhREt0U0tXY0NqZVZSWEM2S0MxMWp0NmM1WDZoc055WEMyYUxXS0JpeUhjeHlSWlFndVhzTlRTUTZz?oc=5",
+              "desk": "college-football",
+              "title": "Oklahoma football 2026 fall camp position primer: Running backs",
+              "summary": "Oklahoma football 2026 fall camp position primer: Running backs 247Sports",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRC1BNk1FZDkwSGU2SS1Yc2dPdC1vMVpxdkJsMDg2WjVqQ0NEWXpwMWF6T2JISHZ5bnJPaW5kZWpuQlJMSG5DUEplUU5FVTZ3dnl4MW5sOWo3bVNyMFZURG5WR3pISzNWSjZhREt0U0tXY0NqZVZSWEM2S0MxMWp0NmM1WDZoc055WEMyYUxXS0JpeUhjeHlSWlFndVhzTlRTUTZz?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRC1BNk1FZDkwSGU2SS1Yc2dPdC1vMVpxdkJsMDg2WjVqQ0NEWXpwMWF6T2JISHZ5bnJPaW5kZWpuQlJMSG5DUEplUU5FVTZ3dnl4MW5sOWo3bVNyMFZURG5WR3pISzNWSjZhREt0U0tXY0NqZVZSWEM2S0MxMWp0NmM1WDZoc055WEMyYUxXS0JpeUhjeHlSWlFndVhzTlRTUTZz?oc=5",
+              "publisher": "247Sports",
+              "source_group": "specialist",
+              "feed": "College football specialists",
+              "published_at": "2026-07-27T22:28:50+00:00",
+              "teams": [
+                "Oklahoma"
+              ],
+              "players": [],
               "sport": "football",
               "competitions": [
                 "NCAA FBS",
@@ -11702,8 +11699,8 @@
           ]
         }
       },
-      "content_updated_at": "2026-07-28T01:48:25.623071+00:00",
-      "updated_at": "2026-07-28T01:48:25.623071+00:00",
+      "content_updated_at": "2026-07-28T01:58:58.077000+00:00",
+      "updated_at": "2026-07-28T01:58:58.077000+00:00",
       "data_updated_at": {
         "scores": "2026-07-27T16:48:08.044745+00:00",
         "standings": "2026-07-27T16:48:08.044745+00:00",
@@ -11711,8 +11708,8 @@
       },
       "diagnostics": {
         "candidate_count": 366,
-        "classified_count": 86,
-        "deduplicated_count": 85,
+        "classified_count": 85,
+        "deduplicated_count": 84,
         "selected_count": 72,
         "publishers": {
           "OregonLive.com": 3,
@@ -11723,16 +11720,15 @@
           "Awful Announcing": 1,
           "LSU Tigers On SI": 2,
           "Roundtable Sports": 5,
-          "College Sports Wire": 2,
+          "College Sports Wire": 1,
           "The Sporting News": 1,
           "NBC Sports": 1,
+          "On3": 9,
           "Longhorns Wire": 1,
           "Texas A&M On SI": 1,
           "Buckeyes Wire": 1,
-          "Washington Huskies On SI": 1,
-          "247Sports": 19,
+          "247Sports": 21,
           "ESPN": 1,
-          "On3": 8,
           "Texas Tech Red Raiders On SI": 1,
           "Huskies Wire": 1,
           "USC Trojans On SI": 1,
@@ -11743,7 +11739,6 @@
           "Roundtable Sports - Clemson": 1,
           "Penn State Nittany Lions On SI": 1,
           "Sooners Wire": 1,
-          "Vols Wire": 1,
           "Cleveland.com": 5,
           "AJC.com": 1
         },
@@ -12049,6 +12044,30 @@
           "lanes": []
         },
         {
+          "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
+          "desk": "mlb",
+          "title": "Trade rumors: Yankees, Skubal, Miller, Astros",
+          "summary": "Trade rumors: Yankees, Skubal, Miller, Astros MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
+          "publisher": "MLB.com",
+          "source_group": "official",
+          "feed": "MLB official discovery",
+          "published_at": "2026-07-28T01:27:00+00:00",
+          "teams": [
+            "Astros",
+            "Yankees"
+          ],
+          "players": [
+            "Astros Trade"
+          ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": []
+        },
+        {
           "id": "https://sports.yahoo.com/articles/game-discussion-milwaukee-brewers-66-012601970.html",
           "desk": "mlb",
           "title": "Game Discussion: Milwaukee Brewers (66-39) @ San Francisco Giants (44-61)",
@@ -12070,30 +12089,6 @@
             "San Francisco",
             "The Brewers",
             "Brandon Sproat"
-          ],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
-          "desk": "mlb",
-          "title": "Trade rumors: Yankees, Skubal, Miller, Astros",
-          "summary": "Trade rumors: Yankees, Skubal, Miller, Astros MLB.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
-          "publisher": "MLB.com",
-          "source_group": "official",
-          "feed": "MLB official discovery",
-          "published_at": "2026-07-28T01:19:32+00:00",
-          "teams": [
-            "Astros",
-            "Yankees"
-          ],
-          "players": [
-            "Astros Trade"
           ],
           "sport": "baseball",
           "competitions": [
@@ -12518,6 +12513,35 @@
             "Major League Baseball"
           ],
           "lanes": []
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/jhoan-duran-blows-save-theres-214756071.html",
+          "desk": "mlb",
+          "title": "Jhoan Duran blows the save – and there's concern for Zack Wheeler",
+          "summary": "The Phillies rallied after Zack Wheeler's early exit, but Jhoan Duran blew a ninth-inning lead in an 8-7 loss to the Marlins.",
+          "url": "https://sports.yahoo.com/articles/jhoan-duran-blows-save-theres-214756071.html",
+          "canonical_url": "https://sports.yahoo.com/articles/jhoan-duran-blows-save-theres-214756071.html",
+          "publisher": "NBC Sports Philadelphia",
+          "source_group": "national",
+          "feed": "Yahoo MLB",
+          "published_at": "2026-07-27T21:47:56+00:00",
+          "teams": [
+            "Marlins",
+            "Phillies"
+          ],
+          "players": [
+            "Jhoan Duran",
+            "Zack Wheeler The",
+            "Zack Wheeler",
+            "Zack Wheeler's"
+          ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": [
+            "bullpen-performance"
+          ]
         },
         {
           "id": "https://sports.yahoo.com/mlb/article/cubs-dfa-veteran-starter-jameson-taillon-amid-career-worst-season-on-heels-of-3-hr-meltdown-in-loss-to-pirates-214426800.html",
@@ -13007,32 +13031,6 @@
           ]
         },
         {
-          "id": "https://sports.yahoo.com/articles/reds-spencer-steer-miss-significant-204636763.html",
-          "desk": "mlb",
-          "title": "Reds’ Spencer Steer will miss ‘significant time’ in major trade deadline blow",
-          "summary": "A valuable trade piece may have just watched his value sink.",
-          "url": "https://sports.yahoo.com/articles/reds-spencer-steer-miss-significant-204636763.html",
-          "canonical_url": "https://sports.yahoo.com/articles/reds-spencer-steer-miss-significant-204636763.html",
-          "publisher": "NY Post Sports",
-          "source_group": "national",
-          "feed": "Yahoo MLB",
-          "published_at": "2026-07-27T20:46:36+00:00",
-          "teams": [
-            "Reds"
-          ],
-          "players": [
-            "Reds’ Spencer Steer",
-            "Reds’ Spencer"
-          ],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": [
-            "trade-strategy"
-          ]
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10LUJHVnd2ZkJBOFVobEo3OGY2SnZyU19sM29tS1YyN2V3MUJrZjV3VUxjc0Fpek9LVjRzR1FFSVUzNVI1WHZPN1RwUktFYjlVSjlFUTl3U0FONEVDai1Vbl9tYWNRQUFlakRXZW45Y1pFN1dOYTEwZkpkclE?oc=5",
           "desk": "mlb",
           "title": "2026 MLB Trade Deadline Tracker",
@@ -13206,6 +13204,36 @@
             "Cleveland Guardians Logan",
             "Cleveland Guardians",
             "Cleveland Guardians Baseball"
+          ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTjdSNTFZMTZZUm9OUEFUSk43cDROX25QNmdNdm5xNDVyNGszNTFwVjRpUU4wQ01nT3hqbFZ4MEFPQmxkT1A4R3N5ME9VRHBmeU9tdHJmU0NhRGE2azlDcVB3TXV1NW5xR3oxUU4tZFJvWmI1VkF5aGszY0t1MkFjQUJHbkhDdTlRLXEwanJoZEhSQk85aGhWOHFXVWpGZEpvTmFjcl91Nnh6TEFjeUo1dGdaQ3pGTFhpYTdJ?oc=5",
+          "desk": "mlb",
+          "title": "Rockies Withstand Jirvin Morillo Grand Slam To Win ACL Opener",
+          "summary": "Rockies Withstand Jirvin Morillo Grand Slam To Win ACL Opener Baseball America",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTjdSNTFZMTZZUm9OUEFUSk43cDROX25QNmdNdm5xNDVyNGszNTFwVjRpUU4wQ01nT3hqbFZ4MEFPQmxkT1A4R3N5ME9VRHBmeU9tdHJmU0NhRGE2azlDcVB3TXV1NW5xR3oxUU4tZFJvWmI1VkF5aGszY0t1MkFjQUJHbkhDdTlRLXEwanJoZEhSQk85aGhWOHFXVWpGZEpvTmFjcl91Nnh6TEFjeUo1dGdaQ3pGTFhpYTdJ?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTjdSNTFZMTZZUm9OUEFUSk43cDROX25QNmdNdm5xNDVyNGszNTFwVjRpUU4wQ01nT3hqbFZ4MEFPQmxkT1A4R3N5ME9VRHBmeU9tdHJmU0NhRGE2azlDcVB3TXV1NW5xR3oxUU4tZFJvWmI1VkF5aGszY0t1MkFjQUJHbkhDdTlRLXEwanJoZEhSQk85aGhWOHFXVWpGZEpvTmFjcl91Nnh6TEFjeUo1dGdaQ3pGTFhpYTdJ?oc=5",
+          "publisher": "Baseball America",
+          "source_group": "specialist",
+          "feed": "Baseball specialists",
+          "published_at": "2026-07-27T04:26:27+00:00",
+          "teams": [
+            "Rockies"
+          ],
+          "players": [
+            "Rockies Withstand Jirvin",
+            "Rockies Withstand",
+            "Morillo Grand Slam",
+            "Morillo Grand",
+            "To Win",
+            "Opener Rockies Withstand",
+            "Opener Rockies",
+            "Jirvin Morillo Grand"
           ],
           "sport": "baseball",
           "competitions": [
@@ -13622,31 +13650,6 @@
             "Major League Baseball"
           ],
           "lanes": []
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeEg1Q1g3ODEtdkF1aGg4eXlTbTJBcWk0YlBuV09MZW5ETml1M3RuNUJNTVJVMlBLRVYyOEVQM2ZrYTJjSlZVVHJYRV93YUpkdFQ4TFg5WlpTTl9LaXhQQkVSbHlrbkJNVEdPbURSN2VPSEFGZ1ZUTllENzdPbmtoMF9OUG1mWEpidXRqRzdfVkpmWDFmUmE5dFlCa0tHd1l5?oc=5",
-          "desk": "mlb",
-          "title": "5 MLB Prospects Underproducing Their Expected Data In 2026",
-          "summary": "5 MLB Prospects Underproducing Their Expected Data In 2026 Baseball America",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeEg1Q1g3ODEtdkF1aGg4eXlTbTJBcWk0YlBuV09MZW5ETml1M3RuNUJNTVJVMlBLRVYyOEVQM2ZrYTJjSlZVVHJYRV93YUpkdFQ4TFg5WlpTTl9LaXhQQkVSbHlrbkJNVEdPbURSN2VPSEFGZ1ZUTllENzdPbmtoMF9OUG1mWEpidXRqRzdfVkpmWDFmUmE5dFlCa0tHd1l5?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeEg1Q1g3ODEtdkF1aGg4eXlTbTJBcWk0YlBuV09MZW5ETml1M3RuNUJNTVJVMlBLRVYyOEVQM2ZrYTJjSlZVVHJYRV93YUpkdFQ4TFg5WlpTTl9LaXhQQkVSbHlrbkJNVEdPbURSN2VPSEFGZ1ZUTllENzdPbmtoMF9OUG1mWEpidXRqRzdfVkpmWDFmUmE5dFlCa0tHd1l5?oc=5",
-          "publisher": "Baseball America",
-          "source_group": "specialist",
-          "feed": "Baseball specialists",
-          "published_at": "2026-07-24T16:17:46+00:00",
-          "teams": [],
-          "players": [
-            "Prospects Underproducing Their",
-            "Prospects Underproducing",
-            "Expected Data In",
-            "Expected Data",
-            "Baseball America"
-          ],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": []
         }
       ],
       "data": {
@@ -13687,7 +13690,7 @@
             "home": "Pittsburgh Pirates",
             "away_score": "2",
             "home_score": "3",
-            "status": "Live",
+            "status": "Final",
             "starts_at": "2026-07-27T22:40:00Z",
             "url": "https://www.mlb.com/gameday/823353",
             "source": "MLB",
@@ -13755,7 +13758,7 @@
             "competition": "Major League Baseball",
             "away": "Chicago Cubs",
             "home": "St. Louis Cardinals",
-            "away_score": "1",
+            "away_score": "2",
             "home_score": "",
             "status": "Live",
             "starts_at": "2026-07-27T23:45:00Z",
@@ -13770,7 +13773,7 @@
             "away": "Houston Astros",
             "home": "Los Angeles Angels",
             "away_score": "",
-            "home_score": "",
+            "home_score": "2",
             "status": "Live",
             "starts_at": "2026-07-28T01:38:00Z",
             "url": "https://www.mlb.com/gameday/824001",
@@ -13784,7 +13787,7 @@
             "away": "Boston Red Sox",
             "home": "Athletics",
             "away_score": "",
-            "home_score": "",
+            "home_score": "1",
             "status": "Live",
             "starts_at": "2026-07-28T01:40:00Z",
             "url": "https://www.mlb.com/gameday/824977",
@@ -14216,6 +14219,35 @@
         "bullpen-performance": {
           "label": "Bullpen Performance",
           "items": [
+            {
+              "id": "https://sports.yahoo.com/articles/jhoan-duran-blows-save-theres-214756071.html",
+              "desk": "mlb",
+              "title": "Jhoan Duran blows the save – and there's concern for Zack Wheeler",
+              "summary": "The Phillies rallied after Zack Wheeler's early exit, but Jhoan Duran blew a ninth-inning lead in an 8-7 loss to the Marlins.",
+              "url": "https://sports.yahoo.com/articles/jhoan-duran-blows-save-theres-214756071.html",
+              "canonical_url": "https://sports.yahoo.com/articles/jhoan-duran-blows-save-theres-214756071.html",
+              "publisher": "NBC Sports Philadelphia",
+              "source_group": "national",
+              "feed": "Yahoo MLB",
+              "published_at": "2026-07-27T21:47:56+00:00",
+              "teams": [
+                "Marlins",
+                "Phillies"
+              ],
+              "players": [
+                "Jhoan Duran",
+                "Zack Wheeler The",
+                "Zack Wheeler",
+                "Zack Wheeler's"
+              ],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": [
+                "bullpen-performance"
+              ]
+            },
             {
               "id": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWUtZQ1Y2WDNXS1VJS2lPb0pETmhzMXIySmU3OFdGd0stSURFM2U5T0JJWHRFYTlkdGl0dnVtR2pPbEFKV256NTBwblkwQ3NkUi1jZHo2ODJXcTJTRHB6b2h0LTk0b3RPRy1vTk5tT29VZHVHemRQV3RVNGg2UFYtTEFxNks2dllyNkE4clJxdDlXRks2?oc=5",
               "desk": "mlb",
@@ -14658,6 +14690,30 @@
               "lanes": []
             },
             {
+              "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
+              "desk": "mlb",
+              "title": "Trade rumors: Yankees, Skubal, Miller, Astros",
+              "summary": "Trade rumors: Yankees, Skubal, Miller, Astros MLB.com",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
+              "publisher": "MLB.com",
+              "source_group": "official",
+              "feed": "MLB official discovery",
+              "published_at": "2026-07-28T01:27:00+00:00",
+              "teams": [
+                "Astros",
+                "Yankees"
+              ],
+              "players": [
+                "Astros Trade"
+              ],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": []
+            },
+            {
               "id": "https://sports.yahoo.com/articles/game-discussion-milwaukee-brewers-66-012601970.html",
               "desk": "mlb",
               "title": "Game Discussion: Milwaukee Brewers (66-39) @ San Francisco Giants (44-61)",
@@ -14679,30 +14735,6 @@
                 "San Francisco",
                 "The Brewers",
                 "Brandon Sproat"
-              ],
-              "sport": "baseball",
-              "competitions": [
-                "Major League Baseball"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
-              "desk": "mlb",
-              "title": "Trade rumors: Yankees, Skubal, Miller, Astros",
-              "summary": "Trade rumors: Yankees, Skubal, Miller, Astros MLB.com",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
-              "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWTVTLWF3ZGxiVzRVX0NRdkMyM1oyTWI5anRmX2VYRHFaYi1FanJHSE1BXy1FNF8yanZMaXdYYWw0T0FBX3BQekstRjBISmZzS25yajRBWS03UTVNaWRvd1VYSG5UWXF5TlF3dTQ0aFZZUUItUGfSAYIBQVVfeXFMTl9IaHNLNlk0ZkZYNU1LMG45RkMzUnFNdGdWVlpCTEhmNnFNNEtweXZMUTVuSVJ2NmdxM3U2M0NTc0VZR3F6VW5rUVUxUlhtNFowcE9tSExvdEdrZFAyZS1TV2s1OXR2N3RfOTZtR2w5S2hrTnk0dEVmb3dtT2QyUHdPdw?oc=5",
-              "publisher": "MLB.com",
-              "source_group": "official",
-              "feed": "MLB official discovery",
-              "published_at": "2026-07-28T01:19:32+00:00",
-              "teams": [
-                "Astros",
-                "Yankees"
-              ],
-              "players": [
-                "Astros Trade"
               ],
               "sport": "baseball",
               "competitions": [
@@ -14884,7 +14916,7 @@
               "home": "Pittsburgh Pirates",
               "away_score": "2",
               "home_score": "3",
-              "status": "Live",
+              "status": "Final",
               "starts_at": "2026-07-27T22:40:00Z",
               "url": "https://www.mlb.com/gameday/823353",
               "source": "MLB",
@@ -14952,7 +14984,7 @@
               "competition": "Major League Baseball",
               "away": "Chicago Cubs",
               "home": "St. Louis Cardinals",
-              "away_score": "1",
+              "away_score": "2",
               "home_score": "",
               "status": "Live",
               "starts_at": "2026-07-27T23:45:00Z",
@@ -14967,7 +14999,7 @@
               "away": "Houston Astros",
               "home": "Los Angeles Angels",
               "away_score": "",
-              "home_score": "",
+              "home_score": "2",
               "status": "Live",
               "starts_at": "2026-07-28T01:38:00Z",
               "url": "https://www.mlb.com/gameday/824001",
@@ -14981,7 +15013,7 @@
               "away": "Boston Red Sox",
               "home": "Athletics",
               "away_score": "",
-              "home_score": "",
+              "home_score": "1",
               "status": "Live",
               "starts_at": "2026-07-28T01:40:00Z",
               "url": "https://www.mlb.com/gameday/824977",
@@ -15294,16 +15326,16 @@
           ]
         }
       },
-      "content_updated_at": "2026-07-28T01:48:25.623071+00:00",
-      "updated_at": "2026-07-28T01:48:25.623071+00:00",
+      "content_updated_at": "2026-07-28T01:58:58.077000+00:00",
+      "updated_at": "2026-07-28T01:58:58.077000+00:00",
       "data_updated_at": {
-        "scores": "2026-07-28T01:48:25.623071+00:00",
+        "scores": "2026-07-28T01:58:58.077000+00:00",
         "standings": "2026-07-28T01:48:25.623071+00:00"
       },
       "diagnostics": {
         "candidate_count": 365,
-        "classified_count": 142,
-        "deduplicated_count": 136,
+        "classified_count": 147,
+        "deduplicated_count": 141,
         "selected_count": 72,
         "publishers": {
           "SB Nation": 21,
@@ -15312,8 +15344,9 @@
           "Yahoo Sports": 5,
           "SNY": 2,
           "MLB.com": 6,
+          "NBC Sports Philadelphia": 1,
           "Chicago Tribune": 6,
-          "NY Post Sports": 3,
+          "NY Post Sports": 2,
           "New York Daily News": 6,
           "Baseball America": 6,
           "Los Angeles Times": 6
@@ -18585,7 +18618,7 @@
             "home": "Deportivo Cuenca",
             "away_score": "1",
             "home_score": "2",
-            "status": "86'",
+            "status": "90'+6'",
             "starts_at": "2026-07-28T00:00Z",
             "url": "https://www.espn.com/soccer/match/_/gameId/401859638",
             "source": "ESPN",
@@ -21280,7 +21313,7 @@
               "home": "Deportivo Cuenca",
               "away_score": "1",
               "home_score": "2",
-              "status": "86'",
+              "status": "90'+6'",
               "starts_at": "2026-07-28T00:00Z",
               "url": "https://www.espn.com/soccer/match/_/gameId/401859638",
               "source": "ESPN",
@@ -21489,9 +21522,9 @@
         }
       },
       "content_updated_at": "2026-07-28T01:48:25.623071+00:00",
-      "updated_at": "2026-07-28T01:48:25.623071+00:00",
+      "updated_at": "2026-07-28T01:58:58.077000+00:00",
       "data_updated_at": {
-        "scores": "2026-07-28T01:48:25.623071+00:00",
+        "scores": "2026-07-28T01:58:58.077000+00:00",
         "standings": "2026-07-27T16:48:08.044745+00:00"
       },
       "diagnostics": {
@@ -21563,7 +21596,7 @@
             "Soccer Fantasy"
           ],
           "lanes": [
-            "rankings"
+            "fantasy-rankings"
           ]
         },
         {
@@ -21679,7 +21712,7 @@
           ],
           "lanes": [
             "waiver-wire",
-            "rankings"
+            "fantasy-rankings"
           ]
         },
         {
@@ -22145,7 +22178,7 @@
             "Soccer Fantasy"
           ],
           "lanes": [
-            "rankings",
+            "fantasy-rankings",
             "lineup"
           ]
         },
@@ -22251,7 +22284,7 @@
             "Soccer Fantasy"
           ],
           "lanes": [
-            "rankings",
+            "fantasy-rankings",
             "roles"
           ]
         },
@@ -22313,7 +22346,7 @@
           ],
           "lanes": [
             "matchups",
-            "rankings",
+            "fantasy-rankings",
             "lineup"
           ]
         },
@@ -22399,7 +22432,7 @@
           ],
           "lanes": [
             "draft-prep",
-            "rankings"
+            "fantasy-rankings"
           ]
         },
         {
@@ -22474,31 +22507,6 @@
             "Justin Boone",
             "Yahoo Fantasy Forecast",
             "Yahoo Fantasy"
-          ],
-          "sport": "multi-sport",
-          "competitions": [
-            "NFL Fantasy",
-            "MLB Fantasy",
-            "WNBA Fantasy",
-            "Soccer Fantasy"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWENMMWthOU12NjNrWWZ6T21xMU9zUWpJTExNMnNnUUVQck9PbzZadmU2N0tPTXUxQk5abXpoZzhyX0tkMmdhLWx5a19EaXhDZ0ZmVDZrMUVyTXVpSjFMTWZjSUtGYW9VUzRmazAyd3J5bmo4cERHV3JkSmxRWEVXVUxEQXZCQdIBiwFBVV95cUxPVlI4NTluRHprWno3U0tfcXhBNWdOUVVVUkoxQVVsaEFDNnlHaTVYUHNWSkJ5dHNvU05NNGhVQVFMZ3RGUGliTnZIcWRwd1pOUF9Hd0NBM3hCSGpxWEFHOFMzUXg5Y0dZVXZINzI2UFRNMVo0SGYzVEdnU0VUdFA0b3FOUUFfS1lyZ0pr?oc=5",
-          "desk": "fantasy",
-          "title": "5 Fantasy Baseball Prospects to Stash (2026)",
-          "summary": "5 Fantasy Baseball Prospects to Stash (2026) FantasyPros",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWENMMWthOU12NjNrWWZ6T21xMU9zUWpJTExNMnNnUUVQck9PbzZadmU2N0tPTXUxQk5abXpoZzhyX0tkMmdhLWx5a19EaXhDZ0ZmVDZrMUVyTXVpSjFMTWZjSUtGYW9VUzRmazAyd3J5bmo4cERHV3JkSmxRWEVXVUxEQXZCQdIBiwFBVV95cUxPVlI4NTluRHprWno3U0tfcXhBNWdOUVVVUkoxQVVsaEFDNnlHaTVYUHNWSkJ5dHNvU05NNGhVQVFMZ3RGUGliTnZIcWRwd1pOUF9Hd0NBM3hCSGpxWEFHOFMzUXg5Y0dZVXZINzI2UFRNMVo0SGYzVEdnU0VUdFA0b3FOUUFfS1lyZ0pr?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWENMMWthOU12NjNrWWZ6T21xMU9zUWpJTExNMnNnUUVQck9PbzZadmU2N0tPTXUxQk5abXpoZzhyX0tkMmdhLWx5a19EaXhDZ0ZmVDZrMUVyTXVpSjFMTWZjSUtGYW9VUzRmazAyd3J5bmo4cERHV3JkSmxRWEVXVUxEQXZCQdIBiwFBVV95cUxPVlI4NTluRHprWno3U0tfcXhBNWdOUVVVUkoxQVVsaEFDNnlHaTVYUHNWSkJ5dHNvU05NNGhVQVFMZ3RGUGliTnZIcWRwd1pOUF9Hd0NBM3hCSGpxWEFHOFMzUXg5Y0dZVXZINzI2UFRNMVo0SGYzVEdnU0VUdFA0b3FOUUFfS1lyZ0pr?oc=5",
-          "publisher": "FantasyPros",
-          "source_group": "specialist",
-          "feed": "Fantasy specialists",
-          "published_at": "2026-07-24T12:38:51+00:00",
-          "teams": [],
-          "players": [
-            "Fantasy Baseball Prospects",
-            "Fantasy Baseball"
           ],
           "sport": "multi-sport",
           "competitions": [
@@ -22802,7 +22810,7 @@
               ],
               "lanes": [
                 "matchups",
-                "rankings",
+                "fantasy-rankings",
                 "lineup"
               ]
             }
@@ -22866,12 +22874,12 @@
               ],
               "lanes": [
                 "draft-prep",
-                "rankings"
+                "fantasy-rankings"
               ]
             }
           ]
         },
-        "rankings": {
+        "fantasy-rankings": {
           "label": "Rankings",
           "items": [
             {
@@ -22901,7 +22909,7 @@
               ],
               "lanes": [
                 "waiver-wire",
-                "rankings"
+                "fantasy-rankings"
               ]
             },
             {
@@ -22929,7 +22937,7 @@
                 "Soccer Fantasy"
               ],
               "lanes": [
-                "rankings",
+                "fantasy-rankings",
                 "lineup"
               ]
             }
@@ -22962,7 +22970,7 @@
                 "Soccer Fantasy"
               ],
               "lanes": [
-                "rankings",
+                "fantasy-rankings",
                 "roles"
               ]
             }
@@ -23173,7 +23181,7 @@
                 "Soccer Fantasy"
               ],
               "lanes": [
-                "rankings"
+                "fantasy-rankings"
               ]
             },
             {
@@ -23508,20 +23516,20 @@
           ]
         }
       },
-      "content_updated_at": "2026-07-28T01:45:11.045258+00:00",
-      "updated_at": "2026-07-28T01:45:11.045258+00:00",
+      "content_updated_at": "2026-07-28T01:58:58.077000+00:00",
+      "updated_at": "2026-07-28T01:58:58.077000+00:00",
       "data_updated_at": {},
       "diagnostics": {
         "candidate_count": 355,
-        "classified_count": 60,
-        "deduplicated_count": 40,
-        "selected_count": 40,
+        "classified_count": 58,
+        "deduplicated_count": 39,
+        "selected_count": 39,
         "publishers": {
           "ESPN": 10,
           "RotoWire": 4,
           "Yahoo Sports": 6,
           "NBC Sports": 2,
-          "FantasyPros": 18
+          "FantasyPros": 17
         },
         "source_counts": {
           "ESPN Fantasy discovery": 100,
@@ -23679,6 +23687,33 @@
             "league-business",
             "all-star"
           ]
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/wnba-facing-calls-cancel-rally-014433130.html",
+          "desk": "wnba",
+          "title": "WNBA facing calls to cancel rally Sophie Cunningham ‘incited’ with anti-trans comments",
+          "summary": "Indiana Fever guard Sophie Cunningham has never been shy about offering her opinion. That was proven true last week when Cunningham was the center of an ESPN feature, and she discussed what she felt was necessary to “protect women’s sports.” “I got a lot of negative feedback about me hating trans. And I’m like, ‘I…",
+          "url": "https://sports.yahoo.com/articles/wnba-facing-calls-cancel-rally-014433130.html",
+          "canonical_url": "https://sports.yahoo.com/articles/wnba-facing-calls-cancel-rally-014433130.html",
+          "publisher": "The Comeback",
+          "source_group": "national",
+          "feed": "Yahoo WNBA",
+          "published_at": "2026-07-28T01:44:33+00:00",
+          "teams": [
+            "Indiana Fever"
+          ],
+          "players": [
+            "Sophie Cunningham",
+            "And I’m"
+          ],
+          "sport": "basketball",
+          "competitions": [
+            "WNBA",
+            "WNBA Playoffs",
+            "WNBA Commissioner's Cup",
+            "WNBA All-Star"
+          ],
+          "lanes": []
         },
         {
           "id": "https://sports.yahoo.com/articles/2025-wnba-championship-odds-mercury-165800150.html",
@@ -24576,6 +24611,41 @@
           ],
           "lanes": [
             "all-star"
+          ]
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG10dEVFeWNPS2QxR1RsMldVb1hQalYtTENlUFJ6MEhwdVVNTkV5cE5yM3RxVTgzWkpFUUc1YnZJOEFnZUdHRzlEYlY2VUQ0Rm13V0k2b2g3TVpVQUNZMERvOHdOdnByNFhHeUs0LWVBUmZkamYtbUVlVnRfMWNYRlJyR3RmVUVCT0ozVU5FOFdCU2tyR3JwaWZkMHMwOEdZV1A4?oc=5",
+          "desk": "wnba",
+          "title": "Las Vegas Aces Forward Steph Talbot Named to 2026 Australia World Cup Team",
+          "summary": "Las Vegas Aces Forward Steph Talbot Named to 2026 Australia World Cup Team Las Vegas Aces",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG10dEVFeWNPS2QxR1RsMldVb1hQalYtTENlUFJ6MEhwdVVNTkV5cE5yM3RxVTgzWkpFUUc1YnZJOEFnZUdHRzlEYlY2VUQ0Rm13V0k2b2g3TVpVQUNZMERvOHdOdnByNFhHeUs0LWVBUmZkamYtbUVlVnRfMWNYRlJyR3RmVUVCT0ozVU5FOFdCU2tyR3JwaWZkMHMwOEdZV1A4?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG10dEVFeWNPS2QxR1RsMldVb1hQalYtTENlUFJ6MEhwdVVNTkV5cE5yM3RxVTgzWkpFUUc1YnZJOEFnZUdHRzlEYlY2VUQ0Rm13V0k2b2g3TVpVQUNZMERvOHdOdnByNFhHeUs0LWVBUmZkamYtbUVlVnRfMWNYRlJyR3RmVUVCT0ozVU5FOFdCU2tyR3JwaWZkMHMwOEdZV1A4?oc=5",
+          "publisher": "Las Vegas Aces",
+          "source_group": "official",
+          "feed": "WNBA official discovery",
+          "published_at": "2026-07-26T21:54:12+00:00",
+          "teams": [
+            "Las Vegas Aces"
+          ],
+          "players": [
+            "Las Vegas",
+            "Forward Steph Talbot",
+            "Forward Steph",
+            "Australia World Cup",
+            "Australia World",
+            "Team Las Vegas",
+            "Team Las",
+            "Aces Forward Steph"
+          ],
+          "sport": "basketball",
+          "competitions": [
+            "WNBA",
+            "WNBA Playoffs",
+            "WNBA Commissioner's Cup",
+            "WNBA All-Star"
+          ],
+          "lanes": [
+            "international-players"
           ]
         },
         {
@@ -25873,6 +25943,46 @@
             }
           ]
         },
+        "international-players": {
+          "label": "International Players",
+          "items": [
+            {
+              "id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG10dEVFeWNPS2QxR1RsMldVb1hQalYtTENlUFJ6MEhwdVVNTkV5cE5yM3RxVTgzWkpFUUc1YnZJOEFnZUdHRzlEYlY2VUQ0Rm13V0k2b2g3TVpVQUNZMERvOHdOdnByNFhHeUs0LWVBUmZkamYtbUVlVnRfMWNYRlJyR3RmVUVCT0ozVU5FOFdCU2tyR3JwaWZkMHMwOEdZV1A4?oc=5",
+              "desk": "wnba",
+              "title": "Las Vegas Aces Forward Steph Talbot Named to 2026 Australia World Cup Team",
+              "summary": "Las Vegas Aces Forward Steph Talbot Named to 2026 Australia World Cup Team Las Vegas Aces",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG10dEVFeWNPS2QxR1RsMldVb1hQalYtTENlUFJ6MEhwdVVNTkV5cE5yM3RxVTgzWkpFUUc1YnZJOEFnZUdHRzlEYlY2VUQ0Rm13V0k2b2g3TVpVQUNZMERvOHdOdnByNFhHeUs0LWVBUmZkamYtbUVlVnRfMWNYRlJyR3RmVUVCT0ozVU5FOFdCU2tyR3JwaWZkMHMwOEdZV1A4?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG10dEVFeWNPS2QxR1RsMldVb1hQalYtTENlUFJ6MEhwdVVNTkV5cE5yM3RxVTgzWkpFUUc1YnZJOEFnZUdHRzlEYlY2VUQ0Rm13V0k2b2g3TVpVQUNZMERvOHdOdnByNFhHeUs0LWVBUmZkamYtbUVlVnRfMWNYRlJyR3RmVUVCT0ozVU5FOFdCU2tyR3JwaWZkMHMwOEdZV1A4?oc=5",
+              "publisher": "Las Vegas Aces",
+              "source_group": "official",
+              "feed": "WNBA official discovery",
+              "published_at": "2026-07-26T21:54:12+00:00",
+              "teams": [
+                "Las Vegas Aces"
+              ],
+              "players": [
+                "Las Vegas",
+                "Forward Steph Talbot",
+                "Forward Steph",
+                "Australia World Cup",
+                "Australia World",
+                "Team Las Vegas",
+                "Team Las",
+                "Aces Forward Steph"
+              ],
+              "sport": "basketball",
+              "competitions": [
+                "WNBA",
+                "WNBA Playoffs",
+                "WNBA Commissioner's Cup",
+                "WNBA All-Star"
+              ],
+              "lanes": [
+                "international-players"
+              ]
+            }
+          ]
+        },
         "top-stories": {
           "label": "Top Stories",
           "items": [
@@ -25910,6 +26020,33 @@
               "lanes": [
                 "all-star"
               ]
+            },
+            {
+              "id": "https://sports.yahoo.com/articles/wnba-facing-calls-cancel-rally-014433130.html",
+              "desk": "wnba",
+              "title": "WNBA facing calls to cancel rally Sophie Cunningham ‘incited’ with anti-trans comments",
+              "summary": "Indiana Fever guard Sophie Cunningham has never been shy about offering her opinion. That was proven true last week when Cunningham was the center of an ESPN feature, and she discussed what she felt was necessary to “protect women’s sports.” “I got a lot of negative feedback about me hating trans. And I’m like, ‘I…",
+              "url": "https://sports.yahoo.com/articles/wnba-facing-calls-cancel-rally-014433130.html",
+              "canonical_url": "https://sports.yahoo.com/articles/wnba-facing-calls-cancel-rally-014433130.html",
+              "publisher": "The Comeback",
+              "source_group": "national",
+              "feed": "Yahoo WNBA",
+              "published_at": "2026-07-28T01:44:33+00:00",
+              "teams": [
+                "Indiana Fever"
+              ],
+              "players": [
+                "Sophie Cunningham",
+                "And I’m"
+              ],
+              "sport": "basketball",
+              "competitions": [
+                "WNBA",
+                "WNBA Playoffs",
+                "WNBA Commissioner's Cup",
+                "WNBA All-Star"
+              ],
+              "lanes": []
             },
             {
               "id": "https://sports.yahoo.com/articles/2025-wnba-championship-odds-mercury-165800150.html",
@@ -26024,7 +26161,12 @@
                 "WNBA All-Star"
               ],
               "lanes": []
-            },
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
             {
               "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjEyaWZ3NjFUWWM4SHNOLW41QjY1RDVtcWs2ekdMTFNGd1JaNENUOF93OWI3eXFrSElNLUxXM3A2OGRKYmlkdG42QmRGOVIwQkpQWG01V2hGUzUyTWZleXdUS2xxWTRILWk3OC1TN1p4T2luUXlVeGZtOTBKdkRjSFFsQQ?oc=5",
               "desk": "wnba",
@@ -26055,12 +26197,7 @@
               "lanes": [
                 "all-star"
               ]
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
+            },
             {
               "id": "https://sports.yahoo.com/articles/ex-lsu-star-angel-reese-144125744.html",
               "desk": "wnba",
@@ -26250,39 +26387,6 @@
                 "From Obama",
                 "Swish Appeal",
                 "Christina Merrion"
-              ],
-              "sport": "basketball",
-              "competitions": [
-                "WNBA",
-                "WNBA Playoffs",
-                "WNBA Commissioner's Cup",
-                "WNBA All-Star"
-              ],
-              "lanes": [
-                "all-star"
-              ]
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/why-2026-star-game-proved-160000309.html",
-              "desk": "wnba",
-              "title": "Why The 2026 All-Star Game Proved Angel Reese Definitely Isn't The Face Of The WNBA",
-              "summary": "Angel Reese has been riding some highs as she still believes that she’s the face of the WNBA. During All-Star weekend, one of her dreams came true when Mattel revealed its Reese Barbie doll. On top of that, she commented on her legacy status after the reveal. \"I remember, I think it's been three years […] The post Why The 2026 All-Star Game Proved Angel Reese Definitely Isn’t The Face Of The WNBA appeared first on Stadium Rant.",
-              "url": "https://sports.yahoo.com/articles/why-2026-star-game-proved-160000309.html",
-              "canonical_url": "https://sports.yahoo.com/articles/why-2026-star-game-proved-160000309.html",
-              "publisher": "Stadium Rant",
-              "source_group": "national",
-              "feed": "Yahoo WNBA",
-              "published_at": "2026-07-27T16:00:00+00:00",
-              "teams": [],
-              "players": [
-                "Why The",
-                "Star Game Proved",
-                "Star Game",
-                "Angel Reese Definitely",
-                "Angel Reese",
-                "Isn't The Face",
-                "Isn't The",
-                "Of The"
               ],
               "sport": "basketball",
               "competitions": [
@@ -26513,22 +26617,22 @@
           ]
         }
       },
-      "content_updated_at": "2026-07-28T01:45:11.045258+00:00",
-      "updated_at": "2026-07-28T01:45:11.045258+00:00",
+      "content_updated_at": "2026-07-28T01:58:58.077000+00:00",
+      "updated_at": "2026-07-28T01:58:58.077000+00:00",
       "data_updated_at": {
         "scores": "2026-07-27T16:48:08.044745+00:00",
         "standings": "2026-07-27T16:48:08.044745+00:00"
       },
       "diagnostics": {
         "candidate_count": 359,
-        "classified_count": 77,
-        "deduplicated_count": 74,
-        "selected_count": 53,
+        "classified_count": 78,
+        "deduplicated_count": 75,
+        "selected_count": 55,
         "publishers": {
           "The Lead": 1,
           "The Athletic": 2,
           "Buckeyes Wire": 1,
-          "The Comeback": 3,
+          "The Comeback": 4,
           "COVERS": 1,
           "New York Liberty": 1,
           "FanSided": 3,
@@ -26537,7 +26641,7 @@
           "Awful Announcing": 1,
           "Indiana Fever On SI": 1,
           "LSU Tigers Wire": 1,
-          "Las Vegas Aces": 1,
+          "Las Vegas Aces": 2,
           "Stadium Rant": 2,
           "SB Nation": 2,
           "Women's Fastbreak On SI": 1,
@@ -26871,32 +26975,6 @@
         ]
       },
       {
-        "id": "https://sports.yahoo.com/nfl/article/why-alec-pierce-landing-on-pup-list-could-be-nerve-wracking-224338944.html",
-        "desk": "nfl",
-        "title": "Why Alec Pierce landing on PUP list could be nerve-wracking",
-        "summary": "There's no reason yet to panic about Alec Pierce's injury, but he won't be ready for Day 1 of training camp.",
-        "url": "https://sports.yahoo.com/nfl/article/why-alec-pierce-landing-on-pup-list-could-be-nerve-wracking-224338944.html",
-        "canonical_url": "https://sports.yahoo.com/nfl/article/why-alec-pierce-landing-on-pup-list-could-be-nerve-wracking-224338944.html",
-        "publisher": "Yahoo Sports",
-        "source_group": "national",
-        "feed": "Yahoo NFL",
-        "published_at": "2026-07-27T22:43:38+00:00",
-        "teams": [],
-        "players": [
-          "Why Alec Pierce",
-          "Why Alec",
-          "Alec Pierce's"
-        ],
-        "sport": "football",
-        "competitions": [
-          "NFL"
-        ],
-        "lanes": [
-          "training-camp",
-          "injuries"
-        ]
-      },
-      {
         "id": "https://sports.yahoo.com/articles/m-fully-afraid-wnba-reporter-011520258.html",
         "desk": "wnba",
         "title": "‘I’m fully afraid’: WNBA reporter scared to cover Caitlin Clark game after receiving death threats",
@@ -26952,9 +27030,35 @@
         "lanes": [
           "all-star"
         ]
+      },
+      {
+        "id": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+        "desk": "college-football",
+        "title": "Alabama predicted to land nation’s top interior offensive lineman",
+        "summary": "Alabama‘s 2027 recruiting class has lacked some of the juice the Crimson Tide had in previous classes with just 14 commitments and a group that ranks No. 33 nationally. Instead, Kalen DeBoer and his staff have allocated their time — and money — toward retaining their roster this offseason with a talented young crop of […]",
+        "url": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+        "canonical_url": "https://sports.yahoo.com/articles/alabama-predicted-land-nation-top-014104692.html",
+        "publisher": "On3",
+        "source_group": "national",
+        "feed": "Yahoo College Football",
+        "published_at": "2026-07-28T01:41:04+00:00",
+        "teams": [
+          "Alabama"
+        ],
+        "players": [
+          "Crimson Tide"
+        ],
+        "sport": "football",
+        "competitions": [
+          "NCAA FBS",
+          "College Football Playoff"
+        ],
+        "lanes": [
+          "recruiting"
+        ]
       }
     ],
-    "updated_at": "2026-07-28T01:48:25.623071+00:00"
+    "updated_at": "2026-07-28T01:58:58.077000+00:00"
   },
-  "content_hash": "f49fbcf066e416d5f2672b7ca9fd812476d0ddb2fe14cb123d78a62f282d1f94"
+  "content_hash": "cca61664d777782e13382a8be590321d6bf5adbd965048d8b9b8bf4c0a69da1f"
 }

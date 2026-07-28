@@ -125,6 +125,11 @@ class SportsDeskPipelineTests(unittest.TestCase):
         self.assertGreater(story_relevance(baseball, fantasy), 0)
         self.assertGreater(story_relevance(all_star, wnba), 0)
 
+    def test_fantasy_editorial_modules_do_not_collide_with_raw_league_data(self) -> None:
+        fantasy_lane_ids = {lane["id"] for lane in self.config["desk_lanes"]["fantasy"]}
+        self.assertFalse(fantasy_lane_ids & {"scores", "schedule", "standings", "rankings"})
+        self.assertIn("fantasy-rankings", fantasy_lane_ids)
+
     def test_geographic_sourcing_profiles_have_required_groups(self) -> None:
         profiles = self.config["sourcing_profiles"]
         for desk in self.desks:

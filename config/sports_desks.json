@@ -234,7 +234,7 @@
       {"id": "trending-players", "label": "Trending Players", "maximum": 5, "signals": ["fantasy riser", "fantasy faller", "stock up", "stock down", "breakout", "sleeper"]},
       {"id": "matchups", "label": "Matchups", "maximum": 5, "signals": ["fantasy matchup", "favorable matchup", "matchup ranking", "start sit", "start/sit"]},
       {"id": "draft-prep", "label": "Draft Prep", "maximum": 5, "signals": ["draft prep", "mock draft", "draft strategy", "draft rankings", "ppr rankings", "fantasy draft"]},
-      {"id": "rankings", "label": "Rankings", "maximum": 5, "signals": ["fantasy rankings", "rankings", "ranked", "tiers", "top 100", "top 200"]},
+      {"id": "fantasy-rankings", "label": "Rankings", "maximum": 5, "signals": ["fantasy rankings", "rankings", "ranked", "tiers", "top 100", "top 200"]},
       {"id": "roles", "label": "Roles & Usage", "maximum": 5, "signals": ["role", "usage", "target share", "snap share", "batting order", "rotation spot", "closer", "playing time"]},
       {"id": "lineup", "label": "Lineup Decisions", "maximum": 5, "signals": ["lineup", "start sit", "start/sit", "bench", "flex", "two-start", "daily fantasy"]},
       {"id": "dynasty", "label": "Dynasty", "maximum": 5, "signals": ["dynasty", "rookie draft", "taxi squad", "keeper league"]},
