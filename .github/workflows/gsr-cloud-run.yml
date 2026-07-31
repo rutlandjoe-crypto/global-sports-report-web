@@ -68,7 +68,7 @@ jobs:
 
       - name: Stage website files
         run: |
-          git add public/latest_report.json public/sports_desks.json public/latest_report.txt public/global_sports_report.txt || true
+          git add public/latest_report.json public/sports_desks.json public/latest_report.txt public/global_sports_report.txt
 
       - name: Commit updated site data if changed
         run: |
@@ -83,8 +83,4 @@ jobs:
 
       - name: Push changes
         run: |
-          if git diff --cached --quiet && git diff --quiet; then
-            echo "Nothing to push."
-          else
-            git push origin HEAD:master
-          fi
+          git push origin HEAD:master

@@ -26,6 +26,8 @@ from sports_desk_pipeline import (
     story_relevance,
     validate_payload,
 )
+from validate_sports_desks import reject_fallback_content
+
 
 
 def story(title: str, publisher: str, url: str, teams: list[str] | None = None) -> dict:
@@ -46,6 +48,25 @@ def story(title: str, publisher: str, url: str, teams: list[str] | None = None) 
 
 
 class SportsDeskPipelineTests(unittest.TestCase):
+    def test_publication_gate_rejects_story_and_data_fallbacks(self) -> None:
+        cases = (
+            {"story_fallback_used": True, "data_fallbacks": []},
+            {"story_fallback_used": False, "data_fallbacks": ["standings"]},
+        )
+        for diagnostics in cases:
+            with self.subTest(diagnostics=diagnostics):
+                payload = {
+                    "desks": {
+                        "nba": {
+                            "diagnostics": diagnostics,
+                        }
+                    }
+                }
+                with self.assertRaisesRegex(
+                    RuntimeError, "publication blocked because fallback content was generated"
+                ):
+                    reject_fallback_content(payload)
+
     @classmethod
     def setUpClass(cls) -> None:
         cls.config = load_config()

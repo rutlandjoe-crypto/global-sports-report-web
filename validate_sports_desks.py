@@ -21,6 +21,21 @@ def load_json(path: Path) -> dict:
         raise RuntimeError(f"Cannot read generated Sports Desk payload {path}: {exc}") from exc
 
 
+def reject_fallback_content(payload: dict) -> None:
+    failures: list[str] = []
+    for desk_id, desk in payload.get("desks", {}).items():
+        diagnostics = desk.get("diagnostics", {})
+        if diagnostics.get("story_fallback_used"):
+            failures.append(f"{desk_id}: story fallback used")
+        for kind in diagnostics.get("data_fallbacks", []):
+            failures.append(f"{desk_id}: {kind} data fallback used")
+    if failures:
+        raise RuntimeError(
+            "Sports Desk publication blocked because fallback content was generated:\n- "
+            + "\n- ".join(failures)
+        )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--payload", type=Path, default=DEFAULT_PAYLOAD)
@@ -32,6 +47,7 @@ def main() -> int:
     previous = load_json(args.previous) if args.previous else None
     validate_payload(payload, config, previous=previous, now=datetime.now(timezone.utc))
 
+    reject_fallback_content(payload)
     desk_configs = {desk["id"]: desk for desk in config["desks"]}
     homepage = payload.get("homepage", {})
     hero = homepage.get("hero", {})
