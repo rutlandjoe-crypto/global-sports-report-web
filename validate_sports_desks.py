@@ -60,9 +60,13 @@ def main() -> int:
             f"{desk_id}: stories={len(stories)} lead={lead_time.isoformat() if lead_time else 'invalid'} "
             f"scores={data_counts['scores']} schedule={data_counts['schedule']} "
             f"standings={data_counts['standings']} rankings={data_counts['rankings']} "
-            f"updated_at={desk.get('updated_at')}"
+            f"updated_at={desk.get('updated_at')} "
+            f"data_verified_at={desk.get('data_verified_at', {})}"
         )
-    print(f"Sports Desk validation OK: generated_at={payload['generated_at']} hash={payload['content_hash']}")
+    print(
+        f"Sports Desk validation OK: generated_at={payload['generated_at']} "
+        f"verified_at={payload.get('verified_at')} hash={payload['content_hash']}"
+    )
     return 0
 
 

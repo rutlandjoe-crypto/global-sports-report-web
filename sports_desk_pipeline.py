@@ -814,8 +814,11 @@ def validate_payload(
     generated = parse_datetime(payload.get("generated_at"))
     if not generated:
         errors.append("generated_at is missing or invalid")
-    elif now - generated > timedelta(hours=defaults["stale_fallback_hours"]):
-        errors.append(f"generated payload is stale ({(now - generated).total_seconds() / 3600:.1f}h old)")
+    verified = parse_datetime(payload.get("verified_at") or payload.get("generated_at"))
+    if not verified:
+        errors.append("verified_at is missing or invalid")
+    elif now - verified > timedelta(hours=defaults["stale_fallback_hours"]):
+        errors.append(f"payload verification is stale ({(now - verified).total_seconds() / 3600:.1f}h old)")
 
     for desk_id, desk_config in expected.items():
         desk = actual.get(desk_id, {})
@@ -884,9 +887,18 @@ def validate_payload(
                 errors.append(f"{desk_id}: {kind} data is missing verified provider provenance")
             updated = parse_datetime(desk.get("data_updated_at", {}).get(kind))
             if not updated:
-                errors.append(f"{desk_id}: {kind} data timestamp is missing")
-            elif now - updated > timedelta(hours=defaults["stale_fallback_hours"]):
-                errors.append(f"{desk_id}: {kind} data is stale ({(now - updated).total_seconds() / 3600:.1f}h old)")
+                errors.append(f"{desk_id}: {kind} material-change timestamp is missing")
+            verified = parse_datetime(
+                desk.get("data_verified_at", {}).get(kind)
+                or desk.get("data_updated_at", {}).get(kind)
+            )
+            if not verified:
+                errors.append(f"{desk_id}: {kind} verification timestamp is missing")
+            elif now - verified > timedelta(hours=defaults["stale_fallback_hours"]):
+                errors.append(
+                    f"{desk_id}: {kind} verification is stale "
+                    f"({(now - verified).total_seconds() / 3600:.1f}h old)"
+                )
         for row in data.get("scores", []):
             starts = parse_datetime(row.get("starts_at"))
             if row.get("event_state") != "post" or not starts or starts > now + timedelta(minutes=5):
@@ -923,6 +935,7 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
     result: dict[str, Any] = {
         "version": config["version"],
         "generated_at": now.isoformat(),
+        "verified_at": now.isoformat(),
         "config": {
             "publisher_limit": defaults["max_per_publisher"],
             "recency_hours": defaults["recency_hours"],
@@ -983,10 +996,18 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
 
         previous_data = previous_desk.get("data", {})
         previous_data_times = previous_desk.get("data_updated_at", {})
+        previous_verification_times = previous_desk.get("data_verified_at", {})
         data_updated_at: dict[str, str] = {}
+        data_verified_at: dict[str, str] = {}
         data_fallbacks: list[str] = []
         for kind in desk.get("data_providers", {}):
             previous_time = parse_datetime(previous_data_times.get(kind) or previous.get("generated_at"))
+            previous_verified = parse_datetime(
+                previous_verification_times.get(kind)
+                or previous_data_times.get(kind)
+                or previous.get("verified_at")
+                or previous.get("generated_at")
+            )
             current_value = (
                 {"scores": data.get("scores", []), "schedule": data.get("schedule", [])}
                 if kind == "scores"
@@ -1003,9 +1024,13 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
                     if previous_time and _stable_hash(current_value) == _stable_hash(previous_value)
                     else now.isoformat()
                 )
+                data_verified_at[kind] = now.isoformat()
                 continue
 
-            can_restore = bool(previous_time and now - previous_time <= timedelta(hours=defaults["stale_fallback_hours"]))
+            can_restore = bool(
+                previous_verified
+                and now - previous_verified <= timedelta(hours=defaults["stale_fallback_hours"])
+            )
             if kind == "scores" and can_restore and (previous_data.get("scores") or previous_data.get("schedule")):
                 data["scores"] = previous_data.get("scores", [])
                 data["schedule"] = previous_data.get("schedule", [])
@@ -1014,6 +1039,7 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
             else:
                 continue
             data_updated_at[kind] = previous_time.isoformat()
+            data_verified_at[kind] = previous_verified.isoformat()
             data_fallbacks.append(kind)
             LOG.warning("%s preserving last known good %s data", desk_id, kind)
         old_story_hash = _stable_hash(previous_desk.get("stories", []))
@@ -1045,6 +1071,7 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
             "content_updated_at": content_updated_at,
             "updated_at": max([content_updated_at, *data_updated_at.values()]),
             "data_updated_at": data_updated_at,
+            "data_verified_at": data_verified_at,
             "diagnostics": {
                 "candidate_count": len(candidates),
                 "classified_count": len(classified),
@@ -1070,8 +1097,7 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
     validate_payload(result, config, previous=previous or None, now=now, require_live_sources=not offline)
 
     if previous and signature == previous_signature:
-        LOG.info("No semantic Sports Desk changes; timestamps and cache files were not advanced")
-        return previous
+        LOG.info("No semantic Sports Desk changes; only successful verification timestamps were advanced")
 
     atomic_write(output_path, result)
     if output_path.resolve() == OUTPUT_PATH.resolve():

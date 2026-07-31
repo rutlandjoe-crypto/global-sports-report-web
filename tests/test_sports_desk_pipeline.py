@@ -20,6 +20,7 @@ from sports_desk_pipeline import (
     normalize_url,
     meaningful_standings,
     parse_feed,
+    payload_signature,
     rank_homepage_stories,
     story_quality,
     story_relevance,
@@ -306,6 +307,10 @@ class SportsDeskPipelineTests(unittest.TestCase):
         self.assertEqual(first["desks"]["nba"]["stories"], second["desks"]["nba"]["stories"])
         self.assertEqual(first["desks"]["nba"]["data"], second["desks"]["nba"]["data"])
         self.assertEqual(first["generated_at"], second["generated_at"])
+        self.assertEqual(
+            first["desks"]["nba"]["data_verified_at"],
+            second["desks"]["nba"]["data_verified_at"],
+        )
 
     def test_failed_provider_preserves_only_its_last_known_good_data(self) -> None:
         config = copy.deepcopy(self.config)
@@ -360,6 +365,125 @@ class SportsDeskPipelineTests(unittest.TestCase):
             first["desks"]["nba"]["data_updated_at"]["standings"],
             second["desks"]["nba"]["data_updated_at"]["standings"],
         )
+        self.assertEqual(
+            first["desks"]["nba"]["data_verified_at"]["standings"],
+            second["desks"]["nba"]["data_verified_at"]["standings"],
+        )
+
+    def test_unchanged_data_keeps_material_timestamp_and_advances_verification(self) -> None:
+        config = copy.deepcopy(self.config)
+        nba = next(item for item in config["desks"] if item["id"] == "nba")
+        nba["feeds"] = [
+            {"name": "secondary", "publisher": "ESPN", "group": "national", "url": "https://secondary.example"}
+        ]
+        config["desks"] = [nba]
+        headlines = [
+            "NBA Lakers complete a major roster trade",
+            "NBA Nuggets announce an injury update",
+            "NBA Celtics hire a new assistant coach",
+        ]
+        feed_items = []
+        for index, headline in enumerate(headlines):
+            item = story(headline, "ESPN", f"https://secondary.example/{index}")
+            item.update({"desk": "nba", "feed": "secondary", "source_group": "national"})
+            feed_items.append(item)
+
+        def fake_feed(feed: dict, desk_id: str, timeout: int):
+            return copy.deepcopy(feed_items), None
+
+        data = {
+            "scores": [],
+            "schedule": [{
+                "id": "next-game",
+                "event_state": "pre",
+                "starts_at": (datetime.now(timezone.utc) + timedelta(hours=2)).isoformat(),
+                "source": "ESPN",
+                "source_url": "https://espn.example/game",
+            }],
+            "standings": [
+                {"team": "A", "record": "1-0", "source": "ESPN", "source_url": "https://espn.example/standings"},
+                {"team": "B", "record": "0-1", "source": "ESPN", "source_url": "https://espn.example/standings"},
+            ],
+            "rankings": [],
+        }
+        with tempfile.TemporaryDirectory() as directory, patch(
+            "sports_desk_pipeline.fetch_feed", side_effect=fake_feed
+        ), patch(
+            "sports_desk_pipeline.fetch_desk_data",
+            return_value=(data, [], {"scores": True, "standings": True}),
+        ):
+            output = Path(directory) / "desks.json"
+            first = build_pipeline(config, output)
+            second = build_pipeline(config, output)
+
+        first_desk = first["desks"]["nba"]
+        second_desk = second["desks"]["nba"]
+        self.assertEqual(first_desk["data_updated_at"], second_desk["data_updated_at"])
+        self.assertGreater(
+            datetime.fromisoformat(second_desk["data_verified_at"]["scores"]),
+            datetime.fromisoformat(first_desk["data_verified_at"]["scores"]),
+        )
+        self.assertEqual(first["generated_at"], second["generated_at"])
+        self.assertGreater(
+            datetime.fromisoformat(second["verified_at"]),
+            datetime.fromisoformat(first["verified_at"]),
+        )
+
+    def test_old_data_without_successful_reverification_still_fails(self) -> None:
+        now = datetime.now(timezone.utc)
+        config = {
+            "defaults": {
+                "minimum_primary_stories": 3,
+                "recency_hours": 96,
+                "stale_fallback_hours": 24,
+            },
+            "desks": [{
+                "id": "nfl",
+                "sport": "football",
+                "data_providers": {"standings": "https://espn.example/standings"},
+            }],
+        }
+        stories = [
+            story(f"Current NFL story number {index}", "ESPN", f"https://nfl.example/{index}")
+            for index in range(3)
+        ]
+        old = (now - timedelta(hours=25)).isoformat()
+        payload = {
+            "generated_at": now.isoformat(),
+            "verified_at": now.isoformat(),
+            "desks": {
+                "nfl": {
+                    "sport": "football",
+                    "stories": stories,
+                    "modules": {"top-stories": {"items": stories}},
+                    "providers": {
+                        "standings": {
+                            "label": "ESPN",
+                            "url": "https://espn.example/standings",
+                            "available": False,
+                        }
+                    },
+                    "data": {
+                        "scores": [],
+                        "schedule": [],
+                        "standings": [{
+                            "team": "A",
+                            "source": "ESPN",
+                            "source_url": "https://espn.example/standings",
+                        }],
+                        "rankings": [],
+                    },
+                    "data_updated_at": {"standings": old},
+                    "data_verified_at": {"standings": old},
+                    "diagnostics": {"source_success_count": 1},
+                }
+            },
+            "homepage": {},
+        }
+        payload["content_hash"] = payload_signature(payload)
+        with self.assertRaisesRegex(RuntimeError, "verification is stale"):
+            validate_payload(payload, config, now=now)
+
     def test_validation_rejects_timestamp_advance_without_content(self) -> None:
         now = datetime.now(timezone.utc)
         config = {
