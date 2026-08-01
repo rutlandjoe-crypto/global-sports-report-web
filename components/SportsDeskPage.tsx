@@ -56,12 +56,14 @@ function readableDate(value?: string): string {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return "";
   return new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
     month: "short",
     day: "numeric",
     hour: "numeric",
     minute: "2-digit",
+    timeZone: "America/New_York",
     timeZoneName: "short",
-  }).format(date);
+  }).format(date).replace(/\b(?:EST|EDT)\b/, "ET");
 }
 
 function validExternalUrl(value: unknown): value is string {
