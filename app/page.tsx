@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import EditorialStandard from "@/components/EditorialStandard";
+import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
 import { readSportsDeskPayload } from "@/lib/sportsDesks";
 
 export const dynamic = "force-dynamic";
@@ -1096,12 +1097,12 @@ export default function Page() {
       ? rawSnapshot
       : defaultSnapshot;
 
-  const updated =
+  const updated = formatUpdatedAt(
     cleanText(homepageEditorial?.updated_at) ||
-    cleanText(report.updated_at) ||
-    cleanText(report.generated_at) ||
-    cleanText(report.published_at) ||
-    "Update time unavailable";
+      cleanText(report.updated_at) ||
+      cleanText(report.generated_at) ||
+      cleanText(report.published_at),
+  );
 
   const leadStories = stories.slice(0, 10);
   const sidebarStories = (deskId: string) => (deskPayload.desks?.[deskId]?.stories ?? [])
