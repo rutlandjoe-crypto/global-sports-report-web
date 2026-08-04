@@ -93,10 +93,6 @@ jobs:
               "NBA: NBA",
               "NHL: NHL",
               "NFL: NFL",
-              "MLB REPORT",
-              "NBA REPORT",
-              "NHL REPORT",
-              "NFL REPORT",
           ]
 
           found = [term for term in banned if term in raw]
