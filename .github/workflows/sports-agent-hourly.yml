@@ -83,7 +83,7 @@ jobs:
               data = json.load(f)
 
           site_text = " ".join(str(data.get(k, "")) for k in ["site", "site_name", "vertical", "title"])
-          if "Sports" not in site_text:
+          if "sports" not in site_text.lower():
               raise SystemExit(f"Report does not identify as Sports: {site_text}")
 
           raw = json.dumps(data, ensure_ascii=False)
