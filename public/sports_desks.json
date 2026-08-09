@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-08-09T21:39:19.610449+00:00",
-  "verified_at": "2026-08-09T21:39:19.610449+00:00",
+  "generated_at": "2026-08-09T21:41:03.178534+00:00",
+  "verified_at": "2026-08-09T21:41:03.178534+00:00",
   "config": {
     "publisher_limit": 6,
     "recency_hours": 96
@@ -9482,9 +9482,9 @@
           },
           {
             "team": "Orioles",
-            "record": "56-61",
-            "win_percentage": ".479",
-            "games_back": "14.5",
+            "record": "57-61",
+            "win_percentage": ".483",
+            "games_back": "14.0",
             "group": "",
             "source": "MLB",
             "source_url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&standingsTypes=regularSeason"
@@ -9554,9 +9554,9 @@
           },
           {
             "team": "Rangers",
-            "record": "59-58",
-            "win_percentage": ".504",
-            "games_back": "0.5",
+            "record": "59-59",
+            "win_percentage": ".500",
+            "games_back": "1.0",
             "group": "",
             "source": "MLB",
             "source_url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&standingsTypes=regularSeason"
@@ -12581,9 +12581,9 @@
             },
             {
               "team": "Orioles",
-              "record": "56-61",
-              "win_percentage": ".479",
-              "games_back": "14.5",
+              "record": "57-61",
+              "win_percentage": ".483",
+              "games_back": "14.0",
               "group": "",
               "source": "MLB",
               "source_url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&standingsTypes=regularSeason"
@@ -12653,9 +12653,9 @@
             },
             {
               "team": "Rangers",
-              "record": "59-58",
-              "win_percentage": ".504",
-              "games_back": "0.5",
+              "record": "59-59",
+              "win_percentage": ".500",
+              "games_back": "1.0",
               "group": "",
               "source": "MLB",
               "source_url": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&standingsTypes=regularSeason"
@@ -12838,14 +12838,14 @@
         }
       },
       "content_updated_at": "2026-08-09T21:39:19.610449+00:00",
-      "updated_at": "2026-08-09T21:39:19.610449+00:00",
+      "updated_at": "2026-08-09T21:41:03.178534+00:00",
       "data_updated_at": {
         "scores": "2026-08-09T21:39:19.610449+00:00",
-        "standings": "2026-08-09T21:39:19.610449+00:00"
+        "standings": "2026-08-09T21:41:03.178534+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-09T21:39:19.610449+00:00",
-        "standings": "2026-08-09T21:39:19.610449+00:00"
+        "scores": "2026-08-09T21:41:03.178534+00:00",
+        "standings": "2026-08-09T21:41:03.178534+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -23026,5 +23026,5 @@
     ],
     "updated_at": "2026-08-09T21:39:19.610449+00:00"
   },
-  "content_hash": "b91c74390e87b8c071a0b12e04f5fa8ad6e17b12c3065580314b82b0959ab42b"
+  "content_hash": "30641645604719c19cc201caa5f02aea912876fb8d8f9f200782f85b74129b08"
 }
