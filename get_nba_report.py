@@ -8,6 +8,8 @@ from zoneinfo import ZoneInfo
 
 import requests
 
+from espn_http import fetch_espn_json
+
 BASE_DIR = Path(__file__).resolve().parent
 REPORT_FILE = BASE_DIR / "nba_report.txt"
 
@@ -79,9 +81,7 @@ def save_report(text: str) -> None:
 
 
 def fetch_json(url: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
-    response = requests.get(url, params=params or {}, timeout=REQUEST_TIMEOUT)
-    response.raise_for_status()
-    return response.json()
+    return fetch_espn_json(url, params=params, timeout=(5, REQUEST_TIMEOUT))
 
 
 def fetch_scoreboard() -> tuple[dict[str, Any], str]:
@@ -469,11 +469,8 @@ def main() -> None:
         print()
         print(f"Saved: {REPORT_FILE}")
     except Exception as exc:
-        fallback = build_fallback_report(str(exc))
-        save_report(fallback)
-        print(fallback)
-        print()
-        print(f"Saved fallback: {REPORT_FILE}")
+        print(f"ERROR: NBA report not replaced because ESPN data was unavailable: {exc}")
+        raise SystemExit(1) from exc
 
 
 if __name__ == "__main__":

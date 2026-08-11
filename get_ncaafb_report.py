@@ -6,8 +6,9 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-import requests
 from dotenv import load_dotenv
+
+from espn_http import fetch_espn_json
 
 # =========================================================
 # PATH + ENV
@@ -24,10 +25,6 @@ TIMEZONE = ZoneInfo("America/New_York")
 SPORT = "football"
 LEAGUE = "college-football"
 SCOREBOARD_URL = f"https://site.api.espn.com/apis/site/v2/sports/{SPORT}/{LEAGUE}/scoreboard"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (GlobalSportsReport/1.0)"
-}
 
 OUTPUT_FILE = Path(os.getenv("NCAAFB_REPORT_FILE", str(BASE_DIR / "ncaafb_report.txt")))
 
@@ -142,11 +139,10 @@ def get_report_date_et():
 # =========================================================
 def safe_get(url: str, params: dict | None = None) -> dict:
     try:
-        response = requests.get(url, headers=HEADERS, params=params, timeout=20)
-        response.raise_for_status()
-        return response.json()
-    except Exception:
-        return {}
+        return fetch_espn_json(url, params=params)
+    except Exception as exc:
+        print(f"ERROR: NCAAFB ESPN request failed for {url}: {exc}")
+        raise
 
 
 def fetch_scoreboard_for_date(date_obj) -> dict:
@@ -383,3 +379,4 @@ if __name__ == "__main__":
         main()
     except Exception as exc:
         print(f"ERROR generating NCAAFB report: {exc}")
+        raise SystemExit(1) from exc

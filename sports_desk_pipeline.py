@@ -21,6 +21,8 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 
+from espn_http import EspnFetchError, fetch_espn_json
+
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config" / "sports_desks.json"
 OUTPUT_PATH = ROOT / "public" / "sports_desks.json"
@@ -549,6 +551,8 @@ def parse_rankings(payload: dict[str, Any], source_url: str = "") -> list[dict[s
     return [row for row in output if row["rank"] and row["team"]]
 
 def fetch_json(url: str, timeout: int) -> dict[str, Any]:
+    if (urlsplit(url).hostname or "").lower() == "site.api.espn.com":
+        return fetch_espn_json(url, timeout=(5, timeout))
     return json.loads(fetch_bytes(url, timeout).decode("utf-8"))
 
 
@@ -584,7 +588,14 @@ def fetch_desk_data(
                 errors.append(f"{kind}: unsupported data provider kind")
             if kind in provider_ok and not provider_ok[kind]:
                 errors.append(f"{kind}: provider returned zero usable records")
-        except (HTTPError, URLError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
+        except (
+            EspnFetchError,
+            HTTPError,
+            URLError,
+            TimeoutError,
+            ValueError,
+            json.JSONDecodeError,
+        ) as exc:
             provider_ok[kind] = False
             errors.append(f"{kind}: {type(exc).__name__}: {exc}")
     return data, errors, provider_ok

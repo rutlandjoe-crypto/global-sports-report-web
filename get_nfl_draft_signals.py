@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-import requests
+from espn_http import fetch_espn_json
 
 TIMEZONE = ZoneInfo("America/New_York")
 OUTPUT_FILE = Path("nfl_draft_signals.txt")
@@ -14,11 +14,6 @@ REQUEST_TIMEOUT = 20
 DISCLAIMER = (
     "This report is an automated summary intended to support, not replace, human sports journalism."
 )
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (GlobalSportsReport/1.0)",
-    "Accept": "application/json",
-}
 
 NFL_STANDINGS_URL = (
     "https://site.api.espn.com/apis/site/v2/sports/football/nfl/standings"
@@ -113,9 +108,7 @@ def log(message: str) -> None:
 # =========================
 
 def fetch_json(url: str) -> dict:
-    response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-    response.raise_for_status()
-    return response.json()
+    return fetch_espn_json(url, timeout=(5, REQUEST_TIMEOUT))
 
 
 # =========================

@@ -46,3 +46,7 @@ next-env.d.ts
 # local Sports Desk pipeline cache
 /.cache/
 __pycache__/
+
+# run-scoped Sports generator handoff
+/.gsr_soccer_success.json
+/.gsr_soccer_success.json.tmp

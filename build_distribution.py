@@ -34,6 +34,7 @@ This file is designed as a full replacement.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import math
 import os
@@ -43,7 +44,7 @@ import subprocess
 import sys
 import textwrap
 import traceback
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -129,6 +130,9 @@ OUTPUT_LATEST_TXT = BASE_DIR / "latest_report.txt"
 OUTPUT_LATEST_JSON = BASE_DIR / "latest_report.json"
 OUTPUT_PREVIOUS_JSON = BASE_DIR / "latest_report.previous.json"
 GLOBAL_REPORT_TXT = BASE_DIR / "global_sports_report.txt"
+SOCCER_SUCCESS_MARKER = BASE_DIR / ".gsr_soccer_success.json"
+RUN_TOKEN_ENV = "GSR_RUN_TOKEN"
+DEFAULT_SOCCER_MARKER_MAX_AGE_SECONDS = 7200
 
 WEB_COPY_TARGETS = {
     "latest_report.json": WEB_PUBLIC_DIR / "latest_report.json",
@@ -482,6 +486,58 @@ def parse_standard_report(section_key: str, path: Path) -> dict[str, Any] | None
     }
 
 
+def validate_soccer_handoff(path: Path) -> tuple[bool, str]:
+    expected_token = os.getenv(RUN_TOKEN_ENV, "").strip()
+    if not expected_token:
+        return False, f"{RUN_TOKEN_ENV} is missing; current-run Soccer provenance cannot be verified"
+    if not path.exists():
+        return False, f"{path.name} is missing"
+    marker = read_json_file(SOCCER_SUCCESS_MARKER)
+    if not isinstance(marker, dict):
+        return False, f"{SOCCER_SUCCESS_MARKER.name} is missing or invalid"
+    if marker.get("run_token") != expected_token:
+        return False, "Soccer marker token does not match the current publication run"
+    if marker.get("source") != "ESPN":
+        return False, "Soccer marker does not identify ESPN as its source"
+    try:
+        valid_event_count = int(marker.get("valid_event_count", 0))
+    except (TypeError, ValueError):
+        valid_event_count = 0
+    if valid_event_count < 1:
+        return False, "Soccer marker contains zero valid sourced events"
+    try:
+        generated_at = datetime.fromisoformat(str(marker["generated_at"]).replace("Z", "+00:00"))
+        if generated_at.tzinfo is None:
+            generated_at = generated_at.replace(tzinfo=timezone.utc)
+        max_age = int(
+            os.getenv(
+                "GSR_SOCCER_MARKER_MAX_AGE_SECONDS",
+                str(DEFAULT_SOCCER_MARKER_MAX_AGE_SECONDS),
+            )
+        )
+        age_seconds = (datetime.now(timezone.utc) - generated_at.astimezone(timezone.utc)).total_seconds()
+    except (KeyError, TypeError, ValueError) as exc:
+        return False, f"Soccer marker freshness metadata is invalid: {exc}"
+    if age_seconds < -300 or age_seconds > max_age:
+        return False, f"Soccer marker is outside the freshness window ({age_seconds:.0f}s old)"
+    actual_hash = hashlib.sha256(path.read_bytes()).hexdigest()
+    if marker.get("report_sha256") != actual_hash:
+        return False, "Soccer report does not match the current-run marker hash"
+    text = path.read_text(encoding="utf-8", errors="replace")
+    lowered = text.lower()
+    forbidden = (
+        "monitoring window",
+        "fallback reason",
+        "temporarily unavailable",
+        "no soccer updates were available",
+    )
+    if any(phrase in lowered for phrase in forbidden):
+        return False, "Soccer report contains fallback or placeholder copy"
+    if not any(line.startswith("- ") for line in text.splitlines()):
+        return False, "Soccer report contains no sourced match items"
+    return True, f"{valid_event_count} valid ESPN events for run token {expected_token}"
+
+
 def load_reports() -> dict[str, dict[str, Any]]:
     reports: dict[str, dict[str, Any]] = {}
 
@@ -489,6 +545,12 @@ def load_reports() -> dict[str, dict[str, Any]]:
         path = REPORT_FILES.get(key)
         if not path:
             continue
+        if key == "soccer":
+            valid, reason = validate_soccer_handoff(path)
+            if not valid:
+                log(f"WARNING: Soccer report excluded: {reason}")
+                continue
+            log(f"Soccer handoff accepted: {reason}")
         parsed = parse_standard_report(key, path)
         if parsed:
             reports[key] = parsed

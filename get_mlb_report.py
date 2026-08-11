@@ -3,13 +3,14 @@ from __future__ import annotations
 import json
 import os
 import re
-import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
+
+from espn_http import fetch_espn_json
 
 
 ET = ZoneInfo("America/New_York")
@@ -22,12 +23,6 @@ JSON_OUTPUT_FILE = BASE_DIR / "mlb_report.json"
 ADVANCED_FILE = BASE_DIR / "mlb_advanced_report.txt"
 
 ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard"
-
-HEADERS = {
-    "User-Agent": "GlobalSportsReport/1.0 (+https://globalsportsreport.com)",
-    "Accept": "application/json",
-}
-
 
 def now_et() -> datetime:
     return datetime.now(ET)
@@ -67,12 +62,10 @@ def clean_text(value: Any) -> str:
 
 def fetch_json(url: str) -> Optional[Dict[str, Any]]:
     try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=20) as res:
-            return json.loads(res.read().decode("utf-8"))
+        return fetch_espn_json(url)
     except Exception as exc:
         print(f"[MLB] Fetch failed: {url} | {exc}")
-        return None
+        raise
 
 
 def espn_scoreboard_for_date(date_obj: datetime) -> Dict[str, Any]:

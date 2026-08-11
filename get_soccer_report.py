@@ -1,24 +1,28 @@
 from __future__ import annotations
 
+import hashlib
+import json
+import os
 import re
-from datetime import datetime
+import uuid
+from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-import requests
+from espn_http import fetch_espn_json
 
 TIMEZONE = ZoneInfo("America/New_York")
-OUTPUT_FILE = Path("soccer_report.txt")
+BASE_DIR = Path(__file__).resolve().parent
+OUTPUT_FILE = BASE_DIR / "soccer_report.txt"
+SUCCESS_MARKER = BASE_DIR / ".gsr_soccer_success.json"
+SUCCESS_MARKER_TEMP = BASE_DIR / ".gsr_soccer_success.json.tmp"
+RUN_TOKEN_ENV = "GSR_RUN_TOKEN"
 REQUEST_TIMEOUT = 20
+ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard"
 
 DISCLAIMER = (
     "This report is an automated summary intended to support, not replace, human sports journalism."
 )
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (GlobalSportsReport/1.0)",
-    "Accept": "application/json",
-}
 
 LEAGUES = [
     ("all", "Global"),
@@ -184,14 +188,82 @@ def safe_status_state(event: dict) -> str:
 # =========================
 
 def fetch_events() -> list[dict]:
-    url = "https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard"
+    payload = fetch_espn_json(
+        ESPN_SCOREBOARD_URL,
+        timeout=(5, REQUEST_TIMEOUT),
+    )
+    events = payload.get("events")
+    if not isinstance(events, list):
+        raise RuntimeError("ESPN Soccer response did not contain an events list")
+    return events
 
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        response.raise_for_status()
-        return response.json().get("events", [])
-    except Exception:
-        return []
+
+def is_valid_sourced_event(event: object) -> bool:
+    if not isinstance(event, dict) or not str(event.get("id", "")).strip():
+        return False
+    competitions = event.get("competitions")
+    if not isinstance(competitions, list) or not competitions:
+        return False
+    competition = competitions[0]
+    if not isinstance(competition, dict):
+        return False
+    competitors = competition.get("competitors")
+    if not isinstance(competitors, list) or len(competitors) < 2:
+        return False
+    if safe_status_state(event) not in {"pre", "in", "post"}:
+        return False
+    names = [safe_team_name(item) for item in competitors]
+    return len([name for name in names if name and name != "Unknown Club"]) >= 2
+
+
+def resolve_run_token() -> str:
+    token = os.getenv(RUN_TOKEN_ENV, "").strip()
+    if token:
+        return token
+    token = f"manual-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}-{uuid.uuid4().hex}"
+    print(f"WARNING: {RUN_TOKEN_ENV} was not set; generated a standalone Soccer run token.")
+    return token
+
+
+def remove_success_marker() -> None:
+    SUCCESS_MARKER.unlink(missing_ok=True)
+    SUCCESS_MARKER_TEMP.unlink(missing_ok=True)
+
+
+def report_has_valid_sourced_content(report: str, valid_event_count: int) -> bool:
+    lowered = report.lower()
+    forbidden = (
+        "monitoring window",
+        "fallback reason",
+        "temporarily unavailable",
+        "no soccer updates were available",
+    )
+    event_lines = [line for line in report.splitlines() if line.startswith("- ")]
+    return (
+        valid_event_count > 0
+        and bool(event_lines)
+        and not any(phrase in lowered for phrase in forbidden)
+    )
+
+
+def write_success_marker(report: str, events: list[dict], run_token: str) -> None:
+    if not report_has_valid_sourced_content(report, len(events)):
+        raise RuntimeError("Soccer report failed sourced-content integrity validation")
+    marker = {
+        "run_token": run_token,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source": "ESPN",
+        "source_url": ESPN_SCOREBOARD_URL,
+        "valid_event_count": len(events),
+        "event_ids": [str(event["id"]) for event in events],
+        "report_file": OUTPUT_FILE.name,
+        "report_sha256": hashlib.sha256(OUTPUT_FILE.read_bytes()).hexdigest(),
+    }
+    SUCCESS_MARKER_TEMP.write_text(
+        json.dumps(marker, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    SUCCESS_MARKER_TEMP.replace(SUCCESS_MARKER)
 
 
 # =========================
@@ -324,11 +396,29 @@ def write_report(report: str) -> None:
     print("Soccer report written.")
 
 
-def main() -> None:
-    events = fetch_events()
-    report = build_soccer_report(events)
-    write_report(report)
+def main() -> int:
+    remove_success_marker()
+    try:
+        events = fetch_events()
+        valid_events = [event for event in events if is_valid_sourced_event(event)]
+        if not valid_events:
+            raise RuntimeError(
+                f"ESPN Soccer returned {len(events)} events but zero passed source integrity checks"
+            )
+        report = build_soccer_report(valid_events)
+        run_token = resolve_run_token()
+        write_report(report)
+        write_success_marker(report, valid_events, run_token)
+        print(
+            f"Soccer success marker written for run token {run_token} "
+            f"with {len(valid_events)} valid ESPN events."
+        )
+        return 0
+    except Exception as exc:
+        remove_success_marker()
+        print(f"ERROR: Soccer report not published: {exc}")
+        return 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

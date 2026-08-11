@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import secrets
 import subprocess
 import sys
 import traceback
@@ -20,6 +21,11 @@ LAST_RUN_FILE = BASE_DIR / "last_master_runner_status.txt"
 
 ET_ZONE = ZoneInfo("America/New_York")
 PYTHON_EXE = sys.executable
+RUN_TOKEN_ENV = "GSR_RUN_TOKEN"
+
+for stream in (sys.stdout, sys.stderr):
+    if hasattr(stream, "reconfigure"):
+        stream.reconfigure(encoding="utf-8", errors="replace")
 
 # script_name, timeout_seconds, required_for_pipeline
 SCRIPTS = [
@@ -321,6 +327,15 @@ def run_script(script_name: str, timeout_seconds: int) -> tuple[str, str, float]
 def main() -> int:
     os.chdir(BASE_DIR)
 
+    run_token = os.getenv(RUN_TOKEN_ENV, "").strip()
+    if not run_token:
+        run_token = (
+            et_now().strftime("%Y%m%dT%H%M%S%z")
+            + "-"
+            + secrets.token_hex(12)
+        )
+        os.environ[RUN_TOKEN_ENV] = run_token
+
     log_blank_line()
     write_divider("=")
     log("MASTER RUNNER STARTED")
@@ -329,6 +344,7 @@ def main() -> int:
     log(f"LOG_FILE: {LOG_FILE}")
     log(f"LOCK_FILE: {LOCK_FILE}")
     log(f"LAST_RUN_FILE: {LAST_RUN_FILE}")
+    log(f"PUBLICATION RUN TOKEN: {run_token}")
 
     if not acquire_lock():
         log("Exiting because another run is already active.")

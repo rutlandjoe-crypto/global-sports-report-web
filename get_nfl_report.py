@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-import requests
+from espn_http import EspnFetchError, fetch_espn_json
 
 TIMEZONE = ZoneInfo("America/New_York")
 OUTPUT_FILE = Path("nfl_report.txt")
@@ -14,11 +14,6 @@ SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/sco
 DISCLAIMER = (
     "This report is an automated summary intended to support, not replace, human sports journalism."
 )
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (GlobalSportsReport/1.0)",
-    "Accept": "application/json",
-}
 
 # =========================
 # TEXT CLEANING
@@ -142,16 +137,16 @@ def fetch_scoreboard() -> dict:
     url = f"{SCOREBOARD_URL}?dates={api_date}"
 
     try:
-        response = requests.get(url, headers=HEADERS, timeout=20)
-        response.raise_for_status()
-        return response.json()
-    except Exception:
+        return fetch_espn_json(url)
+    except EspnFetchError as dated_exc:
+        print(f"WARNING: NFL dated ESPN request failed: {dated_exc}")
         try:
-            response = requests.get(SCOREBOARD_URL, headers=HEADERS, timeout=20)
-            response.raise_for_status()
-            return response.json()
-        except Exception:
-            return {}
+            return fetch_espn_json(SCOREBOARD_URL)
+        except EspnFetchError as base_exc:
+            raise RuntimeError(
+                f"NFL ESPN scoreboard unavailable; dated request: {dated_exc}; "
+                f"base request: {base_exc}"
+            ) from base_exc
 
 
 # =========================
