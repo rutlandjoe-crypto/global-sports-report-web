@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-08-12T21:53:45.143741+00:00",
-  "verified_at": "2026-08-12T21:53:45.143741+00:00",
+  "generated_at": "2026-08-12T21:56:04.756621+00:00",
+  "verified_at": "2026-08-12T21:56:04.756621+00:00",
   "config": {
     "publisher_limit": 6,
     "recency_hours": 96
@@ -3393,7 +3393,7 @@
         "standings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "standings": "2026-08-12T21:53:45.143741+00:00"
+        "standings": "2026-08-12T21:56:04.756621+00:00"
       },
       "diagnostics": {
         "candidate_count": 280,
@@ -9570,8 +9570,8 @@
         "rankings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-12T21:53:45.143741+00:00",
-        "rankings": "2026-08-12T21:53:45.143741+00:00"
+        "scores": "2026-08-12T21:56:04.756621+00:00",
+        "rankings": "2026-08-12T21:56:04.756621+00:00"
       },
       "diagnostics": {
         "candidate_count": 349,
@@ -16673,8 +16673,8 @@
         "standings": "2026-08-12T21:53:45.143741+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-12T21:53:45.143741+00:00",
-        "standings": "2026-08-12T21:53:45.143741+00:00"
+        "scores": "2026-08-12T21:56:04.756621+00:00",
+        "standings": "2026-08-12T21:56:04.756621+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -20173,6 +20173,21 @@
             "source_url": "https://www.espn.com/soccer/match/_/gameId/401906428/aris-napoli"
           },
           {
+            "id": "401907173",
+            "name": "Real Murcia at Lorca Deportiva",
+            "competition": "",
+            "away": "Real Murcia",
+            "home": "Lorca Deportiva",
+            "away_score": "1",
+            "home_score": "0",
+            "status": "FT",
+            "event_state": "post",
+            "starts_at": "2026-08-12T19:15Z",
+            "url": "https://www.espn.com/soccer/match/_/gameId/401907173/real-murcia-lorca-deportiva",
+            "source": "ESPN",
+            "source_url": "https://www.espn.com/soccer/match/_/gameId/401907173/real-murcia-lorca-deportiva"
+          },
+          {
             "id": "401873624",
             "name": "Aston Villa at Paris Saint-Germain",
             "competition": "",
@@ -20408,6 +20423,21 @@
             "status": "FT",
             "event_state": "post",
             "starts_at": "2026-08-12T19:30Z",
+            "url": "",
+            "source": "ESPN",
+            "source_url": "https://www.espn.com/scoreboard"
+          },
+          {
+            "id": "401889497",
+            "name": "North Alabama at East Tennessee State",
+            "competition": "",
+            "away": "North Alabama",
+            "home": "East Tennessee State",
+            "away_score": "0",
+            "home_score": "0",
+            "status": "Canceled",
+            "event_state": "post",
+            "starts_at": "2026-08-12T22:00Z",
             "url": "",
             "source": "ESPN",
             "source_url": "https://www.espn.com/scoreboard"
@@ -20730,21 +20760,6 @@
             "source_url": "https://www.espn.com/soccer/match/_/gameId/401878114/verdes-fc-cd-fas"
           },
           {
-            "id": "401889557",
-            "name": "Tennessee Tech at Belmont",
-            "competition": "",
-            "away": "Tennessee Tech",
-            "home": "Belmont",
-            "away_score": "0",
-            "home_score": "0",
-            "status": "Scheduled",
-            "event_state": "pre",
-            "starts_at": "2026-08-12T22:30Z",
-            "url": "",
-            "source": "ESPN",
-            "source_url": "https://www.espn.com/scoreboard"
-          },
-          {
             "id": "401890035",
             "name": "Quinnipiac at Holy Cross",
             "competition": "",
@@ -20830,6 +20845,21 @@
             "status": "Scheduled",
             "event_state": "pre",
             "starts_at": "2026-08-12T22:00Z",
+            "url": "",
+            "source": "ESPN",
+            "source_url": "https://www.espn.com/scoreboard"
+          },
+          {
+            "id": "401889557",
+            "name": "Tennessee Tech at Belmont",
+            "competition": "",
+            "away": "Tennessee Tech",
+            "home": "Belmont",
+            "away_score": "0",
+            "home_score": "0",
+            "status": "Scheduled",
+            "event_state": "pre",
+            "starts_at": "2026-08-12T22:30Z",
             "url": "",
             "source": "ESPN",
             "source_url": "https://www.espn.com/scoreboard"
@@ -23442,6 +23472,21 @@
               "source_url": "https://www.espn.com/soccer/match/_/gameId/401906428/aris-napoli"
             },
             {
+              "id": "401907173",
+              "name": "Real Murcia at Lorca Deportiva",
+              "competition": "",
+              "away": "Real Murcia",
+              "home": "Lorca Deportiva",
+              "away_score": "1",
+              "home_score": "0",
+              "status": "FT",
+              "event_state": "post",
+              "starts_at": "2026-08-12T19:15Z",
+              "url": "https://www.espn.com/soccer/match/_/gameId/401907173/real-murcia-lorca-deportiva",
+              "source": "ESPN",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401907173/real-murcia-lorca-deportiva"
+            },
+            {
               "id": "401873624",
               "name": "Aston Villa at Paris Saint-Germain",
               "competition": "",
@@ -23677,6 +23722,21 @@
               "status": "FT",
               "event_state": "post",
               "starts_at": "2026-08-12T19:30Z",
+              "url": "",
+              "source": "ESPN",
+              "source_url": "https://www.espn.com/scoreboard"
+            },
+            {
+              "id": "401889497",
+              "name": "North Alabama at East Tennessee State",
+              "competition": "",
+              "away": "North Alabama",
+              "home": "East Tennessee State",
+              "away_score": "0",
+              "home_score": "0",
+              "status": "Canceled",
+              "event_state": "post",
+              "starts_at": "2026-08-12T22:00Z",
               "url": "",
               "source": "ESPN",
               "source_url": "https://www.espn.com/scoreboard"
@@ -24002,21 +24062,6 @@
               "source_url": "https://www.espn.com/soccer/match/_/gameId/401878114/verdes-fc-cd-fas"
             },
             {
-              "id": "401889557",
-              "name": "Tennessee Tech at Belmont",
-              "competition": "",
-              "away": "Tennessee Tech",
-              "home": "Belmont",
-              "away_score": "0",
-              "home_score": "0",
-              "status": "Scheduled",
-              "event_state": "pre",
-              "starts_at": "2026-08-12T22:30Z",
-              "url": "",
-              "source": "ESPN",
-              "source_url": "https://www.espn.com/scoreboard"
-            },
-            {
               "id": "401890035",
               "name": "Quinnipiac at Holy Cross",
               "competition": "",
@@ -24102,6 +24147,21 @@
               "status": "Scheduled",
               "event_state": "pre",
               "starts_at": "2026-08-12T22:00Z",
+              "url": "",
+              "source": "ESPN",
+              "source_url": "https://www.espn.com/scoreboard"
+            },
+            {
+              "id": "401889557",
+              "name": "Tennessee Tech at Belmont",
+              "competition": "",
+              "away": "Tennessee Tech",
+              "home": "Belmont",
+              "away_score": "0",
+              "home_score": "0",
+              "status": "Scheduled",
+              "event_state": "pre",
+              "starts_at": "2026-08-12T22:30Z",
               "url": "",
               "source": "ESPN",
               "source_url": "https://www.espn.com/scoreboard"
@@ -24377,12 +24437,12 @@
         }
       },
       "content_updated_at": "2026-08-12T21:53:45.143741+00:00",
-      "updated_at": "2026-08-12T21:53:45.143741+00:00",
+      "updated_at": "2026-08-12T21:56:04.756621+00:00",
       "data_updated_at": {
-        "scores": "2026-08-12T21:53:45.143741+00:00"
+        "scores": "2026-08-12T21:56:04.756621+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-12T21:53:45.143741+00:00"
+        "scores": "2026-08-12T21:56:04.756621+00:00"
       },
       "diagnostics": {
         "candidate_count": 434,
@@ -30426,7 +30486,7 @@
         "standings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "standings": "2026-08-12T21:53:45.143741+00:00"
+        "standings": "2026-08-12T21:56:04.756621+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -30858,5 +30918,5 @@
     ],
     "updated_at": "2026-08-12T21:53:45.143741+00:00"
   },
-  "content_hash": "3c3312b17dca0858ab2f3a13ae26bb9a22d5660110f36f4974b4af4fd854f543"
+  "content_hash": "ed1470b51fa170076f990b47845ad55ce18feecf8989fe60e385e2d38a669d51"
 }
