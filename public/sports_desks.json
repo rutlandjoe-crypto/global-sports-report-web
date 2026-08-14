@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-08-14T21:31:04.338317+00:00",
-  "verified_at": "2026-08-14T21:31:04.338317+00:00",
+  "generated_at": "2026-08-14T21:33:15.789561+00:00",
+  "verified_at": "2026-08-14T21:33:15.789561+00:00",
   "config": {
     "publisher_limit": 6,
     "recency_hours": 96
@@ -69,6 +69,32 @@
             "NFL"
           ],
           "lanes": []
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/titans-db-gets-6-game-212831387.html",
+          "desk": "nfl",
+          "title": "Titans DB gets 6-game suspension for violating league's PED policy",
+          "summary": "The Titans signed Nazeeh Johnson to provide depth in their secondary on eve of training camp. He is facing a 6-game suspension.",
+          "url": "https://sports.yahoo.com/articles/titans-db-gets-6-game-212831387.html",
+          "canonical_url": "https://sports.yahoo.com/articles/titans-db-gets-6-game-212831387.html",
+          "publisher": "USA TODAY Sports",
+          "source_group": "national",
+          "feed": "Yahoo NFL",
+          "published_at": "2026-08-14T21:28:31+00:00",
+          "teams": [
+            "Titans"
+          ],
+          "players": [
+            "The Titans",
+            "Nazeeh Johnson"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NFL"
+          ],
+          "lanes": [
+            "training-camp"
+          ]
         },
         {
           "id": "https://sports.yahoo.com/nfl/article/seahawks-demarcus-lawrence-says-this-will-be-my-last-year-in-nfl-210849899.html",
@@ -558,22 +584,22 @@
           "lanes": []
         },
         {
-          "id": "https://sports.yahoo.com/nfl/article/cam-ward-struggled-against-49ers-backup-d-but-titans-dont-sound-worried-about-it-175205824.html",
+          "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-sign-db-wande-owens",
           "desk": "nfl",
-          "title": "Cam Ward struggled against 49ers' backup D, but Titans don't sound worried about it",
-          "summary": "Cam Ward completed fewer than half of his passes in Tennessee's first preseason game.",
-          "url": "https://sports.yahoo.com/nfl/article/cam-ward-struggled-against-49ers-backup-d-but-titans-dont-sound-worried-about-it-175205824.html",
-          "canonical_url": "https://sports.yahoo.com/nfl/article/cam-ward-struggled-against-49ers-backup-d-but-titans-dont-sound-worried-about-it-175205824.html",
-          "publisher": "Yahoo Sports",
-          "source_group": "national",
-          "feed": "Yahoo NFL",
-          "published_at": "2026-08-14T17:52:05+00:00",
+          "title": "Bills sign DB Wande Owens",
+          "summary": "Defensive back Wande Owens is back with the Bills.",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-sign-db-wande-owens",
+          "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-sign-db-wande-owens",
+          "publisher": "ProFootballTalk",
+          "source_group": "specialist",
+          "feed": "ProFootballTalk",
+          "published_at": "2026-08-14T21:27:48+00:00",
           "teams": [
-            "49ers",
-            "Titans"
+            "Bills"
           ],
           "players": [
-            "Cam Ward"
+            "Wande Owens Defensive",
+            "Wande Owens"
           ],
           "sport": "football",
           "competitions": [
@@ -582,30 +608,29 @@
           "lanes": []
         },
         {
-          "id": "https://sports.yahoo.com/articles/seahawks-getting-terrion-arnold-football-174003909.html",
+          "id": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
           "desk": "nfl",
-          "title": "What are the Seahawks getting in Terrion Arnold, the football player? We asked a Lions writer",
-          "summary": "We asked a longtime Detroit Lions writer about new Seahawks CB Terrion Arnold’s on-field performance in Detroit.",
-          "url": "https://sports.yahoo.com/articles/seahawks-getting-terrion-arnold-football-174003909.html",
-          "canonical_url": "https://sports.yahoo.com/articles/seahawks-getting-terrion-arnold-football-174003909.html",
-          "publisher": "SB Nation",
+          "title": "Jordyn Tyson injury update as Saints WR (hamstring) set to miss time",
+          "summary": "Saints WR Jordyn Tyson is dealing with a hamstring injury. Here's what to know about its severity and how long the first-round rookie may be out.",
+          "url": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+          "canonical_url": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+          "publisher": "USA TODAY Sports",
           "source_group": "national",
           "feed": "Yahoo NFL",
-          "published_at": "2026-08-14T17:40:03+00:00",
+          "published_at": "2026-08-14T21:16:57+00:00",
           "teams": [
-            "Lions",
-            "Seahawks"
+            "Saints"
           ],
           "players": [
-            "Terrion Arnold",
-            "Detroit Lions",
-            "Terrion Arnold’s"
+            "Jordyn Tyson"
           ],
           "sport": "football",
           "competitions": [
             "NFL"
           ],
-          "lanes": []
+          "lanes": [
+            "injuries"
+          ]
         },
         {
           "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-could-return-to-packers-practice-next-week",
@@ -894,32 +919,6 @@
             "NFL"
           ],
           "lanes": []
-        },
-        {
-          "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-will-miss-time-with-hamstring-injury-could-linger-into-regular-season",
-          "desk": "nfl",
-          "title": "Jordyn Tyson will miss time with hamstring injury, could linger into regular season",
-          "summary": "The Saints will not have one of their key rookies on the field for a while.",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-will-miss-time-with-hamstring-injury-could-linger-into-regular-season",
-          "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-will-miss-time-with-hamstring-injury-could-linger-into-regular-season",
-          "publisher": "ProFootballTalk",
-          "source_group": "specialist",
-          "feed": "ProFootballTalk",
-          "published_at": "2026-08-14T19:31:28+00:00",
-          "teams": [
-            "Saints"
-          ],
-          "players": [
-            "Jordyn Tyson",
-            "The Saints"
-          ],
-          "sport": "football",
-          "competitions": [
-            "NFL"
-          ],
-          "lanes": [
-            "injuries"
-          ]
         },
         {
           "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-the-timetable-is-being-worked-out-for-terrion-arnolds-arrival",
@@ -1301,30 +1300,6 @@
           ]
         },
         {
-          "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-andy-borregales-is-expected-to-make-field-goals",
-          "desk": "nfl",
-          "title": "Mike Vrabel: Andy Borregales is expected to make field goals",
-          "summary": "Patriots kicker Andy Borregales got a lot of opportunities to make field goals on Thursday night, but he didn't come through for his team often enough.",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-andy-borregales-is-expected-to-make-field-goals",
-          "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-andy-borregales-is-expected-to-make-field-goals",
-          "publisher": "ProFootballTalk",
-          "source_group": "specialist",
-          "feed": "ProFootballTalk",
-          "published_at": "2026-08-14T14:59:39+00:00",
-          "teams": [
-            "Patriots"
-          ],
-          "players": [
-            "Mike Vrabel",
-            "Andy Borregales"
-          ],
-          "sport": "football",
-          "competitions": [
-            "NFL"
-          ],
-          "lanes": []
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWW9INDcxUDZnT0VYeHh6RDhObHJ3XzI3bjlHcXNUMTdMV2hpb2tnN1Q0Rk1nUkt1R2pNRy1zMjVEXzRmN2dQZ1NCaVJDMm8tVnlYSkE2YlZobS1qQUNuQ1V5a2ZObWpPLWVXUVdYd1J6VmpFMnpPaTdKS0ZhYUFoODNlVFNnaWxVY1Y0SjZJRmstWDVNajJxbmFoVncwQXBzX3c?oc=5",
           "desk": "nfl",
           "title": "Steelers' McCarthy lauds QBs Howard, Allar after win",
@@ -1650,6 +1625,27 @@
             "Australia The Seattle",
             "Australia The"
           ],
+          "sport": "football",
+          "competitions": [
+            "NFL"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFgxUlliYzZKS2EyUDJKTDdVOEZEa3A3N2pIYUFSN0JCOUowMFdsQjBoOWd1ME1OYXRMbm5ZMHZTbnR5MFA4c1FMLVhFdUduZXVpTGdmanpsUFJOdG41MzZXNV9LaXprMFpId1FoX1Q2cUR5T1N1dmJsSnBrR1hWT3E5SXZkb1cwV25pWERPVjAyaWtUM1JxdmVxYUlZSHc?oc=5",
+          "desk": "nfl",
+          "title": "- bears-frontend.pocket.nfl.com",
+          "summary": "bears-frontend.pocket.nfl.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFgxUlliYzZKS2EyUDJKTDdVOEZEa3A3N2pIYUFSN0JCOUowMFdsQjBoOWd1ME1OYXRMbm5ZMHZTbnR5MFA4c1FMLVhFdUduZXVpTGdmanpsUFJOdG41MzZXNV9LaXprMFpId1FoX1Q2cUR5T1N1dmJsSnBrR1hWT3E5SXZkb1cwV25pWERPVjAyaWtUM1JxdmVxYUlZSHc?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFgxUlliYzZKS2EyUDJKTDdVOEZEa3A3N2pIYUFSN0JCOUowMFdsQjBoOWd1ME1OYXRMbm5ZMHZTbnR5MFA4c1FMLVhFdUduZXVpTGdmanpsUFJOdG41MzZXNV9LaXprMFpId1FoX1Q2cUR5T1N1dmJsSnBrR1hWT3E5SXZkb1cwV25pWERPVjAyaWtUM1JxdmVxYUlZSHc?oc=5",
+          "publisher": "bears-frontend.pocket.nfl.com",
+          "source_group": "official",
+          "feed": "NFL official discovery",
+          "published_at": "2026-08-12T15:53:22+00:00",
+          "teams": [
+            "Bears"
+          ],
+          "players": [],
           "sport": "football",
           "competitions": [
             "NFL"
@@ -2331,6 +2327,32 @@
           "label": "Training Camp",
           "items": [
             {
+              "id": "https://sports.yahoo.com/articles/titans-db-gets-6-game-212831387.html",
+              "desk": "nfl",
+              "title": "Titans DB gets 6-game suspension for violating league's PED policy",
+              "summary": "The Titans signed Nazeeh Johnson to provide depth in their secondary on eve of training camp. He is facing a 6-game suspension.",
+              "url": "https://sports.yahoo.com/articles/titans-db-gets-6-game-212831387.html",
+              "canonical_url": "https://sports.yahoo.com/articles/titans-db-gets-6-game-212831387.html",
+              "publisher": "USA TODAY Sports",
+              "source_group": "national",
+              "feed": "Yahoo NFL",
+              "published_at": "2026-08-14T21:28:31+00:00",
+              "teams": [
+                "Titans"
+              ],
+              "players": [
+                "The Titans",
+                "Nazeeh Johnson"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NFL"
+              ],
+              "lanes": [
+                "training-camp"
+              ]
+            },
+            {
               "id": "https://sports.yahoo.com/articles/breaking-down-every-chiefs-position-200000132.html",
               "desk": "nfl",
               "title": "Breaking down every Chiefs position group ahead of preseason Week 1",
@@ -2519,6 +2541,31 @@
           "label": "Injuries",
           "items": [
             {
+              "id": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+              "desk": "nfl",
+              "title": "Jordyn Tyson injury update as Saints WR (hamstring) set to miss time",
+              "summary": "Saints WR Jordyn Tyson is dealing with a hamstring injury. Here's what to know about its severity and how long the first-round rookie may be out.",
+              "url": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+              "canonical_url": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+              "publisher": "USA TODAY Sports",
+              "source_group": "national",
+              "feed": "Yahoo NFL",
+              "published_at": "2026-08-14T21:16:57+00:00",
+              "teams": [
+                "Saints"
+              ],
+              "players": [
+                "Jordyn Tyson"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NFL"
+              ],
+              "lanes": [
+                "injuries"
+              ]
+            },
+            {
               "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-could-return-to-packers-practice-next-week",
               "desk": "nfl",
               "title": "Josh Jacobs could return to Packers practice next week",
@@ -2585,32 +2632,6 @@
               ],
               "players": [
                 "Brian Mason"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NFL"
-              ],
-              "lanes": [
-                "injuries"
-              ]
-            },
-            {
-              "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-will-miss-time-with-hamstring-injury-could-linger-into-regular-season",
-              "desk": "nfl",
-              "title": "Jordyn Tyson will miss time with hamstring injury, could linger into regular season",
-              "summary": "The Saints will not have one of their key rookies on the field for a while.",
-              "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-will-miss-time-with-hamstring-injury-could-linger-into-regular-season",
-              "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordyn-tyson-will-miss-time-with-hamstring-injury-could-linger-into-regular-season",
-              "publisher": "ProFootballTalk",
-              "source_group": "specialist",
-              "feed": "ProFootballTalk",
-              "published_at": "2026-08-14T19:31:28+00:00",
-              "teams": [
-                "Saints"
-              ],
-              "players": [
-                "Jordyn Tyson",
-                "The Saints"
               ],
               "sport": "football",
               "competitions": [
@@ -3622,32 +3643,33 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-14T21:31:04.338317+00:00",
-      "updated_at": "2026-08-14T21:31:04.338317+00:00",
+      "content_updated_at": "2026-08-14T21:33:15.789561+00:00",
+      "updated_at": "2026-08-14T21:33:15.789561+00:00",
       "data_updated_at": {
         "scores": "2026-08-14T04:56:56.836175+00:00",
         "standings": "2026-08-14T04:56:56.836175+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-14T21:31:04.338317+00:00",
-        "standings": "2026-08-14T21:31:04.338317+00:00"
+        "scores": "2026-08-14T21:33:15.789561+00:00",
+        "standings": "2026-08-14T21:33:15.789561+00:00"
       },
       "diagnostics": {
         "candidate_count": 280,
-        "classified_count": 114,
+        "classified_count": 117,
         "deduplicated_count": 97,
         "selected_count": 72,
         "publishers": {
           "COVERS": 2,
-          "USA TODAY Sports": 3,
-          "Yahoo Sports": 4,
-          "SB Nation": 21,
-          "ProFootballTalk": 21,
+          "USA TODAY Sports": 5,
+          "Yahoo Sports": 3,
+          "SB Nation": 20,
+          "ProFootballTalk": 20,
           "NFL.com": 6,
           "LA Times": 1,
           "The Seattle Times": 6,
           "The Boston Globe": 3,
           "Dallas News": 2,
+          "bears-frontend.pocket.nfl.com": 1,
           "Miami Herald": 3
         },
         "source_counts": {
@@ -3731,6 +3753,37 @@
           ],
           "lanes": [
             "quarterbacks"
+          ]
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/bret-bielema-notices-one-major-210035792.html",
+          "desk": "college-football",
+          "title": "Bret Bielema Notices One Major Improvement From Previous Illinois Teams",
+          "summary": "The Fighting Illini's head coach pointed to an exciting new trend on the team's roster ahead of the 2026 college football season.",
+          "url": "https://sports.yahoo.com/articles/bret-bielema-notices-one-major-210035792.html",
+          "canonical_url": "https://sports.yahoo.com/articles/bret-bielema-notices-one-major-210035792.html",
+          "publisher": "Roundtable Sports",
+          "source_group": "national",
+          "feed": "Yahoo College Football",
+          "published_at": "2026-08-14T21:00:35+00:00",
+          "teams": [],
+          "players": [
+            "Bret Bielema Notices",
+            "Bret Bielema",
+            "One Major Improvement",
+            "One Major",
+            "From Previous Illinois",
+            "From Previous",
+            "Teams The Fighting",
+            "Teams The"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NCAA FBS",
+            "College Football Playoff"
+          ],
+          "lanes": [
+            "coaching"
           ]
         },
         {
@@ -4636,10 +4689,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZGxMWEVvVG5mcEdaZl93ZzZobzdNd21zaWJ6RndaRXlrR3g3Vmx2VnNKT0lfd1Q0RW5GWEN3SDhwSjdfT3VuUDRsWEZSekxYS2tqLVlMSGoyaUZaTDA2SHRBSWZFTzByYV9RR3JEZm9aWW5QbFB0ekpLRTB3UjhTcU85emlUcHg4cjdhNUE1RnRxV2ZiNmxFb1U1QmxjRnUxZDhybEhCZGhWQ0YzYkg2WTNZcThSeTJpRG40U19jX3ljNTg?oc=5",
           "desk": "college-football",
           "title": "Day makes another change tied to Michigan week, and it's the right call: Stephen Means",
-          "summary": "Day makes another change tied to Michigan week, and it's the right call: Stephen Means Cleveland.com",
+          "summary": "Day makes another change tied to Michigan week, and it's the right call: Stephen Means cleveland.com",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZGxMWEVvVG5mcEdaZl93ZzZobzdNd21zaWJ6RndaRXlrR3g3Vmx2VnNKT0lfd1Q0RW5GWEN3SDhwSjdfT3VuUDRsWEZSekxYS2tqLVlMSGoyaUZaTDA2SHRBSWZFTzByYV9RR3JEZm9aWW5QbFB0ekpLRTB3UjhTcU85emlUcHg4cjdhNUE1RnRxV2ZiNmxFb1U1QmxjRnUxZDhybEhCZGhWQ0YzYkg2WTNZcThSeTJpRG40U19jX3ljNTg?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZGxMWEVvVG5mcEdaZl93ZzZobzdNd21zaWJ6RndaRXlrR3g3Vmx2VnNKT0lfd1Q0RW5GWEN3SDhwSjdfT3VuUDRsWEZSekxYS2tqLVlMSGoyaUZaTDA2SHRBSWZFTzByYV9RR3JEZm9aWW5QbFB0ekpLRTB3UjhTcU85emlUcHg4cjdhNUE1RnRxV2ZiNmxFb1U1QmxjRnUxZDhybEhCZGhWQ0YzYkg2WTNZcThSeTJpRG40U19jX3ljNTg?oc=5",
-          "publisher": "Cleveland.com",
+          "publisher": "cleveland.com",
           "source_group": "local",
           "feed": "College football local discovery",
           "published_at": "2026-08-14T18:00:00+00:00",
@@ -4648,8 +4701,7 @@
           ],
           "players": [
             "Stephen Means Day",
-            "Stephen Means",
-            "Stephen Means Cleveland"
+            "Stephen Means"
           ],
           "sport": "football",
           "competitions": [
@@ -5365,28 +5417,6 @@
           "lanes": []
         },
         {
-          "id": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVlhyVHRYR1RHNXJOZG5kaGEzbU1oNlFmTWhOemtwcFhJVDNfeXg3S3N2dFlrYUV6Y3ZMLUR2Umc2ZzBrRlNGeElrRWdzU0JHZHAybm9rVUIyekFTY3Nha25GTnZaakQ4VmIxY2o3NzVHUWFndDZRTlhVb3J0bnJKMmt1VlltZURaaWtMSXBkTVVLRFlPWWNUYm8xTEI4UDNJMjZlYlRBb0d5SlphTTlGalRCNi10ZUZ2Wm54bG10ZzZGLVlkSF9yR1U1eWRGalQ4aWU3Tm1UNEpJQ011TlFR?oc=5",
-          "desk": "college-football",
-          "title": "7 freshmen who could contribute for Ohio State during the 2026 season",
-          "summary": "7 freshmen who could contribute for Ohio State during the 2026 season 247Sports",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVlhyVHRYR1RHNXJOZG5kaGEzbU1oNlFmTWhOemtwcFhJVDNfeXg3S3N2dFlrYUV6Y3ZMLUR2Umc2ZzBrRlNGeElrRWdzU0JHZHAybm9rVUIyekFTY3Nha25GTnZaakQ4VmIxY2o3NzVHUWFndDZRTlhVb3J0bnJKMmt1VlltZURaaWtMSXBkTVVLRFlPWWNUYm8xTEI4UDNJMjZlYlRBb0d5SlphTTlGalRCNi10ZUZ2Wm54bG10ZzZGLVlkSF9yR1U1eWRGalQ4aWU3Tm1UNEpJQ011TlFR?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVlhyVHRYR1RHNXJOZG5kaGEzbU1oNlFmTWhOemtwcFhJVDNfeXg3S3N2dFlrYUV6Y3ZMLUR2Umc2ZzBrRlNGeElrRWdzU0JHZHAybm9rVUIyekFTY3Nha25GTnZaakQ4VmIxY2o3NzVHUWFndDZRTlhVb3J0bnJKMmt1VlltZURaaWtMSXBkTVVLRFlPWWNUYm8xTEI4UDNJMjZlYlRBb0d5SlphTTlGalRCNi10ZUZ2Wm54bG10ZzZGLVlkSF9yR1U1eWRGalQ4aWU3Tm1UNEpJQ011TlFR?oc=5",
-          "publisher": "247Sports",
-          "source_group": "specialist",
-          "feed": "College football specialists",
-          "published_at": "2026-08-13T16:50:00+00:00",
-          "teams": [
-            "Ohio State"
-          ],
-          "players": [],
-          "sport": "football",
-          "competitions": [
-            "NCAA FBS",
-            "College Football Playoff"
-          ],
-          "lanes": []
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObzR0Zmk1aWkxSTRnbkJoc1pHM0pqZUwzRXl3bHdKdlZKZ1d5Mk5lZXpvYmJvMk5Ya0NsR2xDeG1BN1UwQzJYOGUwZUgyaEZrdVNva0lwckVVUXVPOHN0bVlSWjZ4UlFjZFo5clhvTjllVUlESlFuNEZOVWU3LWwyV0ZTdnFpX0EtSVlzc3VUTjBWb1E?oc=5",
           "desk": "college-football",
           "title": "Jerry Mixon, Devon Jackson lead Oregon football's new linebacker rotation",
@@ -5439,10 +5469,10 @@
           "id": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX0VjOVhCZFdmWk5TczM1THdfQ0RPUXVLZmYyUmxFYnM0QUZKbVNSdUxjUENyekoxaDdpOTlqRlFSdUVVVXA3clJLNXpFWHI4R3ViRlFnLTZ1blJIRFotQUYwMjJXMmhMWDdKT256SUF3dFY1Z1d2NEFTTFdwTEhhcUY1T2dHVVVlUmEzS3FYWE5kSU1hN1hEU1c2RGxJcEZJT2M2WksydXJ2T21MWjlRZA?oc=5",
           "desk": "college-football",
           "title": "Ohio State has a five-star cornerback who just lost his black stripe",
-          "summary": "Ohio State has a five-star cornerback who just lost his black stripe Cleveland.com",
+          "summary": "Ohio State has a five-star cornerback who just lost his black stripe cleveland.com",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX0VjOVhCZFdmWk5TczM1THdfQ0RPUXVLZmYyUmxFYnM0QUZKbVNSdUxjUENyekoxaDdpOTlqRlFSdUVVVXA3clJLNXpFWHI4R3ViRlFnLTZ1blJIRFotQUYwMjJXMmhMWDdKT256SUF3dFY1Z1d2NEFTTFdwTEhhcUY1T2dHVVVlUmEzS3FYWE5kSU1hN1hEU1c2RGxJcEZJT2M2WksydXJ2T21MWjlRZA?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX0VjOVhCZFdmWk5TczM1THdfQ0RPUXVLZmYyUmxFYnM0QUZKbVNSdUxjUENyekoxaDdpOTlqRlFSdUVVVXA3clJLNXpFWHI4R3ViRlFnLTZ1blJIRFotQUYwMjJXMmhMWDdKT256SUF3dFY1Z1d2NEFTTFdwTEhhcUY1T2dHVVVlUmEzS3FYWE5kSU1hN1hEU1c2RGxJcEZJT2M2WksydXJ2T21MWjlRZA?oc=5",
-          "publisher": "Cleveland.com",
+          "publisher": "cleveland.com",
           "source_group": "local",
           "feed": "College football local discovery",
           "published_at": "2026-08-12T17:44:00+00:00",
@@ -5463,10 +5493,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX1Q2a3JCMWF2UHBKdjh0TzBNMjNXWDhwUTBmZEdTZE1BRHgzYVpycWc1QTdwbzl0TUpMd2IxRElTT1NTR05uVEhpaHAtQlhJUVVvcDRkbDZzUjh5LWI4WkJPSlNHbk1FaUMyalFTNTNCcHNXSEJFOUJRQ0UtbG9mRHZSbDdZQ28wdDhFUmFoMnZYZVRRS1NvWnFzUk9BeWd4c0xHaC0zSF9hSFJSSm5XMnU3bnl4T0h4UWtFWDlUVi1Qbkk?oc=5",
           "desk": "college-football",
           "title": "Ohio State football standouts named to Lombardi Award watch list: Buckeye Breakfast",
-          "summary": "Ohio State football standouts named to Lombardi Award watch list: Buckeye Breakfast Cleveland.com",
+          "summary": "Ohio State football standouts named to Lombardi Award watch list: Buckeye Breakfast cleveland.com",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX1Q2a3JCMWF2UHBKdjh0TzBNMjNXWDhwUTBmZEdTZE1BRHgzYVpycWc1QTdwbzl0TUpMd2IxRElTT1NTR05uVEhpaHAtQlhJUVVvcDRkbDZzUjh5LWI4WkJPSlNHbk1FaUMyalFTNTNCcHNXSEJFOUJRQ0UtbG9mRHZSbDdZQ28wdDhFUmFoMnZYZVRRS1NvWnFzUk9BeWd4c0xHaC0zSF9hSFJSSm5XMnU3bnl4T0h4UWtFWDlUVi1Qbkk?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX1Q2a3JCMWF2UHBKdjh0TzBNMjNXWDhwUTBmZEdTZE1BRHgzYVpycWc1QTdwbzl0TUpMd2IxRElTT1NTR05uVEhpaHAtQlhJUVVvcDRkbDZzUjh5LWI4WkJPSlNHbk1FaUMyalFTNTNCcHNXSEJFOUJRQ0UtbG9mRHZSbDdZQ28wdDhFUmFoMnZYZVRRS1NvWnFzUk9BeWd4c0xHaC0zSF9hSFJSSm5XMnU3bnl4T0h4UWtFWDlUVi1Qbkk?oc=5",
-          "publisher": "Cleveland.com",
+          "publisher": "cleveland.com",
           "source_group": "local",
           "feed": "College football local discovery",
           "published_at": "2026-08-12T09:00:00+00:00",
@@ -5476,8 +5506,7 @@
           "players": [
             "Lombardi Award",
             "Buckeye Breakfast Ohio",
-            "Buckeye Breakfast",
-            "Buckeye Breakfast Cleveland"
+            "Buckeye Breakfast"
           ],
           "sport": "football",
           "competitions": [
@@ -5490,10 +5519,10 @@
           "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTE4WEMzUF9JdXhicWQ4RG8wbHk3UTZpMVItTHpnQ0s5VEtkSVpFZFk3Vm5Uc1Q5aUY0NmJwVlhwYnUzNDVLU21zSlRiSVZKUEUyazNIR3hTRDI3bkUtVmhQdmJ2dktiZGUtdTJIdFRRZ0ZFNm4wZ2RrVGxiVTdmWVJER25GMzNIOXduMWVxbDJvTEVib0dqMjdrUGUtTnFnVXI5MGpyTEtCd2RvckZwMnc0MUs4NkI5TGxOZQ?oc=5",
           "desk": "college-football",
           "title": "Here are the 6 quarterbacks on Bruce Feldman’s College football Freaks List for the 2026 season",
-          "summary": "Here are the 6 quarterbacks on Bruce Feldman’s College football Freaks List for the 2026 season Cleveland.com",
+          "summary": "Here are the 6 quarterbacks on Bruce Feldman’s College football Freaks List for the 2026 season cleveland.com",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTE4WEMzUF9JdXhicWQ4RG8wbHk3UTZpMVItTHpnQ0s5VEtkSVpFZFk3Vm5Uc1Q5aUY0NmJwVlhwYnUzNDVLU21zSlRiSVZKUEUyazNIR3hTRDI3bkUtVmhQdmJ2dktiZGUtdTJIdFRRZ0ZFNm4wZ2RrVGxiVTdmWVJER25GMzNIOXduMWVxbDJvTEVib0dqMjdrUGUtTnFnVXI5MGpyTEtCd2RvckZwMnc0MUs4NkI5TGxOZQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTE4WEMzUF9JdXhicWQ4RG8wbHk3UTZpMVItTHpnQ0s5VEtkSVpFZFk3Vm5Uc1Q5aUY0NmJwVlhwYnUzNDVLU21zSlRiSVZKUEUyazNIR3hTRDI3bkUtVmhQdmJ2dktiZGUtdTJIdFRRZ0ZFNm4wZ2RrVGxiVTdmWVJER25GMzNIOXduMWVxbDJvTEVib0dqMjdrUGUtTnFnVXI5MGpyTEtCd2RvckZwMnc0MUs4NkI5TGxOZQ?oc=5",
-          "publisher": "Cleveland.com",
+          "publisher": "cleveland.com",
           "source_group": "local",
           "feed": "College football local discovery",
           "published_at": "2026-08-11T19:53:00+00:00",
@@ -5514,10 +5543,10 @@
           "id": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbjNNNFZvVEQyTzd2WTltYmRzSDFkeGhqQ0FkZUhveEZ6WlFUR2JXZk5lTXAyUlptOGVaSFRycVh6eHNXSmFTRldCMS1XaWJCX3VEb3JNWjNWZWlZSHQ4VHprU1d6dHNVd1NzaFVqbXlSSmJPY1d6TEI1c3YwamRWSUZTVXM2U0VNT3g5NmNyUXNjTkhacmVWWnc5RzBCT1Iyc3BJMDNUY21Kdk1zQUlpTHJid2Q0bzNOOG1ub3VQVVhoTDkweTVkdWxYNmYxOGJ3OGQ0bmZ3?oc=5",
           "desk": "college-football",
           "title": "How Julian Sayin’s time with Ohio State football has sparked a career path for his sister Jocelyn",
-          "summary": "How Julian Sayin’s time with Ohio State football has sparked a career path for his sister Jocelyn Cleveland.com",
+          "summary": "How Julian Sayin’s time with Ohio State football has sparked a career path for his sister Jocelyn cleveland.com",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbjNNNFZvVEQyTzd2WTltYmRzSDFkeGhqQ0FkZUhveEZ6WlFUR2JXZk5lTXAyUlptOGVaSFRycVh6eHNXSmFTRldCMS1XaWJCX3VEb3JNWjNWZWlZSHQ4VHprU1d6dHNVd1NzaFVqbXlSSmJPY1d6TEI1c3YwamRWSUZTVXM2U0VNT3g5NmNyUXNjTkhacmVWWnc5RzBCT1Iyc3BJMDNUY21Kdk1zQUlpTHJid2Q0bzNOOG1ub3VQVVhoTDkweTVkdWxYNmYxOGJ3OGQ0bmZ3?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbjNNNFZvVEQyTzd2WTltYmRzSDFkeGhqQ0FkZUhveEZ6WlFUR2JXZk5lTXAyUlptOGVaSFRycVh6eHNXSmFTRldCMS1XaWJCX3VEb3JNWjNWZWlZSHQ4VHprU1d6dHNVd1NzaFVqbXlSSmJPY1d6TEI1c3YwamRWSUZTVXM2U0VNT3g5NmNyUXNjTkhacmVWWnc5RzBCT1Iyc3BJMDNUY21Kdk1zQUlpTHJid2Q0bzNOOG1ub3VQVVhoTDkweTVkdWxYNmYxOGJ3OGQ0bmZ3?oc=5",
-          "publisher": "Cleveland.com",
+          "publisher": "cleveland.com",
           "source_group": "local",
           "feed": "College football local discovery",
           "published_at": "2026-08-11T17:51:00+00:00",
@@ -5528,8 +5557,7 @@
             "How Julian Sayin’s",
             "How Julian",
             "Jocelyn How Julian",
-            "Jocelyn How",
-            "Jocelyn Cleveland"
+            "Jocelyn How"
           ],
           "sport": "football",
           "competitions": [
@@ -7665,6 +7693,37 @@
         "coaching": {
           "label": "Coaching",
           "items": [
+            {
+              "id": "https://sports.yahoo.com/articles/bret-bielema-notices-one-major-210035792.html",
+              "desk": "college-football",
+              "title": "Bret Bielema Notices One Major Improvement From Previous Illinois Teams",
+              "summary": "The Fighting Illini's head coach pointed to an exciting new trend on the team's roster ahead of the 2026 college football season.",
+              "url": "https://sports.yahoo.com/articles/bret-bielema-notices-one-major-210035792.html",
+              "canonical_url": "https://sports.yahoo.com/articles/bret-bielema-notices-one-major-210035792.html",
+              "publisher": "Roundtable Sports",
+              "source_group": "national",
+              "feed": "Yahoo College Football",
+              "published_at": "2026-08-14T21:00:35+00:00",
+              "teams": [],
+              "players": [
+                "Bret Bielema Notices",
+                "Bret Bielema",
+                "One Major Improvement",
+                "One Major",
+                "From Previous Illinois",
+                "From Previous",
+                "Teams The Fighting",
+                "Teams The"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NCAA FBS",
+                "College Football Playoff"
+              ],
+              "lanes": [
+                "coaching"
+              ]
+            },
             {
               "id": "https://sports.yahoo.com/articles/major-mike-norvell-florida-state-182432955.html",
               "desk": "college-football",
@@ -9854,24 +9913,25 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-14T21:31:04.338317+00:00",
-      "updated_at": "2026-08-14T21:31:04.338317+00:00",
+      "content_updated_at": "2026-08-14T21:33:15.789561+00:00",
+      "updated_at": "2026-08-14T21:33:15.789561+00:00",
       "data_updated_at": {
         "scores": "2026-08-11T05:58:48.377407+00:00",
         "rankings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-14T21:31:04.338317+00:00",
-        "rankings": "2026-08-14T21:31:04.338317+00:00"
+        "scores": "2026-08-14T21:33:15.789561+00:00",
+        "rankings": "2026-08-14T21:33:15.789561+00:00"
       },
       "diagnostics": {
         "candidate_count": 348,
-        "classified_count": 98,
-        "deduplicated_count": 94,
+        "classified_count": 102,
+        "deduplicated_count": 98,
         "selected_count": 72,
         "publishers": {
-          "247Sports": 22,
+          "247Sports": 21,
           "Easy Sportz": 1,
+          "Roundtable Sports": 5,
           "FSU Wire articles": 1,
           "NBC Sports": 1,
           "UGA Wire": 1,
@@ -9881,7 +9941,6 @@
           "HEAVY": 2,
           "The News-Gazette, Champaign-Urbana, Ill.": 1,
           "SB Nation": 4,
-          "Roundtable Sports": 4,
           "Huskies Wire": 1,
           "Aggies Wire": 1,
           "OregonLive.com": 6,
@@ -9890,7 +9949,7 @@
           "On3": 6,
           "Wolverines Wire": 3,
           "Buffaloes Wire": 2,
-          "Cleveland.com": 5,
+          "cleveland.com": 5,
           "College Sports Wire": 1,
           "Ducks Wire": 1,
           "Vols Wire": 1,
@@ -11255,10 +11314,10 @@
           "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUtBOVZ6WXBmRmtrQ29kdXhBbHBNWURCNjk1RFRTNkRDekY0WGw2SkZvODZuVFpmYW15eTd4aXN1S2ZMZzR5ZWxZZDhNZnFmYy0zbTVGZ0k1MHZpamlCeUN0RlJIWGxaY251Y2tfMmxhS2cwRU4xUHVuNUNwNHlWOU5fcVNVeVU3QVVKaHlYQXVLaS1qclRhQkRkRGlxSWR5M1RFazdJQnRXa1ZoWDNtN0VwcW1hMUpDUWktaQ?oc=5",
           "desk": "mlb",
           "title": "How Royals OF Angeibel Gomez Compares To Past Dominican Summer League Standouts",
-          "summary": "How Royals OF Angeibel Gomez Compares To Past Dominican Summer League Standouts baseballamerica.com",
+          "summary": "How Royals OF Angeibel Gomez Compares To Past Dominican Summer League Standouts Baseball America",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUtBOVZ6WXBmRmtrQ29kdXhBbHBNWURCNjk1RFRTNkRDekY0WGw2SkZvODZuVFpmYW15eTd4aXN1S2ZMZzR5ZWxZZDhNZnFmYy0zbTVGZ0k1MHZpamlCeUN0RlJIWGxaY251Y2tfMmxhS2cwRU4xUHVuNUNwNHlWOU5fcVNVeVU3QVVKaHlYQXVLaS1qclRhQkRkRGlxSWR5M1RFazdJQnRXa1ZoWDNtN0VwcW1hMUpDUWktaQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUtBOVZ6WXBmRmtrQ29kdXhBbHBNWURCNjk1RFRTNkRDekY0WGw2SkZvODZuVFpmYW15eTd4aXN1S2ZMZzR5ZWxZZDhNZnFmYy0zbTVGZ0k1MHZpamlCeUN0RlJIWGxaY251Y2tfMmxhS2cwRU4xUHVuNUNwNHlWOU5fcVNVeVU3QVVKaHlYQXVLaS1qclRhQkRkRGlxSWR5M1RFazdJQnRXa1ZoWDNtN0VwcW1hMUpDUWktaQ?oc=5",
-          "publisher": "baseballamerica.com",
+          "publisher": "Baseball America",
           "source_group": "specialist",
           "feed": "Baseball specialists",
           "published_at": "2026-08-14T13:30:05+00:00",
@@ -11272,7 +11331,8 @@
             "To Past Dominican",
             "To Past",
             "Summer League Standouts",
-            "Summer League"
+            "Summer League",
+            "Baseball America"
           ],
           "sport": "baseball",
           "competitions": [
@@ -11337,10 +11397,10 @@
           "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JdllmMHk3cVJwVE5QbTVqUmRZOGdIX1NYTXZfZDgyLWN5Z2FJY2dnZ1RTOHJUa0daT01mOW5DQmdJT21iNmVDRUt0ZGptX05SM1RmNmlMckV1YkptRVZxNi1wYmdyc3lfamc?oc=5",
           "desk": "mlb",
           "title": "Owen Hull Makes Strong First Impression On Red Sox",
-          "summary": "Owen Hull Makes Strong First Impression On Red Sox baseballamerica.com",
+          "summary": "Owen Hull Makes Strong First Impression On Red Sox Baseball America",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JdllmMHk3cVJwVE5QbTVqUmRZOGdIX1NYTXZfZDgyLWN5Z2FJY2dnZ1RTOHJUa0daT01mOW5DQmdJT21iNmVDRUt0ZGptX05SM1RmNmlMckV1YkptRVZxNi1wYmdyc3lfamc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JdllmMHk3cVJwVE5QbTVqUmRZOGdIX1NYTXZfZDgyLWN5Z2FJY2dnZ1RTOHJUa0daT01mOW5DQmdJT21iNmVDRUt0ZGptX05SM1RmNmlMckV1YkptRVZxNi1wYmdyc3lfamc?oc=5",
-          "publisher": "baseballamerica.com",
+          "publisher": "Baseball America",
           "source_group": "specialist",
           "feed": "Baseball specialists",
           "published_at": "2026-08-14T10:00:00+00:00",
@@ -11353,7 +11413,8 @@
             "Strong First Impression",
             "Strong First",
             "On Red Sox",
-            "On Red"
+            "On Red",
+            "Baseball America"
           ],
           "sport": "baseball",
           "competitions": [
@@ -11365,10 +11426,10 @@
           "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTJncTkzS3ZENnlNS0JKTTl5RnJSLVZ6ZXVSSGdGa085dS1HYXUzdlBVdHdrTkhkc1BTNmdZZm41ODVZU0hJazlEZGJBU1E5WVBJYkVQUzJpb2JXWEJrLVdfYkRUNnFTREdzOVVmajdtTWxPQzhadm5qTkJIZVdqNXlfME1QN01ONlRIYzcwN3NuWEhxUnN6Y1d3?oc=5",
           "desk": "mlb",
           "title": "Zac Thornton Emerges As Future Piece Of Mets’ Rotation",
-          "summary": "Zac Thornton Emerges As Future Piece Of Mets’ Rotation baseballamerica.com",
+          "summary": "Zac Thornton Emerges As Future Piece Of Mets’ Rotation Baseball America",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTJncTkzS3ZENnlNS0JKTTl5RnJSLVZ6ZXVSSGdGa085dS1HYXUzdlBVdHdrTkhkc1BTNmdZZm41ODVZU0hJazlEZGJBU1E5WVBJYkVQUzJpb2JXWEJrLVdfYkRUNnFTREdzOVVmajdtTWxPQzhadm5qTkJIZVdqNXlfME1QN01ONlRIYzcwN3NuWEhxUnN6Y1d3?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTJncTkzS3ZENnlNS0JKTTl5RnJSLVZ6ZXVSSGdGa085dS1HYXUzdlBVdHdrTkhkc1BTNmdZZm41ODVZU0hJazlEZGJBU1E5WVBJYkVQUzJpb2JXWEJrLVdfYkRUNnFTREdzOVVmajdtTWxPQzhadm5qTkJIZVdqNXlfME1QN01ONlRIYzcwN3NuWEhxUnN6Y1d3?oc=5",
-          "publisher": "baseballamerica.com",
+          "publisher": "Baseball America",
           "source_group": "specialist",
           "feed": "Baseball specialists",
           "published_at": "2026-08-14T10:00:00+00:00",
@@ -11381,7 +11442,8 @@
             "As Future Piece",
             "As Future",
             "Of Mets’ Rotation",
-            "Of Mets’"
+            "Of Mets’",
+            "Baseball America"
           ],
           "sport": "baseball",
           "competitions": [
@@ -11423,10 +11485,10 @@
           "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcTJUOW1waTVucmEzUnljVkZrNzhUX0hfYjdxWEZHNU4xQ3pMLXV6MVZ0Tkp4RU5BeTVHRElYM3ktdGxpYVBvSmdxMnpFQ2xZQnlQTzloYkczeXV1VmxMZGl4ZnVmb1U0dHVhc0Q1bmFMcEZYVEwxblN5NkdRdG9udGdrTTRxRFlfXzZDUklUdndPV2dwX3JISnZPN29pR0VWV0lGYmlseVc2ZU95SVc1NVVOODQ0dw?oc=5",
           "desk": "mlb",
           "title": "Why The Tigers Picked The Dodgers’ Trade Over Brewers, Rays For Tarik Skubal",
-          "summary": "Why The Tigers Picked The Dodgers’ Trade Over Brewers, Rays For Tarik Skubal baseballamerica.com",
+          "summary": "Why The Tigers Picked The Dodgers’ Trade Over Brewers, Rays For Tarik Skubal Baseball America",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcTJUOW1waTVucmEzUnljVkZrNzhUX0hfYjdxWEZHNU4xQ3pMLXV6MVZ0Tkp4RU5BeTVHRElYM3ktdGxpYVBvSmdxMnpFQ2xZQnlQTzloYkczeXV1VmxMZGl4ZnVmb1U0dHVhc0Q1bmFMcEZYVEwxblN5NkdRdG9udGdrTTRxRFlfXzZDUklUdndPV2dwX3JISnZPN29pR0VWV0lGYmlseVc2ZU95SVc1NVVOODQ0dw?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcTJUOW1waTVucmEzUnljVkZrNzhUX0hfYjdxWEZHNU4xQ3pMLXV6MVZ0Tkp4RU5BeTVHRElYM3ktdGxpYVBvSmdxMnpFQ2xZQnlQTzloYkczeXV1VmxMZGl4ZnVmb1U0dHVhc0Q1bmFMcEZYVEwxblN5NkdRdG9udGdrTTRxRFlfXzZDUklUdndPV2dwX3JISnZPN29pR0VWV0lGYmlseVc2ZU95SVc1NVVOODQ0dw?oc=5",
-          "publisher": "baseballamerica.com",
+          "publisher": "Baseball America",
           "source_group": "specialist",
           "feed": "Baseball specialists",
           "published_at": "2026-08-13T12:12:53+00:00",
@@ -11456,10 +11518,10 @@
           "id": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbEQxVEJfQ2w1aEdjTlhDaDNZNzhkOFRKaXRnME9iMGJuLWhKMEp5RnpONlZVckNPd01mQTRFMFpZNlVGRXlxTUJ1SWVEOS1iNzJtTkJCTk9CWmV5WUpLQlU4S0dBV0VpVmdHbzQ5S1gzWnpvajBTa3dPUDdGa0FxOUNQdjUzZFMyYmVBMUx0eEx2Wjdody1UVHZTcmd2V3JPN1psTklHQWFsV0FweUdzbEN4Z1dfSkd3amc?oc=5",
           "desk": "mlb",
           "title": "Jed Bradley On Breaking Through To MLB After Injuries | From Phenom To The Farm",
-          "summary": "Jed Bradley On Breaking Through To MLB After Injuries | From Phenom To The Farm baseballamerica.com",
+          "summary": "Jed Bradley On Breaking Through To MLB After Injuries | From Phenom To The Farm Baseball America",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbEQxVEJfQ2w1aEdjTlhDaDNZNzhkOFRKaXRnME9iMGJuLWhKMEp5RnpONlZVckNPd01mQTRFMFpZNlVGRXlxTUJ1SWVEOS1iNzJtTkJCTk9CWmV5WUpLQlU4S0dBV0VpVmdHbzQ5S1gzWnpvajBTa3dPUDdGa0FxOUNQdjUzZFMyYmVBMUx0eEx2Wjdody1UVHZTcmd2V3JPN1psTklHQWFsV0FweUdzbEN4Z1dfSkd3amc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbEQxVEJfQ2w1aEdjTlhDaDNZNzhkOFRKaXRnME9iMGJuLWhKMEp5RnpONlZVckNPd01mQTRFMFpZNlVGRXlxTUJ1SWVEOS1iNzJtTkJCTk9CWmV5WUpLQlU4S0dBV0VpVmdHbzQ5S1gzWnpvajBTa3dPUDdGa0FxOUNQdjUzZFMyYmVBMUx0eEx2Wjdody1UVHZTcmd2V3JPN1psTklHQWFsV0FweUdzbEN4Z1dfSkd3amc?oc=5",
-          "publisher": "baseballamerica.com",
+          "publisher": "Baseball America",
           "source_group": "specialist",
           "feed": "Baseball specialists",
           "published_at": "2026-08-13T14:29:32+00:00",
@@ -11484,17 +11546,18 @@
           "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
           "desk": "mlb",
           "title": "Revisiting 2026 MLB Trade Deadline Predictions",
-          "summary": "Revisiting 2026 MLB Trade Deadline Predictions baseballamerica.com",
+          "summary": "Revisiting 2026 MLB Trade Deadline Predictions Baseball America",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
-          "publisher": "baseballamerica.com",
+          "publisher": "Baseball America",
           "source_group": "specialist",
           "feed": "Baseball specialists",
           "published_at": "2026-08-13T13:14:14+00:00",
           "teams": [],
           "players": [
             "Trade Deadline Predictions",
-            "Trade Deadline"
+            "Trade Deadline",
+            "Baseball America"
           ],
           "sport": "baseball",
           "competitions": [
@@ -14355,10 +14418,10 @@
               "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTJncTkzS3ZENnlNS0JKTTl5RnJSLVZ6ZXVSSGdGa085dS1HYXUzdlBVdHdrTkhkc1BTNmdZZm41ODVZU0hJazlEZGJBU1E5WVBJYkVQUzJpb2JXWEJrLVdfYkRUNnFTREdzOVVmajdtTWxPQzhadm5qTkJIZVdqNXlfME1QN01ONlRIYzcwN3NuWEhxUnN6Y1d3?oc=5",
               "desk": "mlb",
               "title": "Zac Thornton Emerges As Future Piece Of Mets’ Rotation",
-              "summary": "Zac Thornton Emerges As Future Piece Of Mets’ Rotation baseballamerica.com",
+              "summary": "Zac Thornton Emerges As Future Piece Of Mets’ Rotation Baseball America",
               "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTJncTkzS3ZENnlNS0JKTTl5RnJSLVZ6ZXVSSGdGa085dS1HYXUzdlBVdHdrTkhkc1BTNmdZZm41ODVZU0hJazlEZGJBU1E5WVBJYkVQUzJpb2JXWEJrLVdfYkRUNnFTREdzOVVmajdtTWxPQzhadm5qTkJIZVdqNXlfME1QN01ONlRIYzcwN3NuWEhxUnN6Y1d3?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTJncTkzS3ZENnlNS0JKTTl5RnJSLVZ6ZXVSSGdGa085dS1HYXUzdlBVdHdrTkhkc1BTNmdZZm41ODVZU0hJazlEZGJBU1E5WVBJYkVQUzJpb2JXWEJrLVdfYkRUNnFTREdzOVVmajdtTWxPQzhadm5qTkJIZVdqNXlfME1QN01ONlRIYzcwN3NuWEhxUnN6Y1d3?oc=5",
-              "publisher": "baseballamerica.com",
+              "publisher": "Baseball America",
               "source_group": "specialist",
               "feed": "Baseball specialists",
               "published_at": "2026-08-14T10:00:00+00:00",
@@ -14371,7 +14434,8 @@
                 "As Future Piece",
                 "As Future",
                 "Of Mets’ Rotation",
-                "Of Mets’"
+                "Of Mets’",
+                "Baseball America"
               ],
               "sport": "baseball",
               "competitions": [
@@ -14505,17 +14569,18 @@
               "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
               "desk": "mlb",
               "title": "Revisiting 2026 MLB Trade Deadline Predictions",
-              "summary": "Revisiting 2026 MLB Trade Deadline Predictions baseballamerica.com",
+              "summary": "Revisiting 2026 MLB Trade Deadline Predictions Baseball America",
               "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
-              "publisher": "baseballamerica.com",
+              "publisher": "Baseball America",
               "source_group": "specialist",
               "feed": "Baseball specialists",
               "published_at": "2026-08-13T13:14:14+00:00",
               "teams": [],
               "players": [
                 "Trade Deadline Predictions",
-                "Trade Deadline"
+                "Trade Deadline",
+                "Baseball America"
               ],
               "sport": "baseball",
               "competitions": [
@@ -17568,15 +17633,15 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-14T21:31:04.338317+00:00",
-      "updated_at": "2026-08-14T21:31:04.338317+00:00",
+      "content_updated_at": "2026-08-14T21:33:15.789561+00:00",
+      "updated_at": "2026-08-14T21:33:15.789561+00:00",
       "data_updated_at": {
         "scores": "2026-08-14T21:31:04.338317+00:00",
         "standings": "2026-08-14T21:31:04.338317+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-14T21:31:04.338317+00:00",
-        "standings": "2026-08-14T21:31:04.338317+00:00"
+        "scores": "2026-08-14T21:33:15.789561+00:00",
+        "standings": "2026-08-14T21:33:15.789561+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -17592,7 +17657,7 @@
           "NBC Sports": 4,
           "MLB.com": 10,
           "Chicago Tribune": 6,
-          "baseballamerica.com": 6,
+          "Baseball America": 6,
           "Los Angeles Times": 6,
           "FanGraphs": 2,
           "New York Daily News": 2
@@ -17861,23 +17926,22 @@
           ]
         },
         {
-          "id": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
+          "id": "https://theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
           "desk": "soccer",
-          "title": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
-          "summary": "Raúl Jiménez marked his return to Wolves with the stoppage-time equaliser that saved them from an embarrassing start to their return to the Championship. The Mexico striker, who scored against England during the World Cup finals, retained his composure to convert a penalty given for handball by Rayan Alebiosu that would have had VAR questioning whether the defender was in the area when Jackson Tchatchoua’s cross struck his arm. Thankfully for Wolves, the video assistant referee is no longer their problem. Jiménez, who had bought scarves for all supporters in the South Bank in gratitude for their response to welcoming him home, tucked away his first goal in this second spell for the club he graced during their recent heyday. Continue reading...",
-          "url": "https://www.theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-          "canonical_url": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
+          "title": "Wolves 2-2 Blackburn: Championship opener – live",
+          "summary": "⚽ Updates from Molineux; kick-off 8pm BST ⚽ Weekend fixtures | Follow us on Instagram | Mail Dominic The 2025-26 EFL season is five minutes from getting started. We are standing on football’s equivalent of the start line at the London Marathon … a testing 46 games await, many twists and turns to come. Mowbray tells Sky Sports that Blackburn are “going to have to punch above their weight” this season and that his team are looking to make the game “tight” and create a difficult evening for Wolves, who he notes haven’t won many games of football in the past year, albeit in a different division. Continue reading...",
+          "url": "https://www.theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
+          "canonical_url": "https://theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
           "publisher": "The Guardian",
           "source_group": "europe",
           "feed": "Guardian Football",
-          "published_at": "2026-08-14T21:21:18+00:00",
+          "published_at": "2026-08-14T21:11:48+00:00",
           "teams": [],
           "players": [
-            "The Mexico",
-            "World Cup",
-            "Rayan Alebiosu",
-            "Jackson Tchatchoua’s",
-            "South Bank"
+            "Mail Dominic The",
+            "Mail Dominic",
+            "London Marathon",
+            "Sky Sports"
           ],
           "sport": "soccer",
           "competitions": [
@@ -17899,9 +17963,7 @@
             "CAF",
             "AFC"
           ],
-          "lanes": [
-            "world-cup"
-          ]
+          "lanes": []
         },
         {
           "id": "https://theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
@@ -18023,47 +18085,6 @@
             "AFC"
           ],
           "lanes": []
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0JTN2xUQ2I5MnppUWVJTE9Pc2Ewcmx3ME9XM0MxSzIwb0R3V3ZjLTJxbnZ3aHByb2IzYXBCSW9MaU9yOHd2dnZMWW1HaXB1U1JFaVNZTW9lUEdXU2V1YWU3a19lSGRIR3FSV0QzWEpETVhKQ2pRUWlNOF9kQnFvbUo4cnpHZlU3d1U0ZDdPLUtoVklTa0o2QUE2RVo4RDhIUzVSUVhqM2lxa1daMUVoRVdWUmJCenBkaTQ0WGxsVEZsaFBkVkd2bXY1X3l5SHhqZmpV?oc=5",
-          "desk": "soccer",
-          "title": "Premier League club Liverpool sell minority stake to consortium",
-          "summary": "Premier League club Liverpool sell minority stake to consortium supersport.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0JTN2xUQ2I5MnppUWVJTE9Pc2Ewcmx3ME9XM0MxSzIwb0R3V3ZjLTJxbnZ3aHByb2IzYXBCSW9MaU9yOHd2dnZMWW1HaXB1U1JFaVNZTW9lUEdXU2V1YWU3a19lSGRIR3FSV0QzWEpETVhKQ2pRUWlNOF9kQnFvbUo4cnpHZlU3d1U0ZDdPLUtoVklTa0o2QUE2RVo4RDhIUzVSUVhqM2lxa1daMUVoRVdWUmJCenBkaTQ0WGxsVEZsaFBkVkd2bXY1X3l5SHhqZmpV?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0JTN2xUQ2I5MnppUWVJTE9Pc2Ewcmx3ME9XM0MxSzIwb0R3V3ZjLTJxbnZ3aHByb2IzYXBCSW9MaU9yOHd2dnZMWW1HaXB1U1JFaVNZTW9lUEdXU2V1YWU3a19lSGRIR3FSV0QzWEpETVhKQ2pRUWlNOF9kQnFvbUo4cnpHZlU3d1U0ZDdPLUtoVklTa0o2QUE2RVo4RDhIUzVSUVhqM2lxa1daMUVoRVdWUmJCenBkaTQ0WGxsVEZsaFBkVkd2bXY1X3l5SHhqZmpV?oc=5",
-          "publisher": "supersport.com",
-          "source_group": "africa_asia",
-          "feed": "Africa and Asia football",
-          "published_at": "2026-08-14T17:06:10+00:00",
-          "teams": [
-            "Liverpool"
-          ],
-          "players": [
-            "Premier League"
-          ],
-          "sport": "soccer",
-          "competitions": [
-            "FIFA",
-            "UEFA",
-            "CONMEBOL",
-            "CAF",
-            "AFC",
-            "CONCACAF",
-            "Premier League",
-            "La Liga",
-            "Bundesliga",
-            "Serie A",
-            "Ligue 1",
-            "NWSL",
-            "MLS",
-            "fútbol",
-            "futebol",
-            "CAF",
-            "AFC"
-          ],
-          "lanes": [
-            "premier-league"
-          ]
         },
         {
           "id": "https://theguardian.com/football/2026/aug/14/rangers-football-daily-newsletter",
@@ -18198,6 +18219,47 @@
           ],
           "lanes": [
             "champions-league"
+          ]
+        },
+        {
+          "id": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+          "desk": "soccer",
+          "title": "Arteta not worried about Arsenal contract talks",
+          "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC Sport",
+          "source_group": "europe",
+          "feed": "BBC Football",
+          "published_at": "2026-08-14T21:30:21+00:00",
+          "teams": [
+            "Arsenal"
+          ],
+          "players": [
+            "Mikel Arteta"
+          ],
+          "sport": "soccer",
+          "competitions": [
+            "FIFA",
+            "UEFA",
+            "CONMEBOL",
+            "CAF",
+            "AFC",
+            "CONCACAF",
+            "Premier League",
+            "La Liga",
+            "Bundesliga",
+            "Serie A",
+            "Ligue 1",
+            "NWSL",
+            "MLS",
+            "fútbol",
+            "futebol",
+            "CAF",
+            "AFC"
+          ],
+          "lanes": [
+            "transfer-strategy"
           ]
         },
         {
@@ -20249,50 +20311,6 @@
           ]
         },
         {
-          "id": "https://bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
-          "desk": "soccer",
-          "title": "Tielemans apologises to Villa fans for Man Utd remarks",
-          "summary": "Youri Tielemans apologises to Aston Villa fans after suggesting he had moved to a bigger club in Premier League rivals Manchester United.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
-          "publisher": "BBC Sport",
-          "source_group": "europe",
-          "feed": "BBC Football",
-          "published_at": "2026-08-13T13:47:14+00:00",
-          "teams": [
-            "Manchester United"
-          ],
-          "players": [
-            "Man Utd",
-            "Youri Tielemans",
-            "Aston Villa",
-            "Premier League"
-          ],
-          "sport": "soccer",
-          "competitions": [
-            "FIFA",
-            "UEFA",
-            "CONMEBOL",
-            "CAF",
-            "AFC",
-            "CONCACAF",
-            "Premier League",
-            "La Liga",
-            "Bundesliga",
-            "Serie A",
-            "Ligue 1",
-            "NWSL",
-            "MLS",
-            "fútbol",
-            "futebol",
-            "CAF",
-            "AFC"
-          ],
-          "lanes": [
-            "premier-league"
-          ]
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeEVGMlFmOVhmdlRUU0s3R1hLRWpnVllQLWdFa1NvdE5BSG9KaWZhdkVPbTdsc28wOXgwQzVocHFKRW9jSmIwcEtYR0ZmYlEwV2wxV0d0TEhST0Z0LWE2OWk5SWxXaS1EbFdpT2lwV3R6SnFzSXpsdk9XWFFYY0NNUm1Md19oMUpISFg0Q1ZwamdaYUphSzBMRkt0U2FoV0RhNi04clJrLUJWS3Jf?oc=5",
           "desk": "soccer",
           "title": "AFC Professional Football Seminar 2026 ends on high note",
@@ -20653,6 +20671,44 @@
           "lanes": [
             "international-soccer"
           ]
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWldOX0xyaXRaNlhNa3pyTktsZENhRlJzNDduSUhqM1RMaVE1dWtxMzJtMjZTYXRHVTF6Qm4tNFdweXItSWduUnFqMVZVVFF1SkVKU2JHaWtjUXVzZmkzYnhxOXFmQjk2ZTVSNU5hdDBwQTBFZFk5WFpheUpzUHJXNTN1NmhSbkI5c3BFU1RSVi0yRm9ac0ZmTWlLSUlKcDZwdS1lZUM5aDFpY3VGbWtPYnZpZzZHbzdXTHlkb24yVkdSa1dWbTFQMW5wSzZwRHlERTctTDZlMTZVdS1pa01r?oc=5",
+          "desk": "soccer",
+          "title": "Tuks men's soccer team impress against Kovsies in the Varsity Tournament",
+          "summary": "Tuks men's soccer team impress against Kovsies in the Varsity Tournament supersport.com",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWldOX0xyaXRaNlhNa3pyTktsZENhRlJzNDduSUhqM1RMaVE1dWtxMzJtMjZTYXRHVTF6Qm4tNFdweXItSWduUnFqMVZVVFF1SkVKU2JHaWtjUXVzZmkzYnhxOXFmQjk2ZTVSNU5hdDBwQTBFZFk5WFpheUpzUHJXNTN1NmhSbkI5c3BFU1RSVi0yRm9ac0ZmTWlLSUlKcDZwdS1lZUM5aDFpY3VGbWtPYnZpZzZHbzdXTHlkb24yVkdSa1dWbTFQMW5wSzZwRHlERTctTDZlMTZVdS1pa01r?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWldOX0xyaXRaNlhNa3pyTktsZENhRlJzNDduSUhqM1RMaVE1dWtxMzJtMjZTYXRHVTF6Qm4tNFdweXItSWduUnFqMVZVVFF1SkVKU2JHaWtjUXVzZmkzYnhxOXFmQjk2ZTVSNU5hdDBwQTBFZFk5WFpheUpzUHJXNTN1NmhSbkI5c3BFU1RSVi0yRm9ac0ZmTWlLSUlKcDZwdS1lZUM5aDFpY3VGbWtPYnZpZzZHbzdXTHlkb24yVkdSa1dWbTFQMW5wSzZwRHlERTctTDZlMTZVdS1pa01r?oc=5",
+          "publisher": "supersport.com",
+          "source_group": "africa_asia",
+          "feed": "Africa and Asia football",
+          "published_at": "2026-08-10T23:39:18+00:00",
+          "teams": [],
+          "players": [
+            "Varsity Tournament Tuks",
+            "Varsity Tournament"
+          ],
+          "sport": "soccer",
+          "competitions": [
+            "FIFA",
+            "UEFA",
+            "CONMEBOL",
+            "CAF",
+            "AFC",
+            "CONCACAF",
+            "Premier League",
+            "La Liga",
+            "Bundesliga",
+            "Serie A",
+            "Ligue 1",
+            "NWSL",
+            "MLS",
+            "fútbol",
+            "futebol",
+            "CAF",
+            "AFC"
+          ],
+          "lanes": []
         }
       ],
       "data": {
@@ -21972,29 +22028,25 @@
               ]
             },
             {
-              "id": "https://theguardian.com/football/2026/aug/14/arsenal-bayer-leverkusen-jarell-quansah-transfer-talks",
+              "id": "https://theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
               "desk": "soccer",
-              "title": "Arsenal open talks with Bayer Leverkusen over deal for Jarell Quansah",
-              "summary": "Bundesliga club want at least €50m for England defender Gunners remain interested in Aston Villa’s Ezri Konsa Arsenal have opened talks with Bayer Leverkusen over a move for Jarell Quansah as they intensify efforts to bring in cover for William Saliba and Jurriën Timber. The England defender, who left Liverpool last summer for an initial £30m and was part of Thomas Tuchel’s World Cup squad, has been identified as an ideal replacement for the France and Netherlands defenders, who will miss the start of the new season due to injury. While Quansah’s preferred position is in central defence, he was also deployed at right-back by Tuchel at the World Cup and was sent off in the last-16 victory over Mexico . Continue reading...",
-              "url": "https://www.theguardian.com/football/2026/aug/14/arsenal-bayer-leverkusen-jarell-quansah-transfer-talks",
-              "canonical_url": "https://theguardian.com/football/2026/aug/14/arsenal-bayer-leverkusen-jarell-quansah-transfer-talks",
+              "title": "Chelsea expect Enzo Fernández to stay after Manchester City opt not to meet deadline",
+              "summary": "City could maintain interest despite lack of bid Maresca expecting busy end to transfer window Manchester City did not make a £120m bid for Enzo Fernández before Chelsea’s 5pm deadline on Friday but Enzo Maresca still expects a busy end to the transfer window, as the club seek incomings and outgoings. Chelsea, meanwhile, now expect the Argentina midfielder to stay at Stamford Bridge. Maresca takes charge of City for the first time in a major match on Sunday against Arsenal in Cardiff in the Community Shield but is a long way from finalising the squad he will have for the season. Fernández, who played under Maresca at Chelsea, remains a target for City, who could still test the water despite missing the deadline. Continue reading...",
+              "url": "https://www.theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
+              "canonical_url": "https://theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
               "publisher": "The Guardian",
               "source_group": "europe",
               "feed": "Guardian Football",
-              "published_at": "2026-08-14T10:40:24+00:00",
+              "published_at": "2026-08-14T16:58:00+00:00",
               "teams": [
                 "Arsenal",
-                "Liverpool"
+                "Chelsea",
+                "Manchester City"
               ],
               "players": [
-                "Bayer Leverkusen",
-                "Jarell Quansah Bundesliga",
-                "Jarell Quansah",
-                "Aston Villa’s Ezri",
-                "Aston Villa’s",
-                "Konsa Arsenal",
-                "William Saliba",
-                "The England"
+                "Enzo Maresca",
+                "Stamford Bridge",
+                "Community Shield"
               ],
               "sport": "soccer",
               "competitions": [
@@ -22017,30 +22069,25 @@
                 "AFC"
               ],
               "lanes": [
-                "transfer-strategy",
-                "world-cup"
+                "transfer-strategy"
               ]
             },
             {
-              "id": "https://theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
+              "id": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
               "desk": "soccer",
-              "title": "Chelsea expect Enzo Fernández to stay after Manchester City opt not to meet deadline",
-              "summary": "City could maintain interest despite lack of bid Maresca expecting busy end to transfer window Manchester City did not make a £120m bid for Enzo Fernández before Chelsea’s 5pm deadline on Friday but Enzo Maresca still expects a busy end to the transfer window, as the club seek incomings and outgoings. Chelsea, meanwhile, now expect the Argentina midfielder to stay at Stamford Bridge. Maresca takes charge of City for the first time in a major match on Sunday against Arsenal in Cardiff in the Community Shield but is a long way from finalising the squad he will have for the season. Fernández, who played under Maresca at Chelsea, remains a target for City, who could still test the water despite missing the deadline. Continue reading...",
-              "url": "https://www.theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
-              "canonical_url": "https://theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
-              "publisher": "The Guardian",
+              "title": "Arteta not worried about Arsenal contract talks",
+              "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+              "canonical_url": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+              "publisher": "BBC Sport",
               "source_group": "europe",
-              "feed": "Guardian Football",
-              "published_at": "2026-08-14T16:58:00+00:00",
+              "feed": "BBC Football",
+              "published_at": "2026-08-14T21:30:21+00:00",
               "teams": [
-                "Arsenal",
-                "Chelsea",
-                "Manchester City"
+                "Arsenal"
               ],
               "players": [
-                "Enzo Maresca",
-                "Stamford Bridge",
-                "Community Shield"
+                "Mikel Arteta"
               ],
               "sport": "soccer",
               "competitions": [
@@ -23044,47 +23091,6 @@
           "label": "Premier League",
           "items": [
             {
-              "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0JTN2xUQ2I5MnppUWVJTE9Pc2Ewcmx3ME9XM0MxSzIwb0R3V3ZjLTJxbnZ3aHByb2IzYXBCSW9MaU9yOHd2dnZMWW1HaXB1U1JFaVNZTW9lUEdXU2V1YWU3a19lSGRIR3FSV0QzWEpETVhKQ2pRUWlNOF9kQnFvbUo4cnpHZlU3d1U0ZDdPLUtoVklTa0o2QUE2RVo4RDhIUzVSUVhqM2lxa1daMUVoRVdWUmJCenBkaTQ0WGxsVEZsaFBkVkd2bXY1X3l5SHhqZmpV?oc=5",
-              "desk": "soccer",
-              "title": "Premier League club Liverpool sell minority stake to consortium",
-              "summary": "Premier League club Liverpool sell minority stake to consortium supersport.com",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0JTN2xUQ2I5MnppUWVJTE9Pc2Ewcmx3ME9XM0MxSzIwb0R3V3ZjLTJxbnZ3aHByb2IzYXBCSW9MaU9yOHd2dnZMWW1HaXB1U1JFaVNZTW9lUEdXU2V1YWU3a19lSGRIR3FSV0QzWEpETVhKQ2pRUWlNOF9kQnFvbUo4cnpHZlU3d1U0ZDdPLUtoVklTa0o2QUE2RVo4RDhIUzVSUVhqM2lxa1daMUVoRVdWUmJCenBkaTQ0WGxsVEZsaFBkVkd2bXY1X3l5SHhqZmpV?oc=5",
-              "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0JTN2xUQ2I5MnppUWVJTE9Pc2Ewcmx3ME9XM0MxSzIwb0R3V3ZjLTJxbnZ3aHByb2IzYXBCSW9MaU9yOHd2dnZMWW1HaXB1U1JFaVNZTW9lUEdXU2V1YWU3a19lSGRIR3FSV0QzWEpETVhKQ2pRUWlNOF9kQnFvbUo4cnpHZlU3d1U0ZDdPLUtoVklTa0o2QUE2RVo4RDhIUzVSUVhqM2lxa1daMUVoRVdWUmJCenBkaTQ0WGxsVEZsaFBkVkd2bXY1X3l5SHhqZmpV?oc=5",
-              "publisher": "supersport.com",
-              "source_group": "africa_asia",
-              "feed": "Africa and Asia football",
-              "published_at": "2026-08-14T17:06:10+00:00",
-              "teams": [
-                "Liverpool"
-              ],
-              "players": [
-                "Premier League"
-              ],
-              "sport": "soccer",
-              "competitions": [
-                "FIFA",
-                "UEFA",
-                "CONMEBOL",
-                "CAF",
-                "AFC",
-                "CONCACAF",
-                "Premier League",
-                "La Liga",
-                "Bundesliga",
-                "Serie A",
-                "Ligue 1",
-                "NWSL",
-                "MLS",
-                "fútbol",
-                "futebol",
-                "CAF",
-                "AFC"
-              ],
-              "lanes": [
-                "premier-league"
-              ]
-            },
-            {
               "id": "https://bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
               "desk": "soccer",
               "title": "All done deals in August 2026",
@@ -23250,6 +23256,45 @@
               "lanes": [
                 "premier-league"
               ]
+            },
+            {
+              "id": "https://bbc.co.uk/sport/football/articles/c0qv21egpneo?at_medium=RSS&at_campaign=rss",
+              "desk": "soccer",
+              "title": "Who to pick, who to avoid - your team's FPL assets analysed",
+              "summary": "Our team of FPL experts assess the best and worst picks for 2026-27 from each of the 20 Premier League teams.",
+              "url": "https://www.bbc.co.uk/sport/football/articles/c0qv21egpneo?at_medium=RSS&at_campaign=rss",
+              "canonical_url": "https://bbc.co.uk/sport/football/articles/c0qv21egpneo?at_medium=RSS&at_campaign=rss",
+              "publisher": "BBC Sport",
+              "source_group": "europe",
+              "feed": "BBC Football",
+              "published_at": "2026-08-14T07:14:05+00:00",
+              "teams": [],
+              "players": [
+                "Premier League"
+              ],
+              "sport": "soccer",
+              "competitions": [
+                "FIFA",
+                "UEFA",
+                "CONMEBOL",
+                "CAF",
+                "AFC",
+                "CONCACAF",
+                "Premier League",
+                "La Liga",
+                "Bundesliga",
+                "Serie A",
+                "Ligue 1",
+                "NWSL",
+                "MLS",
+                "fútbol",
+                "futebol",
+                "CAF",
+                "AFC"
+              ],
+              "lanes": [
+                "premier-league"
+              ]
             }
           ]
         },
@@ -23300,23 +23345,29 @@
               ]
             },
             {
-              "id": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
+              "id": "https://theguardian.com/football/2026/aug/14/arsenal-bayer-leverkusen-jarell-quansah-transfer-talks",
               "desk": "soccer",
-              "title": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
-              "summary": "Raúl Jiménez marked his return to Wolves with the stoppage-time equaliser that saved them from an embarrassing start to their return to the Championship. The Mexico striker, who scored against England during the World Cup finals, retained his composure to convert a penalty given for handball by Rayan Alebiosu that would have had VAR questioning whether the defender was in the area when Jackson Tchatchoua’s cross struck his arm. Thankfully for Wolves, the video assistant referee is no longer their problem. Jiménez, who had bought scarves for all supporters in the South Bank in gratitude for their response to welcoming him home, tucked away his first goal in this second spell for the club he graced during their recent heyday. Continue reading...",
-              "url": "https://www.theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-              "canonical_url": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
+              "title": "Arsenal open talks with Bayer Leverkusen over deal for Jarell Quansah",
+              "summary": "Bundesliga club want at least €50m for England defender Gunners remain interested in Aston Villa’s Ezri Konsa Arsenal have opened talks with Bayer Leverkusen over a move for Jarell Quansah as they intensify efforts to bring in cover for William Saliba and Jurriën Timber. The England defender, who left Liverpool last summer for an initial £30m and was part of Thomas Tuchel’s World Cup squad, has been identified as an ideal replacement for the France and Netherlands defenders, who will miss the start of the new season due to injury. While Quansah’s preferred position is in central defence, he was also deployed at right-back by Tuchel at the World Cup and was sent off in the last-16 victory over Mexico . Continue reading...",
+              "url": "https://www.theguardian.com/football/2026/aug/14/arsenal-bayer-leverkusen-jarell-quansah-transfer-talks",
+              "canonical_url": "https://theguardian.com/football/2026/aug/14/arsenal-bayer-leverkusen-jarell-quansah-transfer-talks",
               "publisher": "The Guardian",
               "source_group": "europe",
               "feed": "Guardian Football",
-              "published_at": "2026-08-14T21:21:18+00:00",
-              "teams": [],
+              "published_at": "2026-08-14T10:40:24+00:00",
+              "teams": [
+                "Arsenal",
+                "Liverpool"
+              ],
               "players": [
-                "The Mexico",
-                "World Cup",
-                "Rayan Alebiosu",
-                "Jackson Tchatchoua’s",
-                "South Bank"
+                "Bayer Leverkusen",
+                "Jarell Quansah Bundesliga",
+                "Jarell Quansah",
+                "Aston Villa’s Ezri",
+                "Aston Villa’s",
+                "Konsa Arsenal",
+                "William Saliba",
+                "The England"
               ],
               "sport": "soccer",
               "competitions": [
@@ -23339,6 +23390,7 @@
                 "AFC"
               ],
               "lanes": [
+                "transfer-strategy",
                 "world-cup"
               ]
             },
@@ -23521,6 +23573,46 @@
               ]
             },
             {
+              "id": "https://theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
+              "desk": "soccer",
+              "title": "Wolves 2-2 Blackburn: Championship opener – live",
+              "summary": "⚽ Updates from Molineux; kick-off 8pm BST ⚽ Weekend fixtures | Follow us on Instagram | Mail Dominic The 2025-26 EFL season is five minutes from getting started. We are standing on football’s equivalent of the start line at the London Marathon … a testing 46 games await, many twists and turns to come. Mowbray tells Sky Sports that Blackburn are “going to have to punch above their weight” this season and that his team are looking to make the game “tight” and create a difficult evening for Wolves, who he notes haven’t won many games of football in the past year, albeit in a different division. Continue reading...",
+              "url": "https://www.theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
+              "canonical_url": "https://theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
+              "publisher": "The Guardian",
+              "source_group": "europe",
+              "feed": "Guardian Football",
+              "published_at": "2026-08-14T21:11:48+00:00",
+              "teams": [],
+              "players": [
+                "Mail Dominic The",
+                "Mail Dominic",
+                "London Marathon",
+                "Sky Sports"
+              ],
+              "sport": "soccer",
+              "competitions": [
+                "FIFA",
+                "UEFA",
+                "CONMEBOL",
+                "CAF",
+                "AFC",
+                "CONCACAF",
+                "Premier League",
+                "La Liga",
+                "Bundesliga",
+                "Serie A",
+                "Ligue 1",
+                "NWSL",
+                "MLS",
+                "fútbol",
+                "futebol",
+                "CAF",
+                "AFC"
+              ],
+              "lanes": []
+            },
+            {
               "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcWcwRWZ0QUMxN09FM0ZXb2g5RUVxZk9qN0h5RWJxUDQtU3lkZGo2dGU0NlkwNjM3Y0ZqV20zME1UOElpYnJidEhjeTZUM1NaNjVxU3NEQl9mSU5FNHkxNHFheDR2M0lCYzdqUVdQWkZhV2hmWnplTE9Hak1zS1VqOEc3NGtPS1dfVi1FRHkwV0Z2LVF4Z3NweUFkdEhqVVFLUHZnVENPRmVmMEYtSllpWkhzU3ZaUFhvR3dYMHRiWdIBxAFBVV95cUxNWFI3eWVrcGhCNGRLT2ZzQzhxYjJGRW9wa3lPQjdYSVpCdGlDcmJLaU8wU3lfb3VPZjJlRHpvMUZKbDRteDBIRmxiTDNJb3g0Tkp4bEpfTXNpSFphUlR5ZE82Y0E0YzM2cXR1ODZLMnN0Z01hMGd1NllsZ1Awci10dDNBaVdIQm4zQTdyUF9kRFEtdFlfVm40M2x5aTdzeERLWk9fbVQyTnBFVzc3cDdQMHZ0RHdKVW5GaWg0LVNoUUMxazZu?oc=5",
               "desk": "soccer",
               "title": "Immobile Retires: \"It's time to stop. I loved football. Now I have many plans\"",
@@ -23670,7 +23762,12 @@
                 "AFC"
               ],
               "lanes": []
-            },
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
             {
               "id": "https://bbc.co.uk/sport/football/articles/c0m7yl78mjmo?at_medium=RSS&at_campaign=rss",
               "desk": "soccer",
@@ -23707,12 +23804,7 @@
                 "AFC"
               ],
               "lanes": []
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
+            },
             {
               "id": "https://bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
               "desk": "soccer",
@@ -24008,49 +24100,6 @@
                 "AFC"
               ],
               "lanes": []
-            },
-            {
-              "id": "https://bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
-              "desk": "soccer",
-              "title": "Arsenal express interest in signing Quansah",
-              "summary": "Arsenal express an interest in signing Bayer Leverkusen and England defender Jarell Quansah.",
-              "url": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
-              "canonical_url": "https://bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
-              "publisher": "BBC Sport",
-              "source_group": "europe",
-              "feed": "BBC Football",
-              "published_at": "2026-08-14T10:35:26+00:00",
-              "teams": [
-                "Arsenal"
-              ],
-              "players": [
-                "Quansah Arsenal",
-                "Bayer Leverkusen",
-                "Jarell Quansah"
-              ],
-              "sport": "soccer",
-              "competitions": [
-                "FIFA",
-                "UEFA",
-                "CONMEBOL",
-                "CAF",
-                "AFC",
-                "CONCACAF",
-                "Premier League",
-                "La Liga",
-                "Bundesliga",
-                "Serie A",
-                "Ligue 1",
-                "NWSL",
-                "MLS",
-                "fútbol",
-                "futebol",
-                "CAF",
-                "AFC"
-              ],
-              "lanes": [
-                "transfer-strategy"
-              ]
             }
           ]
         },
@@ -25337,13 +25386,13 @@
           "available": false
         }
       },
-      "content_updated_at": "2026-08-14T21:31:04.338317+00:00",
-      "updated_at": "2026-08-14T21:31:04.338317+00:00",
+      "content_updated_at": "2026-08-14T21:33:15.789561+00:00",
+      "updated_at": "2026-08-14T21:33:15.789561+00:00",
       "data_updated_at": {
         "scores": "2026-08-14T21:31:04.338317+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-14T21:31:04.338317+00:00"
+        "scores": "2026-08-14T21:33:15.789561+00:00"
       },
       "diagnostics": {
         "candidate_count": 445,
@@ -25355,10 +25404,10 @@
           "BBC Sport": 23,
           "cafonline.com": 9,
           "La Gazzetta dello Sport": 6,
-          "supersport.com": 6,
           "FIFA": 2,
           "UEFA.com": 5,
-          "AFC website": 2
+          "AFC website": 2,
+          "supersport.com": 6
         },
         "source_counts": {
           "BBC Football": 79,
@@ -25460,10 +25509,10 @@
           "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmZJeHM1Z0R6THpoR1FSa3c5ckpEYW1CMU9LZTkzbnFmZHMwRFNsRHBWY0tGY1RGQnlRQzI4c24wckJwOVJjRzA3djhZZ19WdkdpbHNDYzk3NEVVeVNJM3l4b2JiUlFqcXYzNHk0UFhDSUNkUUNOOUY3TWFDVWd2ejRIM1VTZUd5cGRTZVp2V0lnVTJ0WDdKN0stLW9ZUGJCQm1YRjY5THRxcGk4bmg0czh5SzZELWNEOTBFNldIZEE0MUVSZ1ROTkxPZVg3ZmJ1aWdZVQ?oc=5",
           "desk": "fantasy",
           "title": "Fantasy football cheat sheets: PPR, non-PPR, depth charts",
-          "summary": "Fantasy football cheat sheets: PPR, non-PPR, depth charts espn.com",
+          "summary": "Fantasy football cheat sheets: PPR, non-PPR, depth charts ESPN",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmZJeHM1Z0R6THpoR1FSa3c5ckpEYW1CMU9LZTkzbnFmZHMwRFNsRHBWY0tGY1RGQnlRQzI4c24wckJwOVJjRzA3djhZZ19WdkdpbHNDYzk3NEVVeVNJM3l4b2JiUlFqcXYzNHk0UFhDSUNkUUNOOUY3TWFDVWd2ejRIM1VTZUd5cGRTZVp2V0lnVTJ0WDdKN0stLW9ZUGJCQm1YRjY5THRxcGk4bmg0czh5SzZELWNEOTBFNldIZEE0MUVSZ1ROTkxPZVg3ZmJ1aWdZVQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmZJeHM1Z0R6THpoR1FSa3c5ckpEYW1CMU9LZTkzbnFmZHMwRFNsRHBWY0tGY1RGQnlRQzI4c24wckJwOVJjRzA3djhZZ19WdkdpbHNDYzk3NEVVeVNJM3l4b2JiUlFqcXYzNHk0UFhDSUNkUUNOOUY3TWFDVWd2ejRIM1VTZUd5cGRTZVp2V0lnVTJ0WDdKN0stLW9ZUGJCQm1YRjY5THRxcGk4bmg0czh5SzZELWNEOTBFNldIZEE0MUVSZ1ROTkxPZVg3ZmJ1aWdZVQ?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-14T21:02:00+00:00",
@@ -25485,10 +25534,10 @@
           "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc25TR0pMeHRfdXJienIyNkwtSnVHSkh0MVhlSEpZWjFoMUlQTTN3RTZtSllJZFBCVzJlXzYwVzVHZ284ZjR6VmNMMEtPbEFtTElDajRZNVZ0bDZOdjhpRktRSVppZTJqZzl2WXlfZEFyZ2R6ZFNXbnpfWFFwX0tHU2F2R3B5X3lkNHo5MXh4QmdWdVlxdEcxa0tKNk9DRXlOcXJMV0hWdUtYRVFBaFIzQjltU0ZBQmdxVGdiUkhDOXVHcVNvM3RLM2dYY0NUNmlxVi15NmtxaDZoUQ?oc=5",
           "desk": "fantasy",
           "title": "Fantasy baseball lineup advice for Saturday: Ian Seymour, Hayden Wesneski stand out",
-          "summary": "Fantasy baseball lineup advice for Saturday: Ian Seymour, Hayden Wesneski stand out espn.com",
+          "summary": "Fantasy baseball lineup advice for Saturday: Ian Seymour, Hayden Wesneski stand out ESPN",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc25TR0pMeHRfdXJienIyNkwtSnVHSkh0MVhlSEpZWjFoMUlQTTN3RTZtSllJZFBCVzJlXzYwVzVHZ284ZjR6VmNMMEtPbEFtTElDajRZNVZ0bDZOdjhpRktRSVppZTJqZzl2WXlfZEFyZ2R6ZFNXbnpfWFFwX0tHU2F2R3B5X3lkNHo5MXh4QmdWdVlxdEcxa0tKNk9DRXlOcXJMV0hWdUtYRVFBaFIzQjltU0ZBQmdxVGdiUkhDOXVHcVNvM3RLM2dYY0NUNmlxVi15NmtxaDZoUQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc25TR0pMeHRfdXJienIyNkwtSnVHSkh0MVhlSEpZWjFoMUlQTTN3RTZtSllJZFBCVzJlXzYwVzVHZ284ZjR6VmNMMEtPbEFtTElDajRZNVZ0bDZOdjhpRktRSVppZTJqZzl2WXlfZEFyZ2R6ZFNXbnpfWFFwX0tHU2F2R3B5X3lkNHo5MXh4QmdWdVlxdEcxa0tKNk9DRXlOcXJMV0hWdUtYRVFBaFIzQjltU0ZBQmdxVGdiUkhDOXVHcVNvM3RLM2dYY0NUNmlxVi15NmtxaDZoUQ?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-14T20:41:00+00:00",
@@ -25657,10 +25706,10 @@
           "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVl0ajF1dUk0YnpxMTllV21IRFVFV1Rmd21zeDZkSmJkUVRnYkJHeWg1QnVxM1JlY3plREVqNWlZTnB2elM2OUhLU0lraDNacDVMQmNhSGt4bVdOTkJVcWdNYmNSMlFMOHVPeFhZQ0hEek1oMlQ0VUhxYWJ1cGd4VzNwb0hnS3p0OGZTWkstX3N4WlpmYzVaSE1RRDlZZmNwYzhnS1diN0lId2txLUtmVTVXeGY3MkZnMkZHN2Z1RUpJdF9zT2ZQcG5iWFNNM0J6TFZfaFoxeGZNZ2xQLUpKQ3dUWjc?oc=5",
           "desk": "fantasy",
           "title": "Fantasy Baseball Forecaster Week 20: Aug. 17-23",
-          "summary": "Fantasy Baseball Forecaster Week 20: Aug. 17-23 espn.com",
+          "summary": "Fantasy Baseball Forecaster Week 20: Aug. 17-23 ESPN",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVl0ajF1dUk0YnpxMTllV21IRFVFV1Rmd21zeDZkSmJkUVRnYkJHeWg1QnVxM1JlY3plREVqNWlZTnB2elM2OUhLU0lraDNacDVMQmNhSGt4bVdOTkJVcWdNYmNSMlFMOHVPeFhZQ0hEek1oMlQ0VUhxYWJ1cGd4VzNwb0hnS3p0OGZTWkstX3N4WlpmYzVaSE1RRDlZZmNwYzhnS1diN0lId2txLUtmVTVXeGY3MkZnMkZHN2Z1RUpJdF9zT2ZQcG5iWFNNM0J6TFZfaFoxeGZNZ2xQLUpKQ3dUWjc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVl0ajF1dUk0YnpxMTllV21IRFVFV1Rmd21zeDZkSmJkUVRnYkJHeWg1QnVxM1JlY3plREVqNWlZTnB2elM2OUhLU0lraDNacDVMQmNhSGt4bVdOTkJVcWdNYmNSMlFMOHVPeFhZQ0hEek1oMlQ0VUhxYWJ1cGd4VzNwb0hnS3p0OGZTWkstX3N4WlpmYzVaSE1RRDlZZmNwYzhnS1diN0lId2txLUtmVTVXeGY3MkZnMkZHN2Z1RUpJdF9zT2ZQcG5iWFNNM0J6TFZfaFoxeGZNZ2xQLUpKQ3dUWjc?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-14T14:40:00+00:00",
@@ -26117,10 +26166,10 @@
           "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVNtWG92NGVtejl5anVPRlpZTWlmbWo0Zzk5eTM0akdXYW1NUFNJQUhzREJIcHZrU09RMUFTN0RxbS12MzNQVll5bXVTM013NVUyTGoySlJRUENqSGd6QlZ5MlBWbXE4Q1BPR0lmS3kwbUtTNENXa0J3anhWLVBiYUhZX3J1VnNoc1VWWGNJcFBzQ3hQMjFWUkhUcWd2QjJsUjY4eFhocGN5QkJxQUNUdFNCeldkU3FUZkhZS2ZkVFpQejk0cTlwdnYtOGlaV0pzUWRSTw?oc=5",
           "desk": "fantasy",
           "title": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis",
-          "summary": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis espn.com",
+          "summary": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis ESPN",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVNtWG92NGVtejl5anVPRlpZTWlmbWo0Zzk5eTM0akdXYW1NUFNJQUhzREJIcHZrU09RMUFTN0RxbS12MzNQVll5bXVTM013NVUyTGoySlJRUENqSGd6QlZ5MlBWbXE4Q1BPR0lmS3kwbUtTNENXa0J3anhWLVBiYUhZX3J1VnNoc1VWWGNJcFBzQ3hQMjFWUkhUcWd2QjJsUjY4eFhocGN5QkJxQUNUdFNCeldkU3FUZkhZS2ZkVFpQejk0cTlwdnYtOGlaV0pzUWRSTw?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVNtWG92NGVtejl5anVPRlpZTWlmbWo0Zzk5eTM0akdXYW1NUFNJQUhzREJIcHZrU09RMUFTN0RxbS12MzNQVll5bXVTM013NVUyTGoySlJRUENqSGd6QlZ5MlBWbXE4Q1BPR0lmS3kwbUtTNENXa0J3anhWLVBiYUhZX3J1VnNoc1VWWGNJcFBzQ3hQMjFWUkhUcWd2QjJsUjY4eFhocGN5QkJxQUNUdFNCeldkU3FUZkhZS2ZkVFpQejk0cTlwdnYtOGlaV0pzUWRSTw?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-14T10:54:00+00:00",
@@ -26258,10 +26307,10 @@
           "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGs4akZveGVpVjlBUEliWFZrcThyeUFyMFZEVjdtSHpPWUR6NEdUNUhrc3lHakRHaGRIVXJxZkxYWFBOZ0tOdUNiOWlVVUp0TVBSSkNfZy1aYmsyTkQ3OWxBcjU0RFBrTlkxUjJSWVJJcFpoQVdwd3NodkZyYzNHQlN4dzNyWWZiUk1nYjNkWHRQaVg1cUFNbkhFclRZVWJZZXNERTJ6eDd1cFR0UkVoLW9mU2drVGMwWW9xRkoxeVdyOFl3THhfRTYydFpKczU3UzM1YVFtTU9QUQ?oc=5",
           "desk": "fantasy",
           "title": "Fantasy baseball lineup advice for Friday: Can Clay Holmes shake off the rust?",
-          "summary": "Fantasy baseball lineup advice for Friday: Can Clay Holmes shake off the rust? espn.com",
+          "summary": "Fantasy baseball lineup advice for Friday: Can Clay Holmes shake off the rust? ESPN",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGs4akZveGVpVjlBUEliWFZrcThyeUFyMFZEVjdtSHpPWUR6NEdUNUhrc3lHakRHaGRIVXJxZkxYWFBOZ0tOdUNiOWlVVUp0TVBSSkNfZy1aYmsyTkQ3OWxBcjU0RFBrTlkxUjJSWVJJcFpoQVdwd3NodkZyYzNHQlN4dzNyWWZiUk1nYjNkWHRQaVg1cUFNbkhFclRZVWJZZXNERTJ6eDd1cFR0UkVoLW9mU2drVGMwWW9xRkoxeVdyOFl3THhfRTYydFpKczU3UzM1YVFtTU9QUQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGs4akZveGVpVjlBUEliWFZrcThyeUFyMFZEVjdtSHpPWUR6NEdUNUhrc3lHakRHaGRIVXJxZkxYWFBOZ0tOdUNiOWlVVUp0TVBSSkNfZy1aYmsyTkQ3OWxBcjU0RFBrTlkxUjJSWVJJcFpoQVdwd3NodkZyYzNHQlN4dzNyWWZiUk1nYjNkWHRQaVg1cUFNbkhFclRZVWJZZXNERTJ6eDd1cFR0UkVoLW9mU2drVGMwWW9xRkoxeVdyOFl3THhfRTYydFpKczU3UzM1YVFtTU9QUQ?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-13T20:20:00+00:00",
@@ -26752,10 +26801,10 @@
           "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTVo3MEM5eHcza0h3bjJ3T3lXcXpYaDVPNWVEMXc1ZWRzVl8zbXQwUkFQdzAwZzVRcnB2b2hOWmoxZzhIZUI3dVQ3SkJFY0Y3czAxRWVlV0lhcUtucXpJQUlRUGE1a1ZZMWF1TkpaSEJUazl4bTdkVi1LTUhyTVh6RmRPMnIyem95MFlVRkpLNDBacXNSV182cjltVnRBMXlKMkZLZVpTZUo3UVBDbkdPV0NTT2xKbDBoZ0xNNko2T3MtYUpRS3c?oc=5",
           "desk": "fantasy",
           "title": "Matt Bowen's favorite fantasy football draft targets of 2026",
-          "summary": "Matt Bowen's favorite fantasy football draft targets of 2026 espn.com",
+          "summary": "Matt Bowen's favorite fantasy football draft targets of 2026 ESPN",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTVo3MEM5eHcza0h3bjJ3T3lXcXpYaDVPNWVEMXc1ZWRzVl8zbXQwUkFQdzAwZzVRcnB2b2hOWmoxZzhIZUI3dVQ3SkJFY0Y3czAxRWVlV0lhcUtucXpJQUlRUGE1a1ZZMWF1TkpaSEJUazl4bTdkVi1LTUhyTVh6RmRPMnIyem95MFlVRkpLNDBacXNSV182cjltVnRBMXlKMkZLZVpTZUo3UVBDbkdPV0NTT2xKbDBoZ0xNNko2T3MtYUpRS3c?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTVo3MEM5eHcza0h3bjJ3T3lXcXpYaDVPNWVEMXc1ZWRzVl8zbXQwUkFQdzAwZzVRcnB2b2hOWmoxZzhIZUI3dVQ3SkJFY0Y3czAxRWVlV0lhcUtucXpJQUlRUGE1a1ZZMWF1TkpaSEJUazl4bTdkVi1LTUhyTVh6RmRPMnIyem95MFlVRkpLNDBacXNSV182cjltVnRBMXlKMkZLZVpTZUo3UVBDbkdPV0NTT2xKbDBoZ0xNNko2T3MtYUpRS3c?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-13T10:45:00+00:00",
@@ -26886,10 +26935,10 @@
           "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFJ0ZloxU1BVWlRTbDBsOGVhemx4cGxOUHZwZXFLbUZhWkl5WWtwd1JNNW1sUFNBdE4ySVZOd0tMOHdueGluRXQ3cktyZ2lhODBfRkdGS1Nlamg4TzVIcGNNa2JfOGMzRkJycm41dDJLc21KUmtIQ2FDd1kzN2NnYm9vUWx1a0pONGR0VXV0QmtHaDZzc2VWQlkwXzFTc2NBR19iSHBrQ21DcXVQM0NvVTJPS0RaQjUydkJBYnpSMUlVUU1QVllSODNPWkRKWjZlQXVBclhUN1NGQQ?oc=5",
           "desk": "fantasy",
           "title": "Fantasy baseball lineup advice for Thursday: Start Sasaki in clash of NL's best",
-          "summary": "Fantasy baseball lineup advice for Thursday: Start Sasaki in clash of NL's best espn.com",
+          "summary": "Fantasy baseball lineup advice for Thursday: Start Sasaki in clash of NL's best ESPN",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFJ0ZloxU1BVWlRTbDBsOGVhemx4cGxOUHZwZXFLbUZhWkl5WWtwd1JNNW1sUFNBdE4ySVZOd0tMOHdueGluRXQ3cktyZ2lhODBfRkdGS1Nlamg4TzVIcGNNa2JfOGMzRkJycm41dDJLc21KUmtIQ2FDd1kzN2NnYm9vUWx1a0pONGR0VXV0QmtHaDZzc2VWQlkwXzFTc2NBR19iSHBrQ21DcXVQM0NvVTJPS0RaQjUydkJBYnpSMUlVUU1QVllSODNPWkRKWjZlQXVBclhUN1NGQQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFJ0ZloxU1BVWlRTbDBsOGVhemx4cGxOUHZwZXFLbUZhWkl5WWtwd1JNNW1sUFNBdE4ySVZOd0tMOHdueGluRXQ3cktyZ2lhODBfRkdGS1Nlamg4TzVIcGNNa2JfOGMzRkJycm41dDJLc21KUmtIQ2FDd1kzN2NnYm9vUWx1a0pONGR0VXV0QmtHaDZzc2VWQlkwXzFTc2NBR19iSHBrQ21DcXVQM0NvVTJPS0RaQjUydkJBYnpSMUlVUU1QVllSODNPWkRKWjZlQXVBclhUN1NGQQ?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-12T20:30:00+00:00",
@@ -26914,10 +26963,10 @@
           "id": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWlZ4c19RaFlRNVZheWNWT2Q2Y1JtSEQ5elEtN2R2amVoOEhUSkswLVh0Mm0yYllVSlUwck9wV0ZwMHlrNE1RX1g1bEZoNHpZZmtJek5laVN4dVRSeXRaNjhIajhMV2JNeHJ2eVFhWXhrMGhlRHhYOTBDUjZZSWRQaGM4LWhuYUx5RHZSd0piSVdoUkdvcFB2OTFDRWtqcGl3Mkd6UnRMdVI4cWNUQjk1RFV1ZDBhZnlyd3dvQUhjQm1Fei1QbU9mODNCWUdSUzBhcUJ2eGFWOUx1X19TWWFyV3JTbw?oc=5",
           "desk": "fantasy",
           "title": "Another six late-season heroes to save your fantasy baseball playoff hopes",
-          "summary": "Another six late-season heroes to save your fantasy baseball playoff hopes espn.com",
+          "summary": "Another six late-season heroes to save your fantasy baseball playoff hopes ESPN",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWlZ4c19RaFlRNVZheWNWT2Q2Y1JtSEQ5elEtN2R2amVoOEhUSkswLVh0Mm0yYllVSlUwck9wV0ZwMHlrNE1RX1g1bEZoNHpZZmtJek5laVN4dVRSeXRaNjhIajhMV2JNeHJ2eVFhWXhrMGhlRHhYOTBDUjZZSWRQaGM4LWhuYUx5RHZSd0piSVdoUkdvcFB2OTFDRWtqcGl3Mkd6UnRMdVI4cWNUQjk1RFV1ZDBhZnlyd3dvQUhjQm1Fei1QbU9mODNCWUdSUzBhcUJ2eGFWOUx1X19TWWFyV3JTbw?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWlZ4c19RaFlRNVZheWNWT2Q2Y1JtSEQ5elEtN2R2amVoOEhUSkswLVh0Mm0yYllVSlUwck9wV0ZwMHlrNE1RX1g1bEZoNHpZZmtJek5laVN4dVRSeXRaNjhIajhMV2JNeHJ2eVFhWXhrMGhlRHhYOTBDUjZZSWRQaGM4LWhuYUx5RHZSd0piSVdoUkdvcFB2OTFDRWtqcGl3Mkd6UnRMdVI4cWNUQjk1RFV1ZDBhZnlyd3dvQUhjQm1Fei1QbU9mODNCWUdSUzBhcUJ2eGFWOUx1X19TWWFyV3JTbw?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-12T14:54:00+00:00",
@@ -26997,10 +27046,10 @@
           "id": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbEdQZ0duVW9ZM0pqblJXbHFMVHdrbGZIa2RLU2s0NUp6ZVVhVWJuVzlLdm5zWU5xaEJyQ19nTWwzRUtGM3NFT2xPZGtBMWNQTTJLYklaNS10ZW1MSFg3amZ2a045UlRGcDdmc0tvbV95dzdqQy16eGpsZktHaEJyNjloVTF3S183NzdWOWxURHd5Tmowd29KazFDZUl6eTY2c1lzQkE1UHBZQkZXMGpKbkItbW55M3NibFJJNk5GSE54UjdJdFBtVlY4OUlxZHVUQm1wNVI0OA?oc=5",
           "desk": "fantasy",
           "title": "Mike Clay's Playbook, Part 2: Fantasy football draft tips for nontraditional formats",
-          "summary": "Mike Clay's Playbook, Part 2: Fantasy football draft tips for nontraditional formats espn.com",
+          "summary": "Mike Clay's Playbook, Part 2: Fantasy football draft tips for nontraditional formats ESPN",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbEdQZ0duVW9ZM0pqblJXbHFMVHdrbGZIa2RLU2s0NUp6ZVVhVWJuVzlLdm5zWU5xaEJyQ19nTWwzRUtGM3NFT2xPZGtBMWNQTTJLYklaNS10ZW1MSFg3amZ2a045UlRGcDdmc0tvbV95dzdqQy16eGpsZktHaEJyNjloVTF3S183NzdWOWxURHd5Tmowd29KazFDZUl6eTY2c1lzQkE1UHBZQkZXMGpKbkItbW55M3NibFJJNk5GSE54UjdJdFBtVlY4OUlxZHVUQm1wNVI0OA?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbEdQZ0duVW9ZM0pqblJXbHFMVHdrbGZIa2RLU2s0NUp6ZVVhVWJuVzlLdm5zWU5xaEJyQ19nTWwzRUtGM3NFT2xPZGtBMWNQTTJLYklaNS10ZW1MSFg3amZ2a045UlRGcDdmc0tvbV95dzdqQy16eGpsZktHaEJyNjloVTF3S183NzdWOWxURHd5Tmowd29KazFDZUl6eTY2c1lzQkE1UHBZQkZXMGpKbkItbW55M3NibFJJNk5GSE54UjdJdFBtVlY4OUlxZHVUQm1wNVI0OA?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-12T10:47:00+00:00",
@@ -27050,10 +27099,10 @@
           "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWmNEWmc1VmE0a1ZDZGQxazRhT0VfN3VDUEt6c29lOFB0YnNQdGFvM1ltLVlMY1ZoMTA4YXpLQXBzVTA4V2FlRjhLM3hhR3NuWUhHRmdMRDNMdHdWb2NoZUZUMW84ZGhFeFE4bjRkaWtibDR2enY1eExqNGNUMUlsalV4Q1g0V2JSUGNNcTlMUVFvUHFlNlAyTUlFRnhCTkNud0NMVThremttZTlIRS0yZmVaZUp1a2hfTEFJcXMzSmhmV1Y3N0FPYmNSNU9xRkEyQW1sTmlBRDJwQQ?oc=5",
           "desk": "fantasy",
           "title": "Fantasy baseball lineup advice for Wednesday: Braves' Mahle finding form",
-          "summary": "Fantasy baseball lineup advice for Wednesday: Braves' Mahle finding form espn.com",
+          "summary": "Fantasy baseball lineup advice for Wednesday: Braves' Mahle finding form ESPN",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWmNEWmc1VmE0a1ZDZGQxazRhT0VfN3VDUEt6c29lOFB0YnNQdGFvM1ltLVlMY1ZoMTA4YXpLQXBzVTA4V2FlRjhLM3hhR3NuWUhHRmdMRDNMdHdWb2NoZUZUMW84ZGhFeFE4bjRkaWtibDR2enY1eExqNGNUMUlsalV4Q1g0V2JSUGNNcTlMUVFvUHFlNlAyTUlFRnhCTkNud0NMVThremttZTlIRS0yZmVaZUp1a2hfTEFJcXMzSmhmV1Y3N0FPYmNSNU9xRkEyQW1sTmlBRDJwQQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWmNEWmc1VmE0a1ZDZGQxazRhT0VfN3VDUEt6c29lOFB0YnNQdGFvM1ltLVlMY1ZoMTA4YXpLQXBzVTA4V2FlRjhLM3hhR3NuWUhHRmdMRDNMdHdWb2NoZUZUMW84ZGhFeFE4bjRkaWtibDR2enY1eExqNGNUMUlsalV4Q1g0V2JSUGNNcTlMUVFvUHFlNlAyTUlFRnhCTkNud0NMVThremttZTlIRS0yZmVaZUp1a2hfTEFJcXMzSmhmV1Y3N0FPYmNSNU9xRkEyQW1sTmlBRDJwQQ?oc=5",
-          "publisher": "espn.com",
+          "publisher": "ESPN",
           "source_group": "national",
           "feed": "ESPN Fantasy discovery",
           "published_at": "2026-08-11T20:36:00+00:00",
@@ -27164,12 +27213,12 @@
           ]
         },
         {
-          "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdGs0d1VLN0p3SnVuZHpNdjI4S0hQWkEwOVZkVmpYci1KZGhVYXdzZ0pPT2NVNHdCSHNOdW1RM3ZmWWZTSnJyQlFvb1A2NGVWdUtyd3NzSDZDRUpTbWlhaGJHNWdGRnZEbU5nYUV4Z1dscXNTM0FFSE9hR0cwLVE1STI0VUtsd3FabkxfOGJiNmJwSVpRX0t1bjN6Q2VwcXlFTFFrdFlCcGZOS2PSAbABQVVfeXFMT0xFNnNhRF8zejcxY2V2T19SeTM5WlZuWHZuclZ5QmhfUGJRZkExSlMtQ3p3QTNDd3pjYURPQTVRZXdVX3VEWFhRclRUVEs1Y3VPUkpsSkxSMTlLNHRzTjR0bkJGZ3YxZ2RFNm9DRkR6WlVqZVVQZW51UU4xSERKVnVUaVlXOGJxekEtVldfUHA1bjVTYnMxTzlZbmM0d2g3YnQ3aEJWNWRuazBKT3Z4aHM?oc=5",
+          "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdk5QZEZrYzRXNjF1Z29iRmI4dGR0bjBVY3hRN1k3WUhialBfakQ3YjVWWDl3ME00cUpvaDBIcDJCZ3V0ckxoTW5kYWlJVlFiWlNlLTBoS2NmVkxjSVlnRWp4a2ZSYWdobUgySWpYSlM4djN0ampZYXM2Q0xoRTdTUS1IajNDMzFsanBNXzZqLXd5ZHBjOU9HLVRQaWVWYjJ0YmVWU2lqdk9jQ2PSAbIBQVVfeXFMTU8wQjdhU2xwWXZZc0RlSEt0MDlKcGtHMnBrclhUMjRLQ1pXdVJ6R29nalZqaDB2UFNBX1NCRWY3TURGODhIeTE1NkRpb3pld3JyRkJOYXA4SVBYRlQzdUtFQzFhV1dPUWo4Rnh4TUpqRTVUVXVXdEl3N3RFcjgwcTZmaXFCSXlDSVBsSDkyTGdWWWI3c045MGRGQXdFWnJSNUExQm0tM1RBTEdWR1pTZjNJUQ?oc=5",
           "desk": "fantasy",
           "title": "5 Must-Have Players: 2026 Flag Plants (Fantasy Football)",
           "summary": "5 Must-Have Players: 2026 Flag Plants (Fantasy Football) FantasyPros",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdGs0d1VLN0p3SnVuZHpNdjI4S0hQWkEwOVZkVmpYci1KZGhVYXdzZ0pPT2NVNHdCSHNOdW1RM3ZmWWZTSnJyQlFvb1A2NGVWdUtyd3NzSDZDRUpTbWlhaGJHNWdGRnZEbU5nYUV4Z1dscXNTM0FFSE9hR0cwLVE1STI0VUtsd3FabkxfOGJiNmJwSVpRX0t1bjN6Q2VwcXlFTFFrdFlCcGZOS2PSAbABQVVfeXFMT0xFNnNhRF8zejcxY2V2T19SeTM5WlZuWHZuclZ5QmhfUGJRZkExSlMtQ3p3QTNDd3pjYURPQTVRZXdVX3VEWFhRclRUVEs1Y3VPUkpsSkxSMTlLNHRzTjR0bkJGZ3YxZ2RFNm9DRkR6WlVqZVVQZW51UU4xSERKVnVUaVlXOGJxekEtVldfUHA1bjVTYnMxTzlZbmM0d2g3YnQ3aEJWNWRuazBKT3Z4aHM?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdGs0d1VLN0p3SnVuZHpNdjI4S0hQWkEwOVZkVmpYci1KZGhVYXdzZ0pPT2NVNHdCSHNOdW1RM3ZmWWZTSnJyQlFvb1A2NGVWdUtyd3NzSDZDRUpTbWlhaGJHNWdGRnZEbU5nYUV4Z1dscXNTM0FFSE9hR0cwLVE1STI0VUtsd3FabkxfOGJiNmJwSVpRX0t1bjN6Q2VwcXlFTFFrdFlCcGZOS2PSAbABQVVfeXFMT0xFNnNhRF8zejcxY2V2T19SeTM5WlZuWHZuclZ5QmhfUGJRZkExSlMtQ3p3QTNDd3pjYURPQTVRZXdVX3VEWFhRclRUVEs1Y3VPUkpsSkxSMTlLNHRzTjR0bkJGZ3YxZ2RFNm9DRkR6WlVqZVVQZW51UU4xSERKVnVUaVlXOGJxekEtVldfUHA1bjVTYnMxTzlZbmM0d2g3YnQ3aEJWNWRuazBKT3Z4aHM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdk5QZEZrYzRXNjF1Z29iRmI4dGR0bjBVY3hRN1k3WUhialBfakQ3YjVWWDl3ME00cUpvaDBIcDJCZ3V0ckxoTW5kYWlJVlFiWlNlLTBoS2NmVkxjSVlnRWp4a2ZSYWdobUgySWpYSlM4djN0ampZYXM2Q0xoRTdTUS1IajNDMzFsanBNXzZqLXd5ZHBjOU9HLVRQaWVWYjJ0YmVWU2lqdk9jQ2PSAbIBQVVfeXFMTU8wQjdhU2xwWXZZc0RlSEt0MDlKcGtHMnBrclhUMjRLQ1pXdVJ6R29nalZqaDB2UFNBX1NCRWY3TURGODhIeTE1NkRpb3pld3JyRkJOYXA4SVBYRlQzdUtFQzFhV1dPUWo4Rnh4TUpqRTVUVXVXdEl3N3RFcjgwcTZmaXFCSXlDSVBsSDkyTGdWWWI3c045MGRGQXdFWnJSNUExQm0tM1RBTEdWR1pTZjNJUQ?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdk5QZEZrYzRXNjF1Z29iRmI4dGR0bjBVY3hRN1k3WUhialBfakQ3YjVWWDl3ME00cUpvaDBIcDJCZ3V0ckxoTW5kYWlJVlFiWlNlLTBoS2NmVkxjSVlnRWp4a2ZSYWdobUgySWpYSlM4djN0ampZYXM2Q0xoRTdTUS1IajNDMzFsanBNXzZqLXd5ZHBjOU9HLVRQaWVWYjJ0YmVWU2lqdk9jQ2PSAbIBQVVfeXFMTU8wQjdhU2xwWXZZc0RlSEt0MDlKcGtHMnBrclhUMjRLQ1pXdVJ6R29nalZqaDB2UFNBX1NCRWY3TURGODhIeTE1NkRpb3pld3JyRkJOYXA4SVBYRlQzdUtFQzFhV1dPUWo4Rnh4TUpqRTVUVXVXdEl3N3RFcjgwcTZmaXFCSXlDSVBsSDkyTGdWWWI3c045MGRGQXdFWnJSNUExQm0tM1RBTEdWR1pTZjNJUQ?oc=5",
           "publisher": "FantasyPros",
           "source_group": "specialist",
           "feed": "Multi-sport fantasy specialists",
@@ -27190,6 +27239,33 @@
           ],
           "lanes": [
             "fantasy-football"
+          ]
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjJVLU9COW1JUFNZc3VjUnlSYmp1ekF3R3M4OWo4T1dCVEV2Y2FIcU5tT0w1c3FXcjRONE5WVVhrRzMtVWpOLTFFV3AzemFLNU5Pd0JLRWxQRlhyTFZDOEF5Y1g0dlV6dTBvUGJFdzNmQlIxNXp5VldPRDNDYVktMzBNNXpOb0Q3aUhfWnFSY3M4Vl81MW1wbVZlYklKRzNWRG9BRjdIQXBKSXNQdy1GWE41eml0bWxONlFmZVJkOUdSV0VscHY1Zy13VQ?oc=5",
+          "desk": "fantasy",
+          "title": "Fantasy football draft rankings 2026: Wide receiver",
+          "summary": "Fantasy football draft rankings 2026: Wide receiver ESPN",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjJVLU9COW1JUFNZc3VjUnlSYmp1ekF3R3M4OWo4T1dCVEV2Y2FIcU5tT0w1c3FXcjRONE5WVVhrRzMtVWpOLTFFV3AzemFLNU5Pd0JLRWxQRlhyTFZDOEF5Y1g0dlV6dTBvUGJFdzNmQlIxNXp5VldPRDNDYVktMzBNNXpOb0Q3aUhfWnFSY3M4Vl81MW1wbVZlYklKRzNWRG9BRjdIQXBKSXNQdy1GWE41eml0bWxONlFmZVJkOUdSV0VscHY1Zy13VQ?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjJVLU9COW1JUFNZc3VjUnlSYmp1ekF3R3M4OWo4T1dCVEV2Y2FIcU5tT0w1c3FXcjRONE5WVVhrRzMtVWpOLTFFV3AzemFLNU5Pd0JLRWxQRlhyTFZDOEF5Y1g0dlV6dTBvUGJFdzNmQlIxNXp5VldPRDNDYVktMzBNNXpOb0Q3aUhfWnFSY3M4Vl81MW1wbVZlYklKRzNWRG9BRjdIQXBKSXNQdy1GWE41eml0bWxONlFmZVJkOUdSV0VscHY1Zy13VQ?oc=5",
+          "publisher": "ESPN",
+          "source_group": "national",
+          "feed": "ESPN Fantasy discovery",
+          "published_at": "2026-08-11T07:00:00+00:00",
+          "teams": [],
+          "players": [],
+          "sport": "multi-sport",
+          "competitions": [
+            "Fantasy Football",
+            "Fantasy Baseball",
+            "Fantasy Basketball",
+            "Fantasy Hockey",
+            "Fantasy Soccer"
+          ],
+          "lanes": [
+            "fantasy-football",
+            "draft-prep",
+            "fantasy-rankings"
           ]
         },
         {
@@ -27232,10 +27308,10 @@
               "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmZJeHM1Z0R6THpoR1FSa3c5ckpEYW1CMU9LZTkzbnFmZHMwRFNsRHBWY0tGY1RGQnlRQzI4c24wckJwOVJjRzA3djhZZ19WdkdpbHNDYzk3NEVVeVNJM3l4b2JiUlFqcXYzNHk0UFhDSUNkUUNOOUY3TWFDVWd2ejRIM1VTZUd5cGRTZVp2V0lnVTJ0WDdKN0stLW9ZUGJCQm1YRjY5THRxcGk4bmg0czh5SzZELWNEOTBFNldIZEE0MUVSZ1ROTkxPZVg3ZmJ1aWdZVQ?oc=5",
               "desk": "fantasy",
               "title": "Fantasy football cheat sheets: PPR, non-PPR, depth charts",
-              "summary": "Fantasy football cheat sheets: PPR, non-PPR, depth charts espn.com",
+              "summary": "Fantasy football cheat sheets: PPR, non-PPR, depth charts ESPN",
               "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmZJeHM1Z0R6THpoR1FSa3c5ckpEYW1CMU9LZTkzbnFmZHMwRFNsRHBWY0tGY1RGQnlRQzI4c24wckJwOVJjRzA3djhZZ19WdkdpbHNDYzk3NEVVeVNJM3l4b2JiUlFqcXYzNHk0UFhDSUNkUUNOOUY3TWFDVWd2ejRIM1VTZUd5cGRTZVp2V0lnVTJ0WDdKN0stLW9ZUGJCQm1YRjY5THRxcGk4bmg0czh5SzZELWNEOTBFNldIZEE0MUVSZ1ROTkxPZVg3ZmJ1aWdZVQ?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmZJeHM1Z0R6THpoR1FSa3c5ckpEYW1CMU9LZTkzbnFmZHMwRFNsRHBWY0tGY1RGQnlRQzI4c24wckJwOVJjRzA3djhZZ19WdkdpbHNDYzk3NEVVeVNJM3l4b2JiUlFqcXYzNHk0UFhDSUNkUUNOOUY3TWFDVWd2ejRIM1VTZUd5cGRTZVp2V0lnVTJ0WDdKN0stLW9ZUGJCQm1YRjY5THRxcGk4bmg0czh5SzZELWNEOTBFNldIZEE0MUVSZ1ROTkxPZVg3ZmJ1aWdZVQ?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-14T21:02:00+00:00",
@@ -27378,10 +27454,10 @@
               "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVl0ajF1dUk0YnpxMTllV21IRFVFV1Rmd21zeDZkSmJkUVRnYkJHeWg1QnVxM1JlY3plREVqNWlZTnB2elM2OUhLU0lraDNacDVMQmNhSGt4bVdOTkJVcWdNYmNSMlFMOHVPeFhZQ0hEek1oMlQ0VUhxYWJ1cGd4VzNwb0hnS3p0OGZTWkstX3N4WlpmYzVaSE1RRDlZZmNwYzhnS1diN0lId2txLUtmVTVXeGY3MkZnMkZHN2Z1RUpJdF9zT2ZQcG5iWFNNM0J6TFZfaFoxeGZNZ2xQLUpKQ3dUWjc?oc=5",
               "desk": "fantasy",
               "title": "Fantasy Baseball Forecaster Week 20: Aug. 17-23",
-              "summary": "Fantasy Baseball Forecaster Week 20: Aug. 17-23 espn.com",
+              "summary": "Fantasy Baseball Forecaster Week 20: Aug. 17-23 ESPN",
               "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVl0ajF1dUk0YnpxMTllV21IRFVFV1Rmd21zeDZkSmJkUVRnYkJHeWg1QnVxM1JlY3plREVqNWlZTnB2elM2OUhLU0lraDNacDVMQmNhSGt4bVdOTkJVcWdNYmNSMlFMOHVPeFhZQ0hEek1oMlQ0VUhxYWJ1cGd4VzNwb0hnS3p0OGZTWkstX3N4WlpmYzVaSE1RRDlZZmNwYzhnS1diN0lId2txLUtmVTVXeGY3MkZnMkZHN2Z1RUpJdF9zT2ZQcG5iWFNNM0J6TFZfaFoxeGZNZ2xQLUpKQ3dUWjc?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVl0ajF1dUk0YnpxMTllV21IRFVFV1Rmd21zeDZkSmJkUVRnYkJHeWg1QnVxM1JlY3plREVqNWlZTnB2elM2OUhLU0lraDNacDVMQmNhSGt4bVdOTkJVcWdNYmNSMlFMOHVPeFhZQ0hEek1oMlQ0VUhxYWJ1cGd4VzNwb0hnS3p0OGZTWkstX3N4WlpmYzVaSE1RRDlZZmNwYzhnS1diN0lId2txLUtmVTVXeGY3MkZnMkZHN2Z1RUpJdF9zT2ZQcG5iWFNNM0J6TFZfaFoxeGZNZ2xQLUpKQ3dUWjc?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-14T14:40:00+00:00",
@@ -27497,10 +27573,10 @@
               "id": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWlZ4c19RaFlRNVZheWNWT2Q2Y1JtSEQ5elEtN2R2amVoOEhUSkswLVh0Mm0yYllVSlUwck9wV0ZwMHlrNE1RX1g1bEZoNHpZZmtJek5laVN4dVRSeXRaNjhIajhMV2JNeHJ2eVFhWXhrMGhlRHhYOTBDUjZZSWRQaGM4LWhuYUx5RHZSd0piSVdoUkdvcFB2OTFDRWtqcGl3Mkd6UnRMdVI4cWNUQjk1RFV1ZDBhZnlyd3dvQUhjQm1Fei1QbU9mODNCWUdSUzBhcUJ2eGFWOUx1X19TWWFyV3JTbw?oc=5",
               "desk": "fantasy",
               "title": "Another six late-season heroes to save your fantasy baseball playoff hopes",
-              "summary": "Another six late-season heroes to save your fantasy baseball playoff hopes espn.com",
+              "summary": "Another six late-season heroes to save your fantasy baseball playoff hopes ESPN",
               "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWlZ4c19RaFlRNVZheWNWT2Q2Y1JtSEQ5elEtN2R2amVoOEhUSkswLVh0Mm0yYllVSlUwck9wV0ZwMHlrNE1RX1g1bEZoNHpZZmtJek5laVN4dVRSeXRaNjhIajhMV2JNeHJ2eVFhWXhrMGhlRHhYOTBDUjZZSWRQaGM4LWhuYUx5RHZSd0piSVdoUkdvcFB2OTFDRWtqcGl3Mkd6UnRMdVI4cWNUQjk1RFV1ZDBhZnlyd3dvQUhjQm1Fei1QbU9mODNCWUdSUzBhcUJ2eGFWOUx1X19TWWFyV3JTbw?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWlZ4c19RaFlRNVZheWNWT2Q2Y1JtSEQ5elEtN2R2amVoOEhUSkswLVh0Mm0yYllVSlUwck9wV0ZwMHlrNE1RX1g1bEZoNHpZZmtJek5laVN4dVRSeXRaNjhIajhMV2JNeHJ2eVFhWXhrMGhlRHhYOTBDUjZZSWRQaGM4LWhuYUx5RHZSd0piSVdoUkdvcFB2OTFDRWtqcGl3Mkd6UnRMdVI4cWNUQjk1RFV1ZDBhZnlyd3dvQUhjQm1Fei1QbU9mODNCWUdSUzBhcUJ2eGFWOUx1X19TWWFyV3JTbw?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-12T14:54:00+00:00",
@@ -27715,6 +27791,33 @@
                 "fantasy-football",
                 "draft-prep"
               ]
+            },
+            {
+              "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjJVLU9COW1JUFNZc3VjUnlSYmp1ekF3R3M4OWo4T1dCVEV2Y2FIcU5tT0w1c3FXcjRONE5WVVhrRzMtVWpOLTFFV3AzemFLNU5Pd0JLRWxQRlhyTFZDOEF5Y1g0dlV6dTBvUGJFdzNmQlIxNXp5VldPRDNDYVktMzBNNXpOb0Q3aUhfWnFSY3M4Vl81MW1wbVZlYklKRzNWRG9BRjdIQXBKSXNQdy1GWE41eml0bWxONlFmZVJkOUdSV0VscHY1Zy13VQ?oc=5",
+              "desk": "fantasy",
+              "title": "Fantasy football draft rankings 2026: Wide receiver",
+              "summary": "Fantasy football draft rankings 2026: Wide receiver ESPN",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjJVLU9COW1JUFNZc3VjUnlSYmp1ekF3R3M4OWo4T1dCVEV2Y2FIcU5tT0w1c3FXcjRONE5WVVhrRzMtVWpOLTFFV3AzemFLNU5Pd0JLRWxQRlhyTFZDOEF5Y1g0dlV6dTBvUGJFdzNmQlIxNXp5VldPRDNDYVktMzBNNXpOb0Q3aUhfWnFSY3M4Vl81MW1wbVZlYklKRzNWRG9BRjdIQXBKSXNQdy1GWE41eml0bWxONlFmZVJkOUdSV0VscHY1Zy13VQ?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjJVLU9COW1JUFNZc3VjUnlSYmp1ekF3R3M4OWo4T1dCVEV2Y2FIcU5tT0w1c3FXcjRONE5WVVhrRzMtVWpOLTFFV3AzemFLNU5Pd0JLRWxQRlhyTFZDOEF5Y1g0dlV6dTBvUGJFdzNmQlIxNXp5VldPRDNDYVktMzBNNXpOb0Q3aUhfWnFSY3M4Vl81MW1wbVZlYklKRzNWRG9BRjdIQXBKSXNQdy1GWE41eml0bWxONlFmZVJkOUdSV0VscHY1Zy13VQ?oc=5",
+              "publisher": "ESPN",
+              "source_group": "national",
+              "feed": "ESPN Fantasy discovery",
+              "published_at": "2026-08-11T07:00:00+00:00",
+              "teams": [],
+              "players": [],
+              "sport": "multi-sport",
+              "competitions": [
+                "Fantasy Football",
+                "Fantasy Baseball",
+                "Fantasy Basketball",
+                "Fantasy Hockey",
+                "Fantasy Soccer"
+              ],
+              "lanes": [
+                "fantasy-football",
+                "draft-prep",
+                "fantasy-rankings"
+              ]
             }
           ]
         },
@@ -27783,10 +27886,10 @@
               "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVNtWG92NGVtejl5anVPRlpZTWlmbWo0Zzk5eTM0akdXYW1NUFNJQUhzREJIcHZrU09RMUFTN0RxbS12MzNQVll5bXVTM013NVUyTGoySlJRUENqSGd6QlZ5MlBWbXE4Q1BPR0lmS3kwbUtTNENXa0J3anhWLVBiYUhZX3J1VnNoc1VWWGNJcFBzQ3hQMjFWUkhUcWd2QjJsUjY4eFhocGN5QkJxQUNUdFNCeldkU3FUZkhZS2ZkVFpQejk0cTlwdnYtOGlaV0pzUWRSTw?oc=5",
               "desk": "fantasy",
               "title": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis",
-              "summary": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis espn.com",
+              "summary": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis ESPN",
               "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVNtWG92NGVtejl5anVPRlpZTWlmbWo0Zzk5eTM0akdXYW1NUFNJQUhzREJIcHZrU09RMUFTN0RxbS12MzNQVll5bXVTM013NVUyTGoySlJRUENqSGd6QlZ5MlBWbXE4Q1BPR0lmS3kwbUtTNENXa0J3anhWLVBiYUhZX3J1VnNoc1VWWGNJcFBzQ3hQMjFWUkhUcWd2QjJsUjY4eFhocGN5QkJxQUNUdFNCeldkU3FUZkhZS2ZkVFpQejk0cTlwdnYtOGlaV0pzUWRSTw?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVNtWG92NGVtejl5anVPRlpZTWlmbWo0Zzk5eTM0akdXYW1NUFNJQUhzREJIcHZrU09RMUFTN0RxbS12MzNQVll5bXVTM013NVUyTGoySlJRUENqSGd6QlZ5MlBWbXE4Q1BPR0lmS3kwbUtTNENXa0J3anhWLVBiYUhZX3J1VnNoc1VWWGNJcFBzQ3hQMjFWUkhUcWd2QjJsUjY4eFhocGN5QkJxQUNUdFNCeldkU3FUZkhZS2ZkVFpQejk0cTlwdnYtOGlaV0pzUWRSTw?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-14T10:54:00+00:00",
@@ -27908,10 +28011,10 @@
               "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc25TR0pMeHRfdXJienIyNkwtSnVHSkh0MVhlSEpZWjFoMUlQTTN3RTZtSllJZFBCVzJlXzYwVzVHZ284ZjR6VmNMMEtPbEFtTElDajRZNVZ0bDZOdjhpRktRSVppZTJqZzl2WXlfZEFyZ2R6ZFNXbnpfWFFwX0tHU2F2R3B5X3lkNHo5MXh4QmdWdVlxdEcxa0tKNk9DRXlOcXJMV0hWdUtYRVFBaFIzQjltU0ZBQmdxVGdiUkhDOXVHcVNvM3RLM2dYY0NUNmlxVi15NmtxaDZoUQ?oc=5",
               "desk": "fantasy",
               "title": "Fantasy baseball lineup advice for Saturday: Ian Seymour, Hayden Wesneski stand out",
-              "summary": "Fantasy baseball lineup advice for Saturday: Ian Seymour, Hayden Wesneski stand out espn.com",
+              "summary": "Fantasy baseball lineup advice for Saturday: Ian Seymour, Hayden Wesneski stand out ESPN",
               "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc25TR0pMeHRfdXJienIyNkwtSnVHSkh0MVhlSEpZWjFoMUlQTTN3RTZtSllJZFBCVzJlXzYwVzVHZ284ZjR6VmNMMEtPbEFtTElDajRZNVZ0bDZOdjhpRktRSVppZTJqZzl2WXlfZEFyZ2R6ZFNXbnpfWFFwX0tHU2F2R3B5X3lkNHo5MXh4QmdWdVlxdEcxa0tKNk9DRXlOcXJMV0hWdUtYRVFBaFIzQjltU0ZBQmdxVGdiUkhDOXVHcVNvM3RLM2dYY0NUNmlxVi15NmtxaDZoUQ?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc25TR0pMeHRfdXJienIyNkwtSnVHSkh0MVhlSEpZWjFoMUlQTTN3RTZtSllJZFBCVzJlXzYwVzVHZ284ZjR6VmNMMEtPbEFtTElDajRZNVZ0bDZOdjhpRktRSVppZTJqZzl2WXlfZEFyZ2R6ZFNXbnpfWFFwX0tHU2F2R3B5X3lkNHo5MXh4QmdWdVlxdEcxa0tKNk9DRXlOcXJMV0hWdUtYRVFBaFIzQjltU0ZBQmdxVGdiUkhDOXVHcVNvM3RLM2dYY0NUNmlxVi15NmtxaDZoUQ?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-14T20:41:00+00:00",
@@ -27937,10 +28040,10 @@
               "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGs4akZveGVpVjlBUEliWFZrcThyeUFyMFZEVjdtSHpPWUR6NEdUNUhrc3lHakRHaGRIVXJxZkxYWFBOZ0tOdUNiOWlVVUp0TVBSSkNfZy1aYmsyTkQ3OWxBcjU0RFBrTlkxUjJSWVJJcFpoQVdwd3NodkZyYzNHQlN4dzNyWWZiUk1nYjNkWHRQaVg1cUFNbkhFclRZVWJZZXNERTJ6eDd1cFR0UkVoLW9mU2drVGMwWW9xRkoxeVdyOFl3THhfRTYydFpKczU3UzM1YVFtTU9QUQ?oc=5",
               "desk": "fantasy",
               "title": "Fantasy baseball lineup advice for Friday: Can Clay Holmes shake off the rust?",
-              "summary": "Fantasy baseball lineup advice for Friday: Can Clay Holmes shake off the rust? espn.com",
+              "summary": "Fantasy baseball lineup advice for Friday: Can Clay Holmes shake off the rust? ESPN",
               "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGs4akZveGVpVjlBUEliWFZrcThyeUFyMFZEVjdtSHpPWUR6NEdUNUhrc3lHakRHaGRIVXJxZkxYWFBOZ0tOdUNiOWlVVUp0TVBSSkNfZy1aYmsyTkQ3OWxBcjU0RFBrTlkxUjJSWVJJcFpoQVdwd3NodkZyYzNHQlN4dzNyWWZiUk1nYjNkWHRQaVg1cUFNbkhFclRZVWJZZXNERTJ6eDd1cFR0UkVoLW9mU2drVGMwWW9xRkoxeVdyOFl3THhfRTYydFpKczU3UzM1YVFtTU9QUQ?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGs4akZveGVpVjlBUEliWFZrcThyeUFyMFZEVjdtSHpPWUR6NEdUNUhrc3lHakRHaGRIVXJxZkxYWFBOZ0tOdUNiOWlVVUp0TVBSSkNfZy1aYmsyTkQ3OWxBcjU0RFBrTlkxUjJSWVJJcFpoQVdwd3NodkZyYzNHQlN4dzNyWWZiUk1nYjNkWHRQaVg1cUFNbkhFclRZVWJZZXNERTJ6eDd1cFR0UkVoLW9mU2drVGMwWW9xRkoxeVdyOFl3THhfRTYydFpKczU3UzM1YVFtTU9QUQ?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-13T20:20:00+00:00",
@@ -27966,10 +28069,10 @@
               "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFJ0ZloxU1BVWlRTbDBsOGVhemx4cGxOUHZwZXFLbUZhWkl5WWtwd1JNNW1sUFNBdE4ySVZOd0tMOHdueGluRXQ3cktyZ2lhODBfRkdGS1Nlamg4TzVIcGNNa2JfOGMzRkJycm41dDJLc21KUmtIQ2FDd1kzN2NnYm9vUWx1a0pONGR0VXV0QmtHaDZzc2VWQlkwXzFTc2NBR19iSHBrQ21DcXVQM0NvVTJPS0RaQjUydkJBYnpSMUlVUU1QVllSODNPWkRKWjZlQXVBclhUN1NGQQ?oc=5",
               "desk": "fantasy",
               "title": "Fantasy baseball lineup advice for Thursday: Start Sasaki in clash of NL's best",
-              "summary": "Fantasy baseball lineup advice for Thursday: Start Sasaki in clash of NL's best espn.com",
+              "summary": "Fantasy baseball lineup advice for Thursday: Start Sasaki in clash of NL's best ESPN",
               "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFJ0ZloxU1BVWlRTbDBsOGVhemx4cGxOUHZwZXFLbUZhWkl5WWtwd1JNNW1sUFNBdE4ySVZOd0tMOHdueGluRXQ3cktyZ2lhODBfRkdGS1Nlamg4TzVIcGNNa2JfOGMzRkJycm41dDJLc21KUmtIQ2FDd1kzN2NnYm9vUWx1a0pONGR0VXV0QmtHaDZzc2VWQlkwXzFTc2NBR19iSHBrQ21DcXVQM0NvVTJPS0RaQjUydkJBYnpSMUlVUU1QVllSODNPWkRKWjZlQXVBclhUN1NGQQ?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFJ0ZloxU1BVWlRTbDBsOGVhemx4cGxOUHZwZXFLbUZhWkl5WWtwd1JNNW1sUFNBdE4ySVZOd0tMOHdueGluRXQ3cktyZ2lhODBfRkdGS1Nlamg4TzVIcGNNa2JfOGMzRkJycm41dDJLc21KUmtIQ2FDd1kzN2NnYm9vUWx1a0pONGR0VXV0QmtHaDZzc2VWQlkwXzFTc2NBR19iSHBrQ21DcXVQM0NvVTJPS0RaQjUydkJBYnpSMUlVUU1QVllSODNPWkRKWjZlQXVBclhUN1NGQQ?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-12T20:30:00+00:00",
@@ -27994,10 +28097,10 @@
               "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWmNEWmc1VmE0a1ZDZGQxazRhT0VfN3VDUEt6c29lOFB0YnNQdGFvM1ltLVlMY1ZoMTA4YXpLQXBzVTA4V2FlRjhLM3hhR3NuWUhHRmdMRDNMdHdWb2NoZUZUMW84ZGhFeFE4bjRkaWtibDR2enY1eExqNGNUMUlsalV4Q1g0V2JSUGNNcTlMUVFvUHFlNlAyTUlFRnhCTkNud0NMVThremttZTlIRS0yZmVaZUp1a2hfTEFJcXMzSmhmV1Y3N0FPYmNSNU9xRkEyQW1sTmlBRDJwQQ?oc=5",
               "desk": "fantasy",
               "title": "Fantasy baseball lineup advice for Wednesday: Braves' Mahle finding form",
-              "summary": "Fantasy baseball lineup advice for Wednesday: Braves' Mahle finding form espn.com",
+              "summary": "Fantasy baseball lineup advice for Wednesday: Braves' Mahle finding form ESPN",
               "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWmNEWmc1VmE0a1ZDZGQxazRhT0VfN3VDUEt6c29lOFB0YnNQdGFvM1ltLVlMY1ZoMTA4YXpLQXBzVTA4V2FlRjhLM3hhR3NuWUhHRmdMRDNMdHdWb2NoZUZUMW84ZGhFeFE4bjRkaWtibDR2enY1eExqNGNUMUlsalV4Q1g0V2JSUGNNcTlMUVFvUHFlNlAyTUlFRnhCTkNud0NMVThremttZTlIRS0yZmVaZUp1a2hfTEFJcXMzSmhmV1Y3N0FPYmNSNU9xRkEyQW1sTmlBRDJwQQ?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWmNEWmc1VmE0a1ZDZGQxazRhT0VfN3VDUEt6c29lOFB0YnNQdGFvM1ltLVlMY1ZoMTA4YXpLQXBzVTA4V2FlRjhLM3hhR3NuWUhHRmdMRDNMdHdWb2NoZUZUMW84ZGhFeFE4bjRkaWtibDR2enY1eExqNGNUMUlsalV4Q1g0V2JSUGNNcTlMUVFvUHFlNlAyTUlFRnhCTkNud0NMVThremttZTlIRS0yZmVaZUp1a2hfTEFJcXMzSmhmV1Y3N0FPYmNSNU9xRkEyQW1sTmlBRDJwQQ?oc=5",
-              "publisher": "espn.com",
+              "publisher": "ESPN",
               "source_group": "national",
               "feed": "ESPN Fantasy discovery",
               "published_at": "2026-08-11T20:36:00+00:00",
@@ -28433,22 +28536,21 @@
         }
       },
       "providers": {},
-      "content_updated_at": "2026-08-14T21:31:04.338317+00:00",
-      "updated_at": "2026-08-14T21:31:04.338317+00:00",
+      "content_updated_at": "2026-08-14T21:33:15.789561+00:00",
+      "updated_at": "2026-08-14T21:33:15.789561+00:00",
       "data_updated_at": {},
       "data_verified_at": {},
       "diagnostics": {
         "candidate_count": 448,
-        "classified_count": 92,
-        "deduplicated_count": 64,
-        "selected_count": 64,
+        "classified_count": 93,
+        "deduplicated_count": 65,
+        "selected_count": 65,
         "publishers": {
           "Yahoo Sports": 17,
           "NBC Sports": 1,
-          "espn.com": 10,
+          "ESPN": 12,
           "FantasyPros": 26,
           "Premier League": 2,
-          "ESPN": 1,
           "NHL.com": 4,
           "RotoWire": 1,
           "NBA.com": 1,
@@ -28850,10 +28952,10 @@
           "id": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZWFLYWFSRDJ0UTNaQnFJQmJsbG9RR2VFcm9QWldCN2FEZThnYmt5UU1vazBuTHc1d1pNUXpvVlNjNEd5bHFHY3d1anNfWmlETU5CSE1iU25sa3hLbE5oYURzM2VERUxCVTFPUE5nS3ZTY2VRSHdza1dkVklFOUJJTVZKWUNuY3BhRllvTHEtVHZTNnNjb1Z5ZlVWUkhodzlIMFd0blV4bnNQclhSa204Z0hTaDZVTUtadl9LdTR2X1MyRzBzdXA0?oc=5",
           "desk": "nba",
           "title": "San Antonio Spurs general manager Brian Wright offered …",
-          "summary": "San Antonio Spurs general manager Brian Wright offered … hoopshype.com",
+          "summary": "San Antonio Spurs general manager Brian Wright offered … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZWFLYWFSRDJ0UTNaQnFJQmJsbG9RR2VFcm9QWldCN2FEZThnYmt5UU1vazBuTHc1d1pNUXpvVlNjNEd5bHFHY3d1anNfWmlETU5CSE1iU25sa3hLbE5oYURzM2VERUxCVTFPUE5nS3ZTY2VRSHdza1dkVklFOUJJTVZKWUNuY3BhRllvTHEtVHZTNnNjb1Z5ZlVWUkhodzlIMFd0blV4bnNQclhSa204Z0hTaDZVTUtadl9LdTR2X1MyRzBzdXA0?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZWFLYWFSRDJ0UTNaQnFJQmJsbG9RR2VFcm9QWldCN2FEZThnYmt5UU1vazBuTHc1d1pNUXpvVlNjNEd5bHFHY3d1anNfWmlETU5CSE1iU25sa3hLbE5oYURzM2VERUxCVTFPUE5nS3ZTY2VRSHdza1dkVklFOUJJTVZKWUNuY3BhRllvTHEtVHZTNnNjb1Z5ZlVWUkhodzlIMFd0blV4bnNQclhSa204Z0hTaDZVTUtadl9LdTR2X1MyRzBzdXA0?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-14T14:53:00+00:00",
@@ -29168,10 +29270,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObVBRQV9VZWJZd0xrUi1kaDMwWGJlOUxJZlBrUTJOT2tfbVdoRlVIN3M4WF9SSTFqb2QtUUptMEp3eDBrcUc2bWotQjdwRFJwN0FsSkRfNWpFZXdIOS1NMXNYZzJkekdEVnlneGdheTl1MzAwbVYtRERwdkdxVXVqVHdmV1Y0MW1yVmN1RXc5TmY5MlhvaGN1QjJEczZZSkpaR1M1TEdlb1pvWmFxRXBfbmdGelNncURsbE5BX2tYM0lOZw?oc=5",
           "desk": "nba",
           "title": "The Bucks were on the NBA’s national TV schedule 19 …",
-          "summary": "The Bucks were on the NBA’s national TV schedule 19 … hoopshype.com",
+          "summary": "The Bucks were on the NBA’s national TV schedule 19 … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObVBRQV9VZWJZd0xrUi1kaDMwWGJlOUxJZlBrUTJOT2tfbVdoRlVIN3M4WF9SSTFqb2QtUUptMEp3eDBrcUc2bWotQjdwRFJwN0FsSkRfNWpFZXdIOS1NMXNYZzJkekdEVnlneGdheTl1MzAwbVYtRERwdkdxVXVqVHdmV1Y0MW1yVmN1RXc5TmY5MlhvaGN1QjJEczZZSkpaR1M1TEdlb1pvWmFxRXBfbmdGelNncURsbE5BX2tYM0lOZw?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObVBRQV9VZWJZd0xrUi1kaDMwWGJlOUxJZlBrUTJOT2tfbVdoRlVIN3M4WF9SSTFqb2QtUUptMEp3eDBrcUc2bWotQjdwRFJwN0FsSkRfNWpFZXdIOS1NMXNYZzJkekdEVnlneGdheTl1MzAwbVYtRERwdkdxVXVqVHdmV1Y0MW1yVmN1RXc5TmY5MlhvaGN1QjJEczZZSkpaR1M1TEdlb1pvWmFxRXBfbmdGelNncURsbE5BX2tYM0lOZw?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-13T21:00:00+00:00",
@@ -29265,10 +29367,10 @@
           "id": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNVpjLTJFYjJiMEJkNUowSnhHa25Yd2RTRURtMTFqRXJnSEo2ZVgybGZyOGl4NzJCZjJIakg5REw0eEI1czNQSXFSWVhtU0lnYWp1Z0h1LVlpZXR5SXdWbXZFMTUyeVdtT3hxWHVpbGhZaDZLQWpaMW5aSkF3OFhNc0FhQnhXWE1aVDJxOVo1R2tuTXA1RDdtM3VGeE9JdFVWRmdubUtZajQ1QlB4N1d5ZnAzSS1DRHVCbTU1UHpuTDR1cGdkYTZFM0I2MHpRSEt0blE?oc=5",
           "desk": "nba",
           "title": "NBA to increase broadcast TV presence with 90 games on ABC, NBC",
-          "summary": "NBA to increase broadcast TV presence with 90 games on ABC, NBC hoopshype.com",
+          "summary": "NBA to increase broadcast TV presence with 90 games on ABC, NBC HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNVpjLTJFYjJiMEJkNUowSnhHa25Yd2RTRURtMTFqRXJnSEo2ZVgybGZyOGl4NzJCZjJIakg5REw0eEI1czNQSXFSWVhtU0lnYWp1Z0h1LVlpZXR5SXdWbXZFMTUyeVdtT3hxWHVpbGhZaDZLQWpaMW5aSkF3OFhNc0FhQnhXWE1aVDJxOVo1R2tuTXA1RDdtM3VGeE9JdFVWRmdubUtZajQ1QlB4N1d5ZnAzSS1DRHVCbTU1UHpuTDR1cGdkYTZFM0I2MHpRSEt0blE?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNVpjLTJFYjJiMEJkNUowSnhHa25Yd2RTRURtMTFqRXJnSEo2ZVgybGZyOGl4NzJCZjJIakg5REw0eEI1czNQSXFSWVhtU0lnYWp1Z0h1LVlpZXR5SXdWbXZFMTUyeVdtT3hxWHVpbGhZaDZLQWpaMW5aSkF3OFhNc0FhQnhXWE1aVDJxOVo1R2tuTXA1RDdtM3VGeE9JdFVWRmdubUtZajQ1QlB4N1d5ZnAzSS1DRHVCbTU1UHpuTDR1cGdkYTZFM0I2MHpRSEt0blE?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-13T19:52:00+00:00",
@@ -29286,10 +29388,10 @@
           "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdlhPLUVDUTZHekxTTktpbENYeWJ4WUlialVuY0l0QTJLUTV6emp6Q3U1QWRPSjlrVUdFZ3FES0VFYjA3YXlwMnkwMUJnLUI1TWl5Rjl0TWt2WkNZNnlRQ3I5Y1dwRUF0dWE3bzlJYXllOTNjZ2xsRkJqNk15TDJWd0k3UlEyeGx5VU5VRFBEbXZqTXdJTmp1VUdfdmRHVi1zQ3YtTVpIbXl4dVhXajI1SjYtUVFmeU8yejVBbA?oc=5",
           "desk": "nba",
           "title": "On Jan. 30, the NBA for the first time -- excluding …",
-          "summary": "On Jan. 30, the NBA for the first time -- excluding … hoopshype.com",
+          "summary": "On Jan. 30, the NBA for the first time -- excluding … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdlhPLUVDUTZHekxTTktpbENYeWJ4WUlialVuY0l0QTJLUTV6emp6Q3U1QWRPSjlrVUdFZ3FES0VFYjA3YXlwMnkwMUJnLUI1TWl5Rjl0TWt2WkNZNnlRQ3I5Y1dwRUF0dWE3bzlJYXllOTNjZ2xsRkJqNk15TDJWd0k3UlEyeGx5VU5VRFBEbXZqTXdJTmp1VUdfdmRHVi1zQ3YtTVpIbXl4dVhXajI1SjYtUVFmeU8yejVBbA?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdlhPLUVDUTZHekxTTktpbENYeWJ4WUlialVuY0l0QTJLUTV6emp6Q3U1QWRPSjlrVUdFZ3FES0VFYjA3YXlwMnkwMUJnLUI1TWl5Rjl0TWt2WkNZNnlRQ3I5Y1dwRUF0dWE3bzlJYXllOTNjZ2xsRkJqNk15TDJWd0k3UlEyeGx5VU5VRFBEbXZqTXdJTmp1VUdfdmRHVi1zQ3YtTVpIbXl4dVhXajI1SjYtUVFmeU8yejVBbA?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-13T19:52:00+00:00",
@@ -29309,10 +29411,10 @@
           "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWh2S3kxNXhkeWhuOWhfbWh1MTQ2Qm9OdlpsRk1LWXpzRmpSbnllLUpTd3k2aXNpanB1ZHc4R0gxM1dKVXBGbWpKRWRGQW5YVGd6d1ZjVlpCZE1uWUpHQXFuNjFZOWI4dWNIZFRveFNIOGF1aXo3WERGRkRqLS1RNWVhWE5raVpuQnVOODRYbWc3VEVQVFk0SlZJUmtCWmtoSWM3QUZhLVRmQ1RudTFrSkpETm9ReGJLQmo0V1VVMEpBUEhXYlE?oc=5",
           "desk": "nba",
           "title": "The top two picks in the 2026 NBA Draft will meet for …",
-          "summary": "The top two picks in the 2026 NBA Draft will meet for … hoopshype.com",
+          "summary": "The top two picks in the 2026 NBA Draft will meet for … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWh2S3kxNXhkeWhuOWhfbWh1MTQ2Qm9OdlpsRk1LWXpzRmpSbnllLUpTd3k2aXNpanB1ZHc4R0gxM1dKVXBGbWpKRWRGQW5YVGd6d1ZjVlpCZE1uWUpHQXFuNjFZOWI4dWNIZFRveFNIOGF1aXo3WERGRkRqLS1RNWVhWE5raVpuQnVOODRYbWc3VEVQVFk0SlZJUmtCWmtoSWM3QUZhLVRmQ1RudTFrSkpETm9ReGJLQmo0V1VVMEpBUEhXYlE?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWh2S3kxNXhkeWhuOWhfbWh1MTQ2Qm9OdlpsRk1LWXpzRmpSbnllLUpTd3k2aXNpanB1ZHc4R0gxM1dKVXBGbWpKRWRGQW5YVGd6d1ZjVlpCZE1uWUpHQXFuNjFZOWI4dWNIZFRveFNIOGF1aXo3WERGRkRqLS1RNWVhWE5raVpuQnVOODRYbWc3VEVQVFk0SlZJUmtCWmtoSWM3QUZhLVRmQ1RudTFrSkpETm9ReGJLQmo0V1VVMEpBUEhXYlE?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-13T19:52:00+00:00",
@@ -29400,10 +29502,10 @@
           "id": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmtRMjJQVXVUODRHcU5CZWJROEtsdmxEODFhVnZzc1JEdGk3NGkzQkNfaWU2YjlUajJyLURHTHJHZDBLeGw1VkNVWDlDMENDMXRYYWpNZ2ZaZ0lIZFlBNURTdGdIYzBmZnFGZ2dmM0JPM3VJSUVvVG1zREVKOTdHalRMbkVjeE04b1AzMGhIYUtiQzJtNnhIdnJWSzVxbm5haGRpV2hicmhDeDJvTnd0Z2pTUHd3QWhf?oc=5",
           "desk": "nba",
           "title": "NBA releases complete 2026-27 game schedule",
-          "summary": "NBA releases complete 2026-27 game schedule hoopshype.com",
+          "summary": "NBA releases complete 2026-27 game schedule HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmtRMjJQVXVUODRHcU5CZWJROEtsdmxEODFhVnZzc1JEdGk3NGkzQkNfaWU2YjlUajJyLURHTHJHZDBLeGw1VkNVWDlDMENDMXRYYWpNZ2ZaZ0lIZFlBNURTdGdIYzBmZnFGZ2dmM0JPM3VJSUVvVG1zREVKOTdHalRMbkVjeE04b1AzMGhIYUtiQzJtNnhIdnJWSzVxbm5haGRpV2hicmhDeDJvTnd0Z2pTUHd3QWhf?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmtRMjJQVXVUODRHcU5CZWJROEtsdmxEODFhVnZzc1JEdGk3NGkzQkNfaWU2YjlUajJyLURHTHJHZDBLeGw1VkNVWDlDMENDMXRYYWpNZ2ZaZ0lIZFlBNURTdGdIYzBmZnFGZ2dmM0JPM3VJSUVvVG1zREVKOTdHalRMbkVjeE04b1AzMGhIYUtiQzJtNnhIdnJWSzVxbm5haGRpV2hicmhDeDJvTnd0Z2pTUHd3QWhf?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-13T19:07:00+00:00",
@@ -29421,10 +29523,10 @@
           "id": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUmtBUEJuQjk5bm95WVVWcnp2MUxPeDg5Vm5FcUlwWUVHVV9tVzlsV1o3R2V6U2x2a0ZDcmowdEpUS2pxa2g5X1ZVNnVfcDFZMlFXaENxaXBPNWNqUzBTdXNKOEtLQXpfNDJrM2tSTGlvN2h0d2g5cDRKMUpHT1poMHVRdkF3aUtQVEZyejRZR2ZEWU9Rb2ZrRl9EY2dPRVJSLUJQQjFaMzR0YkN2NEZ1MUxIT2dSd3hMREE?oc=5",
           "desk": "nba",
           "title": "Indiana Pacers point guard, Tyrese Haliburton, …",
-          "summary": "Indiana Pacers point guard, Tyrese Haliburton, … hoopshype.com",
+          "summary": "Indiana Pacers point guard, Tyrese Haliburton, … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUmtBUEJuQjk5bm95WVVWcnp2MUxPeDg5Vm5FcUlwWUVHVV9tVzlsV1o3R2V6U2x2a0ZDcmowdEpUS2pxa2g5X1ZVNnVfcDFZMlFXaENxaXBPNWNqUzBTdXNKOEtLQXpfNDJrM2tSTGlvN2h0d2g5cDRKMUpHT1poMHVRdkF3aUtQVEZyejRZR2ZEWU9Rb2ZrRl9EY2dPRVJSLUJQQjFaMzR0YkN2NEZ1MUxIT2dSd3hMREE?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUmtBUEJuQjk5bm95WVVWcnp2MUxPeDg5Vm5FcUlwWUVHVV9tVzlsV1o3R2V6U2x2a0ZDcmowdEpUS2pxa2g5X1ZVNnVfcDFZMlFXaENxaXBPNWNqUzBTdXNKOEtLQXpfNDJrM2tSTGlvN2h0d2g5cDRKMUpHT1poMHVRdkF3aUtQVEZyejRZR2ZEWU9Rb2ZrRl9EY2dPRVJSLUJQQjFaMzR0YkN2NEZ1MUxIT2dSd3hMREE?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-13T19:07:00+00:00",
@@ -29537,10 +29639,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHd1cmZHdWl6Y3ZCV2RHOEN6ZXJtaHJMVFhoX0dqUktPVl8xWHFZUEJXZmVBaVJHdEo0MzRaUF90TFNiUmpjWWRGTmk2ZmVPWXI3Nzg2S2p2cEpHTDF2Y01MX3UtN1BZWDV5SldQNGE1S1RxYjVQbm9jVlNxa0lfTXhkM1FQaGtxVWVibWRNU2drZk5EX0VXR3BpcGpNOTFZSE5EVHJJMjcyX08zM3h4ZUdwOFl5QW1iUklxckpVYnNiUQ?oc=5",
           "desk": "nba",
           "title": "It would be wise to wait for NBA Commissioner Adam …",
-          "summary": "It would be wise to wait for NBA Commissioner Adam … hoopshype.com",
+          "summary": "It would be wise to wait for NBA Commissioner Adam … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHd1cmZHdWl6Y3ZCV2RHOEN6ZXJtaHJMVFhoX0dqUktPVl8xWHFZUEJXZmVBaVJHdEo0MzRaUF90TFNiUmpjWWRGTmk2ZmVPWXI3Nzg2S2p2cEpHTDF2Y01MX3UtN1BZWDV5SldQNGE1S1RxYjVQbm9jVlNxa0lfTXhkM1FQaGtxVWVibWRNU2drZk5EX0VXR3BpcGpNOTFZSE5EVHJJMjcyX08zM3h4ZUdwOFl5QW1iUklxckpVYnNiUQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHd1cmZHdWl6Y3ZCV2RHOEN6ZXJtaHJMVFhoX0dqUktPVl8xWHFZUEJXZmVBaVJHdEo0MzRaUF90TFNiUmpjWWRGTmk2ZmVPWXI3Nzg2S2p2cEpHTDF2Y01MX3UtN1BZWDV5SldQNGE1S1RxYjVQbm9jVlNxa0lfTXhkM1FQaGtxVWVibWRNU2drZk5EX0VXR3BpcGpNOTFZSE5EVHJJMjcyX08zM3h4ZUdwOFl5QW1iUklxckpVYnNiUQ?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-12T22:25:00+00:00",
@@ -29615,10 +29717,10 @@
           "id": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTm1jMzVEdmV1d2ZBR1hzZVUzU1hZNV8zTWNWdnh5YlZVSkowSWVCOHpBcUxNZEg0UDFycmlNNFVST0JOU09tRk5pUVg4NlUzbzJPSExqOHR5NG5qWHFlZVlVYTZqaDVTX3lqZE1IZVNYbG5lMWFSd0dDZEw3MnBadjQ2Z0tYLXM0WjdIbnA0TnB4enZrS1BNRjBUcm5fQmNDbWs4UVJYMXlqZ2JLYTluRWNFNkd1U0kyOV9sVkNfYVJ2OUdyQkFpWEJWLVdPbkZVOTRLSU9OT3RGQXA5ZnMxU2JWNXFReVQtdFdTemFhWmRXQjREV09aRkJn?oc=5",
           "desk": "nba",
           "title": "Social media reacts to Russell Westbrook retiring: ‘One of the most underappreciated NBA players ever’",
-          "summary": "Social media reacts to Russell Westbrook retiring: ‘One of the most underappreciated NBA players ever’ hoopshype.com",
+          "summary": "Social media reacts to Russell Westbrook retiring: ‘One of the most underappreciated NBA players ever’ HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTm1jMzVEdmV1d2ZBR1hzZVUzU1hZNV8zTWNWdnh5YlZVSkowSWVCOHpBcUxNZEg0UDFycmlNNFVST0JOU09tRk5pUVg4NlUzbzJPSExqOHR5NG5qWHFlZVlVYTZqaDVTX3lqZE1IZVNYbG5lMWFSd0dDZEw3MnBadjQ2Z0tYLXM0WjdIbnA0TnB4enZrS1BNRjBUcm5fQmNDbWs4UVJYMXlqZ2JLYTluRWNFNkd1U0kyOV9sVkNfYVJ2OUdyQkFpWEJWLVdPbkZVOTRLSU9OT3RGQXA5ZnMxU2JWNXFReVQtdFdTemFhWmRXQjREV09aRkJn?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTm1jMzVEdmV1d2ZBR1hzZVUzU1hZNV8zTWNWdnh5YlZVSkowSWVCOHpBcUxNZEg0UDFycmlNNFVST0JOU09tRk5pUVg4NlUzbzJPSExqOHR5NG5qWHFlZVlVYTZqaDVTX3lqZE1IZVNYbG5lMWFSd0dDZEw3MnBadjQ2Z0tYLXM0WjdIbnA0TnB4enZrS1BNRjBUcm5fQmNDbWs4UVJYMXlqZ2JLYTluRWNFNkd1U0kyOV9sVkNfYVJ2OUdyQkFpWEJWLVdPbkZVOTRLSU9OT3RGQXA5ZnMxU2JWNXFReVQtdFdTemFhWmRXQjREV09aRkJn?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-12T19:20:00+00:00",
@@ -29638,10 +29740,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmpYaFMxS0NnSEdyMGlGSndiRXFxbkRYRklLWEFiYTAybFU3S0c4czNaYWR0aGJWVTdWYXRHTFV1dlBuSVhQa1dEYjFJVkt1N0pXWGhDWm51aVIzbWt4VzV0WE41eWF0WFZzcW5HNWRYU2xjNkk4TVpnVGFCY0ZCUkdsc3NDbi1oTlRsX2FyTVlacnR2bmpOeDFtUGJwZ0tZdE9LZndXWGNaRmJvY0cwRUpyRURBcUFLSDk2MjNMVTA1TjQ?oc=5",
           "desk": "nba",
           "title": "Sacramento Kings: Grateful Sacramento was part of an …",
-          "summary": "Sacramento Kings: Grateful Sacramento was part of an … hoopshype.com",
+          "summary": "Sacramento Kings: Grateful Sacramento was part of an … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmpYaFMxS0NnSEdyMGlGSndiRXFxbkRYRklLWEFiYTAybFU3S0c4czNaYWR0aGJWVTdWYXRHTFV1dlBuSVhQa1dEYjFJVkt1N0pXWGhDWm51aVIzbWt4VzV0WE41eWF0WFZzcW5HNWRYU2xjNkk4TVpnVGFCY0ZCUkdsc3NDbi1oTlRsX2FyTVlacnR2bmpOeDFtUGJwZ0tZdE9LZndXWGNaRmJvY0cwRUpyRURBcUFLSDk2MjNMVTA1TjQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmpYaFMxS0NnSEdyMGlGSndiRXFxbkRYRklLWEFiYTAybFU3S0c4czNaYWR0aGJWVTdWYXRHTFV1dlBuSVhQa1dEYjFJVkt1N0pXWGhDWm51aVIzbWt4VzV0WE41eWF0WFZzcW5HNWRYU2xjNkk4TVpnVGFCY0ZCUkdsc3NDbi1oTlRsX2FyTVlacnR2bmpOeDFtUGJwZ0tZdE9LZndXWGNaRmJvY0cwRUpyRURBcUFLSDk2MjNMVTA1TjQ?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-12T21:01:00+00:00",
@@ -29686,10 +29788,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa0tlcy1sV3pZR3ZxMjZ5R0Y0QlJkLVFUUE5sR3pKZ3RNbW9raThRbmg4c1IxUTVod3FvTGJrVVRYdGJKZ2tYSnkzYVk1YWVQT2N3X2FDRkNuNUI5S2tWcTd0VFNneEtvQVFwUFd2Mjd3SzZRTUhPSWhhS3dwV0FjSDdNMUsweHRhV2F4TGl1S0RVWnF6Ny1Ic0J0N0VZWk9qa3FtWnN3UGhzWjdKU2RuTzJZVVplM2FpVFYtTFBXNHlmUQ?oc=5",
           "desk": "nba",
           "title": "“As lifelong NBA fans, we are deeply honored for the …",
-          "summary": "“As lifelong NBA fans, we are deeply honored for the … hoopshype.com",
+          "summary": "“As lifelong NBA fans, we are deeply honored for the … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa0tlcy1sV3pZR3ZxMjZ5R0Y0QlJkLVFUUE5sR3pKZ3RNbW9raThRbmg4c1IxUTVod3FvTGJrVVRYdGJKZ2tYSnkzYVk1YWVQT2N3X2FDRkNuNUI5S2tWcTd0VFNneEtvQVFwUFd2Mjd3SzZRTUhPSWhhS3dwV0FjSDdNMUsweHRhV2F4TGl1S0RVWnF6Ny1Ic0J0N0VZWk9qa3FtWnN3UGhzWjdKU2RuTzJZVVplM2FpVFYtTFBXNHlmUQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa0tlcy1sV3pZR3ZxMjZ5R0Y0QlJkLVFUUE5sR3pKZ3RNbW9raThRbmg4c1IxUTVod3FvTGJrVVRYdGJKZ2tYSnkzYVk1YWVQT2N3X2FDRkNuNUI5S2tWcTd0VFNneEtvQVFwUFd2Mjd3SzZRTUhPSWhhS3dwV0FjSDdNMUsweHRhV2F4TGl1S0RVWnF6Ny1Ic0J0N0VZWk9qa3FtWnN3UGhzWjdKU2RuTzJZVVplM2FpVFYtTFBXNHlmUQ?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-12T15:01:00+00:00",
@@ -29707,10 +29809,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTlBOQ2ZmNm5TX2RLWUc1SlE2RDRiRjBEUW5UQ3VvQTd3LXlCbFY4Z0lkeFVGd0tnM2RTYnRRZlRUeFBoZWFPb05XT2NQT0UwVXlTcGtWa2xsU3EzUXZodFppN1l2U3FoNWczNzJya1N2X0paODkyV0tQMkdOM2g2dWhfQWg4TkY2ZEVqX2llY2lCb1h4a2ZsdkdXd09rcVJXeFN1cG9LZUVmYWQ3aEhsR2ViT3V4b1lNZHFSZW92R2Z1UQ?oc=5",
           "desk": "nba",
           "title": "Mark Walter: “Owning the Los Angeles Lakers has been …",
-          "summary": "Mark Walter: “Owning the Los Angeles Lakers has been … hoopshype.com",
+          "summary": "Mark Walter: “Owning the Los Angeles Lakers has been … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTlBOQ2ZmNm5TX2RLWUc1SlE2RDRiRjBEUW5UQ3VvQTd3LXlCbFY4Z0lkeFVGd0tnM2RTYnRRZlRUeFBoZWFPb05XT2NQT0UwVXlTcGtWa2xsU3EzUXZodFppN1l2U3FoNWczNzJya1N2X0paODkyV0tQMkdOM2g2dWhfQWg4TkY2ZEVqX2llY2lCb1h4a2ZsdkdXd09rcVJXeFN1cG9LZUVmYWQ3aEhsR2ViT3V4b1lNZHFSZW92R2Z1UQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTlBOQ2ZmNm5TX2RLWUc1SlE2RDRiRjBEUW5UQ3VvQTd3LXlCbFY4Z0lkeFVGd0tnM2RTYnRRZlRUeFBoZWFPb05XT2NQT0UwVXlTcGtWa2xsU3EzUXZodFppN1l2U3FoNWczNzJya1N2X0paODkyV0tQMkdOM2g2dWhfQWg4TkY2ZEVqX2llY2lCb1h4a2ZsdkdXd09rcVJXeFN1cG9LZUVmYWQ3aEhsR2ViT3V4b1lNZHFSZW92R2Z1UQ?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-12T14:15:00+00:00",
@@ -29754,10 +29856,10 @@
           "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTXdiZmtvSV9vT09GT001RVZyYVFNMHNrWnp2QU1MYXdyMjBTSTJ4S21mc2V5dUNHdkxNV2FtcEg0clB3X0tPeE91RldEU2Y3MjJXN1VTX3N3NTRQR0hsQUwzVmc3R2NiQUV1YnI4TTUtUjBkSDFBUUV1emM3amt2WGRkUld3R3YtdDFJa2V5R2kxVFRheEpfS3I2bmRBcVdYTXk2VkF6M0k3MkU2T3MwSy1ENGNrUXM2OGhwYVRPVQ?oc=5",
           "desk": "nba",
           "title": "Atlanta Hawks: BREAKING: The NBA schedule drops on …",
-          "summary": "Atlanta Hawks: BREAKING: The NBA schedule drops on … hoopshype.com",
+          "summary": "Atlanta Hawks: BREAKING: The NBA schedule drops on … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTXdiZmtvSV9vT09GT001RVZyYVFNMHNrWnp2QU1MYXdyMjBTSTJ4S21mc2V5dUNHdkxNV2FtcEg0clB3X0tPeE91RldEU2Y3MjJXN1VTX3N3NTRQR0hsQUwzVmc3R2NiQUV1YnI4TTUtUjBkSDFBUUV1emM3amt2WGRkUld3R3YtdDFJa2V5R2kxVFRheEpfS3I2bmRBcVdYTXk2VkF6M0k3MkU2T3MwSy1ENGNrUXM2OGhwYVRPVQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTXdiZmtvSV9vT09GT001RVZyYVFNMHNrWnp2QU1MYXdyMjBTSTJ4S21mc2V5dUNHdkxNV2FtcEg0clB3X0tPeE91RldEU2Y3MjJXN1VTX3N3NTRQR0hsQUwzVmc3R2NiQUV1YnI4TTUtUjBkSDFBUUV1emM3amt2WGRkUld3R3YtdDFJa2V5R2kxVFRheEpfS3I2bmRBcVdYTXk2VkF6M0k3MkU2T3MwSy1ENGNrUXM2OGhwYVRPVQ?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-11T19:53:00+00:00",
@@ -29777,10 +29879,10 @@
           "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcW91TlBIdEZKbXFSak1FbkRRRzI5WTk3YmV3NnJaeXhvY184dHNNUmhtVEVHS2tSd2JKT1MydTlSaENwcW5MX2ctZk5vNFhWR09abEtoWU5EMnBoMGFXSE9vZ0hXbTFnZFRIV1V3cWFyZHQtWkltSmJhTjR3dHJGY0N4TlJxLUFQUEtIQ2E3aFZWYzBVWWRJYm03dmx6dzdxQ2xUbWZoV21EaTFPcm1GcjlFY2Z1Z3pndjRhUQ?oc=5",
           "desk": "nba",
           "title": "Cleveland Cavaliers may wind up backing out of …",
-          "summary": "Cleveland Cavaliers may wind up backing out of … hoopshype.com",
+          "summary": "Cleveland Cavaliers may wind up backing out of … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcW91TlBIdEZKbXFSak1FbkRRRzI5WTk3YmV3NnJaeXhvY184dHNNUmhtVEVHS2tSd2JKT1MydTlSaENwcW5MX2ctZk5vNFhWR09abEtoWU5EMnBoMGFXSE9vZ0hXbTFnZFRIV1V3cWFyZHQtWkltSmJhTjR3dHJGY0N4TlJxLUFQUEtIQ2E3aFZWYzBVWWRJYm03dmx6dzdxQ2xUbWZoV21EaTFPcm1GcjlFY2Z1Z3pndjRhUQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcW91TlBIdEZKbXFSak1FbkRRRzI5WTk3YmV3NnJaeXhvY184dHNNUmhtVEVHS2tSd2JKT1MydTlSaENwcW5MX2ctZk5vNFhWR09abEtoWU5EMnBoMGFXSE9vZ0hXbTFnZFRIV1V3cWFyZHQtWkltSmJhTjR3dHJGY0N4TlJxLUFQUEtIQ2E3aFZWYzBVWWRJYm03dmx6dzdxQ2xUbWZoV21EaTFPcm1GcjlFY2Z1Z3pndjRhUQ?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-11T22:27:00+00:00",
@@ -29823,10 +29925,10 @@
           "id": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU3E2dHY4bl9ZRnpvYUNkRVNXSU9QVkFLdmFGeE5yYmtlbWhScUI1d2xaYmJxTmtJUmtmTVY2TF9SbHE0TDVFc3ZORXVCaHZRMUNYMlJwUWkzOFpxWTlsc0Q3SUZwR29rdDVrVzNzb05ZdWJqUHpnMWI0bDhxWHR1ZGpMRi1LbGJYUnA2NjN0bExpbUN1OTQzWDh6ZkU0LUZhc0t1VEVKVWl3MXFhMWZyb2liSkMwMUpjX1hDb0w3WnVuVUpBNlpUNWplT2FOSUxFYTJFYnpmeTFIajFEQlprd2NRbEZhWkh2NnJic1I1OVdBbW15a3QwdmViSQ?oc=5",
           "desk": "nba",
           "title": "Jalen Brunson on playing through wrist injury in NBA Finals: 'Do whatever needed to be done, focus on it afterwards'",
-          "summary": "Jalen Brunson on playing through wrist injury in NBA Finals: 'Do whatever needed to be done, focus on it afterwards' hoopshype.com",
+          "summary": "Jalen Brunson on playing through wrist injury in NBA Finals: 'Do whatever needed to be done, focus on it afterwards' HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU3E2dHY4bl9ZRnpvYUNkRVNXSU9QVkFLdmFGeE5yYmtlbWhScUI1d2xaYmJxTmtJUmtmTVY2TF9SbHE0TDVFc3ZORXVCaHZRMUNYMlJwUWkzOFpxWTlsc0Q3SUZwR29rdDVrVzNzb05ZdWJqUHpnMWI0bDhxWHR1ZGpMRi1LbGJYUnA2NjN0bExpbUN1OTQzWDh6ZkU0LUZhc0t1VEVKVWl3MXFhMWZyb2liSkMwMUpjX1hDb0w3WnVuVUpBNlpUNWplT2FOSUxFYTJFYnpmeTFIajFEQlprd2NRbEZhWkh2NnJic1I1OVdBbW15a3QwdmViSQ?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU3E2dHY4bl9ZRnpvYUNkRVNXSU9QVkFLdmFGeE5yYmtlbWhScUI1d2xaYmJxTmtJUmtmTVY2TF9SbHE0TDVFc3ZORXVCaHZRMUNYMlJwUWkzOFpxWTlsc0Q3SUZwR29rdDVrVzNzb05ZdWJqUHpnMWI0bDhxWHR1ZGpMRi1LbGJYUnA2NjN0bExpbUN1OTQzWDh6ZkU0LUZhc0t1VEVKVWl3MXFhMWZyb2liSkMwMUpjX1hDb0w3WnVuVUpBNlpUNWplT2FOSUxFYTJFYnpmeTFIajFEQlprd2NRbEZhWkh2NnJic1I1OVdBbW15a3QwdmViSQ?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-11T11:57:00+00:00",
@@ -29873,10 +29975,10 @@
           "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWWNFRVhmbXpPRnVOSVhIcS1OZ0gxMWVlWDlhRVFyR1FIcUd1QTlhVUZEM1dwUVBqQlVnMW5lXzZmNERMd1VSVjBtYWxHNkNmUlZwaEVLOFNmNy1aeUVZWFNyZkhHY3FoXzd6ZVBIazU5UlBOUHFlU3hfb2lSN3dkRGdEaXhIMUpQRkUwQ1l3ZGtuaEEwSTFkZHNFQTRmZzZGeHhZMk8xTkRRYkpqX3YyempUUW9Yb01TSTB2WVlGbEp4NHFhUXc?oc=5",
           "desk": "nba",
           "title": "The NBA contingent is headlined by Dennis Schroder of …",
-          "summary": "The NBA contingent is headlined by Dennis Schroder of … hoopshype.com",
+          "summary": "The NBA contingent is headlined by Dennis Schroder of … HoopsHype",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWWNFRVhmbXpPRnVOSVhIcS1OZ0gxMWVlWDlhRVFyR1FIcUd1QTlhVUZEM1dwUVBqQlVnMW5lXzZmNERMd1VSVjBtYWxHNkNmUlZwaEVLOFNmNy1aeUVZWFNyZkhHY3FoXzd6ZVBIazU5UlBOUHFlU3hfb2lSN3dkRGdEaXhIMUpQRkUwQ1l3ZGtuaEEwSTFkZHNFQTRmZzZGeHhZMk8xTkRRYkpqX3YyempUUW9Yb01TSTB2WVlGbEp4NHFhUXc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWWNFRVhmbXpPRnVOSVhIcS1OZ0gxMWVlWDlhRVFyR1FIcUd1QTlhVUZEM1dwUVBqQlVnMW5lXzZmNERMd1VSVjBtYWxHNkNmUlZwaEVLOFNmNy1aeUVZWFNyZkhHY3FoXzd6ZVBIazU5UlBOUHFlU3hfb2lSN3dkRGdEaXhIMUpQRkUwQ1l3ZGtuaEEwSTFkZHNFQTRmZzZGeHhZMk8xTkRRYkpqX3YyempUUW9Yb01TSTB2WVlGbEp4NHFhUXc?oc=5",
-          "publisher": "hoopshype.com",
+          "publisher": "HoopsHype",
           "source_group": "specialist",
           "feed": "NBA specialists",
           "published_at": "2026-08-11T15:01:00+00:00",
@@ -30377,10 +30479,10 @@
               "id": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU3E2dHY4bl9ZRnpvYUNkRVNXSU9QVkFLdmFGeE5yYmtlbWhScUI1d2xaYmJxTmtJUmtmTVY2TF9SbHE0TDVFc3ZORXVCaHZRMUNYMlJwUWkzOFpxWTlsc0Q3SUZwR29rdDVrVzNzb05ZdWJqUHpnMWI0bDhxWHR1ZGpMRi1LbGJYUnA2NjN0bExpbUN1OTQzWDh6ZkU0LUZhc0t1VEVKVWl3MXFhMWZyb2liSkMwMUpjX1hDb0w3WnVuVUpBNlpUNWplT2FOSUxFYTJFYnpmeTFIajFEQlprd2NRbEZhWkh2NnJic1I1OVdBbW15a3QwdmViSQ?oc=5",
               "desk": "nba",
               "title": "Jalen Brunson on playing through wrist injury in NBA Finals: 'Do whatever needed to be done, focus on it afterwards'",
-              "summary": "Jalen Brunson on playing through wrist injury in NBA Finals: 'Do whatever needed to be done, focus on it afterwards' hoopshype.com",
+              "summary": "Jalen Brunson on playing through wrist injury in NBA Finals: 'Do whatever needed to be done, focus on it afterwards' HoopsHype",
               "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU3E2dHY4bl9ZRnpvYUNkRVNXSU9QVkFLdmFGeE5yYmtlbWhScUI1d2xaYmJxTmtJUmtmTVY2TF9SbHE0TDVFc3ZORXVCaHZRMUNYMlJwUWkzOFpxWTlsc0Q3SUZwR29rdDVrVzNzb05ZdWJqUHpnMWI0bDhxWHR1ZGpMRi1LbGJYUnA2NjN0bExpbUN1OTQzWDh6ZkU0LUZhc0t1VEVKVWl3MXFhMWZyb2liSkMwMUpjX1hDb0w3WnVuVUpBNlpUNWplT2FOSUxFYTJFYnpmeTFIajFEQlprd2NRbEZhWkh2NnJic1I1OVdBbW15a3QwdmViSQ?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOU3E2dHY4bl9ZRnpvYUNkRVNXSU9QVkFLdmFGeE5yYmtlbWhScUI1d2xaYmJxTmtJUmtmTVY2TF9SbHE0TDVFc3ZORXVCaHZRMUNYMlJwUWkzOFpxWTlsc0Q3SUZwR29rdDVrVzNzb05ZdWJqUHpnMWI0bDhxWHR1ZGpMRi1LbGJYUnA2NjN0bExpbUN1OTQzWDh6ZkU0LUZhc0t1VEVKVWl3MXFhMWZyb2liSkMwMUpjX1hDb0w3WnVuVUpBNlpUNWplT2FOSUxFYTJFYnpmeTFIajFEQlprd2NRbEZhWkh2NnJic1I1OVdBbW15a3QwdmViSQ?oc=5",
-              "publisher": "hoopshype.com",
+              "publisher": "HoopsHype",
               "source_group": "specialist",
               "feed": "NBA specialists",
               "published_at": "2026-08-11T11:57:00+00:00",
@@ -30407,10 +30509,10 @@
               "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWh2S3kxNXhkeWhuOWhfbWh1MTQ2Qm9OdlpsRk1LWXpzRmpSbnllLUpTd3k2aXNpanB1ZHc4R0gxM1dKVXBGbWpKRWRGQW5YVGd6d1ZjVlpCZE1uWUpHQXFuNjFZOWI4dWNIZFRveFNIOGF1aXo3WERGRkRqLS1RNWVhWE5raVpuQnVOODRYbWc3VEVQVFk0SlZJUmtCWmtoSWM3QUZhLVRmQ1RudTFrSkpETm9ReGJLQmo0V1VVMEpBUEhXYlE?oc=5",
               "desk": "nba",
               "title": "The top two picks in the 2026 NBA Draft will meet for …",
-              "summary": "The top two picks in the 2026 NBA Draft will meet for … hoopshype.com",
+              "summary": "The top two picks in the 2026 NBA Draft will meet for … HoopsHype",
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWh2S3kxNXhkeWhuOWhfbWh1MTQ2Qm9OdlpsRk1LWXpzRmpSbnllLUpTd3k2aXNpanB1ZHc4R0gxM1dKVXBGbWpKRWRGQW5YVGd6d1ZjVlpCZE1uWUpHQXFuNjFZOWI4dWNIZFRveFNIOGF1aXo3WERGRkRqLS1RNWVhWE5raVpuQnVOODRYbWc3VEVQVFk0SlZJUmtCWmtoSWM3QUZhLVRmQ1RudTFrSkpETm9ReGJLQmo0V1VVMEpBUEhXYlE?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORWh2S3kxNXhkeWhuOWhfbWh1MTQ2Qm9OdlpsRk1LWXpzRmpSbnllLUpTd3k2aXNpanB1ZHc4R0gxM1dKVXBGbWpKRWRGQW5YVGd6d1ZjVlpCZE1uWUpHQXFuNjFZOWI4dWNIZFRveFNIOGF1aXo3WERGRkRqLS1RNWVhWE5raVpuQnVOODRYbWc3VEVQVFk0SlZJUmtCWmtoSWM3QUZhLVRmQ1RudTFrSkpETm9ReGJLQmo0V1VVMEpBUEhXYlE?oc=5",
-              "publisher": "hoopshype.com",
+              "publisher": "HoopsHype",
               "source_group": "specialist",
               "feed": "NBA specialists",
               "published_at": "2026-08-13T19:52:00+00:00",
@@ -30727,10 +30829,10 @@
               "id": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZWFLYWFSRDJ0UTNaQnFJQmJsbG9RR2VFcm9QWldCN2FEZThnYmt5UU1vazBuTHc1d1pNUXpvVlNjNEd5bHFHY3d1anNfWmlETU5CSE1iU25sa3hLbE5oYURzM2VERUxCVTFPUE5nS3ZTY2VRSHdza1dkVklFOUJJTVZKWUNuY3BhRllvTHEtVHZTNnNjb1Z5ZlVWUkhodzlIMFd0blV4bnNQclhSa204Z0hTaDZVTUtadl9LdTR2X1MyRzBzdXA0?oc=5",
               "desk": "nba",
               "title": "San Antonio Spurs general manager Brian Wright offered …",
-              "summary": "San Antonio Spurs general manager Brian Wright offered … hoopshype.com",
+              "summary": "San Antonio Spurs general manager Brian Wright offered … HoopsHype",
               "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZWFLYWFSRDJ0UTNaQnFJQmJsbG9RR2VFcm9QWldCN2FEZThnYmt5UU1vazBuTHc1d1pNUXpvVlNjNEd5bHFHY3d1anNfWmlETU5CSE1iU25sa3hLbE5oYURzM2VERUxCVTFPUE5nS3ZTY2VRSHdza1dkVklFOUJJTVZKWUNuY3BhRllvTHEtVHZTNnNjb1Z5ZlVWUkhodzlIMFd0blV4bnNQclhSa204Z0hTaDZVTUtadl9LdTR2X1MyRzBzdXA0?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZWFLYWFSRDJ0UTNaQnFJQmJsbG9RR2VFcm9QWldCN2FEZThnYmt5UU1vazBuTHc1d1pNUXpvVlNjNEd5bHFHY3d1anNfWmlETU5CSE1iU25sa3hLbE5oYURzM2VERUxCVTFPUE5nS3ZTY2VRSHdza1dkVklFOUJJTVZKWUNuY3BhRllvTHEtVHZTNnNjb1Z5ZlVWUkhodzlIMFd0blV4bnNQclhSa204Z0hTaDZVTUtadl9LdTR2X1MyRzBzdXA0?oc=5",
-              "publisher": "hoopshype.com",
+              "publisher": "HoopsHype",
               "source_group": "specialist",
               "feed": "NBA specialists",
               "published_at": "2026-08-14T14:53:00+00:00",
@@ -31065,13 +31167,13 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-14T21:31:04.338317+00:00",
-      "updated_at": "2026-08-14T21:31:04.338317+00:00",
+      "content_updated_at": "2026-08-14T21:33:15.789561+00:00",
+      "updated_at": "2026-08-14T21:33:15.789561+00:00",
       "data_updated_at": {
         "standings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "standings": "2026-08-14T21:31:04.338317+00:00"
+        "standings": "2026-08-14T21:33:15.789561+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -31085,7 +31187,7 @@
           "SB Nation": 8,
           "SNY": 1,
           "NBC Sports BayArea": 1,
-          "hoopshype.com": 16,
+          "HoopsHype": 16,
           "The Boston Globe": 2,
           "Dallas News": 3,
           "NY Post Sports": 2,
@@ -31115,23 +31217,22 @@
   },
   "homepage": {
     "hero": {
-      "id": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
+      "id": "https://bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
       "desk": "soccer",
-      "title": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
-      "summary": "Raúl Jiménez marked his return to Wolves with the stoppage-time equaliser that saved them from an embarrassing start to their return to the Championship. The Mexico striker, who scored against England during the World Cup finals, retained his composure to convert a penalty given for handball by Rayan Alebiosu that would have had VAR questioning whether the defender was in the area when Jackson Tchatchoua’s cross struck his arm. Thankfully for Wolves, the video assistant referee is no longer their problem. Jiménez, who had bought scarves for all supporters in the South Bank in gratitude for their response to welcoming him home, tucked away his first goal in this second spell for the club he graced during their recent heyday. Continue reading...",
-      "url": "https://www.theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-      "canonical_url": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-      "publisher": "The Guardian",
+      "title": "Burnley sign Chelsea's Satpayev on loan",
+      "summary": "Chelsea's new teenage winger Dastan Satpayev joins Championship club Burnley on a season's loan.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
+      "canonical_url": "https://bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC Sport",
       "source_group": "europe",
-      "feed": "Guardian Football",
-      "published_at": "2026-08-14T21:21:18+00:00",
-      "teams": [],
+      "feed": "BBC Football",
+      "published_at": "2026-08-14T19:49:11+00:00",
+      "teams": [
+        "Chelsea"
+      ],
       "players": [
-        "The Mexico",
-        "World Cup",
-        "Rayan Alebiosu",
-        "Jackson Tchatchoua’s",
-        "South Bank"
+        "Chelsea's Satpayev",
+        "Dastan Satpayev"
       ],
       "sport": "soccer",
       "competitions": [
@@ -31154,53 +31255,10 @@
         "AFC"
       ],
       "lanes": [
-        "world-cup"
+        "transfer-strategy"
       ]
     },
     "stories": [
-      {
-        "id": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-        "desk": "soccer",
-        "title": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
-        "summary": "Raúl Jiménez marked his return to Wolves with the stoppage-time equaliser that saved them from an embarrassing start to their return to the Championship. The Mexico striker, who scored against England during the World Cup finals, retained his composure to convert a penalty given for handball by Rayan Alebiosu that would have had VAR questioning whether the defender was in the area when Jackson Tchatchoua’s cross struck his arm. Thankfully for Wolves, the video assistant referee is no longer their problem. Jiménez, who had bought scarves for all supporters in the South Bank in gratitude for their response to welcoming him home, tucked away his first goal in this second spell for the club he graced during their recent heyday. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-        "canonical_url": "https://theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-        "publisher": "The Guardian",
-        "source_group": "europe",
-        "feed": "Guardian Football",
-        "published_at": "2026-08-14T21:21:18+00:00",
-        "teams": [],
-        "players": [
-          "The Mexico",
-          "World Cup",
-          "Rayan Alebiosu",
-          "Jackson Tchatchoua’s",
-          "South Bank"
-        ],
-        "sport": "soccer",
-        "competitions": [
-          "FIFA",
-          "UEFA",
-          "CONMEBOL",
-          "CAF",
-          "AFC",
-          "CONCACAF",
-          "Premier League",
-          "La Liga",
-          "Bundesliga",
-          "Serie A",
-          "Ligue 1",
-          "NWSL",
-          "MLS",
-          "fútbol",
-          "futebol",
-          "CAF",
-          "AFC"
-        ],
-        "lanes": [
-          "world-cup"
-        ]
-      },
       {
         "id": "https://bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
         "desk": "soccer",
@@ -31242,6 +31300,46 @@
         "lanes": [
           "transfer-strategy"
         ]
+      },
+      {
+        "id": "https://theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
+        "desk": "soccer",
+        "title": "Wolves 2-2 Blackburn: Championship opener – live",
+        "summary": "⚽ Updates from Molineux; kick-off 8pm BST ⚽ Weekend fixtures | Follow us on Instagram | Mail Dominic The 2025-26 EFL season is five minutes from getting started. We are standing on football’s equivalent of the start line at the London Marathon … a testing 46 games await, many twists and turns to come. Mowbray tells Sky Sports that Blackburn are “going to have to punch above their weight” this season and that his team are looking to make the game “tight” and create a difficult evening for Wolves, who he notes haven’t won many games of football in the past year, albeit in a different division. Continue reading...",
+        "url": "https://www.theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
+        "canonical_url": "https://theguardian.com/football/live/2026/aug/14/wolves-v-blackburn-championship-opener-live",
+        "publisher": "The Guardian",
+        "source_group": "europe",
+        "feed": "Guardian Football",
+        "published_at": "2026-08-14T21:11:48+00:00",
+        "teams": [],
+        "players": [
+          "Mail Dominic The",
+          "Mail Dominic",
+          "London Marathon",
+          "Sky Sports"
+        ],
+        "sport": "soccer",
+        "competitions": [
+          "FIFA",
+          "UEFA",
+          "CONMEBOL",
+          "CAF",
+          "AFC",
+          "CONCACAF",
+          "Premier League",
+          "La Liga",
+          "Bundesliga",
+          "Serie A",
+          "Ligue 1",
+          "NWSL",
+          "MLS",
+          "fútbol",
+          "futebol",
+          "CAF",
+          "AFC"
+        ],
+        "lanes": []
       },
       {
         "id": "https://sports.yahoo.com/articles/6-must-watch-matchups-could-203929271.html",
@@ -31375,6 +31473,31 @@
         ]
       },
       {
+        "id": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+        "desk": "nfl",
+        "title": "Jordyn Tyson injury update as Saints WR (hamstring) set to miss time",
+        "summary": "Saints WR Jordyn Tyson is dealing with a hamstring injury. Here's what to know about its severity and how long the first-round rookie may be out.",
+        "url": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+        "canonical_url": "https://sports.yahoo.com/articles/jordyn-tyson-injury-saints-wr-211657580.html",
+        "publisher": "USA TODAY Sports",
+        "source_group": "national",
+        "feed": "Yahoo NFL",
+        "published_at": "2026-08-14T21:16:57+00:00",
+        "teams": [
+          "Saints"
+        ],
+        "players": [
+          "Jordyn Tyson"
+        ],
+        "sport": "football",
+        "competitions": [
+          "NFL"
+        ],
+        "lanes": [
+          "injuries"
+        ]
+      },
+      {
         "id": "https://sports.yahoo.com/articles/alabama-slammed-bad-news-2026-193913210.html",
         "desk": "college-football",
         "title": "Alabama Slammed With Bad News Before 2026 Season Starts",
@@ -31452,31 +31575,6 @@
         "lanes": []
       },
       {
-        "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-could-return-to-packers-practice-next-week",
-        "desk": "nfl",
-        "title": "Josh Jacobs could return to Packers practice next week",
-        "summary": "Packers running back Josh Jacobs has missed more than a week of practice with a groin injury, but his return could be around the corner.",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-could-return-to-packers-practice-next-week",
-        "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-could-return-to-packers-practice-next-week",
-        "publisher": "ProFootballTalk",
-        "source_group": "specialist",
-        "feed": "ProFootballTalk",
-        "published_at": "2026-08-14T21:16:53+00:00",
-        "teams": [
-          "Packers"
-        ],
-        "players": [
-          "Josh Jacobs"
-        ],
-        "sport": "football",
-        "competitions": [
-          "NFL"
-        ],
-        "lanes": [
-          "injuries"
-        ]
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNUhtRldNaURRRXcwajREWVJjOGRZMmlFQmh3cVY5YkJDLWVWLUpEeUREOVJVNnU5dF9JdzI0NDNlTTlPTWdlc2JwYWFSX0x0UFpiYVVHcGRLUVlMY1ZOM0hZNG9SdXJ0UVVhbHFYbVZEejJERldXeU5ObW1EcmVIVGJuNUEwcW9EUV9JR1VmTm5GbzNGRTEycGRuRVN0Y0JDZ2lUU0p6d1VGakdPNHNxVG9ycUp1bWJMckJkaGkwMmZMSzRBcGk1aQ?oc=5",
         "desk": "college-football",
         "title": "Alabama running back AK Dear to miss extended time with lower-leg injury",
@@ -31499,7 +31597,7 @@
         "lanes": []
       }
     ],
-    "updated_at": "2026-08-14T21:31:04.338317+00:00"
+    "updated_at": "2026-08-14T21:33:15.789561+00:00"
   },
-  "content_hash": "b5588641af8c9fea36b24878994935ee5ae29c51bcb0ed783080c19db5f2098b"
+  "content_hash": "0e44161b27e9eb2d4bd604447fe877d45e20a2a0fa2cea8e1016ec21f351cfee"
 }
