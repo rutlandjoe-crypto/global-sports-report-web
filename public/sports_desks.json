@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-08-16T08:39:08.322152+00:00",
-  "verified_at": "2026-08-16T08:39:08.322152+00:00",
+  "generated_at": "2026-08-16T09:33:11.492588+00:00",
+  "verified_at": "2026-08-16T09:33:11.492588+00:00",
   "config": {
     "publisher_limit": 6,
     "recency_hours": 96
@@ -186,6 +186,30 @@
             "Seahawks"
           ],
           "players": [],
+          "sport": "football",
+          "competitions": [
+            "NFL"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+          "desk": "nfl",
+          "title": "49ers News: Mike Evans practices again",
+          "summary": "Your daily San Francisco 49ers news for Sunday, August 16th, 2026",
+          "url": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+          "canonical_url": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+          "publisher": "SB Nation",
+          "source_group": "national",
+          "feed": "Yahoo NFL",
+          "published_at": "2026-08-16T08:49:00+00:00",
+          "teams": [
+            "49ers"
+          ],
+          "players": [
+            "Mike Evans",
+            "San Francisco"
+          ],
           "sport": "football",
           "competitions": [
             "NFL"
@@ -567,6 +591,31 @@
             "Los Angeles",
             "Kansas City Chiefs",
             "Kansas City"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NFL"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY0lYZHNtNlExcTVCU0E3VTNEbGUzSzBURXVfS1RGWXVYRnJRd3c0U3VSWjJVSVhPWmFudzR5THY4MWM5U2RmN1ZnQm9ObnNMS0xLY2xCZ3dwZzNHV2RDSmpZWGRhVmVPUlBRaFdtQjJZSTlJczQ1a21LOXItMnQ0eUpCbTlzdFFJRDVjMjN3a1VmTG4wUXdBMnJyQ2V0VUxyNDNwYl83UUZST0J6S3F3?oc=5",
+          "desk": "nfl",
+          "title": "Cowboys' Christian Parker answers important question in first play-calling experience",
+          "summary": "Cowboys' Christian Parker answers important question in first play-calling experience Dallas News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY0lYZHNtNlExcTVCU0E3VTNEbGUzSzBURXVfS1RGWXVYRnJRd3c0U3VSWjJVSVhPWmFudzR5THY4MWM5U2RmN1ZnQm9ObnNMS0xLY2xCZ3dwZzNHV2RDSmpZWGRhVmVPUlBRaFdtQjJZSTlJczQ1a21LOXItMnQ0eUpCbTlzdFFJRDVjMjN3a1VmTG4wUXdBMnJyQ2V0VUxyNDNwYl83UUZST0J6S3F3?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY0lYZHNtNlExcTVCU0E3VTNEbGUzSzBURXVfS1RGWXVYRnJRd3c0U3VSWjJVSVhPWmFudzR5THY4MWM5U2RmN1ZnQm9ObnNMS0xLY2xCZ3dwZzNHV2RDSmpZWGRhVmVPUlBRaFdtQjJZSTlJczQ1a21LOXItMnQ0eUpCbTlzdFFJRDVjMjN3a1VmTG4wUXdBMnJyQ2V0VUxyNDNwYl83UUZST0J6S3F3?oc=5",
+          "publisher": "Dallas News",
+          "source_group": "local",
+          "feed": "NFL local discovery",
+          "published_at": "2026-08-16T05:31:09+00:00",
+          "teams": [
+            "Cowboys"
+          ],
+          "players": [
+            "Cowboys' Christian Parker",
+            "Cowboys' Christian",
+            "Dallas News"
           ],
           "sport": "football",
           "competitions": [
@@ -1019,32 +1068,6 @@
           "lanes": []
         },
         {
-          "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-nagy-is-in-the-booth-this-week-will-be-on-the-sideline-next-week",
-          "desk": "nfl",
-          "title": "Matt Nagy is in the booth this week, will be on the sideline next week",
-          "summary": "Former Chiefs offensive coordinator and Bears head coach Matt Nagy made his preseason debut with the Giants on Saturday.",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-nagy-is-in-the-booth-this-week-will-be-on-the-sideline-next-week",
-          "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-nagy-is-in-the-booth-this-week-will-be-on-the-sideline-next-week",
-          "publisher": "ProFootballTalk",
-          "source_group": "specialist",
-          "feed": "ProFootballTalk",
-          "published_at": "2026-08-15T18:43:57+00:00",
-          "teams": [
-            "Bears",
-            "Chiefs",
-            "Giants"
-          ],
-          "players": [
-            "Matt Nagy",
-            "Former Chiefs"
-          ],
-          "sport": "football",
-          "competitions": [
-            "NFL"
-          ],
-          "lanes": []
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOUdtTGJmMDZUcWtmX1JtQlZMWW95UkNnNTJrUTc0NXF1QmZTbVpId3JuOXl5ejV0RFBnZTF5eGQzQU9KZ2R6cEdTbEhDWGlTVm1pQ0RObUxuTFBKX3JsWklCSVp5Q0N0NUl4Njl6b2ppMUlfbWdQbEdJN0VpR2RKWERnWXgzOTN4Y1kwdFRtOFBLQUNDVkJQT1lKWUZBajQ?oc=5",
           "desk": "nfl",
           "title": "Mixed results for Deshaun Watson, Shedeur Sanders in Browns' preseason loss to Bears",
@@ -1064,28 +1087,6 @@
             "Shedeur Sanders",
             "Bears Mixed"
           ],
-          "sport": "football",
-          "competitions": [
-            "NFL"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/cowboys-seahawks-5-things-watch-223000504.html",
-          "desk": "nfl",
-          "title": "Cowboys at Seahawks: 5 things to watch",
-          "summary": "Some of the Cowboys storylines to watch tonight",
-          "url": "https://sports.yahoo.com/articles/cowboys-seahawks-5-things-watch-223000504.html",
-          "canonical_url": "https://sports.yahoo.com/articles/cowboys-seahawks-5-things-watch-223000504.html",
-          "publisher": "SB Nation",
-          "source_group": "national",
-          "feed": "Yahoo NFL",
-          "published_at": "2026-08-15T22:30:00+00:00",
-          "teams": [
-            "Cowboys",
-            "Seahawks"
-          ],
-          "players": [],
           "sport": "football",
           "competitions": [
             "NFL"
@@ -3034,6 +3035,35 @@
               "lanes": []
             },
             {
+              "id": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+              "desk": "nfl",
+              "title": "49ers News: Mike Evans practices again",
+              "summary": "Your daily San Francisco 49ers news for Sunday, August 16th, 2026",
+              "url": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+              "canonical_url": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+              "publisher": "SB Nation",
+              "source_group": "national",
+              "feed": "Yahoo NFL",
+              "published_at": "2026-08-16T08:49:00+00:00",
+              "teams": [
+                "49ers"
+              ],
+              "players": [
+                "Mike Evans",
+                "San Francisco"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NFL"
+              ],
+              "lanes": []
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
+            {
               "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceyair-wright-left-bengals-90-man-roster-for-an-acting-opportunity",
               "desk": "nfl",
               "title": "Ceyair Wright left Bengals 90-man roster for an acting opportunity",
@@ -3055,12 +3085,7 @@
                 "NFL"
               ],
               "lanes": []
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
+            },
             {
               "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVA4VDItMll0cG5XUjhHSUdtQm9OUmpEdU15Vk5tN0pCVjY3cmE4UGhJWm9hbkUtbnZvV0d0dU9sZlhldHN4ODFtUU1mTFJ3NkcwaFVxdUhmbmlrU0R1bEMtX2FtN0p2WnUyc3UyOV8xQndOVWVDbl85U1A0c0pRMlRGbWJBN0kt?oc=5",
               "desk": "nfl",
@@ -3228,33 +3253,6 @@
                 "Los Angeles",
                 "Kansas City Chiefs",
                 "Kansas City"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NFL"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-wrs-coach-antwaan-randle-el-called-plays-in-the-second-half-saturday",
-              "desk": "nfl",
-              "title": "Bears WRs coach Antwaan Randle El called plays in the second half Saturday",
-              "summary": "The Bears scored 24 points and put up 235 yards in the second half of their 34-10 preseason win over the Browns on Saturday.",
-              "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-wrs-coach-antwaan-randle-el-called-plays-in-the-second-half-saturday",
-              "canonical_url": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-wrs-coach-antwaan-randle-el-called-plays-in-the-second-half-saturday",
-              "publisher": "ProFootballTalk",
-              "source_group": "specialist",
-              "feed": "ProFootballTalk",
-              "published_at": "2026-08-16T00:56:00+00:00",
-              "teams": [
-                "Bears",
-                "Browns"
-              ],
-              "players": [
-                "Antwaan Randle El",
-                "Antwaan Randle",
-                "Saturday The Bears",
-                "Saturday The"
               ],
               "sport": "football",
               "competitions": [
@@ -3815,27 +3813,27 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-16T08:39:08.322152+00:00",
-      "updated_at": "2026-08-16T08:39:08.322152+00:00",
+      "content_updated_at": "2026-08-16T09:33:11.492588+00:00",
+      "updated_at": "2026-08-16T09:33:11.492588+00:00",
       "data_updated_at": {
         "scores": "2026-08-16T04:43:22.148154+00:00",
         "standings": "2026-08-16T03:08:40.990922+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-16T08:39:08.322152+00:00",
-        "standings": "2026-08-16T08:39:08.322152+00:00"
+        "scores": "2026-08-16T09:33:11.492588+00:00",
+        "standings": "2026-08-16T09:33:11.492588+00:00"
       },
       "diagnostics": {
         "candidate_count": 280,
-        "classified_count": 136,
-        "deduplicated_count": 128,
+        "classified_count": 137,
+        "deduplicated_count": 129,
         "selected_count": 72,
         "publishers": {
-          "ProFootballTalk": 8,
+          "ProFootballTalk": 7,
           "SB Nation": 22,
           "NY Post Sports": 3,
           "Yahoo Sports": 4,
-          "Dallas News": 4,
+          "Dallas News": 5,
           "SNY": 1,
           "NFL.com": 6,
           "USA TODAY Sports": 4,
@@ -3905,6 +3903,35 @@
           "lanes": [
             "quarterbacks"
           ]
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+          "desk": "college-football",
+          "title": "Watch 'The Film Guy' Brooks Austin break down Texas A&M QB Marcel Reed",
+          "summary": "Texas A&M QB Marcel Reed needs to get back to playing like a true dual-threat, and CFB analyst Brooks Austin agrees in his latest breakdown.",
+          "url": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+          "canonical_url": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+          "publisher": "Aggies Wire",
+          "source_group": "national",
+          "feed": "Yahoo College Football",
+          "published_at": "2026-08-16T09:09:21+00:00",
+          "teams": [
+            "Texas",
+            "Texas A&M"
+          ],
+          "players": [
+            "The Film Guy",
+            "The Film",
+            "Brooks Austin",
+            "Marcel Reed Texas",
+            "Marcel Reed"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NCAA FBS",
+            "College Football Playoff"
+          ],
+          "lanes": []
         },
         {
           "id": "https://sports.yahoo.com/articles/texas-m-football-news-2028-231633999.html",
@@ -4973,12 +5000,12 @@
           "lanes": []
         },
         {
-          "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV1ZNTlFxdnJZNUFLUUN0SmtyR2N0UnBHaTJXV0dhSUoyX0pyeHRkXzlsUE9iSi1UZS00cUwxOHZTMDIxZjByMnBQS3JWbEJHZjRQc2FiNTYyNUxBM1hyYXNYeFQ2SlJsMFdsaGlkZ2lxSFdqeUZyOEdxRXBwTEdmMFNyX0NqUWhlS3A3d2xWSHlnRzV5R0xqbE5xd3JXcG81ek9IdVJtTWcxZ1ZmYjVOeHU4c2JReW1uNzZNSjRXd2g?oc=5",
+          "id": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWEJyREVURldwclBxcXVQWEJjbW5GbkwyUTU2QWFIOUZmUVByczltcDJrbHROdjEzTE53MUNLbkp6SzVmbGpDT2d4MGNNMXljMTdzRG1zQ2xRanliSnloWV9JeEkzMVdGUy1nUUJ4ZEJESzFBdDYwTm9RcTRFQjYyN1hSTElQd2ZVT0J5eUFHbmdUWHdYOHBaSzNMRlFmS2VtR3ZMNHNEYUNKbjJZLTNJRUVBZEFVQVhzY0twQ3c2cEpVaXprNVZoQ0pDZzl5QnZJVUFoRTZDLXFKOXdJLW9wSVhMX2Q3UQ?oc=5",
           "desk": "college-football",
           "title": "College football's most homegrown teams: Programs with highest number of in-state players in 2026",
           "summary": "College football's most homegrown teams: Programs with highest number of in-state players in 2026 247Sports",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV1ZNTlFxdnJZNUFLUUN0SmtyR2N0UnBHaTJXV0dhSUoyX0pyeHRkXzlsUE9iSi1UZS00cUwxOHZTMDIxZjByMnBQS3JWbEJHZjRQc2FiNTYyNUxBM1hyYXNYeFQ2SlJsMFdsaGlkZ2lxSFdqeUZyOEdxRXBwTEdmMFNyX0NqUWhlS3A3d2xWSHlnRzV5R0xqbE5xd3JXcG81ek9IdVJtTWcxZ1ZmYjVOeHU4c2JReW1uNzZNSjRXd2g?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV1ZNTlFxdnJZNUFLUUN0SmtyR2N0UnBHaTJXV0dhSUoyX0pyeHRkXzlsUE9iSi1UZS00cUwxOHZTMDIxZjByMnBQS3JWbEJHZjRQc2FiNTYyNUxBM1hyYXNYeFQ2SlJsMFdsaGlkZ2lxSFdqeUZyOEdxRXBwTEdmMFNyX0NqUWhlS3A3d2xWSHlnRzV5R0xqbE5xd3JXcG81ek9IdVJtTWcxZ1ZmYjVOeHU4c2JReW1uNzZNSjRXd2g?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWEJyREVURldwclBxcXVQWEJjbW5GbkwyUTU2QWFIOUZmUVByczltcDJrbHROdjEzTE53MUNLbkp6SzVmbGpDT2d4MGNNMXljMTdzRG1zQ2xRanliSnloWV9JeEkzMVdGUy1nUUJ4ZEJESzFBdDYwTm9RcTRFQjYyN1hSTElQd2ZVT0J5eUFHbmdUWHdYOHBaSzNMRlFmS2VtR3ZMNHNEYUNKbjJZLTNJRUVBZEFVQVhzY0twQ3c2cEpVaXprNVZoQ0pDZzl5QnZJVUFoRTZDLXFKOXdJLW9wSVhMX2Q3UQ?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWEJyREVURldwclBxcXVQWEJjbW5GbkwyUTU2QWFIOUZmUVByczltcDJrbHROdjEzTE53MUNLbkp6SzVmbGpDT2d4MGNNMXljMTdzRG1zQ2xRanliSnloWV9JeEkzMVdGUy1nUUJ4ZEJESzFBdDYwTm9RcTRFQjYyN1hSTElQd2ZVT0J5eUFHbmdUWHdYOHBaSzNMRlFmS2VtR3ZMNHNEYUNKbjJZLTNJRUVBZEFVQVhzY0twQ3c2cEpVaXprNVZoQ0pDZzl5QnZJVUFoRTZDLXFKOXdJLW9wSVhMX2Q3UQ?oc=5",
           "publisher": "247Sports",
           "source_group": "specialist",
           "feed": "College football specialists",
@@ -5723,26 +5750,6 @@
           "lanes": [
             "rankings"
           ]
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcVhJWXZMejBxVkd1czNDZzlJX3JSVjBzRnlLbGJ3VVhLU1p4SVpKaDlRZUxZNFBHaXZZU1UtLUplOUNqQ1dqN09jMUNrdVJkLUowTkVwNXhBcVluZDNRVnNHYjdrbGJzS01qT1hkOC00SVRwM2lkRUZXUVltN09VQTZNVnlzc0tVa2IzeHpRTy03UE9qdVAwMU1CYXBoWnZMY1dpUlhjMGd6ZEpkdFRN?oc=5",
-          "desk": "college-football",
-          "title": "College football coaches, staffers: NCAA's 5-for-5 rule helped roster management, but a bigger problem remains",
-          "summary": "College football coaches, staffers: NCAA's 5-for-5 rule helped roster management, but a bigger problem remains 247Sports",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcVhJWXZMejBxVkd1czNDZzlJX3JSVjBzRnlLbGJ3VVhLU1p4SVpKaDlRZUxZNFBHaXZZU1UtLUplOUNqQ1dqN09jMUNrdVJkLUowTkVwNXhBcVluZDNRVnNHYjdrbGJzS01qT1hkOC00SVRwM2lkRUZXUVltN09VQTZNVnlzc0tVa2IzeHpRTy03UE9qdVAwMU1CYXBoWnZMY1dpUlhjMGd6ZEpkdFRN?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcVhJWXZMejBxVkd1czNDZzlJX3JSVjBzRnlLbGJ3VVhLU1p4SVpKaDlRZUxZNFBHaXZZU1UtLUplOUNqQ1dqN09jMUNrdVJkLUowTkVwNXhBcVluZDNRVnNHYjdrbGJzS01qT1hkOC00SVRwM2lkRUZXUVltN09VQTZNVnlzc0tVa2IzeHpRTy03UE9qdVAwMU1CYXBoWnZMY1dpUlhjMGd6ZEpkdFRN?oc=5",
-          "publisher": "247Sports",
-          "source_group": "specialist",
-          "feed": "College football specialists",
-          "published_at": "2026-08-12T21:55:00+00:00",
-          "teams": [],
-          "players": [],
-          "sport": "football",
-          "competitions": [
-            "NCAA FBS",
-            "College Football Playoff"
-          ],
-          "lanes": []
         },
         {
           "id": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX0VjOVhCZFdmWk5TczM1THdfQ0RPUXVLZmYyUmxFYnM0QUZKbVNSdUxjUENyekoxaDdpOTlqRlFSdUVVVXA3clJLNXpFWHI4R3ViRlFnLTZ1blJIRFotQUYwMjJXMmhMWDdKT256SUF3dFY1Z1d2NEFTTFdwTEhhcUY1T2dHVVVlUmEzS3FYWE5kSU1hN1hEU1c2RGxJcEZJT2M2WksydXJ2T21MWjlRZA?oc=5",
@@ -8112,6 +8119,35 @@
               ]
             },
             {
+              "id": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+              "desk": "college-football",
+              "title": "Watch 'The Film Guy' Brooks Austin break down Texas A&M QB Marcel Reed",
+              "summary": "Texas A&M QB Marcel Reed needs to get back to playing like a true dual-threat, and CFB analyst Brooks Austin agrees in his latest breakdown.",
+              "url": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+              "canonical_url": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+              "publisher": "Aggies Wire",
+              "source_group": "national",
+              "feed": "Yahoo College Football",
+              "published_at": "2026-08-16T09:09:21+00:00",
+              "teams": [
+                "Texas",
+                "Texas A&M"
+              ],
+              "players": [
+                "The Film Guy",
+                "The Film",
+                "Brooks Austin",
+                "Marcel Reed Texas",
+                "Marcel Reed"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NCAA FBS",
+                "College Football Playoff"
+              ],
+              "lanes": []
+            },
+            {
               "id": "https://sports.yahoo.com/articles/ahead-schedule-hammond-holds-keys-220016717.html",
               "desk": "college-football",
               "title": "'Ahead of Schedule!' Will Hammond Holds the Keys to Texas Tech’s 2026 Title Dreams",
@@ -8217,7 +8253,12 @@
                 "College Football Playoff"
               ],
               "lanes": []
-            },
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
             {
               "id": "https://sports.yahoo.com/articles/early-look-sec-opponent-georgia-232417137.html",
               "desk": "college-football",
@@ -8244,12 +8285,7 @@
                 "College Football Playoff"
               ],
               "lanes": []
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
+            },
             {
               "id": "https://sports.yahoo.com/articles/houston-star-freshman-rb-john-230659263.html",
               "desk": "college-football",
@@ -8435,35 +8471,6 @@
                 "Stands Tall",
                 "Texas Tech Red",
                 "Texas Tech"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NCAA FBS",
-                "College Football Playoff"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/2026-sec-preview-georgia-remains-181200456.html",
-              "desk": "college-football",
-              "title": "2026 SEC Preview: Georgia Remains Top Dog in Nation's Deepest Conference",
-              "summary": "Brad Powers' 2026 SEC preview and best bets, featuring the Georgia Bulldogs.",
-              "url": "https://sports.yahoo.com/articles/2026-sec-preview-georgia-remains-181200456.html",
-              "canonical_url": "https://sports.yahoo.com/articles/2026-sec-preview-georgia-remains-181200456.html",
-              "publisher": "COVERS",
-              "source_group": "national",
-              "feed": "Yahoo College Football",
-              "published_at": "2026-08-16T00:56:00+00:00",
-              "teams": [
-                "Georgia"
-              ],
-              "players": [
-                "Georgia Remains Top",
-                "Georgia Remains",
-                "Nation's Deepest Conference",
-                "Nation's Deepest",
-                "Brad Powers",
-                "Georgia Bulldogs"
               ],
               "sport": "football",
               "competitions": [
@@ -9982,32 +9989,32 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-16T08:39:08.322152+00:00",
-      "updated_at": "2026-08-16T08:39:08.322152+00:00",
+      "content_updated_at": "2026-08-16T09:33:11.492588+00:00",
+      "updated_at": "2026-08-16T09:33:11.492588+00:00",
       "data_updated_at": {
         "scores": "2026-08-11T05:58:48.377407+00:00",
         "rankings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-16T08:39:08.322152+00:00",
-        "rankings": "2026-08-16T08:39:08.322152+00:00"
+        "scores": "2026-08-16T09:33:11.492588+00:00",
+        "rankings": "2026-08-16T09:33:11.492588+00:00"
       },
       "diagnostics": {
-        "candidate_count": 349,
+        "candidate_count": 350,
         "classified_count": 83,
-        "deduplicated_count": 79,
+        "deduplicated_count": 80,
         "selected_count": 72,
         "publishers": {
           "Stadium Rant": 1,
+          "Aggies Wire": 2,
           "ClutchPoints": 2,
           "Roundtable Sports": 6,
           "Detroit Free Press": 1,
           "SB Nation": 1,
           "Buckeyes Wire": 3,
           "Houston Cougars On SI": 1,
-          "Aggies Wire": 1,
           "Texas A&M On SI": 1,
-          "247Sports": 28,
+          "247Sports": 27,
           "USA TODAY Sports": 1,
           "The Spokesman-Review, Spokane, Wash.": 1,
           "USC Trojans On SI": 2,
@@ -10023,7 +10030,7 @@
           "Yahoo College Football": 50,
           "NCAA official discovery": 100,
           "College football specialists": 100,
-          "College football local discovery": 99
+          "College football local discovery": 100
         },
         "source_success_count": 4,
         "source_errors": [
@@ -10146,6 +10153,30 @@
           "lanes": []
         },
         {
+          "id": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+          "desk": "mlb",
+          "title": "Yankees news: Aaron Judge throws a baseball",
+          "summary": "Aaron Judge cleared to throw; Gerrit Cole is set for obscure record; scouting reports from Double-A",
+          "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+          "canonical_url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+          "publisher": "SB Nation",
+          "source_group": "national",
+          "feed": "Yahoo MLB",
+          "published_at": "2026-08-16T09:00:00+00:00",
+          "teams": [
+            "Yankees"
+          ],
+          "players": [
+            "Aaron Judge",
+            "Gerrit Cole"
+          ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": []
+        },
+        {
           "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEF6Wl9QODJ5UE9md3FQU29pRDBuTWdlek1zS0xMNS00SjU5Y0lsZTdYVVczX016RW9TZldyTzFoWllyNC1oWTFzMERIWGV6VmVoTUxBY2Z2QTRzZThETHktOTNWeU42cWxJZEZsZ0NZNDBXWmdmcG81V29BRG1tbmdVZktLYkdaelVDeHRnTQ?oc=5",
           "desk": "mlb",
           "title": "Báez has historic MLB debut surrounded by family and a special bee",
@@ -10189,27 +10220,6 @@
           "lanes": []
         },
         {
-          "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtSlVoMnNOdm9nR0dEU1Jrb1NvdkhqLUNvQXRZYnc2SDJPOXFfMU5rV3BBVkJrTV95allaOEdhaGdBb1BFQVpIbE9xVXVuRVdoT1Q4OGdQZnhsbzY5Q1VZNUZTU2Z2bHBmWXJ5VDNnRkw2SVc3dnljTVp3WVjSAYgBQVVfeXFMTmh4SV8xNjI4Tms4Rnk2bGZWWGpnMEF4VHBpS0lTRjJxZ0N1emdmdlVIbDhhR05IeDQtTFNaNTNPN095WWg3QkliWTJ5Q0xHVjRVZUZYVUFMZEhibndlRGVaaDFRRFlGQ282NTJ0aFh5RmFpSlhHS2ZJdTNPc3drR2xhZEtFVXVpTg?oc=5",
-          "desk": "mlb",
-          "title": "MLB's top prospect highlights 'All-Teen' team",
-          "summary": "MLB's top prospect highlights 'All-Teen' team MLB.com",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtSlVoMnNOdm9nR0dEU1Jrb1NvdkhqLUNvQXRZYnc2SDJPOXFfMU5rV3BBVkJrTV95allaOEdhaGdBb1BFQVpIbE9xVXVuRVdoT1Q4OGdQZnhsbzY5Q1VZNUZTU2Z2bHBmWXJ5VDNnRkw2SVc3dnljTVp3WVjSAYgBQVVfeXFMTmh4SV8xNjI4Tms4Rnk2bGZWWGpnMEF4VHBpS0lTRjJxZ0N1emdmdlVIbDhhR05IeDQtTFNaNTNPN095WWg3QkliWTJ5Q0xHVjRVZUZYVUFMZEhibndlRGVaaDFRRFlGQ282NTJ0aFh5RmFpSlhHS2ZJdTNPc3drR2xhZEtFVXVpTg?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtSlVoMnNOdm9nR0dEU1Jrb1NvdkhqLUNvQXRZYnc2SDJPOXFfMU5rV3BBVkJrTV95allaOEdhaGdBb1BFQVpIbE9xVXVuRVdoT1Q4OGdQZnhsbzY5Q1VZNUZTU2Z2bHBmWXJ5VDNnRkw2SVc3dnljTVp3WVjSAYgBQVVfeXFMTmh4SV8xNjI4Tms4Rnk2bGZWWGpnMEF4VHBpS0lTRjJxZ0N1emdmdlVIbDhhR05IeDQtTFNaNTNPN095WWg3QkliWTJ5Q0xHVjRVZUZYVUFMZEhibndlRGVaaDFRRFlGQ282NTJ0aFh5RmFpSlhHS2ZJdTNPc3drR2xhZEtFVXVpTg?oc=5",
-          "publisher": "MLB.com",
-          "source_group": "official",
-          "feed": "MLB official discovery",
-          "published_at": "2026-08-16T05:39:20+00:00",
-          "teams": [],
-          "players": [],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": [
-            "prospects"
-          ]
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORmt0Mk9JQ25JNWhsQzRVd3NUSWdJZVJoRVNzWDY0UExLT3F4TmxSZ2RKR3lCNnVjbGk1eXlqZlhxN2xwYXZmYlVfTURpTzZxdnpHNUcxMHgxOGdSeDdjdjRCaldZQnFjU1Z0aUZEV3RlNGltcVJwWFZDWC1ZUVdPckQ3SWc?oc=5",
           "desk": "mlb",
           "title": "Gilbert's 3-hit day, Hill's RBI in debut propel Giants over Rockies",
@@ -10227,6 +10237,25 @@
           "players": [
             "Rockies Gilbert's"
           ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
+          "desk": "mlb",
+          "title": "After long journey through injuries in Minors, Tiedemann makes his MLB debut",
+          "summary": "After long journey through injuries in Minors, Tiedemann makes his MLB debut MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
+          "publisher": "MLB.com",
+          "source_group": "official",
+          "feed": "MLB official discovery",
+          "published_at": "2026-08-16T05:00:36+00:00",
+          "teams": [],
+          "players": [],
           "sport": "baseball",
           "competitions": [
             "Major League Baseball"
@@ -10334,10 +10363,10 @@
           "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWI1WVUxVENlazcwbk1OYkp2YWZvZzQ0RkI3ZHV6MjZWYVRqc29ma0dlTHQ0dWdSU0VzQ2dvNkNqdXY2RG5CRktqMXFFN2tPMnBiVlBIMHdwb2lMYUNyWXM0Vm1MTGdxRS1QZkRMdF85eFpBRmRmdTVDRnFTUEFFTHlLM29wdHI0UmhFaGxWdTB1NFRzWnAtc3V6Q2c3VS1MQWZtRU5yQnU3TFYtRjBLWXktSzJlNFJPWi11M0tSZWM?oc=5",
           "desk": "mlb",
           "title": "Jacob Misiorowski outduels Justin Wrobleski as Brewers send Dodgers to frustrating loss",
-          "summary": "Jacob Misiorowski outduels Justin Wrobleski as Brewers send Dodgers to frustrating loss Los Angeles Times",
+          "summary": "Jacob Misiorowski outduels Justin Wrobleski as Brewers send Dodgers to frustrating loss latimes.com",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWI1WVUxVENlazcwbk1OYkp2YWZvZzQ0RkI3ZHV6MjZWYVRqc29ma0dlTHQ0dWdSU0VzQ2dvNkNqdXY2RG5CRktqMXFFN2tPMnBiVlBIMHdwb2lMYUNyWXM0Vm1MTGdxRS1QZkRMdF85eFpBRmRmdTVDRnFTUEFFTHlLM29wdHI0UmhFaGxWdTB1NFRzWnAtc3V6Q2c3VS1MQWZtRU5yQnU3TFYtRjBLWXktSzJlNFJPWi11M0tSZWM?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWI1WVUxVENlazcwbk1OYkp2YWZvZzQ0RkI3ZHV6MjZWYVRqc29ma0dlTHQ0dWdSU0VzQ2dvNkNqdXY2RG5CRktqMXFFN2tPMnBiVlBIMHdwb2lMYUNyWXM0Vm1MTGdxRS1QZkRMdF85eFpBRmRmdTVDRnFTUEFFTHlLM29wdHI0UmhFaGxWdTB1NFRzWnAtc3V6Q2c3VS1MQWZtRU5yQnU3TFYtRjBLWXktSzJlNFJPWi11M0tSZWM?oc=5",
-          "publisher": "Los Angeles Times",
+          "publisher": "latimes.com",
           "source_group": "local",
           "feed": "MLB local discovery",
           "published_at": "2026-08-16T03:30:43+00:00",
@@ -10347,9 +10376,7 @@
           ],
           "players": [
             "Jacob Misiorowski",
-            "Justin Wrobleski",
-            "Los Angeles Times",
-            "Los Angeles"
+            "Justin Wrobleski"
           ],
           "sport": "baseball",
           "competitions": [
@@ -10427,6 +10454,27 @@
             "Major League Baseball"
           ],
           "lanes": []
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtSlVoMnNOdm9nR0dEU1Jrb1NvdkhqLUNvQXRZYnc2SDJPOXFfMU5rV3BBVkJrTV95allaOEdhaGdBb1BFQVpIbE9xVXVuRVdoT1Q4OGdQZnhsbzY5Q1VZNUZTU2Z2bHBmWXJ5VDNnRkw2SVc3dnljTVp3WVjSAYgBQVVfeXFMTmh4SV8xNjI4Tms4Rnk2bGZWWGpnMEF4VHBpS0lTRjJxZ0N1emdmdlVIbDhhR05IeDQtTFNaNTNPN095WWg3QkliWTJ5Q0xHVjRVZUZYVUFMZEhibndlRGVaaDFRRFlGQ282NTJ0aFh5RmFpSlhHS2ZJdTNPc3drR2xhZEtFVXVpTg?oc=5",
+          "desk": "mlb",
+          "title": "MLB's top prospect highlights 'All-Teen' team",
+          "summary": "MLB's top prospect highlights 'All-Teen' team MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtSlVoMnNOdm9nR0dEU1Jrb1NvdkhqLUNvQXRZYnc2SDJPOXFfMU5rV3BBVkJrTV95allaOEdhaGdBb1BFQVpIbE9xVXVuRVdoT1Q4OGdQZnhsbzY5Q1VZNUZTU2Z2bHBmWXJ5VDNnRkw2SVc3dnljTVp3WVjSAYgBQVVfeXFMTmh4SV8xNjI4Tms4Rnk2bGZWWGpnMEF4VHBpS0lTRjJxZ0N1emdmdlVIbDhhR05IeDQtTFNaNTNPN095WWg3QkliWTJ5Q0xHVjRVZUZYVUFMZEhibndlRGVaaDFRRFlGQ282NTJ0aFh5RmFpSlhHS2ZJdTNPc3drR2xhZEtFVXVpTg?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtSlVoMnNOdm9nR0dEU1Jrb1NvdkhqLUNvQXRZYnc2SDJPOXFfMU5rV3BBVkJrTV95allaOEdhaGdBb1BFQVpIbE9xVXVuRVdoT1Q4OGdQZnhsbzY5Q1VZNUZTU2Z2bHBmWXJ5VDNnRkw2SVc3dnljTVp3WVjSAYgBQVVfeXFMTmh4SV8xNjI4Tms4Rnk2bGZWWGpnMEF4VHBpS0lTRjJxZ0N1emdmdlVIbDhhR05IeDQtTFNaNTNPN095WWg3QkliWTJ5Q0xHVjRVZUZYVUFMZEhibndlRGVaaDFRRFlGQ282NTJ0aFh5RmFpSlhHS2ZJdTNPc3drR2xhZEtFVXVpTg?oc=5",
+          "publisher": "MLB.com",
+          "source_group": "official",
+          "feed": "MLB official discovery",
+          "published_at": "2026-08-16T02:42:23+00:00",
+          "teams": [],
+          "players": [],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": [
+            "prospects"
+          ]
         },
         {
           "id": "https://sports.yahoo.com/articles/game-124-game-day-thread-004000411.html",
@@ -10683,6 +10731,27 @@
           "lanes": []
         },
         {
+          "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhdTRPTFBXRk1fT3NFTlRiR180WS1kRTJTZllIdzNpd3luU1ZDMDBEM1VQenBybFhvemF4SEtfVjJkMlJfVlhLa183LTJfMVJoSHp5TVRnT0hrN1AyTmhQVzhCd3BrNnBVbXdhUg?oc=5",
+          "desk": "mlb",
+          "title": "Báez looks to build on historic 3-HR debut today vs. Cubs (3:15 p.m. ET, ABC/ESPN App)",
+          "summary": "Báez looks to build on historic 3-HR debut today vs. Cubs (3:15 p.m. ET, ABC/ESPN App) MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhdTRPTFBXRk1fT3NFTlRiR180WS1kRTJTZllIdzNpd3luU1ZDMDBEM1VQenBybFhvemF4SEtfVjJkMlJfVlhLa183LTJfMVJoSHp5TVRnT0hrN1AyTmhQVzhCd3BrNnBVbXdhUg?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhdTRPTFBXRk1fT3NFTlRiR180WS1kRTJTZllIdzNpd3luU1ZDMDBEM1VQenBybFhvemF4SEtfVjJkMlJfVlhLa183LTJfMVJoSHp5TVRnT0hrN1AyTmhQVzhCd3BrNnBVbXdhUg?oc=5",
+          "publisher": "MLB.com",
+          "source_group": "official",
+          "feed": "MLB official discovery",
+          "published_at": "2026-08-16T05:00:40+00:00",
+          "teams": [
+            "Cubs"
+          ],
+          "players": [],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": []
+        },
+        {
           "id": "https://sports.yahoo.com/articles/dodgers-manager-says-jacob-misiorowski-030002407.html",
           "desk": "mlb",
           "title": "Dodgers manager says Jacob Misiorowski is ‘great’ for baseball",
@@ -10782,27 +10851,6 @@
           "lanes": [
             "bullpen-performance"
           ]
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhdTRPTFBXRk1fT3NFTlRiR180WS1kRTJTZllIdzNpd3luU1ZDMDBEM1VQenBybFhvemF4SEtfVjJkMlJfVlhLa183LTJfMVJoSHp5TVRnT0hrN1AyTmhQVzhCd3BrNnBVbXdhUg?oc=5",
-          "desk": "mlb",
-          "title": "Báez looks to build on historic 3-HR debut today vs. Cubs (3:15 p.m. ET, ABC/ESPN App)",
-          "summary": "Báez looks to build on historic 3-HR debut today vs. Cubs (3:15 p.m. ET, ABC/ESPN App) MLB.com",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhdTRPTFBXRk1fT3NFTlRiR180WS1kRTJTZllIdzNpd3luU1ZDMDBEM1VQenBybFhvemF4SEtfVjJkMlJfVlhLa183LTJfMVJoSHp5TVRnT0hrN1AyTmhQVzhCd3BrNnBVbXdhUg?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhdTRPTFBXRk1fT3NFTlRiR180WS1kRTJTZllIdzNpd3luU1ZDMDBEM1VQenBybFhvemF4SEtfVjJkMlJfVlhLa183LTJfMVJoSHp5TVRnT0hrN1AyTmhQVzhCd3BrNnBVbXdhUg?oc=5",
-          "publisher": "MLB.com",
-          "source_group": "official",
-          "feed": "MLB official discovery",
-          "published_at": "2026-08-16T04:46:29+00:00",
-          "teams": [
-            "Cubs"
-          ],
-          "players": [],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": []
         },
         {
           "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDI4eHBtaUdNT0lPbGtoTGNuYTlReWQyd2NaYmlPNjVBblFOdEJ3MVNNYUZCc01vNlE2S2V2M0JCMWJWS1J2Q0VTQmUxWVYxUkVuc3ZZYThLSjZOcHEycUJJRGszWHhGWkNFbVV0eS1UQm90Y3JYYWJKSmRCXzYzRjV0OWQ?oc=5",
@@ -11022,6 +11070,29 @@
           "lanes": []
         },
         {
+          "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmh0SjBDRXltcGpMRzFHdXZVQjY1c2VxcEh2djh5YTZ3Nnd6RzZjNGNFaWkyUTNiSWhEVlFmWXdGN1ZKNXJGdVRWenNRS01qbWEtZk9meEhvc1F0WEdUWXpuclNmSkc1OXhDYldNNVh0cGl6VWRjdnVSUGg4LS1TS2MzNEhqa0lY0gGUAUFVX3lxTFBfLWRLdW95NUd4LThPMnQtcEpua1Q1VG5KLWdmY3hRbEg0TG1zak11QWFxeUpqb25DR2pFTlZvQmdNLXR0V1NDSWs2bmxCaFR6VE9FNjI1WGkwdDl5SUpjZmtycWhITUhlT1FmbXNTWndUVTR4UE1ROUtNX19pU1lWVE9zVnlmdlhNX09vekhRZ1pJTlU?oc=5",
+          "desk": "mlb",
+          "title": "Braves prospect tallies 10 RBIs (!) in night to remember at High-A",
+          "summary": "Braves prospect tallies 10 RBIs (!) in night to remember at High-A MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmh0SjBDRXltcGpMRzFHdXZVQjY1c2VxcEh2djh5YTZ3Nnd6RzZjNGNFaWkyUTNiSWhEVlFmWXdGN1ZKNXJGdVRWenNRS01qbWEtZk9meEhvc1F0WEdUWXpuclNmSkc1OXhDYldNNVh0cGl6VWRjdnVSUGg4LS1TS2MzNEhqa0lY0gGUAUFVX3lxTFBfLWRLdW95NUd4LThPMnQtcEpua1Q1VG5KLWdmY3hRbEg0TG1zak11QWFxeUpqb25DR2pFTlZvQmdNLXR0V1NDSWs2bmxCaFR6VE9FNjI1WGkwdDl5SUpjZmtycWhITUhlT1FmbXNTWndUVTR4UE1ROUtNX19pU1lWVE9zVnlmdlhNX09vekhRZ1pJTlU?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmh0SjBDRXltcGpMRzFHdXZVQjY1c2VxcEh2djh5YTZ3Nnd6RzZjNGNFaWkyUTNiSWhEVlFmWXdGN1ZKNXJGdVRWenNRS01qbWEtZk9meEhvc1F0WEdUWXpuclNmSkc1OXhDYldNNVh0cGl6VWRjdnVSUGg4LS1TS2MzNEhqa0lY0gGUAUFVX3lxTFBfLWRLdW95NUd4LThPMnQtcEpua1Q1VG5KLWdmY3hRbEg0TG1zak11QWFxeUpqb25DR2pFTlZvQmdNLXR0V1NDSWs2bmxCaFR6VE9FNjI1WGkwdDl5SUpjZmtycWhITUhlT1FmbXNTWndUVTR4UE1ROUtNX19pU1lWVE9zVnlmdlhNX09vekhRZ1pJTlU?oc=5",
+          "publisher": "MLB.com",
+          "source_group": "official",
+          "feed": "MLB official discovery",
+          "published_at": "2026-08-16T03:44:00+00:00",
+          "teams": [
+            "Braves"
+          ],
+          "players": [],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": [
+            "prospects"
+          ]
+        },
+        {
           "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oUUpBQW1PZXRoZzFOTmdNYVBDb0xYMk1BbVNiNXotWlRrVzhfV2YwZzhqaGN4VGlpMVctM1NZdVVBMHdqM18wdlM3WHo2cGZocUVVVndXal9ZTUN0NFBtMnFHTjg3RlgxbnpXSW5RZE0yUEhsRG5oUnpqbU8?oc=5",
           "desk": "mlb",
           "title": "White Sox earn series win vs. rival Tigers but 'still have a lot more to go'",
@@ -11140,79 +11211,6 @@
             "Washington Nationals",
             "Francisco Lindor"
           ],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/astros-vs-mariners-game-discussion-230558337.html",
-          "desk": "mlb",
-          "title": "Astros vs. Mariners Game Discussion: 8/15/2026",
-          "summary": "TONIGHT’S GAME: The first-place Houston Astros (63-60), who own a 3.0-game lead in the AL West, will play the middle game of their three-game series against the division rival Seattle Mariners (57-66) tonight at Daikin Park. RHP Hayden Wesneski (2-0, 3.86 ERA) will make his fourth Major League start of the season tonight, this time […]",
-          "url": "https://sports.yahoo.com/articles/astros-vs-mariners-game-discussion-230558337.html",
-          "canonical_url": "https://sports.yahoo.com/articles/astros-vs-mariners-game-discussion-230558337.html",
-          "publisher": "SB Nation",
-          "source_group": "national",
-          "feed": "Yahoo MLB",
-          "published_at": "2026-08-15T23:05:58+00:00",
-          "teams": [
-            "Astros",
-            "Mariners"
-          ],
-          "players": [
-            "Mariners Game Discussion",
-            "Mariners Game",
-            "Houston Astros",
-            "Seattle Mariners",
-            "Daikin Park",
-            "Hayden Wesneski",
-            "Major League"
-          ],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": [
-            "division-races"
-          ]
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/padres-guardians-cantillo-vs-peralta-230000498.html",
-          "desk": "mlb",
-          "title": "PADRES AT GUARDIANS: Cantillo vs. Peralta, discussion",
-          "summary": "Here we grow again",
-          "url": "https://sports.yahoo.com/articles/padres-guardians-cantillo-vs-peralta-230000498.html",
-          "canonical_url": "https://sports.yahoo.com/articles/padres-guardians-cantillo-vs-peralta-230000498.html",
-          "publisher": "SB Nation",
-          "source_group": "national",
-          "feed": "Yahoo MLB",
-          "published_at": "2026-08-15T23:00:00+00:00",
-          "teams": [
-            "Guardians",
-            "Padres"
-          ],
-          "players": [],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
-          "desk": "mlb",
-          "title": "After long journey through injuries in Minors, Tiedemann makes his MLB debut",
-          "summary": "After long journey through injuries in Minors, Tiedemann makes his MLB debut MLB.com",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
-          "publisher": "MLB.com",
-          "source_group": "official",
-          "feed": "MLB official discovery",
-          "published_at": "2026-08-15T22:59:58+00:00",
-          "teams": [],
-          "players": [],
           "sport": "baseball",
           "competitions": [
             "Major League Baseball"
@@ -11349,20 +11347,17 @@
           "id": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWJFREI1N1ZKNGM0b05GOXk0LU9IMGRUSjlVRHE3TDMyZmcwT3FUMjJHcDFCUlhieWFpNkt3alZIN1lnczJIdEFGUktsaDJwRk9SSW8xQW1tcU1iU1R1WmY0WG5LSzYxQWlnNVdQR3RFeGhkSElQQmRTQzgwWThfQjNCYU0xV21Xbm9IR2JLbVl3dmNQdnJDMkJKUGcwNXpuREJwcGFnUWZGWVpiN08xN2hxOXpPV21lblE?oc=5",
           "desk": "mlb",
           "title": "Edwin Díaz feels he’s ‘going in a good direction’ after escaping jam in Dodgers’ win",
-          "summary": "Edwin Díaz feels he’s ‘going in a good direction’ after escaping jam in Dodgers’ win Los Angeles Times",
+          "summary": "Edwin Díaz feels he’s ‘going in a good direction’ after escaping jam in Dodgers’ win latimes.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWJFREI1N1ZKNGM0b05GOXk0LU9IMGRUSjlVRHE3TDMyZmcwT3FUMjJHcDFCUlhieWFpNkt3alZIN1lnczJIdEFGUktsaDJwRk9SSW8xQW1tcU1iU1R1WmY0WG5LSzYxQWlnNVdQR3RFeGhkSElQQmRTQzgwWThfQjNCYU0xV21Xbm9IR2JLbVl3dmNQdnJDMkJKUGcwNXpuREJwcGFnUWZGWVpiN08xN2hxOXpPV21lblE?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWJFREI1N1ZKNGM0b05GOXk0LU9IMGRUSjlVRHE3TDMyZmcwT3FUMjJHcDFCUlhieWFpNkt3alZIN1lnczJIdEFGUktsaDJwRk9SSW8xQW1tcU1iU1R1WmY0WG5LSzYxQWlnNVdQR3RFeGhkSElQQmRTQzgwWThfQjNCYU0xV21Xbm9IR2JLbVl3dmNQdnJDMkJKUGcwNXpuREJwcGFnUWZGWVpiN08xN2hxOXpPV21lblE?oc=5",
-          "publisher": "Los Angeles Times",
+          "publisher": "latimes.com",
           "source_group": "local",
           "feed": "MLB local discovery",
           "published_at": "2026-08-15T07:52:31+00:00",
           "teams": [
             "Dodgers"
           ],
-          "players": [
-            "Los Angeles Times",
-            "Los Angeles"
-          ],
+          "players": [],
           "sport": "baseball",
           "competitions": [
             "Major League Baseball"
@@ -11397,33 +11392,6 @@
           ],
           "lanes": [
             "division-races"
-          ]
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
-          "desk": "mlb",
-          "title": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation",
-          "summary": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation Los Angeles Times",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
-          "publisher": "Los Angeles Times",
-          "source_group": "local",
-          "feed": "MLB local discovery",
-          "published_at": "2026-08-15T07:15:00+00:00",
-          "teams": [
-            "Dodgers"
-          ],
-          "players": [
-            "Shohei Ohtani",
-            "Los Angeles Times",
-            "Los Angeles"
-          ],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": [
-            "starting-pitching"
           ]
         },
         {
@@ -11592,10 +11560,10 @@
           "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVN0OFhhWEZwMlQ5MkVoM01vVnBieFJaNUo2eUpoRUVQTFNyZDhmY1pralNMQXhTbzQxUHNrWnNEUTU0N0IxYUF2RFpZNDd3djJmQlFsVUNjMncyR1lBc0NUMFlnMTZfMDVqUTdwZkUzSTByX24wRzI5X1RzYUdGYVVEOHFMRGwxSjdud05vT05IQ0xKNGM4dTJEVWVpeUdFaFE?oc=5",
           "desk": "mlb",
           "title": "Another Edwin Díaz meltdown dooms Dodgers in loss to first-place Brewers",
-          "summary": "Another Edwin Díaz meltdown dooms Dodgers in loss to first-place Brewers Los Angeles Times",
+          "summary": "Another Edwin Díaz meltdown dooms Dodgers in loss to first-place Brewers latimes.com",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVN0OFhhWEZwMlQ5MkVoM01vVnBieFJaNUo2eUpoRUVQTFNyZDhmY1pralNMQXhTbzQxUHNrWnNEUTU0N0IxYUF2RFpZNDd3djJmQlFsVUNjMncyR1lBc0NUMFlnMTZfMDVqUTdwZkUzSTByX24wRzI5X1RzYUdGYVVEOHFMRGwxSjdud05vT05IQ0xKNGM4dTJEVWVpeUdFaFE?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVN0OFhhWEZwMlQ5MkVoM01vVnBieFJaNUo2eUpoRUVQTFNyZDhmY1pralNMQXhTbzQxUHNrWnNEUTU0N0IxYUF2RFpZNDd3djJmQlFsVUNjMncyR1lBc0NUMFlnMTZfMDVqUTdwZkUzSTByX24wRzI5X1RzYUdGYVVEOHFMRGwxSjdud05vT05IQ0xKNGM4dTJEVWVpeUdFaFE?oc=5",
-          "publisher": "Los Angeles Times",
+          "publisher": "latimes.com",
           "source_group": "local",
           "feed": "MLB local discovery",
           "published_at": "2026-08-14T08:05:00+00:00",
@@ -11606,9 +11574,7 @@
           "players": [
             "Another Edwin",
             "Brewers Another Edwin",
-            "Brewers Another",
-            "Brewers Los Angeles",
-            "Brewers Los"
+            "Brewers Another"
           ],
           "sport": "baseball",
           "competitions": [
@@ -11648,22 +11614,21 @@
           ]
         },
         {
-          "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNk1tQnV1cGZIVGtFakJUV2NOc0x0RFZiYzZ2Sjg1VFdTbDJIOHRLNUFLSllxN01kOEZLMGVzYjNIcnhMVGRLbjF4N1F5UEZyOEZsdzdzRkk2QXhQSktZT0REOUVCcDVkNzVicE4yS18zWmJtR2pZbkpjdmF0djZiMVh1aGM?oc=5",
+          "id": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDV6NFBlalp0Qk9jbHEtR1lBbWdUNWpEOWp2YnNzWTFMY25kSWFpYWY5QXZZT2xxV1BLZkszNkdkNFhZUWZrNVZLR3hIM0V5LVlYOWVDaGNVdFNGR3htSkF2VmRNd0RQTVBEOVVyTDd1S1piVjh1VjVHRzQyY092WWQxNHRpZm9UR0lZOV9wN294a0I5QktVclB2dThjN0NSTlZZSzZR?oc=5",
           "desk": "mlb",
-          "title": "2026 MLB Top Prospects For Every Team",
-          "summary": "2026 MLB Top Prospects For Every Team Baseball America",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNk1tQnV1cGZIVGtFakJUV2NOc0x0RFZiYzZ2Sjg1VFdTbDJIOHRLNUFLSllxN01kOEZLMGVzYjNIcnhMVGRLbjF4N1F5UEZyOEZsdzdzRkk2QXhQSktZT0REOUVCcDVkNzVicE4yS18zWmJtR2pZbkpjdmF0djZiMVh1aGM?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNk1tQnV1cGZIVGtFakJUV2NOc0x0RFZiYzZ2Sjg1VFdTbDJIOHRLNUFLSllxN01kOEZLMGVzYjNIcnhMVGRLbjF4N1F5UEZyOEZsdzdzRkk2QXhQSktZT0REOUVCcDVkNzVicE4yS18zWmJtR2pZbkpjdmF0djZiMVh1aGM?oc=5",
-          "publisher": "Baseball America",
-          "source_group": "specialist",
-          "feed": "Baseball specialists",
-          "published_at": "2026-08-14T07:00:00+00:00",
-          "teams": [],
+          "title": "Commentary: Dave Roberts and Dodgers need to stop using Edwin Díaz in high-leverage moments",
+          "summary": "Commentary: Dave Roberts and Dodgers need to stop using Edwin Díaz in high-leverage moments latimes.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDV6NFBlalp0Qk9jbHEtR1lBbWdUNWpEOWp2YnNzWTFMY25kSWFpYWY5QXZZT2xxV1BLZkszNkdkNFhZUWZrNVZLR3hIM0V5LVlYOWVDaGNVdFNGR3htSkF2VmRNd0RQTVBEOVVyTDd1S1piVjh1VjVHRzQyY092WWQxNHRpZm9UR0lZOV9wN294a0I5QktVclB2dThjN0NSTlZZSzZR?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDV6NFBlalp0Qk9jbHEtR1lBbWdUNWpEOWp2YnNzWTFMY25kSWFpYWY5QXZZT2xxV1BLZkszNkdkNFhZUWZrNVZLR3hIM0V5LVlYOWVDaGNVdFNGR3htSkF2VmRNd0RQTVBEOVVyTDd1S1piVjh1VjVHRzQyY092WWQxNHRpZm9UR0lZOV9wN294a0I5QktVclB2dThjN0NSTlZZSzZR?oc=5",
+          "publisher": "latimes.com",
+          "source_group": "local",
+          "feed": "MLB local discovery",
+          "published_at": "2026-08-14T11:00:00+00:00",
+          "teams": [
+            "Dodgers"
+          ],
           "players": [
-            "Top Prospects For",
-            "Top Prospects",
-            "Every Team",
-            "Every Team Baseball"
+            "Dave Roberts"
           ],
           "sport": "baseball",
           "competitions": [
@@ -11672,13 +11637,13 @@
           "lanes": []
         },
         {
-          "id": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDV6NFBlalp0Qk9jbHEtR1lBbWdUNWpEOWp2YnNzWTFMY25kSWFpYWY5QXZZT2xxV1BLZkszNkdkNFhZUWZrNVZLR3hIM0V5LVlYOWVDaGNVdFNGR3htSkF2VmRNd0RQTVBEOVVyTDd1S1piVjh1VjVHRzQyY092WWQxNHRpZm9UR0lZOV9wN294a0I5QktVclB2dThjN0NSTlZZSzZR?oc=5",
+          "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
           "desk": "mlb",
-          "title": "Commentary: Dave Roberts and Dodgers need to stop using Edwin Díaz in high-leverage moments",
-          "summary": "Commentary: Dave Roberts and Dodgers need to stop using Edwin Díaz in high-leverage moments Los Angeles Times",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDV6NFBlalp0Qk9jbHEtR1lBbWdUNWpEOWp2YnNzWTFMY25kSWFpYWY5QXZZT2xxV1BLZkszNkdkNFhZUWZrNVZLR3hIM0V5LVlYOWVDaGNVdFNGR3htSkF2VmRNd0RQTVBEOVVyTDd1S1piVjh1VjVHRzQyY092WWQxNHRpZm9UR0lZOV9wN294a0I5QktVclB2dThjN0NSTlZZSzZR?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDV6NFBlalp0Qk9jbHEtR1lBbWdUNWpEOWp2YnNzWTFMY25kSWFpYWY5QXZZT2xxV1BLZkszNkdkNFhZUWZrNVZLR3hIM0V5LVlYOWVDaGNVdFNGR3htSkF2VmRNd0RQTVBEOVVyTDd1S1piVjh1VjVHRzQyY092WWQxNHRpZm9UR0lZOV9wN294a0I5QktVclB2dThjN0NSTlZZSzZR?oc=5",
-          "publisher": "Los Angeles Times",
+          "title": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation",
+          "summary": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation latimes.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
+          "publisher": "latimes.com",
           "source_group": "local",
           "feed": "MLB local discovery",
           "published_at": "2026-08-14T11:00:00+00:00",
@@ -11686,15 +11651,15 @@
             "Dodgers"
           ],
           "players": [
-            "Dave Roberts",
-            "Los Angeles Times",
-            "Los Angeles"
+            "Shohei Ohtani"
           ],
           "sport": "baseball",
           "competitions": [
             "Major League Baseball"
           ],
-          "lanes": []
+          "lanes": [
+            "starting-pitching"
+          ]
         },
         {
           "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JdllmMHk3cVJwVE5QbTVqUmRZOGdIX1NYTXZfZDgyLWN5Z2FJY2dnZ1RTOHJUa0daT01mOW5DQmdJT21iNmVDRUt0ZGptX05SM1RmNmlMckV1YkptRVZxNi1wYmdyc3lfamc?oc=5",
@@ -11762,10 +11727,10 @@
           "id": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1JNZlRrTHp5MC0zTlN6RHZOSzFJekVhMXBSQTg3dTlsM3ZNZjMtbFprRE1ESHByMFBpVUlNblpLY2JBV0JFSUx1YmJoV1F4WlhZQU5RZlJTd0RLd2VuSmhUT1hmaVVLLVN3Sk1NcHljVmxZclFJdlo3bU9ZVXFJRURrLUphWHRUZmhSVUdOazVFX1Z5?oc=5",
           "desk": "mlb",
           "title": "Dodgers Dugout: Previewing an important series with the Brewers",
-          "summary": "Dodgers Dugout: Previewing an important series with the Brewers Los Angeles Times",
+          "summary": "Dodgers Dugout: Previewing an important series with the Brewers latimes.com",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1JNZlRrTHp5MC0zTlN6RHZOSzFJekVhMXBSQTg3dTlsM3ZNZjMtbFprRE1ESHByMFBpVUlNblpLY2JBV0JFSUx1YmJoV1F4WlhZQU5RZlJTd0RLd2VuSmhUT1hmaVVLLVN3Sk1NcHljVmxZclFJdlo3bU9ZVXFJRURrLUphWHRUZmhSVUdOazVFX1Z5?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1JNZlRrTHp5MC0zTlN6RHZOSzFJekVhMXBSQTg3dTlsM3ZNZjMtbFprRE1ESHByMFBpVUlNblpLY2JBV0JFSUx1YmJoV1F4WlhZQU5RZlJTd0RLd2VuSmhUT1hmaVVLLVN3Sk1NcHljVmxZclFJdlo3bU9ZVXFJRURrLUphWHRUZmhSVUdOazVFX1Z5?oc=5",
-          "publisher": "Los Angeles Times",
+          "publisher": "latimes.com",
           "source_group": "local",
           "feed": "MLB local discovery",
           "published_at": "2026-08-13T13:55:00+00:00",
@@ -11776,9 +11741,7 @@
           "players": [
             "Dodgers Dugout",
             "Brewers Dodgers Dugout",
-            "Brewers Dodgers",
-            "Brewers Los Angeles",
-            "Brewers Los"
+            "Brewers Dodgers"
           ],
           "sport": "baseball",
           "competitions": [
@@ -11787,13 +11750,38 @@
           "lanes": []
         },
         {
+          "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
+          "desk": "mlb",
+          "title": "Revisiting 2026 MLB Trade Deadline Predictions",
+          "summary": "Revisiting 2026 MLB Trade Deadline Predictions Baseball America",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
+          "publisher": "Baseball America",
+          "source_group": "specialist",
+          "feed": "Baseball specialists",
+          "published_at": "2026-08-13T13:14:14+00:00",
+          "teams": [],
+          "players": [
+            "Trade Deadline Predictions",
+            "Trade Deadline",
+            "Baseball America"
+          ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": [
+            "trade-strategy"
+          ]
+        },
+        {
           "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2NFZfU1lvTDZ3M2xNR0d1Sld5SFdTTGM2b2hsNzVpM0lNRnNkQkJnT2NxWTVlbzFpVWxTS3FYMVppRDRZVEtPQ0RSMVN1cV9vMzVrQ1RLRzYwTFdZc2R5c1BUVkxqb2o3Z0JZNTFTZmFZY2pMdzk0NA?oc=5",
           "desk": "mlb",
           "title": "Let’s Put Tarik Skubal Back on the Tigers",
-          "summary": "Let’s Put Tarik Skubal Back on the Tigers blogs.fangraphs.com",
+          "summary": "Let’s Put Tarik Skubal Back on the Tigers FanGraphs",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2NFZfU1lvTDZ3M2xNR0d1Sld5SFdTTGM2b2hsNzVpM0lNRnNkQkJnT2NxWTVlbzFpVWxTS3FYMVppRDRZVEtPQ0RSMVN1cV9vMzVrQ1RLRzYwTFdZc2R5c1BUVkxqb2o3Z0JZNTFTZmFZY2pMdzk0NA?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2NFZfU1lvTDZ3M2xNR0d1Sld5SFdTTGM2b2hsNzVpM0lNRnNkQkJnT2NxWTVlbzFpVWxTS3FYMVppRDRZVEtPQ0RSMVN1cV9vMzVrQ1RLRzYwTFdZc2R5c1BUVkxqb2o3Z0JZNTFTZmFZY2pMdzk0NA?oc=5",
-          "publisher": "blogs.fangraphs.com",
+          "publisher": "FanGraphs",
           "source_group": "specialist",
           "feed": "Baseball specialists",
           "published_at": "2026-08-13T17:02:18+00:00",
@@ -14423,38 +14411,6 @@
               ]
             },
             {
-              "id": "https://sports.yahoo.com/articles/astros-vs-mariners-game-discussion-230558337.html",
-              "desk": "mlb",
-              "title": "Astros vs. Mariners Game Discussion: 8/15/2026",
-              "summary": "TONIGHT’S GAME: The first-place Houston Astros (63-60), who own a 3.0-game lead in the AL West, will play the middle game of their three-game series against the division rival Seattle Mariners (57-66) tonight at Daikin Park. RHP Hayden Wesneski (2-0, 3.86 ERA) will make his fourth Major League start of the season tonight, this time […]",
-              "url": "https://sports.yahoo.com/articles/astros-vs-mariners-game-discussion-230558337.html",
-              "canonical_url": "https://sports.yahoo.com/articles/astros-vs-mariners-game-discussion-230558337.html",
-              "publisher": "SB Nation",
-              "source_group": "national",
-              "feed": "Yahoo MLB",
-              "published_at": "2026-08-15T23:05:58+00:00",
-              "teams": [
-                "Astros",
-                "Mariners"
-              ],
-              "players": [
-                "Mariners Game Discussion",
-                "Mariners Game",
-                "Houston Astros",
-                "Seattle Mariners",
-                "Daikin Park",
-                "Hayden Wesneski",
-                "Major League"
-              ],
-              "sport": "baseball",
-              "competitions": [
-                "Major League Baseball"
-              ],
-              "lanes": [
-                "division-races"
-              ]
-            },
-            {
               "id": "https://sports.yahoo.com/mlb/article/aaron-judge-plays-catch-for-first-time-since-going-on-il-yankees-still-hope-he-can-return-this-season-232133207.html",
               "desk": "mlb",
               "title": "Aaron Judge plays catch for first time since going on IL, Yankees still hope he can return this season",
@@ -14550,33 +14506,6 @@
           "label": "Starting Pitching",
           "items": [
             {
-              "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
-              "desk": "mlb",
-              "title": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation",
-              "summary": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation Los Angeles Times",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
-              "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
-              "publisher": "Los Angeles Times",
-              "source_group": "local",
-              "feed": "MLB local discovery",
-              "published_at": "2026-08-15T07:15:00+00:00",
-              "teams": [
-                "Dodgers"
-              ],
-              "players": [
-                "Shohei Ohtani",
-                "Los Angeles Times",
-                "Los Angeles"
-              ],
-              "sport": "baseball",
-              "competitions": [
-                "Major League Baseball"
-              ],
-              "lanes": [
-                "starting-pitching"
-              ]
-            },
-            {
               "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTJncTkzS3ZENnlNS0JKTTl5RnJSLVZ6ZXVSSGdGa085dS1HYXUzdlBVdHdrTkhkc1BTNmdZZm41ODVZU0hJazlEZGJBU1E5WVBJYkVQUzJpb2JXWEJrLVdfYkRUNnFTREdzOVVmajdtTWxPQzhadm5qTkJIZVdqNXlfME1QN01ONlRIYzcwN3NuWEhxUnN6Y1d3?oc=5",
               "desk": "mlb",
               "title": "Zac Thornton Emerges As Future Piece Of Mets’ Rotation",
@@ -14598,6 +14527,31 @@
                 "Of Mets’ Rotation",
                 "Of Mets’",
                 "Baseball America"
+              ],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": [
+                "starting-pitching"
+              ]
+            },
+            {
+              "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
+              "desk": "mlb",
+              "title": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation",
+              "summary": "Shohei Ohtani takes important step in his push to return to Dodgers’ rotation latimes.com",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXE5SUJ1NDN4aW9QX1lWTzJvbGJld3JZT0h1eEQ2NVFjVVdXX2JlcGRmMEtHTm1tZjVjSy1YZ3QxS3pvbzRVUmE0UU5SdFFSWHZRaDBYSTZseEF3WkJYUDhLSVlvbWN4VzNtSWNablNVelptZE5mODk4eUVDRXk5VWw5TlU5dGZ0Rmg1VzM3MUYzZWhoUEJqcUtFbEozSXNCMlllbjdKWE9lR2c?oc=5",
+              "publisher": "latimes.com",
+              "source_group": "local",
+              "feed": "MLB local discovery",
+              "published_at": "2026-08-14T11:00:00+00:00",
+              "teams": [
+                "Dodgers"
+              ],
+              "players": [
+                "Shohei Ohtani"
               ],
               "sport": "baseball",
               "competitions": [
@@ -14729,6 +14683,31 @@
               "lanes": [
                 "trade-strategy"
               ]
+            },
+            {
+              "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
+              "desk": "mlb",
+              "title": "Revisiting 2026 MLB Trade Deadline Predictions",
+              "summary": "Revisiting 2026 MLB Trade Deadline Predictions Baseball America",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTZibjJNdWd2TXVJTnNkYlU4UFE2QUIzUVB3SjlXUXpFVXNLamc1N2hlN3VjVmFsTHVSSTJxUS1MQXV1TmpJaUxqRXJwaDVlcUZidklxSklrd1NPZGNvc3RMV2pCM1B1bTBRejNReHZEQWlsamtreVFDcXJTVUtfOG82dDFfdW1XXzk0V3psTkk?oc=5",
+              "publisher": "Baseball America",
+              "source_group": "specialist",
+              "feed": "Baseball specialists",
+              "published_at": "2026-08-13T13:14:14+00:00",
+              "teams": [],
+              "players": [
+                "Trade Deadline Predictions",
+                "Trade Deadline",
+                "Baseball America"
+              ],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": [
+                "trade-strategy"
+              ]
             }
           ]
         },
@@ -14745,8 +14724,31 @@
               "publisher": "MLB.com",
               "source_group": "official",
               "feed": "MLB official discovery",
-              "published_at": "2026-08-16T05:39:20+00:00",
+              "published_at": "2026-08-16T02:42:23+00:00",
               "teams": [],
+              "players": [],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": [
+                "prospects"
+              ]
+            },
+            {
+              "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmh0SjBDRXltcGpMRzFHdXZVQjY1c2VxcEh2djh5YTZ3Nnd6RzZjNGNFaWkyUTNiSWhEVlFmWXdGN1ZKNXJGdVRWenNRS01qbWEtZk9meEhvc1F0WEdUWXpuclNmSkc1OXhDYldNNVh0cGl6VWRjdnVSUGg4LS1TS2MzNEhqa0lY0gGUAUFVX3lxTFBfLWRLdW95NUd4LThPMnQtcEpua1Q1VG5KLWdmY3hRbEg0TG1zak11QWFxeUpqb25DR2pFTlZvQmdNLXR0V1NDSWs2bmxCaFR6VE9FNjI1WGkwdDl5SUpjZmtycWhITUhlT1FmbXNTWndUVTR4UE1ROUtNX19pU1lWVE9zVnlmdlhNX09vekhRZ1pJTlU?oc=5",
+              "desk": "mlb",
+              "title": "Braves prospect tallies 10 RBIs (!) in night to remember at High-A",
+              "summary": "Braves prospect tallies 10 RBIs (!) in night to remember at High-A MLB.com",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmh0SjBDRXltcGpMRzFHdXZVQjY1c2VxcEh2djh5YTZ3Nnd6RzZjNGNFaWkyUTNiSWhEVlFmWXdGN1ZKNXJGdVRWenNRS01qbWEtZk9meEhvc1F0WEdUWXpuclNmSkc1OXhDYldNNVh0cGl6VWRjdnVSUGg4LS1TS2MzNEhqa0lY0gGUAUFVX3lxTFBfLWRLdW95NUd4LThPMnQtcEpua1Q1VG5KLWdmY3hRbEg0TG1zak11QWFxeUpqb25DR2pFTlZvQmdNLXR0V1NDSWs2bmxCaFR6VE9FNjI1WGkwdDl5SUpjZmtycWhITUhlT1FmbXNTWndUVTR4UE1ROUtNX19pU1lWVE9zVnlmdlhNX09vekhRZ1pJTlU?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmh0SjBDRXltcGpMRzFHdXZVQjY1c2VxcEh2djh5YTZ3Nnd6RzZjNGNFaWkyUTNiSWhEVlFmWXdGN1ZKNXJGdVRWenNRS01qbWEtZk9meEhvc1F0WEdUWXpuclNmSkc1OXhDYldNNVh0cGl6VWRjdnVSUGg4LS1TS2MzNEhqa0lY0gGUAUFVX3lxTFBfLWRLdW95NUd4LThPMnQtcEpua1Q1VG5KLWdmY3hRbEg0TG1zak11QWFxeUpqb25DR2pFTlZvQmdNLXR0V1NDSWs2bmxCaFR6VE9FNjI1WGkwdDl5SUpjZmtycWhITUhlT1FmbXNTWndUVTR4UE1ROUtNX19pU1lWVE9zVnlmdlhNX09vekhRZ1pJTlU?oc=5",
+              "publisher": "MLB.com",
+              "source_group": "official",
+              "feed": "MLB official discovery",
+              "published_at": "2026-08-16T03:44:00+00:00",
+              "teams": [
+                "Braves"
+              ],
               "players": [],
               "sport": "baseball",
               "competitions": [
@@ -14800,6 +14802,30 @@
               "published_at": "2026-08-16T07:19:28+00:00",
               "teams": [],
               "players": [],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": []
+            },
+            {
+              "id": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+              "desk": "mlb",
+              "title": "Yankees news: Aaron Judge throws a baseball",
+              "summary": "Aaron Judge cleared to throw; Gerrit Cole is set for obscure record; scouting reports from Double-A",
+              "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+              "canonical_url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+              "publisher": "SB Nation",
+              "source_group": "national",
+              "feed": "Yahoo MLB",
+              "published_at": "2026-08-16T09:00:00+00:00",
+              "teams": [
+                "Yankees"
+              ],
+              "players": [
+                "Aaron Judge",
+                "Gerrit Cole"
+              ],
               "sport": "baseball",
               "competitions": [
                 "Major League Baseball"
@@ -14872,6 +14898,30 @@
                 "Major League Baseball"
               ],
               "lanes": []
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
+            {
+              "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
+              "desk": "mlb",
+              "title": "After long journey through injuries in Minors, Tiedemann makes his MLB debut",
+              "summary": "After long journey through injuries in Minors, Tiedemann makes his MLB debut MLB.com",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBib1pjVlN3a21LWmpCOGFwWTU3MkVpR1FTUl9Ga1ZjS0VVSUhZY1MzT002RlRmRE1Yc2VEX0xvWDhEYk4xYURhWGNlNFA3M1AxODBEZ1JIbGhKel9lMkV6TGNXblp3dW9tYlE?oc=5",
+              "publisher": "MLB.com",
+              "source_group": "official",
+              "feed": "MLB official discovery",
+              "published_at": "2026-08-16T05:00:36+00:00",
+              "teams": [],
+              "players": [],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": []
             },
             {
               "id": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTVR2ekVKZkRIUGxyb2VCM0llazEwdElYbFI5MGpTR2FBRVpkdUQySmpaeTZSYklJaHQ2WGhZY3NtTDhpQ0k3WXVsVTZWNkd3QUdnRXhKeUYzMGJTekFLaWQ4ZGRGY3NEUDV4eDlhdW1jWUtrN2RzQl82VzdMS19IcXBySVdEaDVkeWc?oc=5",
@@ -14894,12 +14944,7 @@
                 "Major League Baseball"
               ],
               "lanes": []
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
+            },
             {
               "id": "https://sports.yahoo.com/articles/world-series-champ-3x-star-235854797.html",
               "desk": "mlb",
@@ -14979,10 +15024,10 @@
               "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWI1WVUxVENlazcwbk1OYkp2YWZvZzQ0RkI3ZHV6MjZWYVRqc29ma0dlTHQ0dWdSU0VzQ2dvNkNqdXY2RG5CRktqMXFFN2tPMnBiVlBIMHdwb2lMYUNyWXM0Vm1MTGdxRS1QZkRMdF85eFpBRmRmdTVDRnFTUEFFTHlLM29wdHI0UmhFaGxWdTB1NFRzWnAtc3V6Q2c3VS1MQWZtRU5yQnU3TFYtRjBLWXktSzJlNFJPWi11M0tSZWM?oc=5",
               "desk": "mlb",
               "title": "Jacob Misiorowski outduels Justin Wrobleski as Brewers send Dodgers to frustrating loss",
-              "summary": "Jacob Misiorowski outduels Justin Wrobleski as Brewers send Dodgers to frustrating loss Los Angeles Times",
+              "summary": "Jacob Misiorowski outduels Justin Wrobleski as Brewers send Dodgers to frustrating loss latimes.com",
               "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWI1WVUxVENlazcwbk1OYkp2YWZvZzQ0RkI3ZHV6MjZWYVRqc29ma0dlTHQ0dWdSU0VzQ2dvNkNqdXY2RG5CRktqMXFFN2tPMnBiVlBIMHdwb2lMYUNyWXM0Vm1MTGdxRS1QZkRMdF85eFpBRmRmdTVDRnFTUEFFTHlLM29wdHI0UmhFaGxWdTB1NFRzWnAtc3V6Q2c3VS1MQWZtRU5yQnU3TFYtRjBLWXktSzJlNFJPWi11M0tSZWM?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWI1WVUxVENlazcwbk1OYkp2YWZvZzQ0RkI3ZHV6MjZWYVRqc29ma0dlTHQ0dWdSU0VzQ2dvNkNqdXY2RG5CRktqMXFFN2tPMnBiVlBIMHdwb2lMYUNyWXM0Vm1MTGdxRS1QZkRMdF85eFpBRmRmdTVDRnFTUEFFTHlLM29wdHI0UmhFaGxWdTB1NFRzWnAtc3V6Q2c3VS1MQWZtRU5yQnU3TFYtRjBLWXktSzJlNFJPWi11M0tSZWM?oc=5",
-              "publisher": "Los Angeles Times",
+              "publisher": "latimes.com",
               "source_group": "local",
               "feed": "MLB local discovery",
               "published_at": "2026-08-16T03:30:43+00:00",
@@ -14992,9 +15037,7 @@
               ],
               "players": [
                 "Jacob Misiorowski",
-                "Justin Wrobleski",
-                "Los Angeles Times",
-                "Los Angeles"
+                "Justin Wrobleski"
               ],
               "sport": "baseball",
               "competitions": [
@@ -15040,62 +15083,6 @@
                 "Red Sox"
               ],
               "players": [],
-              "sport": "baseball",
-              "competitions": [
-                "Major League Baseball"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/mariners-beat-astros-10-5-024411794.html",
-              "desk": "mlb",
-              "title": "Mariners Beat Astros 10-5 in First Game of Offseason",
-              "summary": "Mariners begin vacation with cruise",
-              "url": "https://sports.yahoo.com/articles/mariners-beat-astros-10-5-024411794.html",
-              "canonical_url": "https://sports.yahoo.com/articles/mariners-beat-astros-10-5-024411794.html",
-              "publisher": "SB Nation",
-              "source_group": "national",
-              "feed": "Yahoo MLB",
-              "published_at": "2026-08-16T02:44:11+00:00",
-              "teams": [
-                "Astros",
-                "Mariners"
-              ],
-              "players": [
-                "Mariners Beat Astros",
-                "Mariners Beat",
-                "First Game",
-                "Offseason Mariners"
-              ],
-              "sport": "baseball",
-              "competitions": [
-                "Major League Baseball"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/game-124-game-day-thread-004000411.html",
-              "desk": "mlb",
-              "title": "Game 124 Game Day Thread – Texas Rangers @ West Sacramento Athletics",
-              "summary": "The Rangers will play this baseball game and there’s nothing you can do about it",
-              "url": "https://sports.yahoo.com/articles/game-124-game-day-thread-004000411.html",
-              "canonical_url": "https://sports.yahoo.com/articles/game-124-game-day-thread-004000411.html",
-              "publisher": "SB Nation",
-              "source_group": "national",
-              "feed": "Yahoo MLB",
-              "published_at": "2026-08-16T00:40:00+00:00",
-              "teams": [
-                "Athletics",
-                "Rangers"
-              ],
-              "players": [
-                "Game Day Thread",
-                "Game Day",
-                "Texas Rangers",
-                "West Sacramento Athletics",
-                "West Sacramento",
-                "The Rangers"
-              ],
               "sport": "baseball",
               "competitions": [
                 "Major League Baseball"
@@ -17622,34 +17609,33 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-16T08:39:08.322152+00:00",
-      "updated_at": "2026-08-16T08:39:08.322152+00:00",
+      "content_updated_at": "2026-08-16T09:33:11.492588+00:00",
+      "updated_at": "2026-08-16T09:33:11.492588+00:00",
       "data_updated_at": {
         "scores": "2026-08-16T04:43:22.148154+00:00",
         "standings": "2026-08-16T04:43:22.148154+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-16T08:39:08.322152+00:00",
-        "standings": "2026-08-16T08:39:08.322152+00:00"
+        "scores": "2026-08-16T09:33:11.492588+00:00",
+        "standings": "2026-08-16T09:33:11.492588+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
-        "classified_count": 135,
-        "deduplicated_count": 132,
+        "classified_count": 134,
+        "deduplicated_count": 131,
         "selected_count": 72,
         "publishers": {
           "Chicago Tribune": 6,
           "Yahoo Sports": 4,
-          "MLB.com": 15,
+          "MLB.com": 16,
+          "SB Nation": 18,
           "NY Post Sports": 6,
-          "SB Nation": 19,
-          "Los Angeles Times": 6,
+          "latimes.com": 6,
           "SNY": 3,
           "USA TODAY Sports": 2,
           "New York Daily News": 3,
           "Baseball America": 6,
-          "blogs.fangraphs.com": 1,
-          "FanGraphs": 1
+          "FanGraphs": 2
         },
         "source_counts": {
           "ESPN MLB": 0,
@@ -17787,6 +17773,47 @@
           "lanes": [
             "premier-league"
           ]
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+          "desk": "soccer",
+          "title": "Frattesi at Lazio: Role, Fantasy Football Valuation, and Statistics",
+          "summary": "Frattesi at Lazio: Role, Fantasy Football Valuation, and Statistics La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+          "publisher": "La Gazzetta dello Sport",
+          "source_group": "europe",
+          "feed": "Spanish and Italian football",
+          "published_at": "2026-08-16T09:13:33+00:00",
+          "teams": [],
+          "players": [
+            "Fantasy Football Valuation",
+            "Fantasy Football",
+            "Statistics Frattesi",
+            "Statistics La Gazzetta",
+            "Statistics La"
+          ],
+          "sport": "soccer",
+          "competitions": [
+            "FIFA",
+            "UEFA",
+            "CONMEBOL",
+            "CAF",
+            "AFC",
+            "CONCACAF",
+            "Premier League",
+            "La Liga",
+            "Bundesliga",
+            "Serie A",
+            "Ligue 1",
+            "NWSL",
+            "MLS",
+            "fútbol",
+            "futebol",
+            "CAF",
+            "AFC"
+          ],
+          "lanes": []
         },
         {
           "id": "https://theguardian.com/football/2026/aug/15/community-shield-offers-insight-into-arsenals-desire-and-marescas-manchester-city-impact",
@@ -20641,44 +20668,6 @@
           ]
         },
         {
-          "id": "https://theguardian.com/football/ng-interactive/2026/jun/08/womens-transfer-window-summer-2026-all-deals-from-worlds-top-six-leagues",
-          "desk": "soccer",
-          "title": "Women’s transfer window summer 2026: all deals from world’s top six leagues",
-          "summary": "Every deal in the NWSL, WSL, Liga F, Frauen-Bundesliga, Première Ligue and Serie A Femminile as well as a club-by-club guide Men’s transfer window interactive guide Continue reading...",
-          "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/08/womens-transfer-window-summer-2026-all-deals-from-worlds-top-six-leagues",
-          "canonical_url": "https://theguardian.com/football/ng-interactive/2026/jun/08/womens-transfer-window-summer-2026-all-deals-from-worlds-top-six-leagues",
-          "publisher": "The Guardian",
-          "source_group": "europe",
-          "feed": "Guardian Football",
-          "published_at": "2026-08-13T10:29:36+00:00",
-          "teams": [],
-          "players": [],
-          "sport": "soccer",
-          "competitions": [
-            "FIFA",
-            "UEFA",
-            "CONMEBOL",
-            "CAF",
-            "AFC",
-            "CONCACAF",
-            "Premier League",
-            "La Liga",
-            "Bundesliga",
-            "Serie A",
-            "Ligue 1",
-            "NWSL",
-            "MLS",
-            "fútbol",
-            "futebol",
-            "CAF",
-            "AFC"
-          ],
-          "lanes": [
-            "transfer-strategy",
-            "womens-soccer"
-          ]
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVUdnLUF2ejUzZmo5M2QzU04teHJSejFJNVR5X09TR0tQdmZzZHNLakhHYWFpN1poWmlia1k5Vmdjd09mSDJCYTUxanJLZUYyTHNNUTB2a29qaV9tY0xqTVNmaFFTOFZqSDMyNUlncUhRRVEyeHdSUjRFbGFtdkZhVDFUNDF3dEozOXNObzZXaDQtMlF4NUpGY3g1RlA2Zzhzd0RJWnNJVXh6OEdLenhZLVpDU2tLQVl3MG96b2pyYw?oc=5",
           "desk": "soccer",
           "title": "Barcelona reportedly agree to sell Torres to PSG",
@@ -22372,21 +22361,25 @@
               ]
             },
             {
-              "id": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+              "id": "https://theguardian.com/football/2026/aug/15/london-city-lionesses-mapi-leon-it-is-a-club-created-for-women-it-is-beautiful-and-exciting",
               "desk": "soccer",
-              "title": "Arteta not worried about Arsenal contract talks",
-              "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
-              "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
-              "canonical_url": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
-              "publisher": "BBC Sport",
+              "title": "London City Lionesses’ Mapi León: ‘It is a club created for women. It is beautiful and exciting’",
+              "summary": "Spain defender on swapping Barcelona for Bromley, embracing the contrasting style of the WSL – and her newfound love for beans and crumpets ‘No, I can’t, I’m sorry, it’s a secret!” Mapi León roars with laughter, in response to being asked what persuaded her to join London City Lionesses. Does this bode badly for our interview? Fear not, the Spain centre-back is in as banterous and jovial a mood as you could imagine any new signing to be, as she embarks on her first major interview since signing for the Women’s Super League club. Across the course of our conversation, in bright sunshine outside a quiet hotel near Maidstone, it is evident that the 31-year-old could scarcely be happier about her decision to swap Barcelona for south-east England. She is sorely missing her cat, Bagheera (“Here, you ask for so many things for pets, you can’t [really] fly with them, it’s so many documents, so many things”) but, that aside, she is buoyant, relaxed and clearly embracing English life. She says she likes the “little bread” in the morning, and we eventually establish she is referring to crumpets, and reveals: “I like the beans in the morning. It’s really interesting. My Spanish teammates like Alexia [Putellas] and Jana [Fernández] are like: ‘What are you doing eating beans in the morning? You need to train.’ I go: ‘No, it’s fine I like it.’” Continue reading...",
+              "url": "https://www.theguardian.com/football/2026/aug/15/london-city-lionesses-mapi-leon-it-is-a-club-created-for-women-it-is-beautiful-and-exciting",
+              "canonical_url": "https://theguardian.com/football/2026/aug/15/london-city-lionesses-mapi-leon-it-is-a-club-created-for-women-it-is-beautiful-and-exciting",
+              "publisher": "The Guardian",
               "source_group": "europe",
-              "feed": "BBC Football",
-              "published_at": "2026-08-14T21:30:21+00:00",
+              "feed": "Guardian Football",
+              "published_at": "2026-08-15T07:00:51+00:00",
               "teams": [
-                "Arsenal"
+                "Barcelona"
               ],
               "players": [
-                "Mikel Arteta"
+                "London City Lionesses",
+                "London City",
+                "Women’s Super League",
+                "Women’s Super",
+                "My Spanish"
               ],
               "sport": "soccer",
               "competitions": [
@@ -22409,33 +22402,26 @@
                 "AFC"
               ],
               "lanes": [
-                "transfer-strategy"
+                "transfer-strategy",
+                "womens-soccer"
               ]
             },
             {
-              "id": "https://theguardian.com/football/2026/aug/14/football-transfer-rumours-arsenal-osimhen-exchange-deal-newcastle-baleba-bid",
+              "id": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
               "desk": "soccer",
-              "title": "Football transfer rumours: Arsenal offered Osimhen in exchange deal? Newcastle to make Baleba bid?",
-              "summary": "Today’s fluff has sought shade As these glorious pages reported on Thursday, Galatasaray wanted Gabriel Martinelli . In the following 24 hours things changed a bit, creating greater complexity, something we do not approve of. Arsenal have supposedly been offered the chance to involve the Nigeria striker Victor Osimhen in exchange for the Brazilian, which could be tempting for a side looking for a new No 9. To further sweeten any potential deal, Ethan Nwaneri could be chucked into it too to make it a mega swap. Tijjani Reijnders may struggle to find a perfect role within Enzo Maresca’s Manchester City. The Dutchman has already been linked with Nottingham Forest, which has stirred some interest in Saudi Arabia from Al-Qadsiah, who are managed by Brendan Rodgers and are willing to cough up £51m for the midfielder. Continue reading...",
-              "url": "https://www.theguardian.com/football/2026/aug/14/football-transfer-rumours-arsenal-osimhen-exchange-deal-newcastle-baleba-bid",
-              "canonical_url": "https://theguardian.com/football/2026/aug/14/football-transfer-rumours-arsenal-osimhen-exchange-deal-newcastle-baleba-bid",
-              "publisher": "The Guardian",
+              "title": "Arteta not worried about Arsenal contract talks",
+              "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+              "canonical_url": "https://bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+              "publisher": "BBC Sport",
               "source_group": "europe",
-              "feed": "Guardian Football",
-              "published_at": "2026-08-14T07:48:24+00:00",
+              "feed": "BBC Football",
+              "published_at": "2026-08-14T21:30:21+00:00",
               "teams": [
-                "Arsenal",
-                "Manchester City"
+                "Arsenal"
               ],
               "players": [
-                "Gabriel Martinelli",
-                "Victor Osimhen",
-                "Ethan Nwaneri",
-                "Tijjani Reijnders",
-                "Enzo Maresca’s Manchester",
-                "Enzo Maresca’s",
-                "The Dutchman",
-                "Nottingham Forest"
+                "Mikel Arteta"
               ],
               "sport": "soccer",
               "competitions": [
@@ -22501,48 +22487,6 @@
               ],
               "lanes": [
                 "international-soccer"
-              ]
-            },
-            {
-              "id": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOSW5HV2NPT1FIYXR2VVh2Uk96bEZfMEFjVFItbzJXYXlQbm05NDdib2FycGhmbmtQMU8zZWYzUDl3b3lsNFp4WllNanlGX3p4Mi0xZjlnVjI4UDhjbXZBUERSVmRSYVpWMDBNQUpwMFZpVktPb0ttNmp1cXo3bWx1V294TzdFWTRUWldqOEtjUUgyZF9hOVNkRk5yWHV1d01FTzJFZUREZlRRM2s0endHdHkwT1dRU3JZcmRMTm52R25OM2xieUU1SU9SUlhINktILXczbEo2WkZ0Zy1xU2JtZWVRbVAzVXU3TGx2RDdHVVp5c3I5bGZKV3JaYkJiaGJoSktHM0tiSFE2SUhmQ3M2QjJZZGxRSm9OVGdoZVZoY2xxcVBaUGRJeW51ZjVDczQwVThmZHZwMThIZw?oc=5",
-              "desk": "soccer",
-              "title": "First time live in the UK and Other Global Territories, the TotalEnergies CAF WAFCON Morocco 2026 Final on Sunday Night is making history in many ways",
-              "summary": "First time live in the UK and Other Global Territories, the TotalEnergies CAF WAFCON Morocco 2026 Final on Sunday Night is making history in many ways cafonline.com",
-              "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOSW5HV2NPT1FIYXR2VVh2Uk96bEZfMEFjVFItbzJXYXlQbm05NDdib2FycGhmbmtQMU8zZWYzUDl3b3lsNFp4WllNanlGX3p4Mi0xZjlnVjI4UDhjbXZBUERSVmRSYVpWMDBNQUpwMFZpVktPb0ttNmp1cXo3bWx1V294TzdFWTRUWldqOEtjUUgyZF9hOVNkRk5yWHV1d01FTzJFZUREZlRRM2s0endHdHkwT1dRU3JZcmRMTm52R25OM2xieUU1SU9SUlhINktILXczbEo2WkZ0Zy1xU2JtZWVRbVAzVXU3TGx2RDdHVVp5c3I5bGZKV3JaYkJiaGJoSktHM0tiSFE2SUhmQ3M2QjJZZGxRSm9OVGdoZVZoY2xxcVBaUGRJeW51ZjVDczQwVThmZHZwMThIZw?oc=5",
-              "canonical_url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOSW5HV2NPT1FIYXR2VVh2Uk96bEZfMEFjVFItbzJXYXlQbm05NDdib2FycGhmbmtQMU8zZWYzUDl3b3lsNFp4WllNanlGX3p4Mi0xZjlnVjI4UDhjbXZBUERSVmRSYVpWMDBNQUpwMFZpVktPb0ttNmp1cXo3bWx1V294TzdFWTRUWldqOEtjUUgyZF9hOVNkRk5yWHV1d01FTzJFZUREZlRRM2s0endHdHkwT1dRU3JZcmRMTm52R25OM2xieUU1SU9SUlhINktILXczbEo2WkZ0Zy1xU2JtZWVRbVAzVXU3TGx2RDdHVVp5c3I5bGZKV3JaYkJiaGJoSktHM0tiSFE2SUhmQ3M2QjJZZGxRSm9OVGdoZVZoY2xxcVBaUGRJeW51ZjVDczQwVThmZHZwMThIZw?oc=5",
-              "publisher": "cafonline.com",
-              "source_group": "africa_asia",
-              "feed": "Africa and Asia football",
-              "published_at": "2026-08-15T15:02:35+00:00",
-              "teams": [],
-              "players": [
-                "Other Global Territories",
-                "Other Global",
-                "Sunday Night"
-              ],
-              "sport": "soccer",
-              "competitions": [
-                "FIFA",
-                "UEFA",
-                "CONMEBOL",
-                "CAF",
-                "AFC",
-                "CONCACAF",
-                "Premier League",
-                "La Liga",
-                "Bundesliga",
-                "Serie A",
-                "Ligue 1",
-                "NWSL",
-                "MLS",
-                "fútbol",
-                "futebol",
-                "CAF",
-                "AFC"
-              ],
-              "lanes": [
-                "international-soccer",
-                "womens-soccer"
               ]
             },
             {
@@ -22668,6 +22612,46 @@
                 "manager-watch",
                 "world-cup"
               ]
+            },
+            {
+              "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOXJmbVBfM3lZNkdCN1RhaUF3TFhSOTI0aHFJWkllVkpmVFB4MWV4ZUFqU29MNlVocV91UnY4a0lFSDdTeV80Qlg3RXoxWE8wVlRHZDMzdFJOWDh2SGlzYzRDMXhwUGlqdUxuNG1kWHdDcU1vUEJZOUYyNVVvQ01YaDZJSFU1X1BL?oc=5",
+              "desk": "soccer",
+              "title": "Drita vs Inter Escaldes | UEFA Conference League 2026/27",
+              "summary": "Drita vs Inter Escaldes | UEFA Conference League 2026/27 UEFA.com",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOXJmbVBfM3lZNkdCN1RhaUF3TFhSOTI0aHFJWkllVkpmVFB4MWV4ZUFqU29MNlVocV91UnY4a0lFSDdTeV80Qlg3RXoxWE8wVlRHZDMzdFJOWDh2SGlzYzRDMXhwUGlqdUxuNG1kWHdDcU1vUEJZOUYyNVVvQ01YaDZJSFU1X1BL?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOXJmbVBfM3lZNkdCN1RhaUF3TFhSOTI0aHFJWkllVkpmVFB4MWV4ZUFqU29MNlVocV91UnY4a0lFSDdTeV80Qlg3RXoxWE8wVlRHZDMzdFJOWDh2SGlzYzRDMXhwUGlqdUxuNG1kWHdDcU1vUEJZOUYyNVVvQ01YaDZJSFU1X1BL?oc=5",
+              "publisher": "UEFA.com",
+              "source_group": "official",
+              "feed": "Official world football",
+              "published_at": "2026-08-14T12:22:02+00:00",
+              "teams": [],
+              "players": [
+                "Inter Escaldes",
+                "Conference League"
+              ],
+              "sport": "soccer",
+              "competitions": [
+                "FIFA",
+                "UEFA",
+                "CONMEBOL",
+                "CAF",
+                "AFC",
+                "CONCACAF",
+                "Premier League",
+                "La Liga",
+                "Bundesliga",
+                "Serie A",
+                "Ligue 1",
+                "NWSL",
+                "MLS",
+                "fútbol",
+                "futebol",
+                "CAF",
+                "AFC"
+              ],
+              "lanes": [
+                "international-soccer"
+              ]
             }
           ]
         },
@@ -22708,6 +22692,48 @@
                 "AFC"
               ],
               "lanes": [
+                "womens-soccer"
+              ]
+            },
+            {
+              "id": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOSW5HV2NPT1FIYXR2VVh2Uk96bEZfMEFjVFItbzJXYXlQbm05NDdib2FycGhmbmtQMU8zZWYzUDl3b3lsNFp4WllNanlGX3p4Mi0xZjlnVjI4UDhjbXZBUERSVmRSYVpWMDBNQUpwMFZpVktPb0ttNmp1cXo3bWx1V294TzdFWTRUWldqOEtjUUgyZF9hOVNkRk5yWHV1d01FTzJFZUREZlRRM2s0endHdHkwT1dRU3JZcmRMTm52R25OM2xieUU1SU9SUlhINktILXczbEo2WkZ0Zy1xU2JtZWVRbVAzVXU3TGx2RDdHVVp5c3I5bGZKV3JaYkJiaGJoSktHM0tiSFE2SUhmQ3M2QjJZZGxRSm9OVGdoZVZoY2xxcVBaUGRJeW51ZjVDczQwVThmZHZwMThIZw?oc=5",
+              "desk": "soccer",
+              "title": "First time live in the UK and Other Global Territories, the TotalEnergies CAF WAFCON Morocco 2026 Final on Sunday Night is making history in many ways",
+              "summary": "First time live in the UK and Other Global Territories, the TotalEnergies CAF WAFCON Morocco 2026 Final on Sunday Night is making history in many ways cafonline.com",
+              "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOSW5HV2NPT1FIYXR2VVh2Uk96bEZfMEFjVFItbzJXYXlQbm05NDdib2FycGhmbmtQMU8zZWYzUDl3b3lsNFp4WllNanlGX3p4Mi0xZjlnVjI4UDhjbXZBUERSVmRSYVpWMDBNQUpwMFZpVktPb0ttNmp1cXo3bWx1V294TzdFWTRUWldqOEtjUUgyZF9hOVNkRk5yWHV1d01FTzJFZUREZlRRM2s0endHdHkwT1dRU3JZcmRMTm52R25OM2xieUU1SU9SUlhINktILXczbEo2WkZ0Zy1xU2JtZWVRbVAzVXU3TGx2RDdHVVp5c3I5bGZKV3JaYkJiaGJoSktHM0tiSFE2SUhmQ3M2QjJZZGxRSm9OVGdoZVZoY2xxcVBaUGRJeW51ZjVDczQwVThmZHZwMThIZw?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOSW5HV2NPT1FIYXR2VVh2Uk96bEZfMEFjVFItbzJXYXlQbm05NDdib2FycGhmbmtQMU8zZWYzUDl3b3lsNFp4WllNanlGX3p4Mi0xZjlnVjI4UDhjbXZBUERSVmRSYVpWMDBNQUpwMFZpVktPb0ttNmp1cXo3bWx1V294TzdFWTRUWldqOEtjUUgyZF9hOVNkRk5yWHV1d01FTzJFZUREZlRRM2s0endHdHkwT1dRU3JZcmRMTm52R25OM2xieUU1SU9SUlhINktILXczbEo2WkZ0Zy1xU2JtZWVRbVAzVXU3TGx2RDdHVVp5c3I5bGZKV3JaYkJiaGJoSktHM0tiSFE2SUhmQ3M2QjJZZGxRSm9OVGdoZVZoY2xxcVBaUGRJeW51ZjVDczQwVThmZHZwMThIZw?oc=5",
+              "publisher": "cafonline.com",
+              "source_group": "africa_asia",
+              "feed": "Africa and Asia football",
+              "published_at": "2026-08-15T15:02:35+00:00",
+              "teams": [],
+              "players": [
+                "Other Global Territories",
+                "Other Global",
+                "Sunday Night"
+              ],
+              "sport": "soccer",
+              "competitions": [
+                "FIFA",
+                "UEFA",
+                "CONMEBOL",
+                "CAF",
+                "AFC",
+                "CONCACAF",
+                "Premier League",
+                "La Liga",
+                "Bundesliga",
+                "Serie A",
+                "Ligue 1",
+                "NWSL",
+                "MLS",
+                "fútbol",
+                "futebol",
+                "CAF",
+                "AFC"
+              ],
+              "lanes": [
+                "international-soccer",
                 "womens-soccer"
               ]
             },
@@ -22787,52 +22813,6 @@
                 "AFC"
               ],
               "lanes": [
-                "womens-soccer"
-              ]
-            },
-            {
-              "id": "https://theguardian.com/football/2026/aug/15/london-city-lionesses-mapi-leon-it-is-a-club-created-for-women-it-is-beautiful-and-exciting",
-              "desk": "soccer",
-              "title": "London City Lionesses’ Mapi León: ‘It is a club created for women. It is beautiful and exciting’",
-              "summary": "Spain defender on swapping Barcelona for Bromley, embracing the contrasting style of the WSL – and her newfound love for beans and crumpets ‘No, I can’t, I’m sorry, it’s a secret!” Mapi León roars with laughter, in response to being asked what persuaded her to join London City Lionesses. Does this bode badly for our interview? Fear not, the Spain centre-back is in as banterous and jovial a mood as you could imagine any new signing to be, as she embarks on her first major interview since signing for the Women’s Super League club. Across the course of our conversation, in bright sunshine outside a quiet hotel near Maidstone, it is evident that the 31-year-old could scarcely be happier about her decision to swap Barcelona for south-east England. She is sorely missing her cat, Bagheera (“Here, you ask for so many things for pets, you can’t [really] fly with them, it’s so many documents, so many things”) but, that aside, she is buoyant, relaxed and clearly embracing English life. She says she likes the “little bread” in the morning, and we eventually establish she is referring to crumpets, and reveals: “I like the beans in the morning. It’s really interesting. My Spanish teammates like Alexia [Putellas] and Jana [Fernández] are like: ‘What are you doing eating beans in the morning? You need to train.’ I go: ‘No, it’s fine I like it.’” Continue reading...",
-              "url": "https://www.theguardian.com/football/2026/aug/15/london-city-lionesses-mapi-leon-it-is-a-club-created-for-women-it-is-beautiful-and-exciting",
-              "canonical_url": "https://theguardian.com/football/2026/aug/15/london-city-lionesses-mapi-leon-it-is-a-club-created-for-women-it-is-beautiful-and-exciting",
-              "publisher": "The Guardian",
-              "source_group": "europe",
-              "feed": "Guardian Football",
-              "published_at": "2026-08-15T07:00:51+00:00",
-              "teams": [
-                "Barcelona"
-              ],
-              "players": [
-                "London City Lionesses",
-                "London City",
-                "Women’s Super League",
-                "Women’s Super",
-                "My Spanish"
-              ],
-              "sport": "soccer",
-              "competitions": [
-                "FIFA",
-                "UEFA",
-                "CONMEBOL",
-                "CAF",
-                "AFC",
-                "CONCACAF",
-                "Premier League",
-                "La Liga",
-                "Bundesliga",
-                "Serie A",
-                "Ligue 1",
-                "NWSL",
-                "MLS",
-                "fútbol",
-                "futebol",
-                "CAF",
-                "AFC"
-              ],
-              "lanes": [
-                "transfer-strategy",
                 "womens-soccer"
               ]
             },
@@ -23916,6 +23896,47 @@
               ]
             },
             {
+              "id": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+              "desk": "soccer",
+              "title": "Frattesi at Lazio: Role, Fantasy Football Valuation, and Statistics",
+              "summary": "Frattesi at Lazio: Role, Fantasy Football Valuation, and Statistics La Gazzetta dello Sport",
+              "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+              "publisher": "La Gazzetta dello Sport",
+              "source_group": "europe",
+              "feed": "Spanish and Italian football",
+              "published_at": "2026-08-16T09:13:33+00:00",
+              "teams": [],
+              "players": [
+                "Fantasy Football Valuation",
+                "Fantasy Football",
+                "Statistics Frattesi",
+                "Statistics La Gazzetta",
+                "Statistics La"
+              ],
+              "sport": "soccer",
+              "competitions": [
+                "FIFA",
+                "UEFA",
+                "CONMEBOL",
+                "CAF",
+                "AFC",
+                "CONCACAF",
+                "Premier League",
+                "La Liga",
+                "Bundesliga",
+                "Serie A",
+                "Ligue 1",
+                "NWSL",
+                "MLS",
+                "fútbol",
+                "futebol",
+                "CAF",
+                "AFC"
+              ],
+              "lanes": []
+            },
+            {
               "id": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVmVFdWc5a2ptV3lmei1VbEFVNVhQSk1NcEN3UVhRZnFHT1pyZjJpQ1QzT2JIaFhIZjV1UVhTazJOazJfcHk3Z0JubjJWRkpHaS02U2JFNzJZbTVydGpVQ2JYbHJrQVZQZFZrVHZHUnJCWHBFWWVIbVVMOTVKcTB5eGFrREcteE9KV0ZGYXl1eVpSX1VaM2RlamFGaFBuaGVlcjNLaE9ZUmhRTTIzWVNLRjA2NWxDMnUyOFRVYzg1MnBHVWVtajN3U01pSlVzem1jazE4YnpKdG96SUxodVQ0UVI0STVGSzBqWDRWSnR2TklEVnloMVo2LdIB_gFBVV95cUxNeEpMRElTd3hBdzNjZm1aejlVZG4xSmRsal9vWUlRVVFJRVItQm1KZE1vSHN4THpZWG1lbmdFQWJQOTEweUM4dEtjaE8xUFQtVDJ5QURUU3RTazNwWkNJWkt2cnBlaGVTLTVHd3ViLUJfcU56eUJyN2kyUmRMSi1wMVgzRUZqemo2MEFFWXZ6SmppTm1MWV9sUndFQmtIME50OTBsa1ljRGVMUk8wcTV6LUdPazE5Y1loTzJ5ZnMzYjRWRS1CU3RPODdVVFFJUEhNNnZrcXJYdXhrNlR1ZTdsUkQ4blJnRHpYRGVpYURuanlndWd3T19iazNzSS0wUQ?oc=5",
               "desk": "soccer",
               "title": "Fantasy Football: Defenders in Midfield – Top Picks",
@@ -24083,7 +24104,12 @@
                 "AFC"
               ],
               "lanes": []
-            },
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
             {
               "id": "https://bbc.co.uk/sport/football/articles/c62v1e64x41o?at_medium=RSS&at_campaign=rss",
               "desk": "soccer",
@@ -24122,12 +24148,7 @@
                 "AFC"
               ],
               "lanes": []
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
+            },
             {
               "id": "https://bbc.co.uk/sport/football/articles/cg5ll71pqv1o?at_medium=RSS&at_campaign=rss",
               "desk": "soccer",
@@ -24408,46 +24429,6 @@
               "lanes": [
                 "premier-league"
               ]
-            },
-            {
-              "id": "https://theguardian.com/sport/2026/aug/14/arsenal-v-manchester-city-in-community-shield-and-athletics-gold-follow-with-us",
-              "desk": "soccer",
-              "title": "Arsenal v Manchester City in Community Shield and athletics gold – follow with us",
-              "summary": "Here’s how to follow along with our coverage – the finest writing and up-to-the-minute reports Continue reading...",
-              "url": "https://www.theguardian.com/sport/2026/aug/14/arsenal-v-manchester-city-in-community-shield-and-athletics-gold-follow-with-us",
-              "canonical_url": "https://theguardian.com/sport/2026/aug/14/arsenal-v-manchester-city-in-community-shield-and-athletics-gold-follow-with-us",
-              "publisher": "The Guardian",
-              "source_group": "europe",
-              "feed": "Guardian Football",
-              "published_at": "2026-08-14T16:09:45+00:00",
-              "teams": [
-                "Arsenal",
-                "Manchester City"
-              ],
-              "players": [
-                "Community Shield"
-              ],
-              "sport": "soccer",
-              "competitions": [
-                "FIFA",
-                "UEFA",
-                "CONMEBOL",
-                "CAF",
-                "AFC",
-                "CONCACAF",
-                "Premier League",
-                "La Liga",
-                "Bundesliga",
-                "Serie A",
-                "Ligue 1",
-                "NWSL",
-                "MLS",
-                "fútbol",
-                "futebol",
-                "CAF",
-                "AFC"
-              ],
-              "lanes": []
             }
           ]
         },
@@ -25939,23 +25920,23 @@
           "available": false
         }
       },
-      "content_updated_at": "2026-08-16T08:39:08.322152+00:00",
-      "updated_at": "2026-08-16T08:39:08.322152+00:00",
+      "content_updated_at": "2026-08-16T09:33:11.492588+00:00",
+      "updated_at": "2026-08-16T09:33:11.492588+00:00",
       "data_updated_at": {
         "scores": "2026-08-16T08:39:08.322152+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-16T08:39:08.322152+00:00"
+        "scores": "2026-08-16T09:33:11.492588+00:00"
       },
       "diagnostics": {
         "candidate_count": 427,
-        "classified_count": 106,
-        "deduplicated_count": 98,
+        "classified_count": 104,
+        "deduplicated_count": 97,
         "selected_count": 72,
         "publishers": {
-          "The Guardian": 24,
+          "The Guardian": 23,
           "BBC Sport": 22,
-          "La Gazzetta dello Sport": 6,
+          "La Gazzetta dello Sport": 7,
           "UEFA.com": 6,
           "cafonline.com": 7,
           "supersport.com": 6,
@@ -26722,40 +26703,6 @@
           ]
         },
         {
-          "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1F4Q212ZG5yVC1ENEhoaGFuUURmMTVDd1lLU1Q3UUg4S2JuRFdBWlhzY210bTZUUDVCd1dSdVBlNkhUeVRrWVpKcWpTZ1hvd1VsejhPSGpKT3dFT3p4OEdMWDJhZ3ZZdHM0aEI0SXdXdlFUcHBRbjZWMTQ2REZqa0hvNFJEbmVLM3dxV3RyRGNTQzBwcVhNTXMtTEd3R0FKcFpYTUR2VTYxTnE2RDhvcnN1SENiUkM1elhV0gHAAUFVX3lxTFB0NXFpVllxVXNmeEJqWVRuQmluelZnUHU3ZGN2T2pqN2RYc0N6R01NQlBmeW5SZHFRcTdGZlh5alk4RWpGaFdlNmV6VFlFXzNTNjJja21kcE55Y09Bc2lyUWxHeko5U2FrbFNWNFJQTEk2Y0dmOTd1UGt0eVJqTU9XM1BhLXA2R01oZ3BodDJob2k3N2l1QWowTE1XOTRMOFZYVVpVb0dyOEY5bXZKN2ExVUJ6dWlubkNSWTFsSS1Wbg?oc=5",
-          "desk": "fantasy",
-          "title": "Fantasy Baseball Planner: Streamers, Two-Start Pitchers, Hitter Rankings",
-          "summary": "Fantasy Baseball Planner: Streamers, Two-Start Pitchers, Hitter Rankings FantasyPros",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1F4Q212ZG5yVC1ENEhoaGFuUURmMTVDd1lLU1Q3UUg4S2JuRFdBWlhzY210bTZUUDVCd1dSdVBlNkhUeVRrWVpKcWpTZ1hvd1VsejhPSGpKT3dFT3p4OEdMWDJhZ3ZZdHM0aEI0SXdXdlFUcHBRbjZWMTQ2REZqa0hvNFJEbmVLM3dxV3RyRGNTQzBwcVhNTXMtTEd3R0FKcFpYTUR2VTYxTnE2RDhvcnN1SENiUkM1elhV0gHAAUFVX3lxTFB0NXFpVllxVXNmeEJqWVRuQmluelZnUHU3ZGN2T2pqN2RYc0N6R01NQlBmeW5SZHFRcTdGZlh5alk4RWpGaFdlNmV6VFlFXzNTNjJja21kcE55Y09Bc2lyUWxHeko5U2FrbFNWNFJQTEk2Y0dmOTd1UGt0eVJqTU9XM1BhLXA2R01oZ3BodDJob2k3N2l1QWowTE1XOTRMOFZYVVpVb0dyOEY5bXZKN2ExVUJ6dWlubkNSWTFsSS1Wbg?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1F4Q212ZG5yVC1ENEhoaGFuUURmMTVDd1lLU1Q3UUg4S2JuRFdBWlhzY210bTZUUDVCd1dSdVBlNkhUeVRrWVpKcWpTZ1hvd1VsejhPSGpKT3dFT3p4OEdMWDJhZ3ZZdHM0aEI0SXdXdlFUcHBRbjZWMTQ2REZqa0hvNFJEbmVLM3dxV3RyRGNTQzBwcVhNTXMtTEd3R0FKcFpYTUR2VTYxTnE2RDhvcnN1SENiUkM1elhV0gHAAUFVX3lxTFB0NXFpVllxVXNmeEJqWVRuQmluelZnUHU3ZGN2T2pqN2RYc0N6R01NQlBmeW5SZHFRcTdGZlh5alk4RWpGaFdlNmV6VFlFXzNTNjJja21kcE55Y09Bc2lyUWxHeko5U2FrbFNWNFJQTEk2Y0dmOTd1UGt0eVJqTU9XM1BhLXA2R01oZ3BodDJob2k3N2l1QWowTE1XOTRMOFZYVVpVb0dyOEY5bXZKN2ExVUJ6dWlubkNSWTFsSS1Wbg?oc=5",
-          "publisher": "FantasyPros",
-          "source_group": "specialist",
-          "feed": "Multi-sport fantasy specialists",
-          "published_at": "2026-08-14T15:51:58+00:00",
-          "teams": [],
-          "players": [
-            "Fantasy Baseball Planner",
-            "Fantasy Baseball",
-            "Start Pitchers",
-            "Hitter Rankings Fantasy",
-            "Hitter Rankings",
-            "Baseball Planner"
-          ],
-          "sport": "multi-sport",
-          "competitions": [
-            "Fantasy Football",
-            "Fantasy Baseball",
-            "Fantasy Basketball",
-            "Fantasy Hockey",
-            "Fantasy Soccer"
-          ],
-          "lanes": [
-            "fantasy-baseball",
-            "fantasy-rankings",
-            "lineup"
-          ]
-        },
-        {
           "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVl0ajF1dUk0YnpxMTllV21IRFVFV1Rmd21zeDZkSmJkUVRnYkJHeWg1QnVxM1JlY3plREVqNWlZTnB2elM2OUhLU0lraDNacDVMQmNhSGt4bVdOTkJVcWdNYmNSMlFMOHVPeFhZQ0hEek1oMlQ0VUhxYWJ1cGd4VzNwb0hnS3p0OGZTWkstX3N4WlpmYzVaSE1RRDlZZmNwYzhnS1diN0lId2txLUtmVTVXeGY3MkZnMkZHN2Z1RUpJdF9zT2ZQcG5iWFNNM0J6TFZfaFoxeGZNZ2xQLUpKQ3dUWjc?oc=5",
           "desk": "fantasy",
           "title": "Fantasy Baseball Forecaster Week 20: Aug. 17-23",
@@ -27507,10 +27454,10 @@
           "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHJjNllhQUl3MjBKZGRhV0pnbmJFV0ttR3hmSlBsWWd0WGZjQzU1cUc3OXRVTGY1b1o0X0VvWUF1M2VLWnRfcDl3WTFkY09jeDVlR0ZOSDdNUE5mZF9qajVQV3QwZFkxNHdjMmFhY3lMNlBITDVLNTM0c1poSVlkREUwQjFMV3M?oc=5",
           "desk": "fantasy",
           "title": "NBA Fantasy: Central Division outlook for 2026-27 season",
-          "summary": "NBA Fantasy: Central Division outlook for 2026-27 season NBA.com",
+          "summary": "NBA Fantasy: Central Division outlook for 2026-27 season nba.com",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHJjNllhQUl3MjBKZGRhV0pnbmJFV0ttR3hmSlBsWWd0WGZjQzU1cUc3OXRVTGY1b1o0X0VvWUF1M2VLWnRfcDl3WTFkY09jeDVlR0ZOSDdNUE5mZF9qajVQV3QwZFkxNHdjMmFhY3lMNlBITDVLNTM0c1poSVlkREUwQjFMV3M?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHJjNllhQUl3MjBKZGRhV0pnbmJFV0ttR3hmSlBsWWd0WGZjQzU1cUc3OXRVTGY1b1o0X0VvWUF1M2VLWnRfcDl3WTFkY09jeDVlR0ZOSDdNUE5mZF9qajVQV3QwZFkxNHdjMmFhY3lMNlBITDVLNTM0c1poSVlkREUwQjFMV3M?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "Official league fantasy discovery",
           "published_at": "2026-08-13T15:18:20+00:00",
@@ -27556,34 +27503,6 @@
           "lanes": [
             "fantasy-football",
             "fantasy-rankings"
-          ]
-        },
-        {
-          "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcDV1QmE4WFk5ZUNPc2RPS1ktQWVPalUyN0VZOUJHTW1GRW9sQTJMS3lnWGkzLTlzZmRhRnl6OF84UXRsN0FQX3RuazNkX21XLTFTa0ZOanBaSlROTmhOWExfZ3c0ZVJIR0EzRl83bFFveDJqWFduRkdpOTNzVXp2bGcxNkFLZXdyUFBIY1d2MVZyNmEyT2fSAZsBQVVfeXFMT0VhVGZ4QVRhVEJPOWEwVE4zUUFDNFo5TmVvLVloVkVsVnhfUFNnSjV1NnNpQ0psdnBqZUxrTlN0UG1jMDFNcGJNTnVIcl93S0MyN1djdW5ZUVJoYXJrei1lMk9aR2ZIeE5BdU5wbkZ5TEFOcVFTaDBRX2ZhNVRFVTdndTdCNldkYm53Q01qX2c5YTJQc3piejBHRkU?oc=5",
-          "desk": "fantasy",
-          "title": "4 Tips to Prepare for Your Fantasy Football Draft (2026)",
-          "summary": "4 Tips to Prepare for Your Fantasy Football Draft (2026) FantasyPros",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcDV1QmE4WFk5ZUNPc2RPS1ktQWVPalUyN0VZOUJHTW1GRW9sQTJMS3lnWGkzLTlzZmRhRnl6OF84UXRsN0FQX3RuazNkX21XLTFTa0ZOanBaSlROTmhOWExfZ3c0ZVJIR0EzRl83bFFveDJqWFduRkdpOTNzVXp2bGcxNkFLZXdyUFBIY1d2MVZyNmEyT2fSAZsBQVVfeXFMT0VhVGZ4QVRhVEJPOWEwVE4zUUFDNFo5TmVvLVloVkVsVnhfUFNnSjV1NnNpQ0psdnBqZUxrTlN0UG1jMDFNcGJNTnVIcl93S0MyN1djdW5ZUVJoYXJrei1lMk9aR2ZIeE5BdU5wbkZ5TEFOcVFTaDBRX2ZhNVRFVTdndTdCNldkYm53Q01qX2c5YTJQc3piejBHRkU?oc=5",
-          "canonical_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcDV1QmE4WFk5ZUNPc2RPS1ktQWVPalUyN0VZOUJHTW1GRW9sQTJMS3lnWGkzLTlzZmRhRnl6OF84UXRsN0FQX3RuazNkX21XLTFTa0ZOanBaSlROTmhOWExfZ3c0ZVJIR0EzRl83bFFveDJqWFduRkdpOTNzVXp2bGcxNkFLZXdyUFBIY1d2MVZyNmEyT2fSAZsBQVVfeXFMT0VhVGZ4QVRhVEJPOWEwVE4zUUFDNFo5TmVvLVloVkVsVnhfUFNnSjV1NnNpQ0psdnBqZUxrTlN0UG1jMDFNcGJNTnVIcl93S0MyN1djdW5ZUVJoYXJrei1lMk9aR2ZIeE5BdU5wbkZ5TEFOcVFTaDBRX2ZhNVRFVTdndTdCNldkYm53Q01qX2c5YTJQc3piejBHRkU?oc=5",
-          "publisher": "FantasyPros",
-          "source_group": "specialist",
-          "feed": "Multi-sport fantasy specialists",
-          "published_at": "2026-08-13T11:35:09+00:00",
-          "teams": [],
-          "players": [
-            "Your Fantasy Football",
-            "Your Fantasy"
-          ],
-          "sport": "multi-sport",
-          "competitions": [
-            "Fantasy Football",
-            "Fantasy Baseball",
-            "Fantasy Basketball",
-            "Fantasy Hockey",
-            "Fantasy Soccer"
-          ],
-          "lanes": [
-            "fantasy-football"
           ]
         },
         {
@@ -28934,40 +28853,6 @@
               ]
             },
             {
-              "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1F4Q212ZG5yVC1ENEhoaGFuUURmMTVDd1lLU1Q3UUg4S2JuRFdBWlhzY210bTZUUDVCd1dSdVBlNkhUeVRrWVpKcWpTZ1hvd1VsejhPSGpKT3dFT3p4OEdMWDJhZ3ZZdHM0aEI0SXdXdlFUcHBRbjZWMTQ2REZqa0hvNFJEbmVLM3dxV3RyRGNTQzBwcVhNTXMtTEd3R0FKcFpYTUR2VTYxTnE2RDhvcnN1SENiUkM1elhV0gHAAUFVX3lxTFB0NXFpVllxVXNmeEJqWVRuQmluelZnUHU3ZGN2T2pqN2RYc0N6R01NQlBmeW5SZHFRcTdGZlh5alk4RWpGaFdlNmV6VFlFXzNTNjJja21kcE55Y09Bc2lyUWxHeko5U2FrbFNWNFJQTEk2Y0dmOTd1UGt0eVJqTU9XM1BhLXA2R01oZ3BodDJob2k3N2l1QWowTE1XOTRMOFZYVVpVb0dyOEY5bXZKN2ExVUJ6dWlubkNSWTFsSS1Wbg?oc=5",
-              "desk": "fantasy",
-              "title": "Fantasy Baseball Planner: Streamers, Two-Start Pitchers, Hitter Rankings",
-              "summary": "Fantasy Baseball Planner: Streamers, Two-Start Pitchers, Hitter Rankings FantasyPros",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1F4Q212ZG5yVC1ENEhoaGFuUURmMTVDd1lLU1Q3UUg4S2JuRFdBWlhzY210bTZUUDVCd1dSdVBlNkhUeVRrWVpKcWpTZ1hvd1VsejhPSGpKT3dFT3p4OEdMWDJhZ3ZZdHM0aEI0SXdXdlFUcHBRbjZWMTQ2REZqa0hvNFJEbmVLM3dxV3RyRGNTQzBwcVhNTXMtTEd3R0FKcFpYTUR2VTYxTnE2RDhvcnN1SENiUkM1elhV0gHAAUFVX3lxTFB0NXFpVllxVXNmeEJqWVRuQmluelZnUHU3ZGN2T2pqN2RYc0N6R01NQlBmeW5SZHFRcTdGZlh5alk4RWpGaFdlNmV6VFlFXzNTNjJja21kcE55Y09Bc2lyUWxHeko5U2FrbFNWNFJQTEk2Y0dmOTd1UGt0eVJqTU9XM1BhLXA2R01oZ3BodDJob2k3N2l1QWowTE1XOTRMOFZYVVpVb0dyOEY5bXZKN2ExVUJ6dWlubkNSWTFsSS1Wbg?oc=5",
-              "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1F4Q212ZG5yVC1ENEhoaGFuUURmMTVDd1lLU1Q3UUg4S2JuRFdBWlhzY210bTZUUDVCd1dSdVBlNkhUeVRrWVpKcWpTZ1hvd1VsejhPSGpKT3dFT3p4OEdMWDJhZ3ZZdHM0aEI0SXdXdlFUcHBRbjZWMTQ2REZqa0hvNFJEbmVLM3dxV3RyRGNTQzBwcVhNTXMtTEd3R0FKcFpYTUR2VTYxTnE2RDhvcnN1SENiUkM1elhV0gHAAUFVX3lxTFB0NXFpVllxVXNmeEJqWVRuQmluelZnUHU3ZGN2T2pqN2RYc0N6R01NQlBmeW5SZHFRcTdGZlh5alk4RWpGaFdlNmV6VFlFXzNTNjJja21kcE55Y09Bc2lyUWxHeko5U2FrbFNWNFJQTEk2Y0dmOTd1UGt0eVJqTU9XM1BhLXA2R01oZ3BodDJob2k3N2l1QWowTE1XOTRMOFZYVVpVb0dyOEY5bXZKN2ExVUJ6dWlubkNSWTFsSS1Wbg?oc=5",
-              "publisher": "FantasyPros",
-              "source_group": "specialist",
-              "feed": "Multi-sport fantasy specialists",
-              "published_at": "2026-08-14T15:51:58+00:00",
-              "teams": [],
-              "players": [
-                "Fantasy Baseball Planner",
-                "Fantasy Baseball",
-                "Start Pitchers",
-                "Hitter Rankings Fantasy",
-                "Hitter Rankings",
-                "Baseball Planner"
-              ],
-              "sport": "multi-sport",
-              "competitions": [
-                "Fantasy Football",
-                "Fantasy Baseball",
-                "Fantasy Basketball",
-                "Fantasy Hockey",
-                "Fantasy Soccer"
-              ],
-              "lanes": [
-                "fantasy-baseball",
-                "fantasy-rankings",
-                "lineup"
-              ]
-            },
-            {
               "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGs4akZveGVpVjlBUEliWFZrcThyeUFyMFZEVjdtSHpPWUR6NEdUNUhrc3lHakRHaGRIVXJxZkxYWFBOZ0tOdUNiOWlVVUp0TVBSSkNfZy1aYmsyTkQ3OWxBcjU0RFBrTlkxUjJSWVJJcFpoQVdwd3NodkZyYzNHQlN4dzNyWWZiUk1nYjNkWHRQaVg1cUFNbkhFclRZVWJZZXNERTJ6eDd1cFR0UkVoLW9mU2drVGMwWW9xRkoxeVdyOFl3THhfRTYydFpKczU3UzM1YVFtTU9QUQ?oc=5",
               "desk": "fantasy",
               "title": "Fantasy baseball lineup advice for Friday: Can Clay Holmes shake off the rust?",
@@ -29424,24 +29309,24 @@
         }
       },
       "providers": {},
-      "content_updated_at": "2026-08-16T08:39:08.322152+00:00",
-      "updated_at": "2026-08-16T08:39:08.322152+00:00",
+      "content_updated_at": "2026-08-16T09:33:11.492588+00:00",
+      "updated_at": "2026-08-16T09:33:11.492588+00:00",
       "data_updated_at": {},
       "data_verified_at": {},
       "diagnostics": {
         "candidate_count": 449,
         "classified_count": 95,
-        "deduplicated_count": 70,
-        "selected_count": 70,
+        "deduplicated_count": 68,
+        "selected_count": 68,
         "publishers": {
           "NHL.com": 4,
-          "FantasyPros": 25,
+          "FantasyPros": 23,
           "ESPN": 13,
           "RotoWire": 3,
           "Yahoo Sports": 18,
           "NBC Sports": 2,
           "Premier League": 3,
-          "NBA.com": 1,
+          "nba.com": 1,
           "USA TODAY Sports": 1
         },
         "source_counts": {
@@ -29957,10 +29842,10 @@
           "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xeEZoUjMwS2ZHVjJxZmR1MzV1VWtsa05GVlNRUERCaHpDU2R3bWdncW5iaXNuMFZKQ0x4R0wwbVdNVG5WbHhLWVYyWTZCSTl6cEFzSnBPNVZfcEh3dXRPUHpwN1czengyNE9lLVZfeW16UHRwZnc?oc=5",
           "desk": "nba",
           "title": "Numbers and notes to know about 2026-27 NBA schedule",
-          "summary": "Numbers and notes to know about 2026-27 NBA schedule NBA.com",
+          "summary": "Numbers and notes to know about 2026-27 NBA schedule nba.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xeEZoUjMwS2ZHVjJxZmR1MzV1VWtsa05GVlNRUERCaHpDU2R3bWdncW5iaXNuMFZKQ0x4R0wwbVdNVG5WbHhLWVYyWTZCSTl6cEFzSnBPNVZfcEh3dXRPUHpwN1czengyNE9lLVZfeW16UHRwZnc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xeEZoUjMwS2ZHVjJxZmR1MzV1VWtsa05GVlNRUERCaHpDU2R3bWdncW5iaXNuMFZKQ0x4R0wwbVdNVG5WbHhLWVYyWTZCSTl6cEFzSnBPNVZfcEh3dXRPUHpwN1czengyNE9lLVZfeW16UHRwZnc?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-14T18:04:15+00:00",
@@ -29978,10 +29863,10 @@
           "id": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcTNaSklxY21DbDQwRjlDZnhnR1ZpeFpsUF9YaThZUktDMXZ3VTJJc2JvQkFpTXFNQy1DRUMza2xmc050WUxTX0FHRUxkeDNkem5EVkRFNlBjSlZfVG5Cd2Q5UDN2ellkeTBvNmQwdkhCNWQ4alhlaDlTRnUwMlhkRWRndmE5WG1nTGc?oc=5",
           "desk": "nba",
           "title": "NBA Fantasy: Southeast Division outlook for 2026-27 season",
-          "summary": "NBA Fantasy: Southeast Division outlook for 2026-27 season NBA.com",
+          "summary": "NBA Fantasy: Southeast Division outlook for 2026-27 season nba.com",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcTNaSklxY21DbDQwRjlDZnhnR1ZpeFpsUF9YaThZUktDMXZ3VTJJc2JvQkFpTXFNQy1DRUMza2xmc050WUxTX0FHRUxkeDNkem5EVkRFNlBjSlZfVG5Cd2Q5UDN2ellkeTBvNmQwdkhCNWQ4alhlaDlTRnUwMlhkRWRndmE5WG1nTGc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcTNaSklxY21DbDQwRjlDZnhnR1ZpeFpsUF9YaThZUktDMXZ3VTJJc2JvQkFpTXFNQy1DRUMza2xmc050WUxTX0FHRUxkeDNkem5EVkRFNlBjSlZfVG5Cd2Q5UDN2ellkeTBvNmQwdkhCNWQ4alhlaDlTRnUwMlhkRWRndmE5WG1nTGc?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-14T16:44:35+00:00",
@@ -30001,10 +29886,10 @@
           "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TbDlrZXJRQkZXamZ4anB1X0JlR1Q3RHdsbF9ManUxbVdpeTh5SGl6SmpIemtPX1NMNF8wMEtrSW92R1dIUHo4ZHEzWWhtRWpLSVR5R0NvRmRMUTlib3dTcnppUVktX0taX2dHMmZpWWN4R0ZCZXc?oc=5",
           "desk": "nba",
           "title": "10 games to watch: Cooper Flagg’s sophomore NBA season",
-          "summary": "10 games to watch: Cooper Flagg’s sophomore NBA season NBA.com",
+          "summary": "10 games to watch: Cooper Flagg’s sophomore NBA season nba.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TbDlrZXJRQkZXamZ4anB1X0JlR1Q3RHdsbF9ManUxbVdpeTh5SGl6SmpIemtPX1NMNF8wMEtrSW92R1dIUHo4ZHEzWWhtRWpLSVR5R0NvRmRMUTlib3dTcnppUVktX0taX2dHMmZpWWN4R0ZCZXc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TbDlrZXJRQkZXamZ4anB1X0JlR1Q3RHdsbF9ManUxbVdpeTh5SGl6SmpIemtPX1NMNF8wMEtrSW92R1dIUHo4ZHEzWWhtRWpLSVR5R0NvRmRMUTlib3dTcnppUVktX0taX2dHMmZpWWN4R0ZCZXc?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-14T15:38:15+00:00",
@@ -30024,10 +29909,10 @@
           "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CRzlCbHNBaVVjaVFYVVlxTGdSeW9Nd1BnVmdUMHJLSDJ6UTBCSXNhNmJMZTZEU25yZnpwV0ppV0JpYi1KZ2JkTXZydDh1eEp5YmtXUG8ydzhmT2p3eEd2TGozZjdrNU1yZDBTRw?oc=5",
           "desk": "nba",
           "title": "10 games to watch: Victor Wembanyama's 4th NBA season",
-          "summary": "10 games to watch: Victor Wembanyama's 4th NBA season NBA.com",
+          "summary": "10 games to watch: Victor Wembanyama's 4th NBA season nba.com",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CRzlCbHNBaVVjaVFYVVlxTGdSeW9Nd1BnVmdUMHJLSDJ6UTBCSXNhNmJMZTZEU25yZnpwV0ppV0JpYi1KZ2JkTXZydDh1eEp5YmtXUG8ydzhmT2p3eEd2TGozZjdrNU1yZDBTRw?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CRzlCbHNBaVVjaVFYVVlxTGdSeW9Nd1BnVmdUMHJLSDJ6UTBCSXNhNmJMZTZEU25yZnpwV0ppV0JpYi1KZ2JkTXZydDh1eEp5YmtXUG8ydzhmT2p3eEd2TGozZjdrNU1yZDBTRw?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-14T15:38:15+00:00",
@@ -30044,13 +29929,36 @@
           "lanes": []
         },
         {
+          "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXNtY3hMRVVqZzFqcjBSM0FQOFIwWkpRX1lXbmNlbm55czRlRUVLZFc5OUxzRmMtUkdHRk1PMFBiQjdXd0gxT2ZjZDIwaXNCX2VVZnY5OFhQMGFwWTBGUXlGNlJzYi1sa2ZzcFlEb3RGd0trWDExWDluMVIzR2FXVnVTRENvQk1hTG9JQUZQVmRycUYtMkhSU1JjRWNkbWFRZUZxNE5vSEh6RXEyVDFGV0pRYlM1c05XR1NBSkJDSnBxUQ?oc=5",
+          "desk": "nba",
+          "title": "Austin Rivers calls out the media and NBA fans for …",
+          "summary": "Austin Rivers calls out the media and NBA fans for … HoopsHype",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXNtY3hMRVVqZzFqcjBSM0FQOFIwWkpRX1lXbmNlbm55czRlRUVLZFc5OUxzRmMtUkdHRk1PMFBiQjdXd0gxT2ZjZDIwaXNCX2VVZnY5OFhQMGFwWTBGUXlGNlJzYi1sa2ZzcFlEb3RGd0trWDExWDluMVIzR2FXVnVTRENvQk1hTG9JQUZQVmRycUYtMkhSU1JjRWNkbWFRZUZxNE5vSEh6RXEyVDFGV0pRYlM1c05XR1NBSkJDSnBxUQ?oc=5",
+          "canonical_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXNtY3hMRVVqZzFqcjBSM0FQOFIwWkpRX1lXbmNlbm55czRlRUVLZFc5OUxzRmMtUkdHRk1PMFBiQjdXd0gxT2ZjZDIwaXNCX2VVZnY5OFhQMGFwWTBGUXlGNlJzYi1sa2ZzcFlEb3RGd0trWDExWDluMVIzR2FXVnVTRENvQk1hTG9JQUZQVmRycUYtMkhSU1JjRWNkbWFRZUZxNE5vSEh6RXEyVDFGV0pRYlM1c05XR1NBSkJDSnBxUQ?oc=5",
+          "publisher": "HoopsHype",
+          "source_group": "specialist",
+          "feed": "NBA specialists",
+          "published_at": "2026-08-14T14:53:00+00:00",
+          "teams": [],
+          "players": [
+            "Austin Rivers"
+          ],
+          "sport": "basketball",
+          "competitions": [
+            "NBA",
+            "NBA Playoffs",
+            "NBA Finals"
+          ],
+          "lanes": []
+        },
+        {
           "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3X0ZVSUc3aWlDcDFsZVFIRWhJdk4xVDYzQ3ZjdGlFamNuc0JKMzg1dm5RNUJhZEhBbkJVQkNIZ0RWbktfMjhydThfZFVuMEZZMWpVNzhvQ2MzNlVkOV82THZqMkZyLU5jOHB5ZDJORjg?oc=5",
           "desk": "nba",
           "title": "10 games to watch: Defending champion New York Knicks",
-          "summary": "10 games to watch: Defending champion New York Knicks NBA.com",
+          "summary": "10 games to watch: Defending champion New York Knicks nba.com",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3X0ZVSUc3aWlDcDFsZVFIRWhJdk4xVDYzQ3ZjdGlFamNuc0JKMzg1dm5RNUJhZEhBbkJVQkNIZ0RWbktfMjhydThfZFVuMEZZMWpVNzhvQ2MzNlVkOV82THZqMkZyLU5jOHB5ZDJORjg?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3X0ZVSUc3aWlDcDFsZVFIRWhJdk4xVDYzQ3ZjdGlFamNuc0JKMzg1dm5RNUJhZEhBbkJVQkNIZ0RWbktfMjhydThfZFVuMEZZMWpVNzhvQ2MzNlVkOV82THZqMkZyLU5jOHB5ZDJORjg?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-14T15:29:15+00:00",
@@ -30072,10 +29980,10 @@
           "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rb21vRkpvSlotbkVQUGVyVkRadjNsLU9NdElPb0NhSGlqUlA2VVJqdFNOUHJjNmdKUUE2WElXcktWRDZuc1lxdnpjZ3JCcjJseHR6TlNGa2VwNzdyN3g4dTh2TWJCSnlEWmU0?oc=5",
           "desk": "nba",
           "title": "Top rookie matchups to watch in the 2026-27 NBA season",
-          "summary": "Top rookie matchups to watch in the 2026-27 NBA season NBA.com",
+          "summary": "Top rookie matchups to watch in the 2026-27 NBA season nba.com",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rb21vRkpvSlotbkVQUGVyVkRadjNsLU9NdElPb0NhSGlqUlA2VVJqdFNOUHJjNmdKUUE2WElXcktWRDZuc1lxdnpjZ3JCcjJseHR6TlNGa2VwNzdyN3g4dTh2TWJCSnlEWmU0?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rb21vRkpvSlotbkVQUGVyVkRadjNsLU9NdElPb0NhSGlqUlA2VVJqdFNOUHJjNmdKUUE2WElXcktWRDZuc1lxdnpjZ3JCcjJseHR6TlNGa2VwNzdyN3g4dTh2TWJCSnlEWmU0?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-14T04:31:54+00:00",
@@ -30095,10 +30003,10 @@
           "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxMEtMWmYyT0RfbXNtTGpFOWZFaktCS2hueEJUOV80ZGMzZVpYcUVlRjhhTmRtVWlQZk9jQVdjVXlKMjhVcDdkNTl3eHpjc0E3TGtoeXYxdVV3RW9Rc09hVTBpcndqWC0wVUxZZUdidFdFN1VIT0lN?oc=5",
           "desk": "nba",
           "title": "NBA teams release scheds on social media",
-          "summary": "NBA teams release scheds on social media NBA.com",
+          "summary": "NBA teams release scheds on social media nba.com",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxMEtMWmYyT0RfbXNtTGpFOWZFaktCS2hueEJUOV80ZGMzZVpYcUVlRjhhTmRtVWlQZk9jQVdjVXlKMjhVcDdkNTl3eHpjc0E3TGtoeXYxdVV3RW9Rc09hVTBpcndqWC0wVUxZZUdidFdFN1VIT0lN?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxMEtMWmYyT0RfbXNtTGpFOWZFaktCS2hueEJUOV80ZGMzZVpYcUVlRjhhTmRtVWlQZk9jQVdjVXlKMjhVcDdkNTl3eHpjc0E3TGtoeXYxdVV3RW9Rc09hVTBpcndqWC0wVUxZZUdidFdFN1VIT0lN?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-14T04:07:27+00:00",
@@ -30139,10 +30047,10 @@
           "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Nd1RGWG03TUNJb2FMOThwYTVFM3pMYkdwblVfR3RuYUlNTzFuU04zU2x4blFjMkVGWU5ZeF9MNUZVclBnUkgyMmphQ1VERGlydl9aQ0VMYlQ0OGdHVDlGcmVWQ1U4VmlqOUlOMmxqN3BoSmc?oc=5",
           "desk": "nba",
           "title": "Every NBA game on Prime Video in 2026-27",
-          "summary": "Every NBA game on Prime Video in 2026-27 NBA.com",
+          "summary": "Every NBA game on Prime Video in 2026-27 nba.com",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Nd1RGWG03TUNJb2FMOThwYTVFM3pMYkdwblVfR3RuYUlNTzFuU04zU2x4blFjMkVGWU5ZeF9MNUZVclBnUkgyMmphQ1VERGlydl9aQ0VMYlQ0OGdHVDlGcmVWQ1U4VmlqOUlOMmxqN3BoSmc?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Nd1RGWG03TUNJb2FMOThwYTVFM3pMYkdwblVfR3RuYUlNTzFuU04zU2x4blFjMkVGWU5ZeF9MNUZVclBnUkgyMmphQ1VERGlydl9aQ0VMYlQ0OGdHVDlGcmVWQ1U4VmlqOUlOMmxqN3BoSmc?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-13T20:57:21+00:00",
@@ -30206,10 +30114,10 @@
           "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pcDhlVWFteGtBU01FVlZJNi1nUXJib2lBQXJ1c1QyYTVFQUZfZl9qM3BmSEFqY0ZjTHh0bUJUeWlzcUUwSnFxSGdfcnlyZEFXekVpN0FrQWtfQ0p3UXpLdERLc0c1dF9lOFlCZA?oc=5",
           "desk": "nba",
           "title": "NBA schedule release: List of 2026-27 games for all 30 teams",
-          "summary": "NBA schedule release: List of 2026-27 games for all 30 teams NBA.com",
+          "summary": "NBA schedule release: List of 2026-27 games for all 30 teams nba.com",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pcDhlVWFteGtBU01FVlZJNi1nUXJib2lBQXJ1c1QyYTVFQUZfZl9qM3BmSEFqY0ZjTHh0bUJUeWlzcUUwSnFxSGdfcnlyZEFXekVpN0FrQWtfQ0p3UXpLdERLc0c1dF9lOFlCZA?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pcDhlVWFteGtBU01FVlZJNi1nUXJib2lBQXJ1c1QyYTVFQUZfZl9qM3BmSEFqY0ZjTHh0bUJUeWlzcUUwSnFxSGdfcnlyZEFXekVpN0FrQWtfQ0p3UXpLdERLc0c1dF9lOFlCZA?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-13T19:16:26+00:00",
@@ -30317,10 +30225,10 @@
           "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDYXBNeGJWbjMzZTVqX05YRHJYUE5jNXFPYS1FZ0xvb2VueTN0QllsalZBRXR3bVM4MnJMTjQ3dDVUVHVWUEhTdWZmR2VJcTdFM1RwWUYwYlR3QjJfdVFTaU03Y3NlRmJtMFE?oc=5",
           "desk": "nba",
           "title": "How to watch NBA games in 2026-27: Everything you need to know",
-          "summary": "How to watch NBA games in 2026-27: Everything you need to know NBA.com",
+          "summary": "How to watch NBA games in 2026-27: Everything you need to know nba.com",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDYXBNeGJWbjMzZTVqX05YRHJYUE5jNXFPYS1FZ0xvb2VueTN0QllsalZBRXR3bVM4MnJMTjQ3dDVUVHVWUEhTdWZmR2VJcTdFM1RwWUYwYlR3QjJfdVFTaU03Y3NlRmJtMFE?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDYXBNeGJWbjMzZTVqX05YRHJYUE5jNXFPYS1FZ0xvb2VueTN0QllsalZBRXR3bVM4MnJMTjQ3dDVUVHVWUEhTdWZmR2VJcTdFM1RwWUYwYlR3QjJfdVFTaU03Y3NlRmJtMFE?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-13T07:00:00+00:00",
@@ -30338,18 +30246,15 @@
           "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcDNoWVFWZ2FsN0taaUFacWpSb3lKQ3F4TURyTENCMFE3VFRyalVmQ1o3NFVfRGNHd2ExNzVBZkRpNnNqUGIybzg1OXRpd19QaVAxY2VheVJBcFM5azNaYmNGdldsaUtBX3ZVSnlVQ1Blc1pUX3J6cmwzZFltVFYyM21MMC0tbkM4OWNWUVpvTmV4SkNQckhSTFpLSGdWYjZ2RUtRZEtReGZyQkF2NFctTkFSalFnZzZNQ2xObmdVczF5N0pIT0JKVWlBUWZraTg?oc=5",
           "desk": "nba",
           "title": "NBA YoungBoy, now in Korea, talks heart condition and how many albums his future holds",
-          "summary": "NBA YoungBoy, now in Korea, talks heart condition and how many albums his future holds Los Angeles Times",
+          "summary": "NBA YoungBoy, now in Korea, talks heart condition and how many albums his future holds latimes.com",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcDNoWVFWZ2FsN0taaUFacWpSb3lKQ3F4TURyTENCMFE3VFRyalVmQ1o3NFVfRGNHd2ExNzVBZkRpNnNqUGIybzg1OXRpd19QaVAxY2VheVJBcFM5azNaYmNGdldsaUtBX3ZVSnlVQ1Blc1pUX3J6cmwzZFltVFYyM21MMC0tbkM4OWNWUVpvTmV4SkNQckhSTFpLSGdWYjZ2RUtRZEtReGZyQkF2NFctTkFSalFnZzZNQ2xObmdVczF5N0pIT0JKVWlBUWZraTg?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcDNoWVFWZ2FsN0taaUFacWpSb3lKQ3F4TURyTENCMFE3VFRyalVmQ1o3NFVfRGNHd2ExNzVBZkRpNnNqUGIybzg1OXRpd19QaVAxY2VheVJBcFM5azNaYmNGdldsaUtBX3ZVSnlVQ1Blc1pUX3J6cmwzZFltVFYyM21MMC0tbkM4OWNWUVpvTmV4SkNQckhSTFpLSGdWYjZ2RUtRZEtReGZyQkF2NFctTkFSalFnZzZNQ2xObmdVczF5N0pIT0JKVWlBUWZraTg?oc=5",
-          "publisher": "Los Angeles Times",
+          "publisher": "latimes.com",
           "source_group": "local",
           "feed": "NBA local discovery",
           "published_at": "2026-08-13T02:07:00+00:00",
           "teams": [],
-          "players": [
-            "Los Angeles Times",
-            "Los Angeles"
-          ],
+          "players": [],
           "sport": "basketball",
           "competitions": [
             "NBA",
@@ -30362,10 +30267,10 @@
           "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaZ3NlZmtVQUZLWnE5dnQyMGw2Z3J4cVA4WVA0VmtmVGFJcDl1Q0UzSzZaNjZId2x2ZDVvSmtqSE5ucUQ1U0FhMVYzRHZkWG54T0t5ekRJUWk1d0RhUFBpNi1ITGNyY1NyU2ZPOFNKTGFHc21YR2ZRWjFxYw?oc=5",
           "desk": "nba",
           "title": "Russell Westbrook, former NBA MVP and 9-time All-Star, announces retirement after 18 seasons",
-          "summary": "Russell Westbrook, former NBA MVP and 9-time All-Star, announces retirement after 18 seasons NBA.com",
+          "summary": "Russell Westbrook, former NBA MVP and 9-time All-Star, announces retirement after 18 seasons nba.com",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaZ3NlZmtVQUZLWnE5dnQyMGw2Z3J4cVA4WVA0VmtmVGFJcDl1Q0UzSzZaNjZId2x2ZDVvSmtqSE5ucUQ1U0FhMVYzRHZkWG54T0t5ekRJUWk1d0RhUFBpNi1ITGNyY1NyU2ZPOFNKTGFHc21YR2ZRWjFxYw?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaZ3NlZmtVQUZLWnE5dnQyMGw2Z3J4cVA4WVA0VmtmVGFJcDl1Q0UzSzZaNjZId2x2ZDVvSmtqSE5ucUQ1U0FhMVYzRHZkWG54T0t5ekRJUWk1d0RhUFBpNi1ITGNyY1NyU2ZPOFNKTGFHc21YR2ZRWjFxYw?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-13T00:29:27+00:00",
@@ -30477,10 +30382,10 @@
           "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wa0FUQkF5bm40elF6NTdGZmVyZGhpbUdLYlNNc0RCYTdrLTZHV0xjQ0U0akVGQ2libTE0RVcxZEdGVGlIQ2doWWdPbVlCQ3I5QXA5aW5WSzBVM0VSQS1rSUpvNDlPaEZfbE9pZkUzTWdOQzBld0E?oc=5",
           "desk": "nba",
           "title": "Group Play schedule for Emirates NBA Cup 2026 revealed",
-          "summary": "Group Play schedule for Emirates NBA Cup 2026 revealed NBA.com",
+          "summary": "Group Play schedule for Emirates NBA Cup 2026 revealed nba.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wa0FUQkF5bm40elF6NTdGZmVyZGhpbUdLYlNNc0RCYTdrLTZHV0xjQ0U0akVGQ2libTE0RVcxZEdGVGlIQ2doWWdPbVlCQ3I5QXA5aW5WSzBVM0VSQS1rSUpvNDlPaEZfbE9pZkUzTWdOQzBld0E?oc=5",
           "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wa0FUQkF5bm40elF6NTdGZmVyZGhpbUdLYlNNc0RCYTdrLTZHV0xjQ0U0akVGQ2libTE0RVcxZEdGVGlIQ2doWWdPbVlCQ3I5QXA5aW5WSzBVM0VSQS1rSUpvNDlPaEZfbE9pZkUzTWdOQzBld0E?oc=5",
-          "publisher": "NBA.com",
+          "publisher": "nba.com",
           "source_group": "official",
           "feed": "NBA official discovery",
           "published_at": "2026-08-12T15:07:37+00:00",
@@ -30922,10 +30827,10 @@
               "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rb21vRkpvSlotbkVQUGVyVkRadjNsLU9NdElPb0NhSGlqUlA2VVJqdFNOUHJjNmdKUUE2WElXcktWRDZuc1lxdnpjZ3JCcjJseHR6TlNGa2VwNzdyN3g4dTh2TWJCSnlEWmU0?oc=5",
               "desk": "nba",
               "title": "Top rookie matchups to watch in the 2026-27 NBA season",
-              "summary": "Top rookie matchups to watch in the 2026-27 NBA season NBA.com",
+              "summary": "Top rookie matchups to watch in the 2026-27 NBA season nba.com",
               "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rb21vRkpvSlotbkVQUGVyVkRadjNsLU9NdElPb0NhSGlqUlA2VVJqdFNOUHJjNmdKUUE2WElXcktWRDZuc1lxdnpjZ3JCcjJseHR6TlNGa2VwNzdyN3g4dTh2TWJCSnlEWmU0?oc=5",
               "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rb21vRkpvSlotbkVQUGVyVkRadjNsLU9NdElPb0NhSGlqUlA2VVJqdFNOUHJjNmdKUUE2WElXcktWRDZuc1lxdnpjZ3JCcjJseHR6TlNGa2VwNzdyN3g4dTh2TWJCSnlEWmU0?oc=5",
-              "publisher": "NBA.com",
+              "publisher": "nba.com",
               "source_group": "official",
               "feed": "NBA official discovery",
               "published_at": "2026-08-14T04:31:54+00:00",
@@ -31649,31 +31554,31 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-16T08:39:08.322152+00:00",
-      "updated_at": "2026-08-16T08:39:08.322152+00:00",
+      "content_updated_at": "2026-08-16T09:33:11.492588+00:00",
+      "updated_at": "2026-08-16T09:33:11.492588+00:00",
       "data_updated_at": {
         "standings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "standings": "2026-08-16T08:39:08.322152+00:00"
+        "standings": "2026-08-16T09:33:11.492588+00:00"
       },
       "diagnostics": {
         "candidate_count": 349,
-        "classified_count": 46,
-        "deduplicated_count": 45,
-        "selected_count": 45,
+        "classified_count": 47,
+        "deduplicated_count": 46,
+        "selected_count": 46,
         "publishers": {
           "NY Post Sports": 3,
           "USA TODAY Sports": 5,
           "SB Nation": 5,
-          "HoopsHype": 14,
+          "HoopsHype": 15,
           "NBC Sports BayArea": 1,
           "NBC Sports": 1,
           "The Boston Globe": 1,
           "Dallas News": 1,
-          "NBA.com": 12,
+          "nba.com": 12,
           "cdn-uat.nba.com": 1,
-          "Los Angeles Times": 1
+          "latimes.com": 1
         },
         "source_counts": {
           "ESPN NBA": 0,
@@ -31888,25 +31793,47 @@
         "lanes": []
       },
       {
-        "id": "https://bbc.co.uk/sport/football/articles/c1e1v64q256o?at_medium=RSS&at_campaign=rss",
-        "desk": "soccer",
-        "title": "How important is Community Shield to a team's season?",
-        "summary": "Premier League champions Arsenal take on FA Cup winners Manchester City in Sunday's Community Shield - but would winning suggest a successful season ahead?",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c1e1v64q256o?at_medium=RSS&at_campaign=rss",
-        "canonical_url": "https://bbc.co.uk/sport/football/articles/c1e1v64q256o?at_medium=RSS&at_campaign=rss",
-        "publisher": "BBC Sport",
-        "source_group": "europe",
-        "feed": "BBC Football",
-        "published_at": "2026-08-16T05:29:55+00:00",
+        "id": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+        "desk": "mlb",
+        "title": "Yankees news: Aaron Judge throws a baseball",
+        "summary": "Aaron Judge cleared to throw; Gerrit Cole is set for obscure record; scouting reports from Double-A",
+        "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+        "canonical_url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-throws-090000143.html",
+        "publisher": "SB Nation",
+        "source_group": "national",
+        "feed": "Yahoo MLB",
+        "published_at": "2026-08-16T09:00:00+00:00",
         "teams": [
-          "Arsenal",
-          "Manchester City"
+          "Yankees"
         ],
         "players": [
-          "Community Shield",
-          "Premier League",
-          "Sunday's Community Shield",
-          "Sunday's Community"
+          "Aaron Judge",
+          "Gerrit Cole"
+        ],
+        "sport": "baseball",
+        "competitions": [
+          "Major League Baseball"
+        ],
+        "lanes": []
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+        "desk": "soccer",
+        "title": "Frattesi at Lazio: Role, Fantasy Football Valuation, and Statistics",
+        "summary": "Frattesi at Lazio: Role, Fantasy Football Valuation, and Statistics La Gazzetta dello Sport",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+        "canonical_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQd1YxVkdyT1RkX20xOFh6dzNEbHdQMWVnMVY1Qm1WNk44RHN6cFU5QTd2OGtrQVJiT2p1OTBuRGRybEFaMDZXTlhnQ3gzeElqT2l1UTFkRDJGNDg5VGJ0SmVXUlNkMXJZZS1wSlBxcHNySDl5TXFDcXBqOGp1Tk5qWDdUV1NLMFN0TEQzNGRTXzlhWjltYlVNWVNIbnF4MHZURC1ZajRNQklrRkMxeS1lWG5WSm1VenBxTHZtWnVzeWxLTjlwNVJucUtQbG16Q1o2SFFwblVFbjRNMk9hdzYwR3h6MUxVY1BpYi1kZUNVNGFla3pmN00ySXBrQjfSAYICQVVfeXFMUHpnVTNwRUpHdFUzcEppclA1cGs4alQxTHp6SnpDVUhfTWdGMWpzLVp0Q09LeXNERVBvMTNFNHAwRXJuVXgzR2hyMnQ4RFZIT0ZTN0VxUFpRMmhPT3dPZ1kwV0cwODZPUmhZaGw1QmRqWTBoYkZrOW9XMTR0ancwMWY5NnYyVDhrN01ZVzg2OWFJMXowbWRWRFh5aFZLa0hlZGlUVnJ6ZGg5TFU3aVBIczktaE1NYWo0clEzTVFzRU9jeDlKOGhnQ1RnVzdBVVg3aG8wUHRCMm9wdGpyOTFKQ2RQRXR3QnJFZFNTZk1PSmc2Y0VHYVpPY0hocGxzNHBTZEJB?oc=5",
+        "publisher": "La Gazzetta dello Sport",
+        "source_group": "europe",
+        "feed": "Spanish and Italian football",
+        "published_at": "2026-08-16T09:13:33+00:00",
+        "teams": [],
+        "players": [
+          "Fantasy Football Valuation",
+          "Fantasy Football",
+          "Statistics Frattesi",
+          "Statistics La Gazzetta",
+          "Statistics La"
         ],
         "sport": "soccer",
         "competitions": [
@@ -31928,9 +31855,60 @@
           "CAF",
           "AFC"
         ],
-        "lanes": [
-          "premier-league"
-        ]
+        "lanes": []
+      },
+      {
+        "id": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+        "desk": "college-football",
+        "title": "Watch 'The Film Guy' Brooks Austin break down Texas A&M QB Marcel Reed",
+        "summary": "Texas A&M QB Marcel Reed needs to get back to playing like a true dual-threat, and CFB analyst Brooks Austin agrees in his latest breakdown.",
+        "url": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+        "canonical_url": "https://sports.yahoo.com/articles/watch-film-guy-brooks-austin-090921268.html",
+        "publisher": "Aggies Wire",
+        "source_group": "national",
+        "feed": "Yahoo College Football",
+        "published_at": "2026-08-16T09:09:21+00:00",
+        "teams": [
+          "Texas",
+          "Texas A&M"
+        ],
+        "players": [
+          "The Film Guy",
+          "The Film",
+          "Brooks Austin",
+          "Marcel Reed Texas",
+          "Marcel Reed"
+        ],
+        "sport": "football",
+        "competitions": [
+          "NCAA FBS",
+          "College Football Playoff"
+        ],
+        "lanes": []
+      },
+      {
+        "id": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+        "desk": "nfl",
+        "title": "49ers News: Mike Evans practices again",
+        "summary": "Your daily San Francisco 49ers news for Sunday, August 16th, 2026",
+        "url": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+        "canonical_url": "https://sports.yahoo.com/articles/49ers-news-mike-evans-practices-084900932.html",
+        "publisher": "SB Nation",
+        "source_group": "national",
+        "feed": "Yahoo NFL",
+        "published_at": "2026-08-16T08:49:00+00:00",
+        "teams": [
+          "49ers"
+        ],
+        "players": [
+          "Mike Evans",
+          "San Francisco"
+        ],
+        "sport": "football",
+        "competitions": [
+          "NFL"
+        ],
+        "lanes": []
       },
       {
         "id": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-undersized-center-willie-lampkin-continues-to-impress-in-the-preseason",
@@ -31980,78 +31958,6 @@
         "lanes": [
           "training-camp"
         ]
-      },
-      {
-        "id": "https://sports.yahoo.com/articles/winners-losers-seahawks-vs-cowboys-045631358.html",
-        "desk": "nfl",
-        "title": "Winners and Losers from Seahawks vs. Cowboys: Yeesh, that o-line",
-        "summary": "The good news is that Seahawks first-team football is back on Sept. 9!",
-        "url": "https://sports.yahoo.com/articles/winners-losers-seahawks-vs-cowboys-045631358.html",
-        "canonical_url": "https://sports.yahoo.com/articles/winners-losers-seahawks-vs-cowboys-045631358.html",
-        "publisher": "SB Nation",
-        "source_group": "national",
-        "feed": "Yahoo NFL",
-        "published_at": "2026-08-16T04:56:31+00:00",
-        "teams": [
-          "Cowboys",
-          "Seahawks"
-        ],
-        "players": [],
-        "sport": "football",
-        "competitions": [
-          "NFL"
-        ],
-        "lanes": []
-      },
-      {
-        "id": "https://sports.yahoo.com/articles/does-paul-skenes-pitch-next-043050342.html",
-        "desk": "mlb",
-        "title": "When does Paul Skenes pitch next? Pirates push back ace's next start",
-        "summary": "Paul Skenes will not start Sunday as scheduled. Pittsburgh Pirates manager Don Kelly said his ace will start Wednesday instead.",
-        "url": "https://sports.yahoo.com/articles/does-paul-skenes-pitch-next-043050342.html",
-        "canonical_url": "https://sports.yahoo.com/articles/does-paul-skenes-pitch-next-043050342.html",
-        "publisher": "USA TODAY Sports",
-        "source_group": "national",
-        "feed": "Yahoo MLB",
-        "published_at": "2026-08-16T04:30:50+00:00",
-        "teams": [
-          "Pirates"
-        ],
-        "players": [
-          "Paul Skenes",
-          "Pittsburgh Pirates",
-          "Don Kelly"
-        ],
-        "sport": "baseball",
-        "competitions": [
-          "Major League Baseball"
-        ],
-        "lanes": []
-      },
-      {
-        "id": "https://sports.yahoo.com/articles/indiana-curt-cignetti-notre-dame-041832520.html",
-        "desk": "college-football",
-        "title": "Indiana’s Curt Cignetti has a Notre Dame problem",
-        "summary": "Indiana’s Curt Cignetti is too comfortable ding-dong ditching Notre Dame.",
-        "url": "https://sports.yahoo.com/articles/indiana-curt-cignetti-notre-dame-041832520.html",
-        "canonical_url": "https://sports.yahoo.com/articles/indiana-curt-cignetti-notre-dame-041832520.html",
-        "publisher": "SB Nation",
-        "source_group": "national",
-        "feed": "Yahoo College Football",
-        "published_at": "2026-08-16T04:18:32+00:00",
-        "teams": [
-          "Notre Dame"
-        ],
-        "players": [
-          "Indiana’s Curt Cignetti",
-          "Indiana’s Curt"
-        ],
-        "sport": "football",
-        "competitions": [
-          "NCAA FBS",
-          "College Football Playoff"
-        ],
-        "lanes": []
       },
       {
         "id": "https://sports.yahoo.com/articles/lsu-retire-jayden-daniels-no-041014127.html",
@@ -32113,7 +32019,7 @@
         "lanes": []
       }
     ],
-    "updated_at": "2026-08-16T08:39:08.322152+00:00"
+    "updated_at": "2026-08-16T09:33:11.492588+00:00"
   },
-  "content_hash": "f63b96768fdf68ae820f9a46da41b3cc312ea97ab98ab320c429b82a5ea4df96"
+  "content_hash": "6e73953a724a572c016e3497c5724bef1988f5db049bdbc923e1169165af9743"
 }
