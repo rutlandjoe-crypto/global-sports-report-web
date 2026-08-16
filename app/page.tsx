@@ -1,7 +1,10 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
+import Image from "next/image";
 import EditorialStandard from "@/components/EditorialStandard";
+import AustinBusinessBrief from "@/components/AustinBusinessBrief";
+import { buildAustinBusinessBrief, type AustinStory } from "@/lib/austinBusinessBrief";
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
 import { readSportsDeskPayload } from "@/lib/sportsDesks";
 
@@ -1131,6 +1134,12 @@ export default function Page() {
     : editorSignalStories.length
       ? spotlightItemsFromStories(editorSignalStories)
       : cleanSignals(rawSignals.length ? rawSignals : buildBriefingItems(stories.slice(3), []));
+  const austinSourceStories = [
+    ...(homepageEditorial?.stories ?? []),
+    ...Object.values(deskPayload.desks ?? {}).flatMap((desk) => desk.stories ?? []),
+    ...stories,
+  ] as AustinStory[];
+  const austinBusinessItems = buildAustinBusinessBrief(austinSourceStories);
   return (
     <main className="min-h-screen bg-neutral-100 text-neutral-950">
       <div className="border-b border-neutral-800 bg-black text-white">
@@ -1166,9 +1175,19 @@ export default function Page() {
       <header className="border-b border-neutral-300 bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-5 py-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-wide text-red-700">
-              {SITE.name}
-            </p>
+            <div className="flex items-center gap-4">
+              <Image
+                src="/gsr-logo-sports.png"
+                alt={`${SITE.name} circular GSR logo`}
+                width={96}
+                height={96}
+                priority
+                className="h-20 w-20 shrink-0 rounded-full object-contain md:h-24 md:w-24"
+              />
+              <p className="text-sm font-black uppercase tracking-wide text-red-700">
+                {SITE.name}
+              </p>
+            </div>
 
             <h1 className="mt-3 text-4xl font-black leading-tight md:text-5xl">
               {heroUrl ? (
@@ -1217,6 +1236,10 @@ export default function Page() {
       </nav>
 
       <EditorialStandard />
+
+      <section className="mx-auto max-w-7xl px-5 pt-6">
+        <AustinBusinessBrief items={austinBusinessItems} />
+      </section>
 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-6 lg:grid-cols-[0.75fr_1.25fr]">
         <aside className="space-y-6">
