@@ -10,18 +10,11 @@ export default function AustinBusinessBrief({ items }: { items: AustinBriefItem[
       </p>
 
       {items.length ? (
-        <div className="mt-4 space-y-4">
+        <div className="mt-4 divide-y divide-amber-200 border-y border-amber-200">
           {items.map((item) => (
-            <article key={`${item.headline}-${item.url}`} className="rounded-xl border border-amber-200 bg-white p-4">
+            <article key={`${item.headline}-${item.url}`} className="bg-white px-1 py-4">
               <h3 className="font-black leading-6 text-neutral-950">{item.headline}</h3>
-              <dl className="mt-3 grid gap-2 text-sm">
-                {item.fields.map((field) => (
-                  <div key={`${item.url}-${field.label}`} className="grid gap-1 border-b border-neutral-200 pb-2 sm:grid-cols-[12rem_1fr]">
-                    <dt className="font-black text-neutral-600">{field.label}</dt>
-                    <dd className="leading-5 text-neutral-800">{field.value}</dd>
-                  </div>
-                ))}
-              </dl>
+              <p className="mt-2 text-sm leading-6 text-neutral-700">{item.context}</p>
               <a
                 href={item.url}
                 target="_blank"
@@ -35,7 +28,7 @@ export default function AustinBusinessBrief({ items }: { items: AustinBriefItem[
         </div>
       ) : (
         <p className="mt-4 rounded-xl bg-white p-4 text-sm leading-6 text-neutral-700">
-          No qualifying Austin or Central Texas business development is supported by the current Sports source material.
+          No qualifying sourced Austin or Central Texas business development is available in the current rolling window.
         </p>
       )}
     </section>

@@ -102,6 +102,16 @@ function readReport(): AnyObj {
   }
 }
 
+function readAustinBusinessStories(): AustinStory[] {
+  try {
+    const file = path.join(process.cwd(), "public", "austin_business_brief.json");
+    const payload = JSON.parse(fs.readFileSync(file, "utf8"));
+    return Array.isArray(payload?.stories) ? payload.stories : [];
+  } catch {
+    return [];
+  }
+}
+
 function cleanText(value: AnyObj): string {
   if (value === null || value === undefined) return "";
 
@@ -1141,12 +1151,7 @@ export default function Page() {
     : editorSignalStories.length
       ? spotlightItemsFromStories(editorSignalStories)
       : cleanSignals(rawSignals.length ? rawSignals : buildBriefingItems(stories.slice(3), []));
-  const austinSourceStories = [
-    ...(homepageEditorial?.stories ?? []),
-    ...Object.values(deskPayload.desks ?? {}).flatMap((desk) => desk.stories ?? []),
-    ...stories,
-  ] as AustinStory[];
-  const austinBusinessItems = buildAustinBusinessBrief(austinSourceStories);
+  const austinBusinessItems = buildAustinBusinessBrief(readAustinBusinessStories());
   return (
     <main className="min-h-screen bg-neutral-100 text-neutral-950">
       <div className="border-b border-neutral-800 bg-black text-white">

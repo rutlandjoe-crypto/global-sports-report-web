@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "window_hours": 48,
+  "request_timeout_seconds": 20,
+  "sources": [
+    {
+      "name": "Austin Current",
+      "publisher": "Austin Current",
+      "url": "https://austincurrent.org/feed/",
+      "priority": 5
+    },
+    {
+      "name": "The Texas Tribune",
+      "publisher": "The Texas Tribune",
+      "url": "https://feeds.texastribune.org/feeds/main/",
+      "priority": 4
+    },
+    {
+      "name": "KVUE Austin",
+      "publisher": "KVUE",
+      "url": "https://www.kvue.com/feeds/syndication/rss/news/local",
+      "priority": 3
+    },
+    {
+      "name": "TechCrunch",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "priority": 3
+    },
+    {
+      "name": "Austin Technology Council",
+      "publisher": "Austin Technology Council",
+      "url": "https://www.austintechnologycouncil.org/feed/",
+      "priority": 2
+    }
+  ]
+}

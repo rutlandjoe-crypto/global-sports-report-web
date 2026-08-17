@@ -73,6 +73,10 @@ jobs:
         working-directory: sports-site
         run: python scripts/build_sports_editorial_archive.py
 
+      - name: Refresh independent Austin Business Brief
+        working-directory: sports-site
+        run: python scripts/update_austin_business_brief.py
+
       - name: Validate Sports Agent output
         shell: pwsh
         run: |
@@ -179,7 +183,7 @@ jobs:
           git config user.name "GSR Sports Agent"
           git config user.email "actions@github.com"
 
-          git add public/latest_report.json public/sports_desks.json public/sports_editorial_archive.json public/latest_report.txt public/global_sports_report.txt
+          git add public/latest_report.json public/sports_desks.json public/sports_editorial_archive.json public/austin_business_brief.json public/latest_report.txt public/global_sports_report.txt
 
           $changes = git diff --cached --name-only
 
