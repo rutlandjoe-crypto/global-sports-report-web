@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import type { Metadata } from "next";
 
 export type DeskStory = {
   id: string;
@@ -68,4 +69,12 @@ export function getSportsDesk(id: string): { desk: SportsDesk | null; contentUpd
   const payload = readSportsDeskPayload();
   const desk = payload.desks?.[id] ?? null;
   return { desk, contentUpdatedAt: desk?.content_updated_at ?? "" };
+}
+
+export function sportsDeskMetadata(id: string, label: string): Metadata {
+  return {
+    title: `${label} Sports Desk | Global Sports Report`,
+    description: `Current ${label} reporting selected by the Global Sports Report Sports Desk.`,
+    alternates: { canonical: `https://www.globalsportsreport.com/${id}` },
+  };
 }

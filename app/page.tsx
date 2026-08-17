@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import EditorialStandard from "@/components/EditorialStandard";
@@ -11,6 +12,12 @@ import { readSportsDeskPayload } from "@/lib/sportsDesks";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 export const fetchCache = "force-no-store";
+
+export const metadata: Metadata = {
+  title: "Global Sports Report",
+  description: "Automated sports journalism support for the modern newsroom.",
+  alternates: { canonical: "https://www.globalsportsreport.com/" },
+};
 
 import SocialIconLinks from "@/app/SocialIconLinks";
 

@@ -66,9 +66,12 @@ jobs:
       - name: Validate all six Sports Desks
         run: python validate_sports_desks.py
 
+      - name: Retain durable Sports editorial
+        run: python scripts/build_sports_editorial_archive.py
+
       - name: Stage website files
         run: |
-          git add public/latest_report.json public/sports_desks.json public/latest_report.txt public/global_sports_report.txt
+          git add public/latest_report.json public/sports_desks.json public/sports_editorial_archive.json public/latest_report.txt public/global_sports_report.txt
 
       - name: Commit updated site data if changed
         run: |
