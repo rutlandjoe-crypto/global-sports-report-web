@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-08-18T21:30:00.392603+00:00",
-  "verified_at": "2026-08-18T21:30:00.392603+00:00",
+  "generated_at": "2026-08-18T21:31:37.952184+00:00",
+  "verified_at": "2026-08-18T21:31:37.952184+00:00",
   "config": {
     "publisher_limit": 6,
     "recency_hours": 96
@@ -402,6 +402,31 @@
           "players": [
             "Do Rams",
             "Super Bowl"
+          ],
+          "sport": "football",
+          "competitions": [
+            "NFL"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/packers-claim-edge-rusher-arden-212424894.html",
+          "desk": "nfl",
+          "title": "Packers claim edge rusher Arden Walker, fill roster",
+          "summary": "Arden Walker played 18 snaps in the Minnesota Vikings’ preseason opener before being waived on Monday",
+          "url": "https://sports.yahoo.com/articles/packers-claim-edge-rusher-arden-212424894.html",
+          "canonical_url": "https://sports.yahoo.com/articles/packers-claim-edge-rusher-arden-212424894.html",
+          "publisher": "SB Nation",
+          "source_group": "national",
+          "feed": "Yahoo NFL",
+          "published_at": "2026-08-18T21:24:24+00:00",
+          "teams": [
+            "Packers",
+            "Vikings"
+          ],
+          "players": [
+            "Arden Walker",
+            "Minnesota Vikings"
           ],
           "sport": "football",
           "competitions": [
@@ -1172,27 +1197,6 @@
           "lanes": [
             "roster-battles"
           ]
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/cowboys-countdown-kickoff-top-100-200000150.html",
-          "desk": "nfl",
-          "title": "Cowboys countdown to kickoff: Top 100 iconic games – Day 26",
-          "summary": "We countdown 100 days until kickoff with a series of the most iconic games in Cowboys history. Today is Day 26",
-          "url": "https://sports.yahoo.com/articles/cowboys-countdown-kickoff-top-100-200000150.html",
-          "canonical_url": "https://sports.yahoo.com/articles/cowboys-countdown-kickoff-top-100-200000150.html",
-          "publisher": "SB Nation",
-          "source_group": "national",
-          "feed": "Yahoo NFL",
-          "published_at": "2026-08-18T20:00:00+00:00",
-          "teams": [
-            "Cowboys"
-          ],
-          "players": [],
-          "sport": "football",
-          "competitions": [
-            "NFL"
-          ],
-          "lanes": []
         },
         {
           "id": "https://sports.yahoo.com/articles/chargers-tyler-biadasz-carted-off-184326492.html",
@@ -2776,6 +2780,31 @@
               "lanes": []
             },
             {
+              "id": "https://sports.yahoo.com/articles/packers-claim-edge-rusher-arden-212424894.html",
+              "desk": "nfl",
+              "title": "Packers claim edge rusher Arden Walker, fill roster",
+              "summary": "Arden Walker played 18 snaps in the Minnesota Vikings’ preseason opener before being waived on Monday",
+              "url": "https://sports.yahoo.com/articles/packers-claim-edge-rusher-arden-212424894.html",
+              "canonical_url": "https://sports.yahoo.com/articles/packers-claim-edge-rusher-arden-212424894.html",
+              "publisher": "SB Nation",
+              "source_group": "national",
+              "feed": "Yahoo NFL",
+              "published_at": "2026-08-18T21:24:24+00:00",
+              "teams": [
+                "Packers",
+                "Vikings"
+              ],
+              "players": [
+                "Arden Walker",
+                "Minnesota Vikings"
+              ],
+              "sport": "football",
+              "competitions": [
+                "NFL"
+              ],
+              "lanes": []
+            },
+            {
               "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUllcl9KbXNfMWctMmoySGdaM2dzOEZJb2ZRU045Z2hqVlVEUUxSMlRRdFdjYnlqSmhjUGZ4MmR1b2xTUXNZcVNlbW45WFdtT3pUbnN2YkpLT1otS20wbTluZDktQWtoR1lkMWVINV9fMnJYeGY5U2ExRFFNSGFabEJsQUk2VV9XRC04?oc=5",
               "desk": "nfl",
               "title": "NFL news roundup: Falcons sign DE Za'Darius Smith; Giants add RB Najee Harris on one-year deal",
@@ -2891,29 +2920,6 @@
               ],
               "players": [
                 "Baker Mayfield"
-              ],
-              "sport": "football",
-              "competitions": [
-                "NFL"
-              ],
-              "lanes": []
-            },
-            {
-              "id": "https://sports.yahoo.com/articles/ernie-sims-pushing-linebackers-set-203254258.html",
-              "desk": "nfl",
-              "title": "Ernie Sims pushing linebackers to set the tone for FSU: “We have to carry ourselves with a certain dadgum mindset”",
-              "summary": "It doesn’t take long to see Bobby Bowden’s impact on first-year linebacker coach Ernie Sims. Sims, a Tallahassee native, played under Coach Bowden for three years and became a top-10 pick in the 2006 NFL Draft. In his interview with the local Tallahassee media on Tuesday, Sims uttered “Dadgum,” a trademark Bowden phrase, four times. […]",
-              "url": "https://sports.yahoo.com/articles/ernie-sims-pushing-linebackers-set-203254258.html",
-              "canonical_url": "https://sports.yahoo.com/articles/ernie-sims-pushing-linebackers-set-203254258.html",
-              "publisher": "SB Nation",
-              "source_group": "national",
-              "feed": "Yahoo NFL",
-              "published_at": "2026-08-18T20:32:54+00:00",
-              "teams": [],
-              "players": [
-                "Ernie Sims",
-                "Bobby Bowden’s",
-                "Coach Bowden"
               ],
               "sport": "football",
               "competitions": [
@@ -3264,19 +3270,19 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-18T21:30:00.392603+00:00",
-      "updated_at": "2026-08-18T21:30:00.392603+00:00",
+      "content_updated_at": "2026-08-18T21:31:37.952184+00:00",
+      "updated_at": "2026-08-18T21:31:37.952184+00:00",
       "data_updated_at": {
         "scores": "2026-08-18T20:33:23.798507+00:00",
         "standings": "2026-08-16T03:08:40.990922+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-18T21:30:00.392603+00:00",
-        "standings": "2026-08-18T21:30:00.392603+00:00"
+        "scores": "2026-08-18T21:31:37.952184+00:00",
+        "standings": "2026-08-18T21:31:37.952184+00:00"
       },
       "diagnostics": {
         "candidate_count": 280,
-        "classified_count": 132,
+        "classified_count": 133,
         "deduplicated_count": 114,
         "selected_count": 72,
         "publishers": {
@@ -7101,8 +7107,8 @@
         "rankings": "2026-08-17T16:37:10.968711+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-18T21:30:00.392603+00:00",
-        "rankings": "2026-08-18T21:30:00.392603+00:00"
+        "scores": "2026-08-18T21:31:37.952184+00:00",
+        "rankings": "2026-08-18T21:31:37.952184+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -7331,51 +7337,26 @@
           ]
         },
         {
-          "id": "https://sports.yahoo.com/articles/padres-vs-mets-prediction-picks-161700661.html",
+          "id": "https://sports.yahoo.com/articles/cincinnati-reds-vs-st-louis-212519071.html",
           "desk": "mlb",
-          "title": "Padres vs Mets Prediction, Picks & Odds for Today's MLB Game",
-          "summary": "Get our best Padres vs. Mets predictions and MLB picks for Tuesday, Aug. 18, 2026.",
-          "url": "https://sports.yahoo.com/articles/padres-vs-mets-prediction-picks-161700661.html",
-          "canonical_url": "https://sports.yahoo.com/articles/padres-vs-mets-prediction-picks-161700661.html",
-          "publisher": "COVERS",
+          "title": "Cincinnati Reds vs. St. Louis Cardinals – Andrew Abbott vs. Kyle Leahy",
+          "summary": "Can Andrew Abbott get back on track to finish the year?",
+          "url": "https://sports.yahoo.com/articles/cincinnati-reds-vs-st-louis-212519071.html",
+          "canonical_url": "https://sports.yahoo.com/articles/cincinnati-reds-vs-st-louis-212519071.html",
+          "publisher": "SB Nation",
           "source_group": "national",
           "feed": "Yahoo MLB",
-          "published_at": "2026-08-18T16:17:00+00:00",
+          "published_at": "2026-08-18T21:25:19+00:00",
           "teams": [
-            "Mets",
-            "Padres"
+            "Cardinals",
+            "Reds"
           ],
           "players": [
-            "Mets Prediction",
-            "Game Get"
-          ],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": []
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/yankees-vs-orioles-prediction-picks-160700689.html",
-          "desk": "mlb",
-          "title": "Yankees vs Orioles Prediction, Picks & Odds for Today's MLB Game",
-          "summary": "My Yankees vs. Orioles MLB predictions for Aug. 18, 2026, on a game in which Carlos Rodon's return leads to the total being priced a run too high, and Ben Rice is an appealing home run pick.",
-          "url": "https://sports.yahoo.com/articles/yankees-vs-orioles-prediction-picks-160700689.html",
-          "canonical_url": "https://sports.yahoo.com/articles/yankees-vs-orioles-prediction-picks-160700689.html",
-          "publisher": "COVERS",
-          "source_group": "national",
-          "feed": "Yahoo MLB",
-          "published_at": "2026-08-18T16:07:00+00:00",
-          "teams": [
-            "Orioles",
-            "Yankees"
-          ],
-          "players": [
-            "Orioles Prediction",
-            "Game My Yankees",
-            "Game My",
-            "Carlos Rodon's",
-            "Ben Rice"
+            "Cincinnati Reds",
+            "Louis Cardinals",
+            "Andrew Abbott",
+            "Kyle Leahy Can",
+            "Kyle Leahy"
           ],
           "sport": "baseball",
           "competitions": [
@@ -7571,6 +7552,56 @@
             "Tugboat The Giants",
             "Tugboat The",
             "Patrick Bailey"
+          ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+          "desk": "mlb",
+          "title": "Rockies place Hunter Goodman on the injured list; recall Braxton Fulford",
+          "summary": "The All-Star catcher had missed four straight games",
+          "url": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+          "canonical_url": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+          "publisher": "SB Nation",
+          "source_group": "national",
+          "feed": "Yahoo MLB",
+          "published_at": "2026-08-18T21:25:42+00:00",
+          "teams": [
+            "Rockies"
+          ],
+          "players": [
+            "Hunter Goodman",
+            "Braxton Fulford The",
+            "Braxton Fulford"
+          ],
+          "sport": "baseball",
+          "competitions": [
+            "Major League Baseball"
+          ],
+          "lanes": []
+        },
+        {
+          "id": "https://sports.yahoo.com/articles/roman-anthony-breaks-silence-marcelo-172344946.html",
+          "desk": "mlb",
+          "title": "Roman Anthony breaks silence on Marcelo Mayer trade: ‘Excited for him'",
+          "summary": "Roman Anthony weighed in on his former teammate and roommate Marcelo Mayer being traded by the Red Sox to the Giants.",
+          "url": "https://sports.yahoo.com/articles/roman-anthony-breaks-silence-marcelo-172344946.html",
+          "canonical_url": "https://sports.yahoo.com/articles/roman-anthony-breaks-silence-marcelo-172344946.html",
+          "publisher": "NBC Sports Boston",
+          "source_group": "national",
+          "feed": "Yahoo MLB",
+          "published_at": "2026-08-18T17:23:44+00:00",
+          "teams": [
+            "Giants",
+            "Red Sox"
+          ],
+          "players": [
+            "Roman Anthony",
+            "Marcelo Mayer"
           ],
           "sport": "baseball",
           "competitions": [
@@ -8231,29 +8262,6 @@
             "Major League Baseball"
           ],
           "lanes": []
-        },
-        {
-          "id": "https://sports.yahoo.com/articles/yankees-prospects-week-21-minor-170000454.html",
-          "desk": "mlb",
-          "title": "Yankees prospects: Week 21 minor league recap",
-          "summary": "Bats shine across the system as the regular season concludes in the DSL.",
-          "url": "https://sports.yahoo.com/articles/yankees-prospects-week-21-minor-170000454.html",
-          "canonical_url": "https://sports.yahoo.com/articles/yankees-prospects-week-21-minor-170000454.html",
-          "publisher": "SB Nation",
-          "source_group": "national",
-          "feed": "Yahoo MLB",
-          "published_at": "2026-08-18T17:00:00+00:00",
-          "teams": [
-            "Yankees"
-          ],
-          "players": [],
-          "sport": "baseball",
-          "competitions": [
-            "Major League Baseball"
-          ],
-          "lanes": [
-            "prospects"
-          ]
         },
         {
           "id": "https://sports.yahoo.com/articles/shohei-ohtani-says-knee-felt-163425250.html",
@@ -11806,20 +11814,29 @@
               ]
             },
             {
-              "id": "https://sports.yahoo.com/articles/yankees-prospects-week-21-minor-170000454.html",
+              "id": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSk1MQ1pnYlUxNGN3MWVGSWc5Z3JsUDRhSG9yTTdReWc4d0NaSTE4NTRwYkpGcUZPb0NCQVpwRmh1YXRTdFZZMEp1aDNZbWk1T0VFbVQwSXdyRGlBTF95M2NLZENQVlBwM0EwbUhvQVR3d25EeVdMWEE1RjM2ZmZXY2stM0xIRndZTHd5Sk9vaUhSNzF3UThscVg3LUoyalR5OW5FN0c5RQ?oc=5",
               "desk": "mlb",
-              "title": "Yankees prospects: Week 21 minor league recap",
-              "summary": "Bats shine across the system as the regular season concludes in the DSL.",
-              "url": "https://sports.yahoo.com/articles/yankees-prospects-week-21-minor-170000454.html",
-              "canonical_url": "https://sports.yahoo.com/articles/yankees-prospects-week-21-minor-170000454.html",
-              "publisher": "SB Nation",
-              "source_group": "national",
-              "feed": "Yahoo MLB",
-              "published_at": "2026-08-18T17:00:00+00:00",
+              "title": "Sunday Notes: Tigers Top Prospect Bryce Rainer Had Serious Two-Way Potential",
+              "summary": "Sunday Notes: Tigers Top Prospect Bryce Rainer Had Serious Two-Way Potential FanGraphs",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSk1MQ1pnYlUxNGN3MWVGSWc5Z3JsUDRhSG9yTTdReWc4d0NaSTE4NTRwYkpGcUZPb0NCQVpwRmh1YXRTdFZZMEp1aDNZbWk1T0VFbVQwSXdyRGlBTF95M2NLZENQVlBwM0EwbUhvQVR3d25EeVdMWEE1RjM2ZmZXY2stM0xIRndZTHd5Sk9vaUhSNzF3UThscVg3LUoyalR5OW5FN0c5RQ?oc=5",
+              "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSk1MQ1pnYlUxNGN3MWVGSWc5Z3JsUDRhSG9yTTdReWc4d0NaSTE4NTRwYkpGcUZPb0NCQVpwRmh1YXRTdFZZMEp1aDNZbWk1T0VFbVQwSXdyRGlBTF95M2NLZENQVlBwM0EwbUhvQVR3d25EeVdMWEE1RjM2ZmZXY2stM0xIRndZTHd5Sk9vaUhSNzF3UThscVg3LUoyalR5OW5FN0c5RQ?oc=5",
+              "publisher": "FanGraphs",
+              "source_group": "specialist",
+              "feed": "Baseball specialists",
+              "published_at": "2026-08-16T11:33:56+00:00",
               "teams": [
-                "Yankees"
+                "Tigers"
               ],
-              "players": [],
+              "players": [
+                "Sunday Notes",
+                "Tigers Top Prospect",
+                "Tigers Top",
+                "Bryce Rainer Had",
+                "Bryce Rainer",
+                "Serious Two-",
+                "Way Potential Sunday",
+                "Way Potential"
+              ],
               "sport": "baseball",
               "competitions": [
                 "Major League Baseball"
@@ -11938,23 +11955,26 @@
               "lanes": []
             },
             {
-              "id": "https://sports.yahoo.com/articles/padres-vs-mets-prediction-picks-161700661.html",
+              "id": "https://sports.yahoo.com/articles/cincinnati-reds-vs-st-louis-212519071.html",
               "desk": "mlb",
-              "title": "Padres vs Mets Prediction, Picks & Odds for Today's MLB Game",
-              "summary": "Get our best Padres vs. Mets predictions and MLB picks for Tuesday, Aug. 18, 2026.",
-              "url": "https://sports.yahoo.com/articles/padres-vs-mets-prediction-picks-161700661.html",
-              "canonical_url": "https://sports.yahoo.com/articles/padres-vs-mets-prediction-picks-161700661.html",
-              "publisher": "COVERS",
+              "title": "Cincinnati Reds vs. St. Louis Cardinals – Andrew Abbott vs. Kyle Leahy",
+              "summary": "Can Andrew Abbott get back on track to finish the year?",
+              "url": "https://sports.yahoo.com/articles/cincinnati-reds-vs-st-louis-212519071.html",
+              "canonical_url": "https://sports.yahoo.com/articles/cincinnati-reds-vs-st-louis-212519071.html",
+              "publisher": "SB Nation",
               "source_group": "national",
               "feed": "Yahoo MLB",
-              "published_at": "2026-08-18T16:17:00+00:00",
+              "published_at": "2026-08-18T21:25:19+00:00",
               "teams": [
-                "Mets",
-                "Padres"
+                "Cardinals",
+                "Reds"
               ],
               "players": [
-                "Mets Prediction",
-                "Game Get"
+                "Cincinnati Reds",
+                "Louis Cardinals",
+                "Andrew Abbott",
+                "Kyle Leahy Can",
+                "Kyle Leahy"
               ],
               "sport": "baseball",
               "competitions": [
@@ -11962,39 +11982,6 @@
               ],
               "lanes": []
             },
-            {
-              "id": "https://sports.yahoo.com/articles/yankees-vs-orioles-prediction-picks-160700689.html",
-              "desk": "mlb",
-              "title": "Yankees vs Orioles Prediction, Picks & Odds for Today's MLB Game",
-              "summary": "My Yankees vs. Orioles MLB predictions for Aug. 18, 2026, on a game in which Carlos Rodon's return leads to the total being priced a run too high, and Ben Rice is an appealing home run pick.",
-              "url": "https://sports.yahoo.com/articles/yankees-vs-orioles-prediction-picks-160700689.html",
-              "canonical_url": "https://sports.yahoo.com/articles/yankees-vs-orioles-prediction-picks-160700689.html",
-              "publisher": "COVERS",
-              "source_group": "national",
-              "feed": "Yahoo MLB",
-              "published_at": "2026-08-18T16:07:00+00:00",
-              "teams": [
-                "Orioles",
-                "Yankees"
-              ],
-              "players": [
-                "Orioles Prediction",
-                "Game My Yankees",
-                "Game My",
-                "Carlos Rodon's",
-                "Ben Rice"
-              ],
-              "sport": "baseball",
-              "competitions": [
-                "Major League Baseball"
-              ],
-              "lanes": []
-            }
-          ]
-        },
-        "latest-news": {
-          "label": "Latest News",
-          "items": [
             {
               "id": "https://sports.yahoo.com/articles/texas-rangers-lineup-august-18-210913396.html",
               "desk": "mlb",
@@ -12019,7 +12006,12 @@
                 "Major League Baseball"
               ],
               "lanes": []
-            },
+            }
+          ]
+        },
+        "latest-news": {
+          "label": "Latest News",
+          "items": [
             {
               "id": "https://sports.yahoo.com/articles/gamethread-8-18-marlins-phillies-210000861.html",
               "desk": "mlb",
@@ -12170,25 +12162,48 @@
               "lanes": []
             },
             {
-              "id": "https://sports.yahoo.com/articles/mlb-home-run-predictions-today-153600364.html",
+              "id": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
               "desk": "mlb",
-              "title": "MLB Home Run Predictions Today: Best HR Prop Bets, Picks, Parlay & Odds for Tuesday, Aug. 18",
-              "summary": "Josh Inglis' favorite MLB home run picks for Tuesday, August 18, include Pete Crow-Armstrong, Wilyer Abreu, and Pete Alonso.",
-              "url": "https://sports.yahoo.com/articles/mlb-home-run-predictions-today-153600364.html",
-              "canonical_url": "https://sports.yahoo.com/articles/mlb-home-run-predictions-today-153600364.html",
-              "publisher": "COVERS",
+              "title": "Rockies place Hunter Goodman on the injured list; recall Braxton Fulford",
+              "summary": "The All-Star catcher had missed four straight games",
+              "url": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+              "canonical_url": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+              "publisher": "SB Nation",
               "source_group": "national",
               "feed": "Yahoo MLB",
-              "published_at": "2026-08-18T17:22:00+00:00",
-              "teams": [],
+              "published_at": "2026-08-18T21:25:42+00:00",
+              "teams": [
+                "Rockies"
+              ],
               "players": [
-                "Home Run Predictions",
-                "Home Run",
-                "Prop Bets",
-                "Josh Inglis",
-                "Pete Crow-",
-                "Wilyer Abreu",
-                "Pete Alonso"
+                "Hunter Goodman",
+                "Braxton Fulford The",
+                "Braxton Fulford"
+              ],
+              "sport": "baseball",
+              "competitions": [
+                "Major League Baseball"
+              ],
+              "lanes": []
+            },
+            {
+              "id": "https://sports.yahoo.com/articles/roman-anthony-breaks-silence-marcelo-172344946.html",
+              "desk": "mlb",
+              "title": "Roman Anthony breaks silence on Marcelo Mayer trade: ‘Excited for him'",
+              "summary": "Roman Anthony weighed in on his former teammate and roommate Marcelo Mayer being traded by the Red Sox to the Giants.",
+              "url": "https://sports.yahoo.com/articles/roman-anthony-breaks-silence-marcelo-172344946.html",
+              "canonical_url": "https://sports.yahoo.com/articles/roman-anthony-breaks-silence-marcelo-172344946.html",
+              "publisher": "NBC Sports Boston",
+              "source_group": "national",
+              "feed": "Yahoo MLB",
+              "published_at": "2026-08-18T17:23:44+00:00",
+              "teams": [
+                "Giants",
+                "Red Sox"
+              ],
+              "players": [
+                "Roman Anthony",
+                "Marcelo Mayer"
               ],
               "sport": "baseball",
               "competitions": [
@@ -14671,15 +14686,15 @@
           "available": true
         }
       },
-      "content_updated_at": "2026-08-18T21:30:00.392603+00:00",
-      "updated_at": "2026-08-18T21:30:00.392603+00:00",
+      "content_updated_at": "2026-08-18T21:31:37.952184+00:00",
+      "updated_at": "2026-08-18T21:31:37.952184+00:00",
       "data_updated_at": {
         "scores": "2026-08-18T20:33:23.798507+00:00",
         "standings": "2026-08-18T03:52:14.511773+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-18T21:30:00.392603+00:00",
-        "standings": "2026-08-18T21:30:00.392603+00:00"
+        "scores": "2026-08-18T21:31:37.952184+00:00",
+        "standings": "2026-08-18T21:31:37.952184+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -14687,11 +14702,12 @@
         "deduplicated_count": 131,
         "selected_count": 72,
         "publishers": {
-          "COVERS": 7,
+          "COVERS": 5,
           "NBC Sports": 4,
-          "SB Nation": 26,
+          "SB Nation": 27,
           "USA TODAY Sports": 1,
           "Yahoo Sports": 1,
+          "NBC Sports Boston": 1,
           "SNY": 2,
           "MLB.com": 6,
           "Los Angeles Times": 6,
@@ -21323,7 +21339,7 @@
         "scores": "2026-08-18T21:30:00.392603+00:00"
       },
       "data_verified_at": {
-        "scores": "2026-08-18T21:30:00.392603+00:00"
+        "scores": "2026-08-18T21:31:37.952184+00:00"
       },
       "diagnostics": {
         "candidate_count": 443,
@@ -26405,7 +26421,7 @@
         "standings": "2026-08-11T05:58:48.377407+00:00"
       },
       "data_verified_at": {
-        "standings": "2026-08-18T21:30:00.392603+00:00"
+        "standings": "2026-08-18T21:31:37.952184+00:00"
       },
       "diagnostics": {
         "candidate_count": 350,
@@ -26539,6 +26555,31 @@
         ]
       },
       {
+        "id": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+        "desk": "mlb",
+        "title": "Rockies place Hunter Goodman on the injured list; recall Braxton Fulford",
+        "summary": "The All-Star catcher had missed four straight games",
+        "url": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+        "canonical_url": "https://sports.yahoo.com/articles/rockies-place-hunter-goodman-injured-212542075.html",
+        "publisher": "SB Nation",
+        "source_group": "national",
+        "feed": "Yahoo MLB",
+        "published_at": "2026-08-18T21:25:42+00:00",
+        "teams": [
+          "Rockies"
+        ],
+        "players": [
+          "Hunter Goodman",
+          "Braxton Fulford The",
+          "Braxton Fulford"
+        ],
+        "sport": "baseball",
+        "competitions": [
+          "Major League Baseball"
+        ],
+        "lanes": []
+      },
+      {
         "id": "https://sports.yahoo.com/articles/mauricio-dubon-starts-short-sean-203855256.html",
         "desk": "mlb",
         "title": "Mauricio Dubon starts at short, Sean Murphy catches Tyler Mahle",
@@ -26562,29 +26603,6 @@
         "sport": "baseball",
         "competitions": [
           "Major League Baseball"
-        ],
-        "lanes": []
-      },
-      {
-        "id": "https://sports.yahoo.com/articles/ernie-sims-pushing-linebackers-set-203254258.html",
-        "desk": "nfl",
-        "title": "Ernie Sims pushing linebackers to set the tone for FSU: “We have to carry ourselves with a certain dadgum mindset”",
-        "summary": "It doesn’t take long to see Bobby Bowden’s impact on first-year linebacker coach Ernie Sims. Sims, a Tallahassee native, played under Coach Bowden for three years and became a top-10 pick in the 2006 NFL Draft. In his interview with the local Tallahassee media on Tuesday, Sims uttered “Dadgum,” a trademark Bowden phrase, four times. […]",
-        "url": "https://sports.yahoo.com/articles/ernie-sims-pushing-linebackers-set-203254258.html",
-        "canonical_url": "https://sports.yahoo.com/articles/ernie-sims-pushing-linebackers-set-203254258.html",
-        "publisher": "SB Nation",
-        "source_group": "national",
-        "feed": "Yahoo NFL",
-        "published_at": "2026-08-18T20:32:54+00:00",
-        "teams": [],
-        "players": [
-          "Ernie Sims",
-          "Bobby Bowden’s",
-          "Coach Bowden"
-        ],
-        "sport": "football",
-        "competitions": [
-          "NFL"
         ],
         "lanes": []
       },
@@ -26664,6 +26682,35 @@
         "players": [
           "Breece Hall",
           "Emeka Egbuka"
+        ],
+        "sport": "football",
+        "competitions": [
+          "NFL"
+        ],
+        "lanes": [
+          "injuries"
+        ]
+      },
+      {
+        "id": "https://sports.yahoo.com/articles/chargers-tyler-biadasz-carted-off-184326492.html",
+        "desk": "nfl",
+        "title": "Chargers' Tyler Biadasz carted off from practice with leg injury",
+        "summary": "The Los Angeles Chargers can't seem to leave behind their offensive line injury issues, with center Tyler Biadasz being carted off from practice.",
+        "url": "https://sports.yahoo.com/articles/chargers-tyler-biadasz-carted-off-184326492.html",
+        "canonical_url": "https://sports.yahoo.com/articles/chargers-tyler-biadasz-carted-off-184326492.html",
+        "publisher": "USA TODAY Sports",
+        "source_group": "national",
+        "feed": "Yahoo NFL",
+        "published_at": "2026-08-18T18:43:26+00:00",
+        "teams": [
+          "Chargers"
+        ],
+        "players": [
+          "Chargers' Tyler Biadasz",
+          "Chargers' Tyler",
+          "The Los Angeles",
+          "The Los",
+          "Tyler Biadasz"
         ],
         "sport": "football",
         "competitions": [
@@ -26820,34 +26867,9 @@
         "lanes": [
           "prospects"
         ]
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3b2pTT2pGT2hySFFLakZRR1dfdGJldG1WTS1CejIyYkYzMVpPQ3Z2c0cybzk0QmRlYVQ3SkdLTkFtWVdScWZSX29IakdLQ3ZvVVVrOG9RZjhuYUE5U2MtYkFLdkp5aV9udWJFaGR1QU1jUXN5aDA5VTN2T3FuUQ?oc=5",
-        "desk": "mlb",
-        "title": "Cardinals' excellent farm system got even better after Draft, Deadline",
-        "summary": "Cardinals' excellent farm system got even better after Draft, Deadline MLB.com",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3b2pTT2pGT2hySFFLakZRR1dfdGJldG1WTS1CejIyYkYzMVpPQ3Z2c0cybzk0QmRlYVQ3SkdLTkFtWVdScWZSX29IakdLQ3ZvVVVrOG9RZjhuYUE5U2MtYkFLdkp5aV9udWJFaGR1QU1jUXN5aDA5VTN2T3FuUQ?oc=5",
-        "canonical_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3b2pTT2pGT2hySFFLakZRR1dfdGJldG1WTS1CejIyYkYzMVpPQ3Z2c0cybzk0QmRlYVQ3SkdLTkFtWVdScWZSX29IakdLQ3ZvVVVrOG9RZjhuYUE5U2MtYkFLdkp5aV9udWJFaGR1QU1jUXN5aDA5VTN2T3FuUQ?oc=5",
-        "publisher": "MLB.com",
-        "source_group": "official",
-        "feed": "MLB official discovery",
-        "published_at": "2026-08-18T19:26:17+00:00",
-        "teams": [
-          "Cardinals"
-        ],
-        "players": [
-          "Deadline Cardinals"
-        ],
-        "sport": "baseball",
-        "competitions": [
-          "Major League Baseball"
-        ],
-        "lanes": [
-          "prospects"
-        ]
       }
     ],
-    "updated_at": "2026-08-18T21:30:00.392603+00:00"
+    "updated_at": "2026-08-18T21:31:37.952184+00:00"
   },
-  "content_hash": "ec148ac63cb653771cb16b1be7fc673e158857b393dbf88cfd26e1d051a4fc3b"
+  "content_hash": "7fe3d24089f5488a367e97553543ca5d60fb8cae597f293134ba877e87714efb"
 }
