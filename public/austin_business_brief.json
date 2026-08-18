@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:42:36.434616+00:00",
+  "generated_at": "2026-08-18T15:40:06.872561+00:00",
   "window_hours": 48,
   "stories": [
     {
@@ -9,15 +9,13 @@
       "source": "Austin Current",
       "published_at": "2026-08-17T10:30:00+00:00",
       "first_seen_at": "2026-08-17T13:35:03.395568+00:00",
-      "last_seen_at": "2026-08-18T14:42:36.434616+00:00",
-      "score": 13.325
+      "last_seen_at": "2026-08-18T15:40:06.872561+00:00",
+      "score": 13.285
     }
   ],
   "source_status": {
     "configured": 5,
-    "successful": 4,
-    "errors": [
-      "KVUE Austin: HTTPError: HTTP Error 404: Not Found"
-    ]
+    "successful": 5,
+    "errors": []
   }
 }
