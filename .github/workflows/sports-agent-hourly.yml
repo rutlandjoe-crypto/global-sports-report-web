@@ -28,11 +28,22 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: sports-site/package-lock.json
+
       - name: Install Python dependencies
         shell: pwsh
         run: |
           python -m pip install --upgrade pip
           python -m pip install requests python-dotenv feedparser beautifulsoup4 tweepy
+
+      - name: Install Sports publish client
+        working-directory: sports-site
+        run: npm ci --ignore-scripts
 
       - name: Generate fresh Sports report
         working-directory: sports-site
@@ -169,31 +180,8 @@ jobs:
           python validate_sports_agent.py
 
       - name: Publish live Sports data
-        shell: pwsh
+        working-directory: sports-site
         env:
-          GSR_PUSH_TOKEN: ${{ secrets.GSR_PUSH_TOKEN }}
-        run: |
-          if (-not $env:GSR_PUSH_TOKEN) {
-            throw "GSR_PUSH_TOKEN is not configured."
-          }
-
-          $headers = @{ Authorization = "Bearer $env:GSR_PUSH_TOKEN" }
-          $report = Invoke-RestMethod `
-            -Uri "https://globalsportsreport.com/api/push-report" `
-            -Method Post `
-            -Headers $headers `
-            -ContentType "application/json" `
-            -InFile "sports-site/public/latest_report.json"
-          $desks = Invoke-RestMethod `
-            -Uri "https://globalsportsreport.com/api/push-sports-desks" `
-            -Method Post `
-            -Headers $headers `
-            -ContentType "application/json" `
-            -InFile "sports-site/public/sports_desks.json"
-
-          if (-not $report.ok -or -not $desks.ok) {
-            throw "Live Sports data publish failed."
-          }
-          Write-Host "Published live Sports report timestamp $($report.updated_at)"
-          Write-Host "Published live Sports desks timestamp $($desks.generated_at)"
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+        run: node scripts/publish_live_sports.mjs
 
