@@ -1,6 +1,5 @@
-import fs from "fs";
-import path from "path";
 import type { Metadata } from "next";
+import { readLiveSportsJson } from "@/lib/liveSportsJson";
 
 export type DeskStory = {
   id: string;
@@ -55,18 +54,20 @@ export type SportsDeskPayload = {
   desks?: Record<string, SportsDesk>;
 };
 
-export function readSportsDeskPayload(): SportsDeskPayload {
+export async function readSportsDeskPayload(): Promise<SportsDeskPayload> {
   try {
-    const file = path.join(process.cwd(), "public", "sports_desks.json");
-    return JSON.parse(fs.readFileSync(file, "utf8")) as SportsDeskPayload;
+    return await readLiveSportsJson<SportsDeskPayload>(
+      "reports/sports_desks.json",
+      "sports_desks.json",
+    );
   } catch (error) {
     console.error("Sports desk data unavailable:", error);
     return {};
   }
 }
 
-export function getSportsDesk(id: string): { desk: SportsDesk | null; contentUpdatedAt: string } {
-  const payload = readSportsDeskPayload();
+export async function getSportsDesk(id: string): Promise<{ desk: SportsDesk | null; contentUpdatedAt: string }> {
+  const payload = await readSportsDeskPayload();
   const desk = payload.desks?.[id] ?? null;
   return { desk, contentUpdatedAt: desk?.content_updated_at ?? "" };
 }

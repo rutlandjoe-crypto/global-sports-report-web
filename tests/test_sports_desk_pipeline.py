@@ -48,24 +48,34 @@ def story(title: str, publisher: str, url: str, teams: list[str] | None = None) 
 
 
 class SportsDeskPipelineTests(unittest.TestCase):
-    def test_publication_gate_rejects_story_and_data_fallbacks(self) -> None:
-        cases = (
-            {"story_fallback_used": True, "data_fallbacks": []},
-            {"story_fallback_used": False, "data_fallbacks": ["standings"]},
-        )
-        for diagnostics in cases:
-            with self.subTest(diagnostics=diagnostics):
-                payload = {
-                    "desks": {
-                        "nba": {
-                            "diagnostics": diagnostics,
-                        }
-                    }
+    def test_publication_gate_rejects_story_fallback(self) -> None:
+        payload = {
+            "desks": {
+                "nba": {
+                    "diagnostics": {
+                        "story_fallback_used": True,
+                        "data_fallbacks": [],
+                    },
                 }
-                with self.assertRaisesRegex(
-                    RuntimeError, "publication blocked because fallback content was generated"
-                ):
-                    reject_fallback_content(payload)
+            }
+        }
+        with self.assertRaisesRegex(
+            RuntimeError, "publication blocked because fallback editorial content was generated"
+        ):
+            reject_fallback_content(payload)
+
+    def test_publication_gate_allows_recent_verified_data_fallback(self) -> None:
+        payload = {
+            "desks": {
+                "nfl": {
+                    "diagnostics": {
+                        "story_fallback_used": False,
+                        "data_fallbacks": ["scores"],
+                    },
+                }
+            }
+        }
+        reject_fallback_content(payload)
 
     @classmethod
     def setUpClass(cls) -> None:

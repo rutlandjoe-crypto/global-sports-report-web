@@ -1,6 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async rewrites() {
+    return {
+      beforeFiles: [
+        { source: "/latest_report.json", destination: "/api/report" },
+        { source: "/sports_desks.json", destination: "/api/sports-desks" },
+      ],
+      afterFiles: [],
+      fallback: [],
+    };
+  },
   async headers() {
     return [
       {

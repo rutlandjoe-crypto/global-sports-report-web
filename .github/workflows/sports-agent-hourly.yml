@@ -6,7 +6,7 @@ on:
     - cron: "7 * * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: global-sports-agent-hourly
@@ -68,14 +68,6 @@ jobs:
         shell: pwsh
         run: |
           python validate_sports_desks.py
-
-      - name: Retain durable Sports editorial
-        working-directory: sports-site
-        run: python scripts/build_sports_editorial_archive.py
-
-      - name: Refresh independent Austin Business Brief
-        working-directory: sports-site
-        run: python scripts/update_austin_business_brief.py
 
       - name: Validate Sports Agent output
         shell: pwsh
@@ -176,22 +168,32 @@ jobs:
           Set-Content -Path validate_sports_agent.py -Value $script -Encoding utf8
           python validate_sports_agent.py
 
-      - name: Commit fresh Sports data
+      - name: Publish live Sports data
         shell: pwsh
-        working-directory: sports-site
+        env:
+          GSR_PUSH_TOKEN: ${{ secrets.GSR_PUSH_TOKEN }}
         run: |
-          git config user.name "GSR Sports Agent"
-          git config user.email "actions@github.com"
-
-          git add public/latest_report.json public/sports_desks.json public/sports_editorial_archive.json public/austin_business_brief.json public/latest_report.txt public/global_sports_report.txt
-
-          $changes = git diff --cached --name-only
-
-          if (-not $changes) {
-            Write-Host "No Sports data changes to commit."
-            exit 0
+          if (-not $env:GSR_PUSH_TOKEN) {
+            throw "GSR_PUSH_TOKEN is not configured."
           }
 
-          git commit -m "Sports Agent hourly data refresh"
-          git push origin HEAD:master
+          $headers = @{ Authorization = "Bearer $env:GSR_PUSH_TOKEN" }
+          $report = Invoke-RestMethod `
+            -Uri "https://globalsportsreport.com/api/push-report" `
+            -Method Post `
+            -Headers $headers `
+            -ContentType "application/json" `
+            -InFile "sports-site/public/latest_report.json"
+          $desks = Invoke-RestMethod `
+            -Uri "https://globalsportsreport.com/api/push-sports-desks" `
+            -Method Post `
+            -Headers $headers `
+            -ContentType "application/json" `
+            -InFile "sports-site/public/sports_desks.json"
+
+          if (-not $report.ok -or -not $desks.ok) {
+            throw "Live Sports data publish failed."
+          }
+          Write-Host "Published live Sports report timestamp $($report.updated_at)"
+          Write-Host "Published live Sports desks timestamp $($desks.generated_at)"
 

@@ -156,8 +156,8 @@ function EmptyState({ label, provider }: { label: string; provider?: string }) {
   return <p className="rounded-lg border border-dashed border-[#8fb3d9] bg-[#f8fbff] p-4 text-sm leading-6 text-slate-600">Current verified {label.toLowerCase()} data is unavailable{provider ? ` from ${provider}` : ""}. This section will refresh when the provider publishes usable data.</p>;
 }
 
-export default function SportsDeskPage({ deskId }: { deskId: string }) {
-  const { desk, contentUpdatedAt } = getSportsDesk(deskId);
+export default async function SportsDeskPage({ deskId }: { deskId: string }) {
+  const { desk, contentUpdatedAt } = await getSportsDesk(deskId);
   if (!desk || !desk.modules["top-stories"]) {
     return (
       <main className="min-h-screen bg-[#f5f7fb] px-5 py-16 text-slate-950">

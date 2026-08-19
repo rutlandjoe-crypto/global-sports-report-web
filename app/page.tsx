@@ -8,6 +8,7 @@ import AustinBusinessBrief from "@/components/AustinBusinessBrief";
 import { buildAustinBusinessBrief, type AustinStory } from "@/lib/austinBusinessBrief";
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
 import { readSportsDeskPayload } from "@/lib/sportsDesks";
+import { readLiveSportsJson } from "@/lib/liveSportsJson";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -92,11 +93,12 @@ const BAD_CONTENT_PHRASES = [
   "undefined",
 ];
 
-function readReport(): AnyObj {
+async function readReport(): Promise<AnyObj> {
   try {
-    const file = path.join(process.cwd(), "public", "latest_report.json");
-    const raw = fs.readFileSync(file, "utf8");
-    return JSON.parse(raw);
+    return await readLiveSportsJson<AnyObj>(
+      "reports/latest_report.json",
+      "latest_report.json",
+    );
   } catch {
     return {};
   }
@@ -1063,9 +1065,11 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
     </article>
   );
 }
-export default function Page() {
-  const report = readReport();
-  const deskPayload = readSportsDeskPayload();
+export default async function Page() {
+  const [report, deskPayload] = await Promise.all([
+    readReport(),
+    readSportsDeskPayload(),
+  ]);
   const homepageEditorial = deskPayload.homepage;
   const homepageHero = homepageEditorial?.hero;
   const generatedStories = (homepageEditorial?.stories ?? [])

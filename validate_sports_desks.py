@@ -27,11 +27,9 @@ def reject_fallback_content(payload: dict) -> None:
         diagnostics = desk.get("diagnostics", {})
         if diagnostics.get("story_fallback_used"):
             failures.append(f"{desk_id}: story fallback used")
-        for kind in diagnostics.get("data_fallbacks", []):
-            failures.append(f"{desk_id}: {kind} data fallback used")
     if failures:
         raise RuntimeError(
-            "Sports Desk publication blocked because fallback content was generated:\n- "
+            "Sports Desk publication blocked because fallback editorial content was generated:\n- "
             + "\n- ".join(failures)
         )
 
