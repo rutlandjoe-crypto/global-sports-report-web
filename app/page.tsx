@@ -13,6 +13,33 @@ import { readLiveSportsJson } from "@/lib/liveSportsJson";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 export const fetchCache = "force-no-store";
+function conciseLeadSummary(value: string): string {
+  const cleaned = String(value ?? "").replace(/\s+/g, " ").trim();
+
+  if (cleaned.length <= 280) {
+    return cleaned;
+  }
+
+  const sentences = cleaned.match(/[^.!?]+[.!?]+/g) ?? [];
+  const conciseSentences: string[] = [];
+
+  for (const sentence of sentences) {
+    const candidate = [...conciseSentences, sentence.trim()].join(" ");
+
+    if (conciseSentences.length >= 2 || candidate.length > 280) {
+      break;
+    }
+
+    conciseSentences.push(sentence.trim());
+  }
+
+  if (conciseSentences.length > 0) {
+    return conciseSentences.join(" ");
+  }
+
+  const clipped = cleaned.slice(0, 277).replace(/\s+\S*$/, "").trim();
+  return `${clipped}...`;
+}
 
 export const metadata: Metadata = {
   title: "Global Sports Report",
@@ -1213,8 +1240,8 @@ export default async function Page() {
               ) : headline}
             </h1>
 
-            <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-700">
-              {snapshot}
+            <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-700 lead-summary-clamp">
+              {conciseLeadSummary(snapshot)}
             </p>
             {heroUrl ? <a href={heroUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex text-sm font-black text-red-700 underline underline-offset-4 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">Read original source{heroSource ? ` · ${heroSource}` : ""} <span aria-hidden="true">↗</span></a> : null}
             <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold">

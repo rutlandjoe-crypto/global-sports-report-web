@@ -139,3 +139,11 @@ main {
     font-size: 15px;
   }
 }
+
+/* Keep the homepage lead deck concise and newsroom-readable. */
+.lead-summary-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
