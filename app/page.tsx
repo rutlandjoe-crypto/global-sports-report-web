@@ -51,6 +51,9 @@ import SocialIconLinks from "@/app/SocialIconLinks";
 
 type AnyObj = ReturnType<typeof JSON.parse>;
 
+
+const EMERGENCY_LEAD = {"marker":"EMERGENCY_MICHIGAN_LEAD","headline":"Wait just a second: No. 16 Michigan catches second-chance Hail Mary, survives scare vs WMU","summary":"Michigan escaped Western Michigan 13-12 after officials restored one second following an incomplete Hail Mary. Bryce Underwood then connected with JJ Buchanan for a 47-yard touchdown, creating immediate controversy over the clock ruling.","url":"https://apnews.com/article/michigan-western-michigan-score-95cd312e290a27cb72453f4d09a8a210","source":"Associated Press","updated":"Sep 6, 2026 12:58 AM ET","briefing":"College Football: Michigan escapes Western Michigan 13-12 on disputed second-chance Hail Mary after officials restore one second"} as const;
+
 const SITE = {
   name: "Global Sports Report",
   tagline: "Built for journalists, by a journalist.",
@@ -1233,31 +1236,31 @@ export default async function Page() {
             </div>
 
             <h1 className="mt-3 text-4xl font-black leading-tight md:text-5xl">
-              {heroUrl ? (
-                <a href={heroUrl} target="_blank" rel="noopener noreferrer" className="hover:text-red-700 hover:underline focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700" aria-label={`${headline} from ${heroSource || "the original source"} (opens in a new tab)`}>
-                  {headline}
+              {EMERGENCY_LEAD.url ? (
+                <a href={EMERGENCY_LEAD.url} target="_blank" rel="noopener noreferrer" className="hover:text-red-700 hover:underline focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700" aria-label={`${EMERGENCY_LEAD.headline} from ${EMERGENCY_LEAD.source || "the original source"} (opens in a new tab)`}>
+                  {EMERGENCY_LEAD.headline}
                 </a>
-              ) : headline}
+              ) : EMERGENCY_LEAD.headline}
             </h1>
 
             <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-700 lead-summary-clamp">
-              {conciseLeadSummary(snapshot)}
+              {conciseLeadSummary(EMERGENCY_LEAD.summary)}
             </p>
-            {heroUrl ? <a href={heroUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex text-sm font-black text-red-700 underline underline-offset-4 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">Read original source{heroSource ? ` · ${heroSource}` : ""} <span aria-hidden="true">↗</span></a> : null}
+            {EMERGENCY_LEAD.url ? <a href={EMERGENCY_LEAD.url} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex text-sm font-black text-red-700 underline underline-offset-4 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">Read original source{EMERGENCY_LEAD.source ? ` · ${EMERGENCY_LEAD.source}` : ""} <span aria-hidden="true">↗</span></a> : null}
             <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold">
               <span className="rounded-full bg-black px-4 py-2 text-white">
                 {SITE.tagline}
               </span>
               <span className="rounded-full bg-neutral-200 px-4 py-2 text-neutral-800">
-                Editorial selection updated: {updated}
+                Editorial selection updated: {EMERGENCY_LEAD.updated}
               </span>
             </div>
           </div>
 
           <NewsroomBriefing
             items={
-              liveBriefingItems.length
-                ? liveBriefingItems
+              [EMERGENCY_LEAD.briefing, ...liveBriefingItems.filter((item) => !item.includes("Notre Dame football printable 2026 schedule"))].length
+                ? [EMERGENCY_LEAD.briefing, ...liveBriefingItems.filter((item) => !item.includes("Notre Dame football printable 2026 schedule"))]
                 : [
                     "The day’s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
                     "Coaching decisions, lineup movement and late-game execution are driving several major storylines.",
