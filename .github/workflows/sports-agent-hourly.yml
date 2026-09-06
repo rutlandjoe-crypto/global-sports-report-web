@@ -3,7 +3,7 @@ name: Global Sports Agent Hourly Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "7,37 * * * *"
 
 permissions:
   contents: read
@@ -184,4 +184,3 @@ jobs:
         env:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
         run: node scripts/publish_live_sports.mjs
-

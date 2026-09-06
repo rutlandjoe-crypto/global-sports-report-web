@@ -14,11 +14,13 @@ from sports_desk_pipeline import (
     diversify_stories,
     filter_game_windows,
     fetch_desk_data,
+    game_status_stories,
     build_pipeline,
     build_homepage_payload,
     load_config,
     normalize_url,
     meaningful_standings,
+    editorial_news_value,
     parse_feed,
     payload_signature,
     rank_homepage_stories,
@@ -219,12 +221,103 @@ class SportsDeskPipelineTests(unittest.TestCase):
     def test_schedule_and_result_classification_enforces_time_and_status(self) -> None:
         now = datetime.now(timezone.utc)
         completed = {"id": "final", "event_state": "post", "starts_at": (now - timedelta(hours=2)).isoformat()}
+        live = {"id": "live", "event_state": "in", "starts_at": (now - timedelta(hours=1)).isoformat()}
         future_result = {"id": "bad-final", "event_state": "post", "starts_at": (now + timedelta(hours=2)).isoformat()}
         upcoming = {"id": "next", "event_state": "pre", "starts_at": (now + timedelta(hours=2)).isoformat()}
         past_schedule = {"id": "bad-next", "event_state": "pre", "starts_at": (now - timedelta(hours=2)).isoformat()}
-        scores, schedule = filter_game_windows([completed, future_result], [upcoming, past_schedule], now)
-        self.assertEqual(["final"], [row["id"] for row in scores])
+        scores, schedule = filter_game_windows([completed, live, future_result], [upcoming, past_schedule], now)
+        self.assertEqual(["final", "live"], [row["id"] for row in scores])
         self.assertEqual(["next"], [row["id"] for row in schedule])
+
+    def test_live_and_final_news_outrank_evergreen_service_content(self) -> None:
+        evergreen = story(
+            "Notre Dame printable schedule with dates, times and TV lineup",
+            "The Sporting News",
+            "https://example.com/schedule",
+        )
+        final = story(
+            "Michigan survives Western Michigan on controversial last-second Hail Mary",
+            "Associated Press",
+            "https://example.com/final",
+        )
+        live = story(
+            "LSU leads Clemson in live college football action",
+            "ESPN",
+            "https://example.com/live",
+        )
+        live["event_state"] = "in"
+        self.assertLess(editorial_news_value(evergreen), 0)
+        self.assertGreater(editorial_news_value(final), 60)
+        self.assertGreater(editorial_news_value(live), editorial_news_value(final))
+
+    def test_authoritative_live_game_becomes_a_publishable_story(self) -> None:
+        now = datetime.now(timezone.utc)
+        game = {
+            "id": "401",
+            "away": "Clemson",
+            "home": "LSU",
+            "away_score": "3",
+            "home_score": "44",
+            "status": "7:48 - 4th Quarter",
+            "event_state": "in",
+            "starts_at": (now - timedelta(hours=3)).isoformat(),
+            "url": "https://espn.example/game/401",
+            "source": "ESPN",
+        }
+        stories = game_status_stories([game], self.nfl, now)
+        self.assertEqual(1, len(stories))
+        self.assertEqual("in", stories[0]["event_state"])
+        self.assertIn("Clemson 3, LSU 44", stories[0]["title"])
+        self.assertGreater(editorial_news_value(stories[0]), 100)
+
+    def test_validation_accepts_verified_live_score_rows(self) -> None:
+        now = datetime.now(timezone.utc)
+        config = {
+            "defaults": {
+                "minimum_primary_stories": 1,
+                "recency_hours": 96,
+                "stale_fallback_hours": 24,
+            },
+            "desks": [{
+                "id": "nfl",
+                "sport": "football",
+                "required_signals": ["NFL"],
+                "excluded_signals": [],
+                "teams": [],
+                "data_providers": {},
+            }],
+        }
+        current_story = story(
+            "NFL live game changes the playoff race",
+            "ESPN",
+            "https://espn.example/live-story",
+        )
+        live_score = {
+            "id": "live-1",
+            "event_state": "in",
+            "starts_at": (now - timedelta(hours=1)).isoformat(),
+            "source": "ESPN",
+            "source_url": "https://espn.example/live-game",
+        }
+        payload = {
+            "generated_at": now.isoformat(),
+            "verified_at": now.isoformat(),
+            "desks": {
+                "nfl": {
+                    "sport": "football",
+                    "stories": [current_story],
+                    "modules": {"top-stories": {"items": [current_story]}},
+                    "providers": {},
+                    "data": {"scores": [live_score], "schedule": [], "standings": [], "rankings": []},
+                    "data_updated_at": {},
+                    "data_verified_at": {},
+                    "diagnostics": {"source_success_count": 1},
+                }
+            },
+            "homepage": {},
+        }
+        payload["content_hash"] = payload_signature(payload)
+        validate_payload(payload, config, now=now)
 
     def test_zero_zero_preseason_standings_are_suppressed(self) -> None:
         self.assertEqual([], meaningful_standings([{"team": "A", "record": "0-0"}, {"team": "B", "record": "0-0"}]))

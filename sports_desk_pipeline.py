@@ -277,7 +277,11 @@ def story_quality(story: dict[str, Any], desk: dict[str, Any]) -> tuple[float, i
     relevance = max(0, story_relevance(story, desk))
     # Freshness drives the lead; relevance resolves close stories and source
     # prestige is deliberately only a tie-breaker.
-    return freshness + min(relevance, 12) * 2.0, source_quality(story, desk), published.timestamp()
+    return (
+        freshness + min(relevance, 12) * 2.0 + editorial_news_value(story),
+        source_quality(story, desk),
+        published.timestamp(),
+    )
 
 
 def same_event(left: dict[str, Any], right: dict[str, Any]) -> bool:
@@ -425,7 +429,7 @@ def parse_espn_games(payload: dict[str, Any]) -> tuple[list[dict[str, Any]], lis
             "source": "ESPN",
             "source_url": event_url or "https://www.espn.com/scoreboard",
         }
-        if status.get("state") == "post":
+        if status.get("state") in {"in", "post"}:
             scores.append(game)
         elif status.get("state") == "pre":
             schedule.append(game)
@@ -453,9 +457,9 @@ def parse_mlb_games(payload: dict[str, Any]) -> tuple[list[dict[str, Any]], list
                 "source": "MLB",
                 "source_url": game_url,
             }
-            if status == "Final":
+            if status in {"Final", "Live"}:
                 scores.append(normalized)
-            elif status not in {"Live"}:
+            else:
                 schedule.append(normalized)
     return scores, schedule
 
@@ -469,9 +473,9 @@ def filter_game_windows(
     now = now or datetime.now(timezone.utc)
     recent_cutoff = now - timedelta(days=3)
     schedule_cutoff = now + timedelta(days=45)
-    completed = [
+    completed_or_live = [
         row for row in scores
-        if row.get("event_state") == "post"
+        if row.get("event_state") in {"in", "post"}
         and (starts := parse_datetime(row.get("starts_at")))
         and recent_cutoff <= starts <= now + timedelta(minutes=5)
     ]
@@ -481,7 +485,55 @@ def filter_game_windows(
         and (starts := parse_datetime(row.get("starts_at")))
         and now - timedelta(minutes=5) <= starts <= schedule_cutoff
     ]
-    return completed, upcoming
+    return completed_or_live, upcoming
+
+
+def game_status_stories(
+    games: list[dict[str, Any]], desk: dict[str, Any], now: datetime
+) -> list[dict[str, Any]]:
+    """Turn authoritative live/final score rows into publishable desk stories."""
+    output: list[dict[str, Any]] = []
+    ordered = sorted(
+        games,
+        key=lambda row: (
+            row.get("event_state") == "in",
+            (parse_datetime(row.get("starts_at")) or datetime.min.replace(tzinfo=timezone.utc)).timestamp(),
+        ),
+        reverse=True,
+    )
+    for game in ordered[:6]:
+        state = clean_text(game.get("event_state")).lower()
+        if state not in {"in", "post"}:
+            continue
+        away = clean_text(game.get("away"))
+        home = clean_text(game.get("home"))
+        away_score = clean_text(game.get("away_score"))
+        home_score = clean_text(game.get("home_score"))
+        status = clean_text(game.get("status")) or ("Final" if state == "post" else "Live")
+        url = normalize_url(game.get("url") or game.get("source_url"))
+        if not away or not home or not url or not away_score or not home_score:
+            continue
+        title = f"{away} {away_score}, {home} {home_score} — {status}"
+        phase = "live score" if state == "in" else "final score"
+        source = clean_text(game.get("source")) or "Official scoreboard"
+        starts = parse_datetime(game.get("starts_at")) or now
+        published = now if state == "in" else min(now, starts + timedelta(hours=4))
+        output.append({
+            "id": f"score:{desk['id']}:{clean_text(game.get('id')) or url}",
+            "desk": desk["id"],
+            "title": title,
+            "summary": f"Verified {phase} from {source}. Game status: {status}.",
+            "url": url,
+            "canonical_url": url,
+            "publisher": source,
+            "source_group": "official",
+            "published_at": published.isoformat(),
+            "teams": [away, home],
+            "players": [],
+            "lanes": [],
+            "event_state": state,
+        })
+    return output
 
 
 def meaningful_standings(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -679,10 +731,51 @@ HOMEPAGE_SIGNIFICANCE = {
     "rankings": 3,
 }
 
+EVERGREEN_HEADLINE = re.compile(
+    r"\b(?:printable\s+)?schedule(?:\s+with\s+dates)?|how\s+to\s+watch|tv\s+(?:channel|lineup)|"
+    r"broadcast\s+information|tickets?|prediction(?:s)?|picks?\s*(?:&|and)?\s*odds|"
+    r"preview\s+guide|game\s*thread|open\s+thread\b",
+    re.IGNORECASE,
+)
+RESULT_HEADLINE = re.compile(
+    r"\b(?:final(?:\s+score)?|beat(?:s|en)?|defeat(?:s|ed)?|wins?|won|upset|survives?|"
+    r"routs?|edges?|escapes?|advances?|eliminates?)\b",
+    re.IGNORECASE,
+)
+LIVE_HEADLINE = re.compile(r"\b(?:live(?:\s+updates?)?|in\s+progress|halftime)\b", re.IGNORECASE)
+HIGH_IMPACT_HEADLINE = re.compile(
+    r"\b(?:hail\s+mary|walk-?off|last[- ]second|overtime|controvers(?:y|ial)|disputed|"
+    r"stuns?|shocks?|historic|record|championship|playoff)\b",
+    re.IGNORECASE,
+)
+
+
+def editorial_news_value(story: dict[str, Any]) -> int:
+    """Apply newsroom judgment before freshness and publisher prestige."""
+    text = f"{story.get('title', '')} {story.get('summary', '')}"
+    state = clean_text(story.get("event_state")).lower()
+    value = 0
+    if EVERGREEN_HEADLINE.search(text):
+        value -= 90
+    if RESULT_HEADLINE.search(text):
+        value += 35
+    if LIVE_HEADLINE.search(text):
+        value += 35
+    if HIGH_IMPACT_HEADLINE.search(text):
+        value += 45
+    if state == "in":
+        value += 100
+    elif state == "post":
+        value += 20
+    return value
+
 
 def homepage_significance(story: dict[str, Any]) -> int:
     text = f"{story.get('title', '')} {story.get('summary', '')}".lower()
-    return min(20, sum(weight for signal, weight in HOMEPAGE_SIGNIFICANCE.items() if signal in text))
+    return editorial_news_value(story) + min(
+        20,
+        sum(weight for signal, weight in HOMEPAGE_SIGNIFICANCE.items() if signal in text),
+    )
 
 
 def homepage_source_quality(story: dict[str, Any]) -> int:
@@ -912,8 +1005,12 @@ def validate_payload(
                 )
         for row in data.get("scores", []):
             starts = parse_datetime(row.get("starts_at"))
-            if row.get("event_state") != "post" or not starts or starts > now + timedelta(minutes=5):
-                errors.append(f"{desk_id}: result is not a completed event: {row.get('name', row.get('id'))}")
+            state = row.get("event_state")
+            if state not in {"in", "post"} or not starts or starts > now + timedelta(minutes=5):
+                errors.append(
+                    f"{desk_id}: score is not a live or completed event: "
+                    f"{row.get('name', row.get('id'))}"
+                )
         for row in data.get("schedule", []):
             starts = parse_datetime(row.get("starts_at"))
             if row.get("event_state") != "pre" or not starts or starts < now - timedelta(minutes=5):
@@ -1004,6 +1101,15 @@ def build_pipeline(config: dict[str, Any], output_path: Path = OUTPUT_PATH, offl
             data, data_errors, provider_ok = fetch_desk_data(desk, defaults["request_timeout_seconds"])
         for error in data_errors:
             LOG.warning("%s data failure: %s", desk_id, error)
+
+        verified_games = game_status_stories(data.get("scores", []), desk, now)
+        if verified_games:
+            diversified = deduplicate_stories([*verified_games, *diversified], desk)
+            diversified = sorted(
+                diversified,
+                key=lambda item: story_quality(item, desk),
+                reverse=True,
+            )[: defaults["max_stories"]]
 
         previous_data = previous_desk.get("data", {})
         previous_data_times = previous_desk.get("data_updated_at", {})
