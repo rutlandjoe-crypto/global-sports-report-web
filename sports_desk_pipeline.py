@@ -516,13 +516,14 @@ def game_status_stories(
         title = f"{away} {away_score}, {home} {home_score} — {status}"
         phase = "live score" if state == "in" else "final score"
         source = clean_text(game.get("source")) or "Official scoreboard"
+        desk_label = clean_text(desk.get("label") or desk.get("sport") or desk["id"])
         starts = parse_datetime(game.get("starts_at")) or now
         published = now if state == "in" else min(now, starts + timedelta(hours=4))
         output.append({
             "id": f"score:{desk['id']}:{clean_text(game.get('id')) or url}",
             "desk": desk["id"],
             "title": title,
-            "summary": f"Verified {phase} from {source}. Game status: {status}.",
+            "summary": f"Verified {desk_label} {phase} from {source}. Game status: {status}.",
             "url": url,
             "canonical_url": url,
             "publisher": source,
@@ -532,6 +533,8 @@ def game_status_stories(
             "players": [],
             "lanes": [],
             "event_state": state,
+            "sport": desk.get("sport"),
+            "competitions": desk.get("competitions", []),
         })
     return output
 

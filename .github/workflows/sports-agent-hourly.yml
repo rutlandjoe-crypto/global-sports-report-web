@@ -39,7 +39,7 @@ jobs:
         shell: pwsh
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests python-dotenv feedparser beautifulsoup4 tweepy
+          python -m pip install requests python-dotenv feedparser beautifulsoup4 tweepy MLB-StatsAPI
 
       - name: Install Sports publish client
         working-directory: sports-site

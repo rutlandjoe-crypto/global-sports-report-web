@@ -270,6 +270,26 @@ class SportsDeskPipelineTests(unittest.TestCase):
         self.assertIn("Clemson 3, LSU 44", stories[0]["title"])
         self.assertGreater(editorial_news_value(stories[0]), 100)
 
+    def test_authoritative_soccer_score_keeps_explicit_desk_context(self) -> None:
+        now = datetime.now(timezone.utc)
+        soccer = next(item for item in self.desks if item["id"] == "soccer")
+        game = {
+            "id": "soccer-1",
+            "away": "Phoenix Rising FC",
+            "home": "Monterey Bay",
+            "away_score": "1",
+            "home_score": "1",
+            "status": "FT",
+            "event_state": "post",
+            "starts_at": (now - timedelta(hours=3)).isoformat(),
+            "url": "https://espn.example/soccer/game/1",
+            "source": "ESPN",
+        }
+        generated = game_status_stories([game], soccer, now)[0]
+        self.assertIn("soccer", generated["summary"].lower())
+        self.assertIn("final score", generated["summary"].lower())
+        self.assertEqual("soccer", classify_story(generated, self.desks))
+
     def test_validation_accepts_verified_live_score_rows(self) -> None:
         now = datetime.now(timezone.utc)
         config = {
