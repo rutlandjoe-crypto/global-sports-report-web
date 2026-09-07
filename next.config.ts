@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return {
       beforeFiles: [
-        { source: "/latest_report.json", destination: "/api/report" },
         { source: "/sports_desks.json", destination: "/api/sports-desks" },
       ],
       afterFiles: [],
@@ -13,6 +12,12 @@ const nextConfig: NextConfig = {
   },
   async headers() {
     return [
+      {
+        source: "/latest_report.json",
+        headers: [
+          { key: "Cache-Control", value: "no-store, no-cache, must-revalidate, max-age=0" },
+        ],
+      },
       {
         source: "/sports_desks.json",
         headers: [
