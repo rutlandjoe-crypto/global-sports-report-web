@@ -8,7 +8,6 @@ import AustinBusinessBrief from "@/components/AustinBusinessBrief";
 import { buildAustinBusinessBrief, type AustinStory } from "@/lib/austinBusinessBrief";
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
 import { readSportsDeskPayload } from "@/lib/sportsDesks";
-import { readLiveSportsJson } from "@/lib/liveSportsJson";
 import { isFreshLiveGameItem } from "@/lib/liveGameFreshness";
 
 export const dynamic = "force-dynamic";
@@ -124,10 +123,8 @@ const BAD_CONTENT_PHRASES = [
 
 async function readReport(): Promise<AnyObj> {
   try {
-    return await readLiveSportsJson<AnyObj>(
-      "reports/latest_report.json",
-      "latest_report.json",
-    );
+    const file = path.join(process.cwd(), "public", "latest_report.json");
+    return JSON.parse(fs.readFileSync(file, "utf8"));
   } catch {
     return {};
   }
@@ -1467,7 +1464,6 @@ export default async function Page() {
     </main>
   );
 }
-
 
 
 
