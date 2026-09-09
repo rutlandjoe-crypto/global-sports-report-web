@@ -7,7 +7,7 @@ import EditorialStandard from "@/components/EditorialStandard";
 import AustinBusinessBrief from "@/components/AustinBusinessBrief";
 import { buildAustinBusinessBrief, type AustinStory } from "@/lib/austinBusinessBrief";
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
-import { readSportsDeskPayload } from "@/lib/sportsDesks";
+import type { SportsDeskPayload } from "@/lib/sportsDesks";
 import { isFreshLiveGameItem } from "@/lib/liveGameFreshness";
 
 export const dynamic = "force-dynamic";
@@ -125,6 +125,15 @@ async function readReport(): Promise<AnyObj> {
   try {
     const file = path.join(process.cwd(), "public", "latest_report.json");
     return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+async function readHomepageDeskPayload(): Promise<SportsDeskPayload> {
+  try {
+    const file = path.join(process.cwd(), "public", "sports_desks.json");
+    return JSON.parse(fs.readFileSync(file, "utf8")) as SportsDeskPayload;
   } catch {
     return {};
   }
@@ -1095,7 +1104,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 export default async function Page() {
   const [report, deskPayload] = await Promise.all([
     readReport(),
-    readSportsDeskPayload(),
+    readHomepageDeskPayload(),
   ]);
   const homepageEditorial = deskPayload.homepage;
   const homepageHero = homepageEditorial?.hero;
@@ -1464,6 +1473,5 @@ export default async function Page() {
     </main>
   );
 }
-
 
 
