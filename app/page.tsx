@@ -559,6 +559,7 @@ function storyTitle(story: AnyObj, index: number): string {
 }
 
 function storyUrl(story: AnyObj): string {
+  if (!story || typeof story !== "object") return "";
   const url = cleanText(story.url) || cleanText(story.link) || cleanText(story.source_url);
   return isValidUrl(url) ? url : "";
 }
@@ -1473,5 +1474,4 @@ export default async function Page() {
     </main>
   );
 }
-
 
