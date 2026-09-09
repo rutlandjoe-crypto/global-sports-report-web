@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: global-sports-agent-hourly
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sports-agent:

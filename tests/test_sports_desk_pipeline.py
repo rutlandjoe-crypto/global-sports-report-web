@@ -229,6 +229,33 @@ class SportsDeskPipelineTests(unittest.TestCase):
         self.assertEqual(["final", "live"], [row["id"] for row in scores])
         self.assertEqual(["next"], [row["id"] for row in schedule])
 
+    def test_expired_live_match_is_removed_after_three_hours(self) -> None:
+        now = datetime.now(timezone.utc)
+        expired = {
+            "id": "platense-fluminense",
+            "event_state": "in",
+            "starts_at": (now - timedelta(hours=3, minutes=1)).isoformat(),
+        }
+        scores, schedule = filter_game_windows([expired], [], now)
+        self.assertEqual([], scores)
+        self.assertEqual([], schedule)
+
+    def test_live_match_with_missing_start_time_fails_closed(self) -> None:
+        now = datetime.now(timezone.utc)
+        malformed = {"id": "missing-kickoff", "event_state": "in", "starts_at": ""}
+        scores, _ = filter_game_windows([malformed], [], now)
+        self.assertEqual([], scores)
+
+    def test_completed_match_is_retained_as_final_result(self) -> None:
+        now = datetime.now(timezone.utc)
+        final = {
+            "id": "verified-final",
+            "event_state": "post",
+            "starts_at": (now - timedelta(hours=5)).isoformat(),
+        }
+        scores, _ = filter_game_windows([final], [], now)
+        self.assertEqual(["verified-final"], [item["id"] for item in scores])
+
     def test_live_and_final_news_outrank_evergreen_service_content(self) -> None:
         evergreen = story(
             "Notre Dame printable schedule with dates, times and TV lineup",

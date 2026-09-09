@@ -9,6 +9,7 @@ import { buildAustinBusinessBrief, type AustinStory } from "@/lib/austinBusiness
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
 import { readSportsDeskPayload } from "@/lib/sportsDesks";
 import { readLiveSportsJson } from "@/lib/liveSportsJson";
+import { isFreshLiveGameItem } from "@/lib/liveGameFreshness";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -572,6 +573,7 @@ function storyLabel(story: AnyObj): string {
 
 function isPublishableStory(story: AnyObj): boolean {
   if (!story || typeof story !== "object") return false;
+  if (!isFreshLiveGameItem(story)) return false;
 
   const title = storyTitle(story, 0);
   const summary = storySummary(story);
@@ -1159,6 +1161,7 @@ export default async function Page() {
   const leadStories = stories.slice(0, 10);
   const sidebarStories = (deskId: string) => (deskPayload.desks?.[deskId]?.stories ?? [])
     .filter((story) => isValidUrl(story.url))
+    .filter((story) => isFreshLiveGameItem(story as unknown as Record<string, unknown>))
     .slice(0, 6)
     .map((story) => ({
       ...story,
@@ -1464,7 +1467,6 @@ export default async function Page() {
     </main>
   );
 }
-
 
 
 

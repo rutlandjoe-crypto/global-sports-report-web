@@ -6,14 +6,6 @@ export async function readLiveSportsJson<T>(
   pathname: string,
   fallbackFilename: string,
 ): Promise<T> {
-  const publishedFile = path.join(process.cwd(), "public", fallbackFilename);
-
-  try {
-    return JSON.parse(fs.readFileSync(publishedFile, "utf8")) as T;
-  } catch (error) {
-    console.error(`Published Sports payload unavailable for ${fallbackFilename}:`, error);
-  }
-
   try {
     const { blobs } = await list({ prefix: pathname, limit: 100 });
     const latest = blobs
@@ -25,11 +17,20 @@ export async function readLiveSportsJson<T>(
       )[0];
 
     if (latest) {
-      const response = await fetch(latest.url, { cache: "no-store" });
+      const response = await fetch(`${latest.url}?freshness=${Date.now()}`, {
+        cache: "no-store",
+      });
       if (response.ok) return (await response.json()) as T;
     }
   } catch (error) {
     console.error(`Live Sports payload unavailable for ${pathname}:`, error);
+  }
+
+  const publishedFile = path.join(process.cwd(), "public", fallbackFilename);
+  try {
+    return JSON.parse(fs.readFileSync(publishedFile, "utf8")) as T;
+  } catch (error) {
+    console.error(`Published Sports fallback unavailable for ${fallbackFilename}:`, error);
   }
 
   throw new Error(`Sports payload unavailable for ${fallbackFilename}`);

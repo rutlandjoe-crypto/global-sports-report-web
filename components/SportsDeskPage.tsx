@@ -1,6 +1,7 @@
 import Link from "next/link";
 import EditorialStandard from "@/components/EditorialStandard";
 import { getSportsDesk, type DeskStory, type SportsDesk } from "@/lib/sportsDesks";
+import { isFreshLiveGameItem } from "@/lib/liveGameFreshness";
 
 const PRIMARY_MODULES = new Set(["top-stories", "latest-news"]);
 const RAW_DATA_MODULES = new Set(["scores", "schedule", "standings", "rankings"]);
@@ -77,7 +78,10 @@ function validExternalUrl(value: unknown): value is string {
 }
 
 function validStories(items: Array<Record<string, unknown>>): DeskStory[] {
-  return (items as unknown as DeskStory[]).filter((story) => story.title && validExternalUrl(story.url));
+  return (items as unknown as DeskStory[]).filter(
+    (story) => story.title && validExternalUrl(story.url) &&
+      isFreshLiveGameItem(story as unknown as Record<string, unknown>),
+  );
 }
 
 function StoryCard({ story, compact = false }: { story: DeskStory; compact?: boolean }) {
@@ -253,7 +257,8 @@ export default async function SportsDeskPage({ deskId }: { deskId: string }) {
             {dataSections.map((section) => {
               const items = section.sources
                 .flatMap((source) => desk.data[source] ?? [])
-                .filter((item) => validExternalUrl(item.url) || validExternalUrl(item.source_url));
+                .filter((item) => validExternalUrl(item.url) || validExternalUrl(item.source_url))
+                .filter((item) => isFreshLiveGameItem(item));
               const providers = Array.from(new Set(items.map((item) => String(item.source ?? "").trim()).filter(Boolean)));
               const provider = desk.providers?.[section.providerKey];
               const sourceUrl = items.find((item) => validExternalUrl(item.source_url))?.source_url;

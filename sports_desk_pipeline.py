@@ -30,6 +30,11 @@ LATEST_REPORT_PATH = ROOT / "public" / "latest_report.json"
 CACHE_PATH = ROOT / ".cache" / "sports_desks.json"
 LOG = logging.getLogger("sports-desks")
 USER_AGENT = "GlobalSportsReport/2.0 (+https://globalsportsreport.com)"
+LIVE_EVENT_MAX_AGE = timedelta(hours=3)
+LIVE_STORY_PATTERN = re.compile(
+    r"(?:\b(?:live|in[ -]?progress|halftime|half[ -]?time)\b|\b\d{1,3}(?:st|nd|rd|th)?(?:\s+minute|['′]))",
+    re.IGNORECASE,
+)
 TRACKING_QUERY_KEYS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
     "gclid", "fbclid", "cmpid", "src", "output",
@@ -375,6 +380,7 @@ def parse_existing_report(path: Path, desks: list[dict[str, Any]]) -> list[dict[
             raw_items.extend(payload[key])
     aliases = {alias: desk["id"] for desk in desks for alias in [desk["id"], *desk.get("aliases", [])]}
     output = []
+    check_time = datetime.now(timezone.utc)
     for item in raw_items:
         if not isinstance(item, dict):
             continue
@@ -384,6 +390,14 @@ def parse_existing_report(path: Path, desks: list[dict[str, Any]]) -> list[dict[
         title = item.get("headline") or item.get("title")
         if not title or not url:
             continue
+        item_state = clean_text(item.get("event_state") or item.get("state")).lower()
+        starts_at = item.get("starts_at") or item.get("start_time") or item.get("kickoff") or item.get("date")
+        if item_state == "in" or LIVE_STORY_PATTERN.search(clean_text(title)):
+            if not is_current_live_game(
+                {"event_state": "in", "starts_at": starts_at},
+                check_time,
+            ):
+                continue
         output.append({
             "id": normalize_url(url),
             "desk": desk_id,
@@ -395,6 +409,8 @@ def parse_existing_report(path: Path, desks: list[dict[str, Any]]) -> list[dict[
             "source_group": "existing",
             "feed": "latest_report.json",
             "published_at": item.get("published_at") or item.get("updated_at") or payload.get("updated_at"),
+            "event_state": item_state,
+            "starts_at": starts_at,
         })
     return output
 
@@ -464,6 +480,17 @@ def parse_mlb_games(payload: dict[str, Any]) -> tuple[list[dict[str, Any]], list
     return scores, schedule
 
 
+def is_current_live_game(row: dict[str, Any], now: datetime | None = None) -> bool:
+    """Return True only for a verifiable live event inside the three-hour window."""
+    now = now or datetime.now(timezone.utc)
+    if clean_text(row.get("event_state")).lower() != "in":
+        return False
+    starts = parse_datetime(row.get("starts_at"))
+    if not starts:
+        return False
+    return now - LIVE_EVENT_MAX_AGE <= starts <= now + timedelta(minutes=5)
+
+
 def filter_game_windows(
     scores: list[dict[str, Any]],
     schedule: list[dict[str, Any]],
@@ -475,9 +502,14 @@ def filter_game_windows(
     schedule_cutoff = now + timedelta(days=45)
     completed_or_live = [
         row for row in scores
-        if row.get("event_state") in {"in", "post"}
-        and (starts := parse_datetime(row.get("starts_at")))
-        and recent_cutoff <= starts <= now + timedelta(minutes=5)
+        if (
+            (
+                clean_text(row.get("event_state")).lower() == "post"
+                and (starts := parse_datetime(row.get("starts_at")))
+                and recent_cutoff <= starts <= now + timedelta(minutes=5)
+            )
+            or is_current_live_game(row, now)
+        )
     ]
     upcoming = [
         row for row in schedule
@@ -505,6 +537,11 @@ def game_status_stories(
         state = clean_text(game.get("event_state")).lower()
         if state not in {"in", "post"}:
             continue
+        starts = parse_datetime(game.get("starts_at"))
+        if not starts:
+            continue
+        if state == "in" and not is_current_live_game(game, now):
+            continue
         away = clean_text(game.get("away"))
         home = clean_text(game.get("home"))
         away_score = clean_text(game.get("away_score"))
@@ -517,7 +554,6 @@ def game_status_stories(
         phase = "live score" if state == "in" else "final score"
         source = clean_text(game.get("source")) or "Official scoreboard"
         desk_label = clean_text(desk.get("label") or desk.get("sport") or desk["id"])
-        starts = parse_datetime(game.get("starts_at")) or now
         published = now if state == "in" else min(now, starts + timedelta(hours=4))
         output.append({
             "id": f"score:{desk['id']}:{clean_text(game.get('id')) or url}",
@@ -529,6 +565,7 @@ def game_status_stories(
             "publisher": source,
             "source_group": "official",
             "published_at": published.isoformat(),
+            "starts_at": starts.isoformat(),
             "teams": [away, home],
             "players": [],
             "lanes": [],
@@ -952,6 +989,16 @@ def validate_payload(
             ):
                 errors.append(f"{desk_id}: stale/invalid story timestamp: {story.get('title', '<untitled>')}")
                 break
+            story_state = clean_text(story.get("event_state")).lower()
+            if story_state == "in" and not is_current_live_game(
+                {"event_state": "in", "starts_at": story.get("starts_at")},
+                now,
+            ):
+                errors.append(
+                    f"{desk_id}: expired or unverifiable live story: "
+                    f"{story.get('title', '<untitled>')}"
+                )
+                break
             if not normalize_url(story.get("canonical_url") or story.get("url")):
                 errors.append(f"{desk_id}: story has no valid original-source URL: {story.get('title', '<untitled>')}")
                 break
@@ -1009,9 +1056,14 @@ def validate_payload(
         for row in data.get("scores", []):
             starts = parse_datetime(row.get("starts_at"))
             state = row.get("event_state")
-            if state not in {"in", "post"} or not starts or starts > now + timedelta(minutes=5):
+            if (
+                state not in {"in", "post"}
+                or not starts
+                or starts > now + timedelta(minutes=5)
+                or (state == "in" and not is_current_live_game(row, now))
+            ):
                 errors.append(
-                    f"{desk_id}: score is not a live or completed event: "
+                    f"{desk_id}: score is expired, unverifiable, or not live/completed: "
                     f"{row.get('name', row.get('id'))}"
                 )
         for row in data.get("schedule", []):
