@@ -1,21 +1,24 @@
 import fs from "fs";
 import path from "path";
-import { head } from "@vercel/blob";
+import { get } from "@vercel/blob";
 
 export async function readLiveSportsJson<T>(
   pathname: string,
   fallbackFilename: string,
 ): Promise<T> {
-  // `head(pathname)` addresses the one canonical object directly. The old
-  // `list()` scan made cold renders wait long enough to exceed Vercel's server
-  // rendering window for the 1+ MB desks payload.
+  // `get(pathname)` constructs the canonical object URL from the store token
+  // and retrieves it in one request. Avoid metadata/list calls on the render
+  // path: the desks payload is large enough that an extra round trip can exceed
+  // Vercel's server-rendering window on a cold start.
   try {
-    const latest = await head(pathname);
-    const response = await fetch(`${latest.url}?freshness=${Date.now()}`, {
-      cache: "no-store",
-      signal: AbortSignal.timeout(4_000),
+    const latest = await get(pathname, {
+      access: "public",
+      abortSignal: AbortSignal.timeout(6_000),
+      headers: { "Cache-Control": "no-cache" },
     });
-    if (response.ok) return (await response.json()) as T;
+    if (latest?.statusCode === 200) {
+      return (await new Response(latest.stream).json()) as T;
+    }
   } catch (error) {
     console.error(`Live Sports payload unavailable for ${pathname}:`, error);
   }
