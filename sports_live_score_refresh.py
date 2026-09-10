@@ -6,7 +6,7 @@ from __future__ import annotations
 import copy
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from sports_desk_pipeline import (
     OUTPUT_PATH,
@@ -19,11 +19,37 @@ from sports_desk_pipeline import (
     game_status_stories,
     load_config,
     payload_signature,
+    parse_datetime,
     story_quality,
     validate_payload,
 )
 
 LOG = logging.getLogger("sports-live-scores")
+
+
+
+def current_editorial_stories(
+    stories: list[dict],
+    desk_id: str,
+    now: datetime,
+    recency_hours: int,
+) -> list[dict]:
+    """Remove expired supporting stories before a live-score publication."""
+    current: list[dict] = []
+    oldest = now - timedelta(hours=recency_hours)
+    future_limit = now + timedelta(minutes=5)
+
+    for story in stories:
+        if str(story.get("id", "")).startswith(f"score:{desk_id}:"):
+            continue
+
+        published = parse_datetime(story.get("published_at"))
+        if not published or published < oldest or published > future_limit:
+            continue
+
+        current.append(story)
+
+    return current
 
 
 def refresh_live_scores(
@@ -76,10 +102,12 @@ def refresh_live_scores(
         provider.update({"url": score_url, "available": True})
 
         old_stories = desk.get("stories", [])
-        editorial_stories = [
-            story for story in old_stories
-            if not str(story.get("id", "")).startswith(f"score:{desk_id}:")
-        ]
+        editorial_stories = current_editorial_stories(
+            old_stories,
+            desk_id,
+            now,
+            config["defaults"]["recency_hours"],
+        )
         live_stories = game_status_stories(data["scores"], desk_config, now)
         stories = deduplicate_stories([*live_stories, *editorial_stories], desk_config)
         stories = sorted(
