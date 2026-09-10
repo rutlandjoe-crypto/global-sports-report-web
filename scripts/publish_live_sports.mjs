@@ -50,16 +50,31 @@ for (const payload of prepared) {
     token: process.env.BLOB_READ_WRITE_TOKEN,
   });
 
-  const response = await fetch(`${uploaded.url}?verify=${publicationRunId}`, {
-    cache: "no-store",
-  });
-  if (!response.ok) {
-    throw new Error(`Uploaded ${payload.pathname} could not be verified: HTTP ${response.status}`);
+  let verified = false;
+  let lastStatus = "no response";
+  for (let attempt = 1; attempt <= 6; attempt += 1) {
+    const response = await fetch(
+      `${uploaded.url}?verify=${publicationRunId}-${attempt}`,
+      { cache: "no-store" },
+    );
+    lastStatus = `HTTP ${response.status}`;
+    if (response.ok) {
+      const received = Buffer.from(await response.arrayBuffer());
+      const receivedHash = createHash("sha256").update(received).digest("hex");
+      if (receivedHash === payload.sha256) {
+        verified = true;
+        break;
+      }
+      lastStatus = `${lastStatus}, SHA-256 ${receivedHash}`;
+    }
+    if (attempt < 6) {
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1_000));
+    }
   }
-  const received = Buffer.from(await response.arrayBuffer());
-  const receivedHash = createHash("sha256").update(received).digest("hex");
-  if (receivedHash !== payload.sha256) {
-    throw new Error(`Uploaded ${payload.pathname} failed SHA-256 verification.`);
+  if (!verified) {
+    throw new Error(
+      `Uploaded ${payload.pathname} did not become readable after verification retries (${lastStatus}).`,
+    );
   }
 
   console.log(
