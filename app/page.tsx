@@ -7,7 +7,7 @@ import EditorialStandard from "@/components/EditorialStandard";
 import AustinBusinessBrief from "@/components/AustinBusinessBrief";
 import { buildAustinBusinessBrief, type AustinStory } from "@/lib/austinBusinessBrief";
 import { formatUpdatedAt } from "@/lib/formatUpdatedAt";
-import type { SportsDeskPayload } from "@/lib/sportsDesks";
+import { readSportsDeskPayload, type SportsDeskPayload } from "@/lib/sportsDesks";
 import { isFreshLiveGameItem } from "@/lib/liveGameFreshness";
 
 export const dynamic = "force-dynamic";
@@ -131,12 +131,7 @@ async function readReport(): Promise<AnyObj> {
 }
 
 async function readHomepageDeskPayload(): Promise<SportsDeskPayload> {
-  try {
-    const file = path.join(process.cwd(), "public", "sports_desks.json");
-    return JSON.parse(fs.readFileSync(file, "utf8")) as SportsDeskPayload;
-  } catch {
-    return {};
-  }
+  return readSportsDeskPayload();
 }
 
 function readAustinBusinessStories(): AustinStory[] {

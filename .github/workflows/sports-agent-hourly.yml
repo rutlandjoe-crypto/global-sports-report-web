@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: global-sports-agent-hourly
+  group: global-sports-publication
   cancel-in-progress: false
 
 jobs:

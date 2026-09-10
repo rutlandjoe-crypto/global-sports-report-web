@@ -262,12 +262,14 @@ export default async function SportsDeskPage({ deskId }: { deskId: string }) {
               const providers = Array.from(new Set(items.map((item) => String(item.source ?? "").trim()).filter(Boolean)));
               const provider = desk.providers?.[section.providerKey];
               const sourceUrl = items.find((item) => validExternalUrl(item.source_url))?.source_url;
-              const dataUpdated = readableDate(desk.data_updated_at?.[section.providerKey]);
+              const dataVerified = readableDate(
+                desk.data_verified_at?.[section.providerKey] ?? desk.data_updated_at?.[section.providerKey],
+              );
               return (
                 <section id={section.id} key={section.id} className="scroll-mt-24 rounded-2xl border border-[#dbe4f0] bg-white p-6 shadow-sm">
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#315c8d]">Data Desk</p>
                   <h2 className="mt-2 text-xl font-bold text-[#0f1c2e]">{section.label}</h2>
-                  {dataUpdated ? <p className="mt-1 text-xs text-slate-500">Verified data updated {dataUpdated}</p> : null}
+                  {dataVerified ? <p className="mt-1 text-xs text-slate-500">Verified data checked {dataVerified}</p> : null}
                   {providers.length || provider?.label ? <p className="mt-1 text-xs text-slate-500">Source: {providers.join(", ") || provider?.label}</p> : null}
                   <div className="mt-4 max-h-96 space-y-2 overflow-auto">
                     {!items.length ? <EmptyState label={section.label} provider={provider?.label} /> : section.kind === "standings"

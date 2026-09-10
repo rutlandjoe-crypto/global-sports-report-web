@@ -40,6 +40,7 @@ export type SportsDesk = {
   content_updated_at?: string;
   updated_at?: string;
   data_updated_at?: Record<string, string>;
+  data_verified_at?: Record<string, string>;
 };
 
 export type HomepageEditorial = {

@@ -12,9 +12,9 @@ const publicationRunId = [
   Date.now(),
 ].join("-");
 
-// Validate both payloads before changing either live object. Desks publish
-// first, so a failure cannot expose a new homepage with older desk data.
-const definitions = [
+// Validate every selected payload before changing a live object. The
+// lightweight scoreboard workflow publishes only the desks object.
+const allDefinitions = [
   {
     file: "public/sports_desks.json",
     pathname: "reports/sports_desks.json",
@@ -26,6 +26,9 @@ const definitions = [
     timestamp: "updated_at",
   },
 ];
+
+const definitions =
+  process.env.GSR_PUBLISH_DESKS_ONLY === "1" ? allDefinitions.slice(0, 1) : allDefinitions;
 
 const prepared = definitions.map((definition) => {
   const parsed = JSON.parse(fs.readFileSync(definition.file, "utf8"));
