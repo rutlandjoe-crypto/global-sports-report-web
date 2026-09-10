@@ -275,6 +275,31 @@ def source_quality(story: dict[str, Any], desk: dict[str, Any]) -> int:
     return priority
 
 
+
+def football_story_priority(
+    story: dict[str, Any],
+    now: datetime | None = None,
+) -> int:
+    """Return 2 for live NFL/CFB games and 1 for results inside 18 hours."""
+    desk_id = clean_text(story.get("desk")).lower()
+    if desk_id not in {"nfl", "college-football"}:
+        return 0
+
+    state = clean_text(story.get("event_state")).lower()
+    if state == "in":
+        return 2
+    if state != "post":
+        return 0
+
+    starts = parse_datetime(story.get("starts_at"))
+    current = now or datetime.now(timezone.utc)
+    if not starts:
+        return 0
+
+    age = current - starts
+    return 1 if timedelta(hours=-1) <= age <= timedelta(hours=18) else 0
+
+
 def story_quality(story: dict[str, Any], desk: dict[str, Any]) -> tuple[float, int, float]:
     published = parse_datetime(story.get("published_at")) or datetime.min.replace(tzinfo=timezone.utc)
     age_hours = max(0.0, (datetime.now(timezone.utc) - published).total_seconds() / 3600)
@@ -283,7 +308,8 @@ def story_quality(story: dict[str, Any], desk: dict[str, Any]) -> tuple[float, i
     # Freshness drives the lead; relevance resolves close stories and source
     # prestige is deliberately only a tie-breaker.
     return (
-        freshness + min(relevance, 12) * 2.0 + editorial_news_value(story),
+        freshness + min(relevance, 12) * 2.0 + editorial_news_value(story)
+        + football_story_priority(story) * 10000,
         source_quality(story, desk),
         published.timestamp(),
     )
@@ -533,7 +559,8 @@ def game_status_stories(
         ),
         reverse=True,
     )
-    for game in ordered[:6]:
+    game_limit = 32 if desk.get("id") in {"nfl", "college-football"} else 6
+    for game in ordered[:game_limit]:
         state = clean_text(game.get("event_state")).lower()
         if state not in {"in", "post"}:
             continue
@@ -848,7 +875,7 @@ def rank_homepage_stories(stories: list[dict[str, Any]], now: datetime | None = 
         if latest - parse_datetime(item["published_at"]) <= timedelta(hours=36)
     ]
 
-    def ranking_key(story: dict[str, Any]) -> tuple[int, int, int, int, float, str]:
+    def ranking_key(story: dict[str, Any]) -> tuple[int, int, int, int, int, float, str]:
         published = parse_datetime(story["published_at"])
         freshness_band = int((latest - published).total_seconds() // (3 * 3600))
         global_relevance = int(bool(set(story.get("lanes", [])) & {
@@ -856,6 +883,7 @@ def rank_homepage_stories(stories: list[dict[str, Any]], now: datetime | None = 
             "international-soccer", "world-cup", "league-business", "trades", "injuries",
         }))
         return (
+            football_story_priority(story, now),
             -freshness_band,
             homepage_significance(story),
             homepage_source_quality(story),
@@ -1006,6 +1034,17 @@ def validate_payload(
                 errors.append(f"{desk_id}: wrong-sport or irrelevant story: {story.get('title', '<untitled>')}")
                 break
 
+        current_game_priority = max(
+            (football_story_priority(story, now) for story in stories),
+            default=0,
+        )
+        if current_game_priority:
+            if not stories or football_story_priority(stories[0], now) != current_game_priority:
+                errors.append(f"{desk_id}: current football game is not the desk lead")
+            top_items = desk.get("modules", {}).get("top-stories", {}).get("items", [])
+            if not top_items or football_story_priority(top_items[0], now) != current_game_priority:
+                errors.append(f"{desk_id}: current football game is missing from the first Top Stories position")
+
         diagnostics = desk.get("diagnostics", {})
         if (
             require_live_sources
@@ -1074,6 +1113,36 @@ def validate_payload(
             errors.append(f"{desk_id}: rankings were mislabeled as standings")
         if any("rank" not in row for row in data.get("rankings", [])):
             errors.append(f"{desk_id}: standings were mislabeled as rankings")
+
+    football_priorities = [
+        football_story_priority(story, now)
+        for desk_id in ("nfl", "college-football")
+        for story in actual.get(desk_id, {}).get("stories", [])
+    ]
+    required_homepage_priority = max(football_priorities, default=0)
+    if required_homepage_priority:
+        hero = payload.get("homepage", {}).get("hero", {})
+        if football_story_priority(hero, now) != required_homepage_priority:
+            errors.append("homepage: live or recently completed football game is not the lead")
+
+        active_desks = {
+            desk_id
+            for desk_id in ("nfl", "college-football")
+            if any(
+                football_story_priority(story, now) == 2
+                for story in actual.get(desk_id, {}).get("stories", [])
+            )
+        }
+        visible_active_desks = {
+            clean_text(story.get("desk")).lower()
+            for story in payload.get("homepage", {}).get("stories", [])
+            if football_story_priority(story, now) == 2
+        }
+        if not active_desks.issubset(visible_active_desks):
+            errors.append(
+                "homepage: active football desk missing: "
+                + ", ".join(sorted(active_desks - visible_active_desks))
+            )
 
     if previous and payload_signature(payload) == payload_signature(previous):
         if payload.get("generated_at") != previous.get("generated_at"):
