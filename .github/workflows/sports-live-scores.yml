@@ -2,6 +2,13 @@ name: Global Sports Live Score Refresh
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["master"]
+    paths:
+      - "sports_live_score_refresh.py"
+      - "scripts/download_live_sports.mjs"
+      - "scripts/publish_live_sports.mjs"
+      - ".github/workflows/sports-live-scores.yml"
   schedule:
     - cron: "*/10 * * * *"
 
