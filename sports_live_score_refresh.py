@@ -130,6 +130,39 @@ def refresh_live_scores(
         ]
         refreshed.append(desk_id)
 
+    # Desks without a scoreboard provider (currently Fantasy) do not enter the
+    # loop above. Prune their expired editorial cards too, otherwise one stale
+    # card can fail whole-payload validation and block every live-score update.
+    for desk_config in config["desks"]:
+        if desk_config.get("data_providers", {}).get("scores"):
+            continue
+
+        desk_id = desk_config["id"]
+        desk = payload.get("desks", {}).get(desk_id)
+        if not isinstance(desk, dict):
+            continue
+
+        old_stories = desk.get("stories", [])
+        stories = current_editorial_stories(
+            old_stories,
+            desk_id,
+            now,
+            config["defaults"]["recency_hours"],
+        )
+        if _stable_hash(old_stories) == _stable_hash(stories):
+            continue
+
+        desk["stories"] = stories
+        desk["modules"] = build_modules(
+            stories,
+            desk.get("data", {}),
+            config,
+            desk_id,
+        )
+        desk["content_updated_at"] = now.isoformat()
+        desk["updated_at"] = now.isoformat()
+        desk.setdefault("diagnostics", {})["stale_story_cleanup_at"] = now.isoformat()
+
     if not refreshed:
         raise RuntimeError("No configured scoreboard provider returned usable data; publication blocked.")
 
