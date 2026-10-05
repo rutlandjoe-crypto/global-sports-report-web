@@ -434,7 +434,7 @@ def main() -> None:
         "live_games": live_games,
         "upcoming_games": upcoming_games,
         "statcast_watch": statcast_watch,
-        "why_it_matters": "MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text.",
+        "why_it_matters": "Follow the verified game state, matchup details and cited source for the next meaningful MLB development.",
         "card_blocks": [
             {
                 "label": "Final Scores",

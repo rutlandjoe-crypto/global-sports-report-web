@@ -1015,27 +1015,6 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 
       <p className="mt-3 text-sm leading-6 text-neutral-700">{summary}</p>
 
-      <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
-        <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Data Points</p>
-          <LineList items={keyData.length ? keyData : [title]} />
-        </div>
-
-        <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Story Stakes</p>
-          <LineList items={why.length ? why : [fallback.why]} />
-        </div>
-
-        <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Next Read</p>
-          <LineList items={watch.length ? watch : [fallback.watch]} />
-        </div>
-
-        <div className="rounded-xl bg-neutral-50 p-3">
-          <p className="mb-2 text-xs font-black uppercase text-neutral-600">Reporting Angles</p>
-          <LineList items={angles.length ? angles : [fallback.angle]} />
-        </div>
-      </div>
 
       <a href={url} target="_blank" rel="noopener noreferrer" className="relative z-10 mt-4 inline-flex text-sm font-black text-red-700 underline decoration-transparent underline-offset-4 hover:decoration-current focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">
         Read original source{source ? ` · ${source}` : ""} <span aria-hidden="true">↗</span>
@@ -1395,7 +1374,6 @@ export default function Page() {
     </main>
   );
 }
-
 
 
 
