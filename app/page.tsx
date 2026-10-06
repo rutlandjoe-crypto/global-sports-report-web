@@ -1,4 +1,4 @@
-import fs from "fs";
+﻿import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import EditorialStandard from "@/components/EditorialStandard";
@@ -96,11 +96,11 @@ function cleanText(value: AnyObj): string {
   if (value === null || value === undefined) return "";
 
   if (Array.isArray(value)) {
-    return value.map(cleanText).filter(Boolean).join(" • ");
+    return value.map(cleanText).filter(Boolean).join(" â€¢ ");
   }
 
   if (typeof value === "object") {
-    return Object.values(value).map(cleanText).filter(Boolean).join(" • ");
+    return Object.values(value).map(cleanText).filter(Boolean).join(" â€¢ ");
   }
 
   return String(value)
@@ -113,8 +113,8 @@ function cleanText(value: AnyObj): string {
     .replace(/&lsquo;/g, "'")
     .replace(/&rdquo;/g, '"')
     .replace(/&ldquo;/g, '"')
-    .replace(/&ndash;/g, "–")
-    .replace(/&mdash;/g, "—")
+    .replace(/&ndash;/g, "â€“")
+    .replace(/&mdash;/g, "â€”")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -171,7 +171,7 @@ function asList(value: AnyObj): string[] {
     return unique(
       value.flatMap((item) =>
         cleanText(item)
-          .split(/\n|•|\|/)
+          .split(/\n|â€¢|\|/)
           .map((x) => x.trim())
           .filter(Boolean)
       )
@@ -182,7 +182,7 @@ function asList(value: AnyObj): string[] {
     return unique(
       Object.values(value).flatMap((item) =>
         cleanText(item)
-          .split(/\n|•|\|/)
+          .split(/\n|â€¢|\|/)
           .map((x) => x.trim())
           .filter(Boolean)
       )
@@ -191,7 +191,7 @@ function asList(value: AnyObj): string[] {
 
   return unique(
     cleanText(value)
-      .split(/\n|•|\|/)
+      .split(/\n|â€¢|\|/)
       .map((x) => x.trim())
       .filter(Boolean)
   );
@@ -922,7 +922,7 @@ function NewsroomBriefing({ items }: { items: string[] }) {
         </div>
       ) : (
         <p className="text-sm leading-6 text-neutral-700">
-          Tracking the developments driving today’s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
+          Tracking the developments driving todayâ€™s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
         </p>
       )}
     </div>
@@ -1017,7 +1017,7 @@ function StoryCard({ story, index }: { story: AnyObj; index: number }) {
 
 
       <a href={url} target="_blank" rel="noopener noreferrer" className="relative z-10 mt-4 inline-flex text-sm font-black text-red-700 underline decoration-transparent underline-offset-4 hover:decoration-current focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">
-        Read original source{source ? ` · ${source}` : ""} <span aria-hidden="true">↗</span>
+        Read original source{source ? ` Â· ${source}` : ""} <span aria-hidden="true">â†—</span>
       </a>
     </article>
   );
@@ -1129,7 +1129,7 @@ export default function Page() {
               >
                 {name}
               </a>
-              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">•</span> : null}
+              {index < GSR_NETWORK.length - 1 ? <span className="text-neutral-500">â€¢</span> : null}
             </span>
           ))}
         </div>
@@ -1160,7 +1160,7 @@ export default function Page() {
             <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-700">
               {snapshot}
             </p>
-            {heroUrl ? <a href={heroUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex text-sm font-black text-red-700 underline underline-offset-4 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">Read original source{heroSource ? ` · ${heroSource}` : ""} <span aria-hidden="true">↗</span></a> : null}
+            {heroUrl ? <a href={heroUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex text-sm font-black text-red-700 underline underline-offset-4 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700">Read original source{heroSource ? ` Â· ${heroSource}` : ""} <span aria-hidden="true">â†—</span></a> : null}
             <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold">
               <span className="rounded-full bg-black px-4 py-2 text-white">
                 {SITE.tagline}
@@ -1176,7 +1176,7 @@ export default function Page() {
               liveBriefingItems.length
                 ? liveBriefingItems
                 : [
-                    "The day’s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
+                    "The dayâ€™s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
                     "Coaching decisions, lineup movement and late-game execution are driving several major storylines.",
                     "Standings swings and performance trends are beginning to reshape postseason expectations.",
                     "League-wide momentum continues to shift as teams respond to injuries, pressure and schedule demands.",
@@ -1211,11 +1211,11 @@ export default function Page() {
             </p>
 
             <ul className="mt-5 space-y-2 text-sm font-semibold text-white">
-              <li>• Training Camp Report</li>
-              <li>• Injury Tracker</li>
-              <li>• Transactions</li>
-              <li>• Quarterback Battles</li>
-              <li>• League Headlines</li>
+              <li>â€¢ Training Camp Report</li>
+              <li>â€¢ Injury Tracker</li>
+              <li>â€¢ Transactions</li>
+              <li>â€¢ Quarterback Battles</li>
+              <li>â€¢ League Headlines</li>
             </ul>
 
 <Link
@@ -1223,7 +1223,7 @@ export default function Page() {
   className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-white px-4 py-3 text-sm font-black transition hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-950 sm:w-auto"
   style={{ color: "#172554" }}
 >
-  <span>View Full NFL Desk →</span>
+  <span>View Full NFL Desk â†’</span>
 </Link>
 
           </section>
@@ -1309,7 +1309,7 @@ export default function Page() {
                 editorSignalItems.length
                   ? editorSignalItems
                   : [
-                      "Playoff positioning, injuries and coaching pressure are driving today’s strongest sports storylines.",
+                      "Playoff positioning, injuries and coaching pressure are driving todayâ€™s strongest sports storylines.",
                       "Several teams are entering critical stretches where lineup decisions and late-game execution matter more.",
                       "Performance trends, roster questions and postseason implications continue shaping coverage priorities.",
                     ]
@@ -1364,7 +1364,7 @@ export default function Page() {
       <footer className="border-t border-neutral-300 bg-white">
         <div className="mx-auto max-w-7xl px-5 py-6">
           <p className="text-sm font-medium text-neutral-700">
-            © {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
+            Â© {new Date().getFullYear()} {SITE.name}. {SITE.tagline}
           </p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-neutral-500">
             {SITE.descriptor}
@@ -1374,6 +1374,7 @@ export default function Page() {
     </main>
   );
 }
+
 
 
 
