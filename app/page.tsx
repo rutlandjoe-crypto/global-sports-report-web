@@ -585,12 +585,37 @@ function isSportsNewsStory(story: AnyObj): boolean {
     !/\bboard turns on\b|\bheadline(?:s)? (?:the )?(?:mlb |nfl |nba |nhl )?scoreboard\b|after latest final/i.test(title);
 }
 
+
+function homepageNewsScore(story: AnyObj, now = Date.now()): number {
+  const title = normalizeText(storyTitle(story, 0));
+  const text = normalizeText(title + " " + cleanText(story.summary || story.snapshot));
+  const published = Date.parse(cleanText(story.published_at || story.publishedAt || story.updated_at));
+  const age = Number.isFinite(published) ? (now - published) / 3600000 : Infinity;
+  let score = age >= -0.25 && age <= 6 ? Math.max(0, 6 - age) : -500;
+  if (age >= -0.25 && age <= 6) {
+    if (/\b(?:dies|died|death|dead|passed away|mourns?|mourning)\b/.test(text)) score += 1000;
+    else if (/\b(?:icon|legend|hall of famer)\b/.test(text) &&
+             /\b(?:generations|legacy|tribute|remembrance|impact)\b/.test(text)) score += 900;
+    if (/\b(?:playoffs?|postseason|nlcs|alcs|world series|championship)\b/.test(text)) score += 180;
+    if (/\b(?:ruled out|surgery|injury|injured|trade|traded|fired|hired)\b/.test(title)) score += 120;
+    const league = normalizeText(story.label || story.league || story.desk);
+    if (/nfl/.test(league)) score += 80;
+    else if (/college football|college-football|ncaaf/.test(league)) score += 70;
+  }
+  if (/\b(?:season in review|season review|year in review|retrospective|offseason review)\b/.test(title)) score -= 2000;
+  return score;
+}
+
 function isHomepageLeadStory(story: AnyObj): boolean {
   if (!isPublishableStory(story) || !isSportsNewsStory(story)) return false;
   const title = publicText(story.source_headline || story.original_headline) || storyTitle(story, 0);
   const summary = storySummary(story);
   const url = storyUrl(story);
   if (!title || isBadContent(title)) return false;
+  if (/\b(?:season in review|season review|year in review|retrospective|offseason review)\b/i.test(title)) return false;
+  const published = Date.parse(cleanText(story.published_at || story.publishedAt || story.updated_at));
+  const ageHours = (Date.now() - published) / 3600000;
+  if (!Number.isFinite(published) || ageHours < -0.25 || ageHours > 6) return false;
   if (/\bscoreboard\b|\bschedule hub\b|—\s*(?:Final|FT)\b/i.test(title)) return false;
   if (/^Verified .+ (?:final|live) score/i.test(summary)) return false;
   try {
@@ -1143,9 +1168,21 @@ export default async function Page() {
     }, index))
     .filter(isPublishableStory);
   const reportStories = getStories(report).filter(isPublishableStory);
-  const reportHero = [...generatedStories, ...reportStories].find(isHomepageLeadStory);
+  const deskStories = Object.entries(deskPayload.desks ?? {}).flatMap(([deskId, desk]) =>
+    (desk.stories ?? []).map((story, index) => normalizeStory({
+      ...story,
+      label: desk.label || deskId,
+      league: desk.label || deskId,
+      headline: story.title,
+      source_label: story.publisher,
+    }, index)),
+  );
+  const rankedStories = [...deskStories, ...generatedStories, ...reportStories]
+    .filter(isPublishableStory)
+    .sort((a, b) => homepageNewsScore(b) - homepageNewsScore(a));
+  const reportHero = rankedStories.find(isHomepageLeadStory);
   const seenStoryUrls = new Set<string>();
-  const stories = [...reportStories, ...generatedStories].filter((story) => {
+  const stories = rankedStories.filter((story) => {
     const url = storyUrl(story);
     if (!url || seenStoryUrls.has(url)) return false;
     seenStoryUrls.add(url);
@@ -1181,6 +1218,7 @@ export default async function Page() {
       : defaultSnapshot;
 
   const updated = formatUpdatedAt(
+    cleanText(deskPayload.generated_at) ||
     cleanText(report.updated_at) ||
       cleanText(report.generated_at) ||
       cleanText(report.published_at) ||
@@ -1205,7 +1243,7 @@ export default async function Page() {
   const collegeFootballStories = collegeSidebarStories.length ? collegeSidebarStories : getCollegeFootballStories(report);
   const soccerStories = soccerSidebarStories.length ? soccerSidebarStories : getSoccerStories(report);
   const liveBriefingItems = buildBriefingItems(
-    [...generatedStories, ...reportStories].filter(isHomepageLeadStory), [],
+    rankedStories.filter(isHomepageLeadStory), [],
   );
 
   const editorSignalItems = generatedStories.length
