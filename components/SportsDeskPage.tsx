@@ -1,3 +1,4 @@
+import GsrSportsThoughts from "@/components/GsrSportsThoughts";
 import Link from "next/link";
 import EditorialStandard from "@/components/EditorialStandard";
 import { getSportsDesk, type DeskStory, type SportsDesk } from "@/lib/sportsDesks";
@@ -167,6 +168,7 @@ export default async function SportsDeskPage({ deskId }: { deskId: string }) {
       <main className="min-h-screen bg-[#f5f7fb] px-5 py-16 text-slate-950">
         <div className="mx-auto max-w-3xl rounded-2xl border border-[#dbe4f0] bg-white p-8 shadow-sm">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#315c8d]">Global Sports Report</p>
+          <GsrSportsThoughts desk={deskId} />
           <h1 className="mt-3 text-3xl font-black">Desk temporarily unavailable</h1>
           <p className="mt-4 leading-7 text-slate-600">Reliable current coverage did not meet this desk&apos;s publication threshold. The module will return after the next successful source refresh.</p>
           <Link href="/" className="mt-6 inline-flex font-bold text-[#315c8d] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#315c8d]">Return to Global Sports Report</Link>
@@ -176,7 +178,7 @@ export default async function SportsDeskPage({ deskId }: { deskId: string }) {
   }
 
   const topStories = validStories(desk.modules["top-stories"].items);
-  if (!topStories.length) return null;
+  if (!topStories.length) return <main className="mx-auto max-w-7xl px-5 py-8"><GsrSportsThoughts desk={deskId} /></main>;
   const latestStories = validStories(desk.modules["latest-news"]?.items ?? []);
   const hero = topStories[0];
   const secondaryTopStories = topStories.slice(1);
@@ -193,6 +195,7 @@ export default async function SportsDeskPage({ deskId }: { deskId: string }) {
     .filter((section) => section.stories.length);
   const hasStorylines = contextSections.length > 0 || laneSections.length > 0 || REQUIRED_STORYLINE_DESKS.has(deskId);
   const navItems = [
+    ...(deskId === "nfl" ? [{ id: "gsr-sports-thoughts", label: "GSR Sports Thoughts" }] : []),
     { id: "top-stories", label: "Top Stories" },
     ...(latestStories.length ? [{ id: "latest-news", label: "Latest News" }] : []),
     ...dataSections.map(({ id, label }) => ({ id, label })),
@@ -225,6 +228,7 @@ export default async function SportsDeskPage({ deskId }: { deskId: string }) {
       </nav>
 
       <div className="mx-auto max-w-7xl px-5 py-8 sm:px-8 sm:py-10 lg:px-10 lg:py-12">
+        <GsrSportsThoughts desk={deskId} />
         <section id="top-stories" className="scroll-mt-24">
           <a href={hero.url} target="_blank" rel="noopener noreferrer" aria-label={`Read ${hero.title} from ${hero.publisher} (opens in a new tab)`} className="group block overflow-hidden rounded-2xl border border-[#dbe4f0] bg-white shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#315c8d] focus-visible:ring-offset-2">
             <div className="border-l-4 border-[#315c8d] px-6 py-8 sm:px-9 sm:py-10 lg:px-12 lg:py-14">

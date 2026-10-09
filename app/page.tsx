@@ -1,3 +1,4 @@
+import GsrSportsThoughts from "@/components/GsrSportsThoughts";
 import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
@@ -1286,6 +1287,8 @@ export default async function Page() {
           ))}
         </div>
       </nav>
+
+      <div className="mx-auto max-w-7xl px-5 pt-6"><GsrSportsThoughts /></div>
 
       <EditorialStandard />
 

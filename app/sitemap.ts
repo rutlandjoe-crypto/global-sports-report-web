@@ -1,3 +1,4 @@
+import { gsrSportsThoughts, sportsThoughtUrl } from "@/lib/gsrSportsThoughts";
 import type { MetadataRoute } from "next";
 import {
   SPORTS_ARCHIVE_DESKS,
@@ -14,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = sportsArchiveLastModified();
 
   return [
+    ...gsrSportsThoughts.map((story) => ({
+      url: baseUrl + sportsThoughtUrl(story.slug),
+      lastModified: new Date(story.publishedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     {
       url: baseUrl,
       lastModified,
