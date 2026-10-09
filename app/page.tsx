@@ -575,9 +575,36 @@ function storyLabel(story: AnyObj): string {
   return publicText(story.label) || publicText(story.category) || publicText(story.league) || publicText(story.title) || "Sports Watch";
 }
 
+
+function isSportsNewsStory(story: AnyObj): boolean {
+  const label = normalizeText(story.label || story.league || story.category);
+  const title = storyTitle(story, 0);
+  const url = storyUrl(story);
+  return !/betting|odds/.test(label) &&
+    !/https?:\/\/(?:[^/]+\.)?the-odds-api\.com(?:\/|$)/i.test(url) &&
+    !/\bboard turns on\b|\bheadline(?:s)? (?:the )?(?:mlb |nfl |nba |nhl )?scoreboard\b|after latest final/i.test(title);
+}
+
+function isHomepageLeadStory(story: AnyObj): boolean {
+  if (!isPublishableStory(story) || !isSportsNewsStory(story)) return false;
+  const title = publicText(story.source_headline || story.original_headline) || storyTitle(story, 0);
+  const summary = storySummary(story);
+  const url = storyUrl(story);
+  if (!title || isBadContent(title)) return false;
+  if (/\bscoreboard\b|\bschedule hub\b|—\s*(?:Final|FT)\b/i.test(title)) return false;
+  if (/^Verified .+ (?:final|live) score/i.test(summary)) return false;
+  try {
+    const pathname = new URL(url).pathname;
+    if (/\/(?:scoreboard|schedule)\/?$/i.test(pathname)) return false;
+    if (/^\/(?:nfl|mlb|nba|nhl|soccer)?\/?$/i.test(pathname)) return false;
+  } catch { return false; }
+  return true;
+}
+
 function isPublishableStory(story: AnyObj): boolean {
   if (!story || typeof story !== "object") return false;
   if (!isFreshLiveGameItem(story)) return false;
+  if (!isSportsNewsStory(story)) return false;
 
   const title = storyTitle(story, 0);
   const summary = storySummary(story);
@@ -1116,7 +1143,7 @@ export default async function Page() {
     }, index))
     .filter(isPublishableStory);
   const reportStories = getStories(report).filter(isPublishableStory);
-  const reportHero = reportStories[0];
+  const reportHero = [...generatedStories, ...reportStories].find(isHomepageLeadStory);
   const seenStoryUrls = new Set<string>();
   const stories = [...reportStories, ...generatedStories].filter((story) => {
     const url = storyUrl(story);
@@ -1136,18 +1163,16 @@ export default async function Page() {
       report.takeaways
   );
 
-  const fallbackHeadline = "Global Sports Report: The Stories Behind The Board";
-  const headline =
-    (cleanText(report.headline) && !isBadContent(report.headline)
-      ? cleanText(report.headline)
-      : publicText(homepageHero?.title) || fallbackHeadline);
-  const heroUrl = storyUrl(reportHero) || (isValidUrl(homepageHero?.url) ? cleanText(homepageHero?.url) : "");
-  const heroSource = publicText(reportHero?.source_label || reportHero?.publisher || reportHero?.source || homepageHero?.publisher);
+  const headline = reportHero
+    ? publicText(reportHero.source_headline || reportHero.original_headline) || storyTitle(reportHero, 0)
+    : "Global Sports Report";
+  const heroUrl = storyUrl(reportHero);
+  const heroSource = publicText(reportHero?.source_label || reportHero?.publisher || reportHero?.source);
 
   const defaultSnapshot =
     "A live sports newsroom briefing focused on the stories, injuries, results and league developments shaping the next cycle of coverage.";
 
-  const rawSnapshot = cleanText(reportHero?.snapshot || reportHero?.summary || report.snapshot || homepageHero?.summary);
+  const rawSnapshot = cleanText(reportHero?.snapshot || reportHero?.summary);
   const snapshot =
     rawSnapshot &&
     !isBadContent(rawSnapshot) &&
@@ -1179,13 +1204,9 @@ export default async function Page() {
   const proFootballStories = nflSidebarStories.length ? nflSidebarStories : getProFootballStories(report);
   const collegeFootballStories = collegeSidebarStories.length ? collegeSidebarStories : getCollegeFootballStories(report);
   const soccerStories = soccerSidebarStories.length ? soccerSidebarStories : getSoccerStories(report);
-  const liveBriefingItems = reportStories.length
-    ? buildBriefingItems(reportStories, [])
-    : generatedStories.length
-      ? buildBriefingItems(generatedStories, [])
-      : liveNewsroomStories.length
-      ? spotlightItemsFromStories(liveNewsroomStories)
-      : buildBriefingItems(stories, rawSignals);
+  const liveBriefingItems = buildBriefingItems(
+    [...generatedStories, ...reportStories].filter(isHomepageLeadStory), [],
+  );
 
   const editorSignalItems = generatedStories.length
     ? buildBriefingItems(generatedStories.slice(3), [])
