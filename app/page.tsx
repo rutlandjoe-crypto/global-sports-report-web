@@ -911,6 +911,38 @@ function cleanSignals(items: string[]): string[] {
   return unique(items).slice(0, 6);
 }
 
+
+function distinctBriefingStories(candidates: AnyObj[], hero: AnyObj): AnyObj[] {
+  const titleKey = (value: AnyObj) => cleanText(value).toLowerCase()
+    .normalize("NFKC").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const titleKeys = (story: AnyObj) => story
+    ? [storyTitle(story, 0), story.source_headline, story.original_headline]
+        .map(titleKey).filter(Boolean) : [];
+  const urlKey = (story: AnyObj) => {
+    const raw = storyUrl(story);
+    if (!raw) return "";
+    try {
+      const url = new URL(raw);
+      url.hash = "";
+      for (const key of [...url.searchParams.keys()]) {
+        if (/^utm_|^(fbclid|gclid)$/i.test(key)) url.searchParams.delete(key);
+      }
+      url.searchParams.sort();
+      return url.toString().replace(/\/$/, "");
+    } catch { return raw; }
+  };
+  const titles = new Set<string>(titleKeys(hero));
+  const urls = new Set<string>(hero ? [urlKey(hero)].filter(Boolean) : []);
+  return candidates.filter((story) => {
+    const keys = titleKeys(story);
+    const url = urlKey(story);
+    if (!keys.length || keys.some((key) => titles.has(key)) || (url && urls.has(url))) return false;
+    keys.forEach((key) => titles.add(key));
+    if (url) urls.add(url);
+    return true;
+  });
+}
+
 function buildBriefingItems(stories: AnyObj[], rawSignals: string[]): string[] {
   const fromStories = stories.map((story, index) => {
     const label = storyLabel(story);
@@ -1243,7 +1275,7 @@ export default async function Page() {
   const collegeFootballStories = collegeSidebarStories.length ? collegeSidebarStories : getCollegeFootballStories(report);
   const soccerStories = soccerSidebarStories.length ? soccerSidebarStories : getSoccerStories(report);
   const liveBriefingItems = buildBriefingItems(
-    rankedStories.filter(isHomepageLeadStory), [],
+    distinctBriefingStories(rankedStories.filter(isHomepageLeadStory), reportHero), [],
   );
 
   const editorSignalItems = generatedStories.length
@@ -1323,18 +1355,7 @@ export default async function Page() {
             </div>
           </div>
 
-          <NewsroomBriefing
-            items={
-              [headline, ...liveBriefingItems.filter((item) => !item.includes("Notre Dame football printable 2026 schedule"))].length
-                ? [headline, ...liveBriefingItems.filter((item) => !item.includes("Notre Dame football printable 2026 schedule"))]
-                : [
-                    "The day’s biggest stories are being shaped by injuries, playoff races and rising pressure across multiple leagues.",
-                    "Coaching decisions, lineup movement and late-game execution are driving several major storylines.",
-                    "Standings swings and performance trends are beginning to reshape postseason expectations.",
-                    "League-wide momentum continues to shift as teams respond to injuries, pressure and schedule demands.",
-                  ]
-            }
-          />
+          <NewsroomBriefing items={liveBriefingItems} />
         </div>
       </header>
 
