@@ -147,3 +147,21 @@ main {
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+/* The newest original stays featured until another original is added. */
+.sports-thought-columns {
+  column-count: 1;
+  column-gap: 2rem;
+  column-fill: balance;
+  overflow-wrap: break-word;
+}
+.sports-thought-columns p {
+  margin-bottom: 1.25rem;
+  orphans: 3;
+  widows: 3;
+}
+@media (min-width: 640px) {
+  .sports-thought-columns { column-count: 2; }
+}
+@media (min-width: 1024px) {
+  .sports-thought-columns { column-count: 4; }
+}

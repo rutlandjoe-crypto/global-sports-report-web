@@ -51,7 +51,7 @@ export default async function SportsThoughtPage({ params }: Props) {
     <main className="min-h-screen bg-neutral-100 px-5 py-10 text-neutral-950">
       <article className="mx-auto max-w-3xl rounded-2xl border border-neutral-300 bg-white p-6 shadow-sm sm:p-10">
         <nav aria-label="Story navigation" className="mb-6 flex flex-wrap gap-5 text-sm font-bold text-red-700">
-          <Link href="/">Global Sports Report</Link><Link href={'/' + story.desk}>NFL Sports Desk</Link>
+          <Link href="/">Global Sports Report</Link><Link href={'/' + story.desk}>{story.desk === 'college-football' ? 'College Football Sports Desk' : 'NFL Sports Desk'}</Link>
         </nav>
         <p className="text-sm font-black uppercase tracking-wide text-red-700">GSR Sports Thoughts</p>
         <h1 className="mt-3 text-3xl font-black leading-tight sm:text-4xl">{story.title}</h1>

@@ -1368,7 +1368,7 @@ export default async function Page() {
         </div>
       </nav>
 
-      <div className="mx-auto max-w-7xl px-5 pt-6"><GsrSportsThoughts /></div>
+      <div className="mx-auto max-w-7xl px-5 pt-6"><GsrSportsThoughts featured /></div>
 
       <EditorialStandard />
 
