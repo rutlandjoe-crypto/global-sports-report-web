@@ -34,7 +34,7 @@ export function sportsAppReport(value: unknown, isFresh: FreshnessGuard, nowMs =
   const payload = object(value);
   const homepage = object(payload.homepage);
   const desks = object(payload.desks);
-  const candidates = [
+  const candidates: Item[] = [
     ...Object.entries(desks).flatMap(([deskId, raw]) => items(object(raw).stories).map((story) => ({ ...story, desk: text(story.desk) || deskId }))),
     ...items(homepage.stories),
     ...items([homepage.hero]),
