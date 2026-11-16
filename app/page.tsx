@@ -1,4 +1,5 @@
 import GsrSportsThoughts from "@/components/GsrSportsThoughts";
+import { gsrSportsThoughts, sportsThoughtUrl } from "@/lib/gsrSportsThoughts";
 import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
@@ -606,7 +607,7 @@ function homepageNewsScore(story: AnyObj, now = Date.now()): number {
   return score;
 }
 
-function isHomepageLeadStory(story: AnyObj): boolean {
+function isHomepageLeadStory(story: AnyObj, maxAgeHours = 6): boolean {
   if (!isPublishableStory(story) || !isSportsNewsStory(story)) return false;
   const title = publicText(story.source_headline || story.original_headline) || storyTitle(story, 0);
   const summary = storySummary(story);
@@ -615,7 +616,7 @@ function isHomepageLeadStory(story: AnyObj): boolean {
   if (/\b(?:season in review|season review|year in review|retrospective|offseason review)\b/i.test(title)) return false;
   const published = Date.parse(cleanText(story.published_at || story.publishedAt || story.updated_at));
   const ageHours = (Date.now() - published) / 3600000;
-  if (!Number.isFinite(published) || ageHours < -0.25 || ageHours > 6) return false;
+  if (!Number.isFinite(published) || ageHours < -0.25 || ageHours > maxAgeHours) return false;
   if (/\bscoreboard\b|\bschedule hub\b|—\s*(?:Final|FT)\b/i.test(title)) return false;
   if (/^Verified .+ (?:final|live) score/i.test(summary)) return false;
   try {
@@ -1043,28 +1044,23 @@ function LineList({ items }: { items: string[] }) {
   );
 }
 
-function NewsroomBriefing({ items }: { items: string[] }) {
-  const safe = cleanSignals(items);
+type BriefingItem = { title: string; url: string };
 
+function NewsroomBriefing({ items }: { items: BriefingItem[] }) {
   return (
     <div className="rounded-2xl border border-neutral-300 bg-white p-5 shadow-sm">
       <p className="mb-3 text-xs font-black uppercase tracking-wide text-red-700">
         Live Newsroom Briefing
       </p>
-
-      {safe.length ? (
-        <div className="space-y-2">
-          {safe.map((item, i) => (
-            <p key={i} className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800">
-              {item}
-            </p>
-          ))}
-        </div>
-      ) : (
-        <p className="text-sm leading-6 text-neutral-700">
-          Tracking the developments driving today’s sports conversation: injuries, playoff pressure, roster movement, performance trends and league-wide momentum shifts.
-        </p>
-      )}
+      <ul className="space-y-2">
+        {items.map(({ title, url }) => (
+          <li key={url} className="border-b border-neutral-100 pb-2 text-sm leading-6 text-neutral-800">
+            <Link href={url} className="hover:text-red-700 hover:underline">
+              {title}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
@@ -1212,7 +1208,7 @@ export default async function Page() {
   const rankedStories = [...deskStories, ...generatedStories, ...reportStories]
     .filter(isPublishableStory)
     .sort((a, b) => homepageNewsScore(b) - homepageNewsScore(a));
-  const reportHero = rankedStories.find(isHomepageLeadStory);
+  const reportHero = rankedStories.find((story) => isHomepageLeadStory(story));
   const seenStoryUrls = new Set<string>();
   const stories = rankedStories.filter((story) => {
     const url = storyUrl(story);
@@ -1274,9 +1270,27 @@ export default async function Page() {
   const proFootballStories = nflSidebarStories.length ? nflSidebarStories : getProFootballStories(report);
   const collegeFootballStories = collegeSidebarStories.length ? collegeSidebarStories : getCollegeFootballStories(report);
   const soccerStories = soccerSidebarStories.length ? soccerSidebarStories : getSoccerStories(report);
-  const liveBriefingItems = buildBriefingItems(
-    distinctBriefingStories(rankedStories.filter(isHomepageLeadStory), reportHero), [],
-  );
+  const freshBriefingStories = distinctBriefingStories(
+    rankedStories.filter((story) => isHomepageLeadStory(story)), reportHero,
+  ).slice(0, 6);
+  // The briefing must still carry a story when there is no second fresh headline.
+  const recentBriefingStory = freshBriefingStories.length || reportHero
+    ? undefined
+    : rankedStories.find((story) => isHomepageLeadStory(story, 24));
+  const fallbackBriefingStory = reportHero ?? recentBriefingStory;
+  const briefingStories = freshBriefingStories.length
+    ? freshBriefingStories
+    : fallbackBriefingStory ? [fallbackBriefingStory] : [];
+  const featuredColumn = gsrSportsThoughts[0];
+  const liveBriefingItems = briefingStories.length
+    ? briefingStories.map((story, index) => ({
+        title: `${storyLabel(story)}: ${storyTitle(story, index)}`,
+        url: storyUrl(story),
+      }))
+    : [{
+        title: `From the archive · GSR Sports Thoughts: ${featuredColumn.title}`,
+        url: sportsThoughtUrl(featuredColumn.slug),
+      }];
 
   const editorSignalItems = generatedStories.length
     ? buildBriefingItems(generatedStories.slice(3), [])
