@@ -1208,7 +1208,14 @@ export default async function Page() {
   const rankedStories = [...deskStories, ...generatedStories, ...reportStories]
     .filter(isPublishableStory)
     .sort((a, b) => homepageNewsScore(b) - homepageNewsScore(a));
-  const reportHero = rankedStories.find((story) => isHomepageLeadStory(story));
+  const freshHomepageStories = rankedStories.filter((story) => isHomepageLeadStory(story));
+  const recentHomepageStories = rankedStories
+    .filter((story) => isHomepageLeadStory(story, 24))
+    .sort((a, b) =>
+      Date.parse(cleanText(b.published_at || b.publishedAt || b.updated_at)) -
+      Date.parse(cleanText(a.published_at || a.publishedAt || a.updated_at)),
+    );
+  const reportHero = freshHomepageStories[0] ?? recentHomepageStories[0];
   const seenStoryUrls = new Set<string>();
   const stories = rankedStories.filter((story) => {
     const url = storyUrl(story);
@@ -1270,17 +1277,12 @@ export default async function Page() {
   const proFootballStories = nflSidebarStories.length ? nflSidebarStories : getProFootballStories(report);
   const collegeFootballStories = collegeSidebarStories.length ? collegeSidebarStories : getCollegeFootballStories(report);
   const soccerStories = soccerSidebarStories.length ? soccerSidebarStories : getSoccerStories(report);
-  const freshBriefingStories = distinctBriefingStories(
-    rankedStories.filter((story) => isHomepageLeadStory(story)), reportHero,
+  const additionalBriefingStories = distinctBriefingStories(
+    [...freshHomepageStories, ...recentHomepageStories], reportHero,
   ).slice(0, 6);
-  // The briefing must still carry a story when there is no second fresh headline.
-  const recentBriefingStory = freshBriefingStories.length || reportHero
-    ? undefined
-    : rankedStories.find((story) => isHomepageLeadStory(story, 24));
-  const fallbackBriefingStory = reportHero ?? recentBriefingStory;
-  const briefingStories = freshBriefingStories.length
-    ? freshBriefingStories
-    : fallbackBriefingStory ? [fallbackBriefingStory] : [];
+  const briefingStories = additionalBriefingStories.length
+    ? additionalBriefingStories
+    : reportHero ? [reportHero] : [];
   const featuredColumn = gsrSportsThoughts[0];
   const liveBriefingItems = briefingStories.length
     ? briefingStories.map((story, index) => ({
