@@ -21,8 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     authors: [{ name: story.author }],
     alternates: { canonical: url },
     openGraph: { type: 'article', title: story.title, description: story.paragraphs[0], url,
-      publishedTime: story.publishedAt, authors: [story.author], siteName: 'Global Sports Report' },
-    twitter: { card: 'summary', title: story.title, description: story.paragraphs[0] },
+      publishedTime: story.publishedAt, authors: [story.author], siteName: 'Global Sports Report',
+      ...(story.image ? { images: [story.image.src] } : {}) },
+    twitter: { card: story.image ? 'summary_large_image' : 'summary', title: story.title, description: story.paragraphs[0] },
   };
 }
 
@@ -46,6 +47,7 @@ export default async function SportsThoughtPage({ params }: Props) {
     publisher: { '@type': 'Organization', name: 'Global Sports Report', url: base },
     mainEntityOfPage: { '@type': 'WebPage', '@id': base + sportsThoughtUrl(story.slug) },
     articleSection: 'GSR Sports Thoughts', articleBody,
+    ...(story.image ? { image: story.image.src } : {}),
   };
   return (
     <main className="min-h-screen bg-neutral-100 px-5 py-10 text-neutral-950">
@@ -57,6 +59,12 @@ export default async function SportsThoughtPage({ params }: Props) {
         <h1 className="mt-3 text-3xl font-black leading-tight sm:text-4xl">{story.title}</h1>
         <p className="mt-4 font-bold">By {story.author}</p>
         <time className="mt-2 block text-sm text-neutral-600" dateTime={story.publishedAt}>{sportsThoughtDate(story.publishedAt)}</time>
+        {story.image ? (
+          <figure className="mt-8">
+            <img src={story.image.src} alt={story.image.alt} width={960} height={540} className="w-full rounded-xl bg-black object-contain" />
+            <figcaption className="mt-2 text-xs text-neutral-600">Official logo: <a href={story.image.creditUrl} className="underline underline-offset-2">{story.image.credit}</a></figcaption>
+          </figure>
+        ) : null}
         <div className="mt-8 space-y-5 text-base leading-8">
           {story.paragraphs.map((text, index) => <p key={index}>{paragraphContent(text)}</p>)}
         </div>
