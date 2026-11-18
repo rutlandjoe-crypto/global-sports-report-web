@@ -10,6 +10,7 @@ export const gsrSportsThoughts: GsrSportsThought[] = [
     "title": "CFP’s love of SEC schools squeezes out others",
     "author": "Joe Rutland",
     "desk": "college-football",
+    "image": {"src":"https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcollegefootballplayoff.sidearmsports.com%2Fimages%2F2026%2F4%2F13%2FLogo_for_Brand_Refresh.jpg&height=1100&type=webp","alt":"Official College Football Playoff logo on a black background","credit":"College Football Playoff","creditUrl":"https://collegefootballplayoff.com/news/2026/4/14/brand"},
     "publishedAt": "2026-11-18T18:03:05.347Z",
     "paragraphs": [
       "On Tuesday night, the College Football Playoff committee released its new set of ranking 25 schools in line to reach the playoff. The Southeastern Conference received a lot of love from these people, taking up nine spots there.",
@@ -38,7 +39,6 @@ export const gsrSportsThoughts: GsrSportsThought[] = [
   "title": "Texas is in danger of missing CFP this season",
   "author": "Joe Rutland",
   "desk": "college-football",
-  "image": {"src":"https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcollegefootballplayoff.sidearmsports.com%2Fimages%2F2026%2F4%2F13%2FLogo_for_Brand_Refresh.jpg&height=1100&type=webp","alt":"Official College Football Playoff logo on a black background","credit":"College Football Playoff","creditUrl":"https://collegefootballplayoff.com/news/2026/4/14/brand"},
   "publishedAt": "2026-10-17T21:58:54Z",
   "paragraphs": [
     "Entering the 2026 college football season, the Texas Longhorns talked a lot about coming out with a different culture and different attitude from last season. ",
