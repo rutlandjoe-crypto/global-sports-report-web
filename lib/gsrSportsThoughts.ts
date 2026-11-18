@@ -5,6 +5,34 @@ export type GsrSportsThought = {
 
 export const gsrSportsThoughts: GsrSportsThought[] = [
   {
+    "slug": "cfps-love-of-sec-schools-squeezes-out-others",
+    "title": "CFP’s love of SEC schools squeezes out others",
+    "author": "Joe Rutland",
+    "desk": "college-football",
+    "publishedAt": "2026-11-18T18:03:05.347Z",
+    "paragraphs": [
+      "On Tuesday night, the College Football Playoff committee released its new set of ranking 25 schools in line to reach the playoff. The Southeastern Conference received a lot of love from these people, taking up nine spots there.",
+      "The Georgia Bulldogs, who are rolling over opponents left and right, sit in the No. 1 spot, while the Alabama Crimson Tide are at No. 3. The Texas Longhorns are at No. 5, with the Tennessee Volunteers holding down the No. 9 position.",
+      "Other SEC teams in the CFP Top 25 include the Kentucky Wildcats (No. 16), the South Carolina Gamecocks (No. 21), the Oklahoma Sooners (No. 22), the Florida Gators (No. 24), and the Ole Miss Rebels (No. 25).",
+      "That marks nine SEC schools here as the CFP committee showed them a whole lot of love.",
+      "Boise State is the lone Group of 6 school in the top 25 here, too.",
+      "Of course, the SEC is one of the most competitive college football conferences out there.",
+      "Yet let’s take a step back and look at the bigger picture.",
+      "ESPN, which has a stake in the CFP (a big one, no less), also has a huge contract to show SEC football games throughout the season.",
+      "It seems to me that the CFP is slanted toward those ESPN-SEC connections.",
+      "Shouldn’t the CFP reflect the entire college football world at a Division I level? Why weren’t other schools even given an opportunity to be included here?",
+      "I am not saying there are shenanigans involved with the CFP, although raising an eyebrow about all of this is worth it.",
+      "But the college football world is bigger than the SEC. The Big Ten, Big 12, Atlantic Coast Conference, and other conferences have stellar teams as well.",
+      "Ignoring those other schools leaves the CFP committee open to scrutiny.",
+      "They should be scrutinized all the time for their decisions.",
+      "Besides getting into the playoff at the end of a season, there are major dollars on the line in this matter as well.",
+      "I’d suggest the CFP broaden their view of the college football landscape.",
+      "Yet, honestly, that’s not going to happen. Spare me the words of the CFP committee chairman or spokesperson on this.",
+      "The results of any type of CFP change lies in the voting.",
+      "Do better, CFP."
+    ]
+  },
+  {
   "slug": "texas-is-in-danger-of-missing-cfp-this-season",
   "title": "Texas is in danger of missing CFP this season",
   "author": "Joe Rutland",
