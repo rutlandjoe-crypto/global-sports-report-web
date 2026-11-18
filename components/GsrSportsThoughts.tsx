@@ -22,6 +22,12 @@ export default function GsrSportsThoughts({ desk, featured = false }: { desk?: s
           <h3 id="featured-sports-thought-title" className="text-3xl font-black leading-tight sm:text-4xl lg:text-5xl"><Link className="hover:text-red-700 hover:underline" href={sportsThoughtUrl(lead.slug)}>{lead.title}</Link></h3>
           <p className="mt-4 text-sm font-bold text-neutral-800">By {lead.author}</p>
           <time className="mt-1 block text-xs text-neutral-600" dateTime={lead.publishedAt}>{sportsThoughtDate(lead.publishedAt)}</time>
+          {lead.image ? (
+            <figure className="mt-6">
+              <img src={lead.image.src} alt={lead.image.alt} width={960} height={540} className="w-full max-w-2xl rounded-xl bg-black object-contain" />
+              <figcaption className="mt-2 text-xs text-neutral-600">Official logo: <a href={lead.image.creditUrl} className="underline underline-offset-2">{lead.image.credit}</a></figcaption>
+            </figure>
+          ) : null}
           <div className="sports-thought-columns mt-6 text-base leading-7 text-neutral-800">
             {lead.paragraphs.map((text, index) => <p key={index}>{paragraphContent(text)}</p>)}
           </div>
