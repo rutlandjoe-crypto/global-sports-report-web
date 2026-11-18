@@ -1,6 +1,7 @@
 export type GsrSportsThought = {
   slug: string; title: string; author: string; desk: string;
   publishedAt: string; paragraphs: string[];
+  image?: { src: string; alt: string; credit: string; creditUrl: string };
 };
 
 export const gsrSportsThoughts: GsrSportsThought[] = [
@@ -37,6 +38,7 @@ export const gsrSportsThoughts: GsrSportsThought[] = [
   "title": "Texas is in danger of missing CFP this season",
   "author": "Joe Rutland",
   "desk": "college-football",
+  "image": {"src":"https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcollegefootballplayoff.sidearmsports.com%2Fimages%2F2026%2F4%2F13%2FLogo_for_Brand_Refresh.jpg&height=1100&type=webp","alt":"Official College Football Playoff logo on a black background","credit":"College Football Playoff","creditUrl":"https://collegefootballplayoff.com/news/2026/4/14/brand"},
   "publishedAt": "2026-10-17T21:58:54Z",
   "paragraphs": [
     "Entering the 2026 college football season, the Texas Longhorns talked a lot about coming out with a different culture and different attitude from last season. ",
