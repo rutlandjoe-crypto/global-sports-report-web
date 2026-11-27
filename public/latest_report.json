@@ -5,14 +5,14 @@
     "MLB context: MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text.",
     "NBA context: - With scheduled games still on the board, matchup context, team records, and late-season positioning offer the clearest entry points for pregame coverage.",
     "NHL context: This NHL matchup matters because the schedule can create pressure before the first whistle or first pitch. The key is whether recent form, rest, and matchup style point in the same direction.",
-    "NFL context: This NFL result matters beyond the score because it offers a read on division leverage. The next layer for reporters is whether the performance reflects a sustainable trend or a one-game correction.",
+    "NFL context: This NFL result matters beyond the score because it offers a read on quarterback stability. The next layer for reporters is whether the performance reflects a sustainable trend or a one-game correction.",
     "College Football context: This College Football matchup matters because the schedule can create pressure before the first whistle or first pitch. The key is whether recent form, rest, and matchup style point in the same direction.",
-    "Soccer context: This Soccer result matters beyond the score because it offers a read on goal differential. The next layer for reporters is whether the performance reflects a sustainable trend or a one-game correction."
+    "Soccer context: This Soccer matchup matters because the schedule can create pressure before the first whistle or first pitch. The key is whether recent form, rest, and matchup style point in the same direction."
   ],
   "snapshot": "MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text.",
-  "generated_at": "2026-11-26 02:28:47 PM ET",
-  "updated_at": "2026-11-26 02:28:47 PM ET",
-  "published_at": "2026-11-26 02:28:47 PM ET",
+  "generated_at": "2026-11-26 07:21:19 PM ET",
+  "updated_at": "2026-11-26 07:21:19 PM ET",
+  "published_at": "2026-11-26 07:21:19 PM ET",
   "disclaimer": "This report is an automated summary intended to support, not replace, human sports journalism.",
   "x_handle": "@GlobalSportsRp",
   "substack_url": "https://globalsportsreport.substack.com/",
@@ -20,13 +20,13 @@
     "mlb": {
       "title": "GLOBAL SPORTS REPORT - MLB",
       "source_file": "mlb_report.txt",
-      "updated_at": "2026-11-26 02:28:14 PM ET",
-      "content": "GLOBAL SPORTS REPORT - MLB UPDATED: 2026-11-26 02:28:14 PM ET HEADLINE MLB Schedule Quiet as Global Sports Report Monitors Next Update Window SNAPSHOT MLB update: No active scoreboard items were available from the public feed at generation time. KEY STORYLINES - No MLB games were available from the public scoreboard feed at generation time. FINAL SCORES - No final scores available yet. TODAY LIVE - No live MLB games at generation time. TODAY SCHEDULE - No upcoming MLB games found for today. STATCAST WATCH - MLB ADVANCED REPORT | 2026-04-24 - - Framber Valdez is set to start for Detroit Tigers versus Cincinnati Reds at 6:40 PM ET, and his recent Statcast sample covers 446 pitches, giving this matchup a measurable pitching signal to watch. - - Andrew Abbott is set to start for Cincinnati Reds versus Detroit Tigers at 6:40 PM ET, and his recent Statcast sample covers 430 pitches, giving this matchup a measurable pitching signal to watch. - - Brayan Bello gets the ball for Boston Red Sox against Baltimore Orioles at 7:05 PM ET and has produced a 31.7% whiff rate on swings, making him one of the stronger Statcast pitching signals on tonight's board. - MATCHUP FLAGS - - Detroit Tigers at Cincinnati Reds (6:40 PM ET) features a listed starters matchup of Framber Valdez vs. Andrew Abbott, giving the game a strong pregame pitching frame. - - Boston Red Sox at Baltimore Orioles (7:05 PM ET) draws attention with Brayan Bello lined up against Brandon Young, making starting pitching the clearest early storyline. - - Cleveland Guardians at Toronto Blue Jays (7:07 PM ET) stands out behind a probable starters matchup of Gavin Williams and Max Scherzer. WHY IT MATTERS MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text. SOURCE NOTE ESPN public scoreboard feed with local advanced-note fallback. Sportradar token detection is included for authenticated integrations.",
+      "updated_at": "2026-11-26 07:20:46 PM ET",
+      "content": "GLOBAL SPORTS REPORT - MLB UPDATED: 2026-11-26 07:20:46 PM ET HEADLINE MLB Schedule Quiet as Global Sports Report Monitors Next Update Window SNAPSHOT MLB update: No active scoreboard items were available from the public feed at generation time. KEY STORYLINES - No MLB games were available from the public scoreboard feed at generation time. FINAL SCORES - No final scores available yet. TODAY LIVE - No live MLB games at generation time. TODAY SCHEDULE - No upcoming MLB games found for today. STATCAST WATCH - MLB ADVANCED REPORT | 2026-04-24 - - Framber Valdez is set to start for Detroit Tigers versus Cincinnati Reds at 6:40 PM ET, and his recent Statcast sample covers 446 pitches, giving this matchup a measurable pitching signal to watch. - - Andrew Abbott is set to start for Cincinnati Reds versus Detroit Tigers at 6:40 PM ET, and his recent Statcast sample covers 430 pitches, giving this matchup a measurable pitching signal to watch. - - Brayan Bello gets the ball for Boston Red Sox against Baltimore Orioles at 7:05 PM ET and has produced a 31.7% whiff rate on swings, making him one of the stronger Statcast pitching signals on tonight's board. - MATCHUP FLAGS - - Detroit Tigers at Cincinnati Reds (6:40 PM ET) features a listed starters matchup of Framber Valdez vs. Andrew Abbott, giving the game a strong pregame pitching frame. - - Boston Red Sox at Baltimore Orioles (7:05 PM ET) draws attention with Brayan Bello lined up against Brandon Young, making starting pitching the clearest early storyline. - - Cleveland Guardians at Toronto Blue Jays (7:07 PM ET) stands out behind a probable starters matchup of Gavin Williams and Max Scherzer. WHY IT MATTERS MLB coverage should separate final scores, live games, upcoming matchups and analytics notes so journalists can scan the card quickly without blob text. SOURCE NOTE ESPN public scoreboard feed with local advanced-note fallback. Sportradar token detection is included for authenticated integrations.",
       "editorial_brain_version": "sports-editorial-brain-v3",
       "advanced": {
         "title": "MLB ADVANCED REPORT | 2026-11-26",
         "source_file": "mlb_advanced_report.txt",
-        "updated_at": "2026-11-26 02:28:47 PM ET",
+        "updated_at": "2026-11-26 07:21:19 PM ET",
         "sections": {
           "statcast_watch": [
             "- No probable - pitcher signals were available during this report window."
@@ -44,7 +44,7 @@
       "headline": "GLOBAL SPORTS REPORT - MLB",
       "key_data": [
         "League: MLB",
-        "Teams: Red Sox, Blue Jays, Guardians, Tigers",
+        "Teams: Tigers, Guardians, Reds, Blue Jays",
         "Score / status: Final",
         "Game time / date: 2026-11-26",
         "Players / people: Schedule Quiet, Global Sports Report, Monitors Next Update, Framber Valdez",
@@ -60,13 +60,13 @@
     "nba": {
       "title": "Miami Heat-Knicks Sets Up Next NBA Read",
       "source_file": "nba_report.txt",
-      "updated_at": "2026-11-26 02:28:15 PM ET",
-      "content": "NBA PRO REPORT | 2026-11-26 HEADLINE Miami Heat-Knicks Sets Up Next NBA Read SNAPSHOT The NBA slate currently shows 11 upcoming games. KEY DATA POINTS - The NBA board features 11 total games in this report window. - 11 games remain ahead on the schedule, keeping the editorial focus on matchup framing and board positioning. - Miami Heat enters at 10-7, while New York Knicks comes in at 12-6. - Milwaukee Bucks enters at 2-17, while Detroit Pistons comes in at 11-6. - ESPN's base NBA scoreboard feed was used for this report window after the dated endpoint rejected the requested date. WHY IT MATTERS - With scheduled games still on the board, matchup context, team records, and late-season positioning offer the clearest entry points for pregame coverage. STORY ANGLES - Los Angeles Lakers at San Antonio Spurs (9:30 PM ET) stands out as one of the stronger board matchups by record profile. - Memphis Grizzlies at Minnesota Timberwolves (8:30 PM ET) stands out as one of the stronger board matchups by record profile. - Where the board mixes finals, live action, and upcoming games, the strongest NBA coverage can shift quickly from recap writing to real-time reaction and then back to pregame framing. - Late-day NBA windows are especially useful for newsletters, aggregation, and digital desk planning because lineup news and seeding context can quickly change story value. FINAL SCORES No final scores were available during this report window. LIVE No live games were available during this report window. UPCOMING Miami Heat at New York Knicks - 7:00 PM ET. Milwaukee Bucks at Detroit Pistons - 7:30 PM ET. Philadelphia 76ers at Indiana Pacers - 7:30 PM ET. Brooklyn Nets at Toronto Raptors - 7:30 PM ET. Atlanta Hawks at Boston Celtics - 8:00 PM ET. Memphis Grizzlies at Minnesota Timberwolves - 8:30 PM ET. Dallas Mavericks at Phoenix Suns - 9:00 PM ET. Los Angeles Lakers at San Antonio Spurs - 9:30 PM ET. Denver Nuggets at Utah Jazz - 9:30 PM ET. New Orleans Pelicans at LA Clippers - 9:30 PM ET. Golden State Warriors at Portland Trail Blazers - 9:30 PM ET. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 02:28:15 PM ET",
+      "updated_at": "2026-11-26 07:20:47 PM ET",
+      "content": "NBA PRO REPORT | 2026-11-26 HEADLINE Miami Heat-Knicks Sets Up Next NBA Read SNAPSHOT The NBA slate currently shows 11 upcoming games. KEY DATA POINTS - The NBA board features 11 total games in this report window. - 11 games remain ahead on the schedule, keeping the editorial focus on matchup framing and board positioning. - Miami Heat enters at 10-7, while New York Knicks comes in at 12-6. - Milwaukee Bucks enters at 2-17, while Detroit Pistons comes in at 11-6. - ESPN's base NBA scoreboard feed was used for this report window after the dated endpoint rejected the requested date. WHY IT MATTERS - With scheduled games still on the board, matchup context, team records, and late-season positioning offer the clearest entry points for pregame coverage. STORY ANGLES - Los Angeles Lakers at San Antonio Spurs (9:30 PM ET) stands out as one of the stronger board matchups by record profile. - Memphis Grizzlies at Minnesota Timberwolves (8:30 PM ET) stands out as one of the stronger board matchups by record profile. - Where the board mixes finals, live action, and upcoming games, the strongest NBA coverage can shift quickly from recap writing to real-time reaction and then back to pregame framing. - Late-day NBA windows are especially useful for newsletters, aggregation, and digital desk planning because lineup news and seeding context can quickly change story value. FINAL SCORES No final scores were available during this report window. LIVE No live games were available during this report window. UPCOMING Miami Heat at New York Knicks - 7:00 PM ET. Milwaukee Bucks at Detroit Pistons - 7:30 PM ET. Philadelphia 76ers at Indiana Pacers - 7:30 PM ET. Brooklyn Nets at Toronto Raptors - 7:30 PM ET. Atlanta Hawks at Boston Celtics - 8:00 PM ET. Memphis Grizzlies at Minnesota Timberwolves - 8:30 PM ET. Dallas Mavericks at Phoenix Suns - 9:00 PM ET. Los Angeles Lakers at San Antonio Spurs - 9:30 PM ET. Denver Nuggets at Utah Jazz - 9:30 PM ET. New Orleans Pelicans at LA Clippers - 9:30 PM ET. Golden State Warriors at Portland Trail Blazers - 9:30 PM ET. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 07:20:47 PM ET",
       "editorial_brain_version": "sports-editorial-brain-v3",
       "advanced": {
         "title": "NBA ADVANCED REPORT | 2026-11-26",
         "source_file": "nba_advanced_report.txt",
-        "updated_at": "2026-11-26 02:28:47 PM ET",
+        "updated_at": "2026-11-26 07:21:19 PM ET",
         "sections": {
           "headline": [
             "The NBA advanced analytics layer did not return usable game or league data in this report window."
@@ -90,7 +90,7 @@
       "headline": "Miami Heat-Knicks Sets Up Next NBA Read",
       "key_data": [
         "League: NBA",
-        "Teams: Celtics, Hawks, Timberwolves, Warriors",
+        "Teams: Celtics, Pistons, Nuggets, Lakers",
         "Score / status: Upcoming",
         "Game time / date: 2026-11-26",
         "Players / people: Miami Heat, Knicks Sets Up, New York Knicks, Milwaukee Bucks",
@@ -106,8 +106,8 @@
     "nhl": {
       "title": "NHL Schedule Stays Quiet",
       "source_file": "nhl_report.txt",
-      "updated_at": "2026-11-26 02:28:45 PM ET",
-      "content": "NHL REPORT | 2026-11-26 SNAPSHOT The NHL slate currently shows 0 final, 0 live, and 0 upcoming games. FINAL SCORES No final scores were available during this report window. LIVE No live games were available during this report window. UPCOMING No upcoming games were available during this report window. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 02:28:45 PM ET HEADLINE NHL Schedule Stays Quiet WHY IT MATTERS This NHL matchup matters because the schedule can create pressure before the first whistle or first pitch. The key is whether recent form, rest, and matchup style point in the same direction. WATCH LIST Watch whether the goaltending trend holds; that detail may become the next meaningful NHL storyline if the trend continues.",
+      "updated_at": "2026-11-26 07:21:18 PM ET",
+      "content": "NHL REPORT | 2026-11-26 SNAPSHOT The NHL slate currently shows 0 final, 0 live, and 0 upcoming games. FINAL SCORES No final scores were available during this report window. LIVE No live games were available during this report window. UPCOMING No upcoming games were available during this report window. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 07:21:18 PM ET HEADLINE NHL Schedule Stays Quiet WHY IT MATTERS This NHL matchup matters because the schedule can create pressure before the first whistle or first pitch. The key is whether recent form, rest, and matchup style point in the same direction. WATCH LIST Watch whether the goaltending trend holds; that detail may become the next meaningful NHL storyline if the trend continues.",
       "editorial_brain_version": "sports-editorial-brain-v3",
       "key": "nhl",
       "headline": "NHL Schedule Stays Quiet",
@@ -126,21 +126,21 @@
       ]
     },
     "nfl": {
-      "title": "Eagles-Cowboys Sets Up Next NFL Read",
+      "title": "Lions Beat Bears",
       "source_file": "nfl_report.txt",
-      "updated_at": "2026-11-26 02:28:45 PM ET",
-      "content": "NFL REPORT | 2026-11-26 SNAPSHOT The NFL slate currently shows 0 final, 1 live, and 2 upcoming games. FINAL SCORES No final scores were available during this report window. LIVE - Chicago Bears 10, Detroit Lions 12 - 0:53 - 2 nd. UPCOMING - Philadelphia Eagles at Dallas Cowboys - 11/26 - 4:30 PM EST. Philadelphia Eagles enters at 3-7, while Dallas Cowboys comes in at 5-6. - Kansas City Chiefs at Buffalo Bills - 11/26 - 8:20 PM EST. Kansas City Chiefs enters at 8-2, while Buffalo Bills comes in at 9-1. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 02:28:45 PM ET HEADLINE Eagles-Cowboys Sets Up Next NFL Read WHY IT MATTERS This NFL result matters beyond the score because it offers a read on division leverage. The next layer for reporters is whether the performance reflects a sustainable trend or a one-game correction. WATCH LIST Watch how injuries affect roster flexibility; that detail may become the next meaningful NFL storyline if the trend continues.",
+      "updated_at": "2026-11-26 07:21:18 PM ET",
+      "content": "NFL REPORT | 2026-11-26 SNAPSHOT The NFL slate currently shows 1 final, 1 live, and 1 upcoming games. FINAL SCORES - Detroit Lions beat Chicago Bears, 35-39. LIVE - Philadelphia Eagles 17, Dallas Cowboys 31 - 0:15 - 3 rd. UPCOMING - Kansas City Chiefs at Buffalo Bills - 11/26 - 8:20 PM EST. Kansas City Chiefs enters at 8-2, while Buffalo Bills comes in at 9-1. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 07:21:18 PM ET HEADLINE Lions Beat Bears WHY IT MATTERS This NFL result matters beyond the score because it offers a read on quarterback stability. The next layer for reporters is whether the performance reflects a sustainable trend or a one-game correction. WATCH LIST Watch whether quarterback play changes the weekly ceiling; that detail may become the next meaningful NFL storyline if the trend continues.",
       "editorial_brain_version": "sports-editorial-brain-v3",
       "advanced": {
         "title": "NFL ADVANCED REPORT | 2026-11-26",
         "source_file": "nfl_advanced_report.txt",
-        "updated_at": "2026-11-26 02:28:47 PM ET",
+        "updated_at": "2026-11-26 07:21:19 PM ET",
         "sections": {
           "headline": [
             "The NFL board is best framed through EPA, passing efficiency, rushing efficiency, and draft-position leverage as team-building signals sharpen."
           ],
           "snapshot": [
-            "The NFL advanced layer is leaning on 2026 team efficiency context, 2026 draft signals, and 4 upcoming line(s) from the standard NFL report."
+            "The NFL advanced layer is leaning on 2026 team efficiency context, 2026 draft signals, and 3 upcoming line(s) from the standard NFL report."
           ],
           "key_data_points": [
             "- The NFL advanced layer is anchored to 2026 regular-season team efficiency data and 2026 draft-pick structure.",
@@ -149,7 +149,6 @@
             "- Miami Dolphins currently holds 13 pick(s) in the 2026 draft file, giving that front office added flexibility."
           ],
           "matchup_flags": [
-            "- Dallas Cowboys vs. Philadelphia Eagles can be framed through last season's efficiency profile, with Dallas Cowboys holding the stronger overall EPA/play mark and Dallas Cowboys showing the better pass-game efficiency signal.",
             "- Buffalo Bills vs. Kansas City Chiefs can be framed through last season's efficiency profile, with Buffalo Bills holding the stronger overall EPA/play mark and Kansas City Chiefs showing the better pass-game efficiency signal.",
             "TEAM EFFICIENCY WATCH",
             "- San Francisco 49ers checked in at 0.221 EPA per play.",
@@ -157,7 +156,7 @@
             "- Dallas Cowboys checked in at 0.138 EPA per play.",
             "- San Francisco 49ers generated 0.342 pass EPA per play.",
             "- Cincinnati Bengals generated 0.265 pass EPA per play.",
-            "- Detroit Lions generated 0.232 pass EPA per play.",
+            "- Jacksonville Jaguars generated 0.219 pass EPA per play.",
             "- San Francisco 49ers turned in 0.098 rush EPA per play.",
             "- Buffalo Bills turned in 0.094 rush EPA per play.",
             "- Dallas Cowboys turned in 0.070 rush EPA per play.",
@@ -185,20 +184,20 @@
         }
       },
       "key": "nfl",
-      "headline": "Eagles-Cowboys Sets Up Next NFL Read",
+      "headline": "Lions Beat Bears",
       "key_data": [
         "League: NFL",
-        "Teams: Bears, Eagles, Chiefs, Lions",
-        "Score / status: Final",
+        "Teams: Chiefs, Lions, Eagles, Bears",
+        "Score / status: Detroit Lions beat Chicago Bears, 35-39",
         "Game time / date: 2026-11-26",
-        "Players / people: Cowboys Sets Up, Chicago Bears, Detroit Lions, Philadelphia Eagles",
+        "Players / people: Lions Beat Bears, Detroit Lions, Chicago Bears, Philadelphia Eagles",
         "Source: nfl_report.txt"
       ],
       "why_it_matters": [
-        "The verified Cowboys Sets Up result provides current performance and competition context for the next matchup."
+        "The verified Lions Beat Bears result provides current performance and competition context for the next matchup."
       ],
       "what_to_watch": [
-        "Watch the cited source for the next confirmed Cowboys Sets Up development and documented competitive consequence."
+        "Watch the cited source for the next confirmed Lions Beat Bears development and documented competitive consequence."
       ]
     },
     "ncaafb": {
@@ -224,39 +223,39 @@
       ]
     },
     "soccer": {
-      "title": "Real Sociedad-Crystal Palace Sets Up Next Soccer Read",
+      "title": "Guadalajara-Pachuca Sets Up Next Soccer Read",
       "source_file": "soccer_report.txt",
-      "updated_at": "2026-11-26 02:28:46 PM ET",
-      "content": "SOCCER REPORT | 2026-11-26 SNAPSHOT The soccer slate currently shows 18 final, 17 live, and 24 upcoming matches. FINAL SCORES - Kairat Almaty 1, Mjällby AIF 0. - Al Fateh 1, Al Riyadh 0. - Abha 0, Al Shabab 1. - Al Faisaly 2, Al Diriyah 2. - Gangwon FC 3, Kitchee SC 2. - Kuching City 3, Phnom Penh Crown FC 0. - Tampines Rovers FC 1, Shanghai Shenhua FC 7. - BG Pathum United 0, Lion City Sailors FC 3. - PKR Svay Rieng 2, Machida Zelvia 0. - Tai Po FC 1, Adelaide United FC 7. LIVE - Hapoel Be'er 0, Besiktas 0 - 50'. - AFC Bournemouth 2, Celta Vigo 1 - 84'. - Bayer Leverkusen 2, Dinamo Zagreb 0 - 85'. - Levski Sofia 0, Marseille 1 - 84'. - AC Milan 3, Olympiacos 2 - 85'. - Ararat-Armenia 0, RB Salzburg 2 - 86'. - Lech Poznan 2, Union St.-Gilloise 2 - 84'. - Benfica 0, Viktoria Plzen 4 - 85'. - FC Thun 0, Ajax Amsterdam 3 - 83'. - CSU Craiova 0, Brighton & Hove Albion 4 - 82'. UPCOMING - Real Sociedad at Crystal Palace - Scheduled. Real Sociedad enters at 1-2-1, while Crystal Palace comes in at 1-2-1. - NK Celje at Ferencvaros - Scheduled. NK Celje enters at 1-1-2, while Ferencvaros comes in at 4-0-0. - Omonia Nicosia at Juventus - Scheduled. Omonia Nicosia enters at 2-0-2, while Juventus comes in at 3-1-0. - Lillestrom at Lyon - Scheduled. Lillestrom enters at 0-1-3, while Lyon comes in at 2-1-1. - Stade Rennais at NEC Nijmegen - Scheduled. Stade Rennais enters at 1-3-0, while NEC Nijmegen comes in at 2-1-1. - Anderlecht at OFI Crete - Scheduled. Anderlecht enters at 2-0-2, while OFI Crete comes in at 2-0-2. - AZ Alkmaar at Sparta Prague - Scheduled. AZ Alkmaar enters at 2-0-2, while Sparta Prague comes in at 1-1-2. - Jagiellonia Bialystok at Sunderland - Scheduled. Jagiellonia Bialystok enters at 1-0-3, while Sunderland comes in at 2-1-1. - Celtic at Torreense - Scheduled. Celtic enters at 1-0-3, while Torreense comes in at 2-0-2. - SK Sturm Graz at TSG Hoffenheim - Scheduled. SK Sturm Graz enters at 1-1-2, while TSG Hoffenheim comes in at 1-1-2. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 02:28:46 PM ET HEADLINE Real Sociedad-Crystal Palace Sets Up Next Soccer Read WHY IT MATTERS This Soccer result matters beyond the score because it offers a read on goal differential. The next layer for reporters is whether the performance reflects a sustainable trend or a one-game correction. WATCH LIST Watch how the result affects table pressure; that detail may become the next meaningful Soccer storyline if the trend continues.",
+      "updated_at": "2026-11-26 07:21:19 PM ET",
+      "content": "SOCCER REPORT | 2026-11-26 SNAPSHOT The soccer slate currently shows 55 final, 1 live, and 3 upcoming matches. FINAL SCORES - Besiktas 2, Hapoel Be'er 1. - Celta Vigo 1, AFC Bournemouth 2. - Dinamo Zagreb 0, Bayer Leverkusen 2. - Marseille 1, Levski Sofia 0. - Olympiacos 2, AC Milan 4. - RB Salzburg 2, Ararat-Armenia 0. - Union St.-Gilloise 2, Lech Poznan 2. - Viktoria Plzen 4, Benfica 0. - Crystal Palace 2, Real Sociedad 1. - Ferencvaros 0, NK Celje 0. LIVE - Remo 1, São Paulo 1 - 57'. UPCOMING - Guadalajara at Pachuca - Scheduled. - Cruz Azul at León - Scheduled. - SJK-J at FC Ilves - Scheduled. This report is an automated summary intended to support, not replace, human sports journalism. Generated: 2026-11-26 07:21:19 PM ET HEADLINE Guadalajara-Pachuca Sets Up Next Soccer Read WHY IT MATTERS This Soccer matchup matters because the schedule can create pressure before the first whistle or first pitch. The key is whether recent form, rest, and matchup style point in the same direction. WATCH LIST Watch whether chance creation translates into goals; that detail may become the next meaningful Soccer storyline if the trend continues.",
       "editorial_brain_version": "sports-editorial-brain-v3",
       "key": "soccer",
-      "headline": "Real Sociedad-Crystal Palace Sets Up Next Soccer Read",
+      "headline": "Guadalajara-Pachuca Sets Up Next Soccer Read",
       "key_data": [
         "League: Soccer",
-        "Teams: Real Sociedad, Crystal Palace",
+        "Teams: Guadalajara, Pachuca",
         "Score / status: Final",
         "Game time / date: 2026-11-26",
-        "Players / people: Real Sociedad, Crystal Palace Sets, Up Next Soccer, Kairat Almaty",
+        "Players / people: Pachuca Sets Up, Next Soccer Read, Hapoel Be, Celta Vigo",
         "Source: soccer_report.txt"
       ],
       "why_it_matters": [
-        "The Real Sociedad development carries race, seeding or table context documented in the source report."
+        "The verified Pachuca Sets Up result provides current performance and competition context for the next matchup."
       ],
       "what_to_watch": [
-        "Watch the next verified Real Sociedad result and updated standings before extending the race conclusion."
+        "Watch the cited source for the next confirmed Pachuca Sets Up development and documented competitive consequence."
       ]
     },
     "betting_odds": {
       "title": "BETTING ODDS REPORT | 2026-11-26",
       "source_file": "betting_odds_report.txt",
-      "updated_at": "2026-11-26 02:28:47 PM ET",
-      "content": "BETTING ODDS REPORT | 2026-11-26\n\nAcross the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.\n\nGLOBAL SNAPSHOT\nLimited betting data was available during this report window.\n\nNBA\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nMLB\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nNHL\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nNFL\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nBETTING MARKET NOTE\nThis report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.\nGenerated: 2026-11-26 02:28:47 PM ET\n\nHEADLINE\nBetting_odds Board Turns on Results and Matchups\n\nWHY IT MATTERS\nThe market note matters because it gives reporters a cleaner read on line value, not just the listed price. The useful angle is whether the number reflects real team context, injury information, rest, matchup pressure, or public perception.\n\nWATCH LIST\nWatch whether the market is reacting to confirmed information or perception; that is where the betting board can become a reporting signal instead of just a price list.",
+      "updated_at": "2026-11-26 07:21:19 PM ET",
+      "content": "BETTING ODDS REPORT | 2026-11-26\n\nAcross the betting landscape, attention turns to the board, where moneylines, spreads, and totals help frame the day's market outlook.\n\nGLOBAL SNAPSHOT\nLimited betting data was available during this report window.\n\nNBA\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nMLB\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nNHL\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nNFL\nCould not load odds: HTTP 401: {\"message\":\"API key is deactivated. This could be due to cancelation or a failed payment\",\"error_code\":\"DEACTIVATED_KEY\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#deactivated-key\"}\n\nBETTING MARKET NOTE\nThis report reflects publicly available odds data at the time of generation. Lines may move and can vary across sportsbooks.\n\nThis report is an automated summary intended to support, not replace, human sports journalism.\nGenerated: 2026-11-26 07:21:19 PM ET\n\nHEADLINE\nBetting_odds Board Turns on Results and Matchups\n\nWHY IT MATTERS\nThe market note matters because it gives reporters a cleaner read on line value, not just the listed price. The useful angle is whether the number reflects real team context, injury information, rest, matchup pressure, or public perception.\n\nWATCH LIST\nWatch whether the market is reacting to confirmed information or perception; that is where the betting board can become a reporting signal instead of just a price list.",
       "editorial_brain_version": "sports-editorial-brain-v3"
     },
     "fantasy": {
       "title": "Fantasy Board Waits on Injury News",
       "source_file": "fantasy_report.txt",
-      "updated_at": "2026-11-26 02:28:47 PM ET",
+      "updated_at": "2026-11-26 07:21:19 PM ET",
       "content": "FANTASY REPORT | 2026-04-15 Across the fantasy landscape, usable data was unavailable during this report window. SNAPSHOT No fantasy updates were available at this time. FALLBACK NOTE Fantasy automation used a fallback report because: source script timed out after 60 seconds This report is an automated summary intended to support, not replace, human sports journalism. HEADLINE Fantasy Board Waits on Injury News",
       "editorial_brain_version": "sports-editorial-brain-v3",
       "key": "fantasy",
